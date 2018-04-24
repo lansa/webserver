@@ -255,23 +255,22 @@ try {
     throw
 } finally {
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
-    New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 0 -PropertyType DWORD -Force | Out-Null
-
-    Write-Output ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")
-    $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
-    if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {
-        Write-Output ("$(Log-Date) $VLWebDatFile does not exist. Presuming 64-bit vl install")    
-        $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
-    }
-    Write-Output ("$(Log-Date) Using $VLWebDatFile")
-
-    $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
     Write-Output ("$(Log-Date) Encoded Path $EncodedPath")
+
+    New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 0 -PropertyType DWORD -Force | Out-Null
+    
     $IIsReset = (Get-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'PluginFullyInstalled' -ErrorAction SilentlyContinue).PluginFullyInstalled
     if ( $IIsReset -eq 1) {
         Write-Output ("$(Log-Date) iisreset alweays required")
         iisreset
     } else {
+        Write-Output ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")
+        $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
+        if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {
+            Write-Output ("$(Log-Date) $VLWebDatFile does not exist. Presuming 64-bit vl install")    
+            $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
+        }
+        Write-Output ("$(Log-Date) Using $VLWebDatFile")
         if ( (Test-Path $VLWebDatFile -PathType Leaf)) {
             $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
 

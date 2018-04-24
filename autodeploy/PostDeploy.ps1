@@ -265,20 +265,28 @@ try {
     }
     Write-Output ("$(Log-Date) Using $VLWebDatFile")
 
-    if ( (Test-Path $VLWebDatFile -PathType Leaf)) {
-        $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
+    $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
+    Write-Output ("$(Log-Date) Encoded Path $EncodedPath")
+    $IIsReset = (Get-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'PluginFullyInstalled' -ErrorAction SilentlyContinue).PluginFullyInstalled
+    if ( $IIsReset -eq 1) {
+        Write-Output ("$(Log-Date) iisreset alweays required")
+        iisreset
+    } else {
+        if ( (Test-Path $VLWebDatFile -PathType Leaf)) {
+            $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
 
-        if ( (Test-Path $TargetVLWebDatFile -PathType Leaf)) {
-            if ( (Get-FileHash $VLWebDatFile).hash  -ne (Get-FileHash $TargetVLWebDatFile).hash) {
-                Write-Output ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
-                iisreset
+            if ( (Test-Path $TargetVLWebDatFile -PathType Leaf)) {
+                if ( (Get-FileHash $VLWebDatFile).hash  -ne (Get-FileHash $TargetVLWebDatFile).hash) {
+                    Write-Output ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
+                    iisreset
+                } else {
+                    Write-Output ("$(Log-Date) vlweb.dat has not changed.")
+                }
             } else {
-                Write-Output ("$(Log-Date) vlweb.dat has not changed.")
+                Write-Output ("$(Log-Date) $ENV:TEMP\vlweb.dat does not exist.")    
             }
         } else {
-            Write-Output ("$(Log-Date) $ENV:TEMP\vlweb.dat does not exist.")    
+            Write-Output ("$(Log-Date) $VLWebDatFile does not exist. This should never occur.")
         }
-    } else {
-        Write-Output ("$(Log-Date) $VLWebDatFile does not exist. This should never occur.")
     }
 }

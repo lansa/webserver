@@ -127,7 +127,7 @@ function( Lansa, objectId, undefined )
          var LAYOUTAPPDRAWERITEM1 = this.createReference( "LAYOUTAPPDRAWERITEM1", "PRIM_TBLO", "Item" );
 
          //
-         // DEFINE_COM Class(#PRIM_MD.AppBar) Name(#AppBar) Displayposition(1) Parent(#COM_OWNER) Tabposition(1) Width(1200) Themedrawstyle('Heading1') Caption('My Webserver2') Captionmarginbottom(0) Captionmarginright(0) Captionmargintop(0) Icon('menu') Layoutmanager(#LayoutAppBar)
+         // DEFINE_COM Class(#PRIM_MD.AppBar) Name(#AppBar) Displayposition(1) Parent(#COM_OWNER) Tabposition(1) Width(1200) Themedrawstyle('Heading1') Caption('My Webserver3') Captionmarginbottom(0) Captionmarginright(0) Captionmargintop(0) Icon('menu') Layoutmanager(#LayoutAppBar)
          //
          var APPBAR = this.createReference( "APPBAR", "PRIM_MD", "AppBar" );
 
@@ -359,7 +359,7 @@ function( Lansa, objectId, undefined )
          APPBAR.setTabPosition( 1 );
          APPBAR.setWidth( 1200 );
          APPBAR.setThemeDrawStyle( "Heading1" );
-         APPBAR.setCaption( "My Webserver2" );
+         APPBAR.setCaption( "My Webserver3" );
          APPBAR.setCaptionMarginBottom( 0 );
          APPBAR.setCaptionMarginRight( 0 );
          APPBAR.setCaptionMarginTop( 0 );

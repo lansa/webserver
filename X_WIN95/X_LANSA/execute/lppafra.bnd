@@ -74,7 +74,7 @@ EditMenu.TagNext=Marqueur suivant
 EditMenu.TagPrev=Marqueur précédent
 EditMenu.TagRemoveAll=Enlever tous les marqueurs
 EditMenu.BlockComment=Passer en commentaire la sélection
-EditMenu.BlockUnComment=Dé-commenter la sélection
+EditMenu.BlockUnComment=Décommenter la sélection
 EditMenu.AuditFind=Rechercher dans les données d'audit du source...
 EditMenu.ToggleAudit=(Dés)activer les données d'audit
 EditMenu.RepFind=Rechercher dans le ré&férentiel
@@ -521,11 +521,7 @@ Assistant.Instrument.Parameters=Paramètres
 Assistant.Instrument.Features=Caractéristiques
 Assistant.Instrument.Styles=Styles
 Assistant.Instrument.Operators=Operateurs
-*** @TRANS CHANGE
-*** Assistant.Instrument.SpecialValues=Valeurs particulières
-*** @TRANS NEW
-Assistant.Instrument.SpecialValues=System Values
-*** @TRANS END
+Assistant.Instrument.SpecialValues=Valeurs systèmes
 Assistant.Instrument.EnumValues=Valeurs enum.
 Assistant.Instrument.Namespaces=Espaces de noms
 Assistant.Instrument.Classes=Classes
@@ -533,10 +529,8 @@ Assistant.Instrument.FieldsInFile=Zones du fichier
 Assistant.Instrument.Fields=Zones
 Assistant.Instrument.Forms=Formulaires
 Assistant.Instrument.WebPages=Pages Web
-*** @TRANS NEW
-Assistant.Instrument.WebViews=Views
-Assistant.Instrument.WebDialogs=Dialogs
-*** @TRANS END
+Assistant.Instrument.WebViews=Vues
+Assistant.Instrument.WebDialogs=Dialogues
 Assistant.Instrument.ReusableParts=Eléments réutilisables
 Assistant.Instrument.BusinessObject=Objet métier
 Assistant.Instrument.ActiveX=ActiveX
@@ -825,12 +819,10 @@ FieldCompMenu.InsertEvpDynamicPicklist=Dynamique
 FieldCompMenu.InsertEvpProgress=Barre de progression
 FieldCompMenu.InsertEvpTrackBar=Curseur de défilement
 FieldCompMenu.InsertEvpSpinEdit=SpinEdit
-*** @TRANS NEW
-FieldCompMenu.InsertMdEdit=Material Design Edit Field
-FieldCompMenu.InsertMdSpinEdit=Material Design SpinEdit Field
-FieldCompMenu.InsertMdDropdown=Material Design Dropdown Field
-FieldCompMenu.InsertMdDateTime=Material Design DateTime Field
-*** @TRANS END
+FieldCompMenu.InsertMdEdit=Zone d'édition Material Design
+FieldCompMenu.InsertMdSpinEdit=Zone SpinEdit Material Design
+FieldCompMenu.InsertMdDropdown=Zone liste déroulante Material Design
+FieldCompMenu.InsertMdDateTime=Zone DateHeure Material Design   
 FieldCompMenu.DefaultVisualization=Visualisation par défaut
 FieldCompMenu.DefaultPrompter=Invite de saisie par défaut
 FieldCompMenu.InsertPrompter=Formulaire d'invite
@@ -844,7 +836,7 @@ FieldCompMenu.InsertHostedPart=Hôte virtuel
 FieldCompMenu.InsertWeblet=Weblet
 FieldCompMenu.InsertEvpDateTime=Zone de saisie de date
 FieldCompMenu.InsertEvpMonthCalender=Calendrier
-FieldCompMenu.InsertEvpMultiLineEntryField=Zone de saisie multi-ligne
+FieldCompMenu.InsertEvpMultiLineEntryField=Zone de saisie multiligne
 FieldCompMenu.MoveUpPicklist=Vers le haut
 FieldCompMenu.MoveDownPicklist=Vers le bas
 FieldCompMenu.InsertPrompter.Tip=Insérer un formulaire d'invite
@@ -859,12 +851,10 @@ FieldCompMenu.InsertEvpDynamicPicklist.Tip=Nouvelle liste dynamique
 FieldCompMenu.InsertEvpProgress.Tip=Barre de progression
 FieldCompMenu.InsertEvpTrackBar.Tip=Curseur de défilement
 FieldCompMenu.InsertEvpSpinEdit.Tip=Zone de sélection numérique
-*** @TRANS NEW
-FieldCompMenu.InsertMdEdit.Tip=Material Design Edit Field
-FieldCompMenu.InsertMdSpinEdit.Tip=Material Design SpinEdit Field
-FieldCompMenu.InsertMdDropdown.Tip=Material Design Dropdown Field
-FieldCompMenu.InsertMdDateTime.Tip=Material Design DateTime Field
-*** @TRANS END
+FieldCompMenu.InsertMdEdit.Tip=Zone d'édition Material Design
+FieldCompMenu.InsertMdSpinEdit.Tip=Zone SpinEdit Material Design
+FieldCompMenu.InsertMdDropdown.Tip=Zone liste déroulante Material Design
+FieldCompMenu.InsertMdDateTime.Tip=Zone DateHeure Material Design   
 FieldCompMenu.DefaultVisualization.Tip=Visualisation par défaut
 FieldCompMenu.DefaultPrompter.Tip=Invite de saisie par défaut
 FieldCompMenu.DefaultPicklist.Tip=Liste de valeurs par défaut
@@ -874,7 +864,7 @@ FieldCompMenu.DefaultPicklistItem.Tip=Elément de liste de valeurs par défaut
 FieldCompMenu.InsertWeblet.Tip=Insérer un modèle de weblet
 FieldCompMenu.InsertEvpDateTime.Tip=Zone de saisie de date
 FieldCompMenu.InsertEvpMonthCalender.Tip=Calendrier
-FieldCompMenu.InsertEvpMultiLineEntryField.Tip=Zone de saisie multi-ligne
+FieldCompMenu.InsertEvpMultiLineEntryField.Tip=Zone de saisie multiligne
 FieldCompMenu.RunVisualizationWizard.Tip=Lancer l'assistant de visualisations avancées
 FieldCompMenu.MoveUpPicklist.Tip=Déplacer l'élément de liste vers le haut
 FieldCompMenu.MoveDownPicklist.Tip=Déplacer l'élément de liste vers le bas
@@ -969,19 +959,17 @@ par conséquent cet objet sera ouvert en lecture seule.+
 -
 Voulez-vous continuer?
 
-*** @TRANS NEW
-MsgBox.ReadOnly.NotLicensed=Your system is not licensed.+
+MsgBox.ReadOnly.NotLicensed=Votre système n'a pas de licence d'utilisation.+
 -
-You may open this object only in read-only mode.+
+Vous pouvez ouvrir cet objet en lecture seule.+
 -
-Continue?
+Voulez-vous continuer?
 
-MsgBox.ReadOnly.RestrictedLicense=Your system has a restricted license.+
+MsgBox.ReadOnly.RestrictedLicense=Votre système a une licence restreinte.+
 -
-You may open this object only in read-only mode.+
+Vous pouvez ouvrir cet objet en lecture seule.+
 -
-Continue?
-*** @TRANS END
+Voulez-vous continuer?
 
 MsgBox.ReadOnlyForPartition=Vous ne pourrez peut-être pas modifier cet objet.+
 +
@@ -1061,21 +1049,19 @@ MsgBox.RepObjectInvalidForSave=&1 contient des erreurs et ne peut pas être enreg
 MsgBox.Caption.RepObjectInvalidForSave=Enregistrer &1
 
 MsgBox.FailedToWriteToFile=Erreur d'accès au fichier
-*** @TRANS NEW
-MsgBox.FailedToMoveFiles=Unable to move files
+MsgBox.FailedToMoveFiles=Impossible de déplacer les fichiers
 
-MsgBox.FormatOptions.VersionControl.RestartVL=The Version Control changes will not take effect until Visual LANSA is restarted
-MsgBox.FormatOptions.VersionControl.GitInitialization=A clone can only be performed into an empty directory. Any objects in the selected folder will be removed. Do you wish to continue?
-MsgBox.FormatOptions.VersionControl.GitNoRemoteRepo=A remote repository has not been specified. If a remote repository is added later, conflicts with existing files may occur which will need to be resolved manually. Do you wish to continue ?
-MsgBox.FormatOptions.VersionControl.EmptyField=&1 must be specified.
-MsgBox.VersionControl.InitializeNewGitRepo=Initializing new Git repository. Please Wait...
-MsgBox.VersionControl.InitialSyncWaitMessage=Synchronizing the local repository with the cloned remote repository. Please Wait...
-MsgBox.VersionControl.SyncWaitMessage=Synchronizing objects in the Visual LANSA repository with the version control working folder.
-MsgBox.VersionControl.SyncDetectingWrkFldMessage=Detecting changes in the working folder...
-MsgBox.VersionControl.SyncRefreshRepoMessage=Refreshing repository...
-MsgBox.VersionControl.SyncRefreshEditorMessage=Refreshing editor...
-MsgBox.VersionControl.SyncUpdateFolderMessage=Processing offline changes...
-*** @TRANS END
+MsgBox.FormatOptions.VersionControl.RestartVL=Les modifications de contrôle de version ne prendra pas effet avant le redémarrage de Visual LANSA
+MsgBox.FormatOptions.VersionControl.GitInitialization=Un clone ne peut être créé que dans un répertoire vide. Tout objet du répertoire choisi sera enlever. Voulez-vous continuer?
+MsgBox.FormatOptions.VersionControl.GitNoRemoteRepo=Un référentiel distant n'a pas été précisé. Si un référentiel distant est ajouté plus tard, les conflits avec les fichiers existants peuvent se produire et devront être résolus manuellement. Voulez-vous continuer ?
+MsgBox.FormatOptions.VersionControl.EmptyField=&1 doit être précisé.
+MsgBox.VersionControl.InitializeNewGitRepo=Initialisation du nouveaux référentiel Git. Patientez...
+MsgBox.VersionControl.InitialSyncWaitMessage=Synchronisation du référentiel local avec le référentiel distant cloné. Patientez...
+MsgBox.VersionControl.SyncWaitMessage=Synchronisation des objets dans le référentiel Visual LANSA avec le dossier de travail du contrôle de version.
+MsgBox.VersionControl.SyncDetectingWrkFldMessage=Détection des modifications dans le dossier de travail...
+MsgBox.VersionControl.SyncRefreshRepoMessage=Actualisation du référentiel...
+MsgBox.VersionControl.SyncRefreshEditorMessage=Actualisation de l'éditeur...
+MsgBox.VersionControl.SyncUpdateFolderMessage=Traitement des modifications hors ligne...
 
 *************************************************************
 *** SPEED BUTTON HINTS                                  *****
@@ -1096,9 +1082,7 @@ Btn.ShowMsg.Hint=Afficher les messages (Ctrl+M)
 Btn.FullCheck.Hint=Contrôle complet (Alt+U)
 Btn.Build.Hint=Construction (Alt+B)
 Btn.Help.Hint=Sommaire de l'aide
-*** @TRANS NEW
-Btn.QuickEdit.Hint=Quick Edit Properties
-*** @TRANS END
+Btn.QuickEdit.Hint=Propriétés Quick Edit 
 Btn.NextFn.Hint=Composant suivant (Ctrl+F6)
 Btn.PrevFn.Hint=Composant précédent (Ctrl+Shift+F6)
 Btn.Compile.Hint=Compiler (Ctrl+Shift+C)
@@ -1227,12 +1211,10 @@ RepBrowser.BuildState.NeverBuilt=Jamais généré
 RepBrowser.BuildState.Compiled=Compilé
 RepBrowser.BuildState.Shipped=Livré
 
-*** @TRANS NEW
-RepBrowser.TargetPlatform.Browser=Web Browser
+RepBrowser.TargetPlatform.Browser=Navigateur Web
 RepBrowser.TargetPlatform.Windows=Windows
 RepBrowser.TargetPlatform.Classic=Windows/IBM i/Linux
-RepBrowser.TargetPlatform.All=All Platforms
-*** @TRANS END
+RepBrowser.TargetPlatform.All=Toutes les plateformes
 
 *************************************************************
 *** COMMAND VIEW                                        *****
@@ -1271,22 +1253,21 @@ FormatOptions.Caption=Paramètres LANSA
 FormatOptions.FunctionLabel=Fonctions
 FormatOptions.ComponentLabel=Composants
 FormatOptions.CommandLabel=Commandes
-*** @TRANS CHANGED
-*** FormatOptions.KeywordLabel=Mots-clés
-*** @TRANS NEW
-FormatOptions.ParameterLabel=Parameters
-*** @TRANS END
+FormatOptions.ParameterLabel=Paramètres
 FormatOptions.SelectorLabel=Sélecteurs
 FormatOptions.LowerCaseLabel=Minuscules
 FormatOptions.UpperCaseLabel=Majuscules
 FormatOptions.FirstUpperLabel=1ere lettre majuscule
 FormatOptions.VariableLabel=Variables
 FormatOptions.AsDefinedLabel=Selon définition
-*** @TRANS NEW
-FormatOptions.SystemValueLabel=System Values
-*** @TRANS END
+FormatOptions.SystemValueLabel=Valeurs systèmes
+FormatOptions.StringFormattingLabel=Quote automatique pour les chaînes
+FormatOptions.AutoSingleQuoteLabel=Quote simple
+FormatOptions.AutoDoubleQuoteLabel=Quote double
+FormatOptions.AutoQuoteLabel=Convertir automatiquement les littéraux sans quote
 FormatOptions.IgnoreLabel=Ignorer
 FormatOptions.ReformatStatements=Reformater automatiquement les instructions
+FormatOptions.AutoCaseAdjustLabel=Ajustement automatique de la casse de l'identifiant
 FormatOptions.Page.General.Caption=Général
 FormatOptions.Page.Editor.Caption=Editeur
 FormatOptions.Page.Formatting.Caption=Formatage
@@ -1301,13 +1282,9 @@ FormatOptions.Item.Debug.Caption=Débogage
 FormatOptions.Item.Compile.Caption=Compiler
 FormatOptions.Item.Style.Caption=Style éditeur
 FormatOptions.Item.Theme.Caption=Thème
-*** @TRANS NEW
-FormatOptions.Item.UserTheme.Caption=Custom Theme
-*** @TRANS END
+FormatOptions.Item.UserTheme.Caption=Thème personnalisé
 FormatOptions.Item.Design.Caption=Dessin
-*** @TRANS NEW
-FormatOptions.Item.VersionControl.Caption=Version Control
-*** @TRANS END
+FormatOptions.Item.VersionControl.Caption=Contrôle de version
 FormatOptions.SourceFont.Caption=Police source
 FormatOptions.SourceColors.Caption=Couleurs source
 FormatOptions.Background.None=Aucun
@@ -1317,9 +1294,7 @@ FormatOptions.Background.Themed=Avec thème
 FormatOptions.Item.DesignTheme.Caption=Thème du dessin
 FormatOptions.Item.DesignStyle.Caption=Style du dessin
 FormatOptions.Item.AssistantTab.Caption=Assistant
-*** @TRANS NEW
-FormatOptions.Item.CreateDialogs.Caption=Create Dialogs
-*** @TRANS END
+FormatOptions.Item.CreateDialogs.Caption=Créer les dialogues
 FormatOptions.Item.Definitions.Caption=Définitions
 FormatOptions.Item.Details.Caption=Détails
 FormatOptions.Item.Goto.Caption=Aller à
@@ -1327,13 +1302,11 @@ FormatOptions.Item.Outline.Caption=Vue hiérarchique
 FormatOptions.Item.ShowInternalFiles=Afficher les fichiers internes
 FormatOptions.Item.ShowReadOnlyMsg=Afficher le message signalant la lecture seule
 FormatOptions.Item.UseIdentifierAsDisplayName=Afficher les noms courts
-*** @TRANS NEW
-FormatOptions.Item.CustomizeEditor=Editor Support
-FormatOptions.Item.WebDevelopment=Web Development
-FormatOptions.Item.DropAsMaterialDesign=Drop Fields as Material Design
-FormatOptions.Item.IBMi5250Development=IBM i 5250 Development
-FormatOptions.Item.WindowsDesktopDevelopment=Windows Desktop Development
-*** @TRANS END
+FormatOptions.Item.CustomizeEditor=Support de l'éditeur
+FormatOptions.Item.WebDevelopment=Développement Web
+FormatOptions.Item.DropAsMaterialDesign=Déposer les zones avec Material Design
+FormatOptions.Item.IBMi5250Development=Développement 5250 IBM i
+FormatOptions.Item.WindowsDesktopDevelopment=Développement pour bureau Windows
 FormatOptions.Item.ObjectNames=Noms d'objets
 FormatOptions.Item.SuggestMatchingIdentifier=Suggérer un identifiant correspondant au nom de la DLL
 FormatOptions.Item.InteractiveVerification=Utiliser la vérification interactive
@@ -1364,10 +1337,8 @@ FormatOptions.Item.ShowHint=Afficher les astuces
 FormatOptions.Item.ShowKeySequence=Afficher dans l'ordre des clés
 FormatOptions.Item.AutoDisplayMessage=Affichage automatique des messages
 FormatOptions.Item.AutoExpandParameters=Développement automatique des paramètres
-*** @TRANS NEW
-FormatOptions.Item.ShowFrameworkOnCreate=Show Frameworks and Groups
-FormatOptions.Item.ShowIdentifierOnCreate=Show Identifier
-*** @TRANS END
+FormatOptions.Item.ShowFrameworkOnCreate=Afficher Frameworks et Groupes
+FormatOptions.Item.ShowIdentifierOnCreate=Afficher l'identifiant
 FormatOptions.Item.AutoCompleteSource=Saisie semi-automatique
 FormatOptions.Item.AutoCompleteOn=Activée
 FormatOptions.Item.AutoCompleteOff=Désactivée
@@ -1452,24 +1423,22 @@ FormatOptions.Item.Compile.Target.32Bit=32 Bit
 FormatOptions.Item.Compile.Target.64Bit=64 Bit
 FormatOptions.Item.Compile.Target.Both=32 et 64 Bit
 FormatOptions.Item.Compile.ShowAdvanced.Caption=Afficher les options avancées de compilation
-*** @TRANS NEW
-FormatOptions.Item.VersionControl.Product.Caption=Product
-FormatOptions.Item.VersionControl.Product.Custom=Custom
+FormatOptions.Item.VersionControl.Product.Caption=Produit
+FormatOptions.Item.VersionControl.Product.Custom=Personnalisé
 FormatOptions.Item.VersionControl.Product.Git=Git
-FormatOptions.Item.VersionControl.AutoSaveNew.Caption=Automatically save new objects to version control
-FormatOptions.Item.VersionControl.AutoDelete.Caption=Automatically delete objects that have been deleted from version control
-FormatOptions.Item.VersionControl.AutoCompile.Caption=Automatic compile
-FormatOptions.Item.VersionControl.User.Name.Caption=User name
-FormatOptions.Item.VersionControl.User.Email.Caption=User email
-FormatOptions.Item.VersionControl.IgnoreFile.Caption=Ignore list
-FormatOptions.Item.VersionControl.RemoteRepo.Caption=Remote repository
-FormatOptions.Item.VersionControl.Edit.Caption=Edit
-FormatOptions.Item.VersionControl.Add.Caption=Add
-FormatOptions.Item.VersionControl.Delete.Caption=Remove
-FormatOptions.Item.VersionControl.RemoteRepo.Name.Caption=Name
-FormatOptions.Item.VersionControl.RemoteRepo.Path.Caption=Path
-FormatOptions.Item.Cloud.ApplicationUrl.Caption=Cloud Application URL
-*** @TRANS END
+FormatOptions.Item.VersionControl.AutoSaveNew.Caption=Enregistrer les nouveaux objets automatiquement vers le contrôle de version
+FormatOptions.Item.VersionControl.AutoDelete.Caption=Supprimer automatiquement les objets qui ont été supprimés depuis le contrôle de version
+FormatOptions.Item.VersionControl.AutoCompile.Caption=Compilation automatique
+FormatOptions.Item.VersionControl.User.Name.Caption=Nom d'utilisateur
+FormatOptions.Item.VersionControl.User.Email.Caption=Email utilisateur
+FormatOptions.Item.VersionControl.IgnoreFile.Caption=Ignorer la liste
+FormatOptions.Item.VersionControl.RemoteRepo.Caption=Référentiel distant
+FormatOptions.Item.VersionControl.Edit.Caption=Editer
+FormatOptions.Item.VersionControl.Add.Caption=Ajouter
+FormatOptions.Item.VersionControl.Delete.Caption=Enlever
+FormatOptions.Item.VersionControl.RemoteRepo.Name.Caption=Nom
+FormatOptions.Item.VersionControl.RemoteRepo.Path.Caption=Chemin
+FormatOptions.Item.Cloud.ApplicationUrl.Caption=URL d'application Cloud
 
 FormatOptions.Xsl.General.Caption=Général
 FormatOptions.Xsl.Design.Caption=Dessin
@@ -1525,16 +1494,6 @@ FormatOptions.Style.Colors=Couleurs:
 FormatOptions.Style.TextColor=Couleur du texte
 FormatOptions.Style.BackgroundColor=Couleur d'arrière plan
 FormatOptions.Style.SampleText=Texte exemple
-
-*** @TRANS NEW
-
-FormatOptions.StringFormattingLabel=Automatic String Quote
-FormatOptions.AutoSingleQuoteLabel=Single Quote
-FormatOptions.AutoDoubleQuoteLabel=Double Quote
-FormatOptions.AutoQuoteLabel=Auto Convert Unquoted Literals
-FormatOptions.AutoCaseAdjustLabel=Auto Adjust Identifier Case
-
-*** @TRANS END
 
 *************************************************************
 *** OBJECT LIST DIALOG                                  *****
@@ -1672,9 +1631,7 @@ RepBrowser.MenuItem.FullCheck=Contrôle complet
 RepBrowser.MenuItem.Build=Générer
 RepBrowser.MenuItem.Compile=Compiler
 RepBrowser.MenuItem.Execute=Exécuter
-*** @TRANS NEW
-RepBrowser.MenuItem.ExecuteInCloud=Execute in Cloud
-*** @TRANS END
+RepBrowser.MenuItem.ExecuteInCloud=Exécuter dans le Cloud
 RepBrowser.MenuItem.Debug=Déboguer
 RepBrowser.MenuItem.Find=Rechercher
 RepBrowser.MenuItem.IsFavorite=Est un favori
@@ -1689,11 +1646,9 @@ RepBrowser.MenuItem.VersionControl=Contrôle de version
 RepBrowser.MenuItem.VcsRefreshFolder=Actualiser
 RepBrowser.MenuItem.VcsGetLatestVersion=Récupérer la dernière version
 RepBrowser.MenuItem.VcsExploreFolder=Afficher dans l'explorateur Windows
-*** @TRANS NEW
-RepBrowser.MenuItem.VcsAddToVcs=Add to Version Control
-RepBrowser.MenuItem.VcsRemoveFromVcs=Remove from Version Control
-RepBrowser.MenuItem.VcsSynchronizeVLWithWorkingFolder=Synchronize
-*** @TRANS END
+RepBrowser.MenuItem.VcsAddToVcs=Ajouter le contrôle de version
+RepBrowser.MenuItem.VcsRemoveFromVcs=Enlever depuis contrôle de Version
+RepBrowser.MenuItem.VcsSynchronizeVLWithWorkingFolder=Synchroniser
 RepBrowser.MenuItem.DeletePartition=Supprimer la partition
 RepBrowser.MenuItem.ExportToExcel=Export vers Excel
 RepBrowser.MenuItem.SetDesignTheme=Définir comme thème de dessin
@@ -1747,14 +1702,12 @@ RepBrowser.MsgBox.RefreshInlined.UnderEdit.Msg=&1 &2 est ouvert dans l’éditeur L
 RepBrowser.MsgBox.Error.CreateLockReadOnly=Impossible de créer un objet quand le verrouillage des objets est en mode lecture seule.
 RepBrowser.MsgBox.Error.Caption.Create=Création des objets impossible
 
-*** @TRANS ADD
-RepBrowser.WebPage.Folder.Views=Views
-RepBrowser.WebPage.Folder.Dialogs=Dialogs
-RepBrowser.WebPage.Folder.Parts=Parts
+RepBrowser.WebPage.Folder.Views=Vues
+RepBrowser.WebPage.Folder.Dialogs=Dialogues
+RepBrowser.WebPage.Folder.Parts=Eléments
 RepBrowser.WebPage.Folder.Images=Images
-RepBrowser.WebPage.Folder.Fields=Fields
-RepBrowser.WebPage.Folder.Mtxts=Multilingual Variables
-*** @TRANS END
+RepBrowser.WebPage.Folder.Fields=Zones
+RepBrowser.WebPage.Folder.Mtxts=Variables multilingues
 
 RepBrowser.ColumnCaption.Name=Nom
 RepBrowser.ColumnCaption.Component=Composant
@@ -2108,6 +2061,9 @@ LpPaRepFindDialog.Framework=Framework
 LpPaRepFindDialog.Group=Groupe
 LpPaRepFindDialog.ModAfter=Modifié après le
 LpPaRepFindDialog.ModBefore=Modifié avant le
+LpPaRepFindDialog.TargetPlatform=Plateforme cible
+LpPaRepFindDialog.VcsState=Etat Ctrl Version :
+LpPaRepFindDialog.VcsGitState=Etat Git :
 LpPaRepFindDialog.SaveDlgCaption=Enregistrer les résultats
 LpPaRepFindDialog.ListOpenWarningText=La liste est ouverte dans l'éditeur. Merci de la fermer.
 LpPaRepFindDialog.ListOpenWarningCaption=La liste est ouverte dans l'éditeur
@@ -2117,12 +2073,6 @@ LpPaRepFindDialog.ResultsGroupBoxCaption=Résultat
 LpPaRepFindDialog.TreeItemColumnCaption=Types d'objet
 LpPaRepFindDialog.SendToCaption=Résultats dans
 LpPaRepFindDialog.SendToNewCaption=Nouvel onglet
-
-*** @TRANS NEW
-LpPaRepFindDialog.TargetPlatform=Target Platform
-LpPaRepFindDialog.VcsState=Version Ctrl State:
-LpPaRepFindDialog.VcsGitState=Git State:
-*** @TRANS END
 
 *************************************************************
 *** Field Visualisation Wizard                          *****
@@ -2198,7 +2148,7 @@ VisWiz.ReusablePartNameNotValid=Le nom d'élément réutilisable &1 n'est pas un no
 VisWiz.FormNameNotValid=Le nom de formulaire &1 n'est pas un nom valide
 VisWiz.NoDefaultProperty=&1 &2 ne contient pas de propriété par défaut, donc ne peut pas échanger des valeurs avec la zone
 
-VisWiz.DescriptionEntryField=Une zone de saisie mono-ligne.
+VisWiz.DescriptionEntryField=Une zone de saisie monoligne.
 VisWiz.DescriptionMultiEntryField=Une zone de saisie multi-lignes.
 VisWiz.DescriptionStaticPicklist=Une liste de choix statique défini à la conception. Editer les données de la liste de choix dans l'onglet de visualisation de zone.
 VisWiz.DescriptionProgressBar=Une barre de progression représentant la valeur.
@@ -2305,15 +2255,11 @@ RepositoryTab.Combo.ExternalResources=Ressources externes
 RepositoryTab.Combo.DotNetProxys=Composants .NET
 RepositoryTab.Combo.WebServiceProxys=Services Web
 RepositoryTab.Combo.WebPages=Pages Web
-*** @TRANS ADD
-RepositoryTab.Combo.WebViews=Views
-RepositoryTab.Combo.WebDialogs=Dialogs
-*** @TRANS END 
+RepositoryTab.Combo.WebViews=Vues
+RepositoryTab.Combo.WebDialogs=Dialogues
 RepositoryTab.Combo.WebWidgets=Widgets
 RepositoryTab.Combo.ServerModules=Modules serveur
-*** @TRANS ADD
-RepositoryTab.Combo.DataObjects=Entities
-*** @TRANS END 
+RepositoryTab.Combo.DataObjects=Entités
 
 RepositoryTab.ObjName.NotDefined=Non défini
 RepositoryTab.ObjName.File=Fichier
@@ -2342,15 +2288,11 @@ RepositoryTab.ObjName.ExternalResource=Ressources externes
 RepositoryTab.ObjName.DotNetProxy=Composant .NET
 RepositoryTab.ObjName.WebServiceProxy=Service Web
 RepositoryTab.ObjName.WebPage=Page Web
-*** @TRANS ADD
-RepositoryTab.ObjName.WebView=View
-RepositoryTab.ObjName.WebDialog=Dialog
-*** @TRANS END 
+RepositoryTab.ObjName.WebView=Vue
+RepositoryTab.ObjName.WebDialog=Dialogue
 RepositoryTab.ObjName.WebWidget=Widget
 RepositoryTab.ObjName.ServerModule=Module Serveur
-*** @TRANS ADD
-RepositoryTab.ObjName.DataObject=Entity
-*** @TRANS END 
+RepositoryTab.ObjName.DataObject=Entité
 *
 RepositoryTab.ColTxt.DynamicList=Liste dynamique
 RepositoryTab.ColTxt.StaticList=Liste statique
@@ -2394,6 +2336,7 @@ RepositoryTab.Col.Item=Elément
 RepositoryTab.Col.Description=Description
 RepositoryTab.Col.Modified=Modifié
 RepositoryTab.Col.BuildStatus=Etat de construction
+RepositoryTab.Col.TargetPlatform=Plateforme cible
 RepositoryTab.Col.Details=Détails
 RepositoryTab.Col.ColName=Nom de colonne
 RepositoryTab.Col.Type=Type
@@ -2401,9 +2344,7 @@ RepositoryTab.Col.Task=Tâche
 RepositoryTab.Col.PcName=Nom du PC
 RepositoryTab.Col.Identifier=Identifiant
 RepositoryTab.Col.VcsStatus=Etat du contrôle de Version
-*** @TRANS NEW
-RepositoryTab.Col.VcsGitStatus=Git Status
-*** @TRANS END
+RepositoryTab.Col.VcsGitStatus=Etat Git
 *
 RepositoryTab.Msg.SelectedObjects=&1 objets choisis
 RepositoryTab.Msg.Selected=Choisis : &1
@@ -2421,10 +2362,6 @@ FavouritesMenu.TabViewStyle.Tip=Modifier le style des onglets
 FavouritesMenu.ShowInFavorites=Afficher dans les favoris
 FavouritesMenu.ShowInFavorites.Tip=Afficher le favori à l'intérieur de la vue des favoris.
 *
-
-*** @TRANS NEW
-RepositoryTab.Col.TargetPlatform=Target Platform
-*** @TRANS END
 
 *************************************************************
 *** DELETE QUERY DIALOG                                 *****
@@ -2721,9 +2658,7 @@ FeaturesView.Visualization=Visualisation
 FeaturesView.GroupViewMenuItem=Vue par groupe
 FeaturesView.SortedViewMenuItem=Vue triée
 FeaturesView.CategoryViewMenuItem=Vue par catégorie
-*** @TRANS NEW
-FeaturesView.EnumValues=Enum Values
-*** @TRANS END
+FeaturesView.EnumValues=Valeurs Enum
 
 *************************************************************
 *** WEB Design                                          *****
@@ -2950,7 +2885,7 @@ Web.Errors.DescriptionNotProvided=Description non fournie
 Web.Errors.UnspecifiedError= Erreur non spécifiée
 Web.Errors.UnknownError=Une erreur inconnue s’est produite
 
-Web.Errors.Clipboard.General=Erreur pendant le traitement d'une opération du presse-papier. Une autre application verrouille actuellement le prese-papier.+
+Web.Errors.Clipboard.General=Erreur pendant le traitement d'une opération du presse-papier. Une autre application verrouille actuellement le presse-papier.+
 +
 Id Commande: &1
 
@@ -3216,33 +3151,31 @@ Preview.Delete.Tip=Réinitialiser l'aperçu
 *** Version Control View                                *****
 *************************************************************
 VersionControl.Caption=Contrôle de version
-*** @TRANS NEW
-VersionControl.Actions.CreateFolder=Create Folder
-VersionControl.Actions.RenameFolder=Rename Folder
-VersionControl.Actions.CreateGitRepo=Create Git Repository
-VersionControl.Actions.Pull=Pull
+VersionControl.Actions.CreateFolder=Créer le dossier
+VersionControl.Actions.RenameFolder=Renommer le dossier
+VersionControl.Actions.CreateGitRepo=Créer le référentiel Git
+VersionControl.Actions.Pull=Extraire
 VersionControl.Actions.Push=Push
 VersionControl.Actions.Commit=Commit
-VersionControl.Actions.SelectBranch=Change Branch
-VersionControl.Actions.Branch=Branch
-VersionControl.Actions.NoBranch=No commits in repository
-VersionControl.Actions.RemoteRepo=Remote repository
-VersionControl.Actions.RemoteBranch=Remote branch
+VersionControl.Actions.SelectBranch=Modifier la branche
+VersionControl.Actions.Branch=Branche
+VersionControl.Actions.NoBranch=Pas de commits dans le référentiel
+VersionControl.Actions.RemoteRepo=Référentiel distant
+VersionControl.Actions.RemoteBranch=Branche distante
 VersionControl.Actions.Message=Message
-VersionControl.Actions.DiscardChanges=Discard any changes in current branch
-VersionControl.Actions.ShowItemFolderView=Show in Folder View
-VersionControl.Actions.ShowRepoFolderView=Show Repository
-VersionControl.Actions.ShowHistory=Show History
-VersionControl.Actions.ResolveConflict=Resolve Conflict
+VersionControl.Actions.DiscardChanges=Ignorer toutes les modifications dans la branche actuelle
+VersionControl.Actions.ShowItemFolderView=Afficher dans la vue de dossier
+VersionControl.Actions.ShowRepoFolderView=Afficher le référentiel
+VersionControl.Actions.ShowHistory=Afficher historique
+VersionControl.Actions.ResolveConflict=Résoudre les conflits
 
-VersionControl.Status.New=New
-VersionControl.Status.Unchanged=Unchanged
-VersionControl.Status.Changed=Changed
-VersionControl.Status.Deleted=Deleted
-VersionControl.Status.Renamed=Renamed
-VersionControl.Status.Conflict=Conflict
-VersionControl.Status.Unknown=Unknown
-*** @TRANS END
+VersionControl.Status.New=Nouveau
+VersionControl.Status.Unchanged=Inchangé
+VersionControl.Status.Changed=Modifié
+VersionControl.Status.Deleted=Supprimé
+VersionControl.Status.Renamed=Renommé
+VersionControl.Status.Conflict=Conflit
+VersionControl.Status.Unknown=Inconnu
 
 *************************************************************
 *** Refresh Inlined Weblets Dialog                      *****
@@ -3325,48 +3258,40 @@ VersionControlDialog.Result.Failed=Echec
 VersionControlDialog.Result.Ignored=Ignoré
 VersionControlDialog.Result.Updated=Modifié
 VersionControlDialog.Result.Cancelled=Annulé
-*** @TRANS NEW
-VersionControlDialog.Result.Removed=Removed
-*** @TRANS END
+VersionControlDialog.Result.Removed=Enlevé
 VersionControlDialog.Checkbox.Caption=Inclure identique
 VersionControlDialog.Failed.Header=&1 objet(s) en échec
 VersionControlDialog.Updated.Header=&1 objet(s) mis à jour
 VersionControlDialog.Saved.Header=&1 objet(s) enregistrés
 VersionControlDialog.Ignored.Header=&1 objet(s) ignorés
 VersionControlDialog.Cancelled.Header=&1 objet(s) annulés
-*** @TRANS NEW
-VersionControlDialog.Removed.Header=&1 object(s) removed
-*** @TRANS END
+VersionControlDialog.Removed.Header=&1 objet(s) enlevés
 VersionControlDialog.Status.Unknown=Inconnu
 VersionControlDialog.Status.Identical=Identique
 VersionControlDialog.Status.Different=Différent
 VersionControlDialog.Status.LocalOnly=Référentiel seulement
 VersionControlDialog.Status.MasterOnly=Contrôle de version seulement
 VersionControlDialog.Status.InvalidType=Type d'objet incorrect
-*** @TRANS NEW
-VersionControlDialog.Status.InvalidYaml=Invalid YAML
-*** @TRANS END
+VersionControlDialog.Status.InvalidYaml=YAML incorrect
 VersionControlDialog.Error.NotFound=&1 n'existe pas dans le référentiel
 VersionControlDialog.Error.OpenInEditor=&1 est actuellement ouvert dans l'éditeur
 VersionControlDialog.Error.ProcessOpenInEditor=Le process &1 pour la fonction &2 est déjà ouvert dans l'éditeur
 VersionControlDialog.Msg.RepUpToDate=Les définitions du référentiel sont à jour. 
 VersionControlDialog.Msg.VcsUpToDate=Les définitions du répertoire de travail sont à jour. 
-*** @TRANS NEW
-VersionControlDialog.Label.LocalRepo=Local repository
+VersionControlDialog.Label.LocalRepo=Référentiel local
 
-VersionControlRepoSetupDialog.Title=Create Git repository
-VersionControlRepoSetupDialog.Label.NewRepo=New repository
-VersionControlRepoSetupDialog.Label.CloneRepo=Clone repository
-VersionControlRepoSetupDialog.Label.SourcePath=Source Path/URL
+VersionControlRepoSetupDialog.Title=Créer un référentiel Git
+VersionControlRepoSetupDialog.Label.NewRepo=Nouveau référentiel
+VersionControlRepoSetupDialog.Label.CloneRepo=Cloner référentiel
+VersionControlRepoSetupDialog.Label.SourcePath=Chemin/URL source
 
-VersionControlHistoryDialog.Title=Version Control - &1 history
-VersionControlHistoryDialog.Label.Branch=Current branch
-VersionControlHistoryDialog.Label.ShowAllBranches=Show all branches
+VersionControlHistoryDialog.Title=Contrôle de version - Historique &1
+VersionControlHistoryDialog.Label.Branch=Branche actuelle
+VersionControlHistoryDialog.Label.ShowAllBranches=Afficher toutes les branches
 VersionControlHistoryDialog.Column.Id=Id
-VersionControlHistoryDialog.Column.Author=Author
+VersionControlHistoryDialog.Column.Author=Auteur
 VersionControlHistoryDialog.Column.Date=Date
 VersionControlHistoryDialog.Column.Message=Message
-*** @TRANS END
 
 *************************************************************
 *** Webroutines View                                    *****
@@ -3401,7 +3326,8 @@ HtmlAttributes.Main.Caption=Définir les attributs de page html du formulaire
 *** Editor Home Page                                    *****
 *************************************************************
 
-Editor.Home.Views.Caption=Affichages
+Editor.Home.LANSA.Caption=Visual LANSA
+Editor.Home.Views.Caption=Vues
 Editor.Home.Options.Caption=Options
 Editor.Home.News.Caption=Actualités
 Editor.Home.News.Contents.Caption=Centre du développeur Visual LANSA
@@ -3409,27 +3335,25 @@ Editor.Home.Support.Caption=Support
 Editor.Home.Support.Contents.Caption=Centre de support Visual LANSA
 Editor.Home.Demos.Caption=Démos
 Editor.Home.Demos.Contents.Caption=Démos Visual LANSA
-*** @TRANS NEW
-Editor.Home.LANSA.Caption=Visual LANSA
-Editor.Home.Recent.Caption=Recent Web Applications
-Editor.Home.ContactUs.Caption=Contact Us
-Editor.Home.Welcome.Caption=Welcome Screen
-Editor.Home.Samples.Caption=Samples
+Editor.Home.Recent.Caption=Applications Web récentes
+Editor.Home.ContactUs.Caption=Nous contacter
+Editor.Home.Welcome.Caption=Ecran d'accueil
+Editor.Home.Samples.Caption=Exemples
+Editor.Home.Feedback.Caption=Donner votre avis
 Editor.Home.Education.Caption=Education
-Editor.Home.DevCenter.Caption=Developer Center
-Editor.Home.Web.Caption=Create Web Browser and Mobile Applications
-Editor.Home.Vlf.Caption=Prototype & Build using our Application Framework
-Editor.Home.Windows.Caption=Create Windows Desktop Applications
-Editor.Home.Discover.Caption=Discover
-Editor.Home.Web.Header.Caption=Build a Mobile Web Application
-Editor.Home.Md.Header.Caption=Explore the Material Design Controls
-Editor.Home.Vlf.Header1.Caption=Launch the Developer Workbench
-Editor.Home.Vlf.Header2.Caption=Explore the Demonstration Application
-Editor.Home.Desktop.Header.Caption=Build a Desktop Application
-Editor.Home.Samples.Header.Caption=Explore the Windows DirectX Controls
-Editor.Home.SampleUnavailable.Title=Sample Unavailable
-Editor.Home.SampleUnavailable.Message=Please use Partition Initialization to import Demonstration Material
-*** @TRANS END
+Editor.Home.DevCenter.Caption=Centre développeur
+Editor.Home.Web.Caption=Créer des applications navigateur Web et Mobile
+Editor.Home.Vlf.Caption=Prototyper & Construire avec notre Framework applicatif
+Editor.Home.Windows.Caption=Créer des applications pour le bureau Windows
+Editor.Home.Discover.Caption=Découvrir
+Editor.Home.Web.Header.Caption=Construire une application Web Mobile
+Editor.Home.Md.Header.Caption=Explorer les contrôles Material Design
+Editor.Home.Vlf.Header1.Caption=Lancer l'atelier développeur
+Editor.Home.Vlf.Header2.Caption=Explorer l'application de démonstration
+Editor.Home.Desktop.Header.Caption=Construire une application de bureau
+Editor.Home.Samples.Header.Caption=Explorer les contrôles DirectX Windows
+Editor.Home.SampleUnavailable.Title=Exemple non disponible
+Editor.Home.SampleUnavailable.Message=Merci d'utiliser l'initialisation de Partition pour importer le matériel de démonstration
 
 **************************************************************************
 *** Editor Ribbon Key Tips - Grouped by scope to help avoid conflict *****
@@ -3558,9 +3482,7 @@ Editor.Layouts.Sizing.KeyTip=ZU
 Editor.Ribbon.AppMenu.Caption=Fichier
 Editor.Ribbon.HomeSheet.Caption=Accueil
 Editor.Ribbon.ToolsSheet.Caption=Outils
-*** @TRANS NEW
-Editor.Ribbon.AnnotateGroup.Caption=Annotate
-*** @TRANS END
+Editor.Ribbon.AnnotateGroup.Caption=Annoter
 Editor.Ribbon.ClipboardGroup.Caption=Presse-papier
 Editor.Ribbon.FontsColorsGroup.Caption=Police
 Editor.Ribbon.Font.Title=Police
@@ -3576,9 +3498,7 @@ Editor.Ribbon.BuildGroup.ExecuteOptions.Caption=Dialogue d'exécution
 Editor.Ribbon.EditingGroup.Caption=Rechercher
 Editor.Ribbon.File.Caption=Fichier
 Editor.Ribbon.Applications.Caption=Applications Visual LANSA
-*** @TRANS NEW
 Editor.Ribbon.ImportExport.Caption=Import/Export
-*** @TRANS END
 Editor.Ribbon.Vlf.Caption=VL Framework
 Editor.Ribbon.VlfOne.Caption=VLF-ONE
 Editor.Ribbon.Logs.Caption=Journaux d'erreur
@@ -3630,15 +3550,13 @@ Editor.Styles.Brush.Caption=Pinceau
 Editor.Styles.Ribbon.Caption=Ruban
 Editor.Styles.Delete.Title=Enlever
 Editor.Styles.Delete.Hint=Détache le style du contrôle en cours
+Editor.Styles.SelectBase.Caption=Thème de base
+Editor.Styles.SelectFont.Caption=Police
+Editor.Styles.ResetPalette.Caption=Réinitialiser la palette de couleurs au défauts du thème
+Editor.Styles.SelectPalette.Caption=Palette de couleurs
 Editor.Styles.SelectDetails.Caption=Double-clic pour ouvrir et modifier ce thème
 Editor.Styles.SelectPreview.Caption=Aperçu du thème
 Editor.Styles.SelectPopup.Caption=Panneau contextuel de thème
-*** @TRANS NEW
-Editor.Styles.SelectBase.Caption=Base Theme
-Editor.Styles.SelectFont.Caption=Font
-Editor.Styles.SelectPalette.Caption=Color palette
-Editor.Styles.ResetPalette.Caption=Reset color palette to theme defaults
-*** @TRANS END
 Editor.Styles.SelectDrawStyles.Caption=Modifier les styles de dessin
 Editor.Styles.DrawStyles.Caption=Styles de dessin
 Editor.Styles.Buttons.Caption=Boutons
@@ -3651,28 +3569,24 @@ Editor.Styles.New.Caption=Nouveau style
 Editor.Styles.New.Hint=Crée un style et attache le style au contrôle en cours
 Editor.Styles.Clear.Caption=Effacer le style
 Editor.Styles.Clear.Hint=Efface le style du contrôle en cours
-*** @TRANS NEW
-Editor.Styles.ThemeType.Title=Target
-*** @TRANS END
+Editor.Styles.ThemeType.Title=Cible
 Editor.Styles.ThemeType.Hint=Définit le style de dessin utilisé comme cible des assistants du ruban
 Editor.Styles.StyleType.Title=Style cible
 Editor.Styles.StyleType.Hint=Définir le style utilisé comme cible des assistants du ruban
+Editor.Styles.ThemeDrawStyle.Caption=Personnalisé
+Editor.Styles.ThemeForeDrawStyle.Caption=Avant-plan
+Editor.Styles.ThemeBackDrawStyle.Caption=Couleurs
+Editor.Styles.ThemeDividersDrawStyle.Caption=Diviseur
+Editor.Styles.ThemeShadowsDrawStyle.Caption=Ombre
+Editor.Styles.ThemeFontDrawStyle.Caption=Police
 Editor.Styles.ThemeControlDrawStyle.Caption=Style de dessin de contrôles du thème
-*** @TRANS NEW
-Editor.Styles.ThemeDrawStyle.Caption=Custom
-Editor.Styles.ThemeForeDrawStyle.Caption=Foreground
-Editor.Styles.ThemeBackDrawStyle.Caption=Colors
-Editor.Styles.ThemeDividersDrawStyle.Caption=Divider
-Editor.Styles.ThemeShadowsDrawStyle.Caption=Shadow
-Editor.Styles.ThemeFontDrawStyle.Caption=Font
-Editor.Styles.ThemeVariantsDrawStyle.Caption=Variants
+Editor.Styles.ThemeVariantsDrawStyle.Caption=Variantes
 Editor.Styles.ThemeMaterialDesign.Caption=Material Design
 Editor.Styles.Theme2015.Caption=2015
-Editor.Styles.ThemeClassic.Caption=Classic
-Editor.Styles.ThemeUser.Caption=Custom
-Editor.Styles.Theme.Title=Active Theme
-*** @TRANS END
+Editor.Styles.ThemeClassic.Caption=Classique
+Editor.Styles.ThemeUser.Caption=Personnalisé
 Editor.Styles.Theme.Caption=Thème
+Editor.Styles.Theme.Title=Thème actif
 Editor.Styles.Theme.Hint=Définir le thème actif 
 Editor.Styles.ThemeClear.Title=Enlever
 Editor.Styles.ThemeClear.Hint=Réinitialiser le thème actif
@@ -3692,15 +3606,13 @@ Editor.Styles.Theme.TargetListItemAlternate.Hint=Paramètres de ThemeDrawStyle de
 Editor.Styles.Theme.TargetListColumnHeader.Caption=Colonne
 Editor.Styles.Theme.TargetListColumnHeader.Hint=Paramètres de ThemeDrawStyle de la colonne de liste pour le contrôle en cours
 Editor.Styles.Theme.TargetListColumnItems.Caption=Cellule
-Editor.Styles.Theme.TargetListColumnItems.Hint=Paramètres de ThemeDrawStyle de la celule de la colonne en cours
+Editor.Styles.Theme.TargetListColumnItems.Hint=Paramètres de ThemeDrawStyle de la cellule de la colonne en cours
 Editor.Styles.Theme.TargetEvpEdit.Caption=Edition
 Editor.Styles.Theme.TargetEvpEdit.Hint=Paramètres ThemeDrawStyle Edition pour le contrôle en cours
 Editor.Styles.Theme.TargetEvpLabel.Caption=Label
 Editor.Styles.Theme.TargetEvpLabel.Hint=Paramètres ThemeDrawStyle Label  pour le contrôle en cours
-*** @TRANS NEW
-Editor.Styles.Theme.TargetFontIcon.Caption=Icon
-Editor.Styles.Theme.TargetFontIcon.Hint=Icon ThemeDrawStyle settings for the current control
-*** @TRANS END
+Editor.Styles.Theme.TargetFontIcon.Caption=Icône
+Editor.Styles.Theme.TargetFontIcon.Hint=Paramètres ThemeDrawStyle icône pour le contrôle en cours
 Editor.Styles.Theme.TargetPopupTitleBar.Caption=Barre de Titre
 Editor.Styles.Theme.TargetPopupTitleBar.Hint=Paramètres ThemeDrawStyle de la barre de titre pour le contrôle en cours
 Editor.Styles.Attach.Caption=Style du contrôle
@@ -3781,29 +3693,27 @@ Editor.Styles.ColorThemeA400.Caption=A400
 Editor.Styles.ColorThemeA400.Hint=
 Editor.Styles.ColorThemeA700.Caption=A700
 Editor.Styles.ColorThemeA700.Hint=
-*** @TRANS NEW
-Editor.Styles.ColorThemePrimaryLight.Caption=Primary Light
-Editor.Styles.ColorThemePrimaryMedium.Caption=Primary Medium
-Editor.Styles.ColorThemePrimaryDark.Caption=Primary Dark
-Editor.Styles.ColorThemeAccentLight.Caption=Accent Light
+Editor.Styles.ColorThemePrimaryLight.Caption=Primaire clair
+Editor.Styles.ColorThemePrimaryMedium.Caption=Primaire moyen
+Editor.Styles.ColorThemePrimaryDark.Caption=Primaire sombre
+Editor.Styles.ColorThemeAccentLight.Caption=Accentué clair
 Editor.Styles.ColorThemeAccentLight.Hint=
-Editor.Styles.ColorThemeAccentMedium.Caption=Accent Medium
+Editor.Styles.ColorThemeAccentMedium.Caption=Accentué moyen
 Editor.Styles.ColorThemeAccentMedium.Hint=
-Editor.Styles.ColorThemeAccentDark.Caption=Accent Dark
+Editor.Styles.ColorThemeAccentDark.Caption=Accentué sombre
 Editor.Styles.ColorThemeAccentDark.Hint=
-Editor.Styles.ColorThemeSuccessLight.Caption=Success Light
+Editor.Styles.ColorThemeSuccessLight.Caption=Réussi clair
 Editor.Styles.ColorThemeSuccessLight.Hint=
-Editor.Styles.ColorThemeSuccessMedium.Caption=Success Medium
+Editor.Styles.ColorThemeSuccessMedium.Caption=Réussi moyen
 Editor.Styles.ColorThemeSuccessMedium.Hint=
-Editor.Styles.ColorThemeSuccessDark.Caption=Success Dark
+Editor.Styles.ColorThemeSuccessDark.Caption=Réussi sombre
 Editor.Styles.ColorThemeSuccessDark.Hint=
-Editor.Styles.ColorThemeErrorLight.Caption=Error Light
+Editor.Styles.ColorThemeErrorLight.Caption=Erreur clair
 Editor.Styles.ColorThemeErrorLight.Hint=
-Editor.Styles.ColorThemeErrorMedium.Caption=Error Medium
+Editor.Styles.ColorThemeErrorMedium.Caption=Erreur moyen
 Editor.Styles.ColorThemeErrorMedium.Hint=
-Editor.Styles.ColorThemeErrorDark.Caption=Error Dark
+Editor.Styles.ColorThemeErrorDark.Caption=Erreur sombre
 Editor.Styles.ColorThemeErrorDark.Hint=
-*** @TRANS END
 Editor.Styles.ColorThemeButton.Caption=Bouton
 Editor.Styles.ColorThemeButton.Hint=
 Editor.Styles.ColorThemeColumn.Caption=Colonne
@@ -3850,9 +3760,9 @@ Editor.Layout.Manager.Hint=Gestionnaire de présentation pour le contrôle en cour
 Editor.Layout.Item.Caption=Elément
 Editor.Layout.Item.Hint=Paramètres d'élément de présentation pour le contrôle en cours
 Editor.Layout.New.Caption=Nouvelle présentation
+Editor.Layout.Active.Caption=Présentation active
 Editor.Layout.New.Hint=Crée une présentation et l'attache au contrôle en cours
 Editor.Layouts.Caption=Présentations
-Editor.Layout.Active.Caption=Présentation active
 Editor.Layouts.Hint=Modifier la présentation du contrôle en cours
 Editor.Layout.NewDesign.Caption=Dessins
 Editor.Layout.NewDesign.Hint=Voir les dessins du contrôle en cours
@@ -3911,17 +3821,13 @@ Editor.Layouts.Table.Col.Caption=Colonne
 Editor.Layouts.Table.NoCol.Caption=Aucune
 Editor.Layouts.Table.Sizing.None.Name=Aucune
 Editor.Layouts.Table.Sizing.None.Desc=Taille selon dessin
-Editor.Layouts.Table.Sizing.Caption=Taille
 Editor.Layouts.Table.Divider.Caption=Diviseur
 Editor.Layouts.Table.Divider.Raised.Caption=En relief
 Editor.Layouts.Table.Divider.Raised.Desc=
 Editor.Layouts.Table.Divider.Gap.Caption=Espacement
 Editor.Layouts.Table.Divider.Gap.Desc=
-Editor.Layouts.Table.SplitOrientation.Name=Orientation
-Editor.Layouts.Table.SplitOrientation.Hor.Name=Horizontal
-Editor.Layouts.Table.SplitOrientation.Ver.Name=Vertical
 Editor.Layouts.Split.MinWidth.Caption=Largeur Min
-Editor.Layouts.Split.MaxWidth.Caption=Largerur Max
+Editor.Layouts.Split.MaxWidth.Caption=Largeur Max
 Editor.Layouts.Split.MinHeight.Caption=Hauteur Min
 Editor.Layouts.Split.MaxHeight.Caption=Hauteur Max 
 Editor.Layouts.Split.Weight.Caption=Poids
@@ -3940,13 +3846,8 @@ Editor.Layouts.Flow.Sizing.Caption=Ajuster
 Editor.Layouts.Flow.Spacing.Caption=Espacement
 Editor.Layouts.Flow.SpacingItems.Caption=Espacement éléments
 Editor.Layouts.Flow.FlowOperation.Caption=Flow
-*** @TRANS CHANGE
-*** Editor.Layouts.Flow.FlowOperationVer.Caption=Centrage vertical
-*** Editor.Layouts.Flow.FlowOperationHor.Caption=Centrage horizontal
-*** @TRANS NEW
-Editor.Layouts.Flow.FlowOperationVer.Caption=Vertical Flow
-Editor.Layouts.Flow.FlowOperationHor.Caption=Horizontal Flow
-*** @TRANS END
+Editor.Layouts.Flow.FlowOperationVer.Caption=Enchainement vertical
+Editor.Layouts.Flow.FlowOperationHor.Caption=Enchainement horizontal
 Editor.Layouts.Flow.SizingRuleVer.Caption=Ajustement vertical
 Editor.Layouts.Flow.SizingRuleHor.Caption=Ajustement horizontal
 Editor.Layouts.Flow.SizingRule.None.Caption=Aucun
@@ -3959,6 +3860,7 @@ Editor.Layouts.Attach.Order.Caption=Séquence
 Editor.Layouts.Attach.Order.Position.Caption=Position affichage
 Editor.Layouts.Attach.Order.Horz.Caption=Horizontal
 Editor.Layouts.Attach.Order.Vert.Caption=Vertical
+Editor.Layouts.Table.Sizing.Caption=Taille
 Editor.Layouts.Table.Sizing.FitBoth.Name=Ajuster les deux
 Editor.Layouts.Table.Sizing.FitBoth.Desc=Retailler pour remplir tout l'espace disponible
 Editor.Layouts.Table.Sizing.FitWidth.Name=Ajuster à la largeur
@@ -3995,6 +3897,9 @@ Editor.Layouts.Table.Align.BottomCenter.Name=Bas centré
 Editor.Layouts.Table.Align.BottomCenter.Desc=Centré et attaché en bas
 Editor.Layouts.Table.Align.BottomRight.Name=Bas droit
 Editor.Layouts.Table.Align.BottomRight.Desc=Attaché au coin inférieur droit
+Editor.Layouts.Table.SplitOrientation.Name=Orientation
+Editor.Layouts.Table.SplitOrientation.Hor.Name=Horizontal
+Editor.Layouts.Table.SplitOrientation.Ver.Name=Vertical
 Editor.Layouts.Table.FlowLeft.Name=Gauche
 Editor.Layouts.Table.FlowLeft.Desc=Gauche du précédent contrôle
 Editor.Layouts.Table.FlowNone.Name=Aucun
@@ -4201,20 +4106,16 @@ Editor.DesignCursorDividerWE.Caption=Séparateur WE
 Editor.DesignCursorDividerNS.Caption=Séparateur NS
 Editor.DesignCursorNone.Caption=Aucun
 Editor.DesignCursorHand.Caption=Main
-*** @TRANS NEW
-Editor.DesignShape.Caption=Shape
-Editor.DesignShape.None.Caption=None
+Editor.DesignShape.Caption=Forme
+Editor.DesignShape.None.Caption=Aucun
 Editor.DesignShape.Rectangle.Caption=Rectangle
-Editor.DesignShape.Rounded.Caption=Rounded
-*** @TRANS END
+Editor.DesignShape.Rounded.Caption=Arrondi
 Editor.DesignSelect.Caption=Sélectionner
 Editor.DesignArrange.Caption=Réorganiser
-*** @TRANS NEW
 Editor.DesignNavigation.Caption=Navigation
 Editor.DesignNavigation.Mobile.Caption=Mobile
-Editor.DesignNavigation.Tablet.Caption=Tablet
-Editor.DesignNavigation.Desktop.Caption=Desktop
-*** @TRANS END
+Editor.DesignNavigation.Tablet.Caption=Tablette
+Editor.DesignNavigation.Desktop.Caption=Bureau
 Editor.Design.BringForward.Caption=Avancer d'un plan
 Editor.Design.BringToFront.Caption=Mettre au premier plan
 Editor.Design.SendBack.Caption=Reculer d'un plan
@@ -4239,31 +4140,27 @@ Editor.Design.Width.Caption=Largeur
 Editor.Design.Height.Caption=Hauteur
 Editor.Design.Add.Caption=Ajouter un dessin
 Editor.Design.Add.Hint=Crée un dessin et l'attache au contrôle en cours
-*** @TRANS NEW
 Editor.Design.Mobile.Caption=Mobile
-Editor.Design.Mobile.Desc=Activate Mobile Design
-Editor.Design.Tablet.Caption=Tablet
-Editor.Design.Tablet.Desc=Activate Tablet Design
-Editor.Design.Custom.Caption=Add Custom Design
-Editor.Design.Custom.Desc=Create and Activate Custom Design
-*** @TRANS END
+Editor.Design.Mobile.Desc=Activer la conception Mobile
+Editor.Design.Tablet.Caption=Tablette
+Editor.Design.Tablet.Desc=Activer la conception Tablette
+Editor.Design.Custom.Caption=Ajouter conception personnalisée
+Editor.Design.Custom.Desc=Créer et activer une conception personnalisée
 
-*** @TRANS NEW
-Editor.Annotation.Select.Caption=Select
-Editor.Annotation.Delete.Hint=Remove Annotation from the current statement
-Editor.Annotation.Enabled.Hint=Toggle Annotation Enabled\Disabled state
-Editor.Annotation.Width.Caption=Width
-Editor.Annotation.Height.Caption=Height
-*** @TRANS END
+Editor.Annotation.Select.Caption=Sélectionner
+Editor.Annotation.Delete.Hint=Enlever l'annotation de l'instruction en cours
+Editor.Annotation.Enabled.Hint=Basculer annotation activée/désactivée
+Editor.Annotation.Width.Caption=Largeur
+Editor.Annotation.Height.Caption=Hauteur
 
 Editor.Web.Design.Caption=Web
 Editor.Web.Tools.Caption=Outils
 Editor.Web.PublishAll.Caption=Publier
 Editor.Web.PublishAll.Title=Publier
 Editor.Web.PublishAll.Hint=Publier tous les weblets
-Editor.Web.ImportWeblets.Caption=Import
-Editor.Web.ImportWeblets.Title=Import
-Editor.Web.ImportWeblets.Hint=Import Weblets
+Editor.Web.ImportWeblets.Caption=Importer
+Editor.Web.ImportWeblets.Title=Importer
+Editor.Web.ImportWeblets.Hint=Importer les Weblets
 Editor.Web.RestoreXsl.Caption=Restaurer XSL
 Editor.Web.RestoreXsl.Hint=Restaurer XSL
 Editor.Web.RestoreXsl.Title=Restaurer une version antérieure du XSL
@@ -4366,7 +4263,7 @@ Editor.Ribbon.Build.FullCheck.Hint=Vérification complète (Alt+U)
 Editor.Ribbon.Build.Build.Caption=Générer
 Editor.Ribbon.Build.Build.Title=Générer (Alt+B)
 Editor.Ribbon.Build.Build.Hint=Générer (Alt+B)
-Editor.Ribbon.Build.Compile.Caption=Compile
+Editor.Ribbon.Build.Compile.Caption=Compiler
 Editor.Ribbon.Build.Compile.Title=Compiler (Ctrl+Shift+C)
 Editor.Ribbon.Build.Compile.Hint=Compiler (Ctrl+Shift+C)
 Editor.Ribbon.QuickAccess.Save.Hint=Enregistrer
@@ -4429,7 +4326,7 @@ Editor.Ribbon.Command.Close=Fermer
 Editor.Ribbon.Command.Build=Générer
 Editor.Ribbon.Command.HostMonitor=Moniteur hôte
 Editor.Ribbon.Command.DeploymentTool=Outil de déploiement
-Editor.Ribbon.Command.Import=Import
+Editor.Ribbon.Command.Import=Importer
 Editor.Ribbon.Command.TextSearch=Recherche de texte
 Editor.Ribbon.Command.QuickExport=Export rapide
 Editor.Ribbon.Command.ErrorLog=Journal d'erreurs
@@ -4581,7 +4478,7 @@ Editor.StylesHelperView.LinearBrush.Caption=Linéaire
 Editor.StylesHelperView.LinearBrush.Hint=Attache un pinceau linéaire au style actif
 Editor.StylesHelperView.RadialBrush.Caption=Radial
 Editor.StylesHelperView.RadialBrush.Hint=Attache un pinceau radial au style actif
-Editor.StylesHelperView.SolidBrush.Caption=Solid
+Editor.StylesHelperView.SolidBrush.Caption=Solide
 Editor.StylesHelperView.SolidBrush.Hint=Attache un pinceau de couleur pleine au style actif
 Editor.StylesHelperView.ImageBrush.Caption=Image
 Editor.StylesHelperView.ImageBrush.Hint=Attache un pinceau d'image au style actif
@@ -4625,369 +4522,365 @@ Editor.ControlsView.RibbonSheet.Caption=Onglet du ruban
 Editor.ControlsView.RibbonGroup.Caption=Groupe du ruban
 Editor.ControlsView.DockingTab.Caption=Structure d'ancrage des onglets
 Editor.ControlsView.DockingTab.Desc=Structure d'ancrage similaire à celle utilisée par l'éditeur LANSA
-*** @TRANS NEW
-Editor.ControlsView.Entities.Caption=Entities
-Editor.ControlsView.MaterialDesign.Caption=Material Design Style Controls for Web Applications
-Editor.ControlsView.Desktop.Caption=Desktop Style Controls for Windows and Web Applications
-Editor.ControlsView.App.AppBar.Caption=App bar
-Editor.ControlsView.App.Footer.Caption=Footer
-Editor.ControlsView.App.Sidebar.Caption=Sidebar
-Editor.ControlsView.App.Toolbar.Caption=Toolbar
-Editor.ControlsView.App.View.Caption=View
-Editor.ControlsView.DataObject.Lists.Caption=Lists
-Editor.ControlsView.DataObject.Attrs.Caption=Attributes
-Editor.ControlsView.DataObject.List1.Caption=Image and Primary Text
-Editor.ControlsView.DataObject.List2.Caption=Image, Primary and Secondary Text
-Editor.ControlsView.DataObject.List3.Caption=Primary Text
-Editor.ControlsView.DataObject.List4.Caption=Primary and Secondary Text
-Editor.ControlsView.DataObject.List5.Caption=Data
+Editor.ControlsView.Entities.Caption=Entités
+Editor.ControlsView.MaterialDesign.Caption=Contrôles style Material Design pour applications Web
+Editor.ControlsView.Desktop.Caption=Contrôles style bureau pour applications Windows et Web
+Editor.ControlsView.App.AppBar.Caption=Barre d'application
+Editor.ControlsView.App.Footer.Caption=Pied de page
+Editor.ControlsView.App.Sidebar.Caption=Barre latérale
+Editor.ControlsView.App.Toolbar.Caption=Barre d'outils
+Editor.ControlsView.App.View.Caption=Vue
+Editor.ControlsView.DataObject.Lists.Caption=Listes
+Editor.ControlsView.DataObject.Attrs.Caption=Attributs
+Editor.ControlsView.DataObject.List1.Caption=Image et texte primaire
+Editor.ControlsView.DataObject.List2.Caption=Image, texte primaire et secondaire
+Editor.ControlsView.DataObject.List3.Caption=Texte primaire
+Editor.ControlsView.DataObject.List4.Caption=Texte primaire et secondaire
+Editor.ControlsView.DataObject.List5.Caption=Données
 Editor.ControlsView.Md.Navigation.Caption=Navigation
-Editor.ControlsView.Md.NavigationParent.Caption=Navigation containers
+Editor.ControlsView.Md.NavigationParent.Caption=Conteneur de navigation
 Editor.ControlsView.Md.Application.Caption=Application
-Editor.ControlsView.Md.Decorations.Caption=Decorations
+Editor.ControlsView.Md.Decorations.Caption=Décorations
 Editor.ControlsView.Md.Badges.Caption=Badges
-Editor.ControlsView.Md.Buttons.Caption=Buttons
-Editor.ControlsView.Md.Alerts.Caption=Alerts
-Editor.ControlsView.Md.Cards.Caption=Cards
-Editor.ControlsView.Md.Slider.Caption=Sliders
+Editor.ControlsView.Md.Buttons.Caption=Boutons
+Editor.ControlsView.Md.Alerts.Caption=Alertes
+Editor.ControlsView.Md.Cards.Caption=Cartes
+Editor.ControlsView.Md.Slider.Caption=Curseur
 Editor.ControlsView.Md.Snackbar.Caption=Snackbar
-Editor.ControlsView.Md.Progress.Caption=Progress
+Editor.ControlsView.Md.Progress.Caption=Progression
 Editor.ControlsView.Md.Chips.Caption=Chips
-Editor.ControlsView.Md.Dividers.Caption=Dividers
-Editor.ControlsView.Md.Dialogs.Caption=Dialogs
-Editor.ControlsView.Md.Dialogs.Save.Caption=SAVE
-Editor.ControlsView.Md.Dialogs.Discard.Caption=DISCARD
-Editor.ControlsView.Md.Dialogs.Cancel.Caption=CANCEL
-Editor.ControlsView.Md.Dialogs.Delete.Caption=DELETE
-Editor.ControlsView.Md.Dialogs.Login.Caption=SIGN IN
+Editor.ControlsView.Md.Dividers.Caption=Diviseurs
+Editor.ControlsView.Md.Dialogs.Caption=Dialogues
+Editor.ControlsView.Md.Dialogs.Save.Caption=ENREGISTRER
+Editor.ControlsView.Md.Dialogs.Discard.Caption=ABANDONNER
+Editor.ControlsView.Md.Dialogs.Cancel.Caption=ANNULER
+Editor.ControlsView.Md.Dialogs.Delete.Caption=SUPPRIMER
+Editor.ControlsView.Md.Dialogs.Login.Caption=SE CONNECTER
 Editor.ControlsView.Md.Dialogs.Email.Caption=Email
-Editor.ControlsView.Md.Dialogs.Password.Caption=Password
+Editor.ControlsView.Md.Dialogs.Password.Caption=Mot de passe
 Editor.ControlsView.Md.Dialogs.Ok.Caption=OK
-Editor.ControlsView.Md.Dialogs.Dialog1.Caption=Do you want to save the changes you made to this document?
-Editor.ControlsView.Md.Dialogs.Dialog2.Caption=Delete file permanently?
-Editor.ControlsView.Md.Dialogs.Dialog2.Caption2=If you delete this file, you won't be able to recover it. Do you want to delete it?
-Editor.ControlsView.Md.Dialogs.Dialog3.Caption=MY APPLICATION
-Editor.ControlsView.Md.Views.Caption=Views
-Editor.ControlsView.Md.Views.ViewTodo.Caption=Under construction
-Editor.ControlsView.Md.Views.ViewTodo.Label=NAME - under construction
-Editor.ControlsView.Md.Views.View1LineList.Caption=One Line List
-Editor.ControlsView.Md.Views.View2LineList.Caption=Two Line List
-Editor.ControlsView.Md.Views.View3LineList.Caption=Three Line List
+Editor.ControlsView.Md.Dialogs.Dialog1.Caption=Voulez-vous enregistrer les modifications effectuées sur ce document?
+Editor.ControlsView.Md.Dialogs.Dialog2.Caption=Supprimer définitivement le fichier?
+Editor.ControlsView.Md.Dialogs.Dialog2.Caption2=Si vous supprimez ce fichier, vous ne pourrez pas le récupérer. Voulez-vous le supprimer?
+Editor.ControlsView.Md.Dialogs.Dialog3.Caption=MON APPLICATION
+Editor.ControlsView.Md.Views.Caption=Vues
+Editor.ControlsView.Md.Views.ViewTodo.Caption=En construction
+Editor.ControlsView.Md.Views.ViewTodo.Label=NOM - en construction
+Editor.ControlsView.Md.Views.View1LineList.Caption=Liste à une ligne
+Editor.ControlsView.Md.Views.View2LineList.Caption=Liste à deux lignes
+Editor.ControlsView.Md.Views.View3LineList.Caption=Liste à trois lignes
 Editor.ControlsView.Md.Images.Caption=Images
-Editor.ControlsView.Md.Icons.Caption=Icons
+Editor.ControlsView.Md.Icons.Caption=Icones
 Editor.ControlsView.Md.Icons.Action.Caption=Action
-Editor.ControlsView.Md.Icons.Alert.Caption=Alert
+Editor.ControlsView.Md.Icons.Alert.Caption=Alerte
 Editor.ControlsView.Md.Icons.Av.Caption=Av
 Editor.ControlsView.Md.Icons.Communicaiton.Caption=Communication
-Editor.ControlsView.Md.Icons.Content.Caption=Content
-Editor.ControlsView.Md.Icons.Device.Caption=Device
-Editor.ControlsView.Md.Icons.Editor.Caption=Editor
-Editor.ControlsView.Md.Icons.File.Caption=File
-Editor.ControlsView.Md.Icons.Hardware.Caption=Hardware
-Editor.ControlsView.Md.Icons.Icons.Caption=Icons
-Editor.ControlsView.Md.Icons.Maps.Caption=Maps
+Editor.ControlsView.Md.Icons.Content.Caption=Contenu
+Editor.ControlsView.Md.Icons.Device.Caption=Terminal
+Editor.ControlsView.Md.Icons.Editor.Caption=Editeur
+Editor.ControlsView.Md.Icons.File.Caption=Fichier
+Editor.ControlsView.Md.Icons.Hardware.Caption=Matériel
+Editor.ControlsView.Md.Icons.Icons.Caption=Icones
+Editor.ControlsView.Md.Icons.Maps.Caption=Cartes
 Editor.ControlsView.Md.Icons.Navigation.Caption=Navigation
 Editor.ControlsView.Md.Icons.Notification.Caption=Notification
-Editor.ControlsView.Md.Icons.Places.Caption=Places
+Editor.ControlsView.Md.Icons.Places.Caption=Lieux
 Editor.ControlsView.Md.Icons.Social.Caption=Social
-Editor.ControlsView.Md.Icons.Toggle.Caption=Toggle
+Editor.ControlsView.Md.Icons.Toggle.Caption=Bascule
 Editor.ControlsView.Md.Icons.MdUpper.Caption=MATERIAL DESIGN
 Editor.ControlsView.Md.Icons.FaUpper.Caption=FONT AWESOME
 Editor.ControlsView.Md.Icons.MdLower.Caption=Material Design
-Editor.ControlsView.Md.Icons.FaLower.Caption=Font Awesome
-Editor.ControlsView.Md.IconsFont.Caption=Font icons
+Editor.ControlsView.Md.Icons.FaLower.Caption=Font awesome
+Editor.ControlsView.Md.IconsFont.Caption=Police icones
 Editor.ControlsView.Md.IconsBitmap.Caption=Images
 Editor.ControlsView.Md.Labels.Caption=Labels
-Editor.ControlsView.Md.Lists.Caption=Lists
+Editor.ControlsView.Md.Lists.Caption=Listes
+Editor.ControlsView.Md.BottomNavigation.Caption=Navigation en bas
+Editor.ControlsView.Md.Tabs.Caption=Onglets
 Editor.ControlsView.Md.Menus.Caption=Menus
-*** @TRANS NEW
-Editor.ControlsView.Md.BottomNavigation.Caption=Bottom Navigation
-Editor.ControlsView.Md.Tabs.Caption=Tabs
-*** @TRANS END
-*** @TRANS NEW
-Editor.ControlsView.Md.Nav1.Caption=Tabs
-Editor.ControlsView.Md.Nav1.Desc=Three top-aligned top-level destinations navigation
-Editor.ControlsView.Md.Nav2.Caption=Bottom navigation bar
-Editor.ControlsView.Md.Nav2.Desc=Three bottom-aligned top-level destinations navigation
-Editor.ControlsView.Md.Nav3.Caption=Bottom navigation bar
-Editor.ControlsView.Md.Nav3.Desc=Five bottom-aligned top-level destinations navigation
-Editor.ControlsView.Md.Nav4.Caption=Vertical navigation bar
-Editor.ControlsView.Md.Nav4.Desc=Side navigation to display many navigation targets at once
-Editor.ControlsView.Md.Nav5.Caption=Vertical navigation bar
-Editor.ControlsView.Md.Nav5.Desc=Nested side navigation to display many navigation targets at once
-Editor.ControlsView.Md.Nav6.Caption=Expanding vertical navigation bar
-Editor.ControlsView.Md.Nav6.Desc=Nested side navigation to display many navigation targets at once
-*** @TRANS END
-Editor.ControlsView.Md.MenuBar.Caption=Menu bar
-Editor.ControlsView.Md.MenuBar.Desc=Menu bar provides a home for the top-level menus in your app
-Editor.ControlsView.Md.PopupMenu.Caption=Popup menu
-Editor.ControlsView.Md.PopupMenu.Desc=Popup menu allows selection of a value from a list of choices
-Editor.ControlsView.Md.Tile.Caption=Tile
-Editor.ControlsView.Md.NavBars.Caption=Navigation Bars
-Editor.ControlsView.Md.Panels.Caption=Panels
-Editor.ControlsView.Md.Panel.Caption=Panel
-Editor.ControlsView.Md.Panel.Desc=Parent layer for controls
+Editor.ControlsView.Md.Nav1.Caption=Onglets
+Editor.ControlsView.Md.Nav1.Desc=Navigation à trois destinations de niveau supérieur alignées en haut
+Editor.ControlsView.Md.Nav2.Caption=Barre de navigation en bas
+Editor.ControlsView.Md.Nav2.Desc=Navigation à trois destinations de niveau supérieur alignées en bas
+Editor.ControlsView.Md.Nav3.Caption=Barre de navigation en bas
+Editor.ControlsView.Md.Nav3.Desc=Navigation à cinq destinations de niveau supérieur alignées en bas
+Editor.ControlsView.Md.Nav4.Caption=Barre de navigation verticale
+Editor.ControlsView.Md.Nav4.Desc=Navigation sur le côté pour afficher plusieurs cibles de navigation à la fois
+Editor.ControlsView.Md.Nav5.Caption=Barre de navigation verticale
+Editor.ControlsView.Md.Nav5.Desc=Navigation imbriquées sur le côté pour afficher plusieurs cibles de navigation à la fois
+Editor.ControlsView.Md.Nav6.Caption=Barre de navigation verticale développable
+Editor.ControlsView.Md.Nav6.Desc=Navigation imbriquées sur le côté pour afficher plusieurs cibles de navigation à la fois
+Editor.ControlsView.Md.Menus.Side.Caption=Navigation latérale
+Editor.ControlsView.Md.Menus.Side.Desc=Navigation latérale vers les destinations
+Editor.ControlsView.Md.Menus.Side2.Caption=Navigation latérale
+Editor.ControlsView.Md.Menus.Side2.Desc=Navigation vers cinq destinations de haut niveau
+Editor.ControlsView.Md.MenuBar.Caption=Barre de menu
+Editor.ControlsView.Md.MenuBar.Desc=La barre de menu accueille les menus de niveau supérieur de votre application
+Editor.ControlsView.Md.PopupMenu.Caption=Menu contextuel
+Editor.ControlsView.Md.PopupMenu.Desc=Le menu contextuel permet la sélection d'une valeur dans une liste de choix
+Editor.ControlsView.Md.Tile.Caption=Mosaïque
+Editor.ControlsView.Md.NavBars.Caption=Barres de navigation
+Editor.ControlsView.Md.Panels.Caption=Panneaux  
+Editor.ControlsView.Md.Panel.Caption=Panneau
+Editor.ControlsView.Md.Panel.Desc=Couche parente des contrôles   
 Editor.ControlsView.Md.DateTime.Caption=Dates
 Editor.ControlsView.Md.Date.Caption=Date
-Editor.ControlsView.Md.Time.Caption=Time
-Editor.ControlsView.Md.CheckBox.Caption=Checkboxes
-Editor.ControlsView.Md.CheckBox1.Caption=Checkbox
-Editor.ControlsView.Md.CheckBox1.Desc=Standard Checkbox
-Editor.ControlsView.Md.RadioButton.Caption=Radio buttons
-Editor.ControlsView.Md.Switch.Caption=Switches
-Editor.ControlsView.Md.Tables.Caption=Data Tables
-Editor.ControlsView.Md.Table.Caption=Data Table
-Editor.ControlsView.Md.Table.String.Caption=String Column
-Editor.ControlsView.Md.Table.Number.Caption=Number Column
-Editor.ControlsView.Md.Table.Col.Caption=Column
-Editor.ControlsView.Md.Table.Col1.Caption=Text
+Editor.ControlsView.Md.Time.Caption=Heure
+Editor.ControlsView.Md.CheckBox.Caption=Cases à cocher
+Editor.ControlsView.Md.CheckBox1.Caption=Case à cocher
+Editor.ControlsView.Md.CheckBox1.Desc=Case à cocher standard
+Editor.ControlsView.Md.RadioButton.Caption=Case d'option 
+Editor.ControlsView.Md.Switch.Caption=Commutateurs
+Editor.ControlsView.Md.Tables.Caption=Tables de données
+Editor.ControlsView.Md.Table.Caption=Table de données
+Editor.ControlsView.Md.Table.String.Caption=Colonne chaîne
+Editor.ControlsView.Md.Table.Number.Caption=Colonne nombre
+Editor.ControlsView.Md.Table.Col.Caption=Colonne
+Editor.ControlsView.Md.Table.Col1.Caption=Texte
 Editor.ControlsView.Md.Table.Col2.Caption=No.
 Editor.ControlsView.Md.Table.Col3.Caption=Date
-Editor.ControlsView.Md.Text.Caption=Text
-Editor.ControlsView.Md.TextWithImage.Caption=Text with Icon
-Editor.ControlsView.Md.TextInput.Caption=Inputs
-Editor.ControlsView.Md.Text.Edit.Caption=Edit
-Editor.ControlsView.Md.Text.Edit.Desc=Edits allow users to input, edit, and select text
+Editor.ControlsView.Md.Text.Caption=Texte
+Editor.ControlsView.Md.TextWithImage.Caption=Texte avec icône
+Editor.ControlsView.Md.TextInput.Caption=Saisies
+Editor.ControlsView.Md.Text.Edit.Caption=Edition
+Editor.ControlsView.Md.Text.Edit.Desc=Les zones d'édition permettent aux utilisateurs de saisir, éditer, et sélectionner le texte
 Editor.ControlsView.Md.Text.Field.Caption=Edit
-Editor.ControlsView.Md.Text.FieldBox.Caption=Edit box
-Editor.ControlsView.Md.Text.FieldBox.Desc=Edit with increased identifiability
-Editor.ControlsView.Md.Text.Field.Desc=Edit allow users to input, edit, and select text
+Editor.ControlsView.Md.Text.FieldBox.Caption=Zone d'édition
+Editor.ControlsView.Md.Text.FieldBox.Desc=Edition avec identification renformée
+Editor.ControlsView.Md.Text.Field.Desc=Edit permet aux utilisateurs de saisir, éditer et sélectionner le texte
 Editor.ControlsView.Md.Text.Field.Label=Caption
 Editor.ControlsView.Md.Text.DateField.Caption=Date 
-Editor.ControlsView.Md.Text.DateField.Desc=Date allow users to input, edit, and select a date
+Editor.ControlsView.Md.Text.DateField.Desc=Date permet aux utilisateurs de saisir, éditer et sélectionner une date
 Editor.ControlsView.Md.Text.ListField.Caption=Dropdown 
-Editor.ControlsView.Md.Text.ListField.Desc=Dropdown allow users to input, edit, and select from a list of options
+Editor.ControlsView.Md.Text.ListField.Desc=Dropdown permet aux utilisateurs de saisir, éditer et sélectionner depuis une liste d'options
 Editor.ControlsView.Md.Text.SpinEditField.Caption=Spin edit 
-Editor.ControlsView.Md.Text.SpinEditField.Desc=Spin edit allow users to input, edit, and select numeric text
-Editor.ControlsView.Md.Text.Search.Caption=Search Edit
-Editor.ControlsView.Md.Text.Search.Desc=Search Edit allow users to search or filter
-Editor.ControlsView.Md.Text.MultilineField.Caption=Multi-line Edit
-Editor.ControlsView.Md.Text.MultilineField.Desc=Multi-line Edit allow users to input, edit, and select multi-line text
-Editor.ControlsView.Md.Text.Password.Caption=Password Edit
-Editor.ControlsView.Md.Text.Password.Desc=Password edit allow users to input passwords
+Editor.ControlsView.Md.Text.SpinEditField.Desc=Spin edit permet aux utilisateurs de saisir, éditer et sélectionner une donnée numérique
+Editor.ControlsView.Md.Text.Search.Caption=Edit avec recherche
+Editor.ControlsView.Md.Text.Search.Desc=Edit avec recherche permet aux utilisateurs de rechercher ou filtrer
+Editor.ControlsView.Md.Text.MultilineField.Caption=Edition multiligne
+Editor.ControlsView.Md.Text.MultilineField.Desc=Edition multiligne permet aux utilisateurs de saisir, éditer et sélectionner un texte multiligne
+Editor.ControlsView.Md.Text.Password.Caption=Mot de passe
+Editor.ControlsView.Md.Text.Password.Desc=Edition de mot de passe permet aux utilisateurs de saisir les mots de passe
 Editor.ControlsView.Md.Text.Label=Label
-Editor.ControlsView.Md.AppBar.Caption=App bars
-Editor.ControlsView.Md.AppBar.Title=Title
-Editor.ControlsView.Md.AppBar.Save=Save
-Editor.ControlsView.Md.AppBar.Search=Search
-Editor.ControlsView.Md.AppBar.Desc=Application toolbar
-Editor.ControlsView.Md.Footer.Caption=Footer
-Editor.ControlsView.Md.Footer.Desc=Bottom aligned layer
-Editor.ControlsView.Md.AppDrawer.Caption=App drawers
-Editor.ControlsView.Md.AppDrawer.Desc=The app drawer contains the navigation destinations for your app
+Editor.ControlsView.Md.AppBar.Caption=Barres d'Application
+Editor.ControlsView.Md.AppBar.Title=Titre
+Editor.ControlsView.Md.AppBar.Save=Enregistre
+Editor.ControlsView.Md.AppBar.Search=Rechercher
+Editor.ControlsView.Md.AppBar.Desc=Barre d'outils de l'application
+Editor.ControlsView.Md.Footer.Caption=Pied de page
+Editor.ControlsView.Md.Footer.Desc=Couche alignée en bas
+Editor.ControlsView.Md.AppDrawer.Caption=Tiroirs d'application
+Editor.ControlsView.Md.AppDrawer.Desc=Le tiroir d'application contient les destinations de navigation pour votre application
 Editor.ControlsView.Md.AppDrawer.User.Caption=Julie Donaldson
-Editor.ControlsView.Md.AppDrawer.View1.Caption=View 1
-Editor.ControlsView.Md.AppDrawer.View2.Caption=View 2
-Editor.ControlsView.Md.AppDrawer.View3.Caption=View 3
-Editor.ControlsView.Md.AppDrawer.View4.Caption=Settings
+Editor.ControlsView.Md.AppDrawer.View1.Caption=Vue 1
+Editor.ControlsView.Md.AppDrawer.View2.Caption=Vue 2
+Editor.ControlsView.Md.AppDrawer.View3.Caption=Vue 3
+Editor.ControlsView.Md.AppDrawer.View4.Caption=Paramètres
 Editor.ControlsView.Md.Avatar.Caption=Avatars
-Editor.ControlsView.Md.NavButton.Caption=Navigation button
-Editor.ControlsView.Md.NavButton.Desc=The navigation button controls display of your top-level views
-Editor.ControlsView.Md.NavContainer.Caption=View container
-Editor.ControlsView.Md.NavContainer.Desc=View container is used as the outer grouping component for your top-level views
-Editor.ControlsView.Md.NavTabs.Caption=Tabs
-Editor.ControlsView.Md.NavTabs.Desc=Standard tab control
-Editor.ControlsView.Md.NavTabsItems1.Caption=ITEMS 1
-Editor.ControlsView.Md.NavTabsItems2.Caption=ITEMS 2
-Editor.ControlsView.Md.NavTabsItem.Caption=ITEM
-Editor.ControlsView.Md.View.Caption=View
-Editor.ControlsView.Md.View.Desc=Content layer
+Editor.ControlsView.Md.NavButton.Caption=Bouton de navigation
+Editor.ControlsView.Md.NavButton.Desc=Le bouton de navigation contrôle l'affichage de vos vues de niveau supérieur
+Editor.ControlsView.Md.NavContainer.Caption=Conteneur de vue
+Editor.ControlsView.Md.NavContainer.Desc=Conteneur de vue utilisé comme composant de regroupement externe de vos vues de niveau supérieur
+Editor.ControlsView.Md.NavTabs.Caption=Onglets
+Editor.ControlsView.Md.NavTabs.Desc=Contrôle onglet standard
+Editor.ControlsView.Md.NavTabsItems1.Caption=ELEMENTS 1
+Editor.ControlsView.Md.NavTabsItems2.Caption=ELEMENTS 2
+Editor.ControlsView.Md.NavTabsItem.Caption=ELEMENT
+Editor.ControlsView.Md.View.Caption=Vues
+Editor.ControlsView.Md.View.Desc=Couche de contenu
 Editor.ControlsView.Avatar1.Caption=Image Avatar
-Editor.ControlsView.Avatar1.Desc=Image Avatar
-Editor.ControlsView.Avatar2.Caption=Icon Avatar
-Editor.ControlsView.Avatar2.Desc=Primary Icon Avatar
-Editor.ControlsView.Avatar3.Caption=Icon Avatar
-Editor.ControlsView.Avatar3.Desc=Accent Icon Avatar
-Editor.ControlsView.Avatar4.Caption=Initials Avatar
-Editor.ControlsView.Avatar4.Desc=Primary Initials Avatar
-Editor.ControlsView.Avatar5.Caption=Initials Avatar
-Editor.ControlsView.Avatar5.Desc=Accent Initials Avatar
-Editor.ControlsView.Badge1.Caption=Top Right Aligned
-Editor.ControlsView.Badge1.Desc=Notification Badge
-Editor.ControlsView.Badge2.Caption=Top Right Aligned
-Editor.ControlsView.Badge2.Desc=Primary Badge
-Editor.ControlsView.Badge3.Caption=Top Right Aligned
-Editor.ControlsView.Badge3.Desc=Accent Badge
-Editor.ControlsView.Badge4.Caption=Center Right Aligned
-Editor.ControlsView.Badge4.Desc=Notification Badge
-Editor.ControlsView.Badge5.Caption=Center Right Aligned
-Editor.ControlsView.Badge5.Desc=Primary Badge
-Editor.ControlsView.Badge6.Caption=Center Right Aligned
-Editor.ControlsView.Badge6.Desc=Accent Badge
-Editor.ControlsView.Badge7.Caption=Bottom Right Aligned
-Editor.ControlsView.Badge7.Desc=Notification Badge
-Editor.ControlsView.Badge8.Caption=Bottom Right Aligned
-Editor.ControlsView.Badge8.Desc=Primary Badge
-Editor.ControlsView.Badge9.Caption=Bottom Right Aligned
-Editor.ControlsView.Badge9.Desc=Accent Badge
-Editor.ControlsView.BadgeSettings.Caption=Settings
-Editor.ControlsView.Decoration.Search.Caption=Search
-Editor.ControlsView.Decoration.Search.Desc=Search image decoration
+Editor.ControlsView.Avatar1.Desc=Image de l'avatar
+Editor.ControlsView.Avatar2.Caption=Icone Avatar
+Editor.ControlsView.Avatar2.Desc=Icône primaire de l'avatar
+Editor.ControlsView.Avatar3.Caption=Icone Avatar
+Editor.ControlsView.Avatar3.Desc=Icône accentuée de l'avatar
+Editor.ControlsView.Avatar4.Caption=Initiales Avatar
+Editor.ControlsView.Avatar4.Desc=Initiales primaires de l'avatar
+Editor.ControlsView.Avatar5.Caption=Initiales Avatar
+Editor.ControlsView.Avatar5.Desc=Initiales accentuées de l'avatar
+Editor.ControlsView.Badge1.Caption=Aligné en haut droit
+Editor.ControlsView.Badge1.Desc=Badge de notification
+Editor.ControlsView.Badge2.Caption=Aligné en haut à droite
+Editor.ControlsView.Badge2.Desc=Badge primaire
+Editor.ControlsView.Badge3.Caption=Aligné en haut à droite
+Editor.ControlsView.Badge3.Desc=Badge accentué
+Editor.ControlsView.Badge4.Caption=Aligné centré à droite
+Editor.ControlsView.Badge4.Desc=Badge de notification
+Editor.ControlsView.Badge5.Caption=Aligné centré à droite
+Editor.ControlsView.Badge5.Desc=Badge primaire
+Editor.ControlsView.Badge6.Caption=Aligné centré à droite
+Editor.ControlsView.Badge6.Desc=Badge accentué
+Editor.ControlsView.Badge7.Caption=Aligné en bas à droite
+Editor.ControlsView.Badge7.Desc=Badge de notification
+Editor.ControlsView.Badge8.Caption=Aligné en bas à droite
+Editor.ControlsView.Badge8.Desc=Badge primaire
+Editor.ControlsView.Badge9.Caption=Aligné en bas à droite
+Editor.ControlsView.Badge9.Desc=Badge accentué
+Editor.ControlsView.BadgeSettings.Caption=Paramètres
+Editor.ControlsView.Decoration.Search.Caption=Rechercher
+Editor.ControlsView.Decoration.Search.Desc=Décoration image de recherche
 Editor.ControlsView.Decoration.DropDown.Caption=Dropdown
-Editor.ControlsView.Decoration.DropDown.Desc=Dropdown image decoration
+Editor.ControlsView.Decoration.DropDown.Desc=Décoration image dropdown
 Editor.ControlsView.Decoration.Image.Caption=Image
-Editor.ControlsView.Decoration.Image.Desc=Image decoration
-Editor.ControlsView.Label.Default.Text=Text
+Editor.ControlsView.Decoration.Image.Desc=Décoration image
+Editor.ControlsView.Label.Default.Text=Texte
 Editor.ControlsView.Label.Default.Caption=Standard
-Editor.ControlsView.Label.Default.Desc=Standard Text
-Editor.ControlsView.Label.Primary.Caption=Primary
-Editor.ControlsView.Label.Primary.Desc=Primary Text
-Editor.ControlsView.Label.Accent.Caption=Accent
-Editor.ControlsView.Label.Accent.Desc=Accent Text
-Editor.ControlsView.Label.Icon1.Caption=Left Aligned
-Editor.ControlsView.Label.Icon1.Desc=Left Icon and Text
-Editor.ControlsView.Label.Icon2.Caption=Left Aligned
-Editor.ControlsView.Label.Icon2.Desc=Left Text and Icon
-Editor.ControlsView.Label.Icon3.Caption=Left Aligned Heading 1
-Editor.ControlsView.Label.Icon3.Desc=Heading 1 Icon and Text
-Editor.ControlsView.Label.Icon4.Caption=Left Aligned Primary
-Editor.ControlsView.Label.Icon4.Desc=Primary Icon and Text
-Editor.ControlsView.Label.Icon5.Caption=Left Aligned Accent
-Editor.ControlsView.Label.Icon5.Desc=Accent Icon and Text
-Editor.ControlsView.Label.Icon6.Caption=Right Aligned
-Editor.ControlsView.Label.Icon6.Desc=Right Icon and Left Text
-Editor.ControlsView.Label.Icon7.Caption=Right Aligned Primary
-Editor.ControlsView.Label.Icon7.Desc=Primary Right Icon and Left Text
-Editor.ControlsView.Label.Icon8.Caption=Right Aligned Accent
-Editor.ControlsView.Label.Icon8.Desc=Accent Right Icon and Left Text
-Editor.ControlsView.Label.Icon9.Caption=Center Icon
-Editor.ControlsView.Label.Icon9.Desc=Center horizontal Icon and Text
-Editor.ControlsView.Label.Icon10.Caption=Center Icon
-Editor.ControlsView.Label.Icon10.Desc=Center horizontal Text and Icon
-Editor.ControlsView.Label.Icon11.Caption=Center Icon
-Editor.ControlsView.Label.Icon11.Desc=Center vertical Icon and Text
-Editor.ControlsView.Label.Icon12.Caption=Center Icon
-Editor.ControlsView.Label.Icon12.Desc=Center vertical Text and Icon
-Editor.ControlsView.Label.Secondary.Caption=Secondary
-Editor.ControlsView.Label.Secondary.Desc=Secondary Text
-Editor.ControlsView.Label.Title.Caption=Title
-Editor.ControlsView.Label.Title.Desc=Title Text
-Editor.ControlsView.Label.Heading1.Caption=Heading 1
-Editor.ControlsView.Label.Heading1.Desc=Heading 1 Text
-Editor.ControlsView.Label.Heading2.Caption=Heading 2
-Editor.ControlsView.Label.Heading2.Desc=Heading 2 Text
-Editor.ControlsView.Label.Heading3.Caption=Heading 3
-Editor.ControlsView.Label.Heading3.Desc=Heading 3 Text
-Editor.ControlsView.Button.Default.Text=BUTTON
-Editor.ControlsView.Button.Default.Caption=Flat Button
-Editor.ControlsView.Button.Default.Desc=Standard button
-Editor.ControlsView.Button.Raised.Text=BUTTON
-Editor.ControlsView.Button.Raised.Caption=Raised button
-Editor.ControlsView.Button.Raised.Desc=Standard Raised button
-Editor.ControlsView.Button.Primary.Text=BUTTON
-Editor.ControlsView.Button.Primary.Caption=Primary Text
-Editor.ControlsView.Button.Primary.Desc=Primary text color button
-Editor.ControlsView.Button.RaisedPrimary.Text=BUTTON
-Editor.ControlsView.Button.RaisedPrimary.Caption=Primary
-Editor.ControlsView.Button.RaisedPrimary.Desc=Primary color button
-Editor.ControlsView.Button.Accent.Text=BUTTON
-Editor.ControlsView.Button.Accent.Caption=Accent Text
-Editor.ControlsView.Button.Accent.Desc=Accent text color button
-Editor.ControlsView.Button.RaisedAccent.Text=BUTTON
-Editor.ControlsView.Button.RaisedAccent.Caption=Accent
-Editor.ControlsView.Button.RaisedAccent.Desc=Accent color button
+Editor.ControlsView.Label.Default.Desc=Texte Standard
+Editor.ControlsView.Label.Primary.Caption=Primaire
+Editor.ControlsView.Label.Primary.Desc=Texte primaire
+Editor.ControlsView.Label.Accent.Caption=Accentué
+Editor.ControlsView.Label.Accent.Desc=Texte accentué
+Editor.ControlsView.Label.Icon1.Caption=Aligné à gauche
+Editor.ControlsView.Label.Icon1.Desc=Icône à gauche et texte
+Editor.ControlsView.Label.Icon2.Caption=Aligné à gauche
+Editor.ControlsView.Label.Icon2.Desc=Texte à gauche et icône
+Editor.ControlsView.Label.Icon3.Caption=Entête 1 aligné à gauche
+Editor.ControlsView.Label.Icon3.Desc=Icône et texte entête 1
+Editor.ControlsView.Label.Icon4.Caption=Primaire aligné à gauche
+Editor.ControlsView.Label.Icon4.Desc=Icône et texte primaire
+Editor.ControlsView.Label.Icon5.Caption=Accentué aligné à gauche
+Editor.ControlsView.Label.Icon5.Desc=Icône et texte accentués
+Editor.ControlsView.Label.Icon6.Caption=Aligné à droite
+Editor.ControlsView.Label.Icon6.Desc=Icône à droite et texte à gauche
+Editor.ControlsView.Label.Icon7.Caption=Aligné à droite primaire
+Editor.ControlsView.Label.Icon7.Desc=Icône primaire à droite et texte à gauche
+Editor.ControlsView.Label.Icon8.Caption=Aligné à droite accentué
+Editor.ControlsView.Label.Icon8.Desc=Icône accentuée à droite et texte à gauche
+Editor.ControlsView.Label.Icon9.Caption=Icône au centre
+Editor.ControlsView.Label.Icon9.Desc=Icône et texte au centre horizontal
+Editor.ControlsView.Label.Icon10.Caption=Icône au centre
+Editor.ControlsView.Label.Icon10.Desc=Texte et icône au centre horizontal
+Editor.ControlsView.Label.Icon11.Caption=Icône au centre
+Editor.ControlsView.Label.Icon11.Desc=Icône et texte au centre vertical
+Editor.ControlsView.Label.Icon12.Caption=Icône au centre
+Editor.ControlsView.Label.Icon12.Desc=Texte et icône au centre vertical
+Editor.ControlsView.Label.Secondary.Caption=Secondaire
+Editor.ControlsView.Label.Secondary.Desc=Texte secondaire
+Editor.ControlsView.Label.Title.Caption=Titre
+Editor.ControlsView.Label.Title.Desc=Texte titre
+Editor.ControlsView.Label.Heading1.Caption=Entête 1
+Editor.ControlsView.Label.Heading1.Desc=Texte d'entête 1
+Editor.ControlsView.Label.Heading2.Caption=Entête 2
+Editor.ControlsView.Label.Heading2.Desc=Texte d'entête 2
+Editor.ControlsView.Label.Heading3.Caption=Entête 3
+Editor.ControlsView.Label.Heading3.Desc=Texte d'entête 3
+Editor.ControlsView.Button.Default.Text=BOUTON
+Editor.ControlsView.Button.Default.Caption=Bouton plat
+Editor.ControlsView.Button.Default.Desc=Bouton standard
+Editor.ControlsView.Button.Raised.Text=BOUTON
+Editor.ControlsView.Button.Raised.Caption=Bouton en relief
+Editor.ControlsView.Button.Raised.Desc=Bouton standard en relief
+Editor.ControlsView.Button.Primary.Text=BOUTON
+Editor.ControlsView.Button.Primary.Caption=Texte primaire
+Editor.ControlsView.Button.Primary.Desc=Bouton couleur texte primaire
+Editor.ControlsView.Button.RaisedPrimary.Text=BOUTON
+Editor.ControlsView.Button.RaisedPrimary.Caption=Primaire
+Editor.ControlsView.Button.RaisedPrimary.Desc=Bouton couleur primaire
+Editor.ControlsView.Button.Accent.Text=BOUTON
+Editor.ControlsView.Button.Accent.Caption=Texte accentué
+Editor.ControlsView.Button.Accent.Desc=Bouton couleur texte accentué
+Editor.ControlsView.Button.RaisedAccent.Text=BOUTON
+Editor.ControlsView.Button.RaisedAccent.Caption=Accentué
+Editor.ControlsView.Button.RaisedAccent.Desc=Bouton couleur accentuée
 Editor.ControlsView.Button.Action.Caption=Action
-Editor.ControlsView.Button.Action.Desc=Floating action button
-Editor.ControlsView.Button.Warning.Text=WARNING
-Editor.ControlsView.Button.Warning.Caption=Warning
-Editor.ControlsView.Button.Warning.Desc=Warning color button
-Editor.ControlsView.Button.Error.Text=ERROR
-Editor.ControlsView.Button.Error.Caption=Error
-Editor.ControlsView.Button.Error.Desc=Error color button
-Editor.ControlsView.Button.Success.Text=SUCCESS
-Editor.ControlsView.Button.Success.Caption=Success
-Editor.ControlsView.Button.Success.Desc=Success color button
-Editor.ControlsView.Button.Nav.Caption=View
+Editor.ControlsView.Button.Action.Desc=Bouton flottant
+Editor.ControlsView.Button.Warning.Text=ATTENTION
+Editor.ControlsView.Button.Warning.Caption=Attention
+Editor.ControlsView.Button.Warning.Desc=Bouton couleur attention
+Editor.ControlsView.Button.Error.Text=ERREUR
+Editor.ControlsView.Button.Error.Caption=Erreur
+Editor.ControlsView.Button.Error.Desc=Bouton couleur erreur
+Editor.ControlsView.Button.Success.Text=REUSSI
+Editor.ControlsView.Button.Success.Caption=Réussi
+Editor.ControlsView.Button.Success.Desc=Bouton couleur réussi
+Editor.ControlsView.Button.Nav.Caption=Vue
 Editor.ControlsView.Images.Png.Caption=Image
-Editor.ControlsView.Images.Png.Desc=Image control suitable for displaying Repository or File images
-Editor.ControlsView.Divider.Vertical.Caption=Vertical Divider
-Editor.ControlsView.Divider.Vertical.Desc=Divider placed along the left or right edge of content
-Editor.ControlsView.Divider.Horizontal.Caption=Horizontal Divider
-Editor.ControlsView.Divider.Horizontal.Desc=Divider placed along the top or bottom edge of content
-Editor.ControlsView.Snackbar.Sent.Caption=Message Sent
-Editor.ControlsView.Alerts.Success.Caption=Success! This Alert could indicate a successful or positive action
-Editor.ControlsView.Alerts.Info.Caption=Info! This Alert could indicate a neutral information change or action
-Editor.ControlsView.Alerts.Warning.Caption=Warning! This Alert could indicate a warning that might need attention
-Editor.ControlsView.Alerts.Error.Caption=Error! This Alert box could indicate a negative or potentially dangerous action
-Editor.ControlsView.Card1.Caption=Card1
-Editor.ControlsView.Card2.Caption=Card2
-Editor.ControlsView.Card3.Caption=Card3
-Editor.ControlsView.Card4.Caption=Card4
-Editor.ControlsView.Card5.Caption=Card5
-Editor.ControlsView.Card6.Caption=Card6
-Editor.ControlsView.Card.Primary.Caption=Primary Heading
-Editor.ControlsView.Card.Secondary.Caption=Secondary Heading
-Editor.ControlsView.Card.Subheading.Caption=Subheading
-Editor.ControlsView.Card.Share.Caption=SHARE
-Editor.ControlsView.Card.Explore.Caption=EXPLORE
-Editor.ControlsView.Card.Email.Caption=name@mail.com
-Editor.ControlsView.Card.Contact.Caption=Contact Name
+Editor.ControlsView.Images.Png.Desc=Contrôle image adapté à l'affichage d'image du référentiel ou de fichiers images
+Editor.ControlsView.Divider.Vertical.Caption=Diviseur vertical
+Editor.ControlsView.Divider.Vertical.Desc=Diviseur placé le long du bord droit ou gauche du contenu
+Editor.ControlsView.Divider.Horizontal.Caption=Diviseur horizontal
+Editor.ControlsView.Divider.Horizontal.Desc=Diviseur placé le long du bord haut ou bas du contenu
+Editor.ControlsView.Snackbar.Sent.Caption=Message envoyé
+Editor.ControlsView.Alerts.Success.Caption=Réussi! Cette alerte peut indiquer une action réussie ou positive
+Editor.ControlsView.Alerts.Info.Caption=Info! Cette alerte peut indiquer une information neutre, modification ou action
+Editor.ControlsView.Alerts.Warning.Caption=Attention! Cette alerte peut indiquer un avertissement qui peut nécessiter une attention
+Editor.ControlsView.Alerts.Error.Caption=Erreur! Cette alerte peut indiquer une action négative ou potentiellement dangereuse
+Editor.ControlsView.Card1.Caption=Carte1
+Editor.ControlsView.Card2.Caption=Carte2
+Editor.ControlsView.Card3.Caption=Carte3
+Editor.ControlsView.Card4.Caption=Carte4
+Editor.ControlsView.Card5.Caption=Carte5
+Editor.ControlsView.Card6.Caption=Carte6
+Editor.ControlsView.Card.Primary.Caption=Entête primaire
+Editor.ControlsView.Card.Secondary.Caption=Entête secondaire
+Editor.ControlsView.Card.Subheading.Caption=Sous-titre
+Editor.ControlsView.Card.Share.Caption=PARTAGER
+Editor.ControlsView.Card.Explore.Caption=EXPLORER
+Editor.ControlsView.Card.Email.Caption=nom@mail.com
+Editor.ControlsView.Card.Contact.Caption=Nom de contact
 Editor.ControlsView.Card.Phone1.Caption=(613) 555-1212
 Editor.ControlsView.Card.Phone2.Caption=(613) 222-8989
 Editor.ControlsView.Card.LoremShort.Caption=Lorem ipsum dolor sit amet, gravida ultrices, neque id, leo nonummy.
 Editor.ControlsView.Card.LoremMedium.Caption=Lorem ipsum dolor sit amet, gravida ultrices, neque id, leo nonummy. Tellus imperdiet, vivamus mi ultricies, proin varius lorem. Lorem ultricies, ut wisi. Turpis dolore. A nonummy.
-*** @TRANS NEW
-Editor.ControlsView.List.Name.Caption=Name
-*** @TRANS END
-Editor.ControlsView.List.1Line.Caption=Single line item
-Editor.ControlsView.List.2Line.Caption=Two line item
-Editor.ControlsView.List.3Line.Caption=Three line item
-Editor.ControlsView.List.1LineImage.Caption=Single line text with Image
-Editor.ControlsView.List.2LineImage.Caption=Two line image
-Editor.ControlsView.List.2LineImage.Desc=Two line text with image
-Editor.ControlsView.List.1LineAvatar.Caption=Single line text with avatar
-Editor.ControlsView.List.2LineAvatar.Caption=Two line avatar
-Editor.ControlsView.List.2LineAvatar.Desc=Two line text with avatar
-Editor.ControlsView.List.Custom1.Caption=Custom1
-Editor.ControlsView.Dialog.Alert.Caption=Alert
-Editor.ControlsView.Dialog.Alert.Desc=Alerts are urgent interruptions, requiring acknowledgement, that inform the user about a situation
+Editor.ControlsView.List.Name.Caption=Nom
+Editor.ControlsView.List.1Line.Caption=Elément d'une seule ligne
+Editor.ControlsView.List.2Line.Caption=Elément de deux lignes
+Editor.ControlsView.List.3Line.Caption=Elément de trois ligne
+Editor.ControlsView.List.1LineImage.Caption=Une ligne de texte avec image
+Editor.ControlsView.List.2LineImage.Caption=Deux lignes avec image
+Editor.ControlsView.List.2LineImage.Desc=Deux lignes de texte avec image
+Editor.ControlsView.List.1LineAvatar.Caption=Une ligne de texte avec avatar
+Editor.ControlsView.List.2LineAvatar.Caption=Deux lignes de texte avec avatar
+Editor.ControlsView.List.2LineAvatar.Desc=Deux lignes de texte avec avatar
+Editor.ControlsView.List.Custom1.Caption=Personnalisé1
+Editor.ControlsView.Dialog.Alert.Caption=Alerte
+Editor.ControlsView.Dialog.Alert.Desc=Les alertes sont des interruptions urgentes, nécessitant accusé de réception, informant l'utilisateur de la situation
 Editor.ControlsView.Dialog.Menu.Caption=Menu
-Editor.ControlsView.Dialog.Menu.Desc=Menus display options for list items, and they immediately commit choices upon selection
-Editor.ControlsView.Dialog.Dialog.Caption=Dialog
-Editor.ControlsView.Dialog.Dialog.Desc=Dialogs can provide additional details or actions about a list item
+Editor.ControlsView.Dialog.Menu.Desc=Les menus affichent les options pour des éléments de liste, et valident immédiatement les choix lors de la sélection
+Editor.ControlsView.Dialog.Dialog.Caption=Dialogue
+Editor.ControlsView.Dialog.Dialog.Desc=Les dialogues peuvent fournir des informations additionnelles ou des actions à propos d'un élément de liste
 Editor.ControlsView.Dialog.Confirmation.Caption=Confirmation
-Editor.ControlsView.Dialog.Confirmation.Desc=Confirmation dialogs require users to explicitly confirm their choice before an option is committed
-Editor.ControlsView.Dialog.Login.Caption=Login
-Editor.ControlsView.Dialog.Login.Desc=Login dialog
-Editor.ControlsView.Icon.Standard.Caption=Icon
-Editor.ControlsView.Icon.Standard.Desc=Standard icon
-Editor.ControlsView.Icon.Add.Caption=Add
-Editor.ControlsView.Icon.Add.Desc=Standard Add Icons
-Editor.ControlsView.Icon.Delete.Caption=Delete
-Editor.ControlsView.Icon.Delete.Desc=Standard Delete Icons
-Editor.ControlsView.Icon.Arrow.Caption=Arrow
-Editor.ControlsView.Icon.Arrow.Desc=Standard Arrow Icons
+Editor.ControlsView.Dialog.Confirmation.Desc=Les dialogues de confirmation demandent aux utilisateurs la confirmation explicite de leur choix avant de valider une option
+Editor.ControlsView.Dialog.Login.Caption=Connexion
+Editor.ControlsView.Dialog.Login.Desc=Dialogue de connexion
+Editor.ControlsView.Icon.Standard.Caption=Icône
+Editor.ControlsView.Icon.Standard.Desc=Icône standard
+Editor.ControlsView.Icon.Add.Caption=Ajouter
+Editor.ControlsView.Icon.Add.Desc=Icône ajouter standard  
+Editor.ControlsView.Icon.Delete.Caption=Supprimer
+Editor.ControlsView.Icon.Delete.Desc=Icônes supprimer standard
+Editor.ControlsView.Icon.Arrow.Caption=Flèche
+Editor.ControlsView.Icon.Arrow.Desc=Icônes flèche standard
 Editor.ControlsView.Icon.Web.Caption=Web
-Editor.ControlsView.Icon.Web.Desc=Standard Web Icons
-Editor.ControlsView.Icon.Primary.Caption=Primary
-Editor.ControlsView.Icon.Primary.Desc=Primary color icon
-Editor.ControlsView.Icon.Accent.Caption=Accent
-Editor.ControlsView.Icon.Accent.Desc=Accent color icon
+Editor.ControlsView.Icon.Web.Desc=Icônes web standard
+Editor.ControlsView.Icon.Primary.Caption=Primaire
+Editor.ControlsView.Icon.Primary.Desc=Icône couleur primaire
+Editor.ControlsView.Icon.Accent.Caption=Accentué
+Editor.ControlsView.Icon.Accent.Desc=Icône couleur accentuée
 Editor.ControlsView.IconAvatar.Standard.Caption=Avatar
-Editor.ControlsView.IconAvatar.Standard.Desc=Standard avatar icon
-Editor.ControlsView.IconAvatar.Primary.Caption=Primary avatar
-Editor.ControlsView.IconAvatar.Primary.Desc=Primary color avatar icon
-Editor.ControlsView.IconAvatar.Accent.Caption=Accent avatar
-Editor.ControlsView.IconAvatar.Accent.Desc=Accent color avatar icon
+Editor.ControlsView.IconAvatar.Standard.Desc=Icône avatar standard
+Editor.ControlsView.IconAvatar.Primary.Caption=Avatar primaire
+Editor.ControlsView.IconAvatar.Primary.Desc=Icône avatar couleur primaire
+Editor.ControlsView.IconAvatar.Accent.Caption=Avatar accentué
+Editor.ControlsView.IconAvatar.Accent.Desc=Icône avatar couleur accentuée
 Editor.ControlsView.Icon.File.Caption=Image
-Editor.ControlsView.Icon.File.Desc=Repository or file image
+Editor.ControlsView.Icon.File.Desc=Image référentiel ou fichier
 Editor.ControlsView.Image.Texture1.Caption=Texture 1
-Editor.ControlsView.Image.Texture1.Desc=Texture 1 Background Image
+Editor.ControlsView.Image.Texture1.Desc=Image de fond texture 1
 Editor.ControlsView.Image.Texture2.Caption=Texture 2
-Editor.ControlsView.Image.Texture2.Desc=Texture 2 Background Image
+Editor.ControlsView.Image.Texture2.Desc=Image de fond texture 2
 Editor.ControlsView.Image.Texture3.Caption=Texture 3
-Editor.ControlsView.Image.Texture3.Desc=Texture 3 Background Image
+Editor.ControlsView.Image.Texture3.Desc=Image de fond texture 3
 Editor.ControlsView.Image.Texture4.Caption=Texture 4
-Editor.ControlsView.Image.Texture4.Desc=Texture 4 Background Image
+Editor.ControlsView.Image.Texture4.Desc=Image de fond texture 4 
 Editor.ControlsView.Image.Texture5.Caption=Texture 5
-Editor.ControlsView.Image.Texture5.Desc=Texture 5 Background Image
+Editor.ControlsView.Image.Texture5.Desc=Image de fond texture 5
 Editor.ControlsView.Image.Texture6.Caption=Texture 6
-Editor.ControlsView.Image.Texture6.Desc=Texture 6 Background Image
+Editor.ControlsView.Image.Texture6.Desc=Image de fond texture 6
 Editor.ControlsView.Image.Texture7.Caption=Texture 7
-Editor.ControlsView.Image.Texture7.Desc=Texture 7 Background Image
+Editor.ControlsView.Image.Texture7.Desc=Image de fond texture 7
 Editor.ControlsView.Image.Texture8.Caption=Texture 8
-Editor.ControlsView.Image.Texture8.Desc=Texture 8 Background Image
-*** @TRANS END
+Editor.ControlsView.Image.Texture8.Desc=Image de fond texture 7
 
 Editor.Find.AvailableDesigns.Caption=Dessins disponibles
 
@@ -5000,6 +4893,4 @@ Editor.New.Function.Caption=Fonction
 Editor.New.Wam.Caption=Wam
 Editor.New.Repository.Caption=Référentiel
 
-*** @TRANS NEW
-Editor.FontIcon.Caption=Icon
-*** @TRANS END
+Editor.FontIcon.Caption=Icone

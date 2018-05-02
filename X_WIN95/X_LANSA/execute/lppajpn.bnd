@@ -2061,7 +2061,7 @@ LpPaRepFindDialog.Framework=ﾌﾚｰﾑﾜｰｸ：
 LpPaRepFindDialog.Group=ｸﾞﾙｰﾌﾟ：
 LpPaRepFindDialog.ModAfter=以降に更新：
 LpPaRepFindDialog.ModBefore=以前に更新：
-LpPaRepFindDialog.TargetPlatform=ﾀｰｹﾞｯﾄﾌﾟﾗｯﾄﾌｫｰﾑ：
+LpPaRepFindDialog.TargetPlatform=ターゲット：
 LpPaRepFindDialog.VcsState=バージョン コントロール状態:
 LpPaRepFindDialog.VcsGitState=Git 状態:
 LpPaRepFindDialog.SaveDlgCaption=結果の保存
@@ -3339,6 +3339,9 @@ Editor.Home.Recent.Caption=最近の Web アプリケーション
 Editor.Home.ContactUs.Caption=問い合わせ
 Editor.Home.Welcome.Caption=ようこそ画面
 Editor.Home.Samples.Caption=サンプル
+*** @TRANS NEW
+Editor.Home.Feedback.Caption=Give Feedback
+*** @TRANS END
 Editor.Home.Education.Caption=教育
 Editor.Home.DevCenter.Caption=開発者センター
 Editor.Home.Web.Caption=Web ブラウザとモバイル アプリケーションの作成

@@ -6985,18 +6985,6 @@ PRIM_LIBI.ICommonStringIntrinsics_Compare.CompareKind.Desc=Determines how the va
 PRIM_LIBI.ICommonStringIntrinsics_Compare.IgnoreCase.Name=IgnoreCase parameter
 PRIM_LIBI.ICommonStringIntrinsics_Compare.IgnoreCase.Desc=Ignore case when comparing the values
  
-PRIM_LIBI.ICommonStringIntrinsics_ComputeHash.Name=ComputeHash method
-PRIM_LIBI.ICommonStringIntrinsics_ComputeHash.Desc=Calculate a hash value
- 
-PRIM_LIBI.ICommonStringIntrinsics_ComputeHash.Result.Name=Result parameter
-PRIM_LIBI.ICommonStringIntrinsics_ComputeHash.Result.Desc=Resulting hash value
- 
-PRIM_LIBI.ICommonStringIntrinsics_ComputeHash.Usage.Name=Usage parameter
-PRIM_LIBI.ICommonStringIntrinsics_ComputeHash.Usage.Desc=Specifies how the Hash is used
- 
-PRIM_LIBI.ICommonStringIntrinsics_ComputeHash.Algorithm.Name=Algorithm parameter
-PRIM_LIBI.ICommonStringIntrinsics_ComputeHash.Algorithm.Desc=Hashing algorith to be used
- 
 PRIM_LIBI.ICommonStringIntrinsics_Concat.Name=Concat method
 PRIM_LIBI.ICommonStringIntrinsics_Concat.Desc=Concatenate strings ignoring trailing spaces
  
@@ -7119,21 +7107,6 @@ PRIM_LIBI.ICommonStringIntrinsics_IsDbcs.Desc=Test if the string is DBCS
  
 PRIM_LIBI.ICommonStringIntrinsics_IsDbcs.Result.Name=Result parameter
 PRIM_LIBI.ICommonStringIntrinsics_IsDbcs.Result.Desc=True if it is DBCS
- 
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Name=IsHashEqual method
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Desc=Does the has value match the derived value
- 
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Result.Name=Result parameter
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Result.Desc=True if the values are equal
- 
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Hash.Name=Hash parameter
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Hash.Desc=Value to be hashed
- 
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Usage.Name=Usage parameter
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Usage.Desc=Specifies how the Hash is used
- 
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Algorithm.Name=Algorithm parameter
-PRIM_LIBI.ICommonStringIntrinsics_IsHashEqual.Algorithm.Desc=Hashing algorithm to be used
  
 PRIM_LIBI.ICommonStringIntrinsics_IsMatch.Name=IsMatch method
 PRIM_LIBI.ICommonStringIntrinsics_IsMatch.Desc=Does the string match the regular expression
@@ -7825,18 +7798,6 @@ PRIM_LIBI.ICompatibleUnicodeIntrinsics_Compare.CompareKind.Desc=Determines how t
 PRIM_LIBI.ICompatibleUnicodeIntrinsics_Compare.IgnoreCase.Name=IgnoreCase parameter
 PRIM_LIBI.ICompatibleUnicodeIntrinsics_Compare.IgnoreCase.Desc=Ignore case when comparing the values
  
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_ComputeHash.Name=ComputeHash method
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_ComputeHash.Desc=Calculate a hash value
- 
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_ComputeHash.Result.Name=Result parameter
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_ComputeHash.Result.Desc=Resulting hash value
- 
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_ComputeHash.Usage.Name=Usage parameter
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_ComputeHash.Usage.Desc=Specifies how the Hash is used
- 
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_ComputeHash.Algorithm.Name=Algorithm parameter
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_ComputeHash.Algorithm.Desc=Hashing algorith to be used
- 
 PRIM_LIBI.ICompatibleUnicodeIntrinsics_Concat.Name=Concat method
 PRIM_LIBI.ICompatibleUnicodeIntrinsics_Concat.Desc=Concatenate strings ignoring trailing spaces
  
@@ -8031,21 +7992,6 @@ PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsGregorianYearMonth.Desc=Test if the var
  
 PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsGregorianYearMonth.Result.Name=Result parameter
 PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsGregorianYearMonth.Result.Desc=True if the string is a valid Gregorian Year Month
- 
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Name=IsHashEqual method
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Desc=Does the hash value match the derived value
- 
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Result.Name=Result parameter
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Result.Desc=True if the values are equal
- 
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Hash.Name=Hash parameter
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Hash.Desc=Value to be hashed
- 
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Usage.Name=Usage parameter
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Usage.Desc=Specifies how the Hash is used
- 
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Algorithm.Name=Algorithm parameter
-PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsHashEqual.Algorithm.Desc=Hashing algorith to be used
  
 PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsMatch.Name=IsMatch method
 PRIM_LIBI.ICompatibleUnicodeIntrinsics_IsMatch.Desc=Does the string match the regular expression
@@ -10579,18 +10525,6 @@ PRIM_LIBI.IUnicodeIntrinsics_Compare.CompareKind.Desc=Determines how the values 
 PRIM_LIBI.IUnicodeIntrinsics_Compare.IgnoreCase.Name=IgnoreCase parameter
 PRIM_LIBI.IUnicodeIntrinsics_Compare.IgnoreCase.Desc=Ignore case when comparing the values
  
-PRIM_LIBI.IUnicodeIntrinsics_ComputeHash.Name=ComputeHash method
-PRIM_LIBI.IUnicodeIntrinsics_ComputeHash.Desc=Calculate a hash value
- 
-PRIM_LIBI.IUnicodeIntrinsics_ComputeHash.Result.Name=Result parameter
-PRIM_LIBI.IUnicodeIntrinsics_ComputeHash.Result.Desc=Resulting hash value
- 
-PRIM_LIBI.IUnicodeIntrinsics_ComputeHash.Usage.Name=Usage parameter
-PRIM_LIBI.IUnicodeIntrinsics_ComputeHash.Usage.Desc=Specifies how the Hash is used
- 
-PRIM_LIBI.IUnicodeIntrinsics_ComputeHash.Algorithm.Name=Algorithm parameter
-PRIM_LIBI.IUnicodeIntrinsics_ComputeHash.Algorithm.Desc=Hashing algorith to be used
- 
 PRIM_LIBI.IUnicodeIntrinsics_Concat.Name=Concat method
 PRIM_LIBI.IUnicodeIntrinsics_Concat.Desc=Concatenate strings ignoring trailing spaces
  
@@ -10773,21 +10707,6 @@ PRIM_LIBI.IUnicodeIntrinsics_IsGregorianYearMonth.Desc=Test if the variable is a
  
 PRIM_LIBI.IUnicodeIntrinsics_IsGregorianYearMonth.Result.Name=Result parameter
 PRIM_LIBI.IUnicodeIntrinsics_IsGregorianYearMonth.Result.Desc=True if the string is a valid Gregorian Year Month
- 
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Name=IsHashEqual method
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Desc=Does the hash value match the derived value
- 
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Result.Name=Result parameter
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Result.Desc=True if the values are equal
- 
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Hash.Name=Hash parameter
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Hash.Desc=Value to be hashed
- 
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Usage.Name=Usage parameter
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Usage.Desc=Specifies how the Hash is used
- 
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Algorithm.Name=Algorithm parameter
-PRIM_LIBI.IUnicodeIntrinsics_IsHashEqual.Algorithm.Desc=Hashing algorith to be used
  
 PRIM_LIBI.IUnicodeIntrinsics_IsMatch.Name=IsMatch method
 PRIM_LIBI.IUnicodeIntrinsics_IsMatch.Desc=Does the string match the regular expression
@@ -13657,6 +13576,9 @@ PRIM_MD.ActionButton_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ActionButton_IconOpacity.Name=IconOpacity property
 PRIM_MD.ActionButton_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ActionButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_MD.ActionButton_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
 PRIM_MD.ActionButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.ActionButton_PaddingBottom.Desc=Bottom padding in pixels
  
@@ -13722,6 +13644,9 @@ PRIM_MD.Alert_IconAlignment.Desc=Position of the icon within the control
  
 PRIM_MD.Alert_IconColor.Name=IconColor property
 PRIM_MD.Alert_IconColor.Desc=Color to be applied to the icon
+ 
+PRIM_MD.Alert_IconFileName.Name=IconFileName property
+PRIM_MD.Alert_IconFileName.Desc=FileName is the name of image file
  
 PRIM_MD.Alert_IconHeight.Name=IconHeight property
 PRIM_MD.Alert_IconHeight.Desc=Height of the icon in pixels
@@ -13809,6 +13734,9 @@ PRIM_MD.AppBar_IconClick.Handled.Desc=Set to true to stop the event being propag
  
 PRIM_MD.AppBar_IconColor.Name=IconColor property
 PRIM_MD.AppBar_IconColor.Desc=Color to be applied to the icon
+ 
+PRIM_MD.AppBar_IconFileName.Name=IconFileName property
+PRIM_MD.AppBar_IconFileName.Desc=FileName is the name of image file
  
 PRIM_MD.AppBar_IconHeight.Name=IconHeight property
 PRIM_MD.AppBar_IconHeight.Desc=Height of the icon in pixels
@@ -13971,6 +13899,15 @@ PRIM_MD.DateTime_MaxDate.Desc=Latest date to be show in the calendar
  
 PRIM_MD.DateTime_MinDate.Name=MinDate property
 PRIM_MD.DateTime_MinDate.Desc=Earliest date to be show in the calendar
+ 
+PRIM_MD.DateTime_Prompting.Name=Prompting event
+PRIM_MD.DateTime_Prompting.Desc=Fired when prompt icon is pressed
+ 
+PRIM_MD.DateTime_Prompting.Origin.Name=Origin parameter
+PRIM_MD.DateTime_Prompting.Origin.Desc=Reference to the control on which the event was initially fired
+ 
+PRIM_MD.DateTime_Prompting.Handled.Name=Handled parameter
+PRIM_MD.DateTime_Prompting.Handled.Desc=Set to true to stop the key being processed automatically
  
 PRIM_MD.DateTime_PromptOnly.Name=PromptOnly property
 PRIM_MD.DateTime_PromptOnly.Desc=Only allow input via the date picker
@@ -14173,6 +14110,15 @@ PRIM_MD.Dropdown_OpenDropDown.Desc=Forces the list portion of a DropDown to be s
 PRIM_MD.Dropdown_PasswordChar.Name=PasswordChar property
 PRIM_MD.Dropdown_PasswordChar.Desc=Character to use to mask the data being entered
  
+PRIM_MD.Dropdown_Prompting.Name=Prompting event
+PRIM_MD.Dropdown_Prompting.Desc=Fired when prompt icon is pressed
+ 
+PRIM_MD.Dropdown_Prompting.Origin.Name=Origin parameter
+PRIM_MD.Dropdown_Prompting.Origin.Desc=Reference to the control on which the event was initially fired
+ 
+PRIM_MD.Dropdown_Prompting.Handled.Name=Handled parameter
+PRIM_MD.Dropdown_Prompting.Handled.Desc=Set to true to stop the key being processed automatically
+ 
 PRIM_MD.Dropdown_PromptOnly.Name=PromptOnly property
 PRIM_MD.Dropdown_PromptOnly.Desc=Only allow input via the prompter
  
@@ -14301,6 +14247,9 @@ PRIM_MD.DropdownItems.Desc=Collection of items in the dropdown
  
 PRIM_MD.DropdownItems_Add.Name=Add method
 PRIM_MD.DropdownItems_Add.Desc=Add an item to the dropdown
+ 
+PRIM_MD.DropdownItems_Add.Result.Name=Result parameter
+PRIM_MD.DropdownItems_Add.Result.Desc=Reference to the new item instance
  
 PRIM_MD.DropdownItems_Add.Value.Name=Value parameter
 PRIM_MD.DropdownItems_Add.Value.Desc=Underlying value for the item
@@ -14433,6 +14382,15 @@ PRIM_MD.Edit_PromptIconImageSizing.Desc=Specifies the sizing behaviour of the Pr
  
 PRIM_MD.Edit_PromptIconOpacity.Name=PromptIconOpacity property
 PRIM_MD.Edit_PromptIconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_MD.Edit_Prompting.Name=Prompting event
+PRIM_MD.Edit_Prompting.Desc=Fired when prompt icon is pressed
+ 
+PRIM_MD.Edit_Prompting.Origin.Name=Origin parameter
+PRIM_MD.Edit_Prompting.Origin.Desc=Reference to the control on which the event was initially fired
+ 
+PRIM_MD.Edit_Prompting.Handled.Name=Handled parameter
+PRIM_MD.Edit_Prompting.Handled.Desc=Set to true to stop the key being processed automatically
  
 PRIM_MD.Edit_PromptOnly.Name=PromptOnly property
 PRIM_MD.Edit_PromptOnly.Desc=Only allow input via the prompter
@@ -14694,15 +14652,6 @@ PRIM_MD.Input_Placeholder.Desc=Text to be shown when the edit has no value
  
 PRIM_MD.Input_PlaceholderColor.Name=PlaceholderColor property
 PRIM_MD.Input_PlaceholderColor.Desc=Color of the placeholder text
- 
-PRIM_MD.Input_Prompting.Name=Prompting event
-PRIM_MD.Input_Prompting.Desc=Fired when the prompt icon is clicked
- 
-PRIM_MD.Input_Prompting.Origin.Name=Origin parameter
-PRIM_MD.Input_Prompting.Origin.Desc=Reference to the control on which the event was initially fired
- 
-PRIM_MD.Input_Prompting.Handled.Name=Handled parameter
-PRIM_MD.Input_Prompting.Handled.Desc=Set to true to stop the event being propagated to the parent control
  
 PRIM_MD.Input_ShowError.Name=ShowError method
 PRIM_MD.Input_ShowError.Desc=Set the field in error
@@ -15790,6 +15739,9 @@ PRIM_MD.ListSpinEditCurrentItem_Caption.Desc=Text to be shown within the control
 PRIM_MD.ListSpinEditCurrentItem_CaptionPosition.Name=CaptionPosition property
 PRIM_MD.ListSpinEditCurrentItem_CaptionPosition.Desc=Sets the position of Caption
  
+PRIM_MD.ListSpinEditCurrentItem_HasSelection.Name=HasSelection property
+PRIM_MD.ListSpinEditCurrentItem_HasSelection.Desc=True if some of the editable text is selected
+ 
 PRIM_MD.ListSpinEditCurrentItem_HelperPosition.Name=HelperPosition property
 PRIM_MD.ListSpinEditCurrentItem_HelperPosition.Desc=Position where the helper text will be displayed
  
@@ -15817,11 +15769,50 @@ PRIM_MD.ListSpinEditCurrentItem_IconImageSizing.Desc=Specifies the sizing behavi
 PRIM_MD.ListSpinEditCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListSpinEditCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListSpinEditCurrentItem_Increment.Name=Increment property
+PRIM_MD.ListSpinEditCurrentItem_Increment.Desc=Increment specifies how the spin buttons adjust the value
+ 
 PRIM_MD.ListSpinEditCurrentItem_Placeholder.Name=Placeholder property
 PRIM_MD.ListSpinEditCurrentItem_Placeholder.Desc=Text to be shown when the edit has no value
  
 PRIM_MD.ListSpinEditCurrentItem_PlaceholderColor.Name=PlaceholderColor property
 PRIM_MD.ListSpinEditCurrentItem_PlaceholderColor.Desc=Color of the placeholder text
+ 
+PRIM_MD.ListSpinEditCurrentItem_PromptIcon.Name=PromptIcon property
+PRIM_MD.ListSpinEditCurrentItem_PromptIcon.Desc=Image displayed within the input
+ 
+PRIM_MD.ListSpinEditCurrentItem_PromptIconColor.Name=PromptIconColor property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconColor.Desc=Color to be applied to the icon
+ 
+PRIM_MD.ListSpinEditCurrentItem_PromptIconFileName.Name=PromptIconFileName property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconFileName.Desc=FileName is the name of image file
+ 
+PRIM_MD.ListSpinEditCurrentItem_PromptIconHeight.Name=PromptIconHeight property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_MD.ListSpinEditCurrentItem_PromptIconImage.Name=PromptIconImage property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconImage.Desc=Image to show on the control
+ 
+PRIM_MD.ListSpinEditCurrentItem_PromptIconImageSizing.Name=PromptIconImageSizing property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconImageSizing.Desc=Specifies the sizing behaviour of the PromptIconImage
+ 
+PRIM_MD.ListSpinEditCurrentItem_PromptIconOpacity.Name=PromptIconOpacity property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_MD.ListSpinEditCurrentItem_PromptOnly.Name=PromptOnly property
+PRIM_MD.ListSpinEditCurrentItem_PromptOnly.Desc=Only allow input via the up and down arrows
+ 
+PRIM_MD.ListSpinEditCurrentItem_ReadOnly.Name=ReadOnly property
+PRIM_MD.ListSpinEditCurrentItem_ReadOnly.Desc=ReadOnly controls whether a component can be used for input
+ 
+PRIM_MD.ListSpinEditCurrentItem_SelectionEnd.Name=SelectionEnd property
+PRIM_MD.ListSpinEditCurrentItem_SelectionEnd.Desc=Position in the value that selection ends
+ 
+PRIM_MD.ListSpinEditCurrentItem_SelectionStart.Name=SelectionStart property
+PRIM_MD.ListSpinEditCurrentItem_SelectionStart.Desc=Position in the value that selection starts
+ 
+PRIM_MD.ListSpinEditCurrentItem_Value.Name=Value property
+PRIM_MD.ListSpinEditCurrentItem_Value.Desc=Value sets or retrieves the spin edit value
  
 PRIM_MD.ListSwitch.Name=List Switch control
 PRIM_MD.ListSwitch.Desc=Switch that is repeated for each entry in the list
@@ -16081,6 +16072,9 @@ PRIM_MD.RaisedButton_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.RaisedButton_IconOpacity.Name=IconOpacity property
 PRIM_MD.RaisedButton_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.RaisedButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_MD.RaisedButton_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
 PRIM_MD.RaisedButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.RaisedButton_PaddingBottom.Desc=Bottom padding in pixels
  
@@ -16176,6 +16170,15 @@ PRIM_MD.SpinEdit_PromptIconImageSizing.Desc=Specifies the sizing behaviour of th
  
 PRIM_MD.SpinEdit_PromptIconOpacity.Name=PromptIconOpacity property
 PRIM_MD.SpinEdit_PromptIconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_MD.SpinEdit_Prompting.Name=Prompting event
+PRIM_MD.SpinEdit_Prompting.Desc=Fired when prompt icon is pressed
+ 
+PRIM_MD.SpinEdit_Prompting.Origin.Name=Origin parameter
+PRIM_MD.SpinEdit_Prompting.Origin.Desc=Reference to the control on which the event was initially fired
+ 
+PRIM_MD.SpinEdit_Prompting.Handled.Name=Handled parameter
+PRIM_MD.SpinEdit_Prompting.Handled.Desc=Set to true to stop the key being processed automatically
  
 PRIM_MD.SpinEdit_PromptOnly.Name=PromptOnly property
 PRIM_MD.SpinEdit_PromptOnly.Desc=Only allow input via the up and down arrows

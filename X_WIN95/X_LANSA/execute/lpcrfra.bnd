@@ -234,14 +234,8 @@ DisplayName.DBDiagram=Diagramme de base de données
 DisplayName.DBDiagramNote=Note de diagramme de base de données
 DisplayName.JobItem=Elément de travail
 DisplayName.JobList=Liste de travaux
-*** @TRANS OLD
-*** DisplayName.LogicalFile=Fichier logique
-*** @TRANS NEW
 DisplayName.LogicalFile=Index
-*** @TRANS OLD
-*** DisplayName.LogicalFileField=Zone de fichier logique
-*** @TRANS NEW
-DisplayName.LogicalFileField=Index Column
+DisplayName.LogicalFileField=Colonne d'index
 DisplayName.SecurityInfo=Info de sécurité
 DisplayName.Provider=Fournisseur
 DisplayName.TechService=Service technologique
@@ -251,22 +245,18 @@ DisplayName.WebletTemplate=Modèle de weblet
 DisplayName.WebComponent=Composant Web
 DisplayName.ExternalResource=Ressource externe
 DisplayName.FolderNone=Aucun 
-DisplayName.FolderPartitionObject=Dossier Object de la Partition
-DisplayName.FolderPartitionSource=Dossier Source de la Partition
-DisplayName.FolderPartitionExecute=Dossier Execute de la Partition
-DisplayName.FolderPartitionVlWeb=Partition VL-Web
-*** @TRANS ADD
-DisplayName.FolderPartitionCSP=Partition CSP
-*** @TRANS END
+DisplayName.FolderPartitionObject=Dossier Object de la partition
+DisplayName.FolderPartitionSource=Dossier Source de la partition
+DisplayName.FolderPartitionExecute=Dossier Execute de la partition
+DisplayName.FolderPartitionVlWeb=Dossier VL-Web de la partition
+DisplayName.FolderPartitionCSP=Dossier CSP de la partition
 DisplayName.FolderWebImages=Dossier des Images Web
 DisplayName.SystemInformation=Informations système
-*** @TRANS ADD
-DisplayName.WebFolderViews=Views
-DisplayName.WebFolderDialogs=Dialogs
-DisplayName.WebFolderServerModules=Server Modules
-DisplayName.WebFolderParts=Reusable Parts
-DisplayName.WebFolderResources=Resources
-*** @TRANS END
+DisplayName.WebFolderViews=Vues
+DisplayName.WebFolderDialogs=Dialogues
+DisplayName.WebFolderServerModules=Modules serveur
+DisplayName.WebFolderParts=Eléments réutilisables
+DisplayName.WebFolderResources=Ressources
 
 **********************************************
 ***** Exception Error Text             *******
@@ -626,10 +616,7 @@ MaxNumericDigits=La valeur &1 dépasse le nombre maximum de positions autorisées 
 MaxNumericDigits.Id=169
 MaxNumericDecimals=La valeur &1 dépasse le nombre maximum de décimales autorisées pour un nombre. Le maximum est &2.
 MaxNumericDecimals.Id=170
-*** @TRANS OLD
-*** RDMLXInvalidFile=RDMLX intégral non activé. Le fichier RDMLX &1 ne peut pas être utilisé.
-*** @TRANS NEW
-RDMLXInvalidFile=Full RDMLX is not enabled. RDMLX Table &1 cannot be used.
+RDMLXInvalidFile=RDMLX intégral non activé. La Table RDMLX &1 ne peut pas être utilisée.
 RDMLXInvalidFile.Id=171
 RDMLXInvalidField=RDMLX intégral non activé. La zone RDMLX &1 ne peut pas être utilisée.
 RDMLXInvalidField.Id=172
@@ -651,10 +638,7 @@ MsgFileMissing=Paramètre MSGDTA précisé mais pas de paramètre MSGF défini.
 MsgFileMissing.Id=180
 MsgIdMissing=Paramètre MSGDTA précisé mais pas de paramètre MSGID défini..
 MsgIdMissing.Id=181
-*** @TRANS OLD
-*** RDMLXLOBFieldInFile=Le fichier physique &1 contient des zones BLOB/CLOB qui l'obligent à utiliser SQL sur iSeries. Il est recommandé d'utiliser un fichier logique pour y accéder pour pouvoir utiliser des I/O natives iSeries.
-*** @TRANS NEW
-RDMLXLOBFieldInFile=Table &1 contains BLOB/CLOB fields that will force this I/O to use SQL on the IBM i. It is recommended practice that this access uses an index so IBM i Native I/O can be used.
+RDMLXLOBFieldInFile=La Table &1 contient des zones BLOB/CLOB qui obligent ces I/O à utiliser SQL sur IBM i. Il est recommandé d'utiliser un index pour cet accès pour pouvoir utiliser des I/O natives iSeries.
 RDMLXLOBFieldInFile.Id=182
 RDMLXInvalidLOBUsage=Le type de zone &1 n'est pas supporté utilisé dans l'expression &2. Le type de zone ne peut être comparé à *SQLNULL.
 RDMLXInvalidLOBUsage.Id=183
@@ -750,39 +734,21 @@ GroupByNotAllowed=L'identifiant de groupby, liste ou état &1 ne peut pas être ut
 GroupByNotAllowed.Id=228
 FieldHidesIdentifier=Le nom de zone &1 remplace la définition de groupby, liste ou état de même nom.
 FieldHidesIdentifier.Id=229
-*** @TRANS OLD
-*** RDMLXExpressionLengthCheck=Le résultat de l'exécution de l'expression &1 sera examinée pour vérifier qu'elle correspond la zone clé du fichier &2 (longueur maximum &3).
-*** @TRANS NEW
-RDMLXExpressionLengthCheck=The result of executing expression &1 will be checked to ensure it matches table key &2 (maximum length of &3).
+RDMLXExpressionLengthCheck=Le résultat de l'exécution de l'expression &1 sera examinée pour vérifier qu'elle correspond à la clé &2 de la table (longueur maximum &3).
 RDMLXExpressionLengthCheck.Id=230
-*** @TRANS OLD
-*** InvalidAlphanumericLength=L'expression alphanumérique &1 ne correspond pas à la zone clé de fichier &2. Longueur maximum &3.
-*** @TRANS NEW
-InvalidAlphanumericLength=Alphanumeric expression &1 does not match requirements of table key &2. Maximum length is &3.
+InvalidAlphanumericLength=L'expression alphanumérique &1 ne correspond pas à la clé &2 de la table. Longueur maximum &3.
 InvalidAlphanumericLength.Id=231
-*** @TRANS OLD
-*** InvalidNumericLength=L'expression numérique &1 ne correspond pas à la zone clé de fichier &2. Longueur maximum &3.
-*** @TRANS NEW
-InvalidNumericLength=Numeric expression &1 does not match requirements of table key &2. Maximum length is &3.
+InvalidNumericLength=L'expression numérique &1 ne correspond pas à la clé &2 de la table. Longueur maximum &3.
 InvalidNumericLength.Id=232
-*** @TRANS OLD
-*** RDMLXExpressionDecimalsCheck=Le résultat de l'exécution de l'expression &1 sera examinée pour vérifier qu'elle correspond la zone clé du fichier &2 (décimales maximum &3).
-*** @TRANS NEW
-RDMLXExpressionDecimalsCheck=The result of executing expression &1 will be checked to ensure it matches table key &2 (maximum decimals of &3).
+RDMLXExpressionDecimalsCheck=Le résultat de l'exécution de l'expression &1 sera examinée pour vérifier qu'elle correspond à la clé &2 de la table (décimales maximum &3).
 RDMLXExpressionDecimalsCheck.Id=233
-*** @TRANS OLD
-*** InvalidNumericDecimals=L'expression numérique &1 ne correspond pas à la zone clé de fichier &2. Décimales maximum &3.
-*** @TRANS NEW
-InvalidNumericDecimals=Numeric expression &1 does not match requirements of table key &2. Maximum decimals is &3.
+InvalidNumericDecimals=L'expression numérique &1 ne correspond pas à la clé &2 de la table. Décimales maximum &3.
 InvalidNumericDecimals.Id=234
 GroupByFollowedInList=&1 identifie un Group_By, Def_List, etc suivi par d'autres entrées dans la liste des zones.
 GroupByFollowedInList.Id=235
 GroupByNotFirstInList=&1 identifie un Group_By, Def_List, etc qui n'est pas la première entrée dans la liste des zones.
 GroupByNotFirstInList.Id=236
-*** @TRANS OLD
-*** NoCorrespondingKeyInFile=La valeur &1 ne correspond pas a une clé du fichier &2.
-*** @TRANS NEW
-NoCorrespondingKeyInFile=Value &1 does not have a corresponding key in table &2.
+NoCorrespondingKeyInFile=La valeur &1 ne correspond pas a une clé de la table &2.
 NoCorrespondingKeyInFile.Id=237
 RecommendExpandableGroupAndLOBInFile=L'identifiant &1 a une zone de type BLOB/CLOB. Pour des raisons de performance, il est recommandé de ne pas utiliser *ALL, *ALL_REAL ou *ALL_VIRT avec les fichiers contenant des zones de type LOB.
 RecommendExpandableGroupAndLOBInFile.Id=238
@@ -1022,10 +988,7 @@ RDMLXInvalidDateFormat=Le format de date &1 n'est pas autorisé pour les zones Da
 RDMLXInvalidDateFormat.Id=355
 RDMLXUnsupportedFieldType=L'expression &1 identifie une zone RDMLX intégral et son type de zone n'est pas supporté par cette commande.
 RDMLXUnsupportedFieldType.Id=356
-*** @TRANS OLD
-*** FileNotFound=Fichier &1 non trouvé.
-*** @TRANS NEW
-FileNotFound=Table &1 not found.
+FileNotFound=Table &1 non trouvée.
 FileNotFound.Id=357
 RangeValueAssumed=Intervalle de valeurs non défini en colonne &1 - *NULL utilisé.
 RangeValueAssumed.Id=358
@@ -1113,10 +1076,7 @@ RemoteSystemVariable=La variable système &1 est située sur le serveur distant. E
 RemoteSystemVariable.Id=399
 InvalidNumericLiteral=Le littéral préfixé par un nombre &1 n'est pas un nombre valide.
 InvalidNumericLiteral.Id=400
-*** @TRANS OLD
-*** FileIoWithGt100Fields=Le fichier &1 ne supporte pas RDMLX intégral et vous essayer de lire plus de 100 zones. La commande se terminera en erreur lors de l'exécution si le fichier est lu sur un iSeries.
-*** @TRANS NEW
-FileIoWithGt100Fields=Table &1 does not support Full RDMLX and is being accessed for more than 100 columns. This database command will fail at runtime if the table is accessed on an IBM i.
+FileIoWithGt100Fields=La Table &1 ne supporte pas RDMLX intégral et est accédée pour plus de 100 colonnes. Cette commande se terminera en erreur lors de l'exécution si le fichier est lu sur un IBM i.
 FileIoWithGt100Fields.Id=401
 RangeValueMissing=Valeur d'intervalle non disponible pour la colonne &1.
 RangeValueMissing.Id=402
@@ -1134,27 +1094,15 @@ NameConflictWithRepComponent=Le nom de variable &1 a déjà été utilisée pour iden
 NameConflictWithRepComponent.Id=408
 NameConflictWithRepField=Le nom de variable &1 a déjà été utilisée pour identifier une zone dans votre référentiel. Certaines commandes RDML risquent d'interpréter ce nom comme une zone du référentiel. Continuer à utiliser ce nom peut générer des erreurs de compilation par la suite.
 NameConflictWithRepField.Id=409
-*** @TRANS OLD
-*** RemoteFile=Le fichier &1 est un fichier du système distant. Il doit être extrait avant de pouvoir générer cet objet.
-*** @TRANS NEW
-RemoteFile=Table &1 is remotely located. It needs to be checked out before this object can be built.
+RemoteFile=La table &1 est accédée à distance. Elle doit être extraite avant de pouvoir générer cet objet.
 RemoteFile.Id=410
-*** @TRANS OLD
-*** InvalidNumericByteLength=L'expression numérique &1 ne correspond pas aux caractéristiques de la zone clé &2 du fichier. Longueur maximum &3 octets.
-*** @TRANS NEW
-InvalidNumericByteLength=Numeric expression &1 does not match requirements of table key &2. Maximum byte length is &3.
+InvalidNumericByteLength=L'expression numérique &1 ne correspond pas aux caractéristiques de la clé &2 de la table. Longueur maximum &3 octets.
 InvalidNumericByteLength.Id=411
 FloatAndWithKeyUsage=L'expression &1 pour la clé &2 produit une valeur flottante. Les valeurs flottantes sont inexactes, les données attendues peuvent ne pas être trouvées. Evitez d'utiliser ce type de valeurs si possible, sinon tester minutieusement les valeurs attendues.
 FloatAndWithKeyUsage.Id=412
-*** @TRANS OLD
-*** InvalidIntegerLength=L'expression numérique &1 ne correspond pas aux caractéristiques de la zone clé &2 du fichier. Longueur maximum d'un entier &3 octets.
-*** @TRANS NEW
-InvalidIntegerLength=Numeric expression &1 does not match requirements of table key &2. Maximum integer length is &3 bytes.
+InvalidIntegerLength=L'expression numérique &1 ne correspond pas aux caractéristiques de la clé &2 de la table. Longueur maximum d'un entier &3 octets.
 InvalidIntegerLength.Id=413
-*** @TRANS OLD
-*** RDMLXExpressionIntegerLengthCheck=Le résultat de l'exécution de l'expression &1 sera vérifié pour s'assurer qu'il corresponde à la zone clé &2 du fichier (Longueur maximum d'un entier &3 octets).
-*** @TRANS NEW
-RDMLXExpressionIntegerLengthCheck=The result of executing expression &1 will be checked to ensure it matches table key &2 (maximum integer length of &3 bytes).
+RDMLXExpressionIntegerLengthCheck=Le résultat de l'exécution de l'expression &1 sera vérifié pour s'assurer qu'il corresponde à la clé &2 de la table (Longueur maximum d'un entier &3 octets).
 RDMLXExpressionIntegerLengthCheck.Id=414
 UseMaximumIntegerLength=L'expression numérique &1 ne correspond pas aux caractéristiques de l'argument. Longueur maximum d'un entier &2 octets.
 UseMaximumIntegerLength.Id=415
@@ -1236,10 +1184,7 @@ TargetsNotLicensedForComponent=L'environnement de développement n'a pas de licen
 TargetsNotLicensedForComponent.Id=504
 ArrayOverlayLengthExceeded=La longueur en octets du tableau dépasse le longueur en octets de la zone précisée pour la paramètre OVERLAYING. &1 est &2 mais &3 est &4.
 ArrayOverlayLengthExceeded.Id=505
-*** @TRANS OLD
-*** FileFieldNotFound=La zone &1 ne fait pas partie de la définition du fichier &2.
-*** @TRANS NEW
-FileFieldNotFound=Field &1 is not part of the definition of table &2.
+FileFieldNotFound=La zone &1 ne fait pas partie de la définition de la table &2.
 FileFieldNotFound.Id=506
 ConditionAllLiterals=L'expression conditionnelle compare deux constantes - à la fois &1 et &2 sont des valeurs littérales.
 ConditionAllLiterals.Id=507
@@ -1255,11 +1200,7 @@ NameConflictUseAlias=Le nom &1 est le nom d'un composant ou d'une zone définie l
 NameConflictUseAlias.Id=512
 NameDuplicateOfRepObject=Le nom de variable &1 a déjà été assigné comme nom d'un autre objet dans votre référentiel.
 NameDuplicateOfRepObject.Id=513
-*** @TRANS CHANGED
-*** InvalidUseOfLongName=&1 est un nom long et nécessite le support de RDMLX Intégral.
-*** @TRANS NEW
-InvalidUseOfLongName=&1 is a long name and requires RDMLX support.
-*** @TRANS END
+InvalidUseOfLongName=&1 est un nom long et nécessite le support de RDMLX.
 InvalidUseOfLongName.Id=514
 NameNotObservable=&1 n'est pas un composant ou les événements du composant ne peuvent pas être observés dans le scope actuel.
 NameNotObservable.Id=515
@@ -1600,24 +1541,11 @@ ObjectList.Unknown=Inconnu
 
 ObjectList.FileType.Unknown=Inconnu
 ObjectList.FileType.LansaFile=Fichier LANSA
-*** @TRANS OLD
-*** ObjectList.FileType.PCOtherFile=Fichier externe PC
-*** @TRANS NEW
-ObjectList.FileType.PCOtherFile=Imported File
+ObjectList.FileType.PCOtherFile=Fichier Importé
 ObjectList.FileType.LansaSQLView=Vue SQL LANSA
-*** @TRANS OLD
-*** ObjectList.FileType.IBMiOtherFile=Fichier externe IBM i 
-*** @TRANS NEW
-ObjectList.FileType.IBMiOtherFile=IBM i File
-*** @TRANS OLD
-*** ObjectList.FileType.PCOtherSQLView=Vue SQL externe PC
-*** @TRANS NEW
-ObjectList.FileType.PCOtherSQLView=Imported SQL View
-*** @TRANS OLD
-*** ObjectList.FileType.IBMiOtherSQLView=Vue SQL externe IBM i 
-*** @TRANS NEW
-ObjectList.FileType.IBMiOtherSQLView=IBM i SQL View
-
+ObjectList.FileType.IBMiOtherFile=Fichier IBM i
+ObjectList.FileType.PCOtherSQLView=Vue SQL importée
+ObjectList.FileType.IBMiOtherSQLView=Vue SQL IBM i 
 ObjectList.SysVar.Static.Derivation=Statique
 ObjectList.SysVar.Dynamic.Derivation=Dynamique
 ObjectList.SysVar.Unknown.Derivation=Inconnu
@@ -1685,10 +1613,8 @@ Cmd.ListMap.Desc=Définit un mappage de liste
 Cmd.GroupMap.Desc=Définit un mappage de groupe
 Cmd.Persist.Desc=Définit zones et listes persistantes
 Cmd.SrvTransfer.Desc=Transférer le contrôle à une autre routine serveur
-*** @TRANS NEW
-Cmd.MthEx.Desc=Defines an external routine as a method
-Cmd.DefMapEx.Desc=Define a parameter of an external routine
-*** @TRANS END
+Cmd.MthEx.Desc=Définit une routine externe comme méthode
+Cmd.DefMapEx.Desc=Définit un paramètre de routine externe
 
 *************************************************************
 ********      RDMLX Parameter Descriptions         **********
@@ -1706,10 +1632,8 @@ Cmd.AutomaticCollection=Accédant à une collection automatique
 Cmd.PtyRoutineName=Nom de sous-programme de propriété
 Cmd.ComponentVariableName=Nom de variable de composant
 Cmd.WebpageName=Page Web
-*** @TRANS ADD
-Cmd.HttpContextName=Http Context
-Cmd.WebResourceName=Resource
-*** @TRANS END
+Cmd.HttpContextName=Contexte Http
+Cmd.WebResourceName=Ressource
 Cmd.DynamicVariableName=Nom de variable dynamique
 Cmd.AttributeOfVariableName=Nom de variable attribué
 Cmd.CreateAsClassName=Créer comme nom de classe
@@ -1722,11 +1646,8 @@ Cmd.RoleView=Entité
 Cmd.RoleEntity=Définition d'entité
 Cmd.RoleService=Service d'entité
 Cmd.RoleIdentifier=Identifiant d'entité
-*** @TRANS OLD
-*** Cmd.RoleExtendsFileName=Nom étendu de fichier
-*** @TRANS NEW
-Cmd.RoleExtendsFileName=Extend table name
-Cmd.RoleExtendsClassName=Nom étendu de classe
+Cmd.RoleExtendsFileName=Etends le nom de table
+Cmd.RoleExtendsClassName=Etends le nom de classe
 Cmd.RoleImplementsInterfaceName=Nom de l'interface mise en place
 Cmd.RoleVisualClassName=Nom de l'ancêtre de classe visuelle
 Cmd.RoleVisualPartClassName=Nom de classe de partie visuelle
@@ -1763,16 +1684,14 @@ Cmd.ReferenceType=Référence statique ou dynamique
 Cmd.MapType=Paramètre en entrée et/ou en sortie
 Cmd.MapMandatory=Défaut pour paramètre optionnel
 Cmd.MapPass=Paramètre de référence ou valeur
-*** @TRANS NEW
-Cmd.MapLength=Length of target parameter
-Cmd.MapDecimals=Decimals of target parameter
-Cmd.MapFormat=Format of target parameter
-Cmd.MapFieldType=Data type of target parameter
-Cmd.MapDateSeparator=Date separator of target parameter
-Cmd.MapTimeSeparator=Time separator of target parameter
-Cmd.MthExModule=Module to load
-Cmd.MthExEntrypoint=Entrypoint to invoke
-*** @TRANS END
+Cmd.MapLength=Longueur du paramètre cible
+Cmd.MapDecimals=Décimales du paramètre cible
+Cmd.MapFormat=Format du paramètre cible
+Cmd.MapFieldType=Type de données du paramètre cible
+Cmd.MapDateSeparator=Séparateur de date du paramètre cible
+Cmd.MapTimeSeparator=Séparateur d'heure du paramètre cible
+Cmd.MthExModule=Module à charger
+Cmd.MthExEntrypoint=Point d'entrée à invoquer
 Cmd.PtyGet=Opération de lecture de propriété
 Cmd.PtySet=Opération d'affectation de propriété
 Cmd.SetRefContext=Contexte mémoire des nouveaux composants
@@ -1890,7 +1809,7 @@ Rep.FieldType.Variant=Variant
 Rep.FieldType.Variant.Desc=Variant
 
 *************************************************************
-***** LANSA System Variable Datatypes		        *****
+***** LANSA System Variable Datatypes        *****
 *************************************************************
 Sysvar.DataType.Alphanumeric=Alphanumérique
 Sysvar.DataType.Numeric=Numérique
@@ -1999,8 +1918,8 @@ Rep.FA.RLTB.Desc=Tabuler le curseur de droite à gauche et de haut en bas
 Rep.FA.SUNI.Desc=Indicateur zone stockée en Unicode
 Rep.FA.SUNS.Desc=Enregistrer les valeurs de type entier comme des valeurs binaires non signées
 Rep.FA.SGRA.Desc=Stocker DBCS comme type de données graphiques de CCSID 300
-Rep.FA.GUID.Desc=Unique Identifier Format
-Rep.FA.HIID.Desc=Hierarchy Identifier Format
+Rep.FA.GUID.Desc=Format de l'identifiant unique
+Rep.FA.HIID.Desc=Hiérarchie de l'identifiant unique
 
 Rep.FA.SUTC.Desc=Valeurs DateHeure enregistrées au format UTC
 Rep.FA.DUTC.Desc=Valeurs DateHeure affichées au format UTC
@@ -2141,47 +2060,23 @@ Rep.KS.Unicode.Desc=Unicode
 **********************************************
 ***** File Document Messages           *******
 **********************************************
-*** @TRANS OLD
-*** DocFileNameRequired=Le nom de fichier est nécessaire. Il ne peut pas être de longueur zéro ou laissé à blanc.
-*** @TRANS NEW
-DocFileNameRequired=Table name is required. It cannot be null or all spaces.
+DocFileNameRequired=Nom de table nécessaire. Il ne peut pas être de longueur zéro ou laissé à blanc.
 DocFileNameRequired.Id=1000
-*** @TRANS OLD
-*** DocFileNameTooLong=Le nom de fichier a dépassé la longueur maximum &1 caractères.
-*** @TRANS NEW
-DocFileNameTooLong=Table name has exceeded the maximum length of &1 characters.
+DocFileNameTooLong=Le nom de table dépasse la longueur maximum &1 caractères.
 DocFileNameTooLong.Id=1001
-*** @TRANS OLD
-*** DocFileNameTooRPGIV=Le nom de fichier a dépassé la longueur maximum &1 caractères. Ce maximum est imposé parce que le paramètre système *RPGIV n'est pas activé.
-*** @TRANS NEW
-DocFileNameTooRPGIV=Table name has exceeded the maximum length of &1 characters. This maximum is enforced because the *RPGIV system setting is not enabled.
+DocFileNameTooRPGIV=Le nom de table dépasse la longueur maximum &1 caractères. Ce maximum est imposé parce que le paramètre système *RPGIV n'est pas activé.
 DocFileNameTooRPGIV.Id=1002
-*** @TRANS OLD
-*** DocFileNameInvalid=Nom de fichier invalide. Il contient des blancs ou des caractères invalides.
-*** @TRANS NEW
-DocFileNameInvalid=Table name is invalid. It contains blanks or invalid characters.
+DocFileNameInvalid=Nom de table invalide. Il contient des blancs ou des caractères invalides.
 DocFileNameInvalid.Id=1003
-*** @TRANS OLD
-*** DocFileDescRequired=La description fichier est nécessaire pour la langue &1. Elle ne peut pas être laissée à blanc.
-*** @TRANS NEW
-DocFileDescRequired=Table description is required for language &1. It cannot be null or all spaces.
+DocFileDescRequired=Description de table nécessaire pour la langue &1. Elle ne peut pas être laissée à blanc.
 DocFileDescRequired.Id=1004
-*** @TRANS OLD
-*** DocFileDescTooLong=La description fichier pour la langue &1 a dépassé la longueur maximum &2.
-*** @TRANS NEW
-DocFileDescTooLong=Table description for language &1 has exceeded the maximum length of &2.
+DocFileDescTooLong=La description de table pour la langue &1 dépasse la longueur maximum &2.
 DocFileDescTooLong.Id=1005
-*** @TRANS OLD
-*** DocFileDescTooLongEBCDIC=La description fichier pour la langue &1 a dépassé la longueur EBCDIC maximum &2.
-*** @TRANS NEW
-DocFileDescTooLongEBCDIC=Table description for language &1 has exceeded the maximum EBCDIC length of &2.
+DocFileDescTooLongEBCDIC=La description de table pour la langue &1 a dépassé la longueur EBCDIC maximum &2.
 DocFileDescTooLongEBCDIC.Id=1006
-*** @TRANS OLD
-*** DocFileDescInvalid=La description fichier pour la langue &1 est invalide. Elle contient des caractères invalides.
-*** @TRANS NEW
-DocFileDescInvalid=Table description for language &1 is invalid. It contains invalid characters.
+DocFileDescInvalid=La description de table pour la langue &1 est invalide. Elle contient des caractères invalides.
 DocFileDescInvalid.Id=1007
-DocFileAccessRouteKeepLastRangeInvalid=Le paramètre "Garder les derniers" doit contenir une valeur comprise en 0 et 999 inclus.
+DocFileAccessRouteKeepLastRangeInvalid=Le paramètre "Garder les derniers" doit contenir une valeur comprise en 0 et 999 inclus
 DocFileAccessRouteKeepLastRangeInvalid.Id=1008
 DocFileAccessRouteKeepLastInvalid=Le paramètre "Garder les derniers" s'applique uniquement dans le cas d'une relation 1:1.
 DocFileAccessRouteKeepLastInvalid.Id=1009   
@@ -2191,10 +2086,7 @@ DocFileAccessRouteNameTooLong=Le nom de la relation a dépassé la longueur maximu
 DocFileAccessRouteNameTooLong.Id=1011
 DocFileAccessRouteNameInvalid=Le nom de la relation est invalide. Il contient des blancs ou des caractères invalides.
 DocFileAccessRouteNameInvalid.Id=1012
-*** @TRANS OLD
-*** DocFileAccessRouteNameNotUnique=La relation &1 existe déjà dans le fichier.
-*** @TRANS NEW
-DocFileAccessRouteNameNotUnique=Access route name &1 already exists in the table.
+DocFileAccessRouteNameNotUnique=La relation &1 existe déjà dans la table.
 DocFileAccessRouteNameNotUnique.Id=1013
 DocFileAccessRouteDescRequired=Une description est nécessaire pour la relation. Elle ne peut pas être laissée à blanc.
 DocFileAccessRouteDescRequired.Id=1014
@@ -2206,25 +2098,13 @@ DocFileAccessRouteDescInvalid=La description de la relation contient des caractè
 DocFileAccessRouteDescInvalid.Id=1017
 DocFileAccessRouteKeyMissing=Une clé au moins doit être définie pour la relation.
 DocFileAccessRouteKeyMissing.Id=1018
-*** @TRANS OLD
-*** DocFileAccessRouteKeyTooMany=Le nombre de zone/valeur(s) clé définies dans la relation dépasse le nombre de clés définies sur le fichier cible.
-*** @TRANS NEW
-DocFileAccessRouteKeyTooMany=Keys/Values defined on access route exceed the number of keys defined on the accessed file.
+DocFileAccessRouteKeyTooMany=Clé(s)/valeur(s) définies dans la relation dépassent le nombre de clés définies sur la table cible.
 DocFileAccessRouteKeyTooMany.Id=1019
-*** @TRANS OLD
-*** DocFileAccessRouteKeyMismatch=Attention : les zone/valeur(s) clé définies dans la relation ne correspondent pas au nombre de clé définies sur le fichier cible.
-*** @TRANS NEW
-DocFileAccessRouteKeyMismatch=Warning: Keys/Values defined on access route do not match the number of keys defined on the accessed file.
+DocFileAccessRouteKeyMismatch=Attention : Clé(s)/valeur(s) définies dans la relation ne correspondent pas au nombre de clé définies sur la table cible.
 DocFileAccessRouteKeyMismatch.Id=1020
-*** @TRANS OLD
-*** DocFileAccessRouteFileRequired=Le nom du fichier cible est nécessaire. Il ne peut pas être laissé à blanc.
-*** @TRANS NEW
-DocFileAccessRouteFileRequired=Accessed Table name is required for access route. It cannot be null or all spaces.
+DocFileAccessRouteFileRequired=Le nom de la table cible est nécessaire pour la relation. Il ne peut pas être laissé à blanc.
 DocFileAccessRouteFileRequired.Id=1021
-*** @TRANS OLD
-*** DocFileAccessRouteFileNotFound=Le fichier cible &1 de la bibliothèque &2 n'est pas défini dans LANSA.
-*** @TRANS NEW
-DocFileAccessRouteFileNotFound=Accessed Table &1 of schema &2 is not defined to LANSA.
+DocFileAccessRouteFileNotFound=La table accédée &1 du schéma &2 n'est pas définie dans LANSA.
 DocFileAccessRouteFileNotFound.Id=1022
 DocFileAccessRouteKeyTooLong=La valeur &1 a dépassé la longueur maximum &2 caractères.
 DocFileAccessRouteKeyTooLong.Id=1023
@@ -2234,10 +2114,7 @@ DocFileAccessRouteKeyIsLOB=La zone &1 n'a pas pu être utilisée dans la relation 
 DocFileAccessRouteKeyIsLOB.Id=1025
 DocFileAccessRouteKeyNotFound=Le nom de zone &1 n'a pu être résolu dans sa définition actuelle.
 DocFileAccessRouteKeyNotFound.Id=1026
-*** @TRANS OLD
-*** DocFileBatchControlNotSupported=Une règle de cumul ne peut être assignée à un fichier externe PC.
-*** @TRANS NEW
-DocFileBatchControlNotSupported=Batch control cannot be assigned to an Imported File.
+DocFileBatchControlNotSupported=Une règle de cumul ne peut être assignée à un fichier importé.
 DocFileBatchControlNotSupported.Id=1027
 DocFileBatchControlDescRequired=Une description est nécessaire pour la règle de cumul. La description ne peut pas être laissée à blanc.
 DocFileBatchControlDescRequired.Id=1028
@@ -2249,47 +2126,23 @@ DocFileBatchControlDescInvalid=La description de la règle de cumul est invalide.
 DocFileBatchControlDescInvalid.Id=1031
 DocFileBatchControlKeyMissing=Une clé au moins doit être définie pour la règle de cumul.
 DocFileBatchControlKeyMissing.Id=1032
-*** @TRANS OLD
-*** DocFileBatchControlKeyTooMany=Le nombre de zone/valeur(s) clé définies dans la règle de cumul dépasse le nombre de clé défini dans le fichier cumul.
-*** @TRANS NEW
-DocFileBatchControlKeyTooMany=Key field/value(s) defined to batch control exceed the number of keys defined on the controlled table.
+DocFileBatchControlKeyTooMany=Zone clé/valeur(s) définies dans la règle de cumul dépassent le nombre de clé défini dans la table cumul.
 DocFileBatchControlKeyTooMany.Id=1033
-*** @TRANS OLD
-*** DocFileBatchControlKeyMismatch=Attention: les clés zone/valeur(s) définies dans la règle de cumul ne correspondent pas au nombre de clé défini dans le fichier de cumul.
-*** @TRANS NEW
-DocFileBatchControlKeyMismatch=Warning: Keys/Values defined to batch control do not match the number of keys defined on the controlled table.
+DocFileBatchControlKeyMismatch=Attention: Clés/valeurs définies dans la règle de cumul ne correspondent pas au nombre de clés défini dans la table cumul.
 DocFileBatchControlKeyMismatch.Id=1034
 DocFileBatchControlLinkMissing=Un lien de contrôle au moins doit être défini dans une règle de cumul.
 DocFileBatchControlLinkMissing.Id=1035
-*** @TRANS OLD
-*** DocFileBatchControlControlRequired=Le nom du fichier de cumul est nécessaire dans une règle de cumul. Il ne peut pas être blanc.
-*** @TRANS NEW
-DocFileBatchControlControlRequired=Controlled table name is required for batch control. It cannot be null or all spaces.
+DocFileBatchControlControlRequired=Le nom de la table cumul est nécessaire dans une règle de cumul. Il ne peut pas être blanc.
 DocFileBatchControlControlRequired.Id=1036
-*** @TRANS OLD
-*** DocFileBatchControlControlNotFound=Le fichier de cumul &1 de la bibliothèque &2 n'est pas défini dans LANSA.
-*** @TRANS NEW
-DocFileBatchControlControlNotFound=Controlled table &1 of schema &2 is not defined to LANSA.
+DocFileBatchControlControlNotFound=La table cumul &1 du schéma &2 n'est pas défini dans LANSA.
 DocFileBatchControlControlNotFound.Id=1037
-*** @TRANS OLD
-*** DocFileBatchControlControlNotControlled=Le nom de fichier &1 est invalide. Le fichier de cumul ne peut pas être le fichier qui contient la règle de cumul.
-*** @TRANS NEW
-DocFileBatchControlControlNotControlled=Table name &1 is not valid. The controlled table cannot be the table that contains the batch control.
+DocFileBatchControlControlNotControlled=Nom de table &1 incorrect. La table cumul ne peut pas être le fichier qui contient la règle de cumul.
 DocFileBatchControlControlNotControlled.Id=1038
-*** @TRANS OLD
-*** DocFileBatchControlControlNotLogical=La vue logique &1 est invalide. Le fichier de cumul ne peut pas être une vue logique du fichier qui contient la règle de cumul.
-*** @TRANS NEW
-DocFileBatchControlControlNotLogical=Index name &1 is not valid. The controlled table cannot be an index of the table that contains the batch control.
+DocFileBatchControlControlNotLogical=Nom d'index &1 incorrect. La table cumul ne peut pas être un index de table qui contient la règle de cumul.
 DocFileBatchControlControlNotLogical.Id=1039
-*** @TRANS OLD
-*** DocFileBatchControlControlNotPCOF=Le nom de fichier &1 est invalide. Le fichier de cumul ne peut pas être un fichier PC externe.
-*** @TRANS NEW
-DocFileBatchControlControlNotPCOF=Table name &1 is not valid. The controlled table cannot be an Imported Table.
+DocFileBatchControlControlNotPCOF=Nom de table &1 incorrect. La table cumul ne peut pas être une table importée.
 DocFileBatchControlControlNotPCOF.Id=1041
-*** @TRANS OLD
-*** DocFileBatchControlControlHasLOBs=Le nom de fichier &1 est invalide. Le fichier contrôlé contient une ou plusieurs zones qui soit ont un type de zones BLOB/CLOB ou doivent être mis en place avec un type de zone BLOB/CLOB.
-*** @TRANS NEW
-DocFileBatchControlControlHasLOBs=Table name &1 is not valid. The controlled table contains one or more columns that either have a BLOB/CLOB field type or must be implemented with a BLOB/CLOB field type.
+DocFileBatchControlControlHasLOBs=Nom de table &1 incorrect. La table cumul contient une ou plusieurs zones qui soit ont un type de zones BLOB/CLOB ou doivent être mis en place avec un type de zone BLOB/CLOB.
 DocFileBatchControlControlHasLOBs.Id=1042
 DocFileBatchControlKeyTooLong=La valeur &1 a dépassé la longueur maximum &2 caractères.
 DocFileBatchControlKeyTooLong.Id=1043
@@ -2297,20 +2150,11 @@ DocFileBatchControlRouteKeyTooLongEBCDIC=La valeur &1 a dépassé la longueur EBCD
 DocFileBatchControlRouteKeyTooLongEBCDIC.Id=1044
 DocFileBatchControlKeyNotFound=La zone &1 n'a pas pu être résolue dans la définition en cours.
 DocFileBatchControlKeyNotFound.Id=1045
-*** @TRANS OLD
-*** DocFileBatchControlSourceNotFound=La zone de cumul source &1 n'est pas définie dans LANSA.
-*** @TRANS NEW
-DocFileBatchControlSourceNotFound=Batch control source column name &1 is not defined to LANSA.
+DocFileBatchControlSourceNotFound=Nom de colonne source de règle de cumul &1 non définie dans LANSA.
 DocFileBatchControlSourceNotFound.Id=1046
-*** @TRANS OLD
-*** DocFileBatchControlSourceNotNumeric=La zone de cumul source &1 n'est pas un type de zone numérique.
-*** @TRANS NEW
-DocFileBatchControlSourceNotNumeric=Batch control source column name &1 is not a numeric field type.
+DocFileBatchControlSourceNotNumeric=La colonne source de règle de cumul &1 n'est pas de type de numérique.
 DocFileBatchControlSourceNotNumeric.Id=1047
-*** @TRANS OLD
-*** DocFileBatchControlSourceNotInFile=La zone de cumul source &1 n'est pas une de zone du fichier source
-*** @TRANS NEW
-DocFileBatchControlSourceNotInFile=Batch control source column name &1 is not a field in the source file.
+DocFileBatchControlSourceNotInFile=La colonne source de règle de cumul &1 n'est pas une de zone e la table source.
 DocFileBatchControlSourceNotInFile.Id=1048
 DocFileBatchControlTargetNotFound=La zone de cumul cible &1 n'est pas définie dans LANSA.
 DocFileBatchControlTargetNotFound.Id=1049
@@ -2318,39 +2162,19 @@ DocFileBatchControlTargetNotNumeric=La zone de cumul cible &1 n'est pas un type 
 DocFileBatchControlTargetNotNumeric.Id=1050
 DocFileBatchControlTargetNotInFile=La zone de cumul cible &1 n'est pas une de zone du fichier cible
 DocFileBatchControlTargetNotInFile.Id=1051
-*** @TRANS OLD
-*** DocFileDatabaseTypeTooManyKeys=&1 : La définition de fichier dépasse la limite opérationnelle de &2 clés primaires.
-*** @TRANS NEW
-DocFileDatabaseTypeTooManyKeys=&1: Table definition exceeds operational limit of &2 keys.
+DocFileDatabaseTypeTooManyKeys=&1 : La définition de table dépasse la limite opérationnelle de &2 clés.
 DocFileDatabaseTypeTooManyKeys.Id=1052
-*** @TRANS OLD
-*** DocFileDatabaseRowTooLong=&1 : La longueur de &2 octets d'un enregistrement du fichier dépasse la limite opérationnelle de &3 octets. Ce fichier ne pourra peut-être pas être créé correctement.
-*** @TRANS NEW
-DocFileDatabaseRowTooLong=&1: The table definition's row byte length of &2 exceeds the operational limit of &3 bytes. This table may not be created correctly.
+DocFileDatabaseRowTooLong=&1 : La longueur de &2 octets d'un enregistrement de table dépasse la limite opérationnelle de &3 octets. Cette table ne pourra peut-être pas être créée correctement.
 DocFileDatabaseRowTooLong.Id=1053
-*** @TRANS OLD
-*** DocFileDatabaseKeyTooLong=&1 : La clé primaire du fichier va créer un index d'une longueur de &2 octets qui dépasse la limite opérationnelle de &3 octets. Ce fichier ne pourra peut-être pas être créé correctement.
-*** @TRANS NEW
-DocFileDatabaseKeyTooLong=&1: The table definition's primary key will create an index with a byte length of &2 which exceeds the operational limit of &3 bytes. This table may not be DocFileDatabaseKeyTooLong.Id=1054
-*** @TRANS OLD
-*** DocFileDatabaseRowBufferTooLong=&1 : La longueur de &2 octets du buffer d'enregistrement du fichier dépasse la limite opérationnelle de &3 octets. Ce fichier ne pourra peut-être pas être créé correctement.
-*** @TRANS NEW
-DocFileDatabaseRowBufferTooLong=&1: The table definition's row buffer size of &2 exceeds the operational limit of &3 bytes. This table may not be created correctly.
+DocFileDatabaseKeyTooLong=&1 : La clé primaire de la table va créer un index d'une longueur de &2 octets qui dépasse la limite opérationnelle de &3 octets. Cette table ne pourra peut-être pas être créée correctement.
+DocFileDatabaseKeyTooLong.Id=1054
+DocFileDatabaseRowBufferTooLong=&1 : La longueur de &2 octets du buffer d'enregistrement de la table dépasse la limite opérationnelle de &3 octets. La table ne pourra peut-être pas être créée correctement.
 DocFileDatabaseRowBufferTooLong.Id=1055
-*** @TRANS OLD
-*** DocFileDatabaseLogicalKeyTooMany=&1 : La vue logique &2 dépasse la limite opérationnelle de &3 clés primaires.
-*** @TRANS NEW
-DocFileDatabaseLogicalKeyTooMany=&1: Index &2 exceeds operational limit of &3 keys.
+DocFileDatabaseLogicalKeyTooMany=&1 : L'index &2 dépasse la limite opérationnelle de &3 clés.
 DocFileDatabaseLogicalKeyTooMany.Id=1056
-*** @TRANS OLD
-*** DocFileDatabaseLogicalLobCriteria=&1 : La vue logique &2 ne peut pas avoir de critère de sélection/omission si la définition du fichier contient des types de zone LOB ou des types de zone mis en place comme des colonnes de type LOB.
-*** @TRANS NEW
-DocFileDatabaseLogicalLobCriteria=&1: Index &2 cannot have Select/Omit Criteria since the table definition contains LOB field types or field types implemented as a LOB column type.
+DocFileDatabaseLogicalLobCriteria=&1 : L'index &2 ne peut pas avoir de critère de sélection/omission si la définition de la table contient des zones de type LOB ou mises en oeuvre par des colonnes de type LOB.
 DocFileDatabaseLogicalLobCriteria.Id=1057
-*** @TRANS OLD
-*** DocFileDatabaseLogicalKeyTooLong=&1 : La vue logique &4 va créer un index d'une longueur de &2 octets qui dépasse la limite opérationnelle de &3 octets. Ce fichier ne pourra peut-être pas être créé correctement.
-*** @TRANS NEW
-DocFileDatabaseLogicalKeyTooLong=&1: Index &4 will create an index with a byte length of &2 which exceeds the operational limit of &3 bytes. This table may not be created correctly.
+DocFileDatabaseLogicalKeyTooLong=&1 : L'index &4 va créer un index d'une longueur de &2 octets qui dépasse la limite opérationnelle de &3 octets. La table ne pourra peut-être pas être créé correctement.
 DocFileDatabaseLogicalKeyTooLong.Id=1058
 DocFileDatabaseLOBRequiresASQN=&1 : La zone &2 a un type de zone LOB mais pas d'attribut *ASQN. Pour pouvoir utiliser des I/O iSeries natives, les zones de type LOB doivent supporter &3.
 DocFileDatabaseLOBRequiresASQN.Id=1059
@@ -2376,42 +2200,21 @@ DocFileFieldNotFound=La zone &1 n'est pas définie dans le référentiel.
 DocFileFieldNotFound.Id=1069
 DocFileFieldRemote=La zone &1 est située dans le référentiel distant. Elle doit être extraite avant de pouvoir enregistrer ou compiler cette définition.
 DocFileFieldRemote.Id=1070
-*** @TRANS OLD
-*** DocFileFieldRDMLX=RDMLX intégral n'a pas été activé. Une zone RDMLX intégral &1 ne peut pas être utilisé dans cette définition de fichier.
-*** @TRANS NEW
-DocFileFieldRDMLX=Full RDMLX has not been enabled. Full RDMLX field &1 cannot be used in this table definition.
+DocFileFieldRDMLX=RDMLX intégral n'a pas été activé. La zone RDMLX intégral &1 ne peut pas être utilisée dans cette définition de table.
 DocFileFieldRDMLX.Id=1071
 DocFileFieldLOBTypeInvalid=Les types LOB Cached et Secured ne sont pas autorisés. La zone &1 n'a pas de type de zone *BLOB ou *CLOB.
 DocFileFieldLOBTypeInvalid.Id=1072
-*** @TRANS OLD
-*** DocFileFieldFaSUNIInvalid=La zone &1 a un attribut SUNI et ne peut pas être utilisée dans ce fichier. Les zones avec un attribut SUNI ne peuvent être utilisées que dans des fichiers externes.
-*** @TRANS NEW
-DocFileFieldFaSUNIInvalid=Field &1 has a SUNI attribute and cannot be used in this file. Fields with the SUNI attribute can only be used in Imported Files.
+DocFileFieldFaSUNIInvalid=La zone &1 a un attribut SUNI et ne peut pas être utilisée dans ce fichier. Les zones avec un attribut SUNI ne peuvent être utilisées que dans les fichiers importés.
 DocFileFieldFaSUNIInvalid.Id=1073
-*** @TRANS OLD
-*** DocFileFieldDuplicated=La zone &1 est dupliquée dans la définition de fichier.
-*** @TRANS NEW
-DocFileFieldDuplicated=Column name &1 is duplicated in table definition.
+DocFileFieldDuplicated=La colonne &1 est dupliquée dans la définition de la table.
 DocFileFieldDuplicated.Id=1074
-*** @TRANS OLD
-*** DocFileFieldRequiresASQN=La zone &1 ne peut pas être utilisée dans un fichier LANSA. Le type de zone demande un attribut de zone &2.
-*** @TRANS NEW
-DocFileFieldRequiresASQN=Field &1 cannot be used in a LANSA table. The field type requires field attribute &2.
+DocFileFieldRequiresASQN=La zone &1 ne peut pas être utilisée dans une table LANSA. Le type de zone demande un attribut de zone &2.
 DocFileFieldRequiresASQN.Id=1075
-*** @TRANS OLD
-*** DocFileFieldKeyTypeInvalid=La zone &1 ne peut pas être utilisée comme clé primaire d'un fichier LANSA. Le type de zone n'est pas supporté.
-*** @TRANS NEW
-DocFileFieldKeyTypeInvalid=Field &1 cannot be used as the primary key to a LANSA table. The field type is not supported.
+DocFileFieldKeyTypeInvalid=La zone &1 ne peut pas être utilisée comme clé primaire d'une table LANSA. Le type de zone n'est pas supporté.
 DocFileFieldKeyTypeInvalid.Id=1076
-*** @TRANS OLD
-*** DocFileFieldKeyASQNInvalid=La zone &1 ne peut pas être utilisée comme clé primaire d'un fichier LANSA. Les zones avec l'attribut ASQN ne sont pas supportées.
-*** @TRANS NEW
-DocFileFieldKeyASQNInvalid=Field &1 cannot be used as the primary key to a LANSA table. Fields with the ASQN attribute are not supported.
+DocFileFieldKeyASQNInvalid=La zone &1 ne peut pas être utilisée comme clé primaire d'une table LANSA. Les zones avec l'attribut ASQN ne sont pas supportées.
 DocFileFieldKeyASQNInvalid.Id=1077
-*** @TRANS OLD
-*** DocFileFieldKeyLthInvalid=La zone &1 ne peut pas être utilisée comme clé primaire d'un fichier LANSA. La longueur de zone est supérieure à &2.
-*** @TRANS NEW
-DocFileFieldKeyLthInvalid=Field &1 cannot be used as the primary key to a LANSA table. The field's length is greater than &2.
+DocFileFieldKeyLthInvalid=La zone &1 ne peut pas être utilisée comme clé primaire de table LANSA. La longueur de zone est supérieure à &2.
 DocFileFieldKeyLthInvalid.Id=1078
 DocFileFieldAllocNotAllowed=La zone &1 doit avoir une taille d'allocation de zéro. La taille d'allocation n'est supportée que pour des types de zone de longueur variable.
 DocFileFieldAllocNotAllowed.Id=1079
@@ -2463,43 +2266,25 @@ DocFileConcatFactorInvalid=Le type de la zone source &1 n'est pas supporté par c
 DocFileConcatFactorInvalid.Id=1102
 DocFileConcatTooLong=La longueur totale du facteur de concaténation dépasse la longueur de la zone virtuelle.
 DocFileConcatTooLong.Id=1103
-*** @TRANS OLD
-*** DocFileFragmentNotRDMLX=RDMLX intégral n'a pas été activé. La zone &1 ne peut pas utiliser une logique de dérivation dans la définition d'un fichier RDML.
-*** @TRANS NEW
-DocFileFragmentNotRDMLX=Full RDMLX has not been enabled. Field &1 cannot use a logic derivation in an RDML table definition.
+DocFileFragmentNotRDMLX=RDMLX intégral n'a pas été activé. La zone &1 ne peut pas utiliser une logique de dérivation dans la définition d'une table RDML.
 DocFileFragmentNotRDMLX.Id=1104
 DocFilePJFAccessRouteNameMissing=Le nom de la relation est indispensable. Il ne peut pas être nul ou à blanc.
 DocFilePJFAccessRouteNameMissing.Id=1105
 DocFilePJFAccessRouteNotFound=Le nom de la relation &1 n'est pas défini dans le fichier.
 DocFilePJFAccessRouteNotFound.Id=1106
-*** @TRANS OLD
-*** DocFilePJFAccessRouteFileIsPCOF=Le nom de fichier &1 est invalide. Le fichier lié ne peut pas âtre un fichier externe PC.
-*** @TRANS NEW
-DocFilePJFAccessRouteFileIsPCOF=Table name &1 is not valid. The accessed table can only ever be an Imported File if the source table is also an Imported File from the same data source.
+DocFilePJFAccessRouteFileIsPCOF=Le nom de table &1 est incorrect. La table accédée ne peut pas âtre un fichier importé si la table source est aussi un fichier importé depuis la même source de données.
 DocFilePJFAccessRouteFileIsPCOF.Id=1107
-*** @TRANS OLD
-*** DocFilePJFAccessRouteFilePromotedLOBs=Le nom de fichier &1 est invalide. Le fichier lié contient une ou plusieurs zones de type BLOB/CLOB ou devant être mises en place avec un type de zone BLOB/CLOB.
-*** @TRANS NEW
-DocFilePJFAccessRouteFilePromotedLOBs=Table name &1 is not valid. The accessed table contains one or more columns that either have a BLOB/CLOB field type or must be implemented with a BLOB/CLOB field type.
+DocFilePJFAccessRouteFilePromotedLOBs=Le nom de table &1 est incorrect. La table accédée contient une ou plusieurs colonnes de type BLOB/CLOB ou devant être mises en oeuvre par une zone de type BLOB/CLOB.
 DocFilePJFAccessRouteFilePromotedLOBs.Id=1108
 DocFilePJFSourceMissing=Le nom de la zone source est indispensable. Il ne peut pas être nul ou à blanc.
 DocFilePJFSourceMissing.Id=1109
-*** @TRANS OLD
-*** DocFilePJFSourceNotFound=La zone source &1 n'est pas définie dans le référentiel.
-*** @TRANS NEW
-DocFilePJFSourceNotInFile=Column name &1 is not defined in table &2.
+DocFilePJFSourceNotFound=La colonne de nom &1 n'est pas définie dans la table &2.
 DocFilePJFSourceNotFound.Id=1110
 DocFilePJFSourceNotInFile=La zone &1 n'est pas définie dans la fichier &2.
 DocFilePJFSourceNotInFile.Id=1111
-*** @TRANS OLD
-*** DocFilePJFSourceInvalid=La zone virtuelle &1 du fichier &2 ne peut pas être utilisée comme source de jointure prédéterminée.
-*** @TRANS NEW
-DocFilePJFSourceInvalid=Virtual field name &1 in table &2 cannot be used as the source of a predetermined join.
+DocFilePJFSourceInvalid=La zone virtuelle &1 de la table &2 ne peut pas être utilisée comme source de jointure prédéterminée.
 DocFilePJFSourceInvalid.Id=1112
-*** @TRANS OLD
-*** DocFilePJFTypeMissing=La zone de jointure prédéterminée n'est pas de type jointure.
-*** @TRANS NEW
-DocFilePJFTypeMissing=Predetermined Join Column does not have a join type.
+DocFilePJFTypeMissing=La zone de jointure prédéterminée n'a pas de type de jointure.
 DocFilePJFTypeMissing.Id=1113
 DocFilePJFTypeOneToOne=Le type de jointure nécessite une relation 1 pour 1.
 DocFilePJFTypeOneToOne.Id=1114
@@ -2511,45 +2296,21 @@ DocFilePJFTypeSourceNumeric=Le type de jointure n'est valide que si la zone sour
 DocFilePJFTypeSourceNumeric.Id=1117
 DocFilePJFTypeTargetNumeric=Le type de jointure n'est valide que si la zone cible est de type numérique.
 DocFilePJFTypeTargetNumeric.Id=1118
-*** @TRANS ADD
-DocFilePJFAccessRouteFileIsPCOF=File name &1 is not valid. The accessed file can only ever be a PC Other File if the source file is also a PC other file from the same data source.
-*** @TRANS END
-*** @TRANS OLD
-*** DocFileLogicalViewNameRequired=Un nom de fichier logique est indispensable. Il ne peut pas être nul ou à blanc.
-*** @TRANS NEW
-DocFileLogicalViewNameRequired=Index name is required. It cannot be null or all spaces.
+DocFileLogicalViewNameRequired=Nom d'index nécessaire. Il ne peut pas être nul ou à blanc.
 DocFileLogicalViewNameRequired.Id=1119
-*** @TRANS OLD
-*** DocFileLogicalViewNameTooLong=Le nom de fichier logique a dépassé la longueur maximum &1 caractères.
-*** @TRANS NEW
-DocFileLogicalViewNameTooLong=Index name has exceeded the maximum length of &1 characters.
+DocFileLogicalViewNameTooLong=Le nom d'index a dépassé la longueur maximum &1 caractères.
 DocFileLogicalViewNameTooLong.Id=1120
 DocFileLogicalViewNameTooLongRPGIV=Le nom a dépassé la longueur maximum &1 caractères. Ce maximum a été fixé car les paramètres système *RPGIV n'est pas activé.
 DocFileLogicalViewNameTooLongRPGIV.Id=1121
-*** @TRANS OLD
-*** DocFileLogicalViewNameInvalid=Le nom de fichier logique est invalide. Il contient des caractères blancs ou invalides.
-*** @TRANS NEW
-DocFileLogicalViewNameInvalid=Index name is invalid. It contains blanks or invalid characters.
+DocFileLogicalViewNameInvalid=Nom d'index incorrect. Il contient des caractères blancs ou invalides.
 DocFileLogicalViewNameInvalid.Id=1122
-*** @TRANS OLD
-*** DocFileLogicalViewNameExistsInFile=Le nom de fichier logique &1 existe déjà dans le fichier physique.
-*** @TRANS NEW
-DocFileLogicalViewNameExistsInFile=Index name &1 already exists in the table.
+DocFileLogicalViewNameExistsInFile=Le nom d'index &1 existe déjà dans la table.
 DocFileLogicalViewNameExistsInFile.Id=1123
-*** @TRANS OLD
-*** DocFileLogicalViewNameExistsAsPF=Le nom &1 ne peut pas être utilisé pour un nom de fichier logique.Il a déjà été affecté à une définition de fichier LANSA.
-*** @TRANS NEW
-DocFileLogicalViewNameExistsAsPF=Name &1 cannot be used for an Index name. It has already been assigned to a LANSA Table definition.
+DocFileLogicalViewNameExistsAsPF=Le nom &1 ne peut pas être utilisé pour un nom d'index. Il a déjà été affecté à une table LANSA.
 DocFileLogicalViewNameExistsAsPF.Id=1124
-*** @TRANS OLD
-*** DocFileLogicalViewNameExistsAsLF=Le nom &1 ne peut pas être utilisé pour un nom de fichier logique.Il a déjà été affecté à un autre fichier logique LANSA.
-*** @TRANS NEW
-DocFileLogicalViewNameExistsAsLF=Name &1 cannot be used for an Index name. It has already been assigned to another LANSA Index.
+DocFileLogicalViewNameExistsAsLF=Le nom &1 ne peut pas être utilisé pour un nom d'index. Il a déjà été affecté à un autre index LANSA.
 DocFileLogicalViewNameExistsAsLF.Id=1125
-*** @TRANS OLD
-*** DocFileLogicalViewNameExistsAsOF=Le nom &1 ne peut pas être utilisé pour un nom de fichier logique.Il a déjà été affecté à un fichier logique d'une définition de fichier externe LANSA.
-*** @TRANS NEW
-DocFileLogicalViewNameExistsAsOF=Name &1 cannot be used for an Index name. It has already been assigned to an index in another Imported Table definition.
+DocFileLogicalViewNameExistsAsOF=Le nom &1 ne peut pas être utilisé pour un nom d'index. Il a déjà été affecté à un index d'une autre table importée.
 DocFileLogicalViewNameExistsAsOF.Id=1126
 DocFileLogicalViewUserParmsTooLong=La longueur des paramètres dépasse la longueur maximum &1 caractères.
 DocFileLogicalViewUserParmsTooLong.Id=1127
@@ -2563,10 +2324,7 @@ DocFileLogicalViewRecFmtTooLong=Le nom de format d'enregistrement dépasse la lon
 DocFileLogicalViewRecFmtTooLong.Id=1131
 DocFileLogicalViewRecFmtInvalid=Le nom &1 est invalide. Il contient des caractères invalides.
 DocFileLogicalViewRecFmtInvalid.Id=1132
-*** @TRANS OLD
-*** DocFileLogicalViewFieldRequired=Au moins une clé doit être définie pour un fichier logique.
-*** @TRANS NEW
-DocFileLogicalViewFieldRequired=At least one key must be defined for an index.
+DocFileLogicalViewFieldRequired=Au moins une clé doit être définie pour un index.
 DocFileLogicalViewFiedRequired.Id=1133
 DocFileLogicalViewDescRequired=La description est indispensable pour la langue &1. Il ne peut pas être nul ou à blanc.
 DocFileLogicalViewDescRequired.Id=1134
@@ -2576,10 +2334,7 @@ DocFileLogicalViewDescTooLongEBCDIC=La description pour la langue &1 a dépassé l
 DocFileLogicalViewDescTooLongEBCDIC.Id=1136
 DocFileLogicalViewDescInvalid=La description pour la langue &1 contient des caractères invalides.
 DocFileLogicalViewDescInvalid.Id=1137
-*** @TRANS OLD
-*** DocFileLogicalViewCriteriaTypeRequired=Le critère de fichier logique n'a pas de type.
-*** @TRANS NEW
-DocFileLogicalViewCriteriaTypeRequired=Index criterion does not have a type.
+DocFileLogicalViewCriteriaTypeRequired=Le critère d'index n'a pas de type.
 DocFileLogicalViewCriteriaTypeRequired.Id=1138
 DocFileLogicalViewCriteriaVirtualField=La variable &1 ne peut pas être une zone virtuelle.
 DocFileLogicalViewCriteriaVirtualField.Id=1139
@@ -2595,74 +2350,35 @@ DocFileLogicalViewCriteriaFromValueRequired=La valeur source est indispensable. 
 DocFileLogicalViewCriteriaFromValueRequired.Id=1144
 DocFileLogicalViewCriteriaNameNotFound=La variable &1 ne peut pas être résolue dans la définition en cours.
 DocFileLogicalViewCriteriaNameNotFound.Id=1145
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNotFound=La zone de vue logique &1 n'est pas définie dans LANSA.
-*** @TRANS NEW
-DocFileLogicalViewFieldNotFound=Index column name &1 is not defined to LANSA.
+DocFileLogicalViewFieldNotFound=La colonne d'index &1 n'est pas définie dans LANSA.
 DocFileLogicalViewFieldNotFound.Id=1146
-*** @TRANS OLD
-*** DocFileLogicalViewFieldKeyInvalidType=La zone &1 ne peut pas être utilisée comme clé de fichier logique LANSA. Le type de zone n'est pas supporté.
-*** @TRANS NEW
-DocFileLogicalViewFieldKeyInvalidType=Field &1 cannot be used as the key to a LANSA Index. The field type is not supported.
+DocFileLogicalViewFieldKeyInvalidType=La zone &1 ne peut pas être utilisée comme clé d'index LANSA. Le type de zone n'est pas supporté.
 DocFileLogicalViewFieldKeyInvalidType.Id=1147
-*** @TRANS OLD
-*** DocFileLogicalViewFieldKeyInvalidASQN=La zone &1 ne peut pas être utilisée comme clé unique de fichier logique LANSA. Les zones d'attribut ASQN ne sont pas supportées.
-*** @TRANS NEW
-DocFileLogicalViewFieldKeyInvalidASQN=Field &1 cannot be used as the key to a uniquely keyed LANSA Index. Fields with the ASQN attribute are not supported.
+DocFileLogicalViewFieldKeyInvalidASQN=La zone &1 ne peut pas être utilisée comme clé unique d'index LANSA. Les zones d'attribut ASQN ne sont pas supportées.
 DocFileLogicalViewFieldKeyInvalidASQN.Id=1148
-*** @TRANS OLD
-*** DocFileLogicalViewFieldKeyInvalidLth=La zone &1 ne peut pas être utilisée comme clé de fichier logique LANSA. La longueur de la zone est supérieure à &2.
-*** @TRANS NEW
-DocFileLogicalViewFieldKeyInvalidLth=Field &1 cannot be used as the key to a LANSA Index. The field's length is greater than &2.
+DocFileLogicalViewFieldKeyInvalidLth=La zone &1 ne peut pas être utilisée comme clé d'index LANSA. La longueur de la zone est supérieure à &2.
 DocFileLogicalViewFieldKeyInvalidLth.Id=1149
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNumOrder=Ordre de tri numérique non supporté assigné à une zone clé non numérique &1. Non signé est la seule valeur supportée pour les zones clés non-numériques.
-*** @TRANS NEW
-DocFileLogicalViewFieldNumOrder=Unsupported numeric ordering assigned to non-numeric key &1. Unsigned is the only value supported by non-numeric keys.
+DocFileLogicalViewFieldNumOrder=Ordre de tri numérique non supporté assigné à la clé non numérique &1. Non signé est la seule valeur supportée pour les clés non-numériques.
 DocFileLogicalViewFieldNumOrder.Id=1150
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNotAKey=La zone &1 n'est pas supportée comme zone non-clé de logique. Ceci est limité aux fichiers externes iSeries.
-*** @TRANS NEW
-DocFileLogicalViewFieldNotAKey=Field &1 is not supported as a non-key index column. This feature is limited to IBM i Tables.
+DocFileLogicalViewFieldNotAKey=La zone &1 n'est pas supportée comme colonne non-clé d'index. Ceci est limité aux tables IBM i.
 DocFileLogicalViewFieldNotAKey.Id=1151
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNotFoundInPF=La zone de vue logique &1 n'est pas une zone réelle du fichier physique.
-*** @TRANS NEW
-DocFileLogicalViewFieldNotFoundInPF=Index column name &1 is not a column in the table.
+DocFileLogicalViewFieldNotFoundInPF=La colonne d'index &1 n'est pas une colonne de la table.
 DocFileLogicalViewFieldNotFoundInPF.Id=1152
-*** @TRANS OLD
-*** DocFileLogicalViewFieldNotRealField=La zone de vue logique &1 n'est pas une zone réelle du fichier physique.
-*** @TRANS NEW
-DocFileLogicalViewFieldNotRealField=Index column name &1 is not a column in the table.
+DocFileLogicalViewFieldNotRealField=La colonne d'index &1 n'est pas une colonne de la table.
 DocFileLogicalViewFieldNotRealField.Id=1153
-*** @TRANS OLD
-*** DocFileLogicalViewFieldExists=La zone de vue logique &1 existe déjà comme zone de ce fichier logique.
-*** @TRANS NEW
-DocFileLogicalViewFieldExists=Index column name &1 already exists as a column in this index.
+DocFileLogicalViewFieldExists=La colonne &1 existe déjà comme colonne de cet index.
 DocFileLogicalViewFieldExists.Id=1154
-*** @TRANS OLD
-*** DocFileNameExists=Le nom de fichier a déjà été défini.
-*** @TRANS NEW
-DocFileNameExists=Table name has already been defined.
+DocFileNameExists=Le nom de table a déjà été défini.
 DocFileNameExists.Id=1155
 DocFileNameExistsAsEntity=Le nom &1 a déjà été défini dans le référentiel LANSA en tant que &2.
 DocFileNameExistsAsEntity.Id=1156
 DocFileNameCannotBeUsed=Le nom ne peut pas être utilisé. Le nom &1 contient des caractères en conflit avec le paramètre système *RPGIV.
 DocFileNameCannotBeUsed.Id=1157
-*** @TRANS OLD
-*** DocFileRRNMismatch=Le paramètre de génération automatique de RRN et de création de colonne RRNO doit être le même pour un fichier externe Visual LANSA.
-*** @TRANS NEW
-DocFileRRNMismatch=The setting of Auto RRN Generation and Create RRNO Column must be the same for an Imported Table.
+DocFileRRNMismatch=Les paramètres de génération automatique de RRN et de création de colonne RRNO doivent être identiques pour une table importée.
 DocFileRRNMismatch.Id=1158
-*** @TRANS OLD
-*** DocFileRRNRequired=La création de la colonne RRNO doit être activée pour les fichiers externes LANSA iSeries.
-*** @TRANS NEW
-DocFileRRNRequired=Create RRNO Column must be enabled for IBM i Table.
+DocFileRRNRequired=La création de la colonne RRNO doit être activée pour tables IBM i.
 DocFileRRNRequired.Id=1159
-*** @TRANS OLD
-*** DocFileAutoRRNInvalid=La génération automatique de RRN ne peut être activée que pour les fichiers externes Visual LANSA.
-*** @TRANS NEW
-DocFileAutoRRNInvalid=Auto RRN Generation can only be enabled for Imported Files.
+DocFileAutoRRNInvalid=La génération automatique de RRN ne peut être activée que pour les fichiers importés.
 DocFileAutoRRNInvalid.Id=1160
 DocFileAutoCommitMismatch=L'option Auto Commit nécessite l'activation préalable du contrôle de validation.
 DocFileAutoCommitMismatch.Id=1161
@@ -2692,35 +2408,17 @@ DocFileHighSpeedTableKeyRequired=Les tables d'accès rapide doivent avoir au moin
 DocFileHighSpeedTableKeyRequired.Id=1173
 DocFileHighSpeedTableExtendedKeyTooLong=La longueur totale des clés du fichier &1 est &2. Les tables d'accès rapide avec *HSTABEXTEND ne doivent pas dépasser 108 octets.
 DocFileHighSpeedTableExtendedKeyTooLong.Id=1174
-*** @TRANS OLD
-*** DocFileHighSpeedTableExtendedLogicalKeyTooLong=La longueur totale des clés du fichier logique &1 est &2. Les tables d'accès rapide avec *HSTABEXTEND ne doivent pas dépasser 108 octets.
-*** @TRANS NEW
-DocFileHighSpeedTableExtendedLogicalKeyTooLong=The total length of the keys of index &1 is &2. High speed tables with *HSTABEXTEND must not exceed 108 bytes.
+DocFileHighSpeedTableExtendedLogicalKeyTooLong=La longueur totale des clés de l'index &1 est &2. Les tables d'accès rapide avec *HSTABEXTEND ne doivent pas dépasser 108 octets.
 DocFileHighSpeedTableExtendedLogicalKeyTooLong.Id=1175
-*** @TRANS OLD
-*** DocFileHighSpeedTableNoSelectOmit=Le fichier logique &1 a des critères de sélection/omission. Les critères de sélection/omission ne peuvent pas être utilisés avec les tables d'accès rapide.
-*** @TRANS NEW
-DocFileHighSpeedTableNoSelectOmit=Index &1 has select/omit criteria. Select/omit criteria cannot be used with a high speed tables.
+DocFileHighSpeedTableNoSelectOmit=L'index &1 a des critères de sélection/omission. Les critères de sélection/omission ne peuvent pas être utilisés avec les tables d'accès rapide.
 DocFileHighSpeedTableNoSelectOmit.Id=1176
-*** @TRANS OLD
-*** DocFileFieldNoFields=Attention : La définition du fichier ne comporte pas de zones réelles.
-*** @TRANS NEW
-DocFileFieldNoFields=Warning: Table definition does not have any columns.
+DocFileFieldNoFields=Attention : La définition du fichier ne comporte aucune colonnes.
 DocFileFieldNoFields.Id=1177
-*** @TRANS OLD
-*** DocFileFieldAllLOBs=Toutes les zones réelles de la définition du fichier ont un type BLOB ou CLOB. Cette définition de fichier n'est pas supportée.
-*** @TRANS NEW
-DocFileFieldAllLOBs=All columns in this table definition have a field type of either BLOB or CLOB. This table definition is not supported.
+DocFileFieldAllLOBs=Toutes les colonnes de la définition de la table ont un type BLOB ou CLOB. Cette définition de table n'est pas supportée.
 DocFileFieldAllLOBs.Id=1178
-*** @TRANS OLD
-*** DocFileKeyNoFields=Attention : La définition du fichier ne comporte pas de clés primaires.
-*** @TRANS NEW
-DocFileKeyNoFields=Warning: Table definition does not have any primary keys.
+DocFileKeyNoFields=Attention : La définition de table n'a pas de clés primaires.
 DocFileKeyNoFields.Id=1179
-*** @TRANS OLD
-*** DocFileKeyTooManyFields=La définition du fichier dépasse la limite opérationnelle de 20 clés primaires.
-*** @TRANS NEW
-DocFileKeyTooManyFields=Table definition exceeds operational limit of 20 primary keys.
+DocFileKeyTooManyFields=La définition de table dépasse la limite opérationnelle de 20 clés primaires.
 DocFileKeyTooManyFields.Id=1180
 DocFileFragmentReadStatements=Le nombre total d'instructions RDML utilisées par la logique de dérivation après lecture des zones virtuelles (&1 lignes) dépasse le maximum autorisé 9999.
 DocFileFragmentReadStatements.Id=1181
@@ -2782,29 +2480,17 @@ DocValidationRuleMsgTxtIgnored=Le texte de message est ignoré quand fichier et i
 DocValidationRuleMsgTxtIgnored.Id=1209
 DocValidationRuleMsgIdOrTxtRequired=Au moins un texte de message ou un fichier et un id de message doivent être précisés.
 DocValidationRuleMsgIdOrTxtRequired.Id=1210
-*** @TRANS OLD
-*** DocValidationRuleLookupFileRequired=Un contrôle de recherche en table nécessite un nom de fichier.
-*** @TRANS NEW
-DocValidationRuleLookupFileRequired=Lookup rule requires a table name.
+DocValidationRuleLookupFileRequired=Un contrôle de recherche en table nécessite un nom de table.
 DocValidationRuleLookupFileRequired.Id=1211
-*** @TRANS OLD
-*** DocValidationRuleLookupFileNotFound=Le fichier de recherche &1 de la bibliothèque *FIRST n'est pas défini dans LANSA.
-*** @TRANS NEW
-DocValidationRuleLookupFileNotFound=Lookup table &1 of schema *FIRST is not defined to LANSA.
+DocValidationRuleLookupFileNotFound=Le fichier de recherche &1 du schéma *FIRST n'est pas défini dans LANSA.
 DocValidationRuleLookupFileNotFound.Id=1212
 DocValidationRuleLookupKeyRequired=Au moins une clé doit être définie pour un contrôle de recherche en table.
 DocValidationRuleLookupKeyRequired.Id=1213
 DocValidationRuleLookupKeyTooMany=Le nombre de clés de recherche dépasse le maximum &1.
 DocValidationRuleLookupKeyTooMany.Id=1214
-*** @TRANS OLD
-*** DocValidationRuleLookupKeyGtTarget=Les zone(s)/valeur(s) définies pour le contrôle de recherche en table dépassent le nombre de clés définies dans le fichier de recherche.
-*** @TRANS NEW
-DocValidationRuleLookupKeyGtTarget=Keys/values defined to lookup rule exceed the number of keys defined on the lookup file.
+DocValidationRuleLookupKeyGtTarget=Clés/valeurs définies pour le contrôle de recherche en table dépassent le nombre de clés définies dans la table cible.
 DocValidationRuleLookupKeyGtTarget.Id=1215
-*** @TRANS OLD
-*** DocValidationRuleLookupKeyLtTarget=Attention : Les zone(s)/valeur(s) définies pour le contrôle de recherche en table ne correspondent pas au nombre de clés définies dans le fichier de recherche.
-*** @TRANS NEW
-DocValidationRuleLookupKeyLtTarget=Warning: Keys/values defined on lookup rule do not match the number of keys defined on the lookup file.
+DocValidationRuleLookupKeyLtTarget=Attention : Clés/valeurs définies pour le contrôle de recherche en table ne correspondent pas au nombre de clés définies dans la table cible.
 DocValidationRuleLookupKeyLtTarget.Id=1216
 DocValidationRuleLookupKeyTooLong=La longueur de la valeur &1 a dépassé la longueur maximum &2.
 DocValidationRuleLookupKeyTooLong.Id=1217
@@ -2988,10 +2674,7 @@ DocFieldHeadTooLongEBCDIC=L'entête pour la langue &1 a dépassé la longueur EBCDI
 DocFieldHeadTooLongEBCDIC.Id=1306
 DocDescRequired=La description est indispensable pour la langue &1. Elle ne peut pas être nulle ou à blanc.
 DocDescRequired.Id=1307
-*** @TRANS OLD
-*** DocFieldNameRequired=Le nom de zone est indispensable. Il ne peut pas être nul ou à blanc.
-*** @TRANS NEW
-DocFieldNameRequired=Name is required. It cannot be null or all spaces.
+DocFieldNameRequired=Nom nécessaire. Il ne peut pas être nul ou à blanc.
 DocFieldNameRequired.Id=1308
 DocFieldNameNotFound=La zone &1 n'est pas définie dans LANSA.
 DocFieldNameNotFound.Id=1309
@@ -3219,30 +2902,15 @@ DocMessageFileNameExists=Le nom de fichier de messages a déjà été défini.
 DocMessageFileNameExists.Id=1413
 DocTaskNameExists=Le nom de tâche &1 a déjà été défini.
 DocTaskNameExists.Id=1414
-*** @TRANS OLD
-*** DocOtherFileFileCannotBeLocked=Le fichier &1 n'a pas pu être chargé car un verrouillage en mise à jour de la définition du fichier LANSA n'a pas pu être effectué. Vérifiez que votre utilisateur est autorisés à cet objet LANSA.
-*** @TRANS NEW
-DocOtherFileFileCannotBeLocked=Table &1 cannot be loaded because a lock to update the LANSA table definition could not be acquired. Ensure that your user is authorized to this LANSA object.
+DocOtherFileFileCannotBeLocked=Table &1 non chargée car un verrouillage en mise à jour de la définition de table LANSA n'a pas pu être effectué. Vérifiez que votre utilisateur est autorisés à cet objet LANSA.
 DocOtherFileFileCannotBeLocked.Id=1415
-*** @TRANS OLD
-*** DocOtherFileFileLANSAInternalFile=Le fichier &1 n'a pas pu être chargé. C'est un fichier interne LANSA utilisé par certains composants de l'environnement de développement LANSA.
-*** @TRANS NEW
-DocOtherFileFileLANSAInternalFile=Table &1 cannot be loaded. It is a LANSA Internal Table definition used by parts of the LANSA development environment.
+DocOtherFileFileLANSAInternalFile=Table &1 non chargée. C'est un fichier interne LANSA utilisé par certains composants de l'environnement de développement LANSA.
 DocOtherFileFileLANSAInternalFile.Id=1416
-*** @TRANS OLD
-*** DocOtherFileNotISeriesOtherFile=Le fichier n'a pas pu être chargé car le fichier &1 n'est pas un fichier externe iSeries. La définition existante ne sera pas remplacée.
-*** @TRANS NEW
-DocOtherFileNotISeriesOtherFile=Table cannot be loaded because name &1 is assigned to a LANSA Table definition that is not an IBM i File. The existing definition will not be replaced.
+DocOtherFileNotISeriesOtherFile=Table non chargée car le nom &1 est assigné à une définition de table LANSA qui n'est pas un fichier IBM i. La définition existante ne sera pas remplacée.
 DocOtherFileNotISeriesOtherFile.Id=1417
-*** @TRANS OLD
-*** DocOtherFileKeyFieldOmitted=La définition du fichier n'a pas pu être chargée. La zone &1 fait partie de la clé primaire et a été omise de la définition de fichier LANSA.
-*** @TRANS NEW
-DocOtherFileKeyFieldOmitted=Table definition cannot be loaded. Field &1 is part of the primary key and has been omitted from the LANSA Table definition.
+DocOtherFileKeyFieldOmitted=Définition de table non chargée. La zone &1 fait partie de la clé primaire et a été omise de la définition de table LANSA.
 DocOtherFileKeyFieldOmitted.Id=1418
-*** @TRANS OLD
-*** DocOtherFileFieldOmitted=La zone &1 a été omise de la définition de fichier LANSA.
-*** @TRANS NEW
-DocOtherFileFieldOmitted=Field &1 has been omitted from the LANSA Table definition.
+DocOtherFileFieldOmitted=La zone &1 a été omise de la définition de table LANSA.
 DocOtherFileFieldOmitted.Id=1419
 DocOtherFileUserDefinedType=Le type '&1' défini par l'utilisateur pour la zone &2 n'est pas supporté.
 DocOtherFileUserDefinedType.Id=1420
@@ -3266,69 +2934,33 @@ DocOtherFileDatalinkType=Le type liaison de données (type '&1') assigné à la zon
 DocOtherFileDatalinkType.Id=1429
 DocOtherFileRowId=La zone &1 a une option ROWID non supportée.
 DocOtherFileRowId.Id=1430
-*** @TRANS OLD
-*** DocOtherFileRDMLXInvalidType=Le type de zone '&1' assigné à la zone &2 n'est pas supporté dans une définition de fichier LANSA.
-*** @TRANS NEW
-DocOtherFileRDMLXInvalidType=Field type &1 assigned to field &2 is not supported in a LANSA Table definition.
+DocOtherFileRDMLXInvalidType=Le type de zone '&1' assigné à la zone &2 n'est pas supporté dans une définition de table LANSA.
 DocOtherFileRDMLXInvalidType.Id=1431
-*** @TRANS OLD
-*** DocOtherFileRDMLXInvalidKeyboardShift=La sélection clavier '&1' est incorrecte pour la zone &2 dans une définition de fichier LANSA.
-*** @TRANS NEW
-DocOtherFileRDMLXInvalidKeyboardShift=Keyboard shift '&1' is not valid for field &2 in a LANSA Table definition.
+DocOtherFileRDMLXInvalidKeyboardShift=La sélection clavier '&1' est incorrecte pour la zone &2 dans une définition de table LANSA.
 DocOtherFileRDMLXInvalidKeyboardShift.Id=1432
-*** @TRANS OLD
-*** DocOtherFileLFFieldOmitted=La zone logique &1 est introuvable dans la définition du fichier physique et a été omise du fichier logique &2.
-*** @TRANS NEW
-DocOtherFileLFFieldOmitted=Column &1 could not be found in the table definition so it has been omitted from index &2.
+DocOtherFileLFFieldOmitted=La colonne &1 est introuvable dans la définition de table et a été omise de l'index &2.
 DocOtherFileLFFieldOmitted.Id=1433
-*** @TRANS OLD
-*** DocOtherFileLFExistsAsPF=Le nom &1 ne peut pas être utilisée pour un nom de fichier logique.Il a déjà été affecté à une définition de fichier LANSA.
-*** @TRANS NEW
-DocOtherFileLFExistsAsPF=Name &1 cannot be used for an index name. It has already been assigned to a LANSA Table definition.
+DocOtherFileLFExistsAsPF=Le nom &1 ne peut pas être utilisée pour un nom d'index. Il a déjà été affecté à une définition de table LANSA.
 DocOtherFileLFExistsAsPF.Id=1434
-*** @TRANS OLD
-*** DocOtherFileLFExistsAsLF=Le nom &1 ne peut pas être utilisé pour un nom de fichier logique.Il a déjà été affecté à un autre fichier logique LANSA.
-*** @TRANS NEW
-DocOtherFileLFExistsAsLF=Name &1 cannot be used for an index name. It has already been assigned to another LANSA Index.
+DocOtherFileLFExistsAsLF=Le nom &1 ne peut pas être utilisé pour un nom d'index. Il a déjà été affecté à un autre index LANSA.
 DocOtherFileLFExistsAsLF.Id=1435
-*** @TRANS OLD
-*** DocOtherFileLFKeyFieldOmitted=La clé de fichier logique &1 est introuvable dans la définition du fichier physique et a été omise du fichier logique &2.
-*** @TRANS NEW
-DocOtherFileLFKeyFieldOmitted=Index column &1 could not be found in the table definition so it has been omitted from Index &2.
+DocOtherFileLFKeyFieldOmitted=La colonne d'index &1 est introuvable dans la définition da la table et a été omise de l'index &2.
 DocOtherFileLFKeyFieldOmitted.Id=1436
-*** @TRANS OLD
-*** DocOtherFileLFOmitted=Le fichier logique &1 a été omis de la définition du fichier LANSA.
-*** @TRANS NEW
-DocOtherFileLFOmitted=Index &1 has been omitted from the LANSA Table definition.
+DocOtherFileLFOmitted=L'index &1 a été omis de la définition du fichier LANSA.
 DocOtherFileLFOmitted.Id=1437
-*** @TRANS OLD
-*** DocOtherFileCreateRRNNotAllowed=Le nom de fichier &1 est un nom de fichier interne LANSA. Les fichiers internes LANSA ne peuvent pas recevoir l'attribut CreateRRN, l'attribut a été ignoré pour ce fichier.
-*** @TRANS NEW
-DocOtherFileCreateRRNNotAllowed=Table &1 is a LANSA Internal Table name. LANSA Internal tables cannot be assigned the CreateRRN attribute so the attribute has been ignored for this table.
+DocOtherFileCreateRRNNotAllowed=La table &1 est une table interne LANSA. Les tables internes LANSA ne peuvent pas recevoir l'attribut CreateRRN, l'attribut a été ignoré pour ce fichier.
 DocOtherFileCreateRRNNotAllowed.Id=1438
-*** @TRANS OLD
-*** DocOtherFileNoDataSourceColumn=Colonne source de données manquante. Création de zone impossible pour la définition du fichier LANSA.
-*** @TRANS NEW
-DocOtherFileNoDataSourceColumn=Missing Data Source column. Cannot create column for LANSA Table definition.
+DocOtherFileNoDataSourceColumn=Colonne source de données manquante. Création de colonne impossible pour la définition de table LANSA.
 DocOtherFileNoDataSourceColumn.Id=1439
-*** @TRANS OLD
-*** DocOtherFileInvalidColumnType=Le type &1 de la colonne &2 n'est pas supporté par une définition de fichier LANSA.
-*** @TRANS NEW
-DocOtherFileInvalidColumnType=The column type &1 of column &2 is not supported by a LANSA Table definition.
+DocOtherFileInvalidColumnType=Le type &1 de la colonne &2 n'est pas supporté par une définition de table LANSA.
 DocOtherFileInvalidColumnType.Id=1440
 DocOtherFileNegativeScale=La colonne &1 a une précision de &2 et une échelle de &3. LANSA ne supporte pas une échelle négative.
 DocOtherFileNegativeScale.Id=1441
 DocOtherFileScaleGtPrecision=La colonne &1 a une précision de &2 et une échelle de &3. LANSA ne supporte pas une échelle supérieure à la précision.
 DocOtherFileScaleGtPrecision.Id=1442
-*** @TRANS OLD
-*** DocOtherFileNoDataSourceIndexKey=Clé d'index de source de données manquante. Impossible de créer la clé de vue logique pour la définition de fichier LANSA.
-*** @TRANS NEW
-DocOtherFileNoDataSourceIndexKey=Missing Data Source index key. Cannot create index key for LANSA Table definition.
+DocOtherFileNoDataSourceIndexKey=Clé d'index de source de données manquante. Impossible de créer la clé d'index pour la définition de table LANSA.
 DocOtherFileNoDataSourceIndexKey.Id=1443
-*** @TRANS OLD
-*** DocOtherFileNoDataSourceIndex=Index de source de données manquant. Impossible de créer la vue logique pour la définition de fichier LANSA.
-*** @TRANS NEW
-DocOtherFileNoDataSourceIndex=Missing Data Source index. Cannot create Index for LANSA Table definition.
+DocOtherFileNoDataSourceIndex=Index de source de données manquant. Impossible de créer l'index pour la définition de table LANSA.
 DocOtherFileNoDataSourceIndex.Id=1444
 DocCompFrameworkRequired=Le composant doit être affecté à un framework.
 DocCompFrameworkRequired.Id=1445
@@ -3338,62 +2970,29 @@ DocFileAccessRouteMaxRecordsRangeInvalid=Le nombre maximum d'enregistrements doi
 DocFileAccessRouteMaxRecordsRangeInvalid.Id=1447
 DocPartitionGrpNameRequired=Le nom de groupe est indispensable. Il ne peut pas être nul ou à blanc.
 DocPartitionGrpNameRequired.Id=1448
-*** @TRANS OLD
-*** DocFileLogicalViewCriteriaInvalidAll=Le type de critère de fichier logique ALL ne peut être utilisé que comme critère final.
-*** @TRANS NEW
-DocFileLogicalViewCriteriaInvalidAll=Index criterion type of ALL can only be used as the final criterion.
+DocFileLogicalViewCriteriaInvalidAll=Le type de critère d'index ALL ne peut être utilisé que comme critère final.
 DocFileLogicalViewCriteriaInvalidAll.Id=1449
 DocFileInvalidFileTypeChange=La modification du type de fichier &1 de &2 à &3 n'est pas autorisé. LANSA ne vous autorise actuellement que le passage de &4 à &5.
 DocFileInvalidFileTypeChange.Id=1450
-*** @TRANS OLD
-*** DocFileLogicalViewAccessPathMaintenanceNotSupported=L'option choisie de maintenance du chemin d'accès n'est pas supportée. Elle ne peut être utilisée que pour les fichier externes ISeries.
-*** @TRANS NEW
-DocFileLogicalViewAccessPathMaintenanceNotSupported=Selected option for Access Path Maintenance is not supported. It can only be used for IBM i tables.
+DocFileLogicalViewAccessPathMaintenanceNotSupported=L'option choisie de maintenance du chemin d'accès n'est pas supportée. Elle ne peut être utilisée que pour les tables IBM i.
 DocFileLogicalViewAccessPathMaintenanceNotSupported.Id=1451
-*** @TRANS OLD
-*** DocFieldOtherFileKeyboardShift=La sélection clavier ne peut pas être modifiée. La définition de la zone a été créée par chargement d'un fichier externe et est toujours utilisée par un ou plusieurs fichiers externes.
-*** @TRANS NEW
-DocFieldOtherFileKeyboardShift=Keyboard shift cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileKeyboardShift=La sélection clavier ne peut pas être modifiée. La définition de la zone a été créée par import de définition de table et est toujours utilisée par une ou plusieurs de ces tables.
 DocFieldOtherFileKeyboardShift.Id=1452
-*** @TRANS OLD
-*** DocFieldOtherFileASQN=L'attribut de zone *ASQN ne peut pas être ajouté ou supprimé. La définition de la zone a été créée par chargement d'un fichier externe et est toujours utilisée par un ou plusieurs fichiers externes.
-*** @TRANS NEW
-DocFieldOtherFileASQN=Field attribute *ASQN cannot added or deleted. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileASQN=L'attribut de zone *ASQN ne peut pas être ajouté ou supprimé. La définition de la zone a été créée par import de définition de table et est toujours utilisée par une ou plusieurs de ces tables.
 DocFieldOtherFileASQN.Id=1453
-*** @TRANS OLD
-*** DocFieldOtherFileFullRDMLX=L'indicateur RDMLX intégral ne peut pas être modifié. La définition de la zone a été créée par chargement d'un fichier externe et est toujours utilisée par un ou plusieurs fichiers externes.
-*** @TRANS NEW
-DocFieldOtherFileFullRDMLX=Full RDMLX flag cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileFullRDMLX=L'indicateur RDMLX intégral ne peut pas être modifié. La définition de la zone a été créée par import de définition de table et est toujours utilisée par une ou plusieurs tables.
 DocFieldOtherFileFullRDMLX.Id=1454
-*** @TRANS OLD
-*** DocFieldOtherFileLength=La longueur de la zone ne peut pas être modifiée. La définition de la zone a été créée par chargement d'un fichier externe et est toujours utilisée par un ou plusieurs fichiers 
-*** @TRANS NEW
-DocFieldOtherFileLength=Field length cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileLength=La longueur de la zone ne peut pas être modifiée. La définition de la zone a été créée par import de définition de table et est toujours utilisée par une ou plusieurs tables. 
 DocFieldOtherFileLength.Id=1455
-*** @TRANS OLD
-*** DocFieldOtherFileDecimals=Le nombre de décimales ne peut pas être modifié. La définition de la zone a été créée par chargement d'un fichier externe et est toujours utilisée par un ou plusieurs fichiers 
-*** @TRANS NEW
-DocFieldOtherFileDecimals=Field decimals cannot be changed. The field definition was created Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileDecimals=Le nombre de décimales ne peut pas être modifié. La définition de la zone a été créée par import de définition de table et est toujours utilisée par une ou plusieurs tables. 
 DocFieldOtherFileDecimals.Id=1456
-*** @TRANS OLD
-*** DocFieldOtherFileReferenceField=La zone de référence ne peut pas être modifiée. La définition de la zone a été créée par chargement d'un fichier externe et est toujours utilisée par un ou plusieurs fichiers 
-*** @TRANS NEW
-DocFieldOtherFileReferenceField=Reference field name cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileReferenceField=La zone de référence ne peut pas être modifiée. La définition de la zone a été créée par import de définition de table et est toujours utilisée par une ou plusieurs tables. 
 DocFieldOtherFileReferenceField.Id=1457
-*** @TRANS OLD
-*** DocFieldOtherFileFieldType=Le type de zone ne peut pas être modifié. La définition de la zone a été créée par chargement d'un fichier externe et est toujours utilisée par un ou plusieurs fichiers 
-*** @TRANS NEW
-DocFieldOtherFileFieldType=Field type cannot be changed. The field definition was created when Importing Table Definitions and it is still used by one or more of these tables.
+DocFieldOtherFileFieldType=Le type de zone ne peut pas être modifié. La définition de la zone a été créée par import de définition de table et est toujours utilisée par une ou plusieurs tables. 
 DocFieldOtherFileFieldType.Id=1458
-*** @TRANS OLD
-*** DocFileNameTreatedAsInternal=Le nom de fichier &1 sera interprété comme un fichier interne LANSA. Ceci peut exclure ce fichiers de listes dans lesquelles il serait normalement inclus.
-*** @TRANS NEW
-DocFileNameTreatedAsInternal=Table name &1 will be interpreted as a LANSA Internal table. This may cause the table to be excluded from lists that would normally include the table.
+DocFileNameTreatedAsInternal=Le nom de table &1 sera interprété comme une table interne LANSA. Ceci peut exclure cette table de listes dans lesquelles il serait normalement inclus.
 DocFileNameTreatedAsInternal.Id=1459
-*** @TRANS OLD
-*** DocOtherFileIsMasterOnlyFile=Le fichier &1 ne peut pas être rechargé car il existe dans le référentiel du système maître et n'en a pas été extrait. Vous devez extraire le fichier et toutes les zones du fichier pour vérifier que le fichier externe est correctement rechargé.   
-*** @TRANS NEW
-DocOtherFileIsMasterOnlyFile=Table &1 cannot be reloaded as it exists in the Master Repository and is not checked out. You should check out the table and all the table's associated field definitions to ensure that the Imported File is reloaded correctly. 
+DocOtherFileIsMasterOnlyFile=La table &1 ne peut pas être rechargé car il existe dans le référentiel du système maître et n'en a pas été extrait. Vous devez extraire le fichier et toutes les zones du fichier pour vérifier que la table importée est correctement rechargé.   
 DocOtherFileIsMasterOnlyFile.Id=1460
 DocFieldKeyboardShiftProductUnsupported=La sélection clavier n'est pas actuellement supportée par cette version de LANSA.
 DocFieldKeyboardShiftProductUnsupported.Id=1461
@@ -3459,25 +3058,13 @@ DocTemplateHelpPanelNameTooLong=Le nom dépasse la longueur maximum de &1 caractè
 DocTemplateHelpPanelNameTooLong.Id=1491
 DocObjectSecurityUserNameNotUnique=L'utilisateur ne peut être précisé qu'une seule fois.
 DocObjectSecurityUserNameNotUnique.Id=1492
-*** @TRANS OLD
-*** DocFileDefaultNamingRuleOnly=Le fichier &1 est un fichier LANSA Externe - la sélection d'une règle de nommage autre que par défaut n'est pas supporté.
-*** @TRANS NEW
-DocFileDefaultNamingRuleOnly=Table &1 is an Imported File - selection of a naming rule other than the default is not support.
+DocFileDefaultNamingRuleOnly=La table &1 est un fichier importé - la sélection d'une règle de nommage autre que par défaut n'est pas supporté.
 DocFileDefaultNamingRuleOnly.Id=1493
-*** @TRANS OLD
-*** DocOtherFileInvalidAlias=Le nom d'alias &1 est incorrect pour la zone &2 dans une définition de fichier LANSA Externe. La valeur est ignorée.
-*** @TRANS NEW
-DocOtherFileInvalidAlias=Alias name &1 is not valid for field &2 in an Imported Table definition. Value is ignored.
+DocOtherFileInvalidAlias=Le nom d'alias &1 est incorrect pour la zone &2 dans une définition de table importée. La valeur est ignorée.
 DocOtherFileInvalidAlias.Id=1494
-*** @TRANS OLD
-*** DocOtherFileInvalidEditCode=Le caractère code d'édition '&1' est incorrect pour la zone &2 dans une définition de fichier LANSA Externe. La valeur est ignorée.
-*** @TRANS NEW
-DocOtherFileInvalidEditCode=Edit code character &1 is not valid for field &2 in an Imported Table definition. Value is ignored.
+DocOtherFileInvalidEditCode=Le caractère code d'édition &1 est incorrect pour la zone &2 dans une définition de table importée. La valeur est ignorée.
 DocOtherFileInvalidEditCode.Id=1495
-*** @TRANS OLD
-*** DocOtherFileInvalidEditWord=Le mot d'édition &1 est incorrect pour la zone &2 dans une définition de fichier LANSA Externe. La valeur est ignorée.
-*** @TRANS NEW
-DocOtherFileInvalidEditWord=Edit word &1 is not valid for field &2 in an Imported Table definition. Value is ignored.
+DocOtherFileInvalidEditWord=Le mot d'édition &1 est incorrect pour la zone &2 dans une définition de table importée. La valeur est ignorée.
 DocOtherFileInvalidEditWord.Id=1496
 DocMessageIdExists=L'ID de message ID &1 existe déjà.
 DocMessageIdExists.Id=1497
@@ -3509,17 +3096,11 @@ DocRepositoryFileLevelCheckTooLong=Le paramètre LVLCHK d'un fichier ne peut pas 
 DocRepositoryFileLevelCheckTooLong.Id=1510
 DocRepositoryInvalidVersion=Numéro de version incorrect.
 DocRepositoryInvalidVersion.Id=1511
-*** @TRANS OLD
-*** DocFieldInputFieldAttrsSUNIError=L'attribut SUNI n'est correct que pour des zones utilisées dans des fichiers Externes.
-*** @TRANS NEW
-DocFieldInputFieldAttrsSUNIError=The SUNI attribute is only valid for fields that are used in an Imported File.
+DocFieldInputFieldAttrsSUNIError=L'attribut SUNI n'est correct que pour des zones utilisées dans des fichiers importés.
 DocFieldInputFieldAttrsSUNIError.Id=1512
 DocUserPrincipalNameInvalid=Le nom principal est incorrect. Il contient des caractères blancs ou incorrects.
 DocUserPrincipalNameInvalid.Id=1513
-*** @TRANS OLD
-*** DocFileLogicalViewTooManyKeys=La définition de fichier logique dépasse la limite opérationnelle de 20 zones clés.
-*** @TRANS NEW
-DocFileLogicalViewTooManyKeys=Index definition exceeds operational limit of 20 key fields.
+DocFileLogicalViewTooManyKeys=La définition d'index dépasse la limite opérationnelle de 20 zones clés.
 DocFileLogicalViewTooManyKeys.Id=1514
 DocTaskStatusFinished=Un statut de tâche Terminé ne peut plus être modifié.
 DocTaskStatusFinished.Id=1515
@@ -3551,10 +3132,7 @@ DocRepositoryLibraryPathTooLong=Le nom de bibliothèque des programmes dépasse la
 DocRepositoryLibraryPathTooLong.Id=1528
 DocRepositoryLibraryPathInvalid=Le nom de bibliothèque des programmes contient caractères blancs ou incorrects.
 DocRepositoryLibraryPathInvalid.Id=1529
-*** @TRANS OLD
-*** DocFieldOtherFileSUNI=L'attribut de zone SUNI ne peut pas être ajouté ou supprimé. La définition de zone a été créée lors du chargement de fichier externe et est toujours utilisée par un ou plusieurs de ces fichiers.
-*** @TRANS NEW
-DocFieldOtherFileSUNI=Field attribute SUNI cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileSUNI=L'attribut de zone SUNI ne peut pas être ajouté ou supprimé. La définition de zone a été créée lors de l'import de définition de table et est toujours utilisée par un ou plusieurs de ces tables.
 DocFieldOtherFileSUNI.Id=1530
 DocFileDBTriggerNameNotSet=Nom de déclencheur de BD non fourni.
 DocFileDBTriggerNameNotSet.Id=1531
@@ -3598,22 +3176,13 @@ DocExternalResourcePathInvalid=Impossible de trouver &1.
 DocExternalResourcePathInvalid.Id=1553
 DocFilePJFAccessRouteNotActionable=La relation &1 ne supporte pas les définitions de PJF car elle ne peut pas être actionnée.
 DocFilePJFAccessRouteNotActionable.Id=1554
-*** @TRANS OLD
-*** DocFileAutoRRNNoPrimaryKey=AutoRRN nécessite un fichier avec une clé primaire.
-*** @TRANS NEW
-DocFileAutoRRNNoPrimaryKey=AutoRRN requires the Table to have a Primary Key.
+DocFileAutoRRNNoPrimaryKey=AutoRRN nécessite une table avec une clé primaire.
 DocFileAutoRRNNoPrimaryKey.Id=1160
 OptionNotAllowedForResponse=Option &1 non autorisé pour ce type de réponse.
 OptionNotAllowedForResponse.Id=1161
-*** @TRANS OLD
-*** DocFileTooManyLogicalsRdml=Le nombre de fichiers logiques dépasse le maximum admis &1 pour un fichier RDML.
-*** @TRANS NEW
-DocFileTooManyLogicalsRdml=Number of indexes exceeds maximum of &1 for an RDML table.
+DocFileTooManyLogicalsRdml=Le nombre d'index dépasse le maximum admis &1 pour une table RDML.
 DocFileTooManyLogicalsRdml.Id=1162
-*** @TRANS OLD
-*** DocFileTooManyLogicalsRdmlx=Le nombre de fichiers logiques dépasse le maximum admis &1 pour un fichier RDMLX.
-*** @TRANS NEW
-DocFileTooManyLogicalsRdmlx=Number of indexes files exceeds maximum of &1 for an RDMLX table.
+DocFileTooManyLogicalsRdmlx=Le nombre de fichiers index dépasse le maximum admis &1 pour un fichier RDMLX.
 DocFileTooManyLogicalsRdmlx.Id=1163
 GeneratorRequestExternalResourceFileExists=Le fichier &1 existe déjà.
 GeneratorRequestExternalResourceFileExists.Id=1555
@@ -3633,14 +3202,11 @@ GeneratorRequestWamLayoutPostfix=Le nom de présentation du site ne devrait pas f
 GeneratorRequestWamLayoutPostfix.Id=1562
 DocAlternateNameLengthError=La longueur de nom alternatif doit être comprise entre &1 et &2.
 DocAlternateNameLengthError.Id=1563
-DocFileNameTooLongOracle=&1 est trop long pour être utilisé comme nom de table ( Oracle permet jusqu'à 30 caractères), l'identifiant &2 sera utilisé en remplacement.
+DocFileNameTooLongOracle=&1 est trop long pour être utilisé comme nom de table (Oracle permet jusqu'à 30 caractères), l'identifiant &2 sera utilisé en remplacement.
 DocFileNameTooLongOracle.Id=1564
-DocFileFieldNameTooLongOracle=&1 est trop long pour être utilisé comme nom de colonne ( Oracle permet jusqu'à 30 caractères), l'identifiant &2 sera utilisé en remplacement.
+DocFileFieldNameTooLongOracle=&1 est trop long pour être utilisé comme nom de colonne (Oracle permet jusqu'à 30 caractères), l'identifiant &2 sera utilisé en remplacement.
 DocFileFieldNameTooLongOracle.Id=1565
-*** @TRANS OLD
-*** DocFilePhysicalFileNameExistsInFile=&1 existe déjà comme vue logique de ce fichier physique.
-*** @TRANS NEW
-DocFilePhysicalFileNameExistsInFile=&1 already exists as an index in this table.
+DocFilePhysicalFileNameExistsInFile=&1 existe déjà comme index de cette table.
 DocFilePhysicalFileNameExistsInFile.Id=1566
 DocFileNotLongNamesEnabled=La partition en cours n'est pas activée pour les noms longs.
 DocFileNotLongNamesEnabled.Id=1567
@@ -3652,10 +3218,7 @@ GroupByUnicodeNotAllowed=La zone &1 dans le Group_By &2 est une zone Unicode et 
 GroupByUnicodeNotAllowed.Id=1571
 UnicodeNotAllowed=La zone &1 est une zone Unicode et ne peut pas être utilisée.
 UnicodeNotAllowed.Id=1572
-*** @TRANS OLD
-*** DocFileLogicalViewNameTooLongOracle=&1 est trop long pour être utilisé comme nom de vue logique ( Oracle permet jusqu'à 30 caractères), l'identifiant &2 sera utilisé en remplacement.
-*** @TRANS NEW
-DocFileLogicalViewNameTooLongOracle=&1 is too long to be used as an index name ( Oracle allows up to 30 characters), the identifier &2 will be used instead.
+DocFileLogicalViewNameTooLongOracle=&1 est trop long pour être utilisé comme nom d'index (Oracle permet jusqu'à 30 caractères), l'identifiant &2 sera utilisé en remplacement.
 DocFileLogicalViewNameTooLongOracle.Id=1573
 DuplicateDefaultWeblet=Le weblet par défaut pour &1 &2 a déjà été défini.
 DuplicateDefaultWeblet.Id=1574
@@ -3701,10 +3264,7 @@ DocFileLogicalViewCriteriaNotSupported=Le type de zone de &1 n'est pas supporté 
 DocFileLogicalViewCriteriaNotSupported.Id=1596
 DocFilePhysicalFileNameMustMatchIdentifier=Le nom de fichier peut seulement être différent de l'identifiant si il est long de 9 caractères ou plus.
 DocFilePhysicalFileNameMustMatchIdentifier.Id=1597
-*** @TRANS OLD
-*** DocFileLogicalViewNameMustMatchIdentifier=Le nom de fichier logique peut seulement être différent de l'identifiant si il est long de 9 caractères ou plus.
-*** @TRANS NEW
-DocFileLogicalViewNameMustMatchIdentifier=Index name can only be different from the identifier if it is 9 characters or more.
+DocFileLogicalViewNameMustMatchIdentifier=Le nom d'index peut seulement être différent de l'identifiant si il est long de 9 caractères ou plus.
 DocFileLogicalViewNameMustMatchIdentifier.Id=1598
 DocCompNameReservedSuffix=Le nom &1 ne peut pas être utilisé. Le nom a un suffixe réservé par LANSA.
 DocCompNameReservedSuffix.Id=1599
@@ -3766,11 +3326,7 @@ UdcColumnNoCellDesign=&1 n'implémente pas ICellDesign.
 UdcColumnNoCellDesign.Id=1628
 DocWebPageResourceIdentifierRequired=Vous devez préciser soit un objet du référentiel soit une URL.
 DocWebPageResourceIdentifierRequired.Id=1629
-*** @TRANS CHANGED
-*** DocWebPageResourceIncorrectLansaFolder=Seules des ressources externes du dossier Web de la Partition sont supportées sur le Web
-*** @TRANS NEW
-DocWebPageResourceIncorrectLansaFolder=You can only specify an External Resource from the Partition Web Folder
-*** @TRANS END
+DocWebPageResourceIncorrectLansaFolder=Vous ne pouvez préciser qu'une ressource externe depuis le dossier Web de la partition.
 DocWebPageResourceIncorrectLansaFolder.Id=1631
 DocWebPageResourceIncorrectTargetPlatform=La plateforme cible n'inclut pas le Navigateur
 DocWebPageResourceIncorrectTargetPlatform.Id=1632
@@ -3778,15 +3334,9 @@ WebRadialBrushDifferentOrigin=Seul un pinceau radial d'origine et centre identiq
 WebRadialBrushDifferentOrigin.Id=1633
 ExpressionNotGroup=L'expression &1 ne produit pas un Groupe LANSA.
 ExpressionNotGroup.Id=1634
-*** @TRANS OLD
-*** DocFieldOtherFileSGRA=L'attribut de zone SGRA ne peut pas être ajouté ou supprimé. La définition de zone a été créée pendant le chargement de fichiers externe et est toujours utilisé par un ou plusieurs de ces fichiers.
-*** @TRANS NEW
-DocFieldOtherFileSGRA=Field attribute SGRA cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileSGRA=L'attribut de zone SGRA ne peut pas être ajouté ou supprimé. La définition de zone a été créée pendant l'import de définition de table et est toujours utilisé par une ou plusieurs de ces tables.
 DocFieldOtherFileSGRA.Id=1635
-*** @TRANS OLD
-*** DocFileFieldSGRAInvalid=LA zone &1 a un attribut SGRA et ne peut pas être utilisé dans ce fichier. Les zones avec un attribut SGRA ne peuvent être utilisés que dans un fichier externe.
-*** @TRANS NEW
-DocFileFieldSGRAInvalid=Field &1 has a SGRA attribute and cannot be used in this table. Fields with the SGRA attribute can only be used in Imported Files.
+DocFileFieldSGRAInvalid=La zone &1 a un attribut SGRA et ne peut pas être utilisé dans cette table. Les zones avec un attribut SGRA ne peuvent être utilisés que des fichiers importés.
 DocFileFieldSGRAInvalid.Id=1636
 NameNotRepositoryStyle=&1 n'est pas un composant style
 NameNotRepositoryStyle.Id=1637
@@ -3876,124 +3426,117 @@ DocValidationRuleDateUnsupported=Contrôle de validation de date non supporté sur
 DocValidationRuleDateUnsupported.Id=1679
 SrvMapOutputNotAllowed=Les mappages en sortie ne sont pas autorisés pour ce type de routine serveur
 SrvMapOutputNotAllowed.Id=1680
-*** @TRANS ADD
-StringValidationNotSupported=&1 doesn't support String Validation
+StringValidationNotSupported=&1 ne supporte pas la validation de chaîne
 StringValidationNotSupported.Id=1681
-NumberValidationNotSupported=&1 doesn't support Number Validation
+NumberValidationNotSupported=&1 ne supporte pas la validation de nombre
 NumberValidationNotSupported.Id=1682
-DocFieldOtherFileGUID=Field attribute GUID cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGUID=L'attribut de zone GUID ne peut pas être ajouté ou supprimé. La définition de zone a été créée pendant l'import de définition de table et est toujours utilisé par une ou plusieurs de ces tables.
 DocFieldOtherFileGUID.Id=1683
-DocFieldOtherFileHIID=Field attribute HIID cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileHIID=L'attribut de zone HIID ne peut pas être ajouté ou supprimé. La définition de zone a été créée pendant l'import de définition de table et est toujours utilisé par une ou plusieurs de ces tables.
 DocFieldOtherFileHIID.Id=1684
-DocFileIdentityColumnFullRdmlx=Full RDMLX is not enabled for file. Identity column is only supported by full RDMLX file.
+DocFileIdentityColumnFullRdmlx=RDMLX intégral n'est pas activé pour file. La colonne identité n'est supportée que par des fichiers RDMLX intégral.
 DocFileIdentityColumnFullRdmlx.Id=1685
-DocFileIdentityColumnUnique=Only one Identity column is allowed per file.
+DocFileIdentityColumnUnique=Une seule colonne identité est autorisée par fichier.
 DocFileIdentityColumnUnique.Id=1686
-DocFileIdentityColumnInvalidFieldType=Field type &1 is not valid for Identity column.
+DocFileIdentityColumnInvalidFieldType=Le type de zone &1 n'est pas admise pour une colonne identité.
 DocFileIdentityColumnInvalidFieldType.Id=1687
-DocFileDBtypeIdentityColumnInvalidDecimals=Only zero scale decimal is allowed for identity column.
-DocFileDBtypeIdentityColumnInvalidDecimals.Id=1688
-DocFileDBtypeIdentityColumnInvalidFieldType=Field type &1 is not valid for Identity column in Database type &2.
+DocFileIdentityColumnInvalidDecimals=Seules des données décimales à précision binaires sont autorisées pour la colonne identité.
+DocFileIdentityColumnInvalidDecimals.Id=1688
+DocFileDBtypeIdentityColumnInvalidFieldType=Le type de zone &1 est incorrect pour la colonne identité dans le type de base de données &2.
 DocFileDBtypeIdentityColumnInvalidFieldType.Id=1689
-DocFileDBtypeIdentityColumnLengthTooLong=Field is too long to be assigned as an Identity column. Maximum length is 31 for Database type &1.
+DocFileDBtypeIdentityColumnLengthTooLong=La zone est trop longue pour être assignée à une colonne identité. Longueur maximum 31 pour le type de base de données &1.
 DocFileDBtypeIdentityColumnLengthTooLong.Id=1690
-DocFileDBtypeIdentityColumnLengthRange=Field length must be between 1 and 38 to be assigned as an Identity column for Database type &1.
+DocFileDBtypeIdentityColumnLengthRange=La longueur de zone doit être comprise entre 1 et 38 pour être désignée comme colonne identité pour le type de base de données &1.
 DocFileDBtypeIdentityColumnLengthRange.Id=1691
-DocFileFragmentVirtualFieldDerivationHasErrors=Virtual field derivation has errors.
+DocFileFragmentVirtualFieldDerivationHasErrors=Erreurs de dérivation de zones virtuelles.
 DocFileFragmentVirtualFieldDerivationHasErrors.Id=1692
-DocFileFragmentColumnDerivationHasErrors=Column derivation has errors.
+DocFileFragmentColumnDerivationHasErrors=Erreurs de dérivation de colonne.
 DocFileFragmentColumnDerivationHasErrors.Id=1693
-InvalidContentSecurityPolicy=&1 is not a valid Content Security Policy file, you must specify an External Resource from the Partition CSP Folder.
+InvalidContentSecurityPolicy=&1 n'est pas un fichier de politique de sécurité du contenu correct, vous devez préciser une ressource externe du dossier CSP de la partition.
 InvalidContentSecurityPolicy.Id=1694
-DocWebPageResourceExtResourceOrUrlRequired=You must specify either an External Resource or a URL
+DocWebPageResourceExtResourceOrUrlRequired=Vous devez préciser soit une ressource externe soit une URL
 DocWebPageResourceExtResourceOrUrlRequired.Id=1695
-DocOtherFileNameMatchNewEntity=Name &1 rejected. It matches the name of an entity being loaded.
+
+DocOtherFileNameMatchNewEntity=Nom &1 rejeté. Il correspond au nom d'une entité à charger.
 DocOtherFileNameMatchNewEntity.Id=1696
-DocOtherFileNameMatchNewField=Name &1 rejected. It matches the name of a new field.
+DocOtherFileNameMatchNewField=Nom &1 rejeté. Il correspond au nom d'une nouvelle zone.
 DocOtherFileNameMatchNewField.Id=1697
-DocOtherFileNameMatchNewPF=Name &1 rejected. It matches the name of a table being loaded.
+DocOtherFileNameMatchNewPF=Nom &1 rejeté. Il correspond au nom d'une table à charger.
 DocOtherFileNameMatchNewPF.Id=1698
-*** @TRANS OLD***
-*** DocOtherFileNameMatchNewLF=Name &1 rejected. It matches the name of a logical view being loaded.
-*** @TRANS NEW
-DocOtherFileNameMatchNewLF=Name &1 rejected. It matches the name of an index being loaded.
+DocOtherFileNameMatchNewLF=Nom &1 rejeté. Il correspond au nom d'un index à charger.
 DocOtherFileNameMatchNewLF.Id=1699
-DocOtherFileNameMatchNewFieldColumnAttrs=Name &1 rejected. It matches the name of a new field but does not match column attributes.
+DocOtherFileNameMatchNewFieldColumnAttrs=Nom &1 rejeté. Il correspond au nom d'une nouvelle zone mais ne correspond pas aux attributs de la colonne.
 DocOtherFileNameMatchNewFieldColumnAttrs.Id=1700
-DocOtherFileNameMatchNewFieldColumnName=Name &1 rejected. It matches the name of a new field but column names do not match.
+DocOtherFileNameMatchNewFieldColumnName=Nom &1 rejeté. Il correspond au nom d'une nouvelle zone mais les noms de colonne ne correspondent pas.
 DocOtherFileNameMatchNewFieldColumnName.Id=1701
-DocOtherFileNameMatchExistingEntity=Name &1 rejected. It matches the name of an existing repository entity.
+DocOtherFileNameMatchExistingEntity=Nom &1 rejeté. Il correspond au nom d'une entité existante du référentielle.
 DocOtherFileNameMatchExistingEntity.Id=1702
-DocOtherFileNameMismatchExistingField=Name &1 rejected. It matches the name of a field that does not match type, length or decimal attributes.
+DocOtherFileNameMismatchExistingField=Nom &1 rejeté. Il correspond au nom d'une zone qui ne correspond pas aux attributs type, longueur ou décimales.
 DocOtherFileNameMismatchExistingField.Id=1703
-DocOtherFileNameMismatchExistingFieldAsqn=Name &1 rejected. It matches the name of a field that does not match the ASQN attribute.
+DocOtherFileNameMismatchExistingFieldAsqn=Nom &1 rejeté. Il correspond au nom d'une zone qui ne correspond pas à l'attribut ASQN.
 DocOtherFileNameMismatchExistingFieldAsqn.Id=1704
-DocOtherFileNameMismatchExistingFieldSuni=Name &1 rejected. It matches the name of a field that does not match the SUNI attribute.
+DocOtherFileNameMismatchExistingFieldSuni=Nom &1 rejeté. Il correspond au nom d'une zone qui ne correspond pas à l'attribut SUNI.
 DocOtherFileNameMismatchExistingFieldSuni.Id=1705
-DocOtherFileNameMismatchExistingFieldRdmlx=Name &1 rejected. It matches the name of a field that does not match the RDMLX attribute.
+DocOtherFileNameMismatchExistingFieldRdmlx=Nom &1 rejeté. Il correspond au nom d'une zone qui ne correspond pas à l'attribut RDMLX.
 DocOtherFileNameMismatchExistingFieldRdmlx.Id=1706
-DocOtherFileNameMismatchExistingFieldCcsid="Name &1 rejected. It matches the name of a field that does not match the CCSID attribute.
+DocOtherFileNameMismatchExistingFieldCcsid=Nom &1 rejeté. Il correspond au nom d'une zone qui ne correspond pas à l'attribut CCSID.
 DocOtherFileNameMismatchExistingFieldCcsid.Id=1707
-DocOtherFileNameMismatchExistingFieldColumnAttrs=Name &1 rejected. It matches the name of a field that does not match column attributes.
+DocOtherFileNameMismatchExistingFieldColumnAttrs=Nom &1 rejeté. Il correspond au nom d'une zone qui ne correspond pas aux attributs de la colonne.
 DocOtherFileNameMismatchExistingFieldColumnAttrs.Id=1708
-DocOtherFileNameMismatchExistingFieldNoColumn=Name &1 rejected. It matches the name of a field that is not associated with a column.
+DocOtherFileNameMismatchExistingFieldNoColumn=Nom &1 rejeté. Il correspond au nom d'une zone non associée à une colonne.
 DocOtherFileNameMismatchExistingFieldNoColumn.Id=1709
-DocOtherFileNameMismatchExistingFieldColumnName=Name &1 rejected. It matches the name of a field that does not match column name.
+DocOtherFileNameMismatchExistingFieldColumnName=Nom &1 rejeté. Il correspond au nom d'une zone qui ne correspond pas au nom de colonne.
 DocOtherFileNameMismatchExistingFieldColumnName.Id=1710
-DocOtherFileNameMatchExistingFD=Name &1 rejected. It matches the name of an existing repository field.
+DocOtherFileNameMatchExistingFD=Nom &1 rejeté. Il correspond au nom d'une zone existante du référentiel.
 DocOtherFileNameMatchExistingFD.Id=1711
-DocOtherFileNameMatchExistingPF=Name &1 rejected. It matches the name of an existing repository table.
+DocOtherFileNameMatchExistingPF=Nom &1 rejeté. Il correspond au nom d'une zone existante du référentiel.
 DocOtherFileNameMatchExistingPF.Id=1712
-DocOtherFileNameMatchExistingLF=Name &1 rejected. It matches the name of an existing repository index.
+DocOtherFileNameMatchExistingLF=Nom &1 rejeté. Il correspond au nom d'une zone existante du référentiel.
 DocOtherFileNameMatchExistingLF.Id=1713
-*** @TRANS OLD
-*** DocOtherFileNameMatchExistingFileField=Name &1 rejected. It matches the name of a field already in the file definition.
-*** @TRANS NEW
-DocOtherFileNameMatchExistingFileField=Name &1 rejected. It matches the name of a column already in the table definition.
+DocOtherFileNameMatchExistingFileField=Nom &1 rejeté. Il correspond au nom d'une colonne existant déjà dans la définition de table.
 DocOtherFileNameMatchExistingFileField.Id=1714
-DocOtherFileNameMismatchExistingFieldNoAsqn=Name &1 rejected. It matches the name of a field that does not have the ASQN attribute.
+DocOtherFileNameMismatchExistingFieldNoAsqn=Nom &1 rejeté. Il correspond au nom d'une zone n'ayant pas l'attribut ASQN.
 DocOtherFileNameMismatchExistingFieldNoAsqn.Id=1715
-DocOtherFileNameSkippedExistingField=Name &1 ignored. Column has been matched with an existing repository field.
+DocOtherFileNameSkippedExistingField=Nom &1 ignoré. La colonne correspond à une zone existante du référentiel.
 DocOtherFileNameSkippedExistingField.Id=1716
-DocOtherFileNameSkippedNewField=Name &1 ignored. Column has been matched with a field being loaded.
+DocOtherFileNameSkippedNewField=Nom &1 ignoré. La colonne correspond à une zone en cours de chargement.
 DocOtherFileNameSkippedNewField.Id=1717
 
-DocOtherFileConnectionHomeless=Operation cannot proceed. Connection object disconnected from home object.
+DocOtherFileConnectionHomeless=Impossible de procéder à l'opération. Objet de connexion déconnecté de l'objet d'accueil.
 DocOtherFileConnectionHomeless.Id=1718
-DocOtherFileConnectionInvalidUserId=Credentials missing. UserId not supplied.
+DocOtherFileConnectionInvalidUserId=Informations d'identification manquantes. Id utilisateur non fourni.
 DocOtherFileConnectionInvalidUserId.Id=1719
-DocOtherFileConnectionInvalidPassword==Credentials missing. Password not supplied.
+DocOtherFileConnectionInvalidPassword=Informations d'identification manquantes. Mot de passe non fourni.
 DocOtherFileConnectionInvalidPassword.Id=1720
-DocOtherFileDsnDescriptionTooLong=Invalid data source description. It cannot be longer than 260 characters.
+DocOtherFileDsnDescriptionTooLong=Description de source de données incorrecte. Il ne peut pas dépasser 260 caractères.
 DocOtherFileDsnDescriptionTooLong.Id=1721
-DocOtherFileDsnDescriptionInvalid=Invalid data source description. It contains invalid characters.
+DocOtherFileDsnDescriptionInvalid=Description de source de données incorrecte. Il contient des caractères incorrects.
 DocOtherFileDsnDescriptionInvalid.Id=1722
-DocOtherFileDsnNameMissing=Invalid data source name. It cannot be empty.
+DocOtherFileDsnNameMissing=Nom de source de données incorrect. Il ne peut pas être vide.
 DocOtherFileDsnNameMissing.Id=1723
-DocOtherFileDsnNameTooLong=Invalid data source name. It cannot be longer than 32 characters.
+DocOtherFileDsnNameTooLong=Nom de source de données incorrect. Il ne peut pas dépasser 32 caractères.
 DocOtherFileDsnNameTooLong.Id=1724
-DocOtherFileDsnNameInvalid=Invalid data source name. It contains invalid characters.
+DocOtherFileDsnNameInvalid=Nom de source de données incorrect. Il contient des caractères incorrects.
 DocOtherFileDsnNameInvalid.Id=1725
-DocOtherFileDsnNameDefined=Data source name already defined. Choose a different name.
+DocOtherFileDsnNameDefined=Nom de source de données déjà défini. Choisissez un autre nom.
 DocOtherFileDsnNameDefined.Id=1726
 
-DefMapExInvalidLength=Invalid length for type &1
+DefMapExInvalidLength=Longueur incorrecte pour le type &1
 DefMapExInvalidLength.Id=1727
-DefMapExDecimalsUnsupported=Type &1 does not support decimals.
+DefMapExDecimalsUnsupported=Le type &1 n'admet pas de décimales.
 DefMapExDecimalsUnsupported.Id=1728
-DefMapExInvalidFormat=Invalid format for type &1
+DefMapExInvalidFormat=Format incorrect pour le type &1
 DefMapExInvalidFormat.Id=1729
-DefMapExDateSeparatorUnsupported=Type &1 does not require a date separator.
+DefMapExDateSeparatorUnsupported=Le type &1 ne nécessite pas de séparateur de date.
 DefMapExDateSeparatorUnsupported.Id=1730
-DefMapExTimeSeparatorUnsupported=Type &1 does not require a time separator.
+DefMapExTimeSeparatorUnsupported=Le type &1 ne nécessite pas de séparateur d'heure.
 DefMapExTimeSeparatorUnsupported.Id=1731
-DefMapExInvalidDateSeparator=&1 is an invalid date separator for format &2.
+DefMapExInvalidDateSeparator=&1 est un séparateur de date incorrect pour le format &2.
 DefMapExInvalidDateSeparator.Id=1732
-DefMapExInvalidTimeSeparator=&1 is an invalid time separator for format &2.
+DefMapExInvalidTimeSeparator=&1 est un séparateur d'heure incorrect pour le format &2.
 DefMapExInvalidTimeSeparator.Id=1733
-DefMapExForParmInvalidForType=For(&1) is not supported for type &2
+DefMapExForParmInvalidForType=For(&1) n'est pas admis pour le type &2
 DefMapExForParmInvalidForType.Id=1734
-*** @TRANS END
 
 *************************************************************
 ***** LANSA Web WebletGroups                            *****
@@ -4012,7 +3555,7 @@ Web.Weblets.Group.SampleWeblets=Weblets exemples
 Web.Weblets.Group.ChartingWeblets=Weblets graphiques
 
 *************************************************************
-***** LANSA Web Design									*****
+***** LANSA Web Design*****
 *************************************************************
 Web.Design.RollbackWeb.Warning.Title=Messages d'attention de l'éditeur LANSA
 Web.Design.RollbackWeb.Warning.Line1=Si vous continuez toutes les versions d'XSL ultérieures de cette routine web seront supprimées. 
@@ -4021,7 +3564,7 @@ Web.Design.Rollback.Warning.Line2=Cette opération ne peut pas être annulée.
 Web.Design.Rollback.Warning.Line3=Voulez-vous toujours continuer ?
 
 *************************************************************
-***** LANSA Wam Design									*****
+***** LANSA Wam Design*****
 *************************************************************
 Wam.Design.Orphan.Caption=Orphelin
 
@@ -4039,10 +3582,7 @@ CrossReference.Reason.VirtualField=Zone virtuelle
 CrossReference.Reason.WebRoutineXsl=Xsl de Webroutine
 CrossReference.Reason.PromptFunction=Fonction d'invite
 CrossReference.Reason.ValidationRule=Règle de validation
-*** @TRANS OLD
-*** CrossReference.Reason.FileDefinition=Définition de fichier
-*** @TRANS NEW
-CrossReference.Reason.FileDefinition=Table Definition
+CrossReference.Reason.FileDefinition=Définition de table
 CrossReference.Reason.FieldDefinition=Définition de zone
 CrossReference.Reason.PredeterminedJoinField=PJF
 CrossReference.Reason.FieldVisualization=Visualisation de zone
@@ -4077,158 +3617,158 @@ Language.Desc.Jpn=Japonais
 *************************************************************
 ***** Version Control commands                          *****
 *************************************************************
-*** @TRANS NEW
-VersionControl.Command.Started=Command Submitted
-VersionControl.Command.Completed=Command Completed
-VersionControl.Title.Warning=LANSA Editor Warning
-VersionControl.Actions.Command=Command
-VersionControl.Actions.Initialize=Initialize
-VersionControl.Actions.Clone=Clone
+VersionControl.Command.Started=Commande soumise
+VersionControl.Command.Completed=Command terminée
+VersionControl.Title.Warning=Avertissement Editeur LANSA
+VersionControl.Actions.Command=Commande
+VersionControl.Actions.Initialize=Initialiser
+VersionControl.Actions.Clone=Cloner
 VersionControl.Actions.Stage=Stage
-VersionControl.Actions.Pull=Pull
+VersionControl.Actions.Pull=Extraire
 VersionControl.Actions.Push=Push
 VersionControl.Actions.Commit=Commit
-VersionControl.Actions.SelectBranch=Select Branch
-VersionControl.Actions.AddRemote=Add Remote Repository
-VersionControl.Actions.UpdateRemote=Update Remote Repository
-VersionControl.Actions.RemoveRemote=Remove Remote Repository
-VersionControl.Actions.GetFileHistory=Retrieve File History
-VersionControl.Actions.ResolveConflict=Resolve Conflict
-*** @TRANS END
+VersionControl.Actions.SelectBranch=Choisir la branche
+VersionControl.Actions.AddRemote=Ajouter un référentiel distant
+VersionControl.Actions.UpdateRemote=Modifier le référentiel distant
+VersionControl.Actions.RemoveRemote=Enlever le référentiel distant
+VersionControl.Actions.GetFileHistory=Récupérer l'historique du fichier
+VersionControl.Actions.ResolveConflict=Résoudre les conflits
 
 *************************************************************
 ***** Server Module validations                         *****
 *************************************************************
+DocServerModuleApiPathDuplicateVerb=Des opérations multiples sur le même chemin ont été affectées au même verbe.
+DocServerModuleApiPathRequired=Le nom de chemin est nécessaire. Il ne peut pas être à blanc.
+DocServerModuleApiLeadingSlashRequired=Le nom de chemin doit commencer par une barre oblique.
+DocServerModuleApiEncodingNoContentDesc=Le contenu d'encodage n'est pas décrit. Un objet schéma ou un élément de type media doit être défini.
+DocServerModuleApiHeaderAllowEmptyValueInvalid=AllowEmptyValue est incorrect pour un emplacement d'entête.
+DocServerModuleApiHeaderAllowReservedInvalid=AllowReserved est incorrect pour un emplacement d'entête.
+DocServerModuleApiHeaderMediaTypeConflict=Objet schéma ou un élément de type media ne peuvent pas tous les deux décrire le contenu.
+DocServerModuleApiHeaderNameRequired=Le nom d'entête ne peut pas être à blanc.
+DocServerModuleApiHeaderNameNotValid=Le nom d'entête &1 contient des caractères incorrects.
+DocServerModuleApiHeaderNameReserved=Le nom d'entête &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
+DocServerModuleApiHeaderNoContentDesc=Contenu d'entête non décrit. Soit un objet schéma soit un élément de type media doit être défini.
+DocServerModuleApiHeaderStyleInvalidUse=Style incorrect pour un emplacement d'entête.
+DocServerModuleApiMinItemsIgnored=Le type d'objet schéma ne supporte pas une valeur non nulle pour les éléments minimum. Valeur ignorée.
+DocServerModuleApiMinItemsInvalid=La valeur des éléments minimum est incorrecte. Elle doit être supérieure ou égale à zéro.
+DocServerModuleApiMaxItemsIgnored=Le type d'objet schéma ne supporte pas une valeur non nulle pour les éléments maximum. Valeur ignorée.
+DocServerModuleApiMaxItemsInvalid=La valeur des éléments maximum est incorrecte. Elle doit être supérieure ou égale à zéro.
+DocServerModuleApiMaxItemsTooSmall=La valeur des éléments maximum est incorrecte. Elle doit être supérieure ou égale à la valeur des éléments minimum.
+DocServerModuleApiMinLengthIgnored=Le type d'objet schéma ne supporte pas une valeur non nulle pour la longueur minimale. Valeur ignorée.
+DocServerModuleApiMinLengthInvalid=La valeur de la longueur minimale est incorrecte. Elle doit être supérieure ou égale à zéro.
+DocServerModuleApiMaxLengthIgnored=Le type d'objet schéma ne supporte pas une valeur non nulle pour la longueur maximum. Valeur ignorée.
+DocServerModuleApiMaxLengthInvalid=La valeur de la longueur maximale est incorrecte. Elle doit être supérieure ou égale à zéro.
+DocServerModuleApiMaxLengthTooLarge=La longueur maximum est trop grande. Elle dépasse la longueur maximum de &1 admise par l'objet schéma
+DocServerModuleApiMaxLengthTooSmall=La valeur de la longueur maximale est incorrecte. Elle doit être supérieure ou égale à la valeur de la longueur minimum.
+DocServerModuleApiMinValueIgnored=Le type d'objet schéma ne supporte pas de valeur non nulle pour la valeur minimum. Valeur ignorée.
+DocServerModuleApiMinValueTooSmall=La valeur minimum est trop petite. Elle dépasse la valeur minimum de &1 admise par l'objet schéma.
+DocServerModuleApiMaxValueIgnored=Le type d'objet schéma ne supporte pas de valeur non nulle pour la valeur maximum. Valeur ignorée.
+DocServerModuleApiMaxValueTooLarge=La valeur maximum est trop grande. Elle dépasse la valeur maximum de &1 admise par l'objet schéma.
+DocServerModuleApiMaxValueTooSmall=La valeur maximum est incorrecte. Elle doit être supérieure ou égale à la valeur de minimum.
+DocServerModuleApiOperationIdRequired=L'id d'opération de l'opération chemin ne peut pas être à blanc.
+DocServerModuleApiOperationIdNotValid=L'id d'opération &1 de l'opération chemin contient des caractères incorrects.
+DocServerModuleApiOperationIdDuplicated=L'id d'opération &1 de l'opération chemin est déjà utilisé. Le nom doit être unique.
+DocServerModuleApiOperationNameReserved=Le nom d'opération &1 est réservé. Le nom ne peut pas commencer par la lettrer 'X'
+DocServerModuleApiOperationRequestRequiredIgnored=Le verbe de l'opération ne supporte pas de corps de demande. Required=true ignoré.
+DocServerModuleApiOperationRequestMediaTypesIgnored=Le verbe de l'opération ne supporte pas de corps de demande. Eléments de type media ignorés.
+DocServerModuleApiOperationResponseRequired=La description de l'opération chemin nécessite au moins une description de réponse.
+DocServerModuleApiOperationServerRoutineNameRequired=Le nom de routine serveur ne peut pas être vide ou à blanc.
+DocServerModuleApiOperationServerRoutineNameNotFound=Le nom de routine serveur &1 n'identifie pas une routine serveur.
+DocServerModuleApiOperationServerRoutineNameNotValid=Le nom de routine serveur &1 est incorrecte. La routine serveur doit avoir un paramètre Response(*Http #...).
+DocServerModuleApiParameterNameDuplicated=Nom de paramètre &1 déjà utilisé. Le nom doit être unique.
+DocServerModuleApiParameterNameRequired=Le nom de paramètre ne peut pas être vide ou à blanc.
+DocServerModuleApiParameterNameNotInPath=Le nom de paramètre chemin {&1} n'est pas précisé dans le chemin.
+DocServerModuleApiParameterNameNotValid=Le nom de paramètre &1 contient des caractères incorrects.
+DocServerModuleApiParameterNameReserved=Le nom de paramètre &1 est réservé. Le nom ne peut pas commencer par la lettrer 'X'
+DocServerModuleApiParameterRequiredRequired=Required doit être vrai pour l'emplacement choisi.
+DocServerModuleApiParameterAllowEmptyValueInvalid=AllowEmptyValue est incorrect pour l'emplacement choisi.
+DocServerModuleApiParameterAllowReservedInvalid=AllowReserved est incorrect pour l'emplacement choisi.
+DocServerModuleApiParameterMediaTypeConflict=Les éléments objet schéma et type de média ne peuvent pas être utilisés tous les deux pour décrire le contenu.
+DocServerModuleApiParameterNoContentDesc=Contenu du paramètre non décrit. Un élément objet schéma et type de média doit être défini.
+DocServerModuleApiParameterStyleInvalidUse=Style est incorrect pour l'emplacement choisi.
+DocServerModuleApiPathCompoundSegmentNotSupported=Segment de chemin '&1' est un segment composé. Les segments composés ne sont pas supportés actuellement.
+DocServerModuleApiPathEmptySegmentNotAllowed=Les segments vides dans le modèle de chemin ne sont pas autorisés.
+DocServerModuleApiPathFragmentNotAllowed=Le modèle de chemin contient un fragment '&1'. Les fragments ne sont pas autorisés.
+DocServerModuleApiPathHasEquivalentPath=Le nom de chemin est équivalent au chemin &1. Ils sont considéré comme identiques et par conséquence incorrect.
+DocServerModuleApiPathOneSegmentRequired=Le modèle de chemin doit contenir au moins un segment.
+DocServerModuleApiPathParameterNameNotDescribed=Nom de paramètre chemin {&1} n'est pas décrit par un chemin ou un paramètre opération.
+DocServerModuleApiPathQueryNotAllowed=Le modèle de chemin contient un modèle de requête '&1'. Les modèles de requêtes ne sont pas autorisés.
+DocServerModuleApiResponseStatusCodeRequired=Le code statut de réponse ne peut pas être vide ou à blanc.
+DocServerModuleApiResponseStatusCodeNotValid=Le code statut de réponse &1 doit être composé de trois caractères entre 100-599 ou une définition d'intervalle telle que 1XX, 2XX, 3XX, 4XX, 5XX.
+DocServerModuleApiSchemaObjectDescIgnored=Le type d'objet schéma ne supporte pas de description. Valeur ignorée.
+DocServerModuleApiSchemaObjectDescRequired=La description d'objet schéma ne peut pas être vide ou à blanc.
+DocServerModuleApiSchemaObjectFieldNameRequired=Le type d'objet schéma nécessite un nom de zone.
+DocServerModuleApiSchemaObjectFieldNotFound=Le nom de zone du type d'objet schéma n'identifie pas une zone du référentiel.
+DocServerModuleApiSchemaObjectFieldNameIgnored=Le type d'objet schéma n'admet pas de nom de zone. Valeur ignorée.
+DocServerModuleApiSchemaObjectFormatIgnored=Le type d'objet schéma n'admet pas de format. Valeur ignorée.
+DocServerModuleApiSchemaObjectFormatInvalid=Le type d'objet schéma n'admet pas le format sélectionné.
+DocServerModuleApiSchemaObjectItemRequired=Le type d'objet schéma nécessite un élément de schéma.
+DocServerModuleApiSchemaObjectItemsIgnored=Le type d'objet schéma n'admet pas de d'éléments de schéma. Eléments ignorés.
+DocServerModuleApiSchemaObjectNameRequired=Le nom d'objet schéma ne peut pas être vide ou à blanc.
+DocServerModuleApiSchemaObjectNameNotAllowed=Le nom d'objet schéma n'est pas admis.
+DocServerModuleApiSchemaObjectNameNotValid=Le nom d'objet schéma &1 contient des caractères incorrects.
+DocServerModuleApiSchemaObjectNameReserved=Le nom d'objet schéma &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
+DocServerModuleApiSchemaObjectPropertiesIgnored=Le type d'objet schéma n'admet pas de propriétés schéma. Propriétés ignorées.
+DocServerModuleApiSchemaObjectPropertiesRequired=Le type d'objet schéma demande au moins une propriété schéma.
+DocServerModuleApiSchemaObjectReferenceNameRequired=Le type d'objet schéma demande un nom de référence.
+DocServerModuleApiSchemaObjectReferenceNameNotFound=Le nom de référence du type d'objet schéma n'identifie pas de type de schéma.
+DocServerModuleApiSchemaObjectReferenceNameIgnored=Le type d'objet schéma n'admet pas de nom de référence. Valeur ignorée.
+DocServerModuleApiSchemaObjectRequiredIgnored=L'objet schéma est noté comme nécessaire mais seules les propriétés admettent ce paramétrage. Paramétrage ignoré.
+DocServerModuleApiSchemaObjectSingleItemOnly=Le type d'objet schéma n'admet qu'un seul élément schéma.
+DocServerModuleApiSchemaPropertyNameDuplicated=Le nom de propriété schéma &1 a déjà été utilisé. Le nom doit être unique.
+DocServerModuleApiSchemaTypeNameDuplicated=Le nom de type de schéma &1 a déjà été utilisé. Le nom doit être unique.
+DocServerModuleApiSecuritySchemeApiKeyParameterNameRequired=Le nom de paramètre de schéma de sécurité ApiKey ne peut pas être vide ou à blanc.
+DocServerModuleApiSecuritySchemeApiKeyParameterNameIgnored=Le nom de paramètre de schéma de sécurité ApiKey est non nul. Valeur ignorée.
+DocServerModuleApiSecuritySchemeApiKeyParameterNameNotValid=Le nom de paramètre de schéma de sécurité ApiKey &1 contient des caractères incorrects.
+DocServerModuleApiSecuritySchemeHttpBearerNameIgnored=Le format du porteur http du schéma de sécurité est non nul. La valeur sera ignorée.
+DocServerModuleApiSecuritySchemeInIgnored=Le schéma de sécurité ApiKey In a une valeur. La valeur sera ignorée.
+DocServerModuleApiSecuritySchemeInRequired=Le type de schéma de sécurité de ApiKey doit avoir une valeur In correcte.
+DocServerModuleApiSecuritySchemeNameRequired=Le nom de schéma de sécurité ne peut pas être vide ou à blanc.
+DocServerModuleApiSecuritySchemeNameNotValid=Le nom de schéma de sécurité &1 contient des caractères incorrects.
+DocServerModuleApiSecuritySchemeNameDuplicated=Le nom de schéma de sécurité &1 a déjà été utilisé. Le nom doit être unique.
+DocServerModuleApiSecuritySchemeNameReserved=Le nom de schéma de sécurité &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
+DocServerModuleApiSecuritySchemeOAuthFlowsRequired=Le type de schéma de sécurité OAuth2 demande au moins un élément de flux OAuth.
+DocServerModuleApiSecuritySchemeOAuthFlowsIgnored=Le schéma de sécurité a des flux OAuth. Les éléments seront ignorés.
+DocServerModuleApiSecuritySchemeOAuthFlowDuplicate=Le type de flux de schéma de sécurité OAuth a déjà été défini.
+DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlRequired=L'URL autorisation de flux OAuth du schéma de sécurité ne peut pas être vide ou à blanc.
+DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlIgnored=L'URL autorisation de flux OAuth du schéma de sécurité a une valeur. La valeur sera ignorée.
+DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlRequired=L'URL jeton du flux OAuth du schéma de sécurité ne peut pas être vide ou à blanc.
+DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlIgnored=L'URL jeton du flux OAuth du schéma de sécurité as une valeur. La valeur sera ignorée.
+DocServerModuleApiSecuritySchemeOAuthFlowScopesRequired=Le flux OAuth2 du schéma de sécurité demande au moins un élément scope.
+DocServerModuleApiSecuritySchemeOAuthFlowScopeNameRequired=Le nom de scope du flux OAuth du schéma de sécurité ne peut pas être vide ou à blanc.
+DocServerModuleApiSecuritySchemeOAuthFlowScopeNameNotValid=Le nom de scope du flux OAuth du schéma de sécurité &1 contient des caractères incorrects.
+DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=L'id Open de l'Url de connexion du schéma de sécurité ne peut pas être vide ou à blanc.
+DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=L'id Open de l'Url de connexion du schéma de sécurité a une valeur. La valeur sera ignorée.
+DocServerModuleApiSecuritySchemeReferenceNameRequired=Le nom de référence du schéma de sécurité ne peut pas être vide ou à blanc.
+DocServerModuleApiSecuritySchemeReferenceNameNotFound=Le nom de référence du schéma de sécurité &1 n'identifie un schéma de sécurité.
+
 *** @TRANS NEW
-DocServerModuleApiPathDuplicateVerb=Multiple operations on the same path have been assigned the same verb.
-DocServerModuleApiPathRequired=The path name is required. It cannot be blank or all spaces.
-DocServerModuleApiLeadingSlashRequired=The path name must begin with a forward slash.
-DocServerModuleApiEncodingNoContentDesc=Encoding content is not described. A schema object or media type item must be defined.
-DocServerModuleApiHeaderAllowEmptyValueInvalid=AllowEmptyValue is invalid for a location of header.
-DocServerModuleApiHeaderAllowReservedInvalid=AllowReserved is invalid for a location of header.
-DocServerModuleApiHeaderMediaTypeConflict=Both schema object and media type items cannot be used to describe content.
-DocServerModuleApiHeaderNameRequired=Header name cannot be blank or all spaces.
-DocServerModuleApiHeaderNameNotValid=Header name &1 contains invalid characters.
-DocServerModuleApiHeaderNameReserved=Header name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiHeaderNoContentDesc=Header content is not described. A schema object or media type item must be defined.
-DocServerModuleApiHeaderStyleInvalidUse=Style is invalid for a location of header.
-DocServerModuleApiMinItemsIgnored=Type of schema object does not support a non-zero value for minimum items. Value ignored.
-DocServerModuleApiMinItemsInvalid=Value of minimum items is invalid. It must greater or equal to zero.
-DocServerModuleApiMaxItemsIgnored=Type of schema object does not support a non-zero value for maximum items. Value ignored.
-DocServerModuleApiMaxItemsInvalid=Value of maximum items is invalid. It must greater or equal to zero.
-DocServerModuleApiMaxItemsTooSmall=Value of maximum items is invalid. It must be greater or equal to the value of minimum items.
-DocServerModuleApiMinLengthIgnored=Type of schema object does not support a non-zero value for minimum length. Value ignored.
-DocServerModuleApiMinLengthInvalid=Value of minimum length is invalid. It must greater or equal to zero.
-DocServerModuleApiMaxLengthIgnored=Type of schema object does not support a non-zero value for maximum length. Value ignored.
-DocServerModuleApiMaxLengthInvalid=Value of maximum length is invalid. It must greater or equal to zero.
-DocServerModuleApiMaxLengthTooLarge=Maximum length is too large. It exceeds the maximum length of &1 supported by the schema object.
-DocServerModuleApiMaxLengthTooSmall=Value of maximum length is invalid. It must be greater or equal to the value of minimum length.
-DocServerModuleApiMinValueIgnored=Type of schema object does not support a non-zero value for minimum value. Value ignored.
-DocServerModuleApiMinValueTooSmall=Minimum value is too small. It exceeds the minimum value of &1 supported by the schema object.
-DocServerModuleApiMaxValueIgnored=Type of schema object does not support a non-zero value for maximum value. Value ignored.
-DocServerModuleApiMaxValueTooLarge=Maximum value is too large. It exceeds the maximum value of &1 supported by the schema object.
-DocServerModuleApiMaxValueTooSmall=Value of maximum value is invalid. It must be greater or equal to the value of minimum value.
-DocServerModuleApiOperationIdRequired=Path Operation OperationId cannot be blank or all spaces.
-DocServerModuleApiOperationIdNotValid=Path Operation OperationId &1 contains invalid characters.
-DocServerModuleApiOperationIdDuplicated=Path Operation OperationId &1 has already been used. Name must be unique.
-DocServerModuleApiOperationNameReserved=Operation name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiOperationRequestRequiredIgnored=Operation verb does not support request body. Required=true ignored.
-DocServerModuleApiOperationRequestMediaTypesIgnored=Operation verb does not support request body. Media type items are ignored.
-DocServerModuleApiOperationResponseRequired=Description of path operation requires at least one response description.
-DocServerModuleApiOperationServerRoutineNameRequired=Server routine name cannot be blank or all spaces.
-DocServerModuleApiOperationServerRoutineNameNotFound=Server routine name &1 does not identify a server routine.
-DocServerModuleApiOperationServerRoutineNameNotValid=Server routine named &1 is not valid. Server routine needs to have Response(*Http #...) parameter.
-DocServerModuleApiParameterNameDuplicated=Parameter name &1 has already been used. Name must be unique.
-DocServerModuleApiParameterNameRequired=Parameter name cannot be blank or all spaces.
-DocServerModuleApiParameterNameNotInPath=Path parameter name {&1} is not specified in the path.
-DocServerModuleApiParameterNameNotValid=Parameter name &1 contains invalid characters.
-DocServerModuleApiParameterNameReserved=Parameter name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiParameterRequiredRequired=Required must be true for selected location.
-DocServerModuleApiParameterAllowEmptyValueInvalid=AllowEmptyValue is invalid for selected location.
-DocServerModuleApiParameterAllowReservedInvalid=AllowReserved is invalid for selected location.
-DocServerModuleApiParameterMediaTypeConflict=Both schema object and media type items cannot be used to describe content.
-DocServerModuleApiParameterNoContentDesc=Parameter content is not described. A schema object or media type item must be defined.
-DocServerModuleApiParameterStyleInvalidUse=Style is invalid for selected location.
-DocServerModuleApiPathCompoundSegmentNotSupported=Path segment '&1' is a compound segment. Compound segments are not supported at this time.
-DocServerModuleApiPathEmptySegmentNotAllowed=Empty segments in a path template are not allowed.
-DocServerModuleApiPathFragmentNotAllowed=Path template contains a fragment '&1'. Fragments are not allowed.
-DocServerModuleApiPathHasEquivalentPath=Path name is equivalent to path &1. They are considered identical and thus invalid.
-DocServerModuleApiPathOneSegmentRequired=Path template must contain at least one segment.
-DocServerModuleApiPathParameterNameNotDescribed=Path parameter name {&1} has not be described by a path or operation parameter.
-DocServerModuleApiPathQueryNotAllowed=Path template contains a query template '&1'. Query templates are not allowed.
-DocServerModuleApiResponseStatusCodeRequired=Response status code cannot be blank or all spaces.
-DocServerModuleApiResponseStatusCodeNotValid=Response status code &1 must be three characters from 100-599 or range definition like 1XX, 2XX, 3XX, 4XX, 5XX."
-DocServerModuleApiSchemaObjectDescIgnored=Schema object type does not support a description. Value ignored.
-DocServerModuleApiSchemaObjectDescRequired=Schema object description cannot be blank or all spaces.
-DocServerModuleApiSchemaObjectFieldNameRequired=Schema object type requires a field name.
-DocServerModuleApiSchemaObjectFieldNotFound=Schema object type's field name does not identify a repository field.
-DocServerModuleApiSchemaObjectFieldNameIgnored=Schema object type does not support a field name. Value ignored.
-DocServerModuleApiSchemaObjectFormatIgnored=Schema object type does not support a format. Value ignored.
-DocServerModuleApiSchemaObjectFormatInvalid=Schema object type does not support selected Format.
-DocServerModuleApiSchemaObjectItemRequired=Schema object type requires a Schema Item.
-DocServerModuleApiSchemaObjectItemsIgnored=Schema object type does not support Schema Items. Items ignored.
-DocServerModuleApiSchemaObjectNameRequired=Schema object name cannot be blank or all spaces.
-DocServerModuleApiSchemaObjectNameNotAllowed=Schema object name is not supported.
-DocServerModuleApiSchemaObjectNameNotValid=Schema object name &1 contains invalid characters.
-DocServerModuleApiSchemaObjectNameReserved=Schema object name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiSchemaObjectPropertiesIgnored=Schema object type does not support Schema Properties. Properties ignored.
-DocServerModuleApiSchemaObjectPropertiesRequired=Schema object type requires at least one Schema Property.
-DocServerModuleApiSchemaObjectReferenceNameRequired=Schema object type requires a reference name.
-DocServerModuleApiSchemaObjectReferenceNameNotFound=Schema object type's reference name does not identify a schema type.
-DocServerModuleApiSchemaObjectReferenceNameIgnored=Schema object type does not support a reference name. Value ignored.
-DocServerModuleApiSchemaObjectRequiredIgnored=Schema object is flagged as required but only properties support this setting. Setting ignored.
-DocServerModuleApiSchemaObjectSingleItemOnly=Schema object type only supports a single Schema Item.
-DocServerModuleApiSchemaPropertyNameDuplicated=Schema property name &1 has already been used. Name must be unique.
-DocServerModuleApiSchemaTypeNameDuplicated=Schema type name &1 has already been used. Name must be unique.
-DocServerModuleApiSecuritySchemeApiKeyParameterNameRequired=Security scheme ApiKey parameter name cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeApiKeyParameterNameIgnored=Security scheme ApiKey parameter name is not null. Value is ignored.
-DocServerModuleApiSecuritySchemeApiKeyParameterNameNotValid=Security scheme ApiKey parameter name &1 contains invalid characters.
-DocServerModuleApiSecuritySchemeHttpBearerNameIgnored=Security scheme http bearer format is not null. Value will be ignored.
-DocServerModuleApiSecuritySchemeInIgnored=Security scheme ApiKey In has a value. Value will be ignored.
-DocServerModuleApiSecuritySchemeInRequired=Security scheme type of ApiKey requires a valid In value.
-DocServerModuleApiSecuritySchemeNameRequired=Security scheme name cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeNameNotValid=Security scheme name &1 contains invalid characters.
-DocServerModuleApiSecuritySchemeNameDuplicated=Security scheme name &1 has already been used. Name must be unique.
-DocServerModuleApiSecuritySchemeNameReserved=Security scheme name &1 is reserved. Name cannot start with letter 'X'
-DocServerModuleApiSecuritySchemeOAuthFlowsRequired=Security scheme type OAuth2 requires at least one OAuth flow item.
-DocServerModuleApiSecuritySchemeOAuthFlowsIgnored=Security scheme has OAuth flows. Items will be ignored.
-DocServerModuleApiSecuritySchemeOAuthFlowDuplicate=Security scheme OAuth Flow type has already been defined.
-DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlRequired=Security scheme OAuth Flow Authorization Url cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlIgnored=Security scheme OAuth Flow Authorization Url has a value. Value will be ignored.
-DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlRequired=Security scheme OAuth Flow TokenUrl cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlIgnored==Security scheme OAuth Flow Token Url has a value. Value will be ignored.
-DocServerModuleApiSecuritySchemeOAuthFlowScopesRequired=Security scheme OAuth2 Flow requires at least one scope item.
-DocServerModuleApiSecuritySchemeOAuthFlowScopeNameRequired=Security scheme OAuth Flow Scope name cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeOAuthFlowScopeNameNotValid=Security scheme OAuth Flow Scope name &1 contains invalid characters.
-DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=Security scheme Open Id Connect Url cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=Security scheme Open Id Connect Url has a value. Value will be ignored.
-DocServerModuleApiSecuritySchemeReferenceNameRequired=Security scheme reference name cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeReferenceNameNotFound=Security scheme reference name &1 does not identify a security scheme.
+DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger version 2 supports either form-data or body request content. Both are invalid.
+DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger version 2 supports a single body request content. '&1' is a duplicate body content and is invalid.
+DocServerModuleApiOperationRequestDuplicateFormContent=Swagger version 2 supports a single form-data request content. '&1' is a duplicate form-data content and is invalid.
 *** @TRANS END
 
 *************************************************************
 ***** Services Model                                    *****
 *************************************************************
-*** @TRANS NEW
-SMx.EnumerationOutOfRange=Value &2 is out of range for enumeration &1.
-SMx.InvalidEnumeration=Value &2 is not valid for enumeration &1.
+SMx.EnumerationOutOfRange=La valeur &2 est hors de l'intervalle de l'énumération &1.
+SMx.InvalidEnumeration=La valeur &2 est incorrecte pour l'énumération &1.
 
-SMx.Json.InvalidOperation=Invalid Json operation.
-SMx.JsonDom.DualDocumentRootNode=Document already has root node.
-SMx.JsonDom.DualMemberValueNode=Json member node already has a value.
-SMx.JsonDom.Import=Cannot import node of type &1.
-SMx.JsonDom.ImportNullNode=Cannot import *Null node.
-SMx.JsonDom.NodeClone=CloneNode is not supported by node type &1.
-SMx.JsonDom.NodeInsertChild= Cannot insert a *NULL node or a node that would become a child of itself.
-SMx.JsonDom.NodeInsertContainer=Insert of child is not supported by node type &1.
-SMx.JsonDom.NodeInsertContext=Json nodes can only be inserted into models belonging to same context.
-SMx.JsonDom.NodeInsertTypeConflict=Insert of specific type of node &2 is not supported by node type &1.
-SMx.JsonDom.NodeRemoveNotChild=Supplied node is *NULL or not a child.
-SMx.JsonDom.NodeRemoveNotContainer=Removal of child node is not supported by node type &1.
-SMx.JsonDom.NodeValueNotBoolean=Json node (&1) cannot be accessed as boolean value.
-SMx.JsonDom.NodeValueNotDateTime=Json node (&1) cannot be accessed as DateTime value.
-SMx.JsonDom.NodeValueNotDecimal=Json node (&1) cannot be accessed as Decimal value.
-SMx.JsonDom.NodeValueNotInt32=Json node (&1) cannot be accessed as Int32 value.
-SMx.JsonDom.NodeValueNotInt64=Json node (&1) cannot be accessed as Int64 value.
-SMx.JsonDom.NodeValueNotString=Json node (&1) cannot be accessed as String value.
-*** @TRANS END
+SMx.Json.InvalidOperation=Opération Json incorrecte.
+SMx.JsonDom.DualDocumentRootNode=Le document a déjà un noeud racine.
+SMx.JsonDom.DualMemberValueNode=Le noeud membre Json a déjà une valeur.
+SMx.JsonDom.Import=Ne peut pas importer le noeud de type &1.
+SMx.JsonDom.ImportNullNode=Ne peut pas importer le noeud *Null.
+SMx.JsonDom.NodeClone=CloneNode n'est pas admis par le type de noeud &1.
+SMx.JsonDom.NodeInsertChild= Ne peut pas insérer un noeud *NULL ou un noeud qui deviendrait son propre enfant.
+SMx.JsonDom.NodeInsertContainer=L'insertion d'un enfant n'est pas admis par le type de noeud &1.
+SMx.JsonDom.NodeInsertContext=Les noeud Json ne peuvent être insérés que dans des modèles appartenant au même contexte.
+SMx.JsonDom.NodeInsertTypeConflict=L'insertion de type spécifique de noeud &2 n'est pas supportée par le type de noeud &1.
+SMx.JsonDom.NodeRemoveNotChild=Le noeud fourni est *NULL ou n'est pas un enfant.
+SMx.JsonDom.NodeRemoveNotContainer=Enlever un noeud enfant n'est pas supporté par un type de noeud &1.
+SMx.JsonDom.NodeValueNotBoolean=Le noeud Json(&1) ne peut pas être accédé en tant que valeur booléenne.
+SMx.JsonDom.NodeValueNotDateTime=Le noeud Json (&1) ne peut pas être accédé en tant que valeur DateHeure.
+SMx.JsonDom.NodeValueNotDecimal=Le noeud Json (&1) ne peut pas être accédé en tant que valeur Décimale.
+SMx.JsonDom.NodeValueNotInt32=Le noeud Json (&1) ne peut pas être accédé en tant que valeur Int32.
+SMx.JsonDom.NodeValueNotInt64=Le noeud Json (&1) ne peut pas être accédé en tant que valeur Int64.
+SMx.JsonDom.NodeValueNotString=Le noeud Json (&1) ne peut pas être accédé en tant que valeur String.

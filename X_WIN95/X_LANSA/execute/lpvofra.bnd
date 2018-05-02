@@ -55,9 +55,7 @@ Explorer.OnString=sur
 Explorer.PathFailure=Chemin introuvable
 
 Memo.CollapsedItems=&1 éléments réduits.
-*** @TRANS NEW
-Memo.URLHint=CTRL + click to follow link
-*** @TRANS END
+Memo.URLHint=CTRL + clic pour suivre le lien
 
 Prop.NotAvailableCaption=Non disponible
 
@@ -195,23 +193,19 @@ Theme.Text=Texte
 Theme.Border=Bordure
 Theme.Line=Ligne
 Transparent=Transparent
-*** @TRANS NEW
-Theme.AccentLight=Accent Light
-Theme.AccentMedium=Accent Medium
-Theme.AccentDark=Accent Dark
-Theme.SuccessLight=Success Light
-Theme.SuccessMedium=Success Medium
-Theme.SuccessDark=Success Dark
-Theme.ErrorLight=Error Light
-Theme.ErrorMedium=Error Medium
-Theme.ErrorDark=Error Dark
-Theme.SecondaryText=Secondary Text
-*** @TRANS END
+Theme.AccentLight=Accentué clair
+Theme.AccentMedium=Accentué moyen
+Theme.AccentDark=Accentué foncé
+Theme.SuccessLight=Succès clair
+Theme.SuccessMedium=Succès moyen
+Theme.SuccessDark=Succès foncé
+Theme.ErrorLight=Erreur clair
+Theme.ErrorMedium=Erreur moyen
+Theme.ErrorDark=Erreur foncé
+Theme.SecondaryText=Texte secondaire
 
-*** @TRANS NEW
-Card.Caption=Primary Text
-Card.Secondary=Secondary Text
-Card.Tertiary=Tertiary Text
+Card.Caption=Texte primaire
+Card.Secondary=Texte secondaire
+Card.Tertiary=Texte tertiaire
 
-Navigation.Help=Add View
-*** @TRANS END
+Navigation.Help=Ajouter une vue

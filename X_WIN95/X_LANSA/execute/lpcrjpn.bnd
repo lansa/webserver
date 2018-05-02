@@ -3441,7 +3441,7 @@ DocFileIdentityColumnUnique.Id=1686
 DocFileIdentityColumnInvalidFieldType=ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv &1 ‚Í¯•Ê—ñ‚É‘Î‚µ—LŒø‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileIdentityColumnInvalidFieldType.Id=1687
 DocFileIdentityColumnInvalidDecimals=¯•Ê—ñ‚ÍA¬”“_ˆÈ‰ºƒ[ƒ‚Ìİ’è‚Ì‚İ‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚·
-DocFileDBtypeIdentityColumnInvalidDecimals.Id=1688
+DocFileIdentityColumnInvalidDecimals.Id=1688
 DocFileDBtypeIdentityColumnInvalidFieldType=ƒtƒB[ƒ‹ƒh ƒ^ƒCƒv &1 ‚Íƒf[ƒ^ ƒ^ƒCƒv &2 ‚Ì¯•Ê—ñ‚É‘Î‚µ—LŒø‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
 DocFileDBtypeIdentityColumnInvalidFieldType.Id=1689
 DocFileDBtypeIdentityColumnLengthTooLong=ƒtƒB[ƒ‹ƒh‚Í¯•Ê—ñ‚Æ‚µ‚ÄŠ„‚è“–‚Ä‚é‚É‚Í’·‚·‚¬‚Ü‚·Bƒf[ƒ^ƒx[ƒX ƒ^ƒCƒv &1 ‚ÌÅ‘å’·‚Í 31 ‚Å‚·B
@@ -3741,6 +3741,12 @@ DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒ
 DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒI[ƒvƒ“ ID ‚ÌÚ‘± URL ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocServerModuleApiSecuritySchemeReferenceNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€QÆ–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSecuritySchemeReferenceNameNotFound=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€QÆ–¼ &1 ‚ÍƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
+
+*** @TRANS NEW
+DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger version 2 supports either form-data or body request content. Both are invalid.
+DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger version 2 supports a single body request content. '&1' is a duplicate body content and is invalid.
+DocServerModuleApiOperationRequestDuplicateFormContent=Swagger version 2 supports a single form-data request content. '&1' is a duplicate form-data content and is invalid.
+*** @TRANS END
 
 *************************************************************
 ***** Services Model                                    *****

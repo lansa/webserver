@@ -129,7 +129,6 @@ function Control-Related-WebSites
                 Stop-Website -name $($SiteVirtualDirectory.Site)  -ErrorAction SilentlyContinue
                 Write-Output ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
                 Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) -ErrorAction SilentlyContinue
-                Start-Sleep -s 1
 
                 $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 $Loop = 0
@@ -147,7 +146,7 @@ function Control-Related-WebSites
                 $Loop = 0
                 while ( $WebAppPoolState.Value -ne 'Stopped') {
                     $Loop += 1
-                    if ( $Loop -gt 10) {
+                    if ( $Loop -gt 20) {
                         throw
                     } 
                     Write-Output("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")

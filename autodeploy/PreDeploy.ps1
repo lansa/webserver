@@ -220,6 +220,11 @@ try {
         $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root*" })
     }
 
+    # Allow web plugin to stop completely otherwise lansaweb.dll and lcomgr32.dll are still in use
+    # Only effects deployments in which the IIS plugin is installed, of course.
+    # For PaaS its just the Webserver. The Apps do not have it installed.
+    Start-Sleep -s 3
+
     Write-Output ("$(Log-Date) Saving copy of vlweb.dat to detect if an iisreset is required")
     $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
     if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {

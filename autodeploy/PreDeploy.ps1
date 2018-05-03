@@ -129,6 +129,19 @@ function Control-Related-WebSites
                 Stop-Website -name $($SiteVirtualDirectory.Site)  -ErrorAction SilentlyContinue
                 Write-Output ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
                 Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) -ErrorAction SilentlyContinue
+                Start-Sleep -s 1
+
+                $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
+                $Loop = 0
+                while ( $WebSiteState.Value -ne 'Stopped') {
+                    $Loop += 1
+                    if ( $Loop -gt 10) {
+                        throw
+                    }                    
+                    Write-Output("$(Log-Date) Waiting for web site to stop")
+                    Start-Sleep -s 1
+                    $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
+                }                
             }
         }
     }
@@ -191,6 +204,20 @@ try {
     foreach ($process in $processes ) {
         Write-Output("$(Log-Date) Stopping $($Process.ProcessName)")
         Stop-Process $process.id -Force
+    }
+
+    # Wait for processes to end
+    $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root*" })
+    $Loop = 0
+    while ($processes.Count -gt 0 ) {
+        $Loop += 1
+        if ( $Loop -gt 10) {
+            throw
+        }
+        Write-Output("Waiting for $($Processes[0].ProcessName)")
+        # Wait 1 second
+        Start-Sleep -s 1
+        $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root*" })
     }
 
     Write-Output ("$(Log-Date) Saving copy of vlweb.dat to detect if an iisreset is required")

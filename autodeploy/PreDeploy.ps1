@@ -150,7 +150,7 @@ function Control-Related-WebSites
                     if ( $Loop -gt 10) {
                         throw
                     } 
-                    Write-Output("Waiting for App Pool to stop")
+                    Write-Output("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
                     Start-Sleep -s 1
                     $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
                 }                

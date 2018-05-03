@@ -3339,9 +3339,7 @@ Editor.Home.Recent.Caption=最近の Web アプリケーション
 Editor.Home.ContactUs.Caption=問い合わせ
 Editor.Home.Welcome.Caption=ようこそ画面
 Editor.Home.Samples.Caption=サンプル
-*** @TRANS NEW
-Editor.Home.Feedback.Caption=Give Feedback
-*** @TRANS END
+Editor.Home.Feedback.Caption=フィードバックする
 Editor.Home.Education.Caption=教育
 Editor.Home.DevCenter.Caption=開発者センター
 Editor.Home.Web.Caption=Web ブラウザとモバイル アプリケーションの作成
@@ -4151,7 +4149,7 @@ Editor.Design.Custom.Desc=カスタム デザインの作成およびアクティブ化
 
 Editor.Annotation.Select.Caption=選択
 Editor.Annotation.Delete.Hint=現在のステートメントから注釈を削除
-Editor.Annotation.Enabled.Hint=注釈の有効\無効の状態を切替
+Editor.Annotation.Enabled.Hint=注釈の有効／無効の状態を切替
 Editor.Annotation.Width.Caption=幅
 Editor.Annotation.Height.Caption=高さ
 

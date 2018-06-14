@@ -33,8 +33,8 @@ function Get-DirSize
 
     try {
         if ( !(Test-Path $path) ) {
-            Write-Error( "Path $path does not exist")
-            throw
+            Write-Output( "Path $path does not exist")
+            return
         }
         $path
         Write-Output( "path=$path")

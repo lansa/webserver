@@ -136,6 +136,32 @@ function Control-Related-WebSites
                 Stop-Website -name $($SiteVirtualDirectory.Site)
                 Write-Output ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
                 Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool)
+                # Web Site stopping has not yet ever logged a wait state
+                $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
+                $Loop = 0
+                while ( $WebSiteState.Value -ne 'Stopped') {
+                    $Loop += 1
+                    if ( $Loop -gt 10) {
+                        throw
+                    }                    
+                    Write-Output("$(Log-Date) Waiting for web site to stop")
+                    Start-Sleep -s 1
+                    $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
+                }      
+                
+                # App Pool has been logged taking 14 seconds to stop.
+                # Hence using a large maximum of 60 seconds before an error is thrown
+                $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
+                $Loop = 0
+                while ( $WebAppPoolState.Value -ne 'Stopped') {
+                    $Loop += 1
+                    if ( $Loop -gt 60) {
+                        throw
+                    } 
+                    Write-Output("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
+                    Start-Sleep -s 1
+                    $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
+                }                
             }
         }
     }

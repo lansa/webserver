@@ -129,6 +129,33 @@ function Control-Related-WebSites
                 Stop-Website -name $($SiteVirtualDirectory.Site)  -ErrorAction SilentlyContinue
                 Write-Output ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
                 Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) -ErrorAction SilentlyContinue
+
+                # Web Site stopping has not yet ever logged a wait state
+                $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
+                $Loop = 0
+                while ( $WebSiteState.Value -ne 'Stopped') {
+                    $Loop += 1
+                    if ( $Loop -gt 10) {
+                        throw
+                    }                    
+                    Write-Output("$(Log-Date) Waiting for web site to stop")
+                    Start-Sleep -s 1
+                    $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
+                }      
+                
+                # App Pool has been logged taking 14 seconds to stop.
+                # Hence using a large maximum of 60 seconds before an error is thrown
+                $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
+                $Loop = 0
+                while ( $WebAppPoolState.Value -ne 'Stopped') {
+                    $Loop += 1
+                    if ( $Loop -gt 60) {
+                        throw
+                    } 
+                    Write-Output("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
+                    Start-Sleep -s 1
+                    $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
+                }                
             }
         }
     }
@@ -192,6 +219,30 @@ try {
         Write-Output("$(Log-Date) Stopping $($Process.ProcessName)")
         Stop-Process $process.id -Force
     }
+
+    # Wait for processes to end
+    $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root*" })
+    $Loop = 0
+    while ($processes.Count -gt 0 ) {
+        $Loop += 1
+        if ( $Loop -gt 10) {
+            throw
+        }
+        Write-Output("Waiting for $($Processes[0].ProcessName)")
+        # Wait 1 second
+        Start-Sleep -s 1
+        $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root*" })
+    }
+
+    # Check if the Plugin is installed. If so, wait at least 7 seconds, here 20 seconds to make sure its stopped
+    # Allow web plugin to stop completely otherwise lansaweb.dll and lcomgr32.dll are still in use
+    # Only effects deployments in which the IIS plugin is installed, of course.
+    # For PaaS its just the Webserver. The Apps do not have it installed.
+    # $PluginPath = Join-Path $Root 'WebServer\IISPlugin\lansaweb64\lansaweb.dll'
+    # if ( (test-path $PluginPath)) {
+    #     Write-Output ("$(Log-Date) Waiting 20 seconds for Plugin to stop")    
+    #     Start-Sleep -s 20
+    # }
 
     Write-Output ("$(Log-Date) Saving copy of vlweb.dat to detect if an iisreset is required")
     $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'

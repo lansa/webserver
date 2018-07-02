@@ -212,16 +212,33 @@ try {
     Execute-Process (Join-Path $Root 'integrator\jsmadmin\strjsm.exe') @("-sstop") "Stopping JSM returned error code"
     Control-Related-WebSites -Root $Root -Start $false
 
+    #
+    # Check if Listener has stopped. Check every 0.1s. If not stopped within 20s fail
+    #
+    Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") -ErrorText "Listener stop check returned "
+    Write-Output( "LASTEXITCODE = $LASTEXITCODE")
+    $Loop = 0
+    while( ($LASTEXITCODE -band 8) -ne 0 ) {
+        Write-Output ("$(Log-Date) Waiting for Listener to indicate it has stopped $loop")
+        if ( $Loop -ge 40 ) {
+            throw "Listener could not be stopped"
+        }
+        Start-Sleep -Milliseconds 500
+        $loop += 1
+        Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") "Listener stop check returned "
+    }
+    Write-Output( "Listener has really stopped")
+
     # Terminate x_run.exe and lcoadm32.exe processes and any other running processes installed into this LANSA configuration
 
-    $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root*" })
+    $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root\*" })
     foreach ($process in $processes ) {
         Write-Output("$(Log-Date) Stopping $($Process.ProcessName)")
         Stop-Process $process.id -Force
     }
 
     # Wait for processes to end
-    $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root*" })
+    $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root\*" })
     $Loop = 0
     while ($processes.Count -gt 0 ) {
         $Loop += 1
@@ -231,7 +248,7 @@ try {
         Write-Output("Waiting for $($Processes[0].ProcessName)")
         # Wait 1 second
         Start-Sleep -s 1
-        $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root*" })
+        $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root\*" })
     }
 
     # Check if the Plugin is installed. If so, wait at least 7 seconds, here 20 seconds to make sure its stopped

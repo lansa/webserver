@@ -77,11 +77,14 @@ function Execute-Process
     $p.StartInfo = $psi 
     [void]$p.Start()
     $output = $p.StandardOutput.ReadToEnd()     
-    $errorText = $p.StandardError.ReadToEnd() 
+    $errorOutput = $p.StandardError.ReadToEnd() 
     $p.WaitForExit() 
     $output    
-    $errorText
+    $errorOutput
 
+    # Set $LASTERRORCODE
+    cmd /c exit $p.ExitCode
+    
 	# Must continue on error so that everything that can be started is started.
 	# Not all installations have everything installed anyway.
     if ( $p.ExitCode -ne 0 ) {
@@ -272,9 +275,32 @@ try {
     ###############################################################################
     Write-Output ("$(Log-Date) Starting listener and web site")
     ###############################################################################
-    Control-Related-WebSites -Root $Root -Start $true
     Execute-Process (Join-Path $Root 'integrator\jsmadmin\strjsm.exe') @("-sstart") "Starting JSM returned error code"
     Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-sstart") "Starting Listener returned error code"
+    Control-Related-WebSites -Root $Root -Start $true
+    
+    # Check if Listener has started. Check every 5s. If not started within 20s, try to restart the listener.
+    # Restart 3 times, after that fail
+    Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") -ErrorText "Listener startup check returned "
+    Write-Output( "LASTEXITCODE = $LASTEXITCODE")
+    $Loop = 0
+    $ListenerRestart = 0
+    while( ($LASTEXITCODE -band 8) -ne 8 ) {
+        Write-Output ("$(Log-Date) Waiting for Listener to be started")
+        if ( $Loop -ge 3 ) {
+            $ListenerRestart += 1
+            if ( $ListenerRestart -gt 3) {
+                Write-Output( "Error: Listener cannot be started")
+                throw
+            }
+            Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-sstart") "Starting Listener returned error code"
+        }
+        Start-Sleep 5
+        $loop += 1
+        Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") "Listener startup check returned "
+    }
+    Write-Output( "Listener started")
+    cmd /c exit 0
 } catch {
     $e = $_.Exception
     $e|format-list -force

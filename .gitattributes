@@ -69,6 +69,7 @@ configure       eol=lf
 *.bmp      binary
 *.BMP      binary
 *.caf      binary
+*.dat      binary
 *.db       binary
 *.dcd      binary
 *.dcd      binary

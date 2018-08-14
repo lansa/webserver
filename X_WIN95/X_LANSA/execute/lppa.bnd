@@ -1062,6 +1062,8 @@ MsgBox.VersionControl.SyncDetectingWrkFldMessage=Detecting changes in the workin
 MsgBox.VersionControl.SyncRefreshRepoMessage=Refreshing repository...
 MsgBox.VersionControl.SyncRefreshEditorMessage=Refreshing editor...
 MsgBox.VersionControl.SyncUpdateFolderMessage=Processing offline changes...
+MsgBox.VersionControl.ObjectHasMergeConflict=This object has a pending merge conflict. The source code shown DOES NOT contain the latest changes in Git. It is highly recommended the merge conflict be resolved before making any changes.
+MsgBox.VersionControl.ObjectHasInvalidYAML=The YAML file for this object contains invalid text. This may be the result of a pending merge conflict. The source code shown DOES NOT contain the latest changes in version control. It is highly recommended the invalid YAML be resolved external to Visual LANSA before making any changes to the object in Visual LANSA.
 
 *************************************************************
 *** SPEED BUTTON HINTS                                  *****
@@ -2004,9 +2006,9 @@ CrossReference.Usage.FofFile.TargetOfAccessRoute=File (by Table or Field) - Targ
 CrossReference.Usage.FofFile.BatchControl=File (by Table or Field) - Batch control
 CrossReference.Usage.FofFile.TargetOfLookup=File (by Table or Field) - Target of lookup
 
-CrossReference.Usage.FofFunction.ComplexLogic=Function (by Field or Field) - Complex logic
-CrossReference.Usage.FofFunction.Trigger=Function (by Field or Field) - Trigger
-CrossReference.Usage.FofFunction.SystemVariable=Function (by Field or Field) - System variable
+CrossReference.Usage.FofFunction.ComplexLogic=Function (by Table or Field) - Complex logic
+CrossReference.Usage.FofFunction.Trigger=Function (by Table or Field) - Trigger
+CrossReference.Usage.FofFunction.SystemVariable=Function (by Table or Field) - System variable
 
 CrossReference.Usage.Process=Process
 

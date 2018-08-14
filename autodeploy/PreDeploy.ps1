@@ -204,6 +204,21 @@ try {
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
     New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 1 -PropertyType DWORD -Force | Out-Null
 
+    Write-Output( "$(Log-Date) Take Application Server offline")
+    
+    $webserver = Join-Path $Root 'run\conf\webserver.conf'
+    $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
+    Remove-Item $webserver_saved -ErrorAction SilentlyContinue
+    if ( Test-Path $webserver ) {
+        Copy-Item -Path $webserver -Destination $webserver_saved
+    }
+
+    # This removes all the filters from the running iisplugin
+    echo '{}' > $webserver
+
+    Write-Output( "$(Log-Date) Wait for any current transactions to complete")
+    Start-Sleep 10
+
     ###############################################################################
     Write-Output ("$(Log-Date) Stopping processes running in this installation")
     ###############################################################################
@@ -234,7 +249,7 @@ try {
     $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root\*" })
     foreach ($process in $processes ) {
         Write-Output("$(Log-Date) Stopping $($Process.ProcessName)")
-        Stop-Process $process.id -Force
+        &pskill $process.id
     }
 
     # Wait for processes to end
@@ -268,7 +283,14 @@ try {
     }
     Copy-Item -Path $VLWebDatFile -Destination $ENV:TEMP -Force
 } catch {
-    $e = $_.Exception
-    $e|format-list -force
     throw
+} finally {
+    Write-Output( "$(Log-Date) Bring the Application Server back online")
+    
+    $webserver = Join-Path $Root 'run\conf\webserver.conf'
+    $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
+    Remove-Item $webserver -ErrorAction SilentlyContinue
+    if ( Test-Path $webserver_saved ) {
+        Copy-Item $webserver_saved -Destination $webserver -Force
+    } 
 }

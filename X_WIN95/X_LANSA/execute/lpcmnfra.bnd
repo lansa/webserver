@@ -216,7 +216,7 @@ Type.UnresolvedType.Id=145
 
 Class.Field=Zone
 Class.Field.Def=Définition de zone
-Class.File=Fichier
+Class.File=Table
 Class.File.Def=Définition de fichier
 Class.Primitive=Primitive
 Class.Primitive.Def=Définition de primitive

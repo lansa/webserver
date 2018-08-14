@@ -495,10 +495,10 @@ Assist.Title=Assistant
 Assistant.CA.Title=Assistant de saisie de commande
 Assistant.AC.Title=Saisie semi-automatique
 Assistant.Instrument.Commands=Commandes
-Assistant.Instrument.FieldsByFile=Zones par fichier
+Assistant.Instrument.FieldsByFile=Zones par table
 Assistant.Instrument.FieldDefinitions=Définitions de zone
 Assistant.Instrument.RepositoryFields=Zones du référentiel
-Assistant.Instrument.Files=Fichiers
+Assistant.Instrument.Files=Tables
 Assistant.Instrument.CmdParameters=Paramètres des commandes
 Assistant.Instrument.ExprOperations=Opérations
 Assistant.Instrument.Arrays=Tableaux
@@ -525,7 +525,7 @@ Assistant.Instrument.SpecialValues=Valeurs systèmes
 Assistant.Instrument.EnumValues=Valeurs enum.
 Assistant.Instrument.Namespaces=Espaces de noms
 Assistant.Instrument.Classes=Classes
-Assistant.Instrument.FieldsInFile=Zones du fichier
+Assistant.Instrument.FieldsInFile=Zones de la table
 Assistant.Instrument.Fields=Zones
 Assistant.Instrument.Forms=Formulaires
 Assistant.Instrument.WebPages=Pages Web
@@ -567,9 +567,9 @@ Assistant.Label.FieldName=Nom de zone
 Assistant.Label.FieldType=Type de zone
 Assistant.Label.FieldDescription=Description de zone
 Assistant.Label.RenamedField=Zone renommée :
-Assistant.Label.FileName=Nom de fichier
+Assistant.Label.FileName=Nom de la table
 Assistant.Label.LibraryName=Nom de bibliothèque
-Assistant.Label.FileDescription=Description de fichier
+Assistant.Label.FileDescription=Description de la table
 Assistant.Label.ResultingExpression=Expression résultante
 *
 Assistant.Cancel.Tip=Annuler
@@ -1062,6 +1062,8 @@ MsgBox.VersionControl.SyncDetectingWrkFldMessage=Détection des modifications dan
 MsgBox.VersionControl.SyncRefreshRepoMessage=Actualisation du référentiel...
 MsgBox.VersionControl.SyncRefreshEditorMessage=Actualisation de l'éditeur...
 MsgBox.VersionControl.SyncUpdateFolderMessage=Traitement des modifications hors ligne...
+MsgBox.VersionControl.ObjectHasMergeConflict=Cet objet a un conflit de fusion en attente. Le code source affiché NE CONTIENT PAS les dernières modifications dans Git. Il est grandement recommandé de résoudre le conflit de fusion avant d’effectuer toute modification.
+MsgBox.VersionControl.ObjectHasInvalidYAML=Le fichier YAML pour cet objet contient un texte incorrect. Ceci peut provenir d’un conflit de fusion en attente. Le code source affiché NE CONTIENT PAS les dernières modifications du contrôle de version. Il est grandement recommandé de résoudre les erreurs du YAML en dehors de Visual LANSA avant d’effectuer toute modification dans Visual LANSA.
 
 *************************************************************
 *** SPEED BUTTON HINTS                                  *****
@@ -1299,7 +1301,7 @@ FormatOptions.Item.Definitions.Caption=Définitions
 FormatOptions.Item.Details.Caption=Détails
 FormatOptions.Item.Goto.Caption=Aller à
 FormatOptions.Item.Outline.Caption=Vue hiérarchique
-FormatOptions.Item.ShowInternalFiles=Afficher les fichiers internes
+FormatOptions.Item.ShowInternalFiles=Afficher les tables internes
 FormatOptions.Item.ShowReadOnlyMsg=Afficher le message signalant la lecture seule
 FormatOptions.Item.UseIdentifierAsDisplayName=Afficher les noms courts
 FormatOptions.Item.CustomizeEditor=Support de l'éditeur
@@ -1506,7 +1508,7 @@ ObjectList.Caption.GroupingRule=Détails de regroupement
 ObjectList.Caption.RuledObjectList=Détails de la liste dynamique
 ObjectList.Caption.ImpactObjectList=Détails de la liste statique
 
-ObjectList.Caption.FileType=Fichier
+ObjectList.Caption.FileType=Table
 ObjectList.Caption.FieldType=Zone/Composant
 ObjectList.Caption.ProcessType=Process
 ObjectList.Caption.FunctionType=Fonction
@@ -1561,7 +1563,7 @@ RepBrowser.FormCaption=Explorateur LANSA
 RepBrowser.LansaCaption=LANSA
 RepBrowser.EditorCaption=Editeur                           
 RepBrowser.RepositoryCaption=Référentiel
-RepBrowser.FileCaption=Fichiers
+RepBrowser.FileCaption=Tables
 RepBrowser.TourCaption=Tours
 RepBrowser.FormsCaption=Formulaires                            
 RepBrowser.IconsCaption=Icônes                            
@@ -1889,7 +1891,7 @@ CrossReference.Caption.DeleteQuery=Supprimer la requête
 CrossReference.Caption.QueryDialog=Définir une requête de références croisées
 CrossReference.Caption.SaveResults=Enregistrer les résultats
 
-CrossReference.CaptionContext.File=Contexte fichier
+CrossReference.CaptionContext.File=Contexte table
 CrossReference.CaptionContext.Field=Contexte zone
 CrossReference.CaptionContext.Function=Contexte fonction
 CrossReference.CaptionContext.Component=Contexte composant
@@ -1904,7 +1906,7 @@ CrossReference.Label.ObjectName=Nom de l'objet :
 CrossReference.MsgBox.NoResult.Msg=La requête n'a trouvé aucune information de référence croisée correspondante. Voulez-vous arrêter maintenant ?
 CrossReference.MsgBox.NoResult.Caption=Requête de  références croisées
 
-CrossReference.ResultCaption.File=Fichier : &1 bibliothèque : &2
+CrossReference.ResultCaption.File=Table : &1 bibliothèque : &2
 CrossReference.ResultCaption.Field=Zone/composant : &1
 CrossReference.ResultCaption.Process=Process : &1
 CrossReference.ResultCaption.Function=Fonction : &1 - Process : &2
@@ -1977,8 +1979,8 @@ CrossReference.Usage.Bif=Fonction intégrée
 
 CrossReference.Usage.OvBif=Fonction intégrée OV
 
-CrossReference.Usage.File.ByDatabaseCmd=Fichier - Commande base de données
-CrossReference.Usage.File.ByUpdateDatabaseCmd=Fichier - Commande mise à jour de base de données
+CrossReference.Usage.File.ByDatabaseCmd=Table - Commande base de données
+CrossReference.Usage.File.ByUpdateDatabaseCmd=Table - Commande mise à jour de base de données
 
 CrossReference.Usage.RdmFunction.ByCallCmd=Fonction RDML - Commande CALL
 CrossReference.Usage.RdmFunction.ByCallCheckCmd=Fonction RDML - Commande CALLCHECK
@@ -1991,22 +1993,22 @@ CrossReference.Usage.PromptFunction.ByFieldDefinition=Fonction d'invite - Défini
 
 CrossReference.Usage.ExternalPgm=Programme externe
 
-CrossReference.Usage.FileField.KeyField=Zone (de fichier) - Clé
-CrossReference.Usage.FileField.RealField=Zone (de fichier) - Zone réelle
-CrossReference.Usage.FileField.VirtualField=Zone (de fichier) - Zone virtuelle
-CrossReference.Usage.FileField.PJF=Zone (de fichier) - Zone de jointure prédéterminée
-CrossReference.Usage.FileField.AccessRoute=Zone (de fichier) - Relation
-CrossReference.Usage.FileField.BatchControl=Zone (de fichier) - Règle d'agrégation
-CrossReference.Usage.FileField.ValidationRule=Zone (de fichier) - Règle de validation
+CrossReference.Usage.FileField.KeyField=Zone (de table) - Clé
+CrossReference.Usage.FileField.RealField=Zone (de table) - Zone réelle
+CrossReference.Usage.FileField.VirtualField=Zone (de table) - Zone virtuelle
+CrossReference.Usage.FileField.PJF=Zone (de table) - Zone de jointure prédéterminée
+CrossReference.Usage.FileField.AccessRoute=Zone (de table) - Relation
+CrossReference.Usage.FileField.BatchControl=Zone (de table) - Règle d'agrégation
+CrossReference.Usage.FileField.ValidationRule=Zone (de table) - Règle de validation
 
-CrossReference.Usage.FofFile.BasedOnPhysicalFile=Fichier (par fichier ou zone) - Basé sur le fichier physique
-CrossReference.Usage.FofFile.TargetOfAccessRoute=Fichier (par fichier ou zone) - Cible de la relation
-CrossReference.Usage.FofFile.BatchControl=Fichier (par fichier ou zone) - Règle d'agrégation
-CrossReference.Usage.FofFile.TargetOfLookup=Fichier (par fichier ou zone) - Cible de recherche fichier
+CrossReference.Usage.FofFile.BasedOnPhysicalFile=Table (par table ou zone) - Basé sur le fichier physique
+CrossReference.Usage.FofFile.TargetOfAccessRoute=Table (par table ou zone) - Cible de la relation
+CrossReference.Usage.FofFile.BatchControl=Table (par table ou zone) - Règle d'agrégation
+CrossReference.Usage.FofFile.TargetOfLookup=Table (par table ou zone) - Cible de recherche fichier
 
-CrossReference.Usage.FofFunction.ComplexLogic=Fonction (par fichier ou zone) - Contrôle par appel de programme
-CrossReference.Usage.FofFunction.Trigger=Fonction (par fichier ou zone) - Déclencheur
-CrossReference.Usage.FofFunction.SystemVariable=Fonction (par fichier ou zone) - Variable système
+CrossReference.Usage.FofFunction.ComplexLogic=Fonction (par table ou zone) - Contrôle par appel de programme
+CrossReference.Usage.FofFunction.Trigger=Fonction (par table ou zone) - Déclencheur
+CrossReference.Usage.FofFunction.SystemVariable=Fonction (par table ou zone) - Variable système
 
 CrossReference.Usage.Process=Process
 
@@ -2226,7 +2228,7 @@ RepositoryTab.Combo.ActiveX=ActiveX
 RepositoryTab.Combo.Bitmaps=Bitmaps
 RepositoryTab.Combo.Cursors=Curseurs
 RepositoryTab.Combo.Fields=Zones
-RepositoryTab.Combo.Files=Fichiers
+RepositoryTab.Combo.Files=Tables
 RepositoryTab.Combo.Forms=Formulaires
 RepositoryTab.Combo.Frameworks=Frameworks
 RepositoryTab.Combo.Functions=Fonctions
@@ -2262,7 +2264,7 @@ RepositoryTab.Combo.ServerModules=Modules serveur
 RepositoryTab.Combo.DataObjects=Entités
 
 RepositoryTab.ObjName.NotDefined=Non défini
-RepositoryTab.ObjName.File=Fichier
+RepositoryTab.ObjName.File=Table
 RepositoryTab.ObjName.LogicalFile=Fichier logique
 RepositoryTab.ObjName.Field=Zone
 RepositoryTab.ObjName.Process=Process
@@ -2577,7 +2579,7 @@ FeaturesView.FaceName=Nom de la police
 FeaturesView.Field=Zone
 FeaturesView.Fields=Zones
 FeaturesView.File=Fichier
-FeaturesView.FileLevelValidationRules=Règles de validation au niveau fichier
+FeaturesView.FileLevelValidationRules=Règles de validation au niveau table
 FeaturesView.FontSize=Taille de la police
 FeaturesView.Functions=Fonctions
 FeaturesView.GoToLine=Aller à la ligne
@@ -3062,11 +3064,11 @@ Web.HTML.Table.InsertRow.Caption=Insérer des lignes...
 Web.HTML.Table.AddRow.Caption=Ajouter des lignes...
 Web.HTML.Table.DeleteRow.Caption=Supprimer des lignes...
 Web.HTML.Table.InsertColumn.Caption=Insérer des colonnes...
-Web.HTML.Table.AddColumn.Caption=Ajouter des  colonnes...
-Web.HTML.Table.DeleteColumn.Caption=Supprimer des  colonnes...
+Web.HTML.Table.AddColumn.Caption=Ajouter des colonnes...
+Web.HTML.Table.DeleteColumn.Caption=Supprimer des colonnes...
 Web.HTML.Table.InsertCell.Caption=Insérer des cellules...
 Web.HTML.Table.AddCell.Caption=Ajouter des cellules...
-Web.HTML.Table.DeleteCell.Caption=Supprimer des  cellules...
+Web.HTML.Table.DeleteCell.Caption=Supprimer des cellules...
 Web.HTML.Table.SelectRow.Caption=Sélectionner la ligne
 Web.HTML.Text.Caption=Texte
 Web.HTML.Text.Bold.Caption=Gras

@@ -231,7 +231,12 @@ try {
 
 
     $x_err = (Join-Path $ENV:TEMP 'x_err.log')
-    Remove-Item $x_err -Force -ErrorAction SilentlyContinue
+    if ( (Test-Path $x_err ) ) {
+        # Remove-Item $x_err -Force -ErrorAction SilentlyContinue
+        $measure_before = Get-Content $x_err | Measure-Object -Character -Line -Word
+    } else {
+        $measure_before = "" | Measure-Object -Character -Line -Word   
+    }
 
     # DEVF=4096 forces Alternate Name reuse so that tables with the same name in the initial MSI do not cause fatal errors to occur, like xEmployee
     $Arguments = @("PROC=*INSTALL", "QUET=Y", "MODE=B", "BPQS=Y", "LOCK=NO", "DEVF=4096")
@@ -266,10 +271,14 @@ try {
     Execute-Process (Join-Path $ExecuteDir 'x_run.exe') $Arguments "Package Install returned error code" -FatalError $true
 
     if ( (Test-Path $x_err ) ) {
-        Write-Output ("$(Log-Date) *** begin x_err.log")
-        Out-File $x_err
-        Write-Output ("$(Log-Date) *** end x_err.log")
-        throw
+        $measure_after = Get-Content $x_err | Measure-Object -Character -Line -Word
+        Write-Output ("$(Log-Date) x_err.log size before Package Install $($Measure_before.Lines) lines. Now its $($Measure_after.Lines) lines")
+        if ( $Measure_after.Lines -gt ($Measure_before.Lines + 3 ) ) {
+            Write-Output ("$(Log-Date) *** begin x_err.log")
+            Out-File $x_err
+            Write-Output ("$(Log-Date) *** end x_err.log")
+            throw "x_err.log contains extra text after Package Install"
+        }
     }
 
     ###############################################################################
@@ -300,12 +309,20 @@ try {
         Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") "Listener startup check returned "
     }
     Write-Output( "Listener started")
+   
     cmd /c exit 0
 } catch {
-    $e = $_.Exception
-    $e|format-list -force
     throw
 } finally {
+    Write-Output( "$(Log-Date) Bring the Application Server back online")
+    
+    $webserver = Join-Path $Root 'run\conf\webserver.conf'
+    $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
+    Remove-Item $webserver -ErrorAction SilentlyContinue
+    if ( Test-Path $webserver_saved ) {
+        Copy-Item $webserver_saved -Destination $webserver -Force
+    } 
+
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
     Write-Output ("$(Log-Date) Encoded Path $EncodedPath")
 

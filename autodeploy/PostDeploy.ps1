@@ -1,4 +1,4 @@
-"PostDeploy.ps1"
+"PostDeploy.ps1" | Out-Host
 
 #Requires -RunAsAdministrator
 
@@ -8,29 +8,29 @@
 # use the file instead, and RESTART this script using normal redirection.
 
 if ($args.length -gt 0) {
-    write-output "Log file is $($args[0])"
+    Write-Host "Log file is $($args[0])"
     $LogFile = $args[0]
 
     # Needs to be a current directory too
     if ($args.length -gt 1) {
-        write-output "Working directory is $($args[1])"
+        Write-Host "Working directory is $($args[1])"
         $WorkingDirectory = $args[1]
     
-        Set-Location $WorkingDirectory
+        Set-Location $WorkingDirectory | Out-Host
 
-        Write-Output("Re-run script without the log file parameter but using redirection to the log file")
-        & $MyInvocation.MyCommand.Path > $LogFile 2>&1
+        Write-Host("Re-run script without the log file parameter but using redirection to the log file")
+        & $MyInvocation.MyCommand.Path > $LogFile 2>&1 | Out-Host
         return
     } else {
         Write-Error("Working Directory parameter missing")
         throw
     }
 } else {
-    Write-Output("Redirection presumed to already be setup")
+    Write-Host("Redirection presumed to already be setup")
 }
 
-Import-Module WebAdministration
-Add-Type -AssemblyName System.Web
+Import-Module WebAdministration | Out-Null
+Add-Type -AssemblyName System.Web | Out-Null
 
 function Log-Date 
 {
@@ -59,11 +59,11 @@ function Execute-Process
 
     if ( !(Test-Path $ExecutablePath) )
     {
-        Write-Output "$(Log-Date) $ExecutablePath does not exist"
+        Write-Host "$(Log-Date) $ExecutablePath does not exist"
         return
     }
 
-    Write-Output "$(Log-Date) Executing $ExecutablePath $Arguments"
+    Write-Host "$(Log-Date) Executing $ExecutablePath $Arguments"
 
     # Use Start-Process to obtain the exit code. But then we need to redirect stdout and stderr
     $psi = New-object System.Diagnostics.ProcessStartInfo 
@@ -75,21 +75,21 @@ function Execute-Process
     $psi.Arguments = $Arguments 
     $p = New-Object System.Diagnostics.Process 
     $p.StartInfo = $psi 
-    [void]$p.Start()
+    [void]$p.Start() | Out-Host
     $output = $p.StandardOutput.ReadToEnd()     
     $errorOutput = $p.StandardError.ReadToEnd() 
     $p.WaitForExit() 
-    $output    
-    $errorOutput
+    $output     | Out-Host
+    $errorOutput | Out-Host
 
     # Set $LASTERRORCODE
-    cmd /c exit $p.ExitCode
+    cmd /c exit $p.ExitCode | Out-Host
     
 	# Must continue on error so that everything that can be started is started.
 	# Not all installations have everything installed anyway.
     if ( $p.ExitCode -ne 0 ) {
        $ErrorMessage = "$ErrorText $($p.ExitCode)."
-       Write-Output "$(Log-Date) $ErrorMessage"
+       Write-Host "$(Log-Date) $ErrorMessage"
        if ( $FatalError ){
             throw
        }
@@ -127,18 +127,18 @@ function Control-Related-WebSites
     {
         if ( $SiteVirtualDirectory.PhysicalPath -eq $VirtualDirectoryPath)
         {
-            Write-Output "$(Log-Date) $SiteVirtualDirectory"
-            Write-Output "$(Log-Date) Web Site = $($SiteVirtualDirectory.Site)"
+            Write-Host "$(Log-Date) $SiteVirtualDirectory"
+            Write-Host "$(Log-Date) Web Site = $($SiteVirtualDirectory.Site)"
             if ($Start) {
-                Write-Output ("$(Log-Date) Starting web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool)
-                Write-Output ("$(Log-Date) Starting web site $($SiteVirtualDirectory.Site)")
-                Start-Website -name $($SiteVirtualDirectory.Site)
+                Write-Host ("$(Log-Date) Starting web application pool $($SiteVirtualDirectory.ApplicationPool)")
+                Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) | Out-Host
+                Write-Host ("$(Log-Date) Starting web site $($SiteVirtualDirectory.Site)")
+                Start-Website -name $($SiteVirtualDirectory.Site) | Out-Host
             } else {
-                Write-Output ("$(Log-Date) Stopping web site $($SiteVirtualDirectory.Site)")
-                Stop-Website -name $($SiteVirtualDirectory.Site)
-                Write-Output ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool)
+                Write-Host ("$(Log-Date) Stopping web site $($SiteVirtualDirectory.Site)")
+                Stop-Website -name $($SiteVirtualDirectory.Site) | Out-Host
+                Write-Host ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
+                Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) | Out-Host
                 # Web Site stopping has not yet ever logged a wait state
                 $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 $Loop = 0
@@ -147,8 +147,8 @@ function Control-Related-WebSites
                     if ( $Loop -gt 10) {
                         throw
                     }                    
-                    Write-Output("$(Log-Date) Waiting for web site to stop")
-                    Start-Sleep -s 1
+                    Write-Host("$(Log-Date) Waiting for web site to stop")
+                    Start-Sleep -s 1 | Out-Host
                     $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 }      
                 
@@ -161,8 +161,8 @@ function Control-Related-WebSites
                     if ( $Loop -gt 60) {
                         throw
                     } 
-                    Write-Output("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
-                    Start-Sleep -s 1
+                    Write-Host("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
+                    Start-Sleep -s 1 | Out-Host
                     $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
                 }                
             }
@@ -200,9 +200,9 @@ function Control-Related-Services
 # $VerbosePreference = "Continue"
 
 try {
-    Write-Output ("$(Log-Date) Script Path = $($MyInvocation.MyCommand.Path)")
+    Write-Host ("$(Log-Date) Script Path = $($MyInvocation.MyCommand.Path)")
     $Root = (Split-Path (Split-Path $MyInvocation.MyCommand.Path))
-    Write-Output ("$(Log-Date) Root Path = $Root")
+    Write-Host ("$(Log-Date) Root Path = $Root")
 
     $ExecuteDir = Join-Path $Root 'x_win95\x_lansa\execute'
     
@@ -211,7 +211,7 @@ try {
     }
 
     ###############################################################################
-    Write-Output ("$(Log-Date) Stopping default application installation")
+    Write-Host ("$(Log-Date) Stopping default application installation")
     ###############################################################################
 
     # Remove the line INST=MSI and any blank lines
@@ -222,11 +222,11 @@ try {
 
     $x_lansa_pro = (Join-Path $ExecuteDir '..\x_lansa.pro')
     $x_lansa_pro_old = "$($x_lansa_pro)_old"
-    Copy-Item $x_lansa_pro $x_lansa_pro_old
+    Copy-Item $x_lansa_pro $x_lansa_pro_old | Out-Host
     get-content $x_lansa_pro_old | Where-Object { $_ -ne 'INST=MSI' -and $_ -ne '' } | set-content $x_lansa_pro
 
     ###############################################################################
-    Write-Output ("$(Log-Date) Installing LANSA tables and Web Pages")
+    Write-Host ("$(Log-Date) Installing LANSA tables and Web Pages")
     ###############################################################################
 
 
@@ -266,23 +266,23 @@ try {
         }
     }
 
-    Write-Output ("$(Log-Date) Arguments = $Arguments")
+    Write-Host ("$(Log-Date) Arguments = $Arguments")
 
     Execute-Process (Join-Path $ExecuteDir 'x_run.exe') $Arguments "Package Install returned error code" -FatalError $true
 
     if ( (Test-Path $x_err ) ) {
         $measure_after = Get-Content $x_err | Measure-Object -Character -Line -Word
-        Write-Output ("$(Log-Date) x_err.log size before Package Install $($Measure_before.Lines) lines. Now its $($Measure_after.Lines) lines")
+        Write-Host ("$(Log-Date) x_err.log size before Package Install $($Measure_before.Lines) lines. Now its $($Measure_after.Lines) lines")
         if ( $Measure_after.Lines -gt ($Measure_before.Lines + 3 ) ) {
-            Write-Output ("$(Log-Date) *** begin x_err.log")
+            Write-Host ("$(Log-Date) *** begin x_err.log")
             Out-File $x_err
-            Write-Output ("$(Log-Date) *** end x_err.log")
+            Write-Host ("$(Log-Date) *** end x_err.log")
             throw "x_err.log contains extra text after Package Install"
         }
     }
 
     ###############################################################################
-    Write-Output ("$(Log-Date) Starting listener and web site")
+    Write-Host ("$(Log-Date) Starting listener and web site")
     ###############################################################################
     Execute-Process (Join-Path $Root 'integrator\jsmadmin\strjsm.exe') @("-sstart") "Starting JSM returned error code"
     Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-sstart") "Starting Listener returned error code"
@@ -291,70 +291,70 @@ try {
     # Check if Listener has started. Check every 5s. If not started within 20s, try to restart the listener.
     # Restart 3 times, after that fail
     Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") -ErrorText "Listener startup check returned "
-    Write-Output( "LASTEXITCODE = $LASTEXITCODE")
+    Write-Host( "LASTEXITCODE = $LASTEXITCODE")
     $Loop = 0
     $ListenerRestart = 0
     while( ($LASTEXITCODE -band 8) -ne 8 ) {
-        Write-Output ("$(Log-Date) Waiting for Listener to be started")
+        Write-Host ("$(Log-Date) Waiting for Listener to be started")
         if ( $Loop -ge 3 ) {
             $ListenerRestart += 1
             if ( $ListenerRestart -gt 3) {
-                Write-Output( "Error: Listener cannot be started")
+                Write-Host( "Error: Listener cannot be started")
                 throw
             }
             Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-sstart") "Starting Listener returned error code"
         }
-        Start-Sleep 5
+        Start-Sleep 5 | Out-Host
         $loop += 1
         Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") "Listener startup check returned "
     }
-    Write-Output( "Listener started")
+    Write-Host( "Listener started")
    
     cmd /c exit 0
 } catch {
     throw
 } finally {
-    Write-Output( "$(Log-Date) Bring the Application Server back online")
+    Write-Host( "$(Log-Date) Bring the Application Server back online")
     
     $webserver = Join-Path $Root 'run\conf\webserver.conf'
     $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
     Remove-Item $webserver -ErrorAction SilentlyContinue
     if ( Test-Path $webserver_saved ) {
-        Copy-Item $webserver_saved -Destination $webserver -Force
+        Copy-Item $webserver_saved -Destination $webserver -Force | Out-Host
     } 
 
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
-    Write-Output ("$(Log-Date) Encoded Path $EncodedPath")
+    Write-Host ("$(Log-Date) Encoded Path $EncodedPath")
 
     New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 0 -PropertyType DWORD -Force | Out-Null
     
     $IIsReset = (Get-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'PluginFullyInstalled' -ErrorAction SilentlyContinue).PluginFullyInstalled
     if ( $IIsReset -eq 1) {
-        Write-Output ("$(Log-Date) iisreset alweays required")
-        iisreset
+        Write-Host ("$(Log-Date) iisreset alweays required")
+        iisreset | Out-Host
     } else {
-        Write-Output ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")
+        Write-Host ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")
         $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
         if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {
-            Write-Output ("$(Log-Date) $VLWebDatFile does not exist. Presuming 64-bit vl install")    
+            Write-Host ("$(Log-Date) $VLWebDatFile does not exist. Presuming 64-bit vl install")    
             $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
         }
-        Write-Output ("$(Log-Date) Using $VLWebDatFile")
+        Write-Host ("$(Log-Date) Using $VLWebDatFile")
         if ( (Test-Path $VLWebDatFile -PathType Leaf)) {
             $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
 
             if ( (Test-Path $TargetVLWebDatFile -PathType Leaf)) {
                 if ( (Get-FileHash $VLWebDatFile).hash  -ne (Get-FileHash $TargetVLWebDatFile).hash) {
-                    Write-Output ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
-                    iisreset
+                    Write-Host ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
+                    iisreset | Out-Host
                 } else {
-                    Write-Output ("$(Log-Date) vlweb.dat has not changed.")
+                    Write-Host ("$(Log-Date) vlweb.dat has not changed.")
                 }
             } else {
-                Write-Output ("$(Log-Date) $ENV:TEMP\vlweb.dat does not exist.")    
+                Write-Host ("$(Log-Date) $ENV:TEMP\vlweb.dat does not exist.")    
             }
         } else {
-            Write-Output ("$(Log-Date) $VLWebDatFile does not exist. This should never occur.")
+            Write-Host ("$(Log-Date) $VLWebDatFile does not exist. This should never occur.")
         }
     }
 }

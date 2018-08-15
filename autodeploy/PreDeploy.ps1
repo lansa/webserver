@@ -1,4 +1,4 @@
-"PreDeploy.ps1"
+"PreDeploy.ps1" | Out-Host
 
 #Requires -RunAsAdministrator
 
@@ -8,17 +8,17 @@
 # use the file instead, and RESTART this script using normal redirection.
 
 if ($args.length -gt 0) {
-    write-output "Log file is $($args[0])"
+    Write-Host "Log file is $($args[0])"
     $LogFile = $args[0]
 
     # Needs to be a current directory too
     if ($args.length -gt 1) {
-        write-output "Working directory is $($args[1])"
+        Write-Host "Working directory is $($args[1])"
         $WorkingDirectory = $args[1]
     
         Set-Location $WorkingDirectory
 
-        Write-Output("Re-run script without the log file parameter but using redirection to the log file")
+        Write-Host("Re-run script without the log file parameter but using redirection to the log file")
         & $MyInvocation.MyCommand.Path > $LogFile 2>&1
         return
     } else {
@@ -26,11 +26,11 @@ if ($args.length -gt 0) {
         throw
     }
 } else {
-    Write-Output("Redirection presumed to already be setup")
+    Write-Host("Redirection presumed to already be setup")
 }
 
-Import-Module WebAdministration
-Add-Type -AssemblyName System.Web
+Import-Module WebAdministration | Out-Null
+Add-Type -AssemblyName System.Web  | Out-Null
 
 function Log-Date 
 {
@@ -55,11 +55,11 @@ function Execute-Process
 
     if ( !(Test-Path $ExecutablePath) )
     {
-        Write-Output "$(Log-Date) $ExecutablePath does not exist"
+        Write-Host "$(Log-Date) $ExecutablePath does not exist"
         return
     }
 
-    Write-Output "$(Log-Date) Executing $ExecutablePath $Arguments"
+    Write-Host "$(Log-Date) Executing $ExecutablePath $Arguments"
 
     # Use Start-Process to obtain the exit code. But then we need to redirect stdout and stderr
     $psi = New-object System.Diagnostics.ProcessStartInfo 
@@ -75,14 +75,14 @@ function Execute-Process
     $output = $p.StandardOutput.ReadToEnd()     
     $errorText = $p.StandardError.ReadToEnd() 
     $p.WaitForExit() 
-    $output    
-    $errorText
+    $output | Out-Host
+    $errorText | Out-Host
 
 	# Must continue on error so that everything that can be stopped is stopped.
 	# Not all installations have everything running anyway.
     if ( $p.ExitCode -ne 0 ) {
        $ErrorMessage = "$ErrorText $($p.ExitCode)."
-       Write-Output "$(Log-Date) $ErrorMessage"
+       Write-Host "$(Log-Date) $ErrorMessage"
     }     
 }
 
@@ -117,18 +117,18 @@ function Control-Related-WebSites
     {
         if ( $SiteVirtualDirectory.PhysicalPath -eq $VirtualDirectoryPath)
         {
-            Write-Output "$(Log-Date) $SiteVirtualDirectory"
-            Write-Output "$(Log-Date) Web Site = $($SiteVirtualDirectory.Site)"
+            Write-Host "$(Log-Date) $SiteVirtualDirectory"
+            Write-Host "$(Log-Date) Web Site = $($SiteVirtualDirectory.Site)"
             if ($Start) {
-                Write-Output ("$(Log-Date) Starting web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool)
-                Write-Output ("$(Log-Date) Starting web site $($SiteVirtualDirectory.Site)")
-                Start-Website -name $($SiteVirtualDirectory.Site)
+                Write-Host ("$(Log-Date) Starting web application pool $($SiteVirtualDirectory.ApplicationPool)")
+                Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) | Out-Host
+                Write-Host ("$(Log-Date) Starting web site $($SiteVirtualDirectory.Site)")
+                Start-Website -name $($SiteVirtualDirectory.Site) | Out-Host
             } else {
-                Write-Output ("$(Log-Date) Stopping web site $($SiteVirtualDirectory.Site)")
-                Stop-Website -name $($SiteVirtualDirectory.Site)  -ErrorAction SilentlyContinue
-                Write-Output ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) -ErrorAction SilentlyContinue
+                Write-Host ("$(Log-Date) Stopping web site $($SiteVirtualDirectory.Site)")
+                Stop-Website -name $($SiteVirtualDirectory.Site)  -ErrorAction SilentlyContinue | Out-Host
+                Write-Host ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
+                Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) -ErrorAction SilentlyContinue | Out-Host
 
                 # Web Site stopping has not yet ever logged a wait state
                 $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
@@ -138,8 +138,8 @@ function Control-Related-WebSites
                     if ( $Loop -gt 10) {
                         throw
                     }                    
-                    Write-Output("$(Log-Date) Waiting for web site to stop")
-                    Start-Sleep -s 1
+                    Write-Host("$(Log-Date) Waiting for web site to stop")
+                    Start-Sleep -s 1 | Out-Host
                     $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 }      
                 
@@ -152,8 +152,8 @@ function Control-Related-WebSites
                     if ( $Loop -gt 60) {
                         throw
                     } 
-                    Write-Output("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
-                    Start-Sleep -s 1
+                    Write-Host("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
+                    Start-Sleep -s 1 | Out-Host
                     $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
                 }                
             }
@@ -191,9 +191,9 @@ function Control-Related-Services
 # $VerbosePreference = "Continue"
 
 try {
-    Write-Output ("$(Log-Date) Script Path = $($MyInvocation.MyCommand.Path)")
+    Write-Host ("$(Log-Date) Script Path = $($MyInvocation.MyCommand.Path)")
     $Root = (Split-Path (Split-Path $MyInvocation.MyCommand.Path))
-    Write-Output ("$(Log-Date) Root Path = $Root")
+    Write-Host ("$(Log-Date) Root Path = $Root")
 
     $ExecuteDir = Join-Path $Root 'x_win95\x_lansa\execute'
     
@@ -204,23 +204,23 @@ try {
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
     New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 1 -PropertyType DWORD -Force | Out-Null
 
-    Write-Output( "$(Log-Date) Take Application Server offline")
+    Write-Host( "$(Log-Date) Take Application Server offline")
     
     $webserver = Join-Path $Root 'run\conf\webserver.conf'
     $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
-    Remove-Item $webserver_saved -ErrorAction SilentlyContinue
+    Remove-Item $webserver_saved -ErrorAction SilentlyContinue | Out-Host
     if ( Test-Path $webserver ) {
-        Copy-Item -Path $webserver -Destination $webserver_saved
+        Copy-Item -Path $webserver -Destination $webserver_saved | Out-Host
     }
 
     # This removes all the filters from the running iisplugin
     echo '{}' > $webserver
 
-    Write-Output( "$(Log-Date) Wait for any current transactions to complete")
-    Start-Sleep 10
+    Write-Host( "$(Log-Date) Wait for any current transactions to complete")
+    Start-Sleep 10 | Out-Host
 
     ###############################################################################
-    Write-Output ("$(Log-Date) Stopping processes running in this installation")
+    Write-Host ("$(Log-Date) Stopping processes running in this installation")
     ###############################################################################
     Execute-Process (Join-Path $ExecuteDir 'w3_p2200.exe') @("*FORINSTALL") "Stopping Web Jobs returned error code"
     Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-sstop") "Stopping Listener returned error code"
@@ -231,25 +231,25 @@ try {
     # Check if Listener has stopped. Check every 0.1s. If not stopped within 20s fail
     #
     Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") -ErrorText "Listener stop check returned "
-    Write-Output( "LASTEXITCODE = $LASTEXITCODE")
+    Write-Host( "LASTEXITCODE = $LASTEXITCODE")
     $Loop = 0
     while( ($LASTEXITCODE -band 8) -ne 0 ) {
-        Write-Output ("$(Log-Date) Waiting for Listener to indicate it has stopped $loop")
+        Write-Host ("$(Log-Date) Waiting for Listener to indicate it has stopped $loop")
         if ( $Loop -ge 40 ) {
             throw "Listener could not be stopped"
         }
-        Start-Sleep -Milliseconds 500
+        Start-Sleep -Milliseconds 500 | Out-Host
         $loop += 1
         Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") "Listener stop check returned "
     }
-    Write-Output( "Listener has really stopped")
+    Write-Host( "Listener has really stopped")
 
     # Terminate x_run.exe and lcoadm32.exe processes and any other running processes installed into this LANSA configuration
 
     $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root\*" })
     foreach ($process in $processes ) {
-        Write-Output("$(Log-Date) Stopping $($Process.ProcessName)")
-        &pskill $process.id
+        Write-Host("$(Log-Date) Stopping $($Process.ProcessName)")
+        &pskill $process.id | Out-Host
     }
 
     # Wait for processes to end
@@ -260,9 +260,9 @@ try {
         if ( $Loop -gt 10) {
             throw
         }
-        Write-Output("Waiting for $($Processes[0].ProcessName)")
+        Write-Host("Waiting for $($Processes[0].ProcessName)")
         # Wait 1 second
-        Start-Sleep -s 1
+        Start-Sleep -s 1 | Out-Host
         $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root\*" })
     }
 
@@ -272,25 +272,25 @@ try {
     # For PaaS its just the Webserver. The Apps do not have it installed.
     # $PluginPath = Join-Path $Root 'WebServer\IISPlugin\lansaweb64\lansaweb.dll'
     # if ( (test-path $PluginPath)) {
-    #     Write-Output ("$(Log-Date) Waiting 20 seconds for Plugin to stop")    
+    #     Write-Host ("$(Log-Date) Waiting 20 seconds for Plugin to stop")    
     #     Start-Sleep -s 20
     # }
 
-    Write-Output ("$(Log-Date) Saving copy of vlweb.dat to detect if an iisreset is required")
+    Write-Host ("$(Log-Date) Saving copy of vlweb.dat to detect if an iisreset is required")
     $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
     if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {
         $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
     }
-    Copy-Item -Path $VLWebDatFile -Destination $ENV:TEMP -Force
+    Copy-Item -Path $VLWebDatFile -Destination $ENV:TEMP -Force | Out-Host
 } catch {
     throw
 } finally {
-    Write-Output( "$(Log-Date) Bring the Application Server back online")
+    Write-Host( "$(Log-Date) Bring the Application Server back online")
     
     $webserver = Join-Path $Root 'run\conf\webserver.conf'
     $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
-    Remove-Item $webserver -ErrorAction SilentlyContinue
+    Remove-Item $webserver -ErrorAction SilentlyContinue | Out-Host
     if ( Test-Path $webserver_saved ) {
-        Copy-Item $webserver_saved -Destination $webserver -Force
+        Copy-Item $webserver_saved -Destination $webserver -Force | Out-Host
     } 
 }

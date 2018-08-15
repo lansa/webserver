@@ -3,7 +3,10 @@
 param (
     [Parameter(Mandatory=$true)]
         [string]
-        $GitRepoUrl
+        $GitRepoUrl,
+    [Parameter(Mandatory=$false)]
+        [string]
+        $GitRepoBranch = 'master'
 )
 
 function Log-Date 
@@ -28,7 +31,7 @@ function Execute-Process
             $ErrorText
     )
 
-    Write-Output "$(Log-Date) Executing $ExecutablePath $Arguments"
+    Write-Host "$(Log-Date) Executing $ExecutablePath $Arguments"
 
     # Use Start-Process to obtain the exit code. But then we need to redirect stdout and stderr
     $psi = New-object System.Diagnostics.ProcessStartInfo 
@@ -45,8 +48,8 @@ function Execute-Process
     $output = $p.StandardOutput.ReadToEnd()     
     $errorText = $p.StandardError.ReadToEnd() 
     $p.WaitForExit() 
-    $output    
-    $errorText
+    $output    | Out-Host
+    $errorText | Out-Host
 
 	# Fail on error
 	if ( $p.ExitCode -ne 0 ) {
@@ -61,15 +64,21 @@ function Execute-Process
 
 $VerbosePreference = "Continue"
 
-cmd /c exit 0    #Set $LASTEXITCODE
+cmd /c exit 0 | Out-Host    #Set $LASTEXITCODE
 
 try {
-    Write-Output ("$(Log-Date) Script Path = $($MyInvocation.MyCommand.Path)")
+    Write-Host ("$(Log-Date) Script Path = $($MyInvocation.MyCommand.Path)")
     $ScriptRoot = (Split-Path $MyInvocation.MyCommand.Path)
     $Root = (Split-Path (Split-Path $MyInvocation.MyCommand.Path))
-    Write-Output ("$(Log-Date) Root Path = $Root")
+    Write-Host ("$(Log-Date) Root Path = $Root")
 
-    Set-Location $ScriptRoot
+    if ( -not ([Environment]::Is64BitProcess) ) {
+        throw "Powershell is 32 bit. This script requires Powershell 64 bit"
+    } else {
+       Write-Host ("$(Log-Date) Powershell 64 bit")
+    }
+
+    Set-Location $ScriptRoot | Out-Host
     .\PreDeploy.ps1
 
     Set-Location  $Root
@@ -77,36 +86,36 @@ try {
     Execute-Process( "git") @("init") "Initialise git repo returned error code"
     Execute-Process( "git") @("remote", "add", "origin", "$GitRepoUrl") "git remote returned error code"
     Execute-Process( "git") @("fetch", "-q") "git fetch returned error code"
-    Execute-Process( "git") @("checkout", "-f", "master") "git checkout returned error code"
+    Execute-Process( "git") @("checkout", "-f", "$GitRepoBranch") "git checkout returned error code"
     
-    Set-Location $ScriptRoot
+    Set-Location $ScriptRoot | Out-Host
     .\PostDeploy.ps1
 
 } catch {
     $e = $_.Exception
     $e | format-list -force
  
-    Write-Output( "Configurationation failed" )
-    Write-Output( "Raw LASTEXITCODE $LASTEXITCODE" )
+    Write-Host( "Configurationation failed" )
+    Write-Host( "Raw LASTEXITCODE $LASTEXITCODE" )
     if ( ( -not [ string ]::IsNullOrWhiteSpace( $LASTEXITCODE ) ) -and ( $LASTEXITCODE -ne 0 ) )
     {
        $ExitCode = $LASTEXITCODE
-       Write-Output( "ExitCode set to LASTEXITCODE $ExitCode" )
+       Write-Host( "ExitCode set to LASTEXITCODE $ExitCode" )
     } else {
        $ExitCode = $e.HResult
-       Write-Output( "ExitCode set to HResult $ExitCode" )
+       Write-Host( "ExitCode set to HResult $ExitCode" )
     }
  
     if ( $ExitCode -eq $null -or $ExitCode -eq 0 )
     {
        $ExitCode = -1
-       Write-Output( "ExitCode set to $ExitCode" )
+       Write-Host( "ExitCode set to $ExitCode" )
     }
-    Write-Output( "Final ExitCode $ExitCode" )
-    cmd /c exit $ExitCode    #Set $LASTEXITCODE
-    Write-Output( "Final LASTEXITCODE $LASTEXITCODE" )
+    Write-Host( "Final ExitCode $ExitCode" )
+    cmd /c exit $ExitCode | Out-Host    #Set $LASTEXITCODE
+    Write-Host( "Final LASTEXITCODE $LASTEXITCODE" )
     return
  }
- Write-Output( "Configuration succeeded" )
- cmd /c exit 0    #Set $LASTEXITCODE
- Write-Output( "LASTEXITCODE $LASTEXITCODE" )
+ Write-Host( "Configuration succeeded" )
+ cmd /c exit 0  | Out-Host   #Set $LASTEXITCODE
+ Write-Host( "LASTEXITCODE $LASTEXITCODE" )

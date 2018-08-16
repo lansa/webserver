@@ -1,5 +1,3 @@
-#Requires -RunAsAdministrator
-
 param (
     [Parameter(Mandatory=$true)]
         [string]
@@ -9,7 +7,7 @@ param (
         $GitRepoBranch = 'master'
 )
 
-function Log-Date 
+function Log-Date
 {
     ((get-date).ToUniversalTime()).ToString("yyyy-MM-dd HH:mm:ssZ")
 }
@@ -21,9 +19,9 @@ function Execute-Process
         [Parameter(Mandatory=$true)]
             [string]
             $ExecutablePath,
-    
+
         [Parameter(Mandatory=$true)]
-            [String[]] 
+            [String[]]
             $Arguments,
 
         [Parameter(Mandatory=$true)]
@@ -34,20 +32,20 @@ function Execute-Process
     Write-Host "$(Log-Date) Executing $ExecutablePath $Arguments"
 
     # Use Start-Process to obtain the exit code. But then we need to redirect stdout and stderr
-    $psi = New-object System.Diagnostics.ProcessStartInfo 
-    $psi.CreateNoWindow = $true 
-    $psi.UseShellExecute = $false 
-    $psi.RedirectStandardOutput = $true 
-    $psi.RedirectStandardError = $true 
+    $psi = New-object System.Diagnostics.ProcessStartInfo
+    $psi.CreateNoWindow = $true
+    $psi.UseShellExecute = $false
+    $psi.RedirectStandardOutput = $true
+    $psi.RedirectStandardError = $true
     $psi.FileName = $ExecutablePath
     $psi.WorkingDirectory = (Get-Location).path
-    $psi.Arguments = $Arguments 
-    $p = New-Object System.Diagnostics.Process 
-    $p.StartInfo = $psi 
+    $psi.Arguments = $Arguments
+    $p = New-Object System.Diagnostics.Process
+    $p.StartInfo = $psi
     [void]$p.Start()
-    $output = $p.StandardOutput.ReadToEnd()     
-    $errorText = $p.StandardError.ReadToEnd() 
-    $p.WaitForExit() 
+    $output = $p.StandardOutput.ReadToEnd()
+    $errorText = $p.StandardError.ReadToEnd()
+    $p.WaitForExit()
     $output    | Out-Host
     $errorText | Out-Host
 
@@ -55,7 +53,7 @@ function Execute-Process
 	if ( $p.ExitCode -ne 0 ) {
        $ErrorMessage = "$ErrorText $($p.ExitCode)."
        Write-Error "$(Log-Date) $ErrorMessage"
-    }     
+    }
 }
 
 ###############################################################################
@@ -67,6 +65,8 @@ $VerbosePreference = "Continue"
 cmd /c exit 0 | Out-Host    #Set $LASTEXITCODE
 
 try {
+    #Requires -RunAsAdministrator
+
     Write-Host ("$(Log-Date) Script Path = $($MyInvocation.MyCommand.Path)")
     $ScriptRoot = (Split-Path $MyInvocation.MyCommand.Path)
     $Root = (Split-Path (Split-Path $MyInvocation.MyCommand.Path))
@@ -82,19 +82,19 @@ try {
     .\PreDeploy.ps1
 
     Set-Location  $Root
-    
+
     Execute-Process( "git") @("init") "Initialise git repo returned error code"
     Execute-Process( "git") @("remote", "add", "origin", "$GitRepoUrl") "git remote returned error code"
     Execute-Process( "git") @("fetch", "-q") "git fetch returned error code"
     Execute-Process( "git") @("checkout", "-f", "$GitRepoBranch") "git checkout returned error code"
-    
+
     Set-Location $ScriptRoot | Out-Host
     .\PostDeploy.ps1
 
 } catch {
     $e = $_.Exception
     $e | format-list -force
- 
+
     Write-Host( "Configurationation failed" )
     Write-Host( "Raw LASTEXITCODE $LASTEXITCODE" )
     if ( ( -not [ string ]::IsNullOrWhiteSpace( $LASTEXITCODE ) ) -and ( $LASTEXITCODE -ne 0 ) )
@@ -105,7 +105,7 @@ try {
        $ExitCode = $e.HResult
        Write-Host( "ExitCode set to HResult $ExitCode" )
     }
- 
+
     if ( $ExitCode -eq $null -or $ExitCode -eq 0 )
     {
        $ExitCode = -1

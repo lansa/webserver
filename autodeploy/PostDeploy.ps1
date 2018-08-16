@@ -29,8 +29,8 @@ if ($args.length -gt 0) {
     Write-Host("Redirection presumed to already be setup")
 }
 
-Import-Module WebAdministration | Out-Null
-Add-Type -AssemblyName System.Web | Out-Null
+Import-Module WebAdministration *> $null
+Add-Type -AssemblyName System.Web *> $null
 
 function Log-Date
 {
@@ -326,11 +326,11 @@ try {
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
     Write-Host ("$(Log-Date) Encoded Path $EncodedPath")
 
-    New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 0 -PropertyType DWORD -Force | Out-Null
+    New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 0 -PropertyType DWORD -Force *> $null
 
     $IIsReset = (Get-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'PluginFullyInstalled' -ErrorAction SilentlyContinue).PluginFullyInstalled
     if ( $IIsReset -eq 1) {
-        Write-Host ("$(Log-Date) iisreset alweays required")
+        Write-Host ("$(Log-Date) iisreset always required")
         iisreset | Write-Host
     } else {
         Write-Host ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")

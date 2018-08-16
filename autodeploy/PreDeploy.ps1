@@ -29,8 +29,8 @@ if ($args.length -gt 0) {
     Write-Host("Redirection presumed to already be setup")
 }
 
-Import-Module WebAdministration | Out-Null
-Add-Type -AssemblyName System.Web  | Out-Null
+Import-Module WebAdministration *> $null
+Add-Type -AssemblyName System.Web *> $null
 
 function Log-Date
 {
@@ -202,7 +202,7 @@ try {
     }
 
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
-    New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 1 -PropertyType DWORD -Force | Out-Null
+    New-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'Deploying' -Value 1 -PropertyType DWORD -Force *> $null
 
     Write-Host( "$(Log-Date) Take Application Server offline")
 

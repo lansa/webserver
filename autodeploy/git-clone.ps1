@@ -46,8 +46,8 @@ function Execute-Process
     $output = $p.StandardOutput.ReadToEnd()
     $errorText = $p.StandardError.ReadToEnd()
     $p.WaitForExit()
-    $output    | Out-Host
-    $errorText | Out-Host
+    $output    | Write-Host
+    $errorText | Write-Host
 
 	# Fail on error
 	if ( $p.ExitCode -ne 0 ) {
@@ -62,7 +62,7 @@ function Execute-Process
 
 $VerbosePreference = "Continue"
 
-cmd /c exit 0 | Out-Host    #Set $LASTEXITCODE
+cmd /c exit 0 | Write-Host    #Set $LASTEXITCODE
 
 try {
     #Requires -RunAsAdministrator
@@ -78,7 +78,7 @@ try {
        Write-Host ("$(Log-Date) Powershell 64 bit")
     }
 
-    Set-Location $ScriptRoot | Out-Host
+    Set-Location $ScriptRoot | Write-Host
     .\PreDeploy.ps1
 
     Set-Location  $Root
@@ -88,7 +88,7 @@ try {
     Execute-Process( "git") @("fetch", "-q") "git fetch returned error code"
     Execute-Process( "git") @("checkout", "-f", "$GitRepoBranch") "git checkout returned error code"
 
-    Set-Location $ScriptRoot | Out-Host
+    Set-Location $ScriptRoot | Write-Host
     .\PostDeploy.ps1
 
 } catch {
@@ -106,16 +106,16 @@ try {
        Write-Host( "ExitCode set to HResult $ExitCode" )
     }
 
-    if ( $ExitCode -eq $null -or $ExitCode -eq 0 )
+    if ( $null -eq $ExitCode -or $ExitCode -eq 0 )
     {
        $ExitCode = -1
        Write-Host( "ExitCode set to $ExitCode" )
     }
     Write-Host( "Final ExitCode $ExitCode" )
-    cmd /c exit $ExitCode | Out-Host    #Set $LASTEXITCODE
+    cmd /c exit $ExitCode | Write-Host    #Set $LASTEXITCODE
     Write-Host( "Final LASTEXITCODE $LASTEXITCODE" )
     return
  }
  Write-Host( "Configuration succeeded" )
- cmd /c exit 0  | Out-Host   #Set $LASTEXITCODE
+ cmd /c exit 0  | Write-Host   #Set $LASTEXITCODE
  Write-Host( "LASTEXITCODE $LASTEXITCODE" )

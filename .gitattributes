@@ -1,5 +1,5 @@
 # Refer to https://github.com/alexkaratarakis/gitattributes for the original location of these options
-#  
+# 
 
 # Force LF. text=auto stores files as CRLF in repo.
 # As all editors/compilers mostly handle LF fine, with a few exceptions with Visual Studio files

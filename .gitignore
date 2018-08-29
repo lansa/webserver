@@ -68,6 +68,7 @@
 !/x_win95/x_lansa/execute/dc_*.dll
 !/x_win95/x_lansa/execute/w3_p*.exe
 !/x_win95/x_lansa/execute/libexpatw.dll
+!/x_win95/x_lansa/execute/xvl*.dll
 # LIIIXSRV.TXT
 !/x_win95/x_lansa/execute/lcxp0010.dll
 # LIIIX32.TXT

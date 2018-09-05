@@ -136,10 +136,10 @@ function Control-Related-WebSites
                 while ( $WebSiteState.Value -ne 'Stopped') {
                     $Loop += 1
                     if ( $Loop -gt 10) {
-                        throw
+                        throw "Web site $($SiteVirtualDirectory.Site) could not be stopped"
                     }
                     Write-Host("$(Log-Date) Waiting for web site to stop")
-                    Start-Sleep -s 1 | Out-Host
+                    Start-Sleep -s 2 | Out-Host
                     $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 }
 
@@ -150,10 +150,10 @@ function Control-Related-WebSites
                 while ( $WebAppPoolState.Value -ne 'Stopped') {
                     $Loop += 1
                     if ( $Loop -gt 60) {
-                        throw
+                        throw "App Pool $($SiteVirtualDirectory.ApplicationPool) could not be stopped"
                     }
                     Write-Host("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
-                    Start-Sleep -s 1 | Out-Host
+                    Start-Sleep -s 2 | Out-Host
                     $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
                 }
             }
@@ -258,7 +258,7 @@ try {
     while ($processes.Count -gt 0 ) {
         $Loop += 1
         if ( $Loop -gt 10) {
-            throw
+            throw "Process $($Processes[0].ProcessName) could not be stopped"
         }
         Write-Host("Waiting for $($Processes[0].ProcessName)")
         # Wait 1 second

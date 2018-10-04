@@ -1,4 +1,22 @@
+<#
+.SYNOPSIS
+
+Clone a git repo presuming the directory already exists, and thus git init, git remote add, git fetch and git checkout
+need to be run in place of git clone.
+
+Check if the git repo exists, and if so delete it.
+
+The script presumes that nothing is running in the directories. Its the responsibility of the caller to call it at the right time.
+No files will have been updated by the deferred custom actions yet.
+In the MSI thats just after Windows Installer has put all the files in place. That is, its an extension of putting the files in place.
+
+.EXAMPLE
+
+#>
 param (
+    [Parameter(Mandatory=$true)]
+        [string]
+        $GitRepoPath,
     [Parameter(Mandatory=$true)]
         [string]
         $GitRepoUrl,
@@ -69,8 +87,6 @@ try {
 
     Write-Host ("$(Log-Date) Script Path = $($MyInvocation.MyCommand.Path)")
     $ScriptRoot = (Split-Path $MyInvocation.MyCommand.Path)
-    $Root = (Split-Path (Split-Path $MyInvocation.MyCommand.Path))
-    Write-Host ("$(Log-Date) Root Path = $Root")
 
     if ( -not ([Environment]::Is64BitProcess) ) {
         throw "Powershell is 32 bit. This script requires Powershell 64 bit"
@@ -78,22 +94,26 @@ try {
        Write-Host ("$(Log-Date) Powershell 64 bit")
     }
 
-    Set-Location $ScriptRoot | Write-Host
-    .\PreDeploy.ps1
+    Write-Host ("$(Log-Date) Root Path = $GitRepoPath")
+    If ( -not (Test-Path -Path $GitRepoPath)) {
+        throw "Root path $GitRepoPath does not exist"
+    }
 
-    Set-Location  $Root
+    Set-Location  $GitRepoPath
 
+    $gitdir = Join-Path -Path $GitRepoPath -ChildPath '.git'
+    If ( Test-Path -Path $gitdir) {
+        Write-Warning "$(Log-Date) $GitRepoPath is a git repository. Deleting it." | Write-Host
+        Remove-Item $gitdir -force | Write-Host
+    }
     Execute-Process( "git") @("init") "Initialise git repo returned error code"
     Execute-Process( "git") @("remote", "add", "origin", "$GitRepoUrl") "git remote returned error code"
     Execute-Process( "git") @("fetch", "-q") "git fetch returned error code"
     Execute-Process( "git") @("checkout", "-f", "$GitRepoBranch") "git checkout returned error code"
-
-    Set-Location $ScriptRoot | Write-Host
-    .\PostDeploy.ps1
-
 } catch {
+    $_ | Write-Host
     $e = $_.Exception
-    $e | format-list -force
+    $e | format-list -force | Write-Host
 
     Write-Host( "Configurationation failed" )
     Write-Host( "Raw LASTEXITCODE $LASTEXITCODE" )

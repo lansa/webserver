@@ -45,6 +45,83 @@
 !/x_win95/x_lansa/.gitignore
 
 ###############################################################################
+# Include the C++ runtime
+###############################################################################
+!/x_win95/x_lansa/execute/
+/x_win95/x_lansa/execute/*
+# LIIIX.TXT
+!/x_win95/x_lansa/execute/x_*.dll
+!/x_win95/x_lansa/execute/db*.dll
+!/x_win95/x_lansa/execute/lx*.dll
+!/x_win95/x_lansa/execute/u_bif*.dll
+!/x_win95/x_lansa/execute/w3*.dll
+!/x_win95/x_lansa/execute/zlib*.dll
+!/x_win95/x_lansa/execute/xl*.dll
+!/x_win95/x_lansa/execute/xp*.dll
+!/x_win95/x_lansa/execute/msvc*.dll
+!/x_win95/x_lansa/execute/concrt*.dll
+!/x_win95/x_lansa/execute/vcruntime*.dll
+!/x_win95/x_lansa/execute/*.bnd
+!/x_win95/x_lansa/execute/x_*.exe
+# LIIIXWEB.TXT
+!/x_win95/x_lansa/execute/dc_*.dll
+!/x_win95/x_lansa/execute/w3_p*.exe
+!/x_win95/x_lansa/execute/libexpatw.dll
+!/x_win95/x_lansa/execute/xvl*.dll
+# LIIIXSRV.TXT
+!/x_win95/x_lansa/execute/lcxp0010.dll
+# LIIIX32.TXT
+!/x_win95/x_lansa/execute/*zip32.dll
+!/x_win95/x_lansa/execute/vlwebts2.dll
+!/x_win95/x_lansa/execute/gs*
+!/x_win95/x_lansa/execute/filemon.*
+# LIIIXDB
+!/x_win95/x_lansa/execute/installr.dll
+# LIIIXADD32.TXT
+!/x_win95/x_lansa/execute/unzip*.exe
+# LIIIXCON.TXT
+!/connect/
+/connect/*
+!/connect/*.dll
+!/connect/*.exe
+
+!/connect64/
+/connect64/*
+!/connect64/*.dll
+!/connect64/*.exe
+
+###############################################################################
+# Include JSM runtime
+###############################################################################
+!/integrator/
+/integrator/*
+
+!/integrator/jsmadmin/
+/integrator/jsmadmin/*
+!/integrator/jsmadmin/*.dll
+!/integrator/jsmadmin/jsmmsgf.txt
+!/integrator/jsmadmin/versionIJS.txt
+
+!/integrator/jsmcgi/
+/integrator/jsmcgi/jsmdirect.cfg
+/integrator/jsmcgi/dc_w29.txt
+/integrator/jsmcgi/web.config
+
+!/integrator/jsminstance/
+/integrator/jsminstance/trace/*
+/integrator/jsminstance/temp/*
+/integrator/jsminstance/stderr.txt
+/integrator/jsminstance/stdout.txt
+/integrator/jsminstance/upgrade-log.txt
+/integrator/jsminstance/upgrade-pending-log.txt
+/integrator/jsminstance/upgrade-backup-*.zip
+/integrator/jsminstance/system/console-log.txt
+/integrator/jsminstance/system/license.log
+/integrator/jsminstance/www/instance/logs/*
+/integrator/jsminstance/system/manager.properties
+/integrator/jsminstance/system/systemdefault.properties
+
+###############################################################################
 # Include the javascript runtime
 ###############################################################################
 !/x_win95/x_lansa/web/

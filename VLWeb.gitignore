@@ -1,5 +1,5 @@
 ################################################################################################################
-# Visual LANSA Web Page and Server Setup
+# Visual LANSA Web Page and Server Setup 
 # This file is provided by LANSA to setup a git repository to distribute runtime artefacts into a test or 
 # demonstration system.
 # This is not for source code.
@@ -32,7 +32,7 @@
 !/autodeploy/
 
 ###############################################################################
-# Multiple lines to include the contents of the x_win95\x_lansa\x_dem directory and 
+# Multiple lines to include the contents of the x_win95\x_lansa\ directory and 
 # all sub-directories
 ###############################################################################
 # Ignore everything in the "x_win95" directory, except the "x_lansa" directory
@@ -44,6 +44,84 @@
 /x_win95/x_lansa/*
 !/x_win95/x_lansa/.gitignore
 
+
+###############################################################################
+# Include the C++ runtime
+###############################################################################
+!/x_win95/x_lansa/execute/
+/x_win95/x_lansa/execute/*
+# LIIIX.TXT
+!/x_win95/x_lansa/execute/x_*.dll
+!/x_win95/x_lansa/execute/db*.dll
+!/x_win95/x_lansa/execute/lx*.dll
+!/x_win95/x_lansa/execute/u_bif*.dll
+!/x_win95/x_lansa/execute/w3*.dll
+!/x_win95/x_lansa/execute/zlib*.dll
+!/x_win95/x_lansa/execute/xl*.dll
+!/x_win95/x_lansa/execute/xp*.dll
+!/x_win95/x_lansa/execute/msvc*.dll
+!/x_win95/x_lansa/execute/concrt*.dll
+!/x_win95/x_lansa/execute/vcruntime*.dll
+!/x_win95/x_lansa/execute/*.bnd
+!/x_win95/x_lansa/execute/x_*.exe
+# LIIIXWEB.TXT
+!/x_win95/x_lansa/execute/dc_*.dll
+!/x_win95/x_lansa/execute/w3_p*.exe
+!/x_win95/x_lansa/execute/libexpatw.dll
+!/x_win95/x_lansa/execute/xvl*.dll
+# LIIIXSRV.TXT
+!/x_win95/x_lansa/execute/lcxp0010.dll
+# LIIIX32.TXT
+!/x_win95/x_lansa/execute/*zip32.dll
+!/x_win95/x_lansa/execute/vlwebts2.dll
+!/x_win95/x_lansa/execute/gs*
+!/x_win95/x_lansa/execute/filemon.*
+# LIIIXDB
+!/x_win95/x_lansa/execute/installr.dll
+# LIIIXADD32.TXT
+!/x_win95/x_lansa/execute/unzip*.exe
+# LIIIXCON.TXT
+!/connect/
+/connect/*
+!/connect/*.dll
+!/connect/*.exe
+
+!/connect64/
+/connect64/*
+!/connect64/*.dll
+!/connect64/*.exe
+
+###############################################################################
+# Include JSM runtime
+###############################################################################
+!/integrator/
+/integrator/*
+
+!/integrator/jsmadmin/
+/integrator/jsmadmin/*
+!/integrator/jsmadmin/*.dll
+!/integrator/jsmadmin/jsmmsgf.txt
+!/integrator/jsmadmin/versionIJS.txt
+
+!/integrator/jsmcgi/
+/integrator/jsmcgi/jsmdirect.cfg
+/integrator/jsmcgi/dc_w29.txt
+/integrator/jsmcgi/web.config
+
+!/integrator/jsminstance/
+/integrator/jsminstance/trace/*
+/integrator/jsminstance/temp/*
+/integrator/jsminstance/stderr.txt
+/integrator/jsminstance/stdout.txt
+/integrator/jsminstance/upgrade-log.txt
+/integrator/jsminstance/upgrade-pending-log.txt
+/integrator/jsminstance/upgrade-backup-*.zip
+/integrator/jsminstance/system/console-log.txt
+/integrator/jsminstance/system/license.log
+/integrator/jsminstance/www/instance/logs/*
+/integrator/jsminstance/system/manager.properties
+/integrator/jsminstance/system/systemdefault.properties
+			
 ###############################################################################
 # Include the javascript runtime
 ###############################################################################
@@ -52,11 +130,11 @@
 !/x_win95/x_lansa/web/vl
 /x_win95/x_lansa/web/vl/*
 !/x_win95/x_lansa/web/vl/lansa*
+!/x_win95/x_lansa/web/vl/vlweb.dat
 
 ###############################################################################
 # Partition directory
-# Needs to be modified depending on which partition 1-click deploy
-# is used with
+
 ###############################################################################
 # Include every partition 
 !/x_win95/x_lansa/x_*/
@@ -74,7 +152,6 @@
 # See Package Directory handling below
 /x_win95/x_lansa/*/*/execute/*
 /x_win95/x_lansa/*/*/source/*
-
 
 ###############################################################################
 # Package directory
@@ -96,6 +173,25 @@
 /x_win95/x_lansa/x_apps/lxx*.*
 
 ###############################################################################
+# Include WebServer Runtime
+###############################################################################
+
+!/WebServer/
+# Ignore everything in the "webserver" directory
+/webserver/*
+
+!/WebServer/IISPlugin/
+/WebServer/IISPlugin/*
+
+!/WebServer/IISPlugin/codepage/
+!/WebServer/IISPlugin/lansaweb/
+
+!/WebServer/IISPlugin/lansaweb64/
+/WebServer/IISPlugin/lansaweb64/*
+!/WebServer/IISPlugin/lansaweb64/*.dll
+
+
+###############################################################################
 # Exclude Webserver images
 # The entire folder is included and then explicit excludes are specified in order
 # that any additions are automatically included.
@@ -105,10 +201,6 @@
 # to exclude the whole directory.
 ###############################################################################
 
-!/webserver/
-
-# Ignore everything in the "webserver" directory
-/webserver/*
 !/webserver/.gitignore
 
 # Include everything in the images directory and below
@@ -832,3 +924,4 @@ WebServer/Images/wiztridown.gif
 WebServer/Images/wiztrileft.gif
 WebServer/Images/yourlogo.gif
 WebServer/Images/libs/jquery-file-upload/9.12.3/server/php/files/.htaccess
+

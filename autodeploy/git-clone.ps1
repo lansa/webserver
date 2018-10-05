@@ -103,8 +103,8 @@ try {
 
     $gitdir = Join-Path -Path $GitRepoPath -ChildPath '.git'
     If ( Test-Path -Path $gitdir) {
-        Write-Warning "$(Log-Date) $GitRepoPath is a git repository. Deleting it." | Write-Host
-        Remove-Item $gitdir -force | Write-Host
+        Write-Warning "$(Log-Date) $gitdir is a git repository. Deleting it." | Write-Host
+        Remove-Item $gitdir -force -recurse | Write-Host
     }
     Execute-Process( "git") @("init") "Initialise git repo returned error code"
     Execute-Process( "git") @("remote", "add", "origin", "$GitRepoUrl") "git remote returned error code"

@@ -2,7 +2,7 @@
 
 #Requires -RunAsAdministrator
 
-# When this process is started as Admin (RunAs) the stdout and stderr cannot be redirected
+# When this process is started as Admin (RunAs) the stdout and stderr cannot be redirected 
 # back to the caller because they are essentially different users.
 # So, if a log file is passed in, the caller is implying that redirection is broken so
 # use the file instead, and RESTART this script using normal redirection.

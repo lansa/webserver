@@ -1045,7 +1045,7 @@ PRIM_APPL_CaptureWindow.FileName.Desc=ƒrƒbƒgƒ}ƒbƒv‰æ‘œ‚Ìƒtƒ@ƒCƒ‹–¼
 PRIM_APPL_CaptureWindow.Control.Name=CaptureWindow.Control ƒpƒ‰ƒ[ƒ^
 PRIM_APPL_CaptureWindow.Control.Desc=ƒLƒƒƒvƒ`ƒƒ‚·‚éƒRƒ“ƒgƒ[ƒ‹‰æ‘œ‚Ö‚ÌQÆ
  
-PRIM_APPL_CloseAllDialogs.Name=CloseAllDialogs method
+PRIM_APPL_CloseAllDialogs.Name=CloseAllDialogs ƒƒ\ƒbƒh
 PRIM_APPL_CloseAllDialogs.Desc=‚·‚×‚Ä‚ÌŠJ‚©‚ê‚Ä‚¢‚éƒ_ƒCƒAƒƒO‚ğ•Â‚¶‚Ü‚·
  
 PRIM_APPL_CloseAllForms.Name=CloseAllForms ƒƒ\ƒbƒh
@@ -3493,7 +3493,10 @@ PRIM_DLG.Desc=–‹•t‚«‚ÌŠÈ‘f‚Èƒ‚[ƒ_ƒ‹ ƒ_ƒCƒAƒƒO
 PRIM_DLG_AutoClose.Name=AutoClose ƒvƒƒpƒeƒB
 PRIM_DLG_AutoClose.Desc=©“®“I‚Éƒ_ƒCƒAƒƒO‚ğ•Â‚¶‚Ü‚·
  
-PRIM_DLG_ClearErrors.Name=ClearErrors method
+PRIM_DLG_AutoFocus.Name=AutoFocus ƒvƒƒpƒeƒB
+PRIM_DLG_AutoFocus.Desc=AutoFocus ƒvƒƒpƒeƒB‚Í©“®“I‚ÉŠJ‚©‚ê‚½ƒ_ƒCƒAƒƒO‚ÉƒtƒH[ƒJƒX‚ğˆÚ‚µ‚Ü‚·B
+ 
+PRIM_DLG_ClearErrors.Name=ClearErrors ƒƒ\ƒbƒh
 PRIM_DLG_ClearErrors.Desc=ƒ_ƒCƒAƒƒO“à‚ÌƒtƒB[ƒ‹ƒh‚ÌƒGƒ‰[‚ğƒNƒŠƒA‚µ‚Ü‚·
  
 PRIM_DLG_Close.Name=Close ƒƒ\ƒbƒh
@@ -3526,16 +3529,16 @@ PRIM_DLG_TabStop.Desc=ƒ^ƒu‚ğg—p‚·‚é‚Æƒ_ƒCƒAƒƒO‚ÉƒtƒH[ƒJƒX‚ªİ’è‚³‚ê‚é‚©‚Ç‚¤‚©
 PRIM_DLG_Transition.Name=Transition ƒvƒƒpƒeƒB
 PRIM_DLG_Transition.Desc=ƒ_ƒCƒAƒƒO•\¦‚Ég—p‚·‚éƒAƒjƒ[ƒVƒ‡ƒ“‚ğw’è‚µ‚Ü‚·
  
-PRIM_DLG_Validate.Name=Validate method
+PRIM_DLG_Validate.Name=Validate ƒƒ\ƒbƒh
 PRIM_DLG_Validate.Desc=ŠÈ’P‚ÈƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Æƒe[ƒuƒ‹‹K‘¥‚ğg‚Á‚ÄƒtƒB[ƒ‹ƒh‚ğŒŸØ‚µ‚Ü‚·
  
-PRIM_DLG_Validate.Valid.Name=Valid parameter
+PRIM_DLG_Validate.Valid.Name=Valid ƒpƒ‰ƒ[ƒ^
 PRIM_DLG_Validate.Valid.Desc=ƒtƒB[ƒ‹ƒh‚ª‘Ã“–«‹K‘¥‚ğ“n‚·ê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
  
-PRIM_DLG_Validate.Operation.Name=Operation parameter
+PRIM_DLG_Validate.Operation.Name=Operation ƒpƒ‰ƒ[ƒ^
 PRIM_DLG_Validate.Operation.Desc=ƒtƒB[ƒ‹ƒhŒŸØ‚Ì‘ÎÛ‚Æ‚È‚éƒIƒyƒŒ[ƒVƒ‡ƒ“ (‘}“üAXVAíœ)
  
-PRIM_DLG_Validate.Table.Name=Table parameter
+PRIM_DLG_Validate.Table.Name=Table ƒpƒ‰ƒ[ƒ^
 PRIM_DLG_Validate.Table.Desc=ŒŸØ‚Ég—p‚³‚ê‚éƒe[ƒuƒ‹
  
 PRIM_DTIM.Name=DateTime ƒsƒbƒJ[
@@ -11257,6 +11260,9 @@ PRIM_LIST.Button_Alignment.Desc=Alignment ƒvƒƒpƒeƒB‚ğw’è‚µ‚ÄƒRƒ“ƒ|[ƒlƒ“ƒg‚ğ®
 PRIM_LIST.Button_Caption.Name=Caption ƒvƒƒpƒeƒB
 PRIM_LIST.Button_Caption.Desc=Caption ‚ÍƒRƒ“ƒ|[ƒlƒ“ƒg‚É•\¦‚³‚ê‚éƒeƒLƒXƒg‚Å‚·B
  
+PRIM_LIST.Button_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.Button_CellThemeDrawStyle.Desc=ƒŠƒXƒg‚ÌƒZƒ‹‚É“K—p‚·‚éƒe[ƒ}•`‰æƒXƒ^ƒCƒ‹
+ 
 PRIM_LIST.Button_Click.Name=Click ƒCƒxƒ“ƒg
 PRIM_LIST.Button_Click.Desc=ƒ{ƒ^ƒ“‚ªƒNƒŠƒbƒN‚³‚ê‚é‚Æ‹N“®‚³‚ê‚Ü‚·B
  
@@ -11298,6 +11304,9 @@ PRIM_LIST.CheckBox.Desc=ƒŠƒXƒg“à‚ÌŠeƒAƒCƒeƒ€—p‚Ìƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚ğ•\¦‚·‚é—ñ
  
 PRIM_LIST.CheckBox_ButtonState.Name=ButtonState ƒvƒƒpƒeƒB
 PRIM_LIST.CheckBox_ButtonState.Desc=ButtonState ‚Íƒ`ƒFƒbƒN ƒ{ƒbƒNƒX‚ğ‘I‘ğ/œŠO‚·‚é‚½‚ß‚ÌƒvƒƒpƒeƒB‚Å‚·B
+ 
+PRIM_LIST.CheckBox_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.CheckBox_CellThemeDrawStyle.Desc=ƒŠƒXƒg“à‚Ìƒ`ƒFƒbƒNƒ{ƒbƒNƒX ƒZƒ‹‚É“K—p‚·‚éƒe[ƒ}•`‰æƒXƒ^ƒCƒ‹
  
 PRIM_LIST.CheckBox_Click.Name=Click ƒCƒxƒ“ƒg
 PRIM_LIST.CheckBox_Click.Desc=ƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚ªƒNƒŠƒbƒN‚³‚ê‚é‚Æ‹N“®‚³‚ê‚Ü‚·B
@@ -11523,6 +11532,9 @@ PRIM_LIST.CurrentItem_Visible.Desc=ƒŠƒXƒg ƒAƒCƒeƒ€‚Ì•\¦‚Ü‚½‚Í”ñ•\¦
  
 PRIM_LIST.DateTime.Name=PRIM_LIST.DateTime ƒNƒ‰ƒX
 PRIM_LIST.DateTime.Desc=“ú•t/ŠÔ‚ğ•\¦‚·‚é—ñ
+ 
+PRIM_LIST.DateTime_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.DateTime_CellThemeDrawStyle.Desc=ƒŠƒXƒg“à‚Ì“úƒZƒ‹‚É“K—p‚·‚éƒe[ƒ}•`‰æƒXƒ^ƒCƒ‹
  
 PRIM_LIST.DateTime_CheckBox.Name=Checkbox ƒvƒƒpƒeƒB
 PRIM_LIST.DateTime_CheckBox.Desc=Checkbox ‚ÍA“úƒsƒbƒJ[‚ğ—LŒø‚É‚·‚é‚©”Û‚©‚ğƒRƒ“ƒgƒ[ƒ‹‚µ‚Ü‚·B
@@ -11752,6 +11764,132 @@ PRIM_LIST.DropDown_Text.Desc=Text ƒvƒƒpƒeƒB‚Ì’l‚ÉƒRƒ“ƒ|[ƒlƒ“ƒg‚Ì“ü—Íˆæ‚É•\¦‚³
 PRIM_LIST.DropDown_Value.Name=Value ƒvƒƒpƒeƒB
 PRIM_LIST.DropDown_Value.Desc=Value ƒvƒƒpƒeƒB‚ÍƒRƒ“ƒ|[ƒlƒ“ƒg‚Ì“ü—Íˆæ‚Ì’l‚ğİ’è‚·‚é‚½‚ß‚Ég—p‚µ‚Ü‚·B
  
+PRIM_LIST.Icon.Name=PRIM_LIST.Icon
+PRIM_LIST.Icon.Desc=ƒŠƒXƒg“à‚ÌƒAƒCƒRƒ“‚ğ•\¦‚·‚é—ñ
+ 
+PRIM_LIST.Icon_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_CellThemeDrawStyle.Desc=ƒŠƒXƒg“à‚ÌƒAƒCƒRƒ“‚É“K—p‚·‚é•`‰æƒXƒ^ƒCƒ‹
+ 
+PRIM_LIST.Icon_ColumnCaptionType.Name=ColumnCaptionType ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_ColumnCaptionType.Desc=—ñŒ©o‚µ‚É•\¦‚·‚éƒLƒƒƒvƒVƒ‡ƒ“‚Ìƒ^ƒCƒv
+ 
+PRIM_LIST.Icon_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_CurrentItem.Desc=Œ»İ‚ÌƒŠƒXƒg ƒAƒCƒeƒ€‚ÌƒAƒCƒRƒ“‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_LIST.Icon_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_FocusItem.Desc=Œ»İ‚ÌƒŠƒXƒg ƒAƒCƒeƒ€‚ÌƒAƒCƒRƒ“‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_LIST.Icon_Icon.Name=Icon ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_Icon.Desc=ƒZƒ‹“à‚É•\¦‚·‚éƒCƒ[ƒW
+ 
+PRIM_LIST.Icon_IconAlignment.Name=IconAlignment ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconAlignment.Desc=ƒZƒ‹“à‚ÌƒAƒCƒRƒ“ˆÊ’u
+ 
+PRIM_LIST.Icon_IconColor.Name=IconColor ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconColor.Desc=ƒAƒCƒRƒ“‚Ég—p‚·‚éF
+ 
+PRIM_LIST.Icon_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
+ 
+PRIM_LIST.Icon_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconHeight.Desc=ƒAƒCƒRƒ“‚Ì‚‚³ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Icon_IconImage.Name=IconImage ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconImage.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É•\¦‚·‚éƒ}ƒeƒŠƒAƒ‹ ƒfƒUƒCƒ“‚ÌƒCƒ[ƒW
+ 
+PRIM_LIST.Icon_IconImageSizing.Name=IconImageSizing ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconImageSizing.Desc=ƒAƒCƒRƒ“ ƒCƒ[ƒW‚ÌƒTƒCƒY’²®‚Ì“®ì‚ğw’è‚µ‚Ü‚·B
+ 
+PRIM_LIST.Icon_IconMarginBottom.Name=IconMarginBottom ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconMarginBottom.Desc=‰º‚Ì—]”’ (ƒsƒNƒZƒ‹j
+ 
+PRIM_LIST.Icon_IconMarginLeft.Name=IconMarginLeft ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconMarginLeft.Desc=¶‚Ì—]”’ (ƒsƒNƒZƒ‹j
+ 
+PRIM_LIST.Icon_IconMarginRight.Name=IconMarginRight ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹j
+ 
+PRIM_LIST.Icon_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹j
+ 
+PRIM_LIST.Icon_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
+ 
+PRIM_LIST.Icon_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Icon_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚é•`‰æƒXƒ^ƒCƒ‹
+ 
+PRIM_LIST.Icon_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Icon_PaddingLeft.Name=PaddingLeft ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_PaddingLeft.Desc=¶‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Icon_PaddingRight.Name=PaddingRight ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_PaddingRight.Desc=‰E‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Icon_PaddingTop.Name=PaddingTop ƒvƒƒpƒeƒB
+PRIM_LIST.Icon_PaddingTop.Desc=ã‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem.Name=PRIM_LIST.IconCurrentItem
+PRIM_LIST.IconCurrentItem.Desc=Œ»İ‚ÌƒAƒCƒeƒ€—p‚ÌƒAƒCƒRƒ“‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_LIST.IconCurrentItem_Icon.Name=Icon ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_Icon.Desc=ƒAƒCƒeƒ€“à‚É•\¦‚·‚éƒCƒ[ƒW
+ 
+PRIM_LIST.IconCurrentItem_IconAlignment.Name=IconAlignment ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“ˆÊ’u
+ 
+PRIM_LIST.IconCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
+ 
+PRIM_LIST.IconCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
+ 
+PRIM_LIST.IconCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconHeight.Desc=ƒAƒCƒRƒ“‚Ì‚‚³ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem_IconImage.Name=IconImage ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconImage.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É•\¦‚·‚éƒ}ƒeƒŠƒAƒ‹ ƒfƒUƒCƒ“‚ÌƒCƒ[ƒW
+ 
+PRIM_LIST.IconCurrentItem_IconImageSizing.Name=IconImageSizing ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconImageSizing.Desc=ƒAƒCƒRƒ“ ƒCƒ[ƒW‚ÌƒTƒCƒY’²®‚Ì“®ì‚ğw’è‚µ‚Ü‚·B
+ 
+PRIM_LIST.IconCurrentItem_IconMarginBottom.Name=IconMarginBottom ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconMarginBottom.Desc=‰º‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem_IconMarginLeft.Name=IconMarginLeft ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconMarginLeft.Desc=¶‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem_IconMarginRight.Name=IconMarginRight ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾Š´ (ƒp[ƒZƒ“ƒg)
+ 
+PRIM_LIST.IconCurrentItem_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚é•`‰æƒXƒ^ƒCƒ‹
+ 
+PRIM_LIST.IconCurrentItem_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem_PaddingLeft.Name=PaddingLeft ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_PaddingLeft.Desc=¶‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem_PaddingRight.Name=PaddingRight ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_PaddingRight.Desc=‰E‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.IconCurrentItem_PaddingTop.Name=PaddingTop ƒvƒƒpƒeƒB
+PRIM_LIST.IconCurrentItem_PaddingTop.Desc=ã‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
 PRIM_LIST.IListCellDesign.Name=Prim_list ƒZƒ‹ ƒCƒ“ƒ^[ƒtƒF[ƒX
 PRIM_LIST.IListCellDesign.Desc=ƒZƒ‹‚Æ‚µ‚Äg—p‚³‚ê‚Ä‚¢‚éÄ—˜—p‰Â”\ƒp[ƒc‚ÆƒŠƒXƒg‚ª’ÊM‚Å‚«‚é‚æ‚¤‚É‚·‚éƒCƒ“ƒ^[ƒtƒF[ƒX
  
@@ -11839,6 +11977,9 @@ PRIM_LIST.IListCellDesign_OnUpdate.ListItem.Desc=XV‚³‚ê‚Ä‚¢‚éƒŠƒXƒg ƒAƒCƒeƒ€‚Ö
 PRIM_LIST.Image.Name=PRIM_LIST.Image ƒNƒ‰ƒX
 PRIM_LIST.Image.Desc=ƒCƒ[ƒW‚ğ•\¦‚µ‚Ä‚¢‚é—ñ
  
+PRIM_LIST.Image_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.Image_CellThemeDrawStyle.Desc=ƒŠƒXƒg‚ÌƒZƒ‹‚Ég—p‚·‚éƒe[ƒ}•`‰æƒXƒ^ƒCƒ‹
+ 
 PRIM_LIST.Image_Click.Name=Click ƒCƒxƒ“ƒg
 PRIM_LIST.Image_Click.Desc=Click ƒCƒxƒ“ƒg‚Íƒ}ƒEƒX‚ªƒNƒŠƒbƒN‚³‚ê‚½‚ÉÀs‚³‚ê‚Ü‚·B
  
@@ -11913,6 +12054,183 @@ PRIM_LIST.ImageCurrentItem_ImageUnits.Desc=ƒCƒ[ƒW‚ÌŒv‘ª‚ğ‚ğƒsƒNƒZƒ‹‚©ƒp[ƒZƒ“ƒ
  
 PRIM_LIST.ImageCurrentItem_ImageWidth.Name=ImageWidth ƒvƒƒpƒeƒB
 PRIM_LIST.ImageCurrentItem_ImageWidth.Desc=ƒCƒ[ƒW‚Ì•BImageUnits ‚ğQÆB
+ 
+PRIM_LIST.Label.Name=PRIM_LIST.Label
+PRIM_LIST.Label.Desc=—ñ‚É•\¦‚·‚éƒ}ƒeƒŠƒAƒ‹ ƒfƒUƒCƒ“‚Ìƒ‰ƒxƒ‹
+ 
+PRIM_LIST.Label_Caption.Name=Caption ƒvƒƒpƒeƒB
+PRIM_LIST.Label_Caption.Desc=ƒ‰ƒxƒ‹“à‚É•\¦‚·‚éƒeƒLƒXƒg
+ 
+PRIM_LIST.Label_CaptionAlignment.Name=CaptionAlignment ƒvƒƒpƒeƒB
+PRIM_LIST.Label_CaptionAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒLƒƒƒvƒVƒ‡ƒ“ˆÊ’u
+ 
+PRIM_LIST.Label_CaptionMarginBottom.Name=CaptionMarginBottom ƒvƒƒpƒeƒB
+PRIM_LIST.Label_CaptionMarginBottom.Desc=‰º‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_CaptionMarginLeft.Name=CaptionMarginLeft ƒvƒƒpƒeƒB
+PRIM_LIST.Label_CaptionMarginLeft.Desc=¶‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_CaptionMarginRight.Name=CaptionMarginRight ƒvƒƒpƒeƒB
+PRIM_LIST.Label_CaptionMarginRight.Desc=‰E‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_CaptionMarginTop.Name=CaptionMarginTop ƒvƒƒpƒeƒB
+PRIM_LIST.Label_CaptionMarginTop.Desc=ã‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.Label_CellThemeDrawStyle.Desc=ƒŠƒXƒg‚ÌƒZƒ‹‚É—˜—p‚·‚é•`‰æƒXƒ^ƒCƒ‹
+ 
+PRIM_LIST.Label_ColumnCaptionType.Name=ColumnCaptionType ƒvƒƒpƒeƒB
+PRIM_LIST.Label_ColumnCaptionType.Desc=—ñŒ©o‚µ‚É•\¦‚·‚éƒLƒƒƒvƒVƒ‡ƒ“‚Ìƒ^ƒCƒv
+ 
+PRIM_LIST.Label_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
+PRIM_LIST.Label_CurrentItem.Desc=ƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—RA‚Ü‚½‚Í UI ‚Åƒ^ƒbƒ`‚³‚ê‚½ƒŠƒXƒg“à‚ÌÅŒã‚ÌƒAƒCƒeƒ€
+ 
+PRIM_LIST.Label_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
+PRIM_LIST.Label_Ellipses.Desc=ƒeƒLƒXƒgØ‚èÌ‚Ä‚ÉÈ—ª‹L†‚ğ•\¦‚·‚é‚©‚Ç‚¤‚©w’è‚µ‚Ü‚·
+ 
+PRIM_LIST.Label_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
+PRIM_LIST.Label_FocusItem.Desc=ƒŠƒXƒg‚ÌƒtƒH[ƒJƒX‚³‚ê‚½ƒGƒ“ƒgƒŠ[“à‚ÌƒtƒH[ƒJƒX ƒ‰ƒxƒ‹‚Ö‚ÌQÆ
+ 
+PRIM_LIST.Label_Icon.Name=Icon ƒvƒƒpƒeƒB
+PRIM_LIST.Label_Icon.Desc=ƒ‰ƒxƒ‹‚É—˜—p‚·‚éƒAƒCƒRƒ“
+ 
+PRIM_LIST.Label_IconAlignment.Name=IconAlignment ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒLƒƒƒvƒVƒ‡ƒ“ˆÊ’u
+ 
+PRIM_LIST.Label_IconColor.Name=IconColor ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
+ 
+PRIM_LIST.Label_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
+ 
+PRIM_LIST.Label_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconHeight.Desc=ƒAƒCƒRƒ“‚Ì‚‚³ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_IconImage.Name=IconImage ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconImage.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É•\¦‚·‚éƒCƒ[ƒW
+ 
+PRIM_LIST.Label_IconImageSizing.Name=IconImageSizing ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconImageSizing.Desc=ƒAƒCƒRƒ“ ƒCƒ[ƒW‚ÌƒTƒCƒY’²®‚Ì“®ì‚ğw’è‚µ‚Ü‚·B
+ 
+PRIM_LIST.Label_IconMarginBottom.Name=IconMarginBottom ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconMarginBottom.Desc=‰º‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_IconMarginLeft.Name=IconMarginLeft ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconMarginLeft.Desc=¶‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_IconMarginRight.Name=IconMarginRight ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconMarginRight.Desc=‰E‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconMarginTop.Desc=ã‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
+
+PRIM_LIST.Label_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
+ 
+PRIM_LIST.Label_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.Label_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
+ 
+PRIM_LIST.Label_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
+PRIM_LIST.Label_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_PaddingLeft.Name=PaddingLeft ƒvƒƒpƒeƒB
+PRIM_LIST.Label_PaddingLeft.Desc=¶‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_PaddingRight.Name=PaddingRight ƒvƒƒpƒeƒB
+PRIM_LIST.Label_PaddingRight.Desc=‰E‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_PaddingTop.Name=PaddingTop ƒvƒƒpƒeƒB
+PRIM_LIST.Label_PaddingTop.Desc=ã‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_SortOnClick.Name=SortOnClick ƒvƒƒpƒeƒB
+PRIM_LIST.Label_SortOnClick.Desc=—ñŒ©o‚µ‚ªƒNƒŠƒbƒN‚³‚ê‚é‚Æ—ñ‚ğ•À‚Ñ‘Ö‚¦‚Ü‚·
+ 
+PRIM_LIST.Label_WordWrap.Name=WordWrap ƒvƒƒpƒeƒB
+PRIM_LIST.Label_WordWrap.Desc=\•ª‚ÈƒXƒy[ƒX‚ª‚È‚¢ê‡AƒeƒLƒXƒg‚ğŸ‚Ìs‚ÉÜ‚è•Ô‚µ‚Ü‚·B
+ 
+PRIM_LIST.LabelCurrentItem.Name=PRIM_LIST.LabelCurrentItem
+PRIM_LIST.LabelCurrentItem.Desc=Œ»İ‚ÌƒŠƒXƒgƒAƒCƒeƒ€—p‚Ìƒ‰ƒxƒ‹‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_LIST.LabelCurrentItem_Caption.Name=Caption ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_Caption.Desc=ƒ‰ƒxƒ‹“à‚É•\¦‚·‚éƒeƒLƒXƒg
+ 
+PRIM_LIST.LabelCurrentItem_CaptionAlignment.Name=CaptionAlignment ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_CaptionAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒLƒƒƒvƒVƒ‡ƒ“ˆÊ’u
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginBottom.Name=CaptionMarginBottom ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_CaptionMarginBottom.Desc=‰º‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginLeft.Name=CaptionMarginLeft ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_CaptionMarginLeft.Desc=¶‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginRight.Name=CaptionMarginRight ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_CaptionMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Name=CaptionMarginTop ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_Ellipses.Desc=ƒeƒLƒXƒg‚ªØ‚è‹l‚ß‚ç‚ê‚½Û‚ÉÈ—ª‹L†‚ğ•\¦‚µ‚Ü‚·B
+ 
+PRIM_LIST.LabelCurrentItem_Icon.Name=Icon ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_Icon.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É•\¦‚·‚éƒ}ƒeƒAƒŠƒAƒ‹ ƒfƒUƒCƒ“‚ÌƒCƒ[ƒW
+ 
+PRIM_LIST.LabelCurrentItem_IconAlignment.Name=IconAlignment ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“ˆÊ’u
+ 
+PRIM_LIST.LabelCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
+ 
+PRIM_LIST.LabelCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
+ 
+PRIM_LIST.LabelCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconHeight.Desc=ƒAƒCƒRƒ“‚Ì‚‚³ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_IconImage.Name=IconImage ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconImage.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É•\¦‚·‚éƒ}ƒeƒŠƒAƒ‹ ƒfƒUƒCƒ“‚ÌƒCƒ[ƒW
+ 
+PRIM_LIST.LabelCurrentItem_IconImageSizing.Name=IconImageSizing ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconImageSizing.Desc=ƒAƒCƒRƒ“ ƒCƒ[ƒW‚ÌƒTƒCƒY’²®‚Ì“®ì‚ğw’è‚µ‚Ü‚·B
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginBottom.Name=IconMarginBottom ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconMarginBottom.Desc=‰º‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginLeft.Name=IconMarginLeft ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconMarginLeft.Desc=¶‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginRight.Name=IconMarginRight ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
+ 
+PRIM_LIST.LabelCurrentItem_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚é•`‰æƒXƒ^ƒCƒ‹
+ 
+PRIM_LIST.LabelCurrentItem_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_PaddingLeft.Name=PaddingLeft ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_PaddingLeft.Desc=¶‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_PaddingRight.Name=PaddingRight ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_PaddingRight.Desc=‰E‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_PaddingTop.Name=PaddingTop ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_PaddingTop.Desc=ã‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_WordWrap.Name=WordWrap ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_WordWrap.Desc=\•ª‚ÈƒXƒy[ƒX‚ª‚È‚¢ê‡AƒeƒLƒXƒg‚ğŸ‚Ìs‚ÉÜ‚è•Ô‚µ‚Ü‚·B
  
 PRIM_LIST.ListItem.Name=ƒŠƒXƒg€–Ú
 PRIM_LIST.ListItem.Desc=ƒŠƒXƒg€–Ú
@@ -12097,6 +12415,9 @@ PRIM_LIST.Number.Desc=”’lƒf[ƒ^‚ğ•\¦‚·‚é—ñ
 PRIM_LIST.Number_AutoSelect.Name=AutoSelect ƒvƒƒpƒeƒB
 PRIM_LIST.Number_AutoSelect.Desc= AutoSelect ‚ÍƒeƒLƒXƒg‚ğ©“®“I‚É‘I‘ğ‚·‚é‚½‚ß‚ÌƒvƒƒpƒeƒB‚Å‚·B
  
+PRIM_LIST.Number_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.Number_CellThemeDrawStyle.Desc=ƒŠƒXƒgƒZƒ‹‚Ì•`‰æƒXƒ^ƒCƒ‹
+ 
 PRIM_LIST.Number_Click.Name=Click ƒCƒxƒ“ƒg
 PRIM_LIST.Number_Click.Desc=Click ƒCƒxƒ“ƒg‚Íƒ}ƒEƒX‚ªƒNƒŠƒbƒN‚³‚ê‚½‚ÉÀs‚³‚ê‚Ü‚·B
  
@@ -12223,6 +12544,9 @@ PRIM_LIST.NumberCurrentItem_Wrap.Desc=”ÍˆÍ“à‚ÌÅŒã‚Ì”š‚É‚È‚Á‚½ê‡AÅ‰‚Ì’l‚ğ
 PRIM_LIST.Part.Name=PRIM_LIST.Part ƒNƒ‰ƒX
 PRIM_LIST.Part.Desc=ƒZƒ‹“à‚ÌÄ—˜—p‰Â”\ƒp[ƒc‚ğ•\¦‚·‚é—ñ
  
+PRIM_LIST.Part_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.Part_CellThemeDrawStyle.Desc=ƒŠƒXƒg ƒZƒ‹‚Ì•`‰æƒXƒ^ƒCƒ‹
+ 
 PRIM_LIST.Part_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
 PRIM_LIST.Part_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚ÅÅŒã‚É‘I‘ğ‚³‚ê‚½ƒŠƒXƒg“à‚Ì€–Ú
  
@@ -12268,10 +12592,10 @@ PRIM_LIST_ColumnHeaderSizing.Desc=—ñŒ©o‚µ‚ÌƒTƒCƒY’²®•û–@‚ğŒˆ’è‚µ‚Ü‚·
 PRIM_LIST_ColumnLines.Name=ColumnLines ƒvƒƒpƒeƒB
 PRIM_LIST_ColumnLines.Desc=—ñ‹æØ‚èü‚Ì•\¦
  
-PRIM_LIST_ColumnMarginLeft.Name=ColumnMarginLeft property
+PRIM_LIST_ColumnMarginLeft.Name=ColumnMarginLeft ƒvƒƒpƒeƒB
 PRIM_LIST_ColumnMarginLeft.Desc=—ñ‚Ì¶—]”’ (ƒsƒNƒZƒ‹)
  
-PRIM_LIST_ColumnMarginRight.Name=ColumnMarginRight property
+PRIM_LIST_ColumnMarginRight.Name=ColumnMarginRight ƒvƒƒpƒeƒB
 PRIM_LIST_ColumnMarginRight.Desc=—ñ‚Ì‰E—]”’ (ƒsƒNƒZƒ‹)
  
 PRIM_LIST_ColumnMouseOverStyle.Name=ColumnMouseOverStyle ƒvƒƒpƒeƒB
@@ -12304,6 +12628,9 @@ PRIM_LIST_ColumnThemeDrawStyle.Desc=—ñŒ©o‚µ‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
 PRIM_LIST_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
 PRIM_LIST_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚ÅÅŒã‚É‘I‘ğ‚³‚ê‚½ƒŠƒXƒg“à‚Ì€–Ú
  
+PRIM_LIST_CurrentPage.Name=CurrentPage ƒvƒƒpƒeƒB
+PRIM_LIST_CurrentPage.Desc=•\¦‚·‚éŒ»İ‚Ìƒy[ƒW‚ğw’è‚µ‚Ü‚·
+ 
 PRIM_LIST_Enter.Name=Enter ƒCƒxƒ“ƒg
 PRIM_LIST_Enter.Desc=ƒRƒ“ƒgƒ[ƒ‹‚Å Enter ƒL[‚ª‰Ÿ‰º‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·B
  
@@ -12327,6 +12654,15 @@ PRIM_LIST_Enter.Handled.Desc=TRUE ‚ğİ’è‚µ‚ÄAƒL[‚ª©“®“I‚Éˆ—‚³‚ê‚È‚¢‚æ‚¤‚É‚µ
  
 PRIM_LIST_EnterKeyStyle.Name=EnterKeyStyle ƒvƒƒpƒeƒB
 PRIM_LIST_EnterKeyStyle.Desc=ƒŠƒXƒg“à‚Å Enter ƒL[‰Ÿ‰º‚É‚Ç‚¤‚·‚é‚©‚ğŒˆ’è‚µ‚Ü‚·B
+ 
+PRIM_LIST_Export.Name=Export ƒƒ\ƒbƒh
+PRIM_LIST_Export.Desc=ƒŠƒXƒgƒf[ƒ^‚ğƒeƒLƒXƒg ƒtƒ@ƒCƒ‹‚ÉƒGƒNƒXƒ|[ƒg‚µ‚Ü‚·
+ 
+PRIM_LIST_Export.FileName.Name=FileName ƒpƒ‰ƒ[ƒ^
+PRIM_LIST_Export.FileName.Desc=ƒGƒNƒXƒ|[ƒg‚·‚éƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚Ìƒtƒ@ƒCƒ‹–¼‚ğw’è‚µ‚Ü‚·
+ 
+PRIM_LIST_Filter.Name=Filter ƒvƒƒpƒeƒB
+PRIM_LIST_Filter.Desc=ƒŠƒXƒg‚ğƒtƒBƒ‹ƒ^[‚·‚é‚½‚ß‚ÉŒŸõ‚·‚é•¶š—ñ
  
 PRIM_LIST_FindItem.Name=FindItem ƒƒ\ƒbƒh
 PRIM_LIST_FindItem.Desc=‚·‚×‚Ä‚ÌƒŠƒXƒg ƒAƒCƒeƒ€‚ÌƒfƒUƒCƒ“ ƒCƒ“ƒ^[ƒtƒF[ƒX‚Å OnFind ƒƒ\ƒbƒh‚ğÀs‚µ‚Ü‚·B
@@ -12496,6 +12832,9 @@ PRIM_LIST_RowResize.Desc=s‚ÌƒTƒCƒY’²®‚ğ‹–‰Â‚µ‚Ü‚·B
 PRIM_LIST_RowSizing.Name=RowSizing ƒvƒƒpƒeƒB
 PRIM_LIST_RowSizing.Desc=s‚ÌƒTƒCƒY’²®•û–@‚ğŒˆ’è‚µ‚Ü‚·B
  
+PRIM_LIST_RowsPerPage.Name=RowsPerPage ƒvƒƒpƒeƒB
+PRIM_LIST_RowsPerPage.Desc=ƒy[ƒW‚²‚Æ‚É•\¦‚·‚és”‚ğw’è‚µ‚Ü‚·
+ 
 PRIM_LIST_ScrollChanged.Name=ScrollChanged ƒCƒxƒ“ƒg
 PRIM_LIST_ScrollChanged.Desc=•¡‡ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒXƒNƒ[ƒ‹ƒo[‚ªˆÚ“®‚³‚ê‚é‚Æ‹N“®‚³‚ê‚Ü‚·B
  
@@ -12507,6 +12846,9 @@ PRIM_LIST_SelectedRowCount.Desc=SelectedRowCount ‚ÍA‚¢‚­‚Â‚Ìs‚ª‘I‘ğ‚³‚ê‚Ä‚¢‚é‚
  
 PRIM_LIST_SelectionStyle.Name=SelectionStyle ƒvƒƒpƒeƒB
 PRIM_LIST_SelectionStyle.Desc=ƒŠƒXƒg‚ª’Pˆê‘I‘ğ‚©•¡”‘I‘ğ‚Ì‚¢‚¸‚ê‚ğƒTƒ|[ƒg‚·‚é‚©w’è‚µ‚Ü‚·B
+ 
+PRIM_LIST_ShowPages.Name=ShowPages ƒvƒƒpƒeƒB
+PRIM_LIST_ShowPages.Desc=ƒy[ƒWƒ“ƒO ƒ{ƒ^ƒ“‚Ì•\¦‚Ü‚½‚Í”ñ•\¦
  
 PRIM_LIST_TreeButtons.Name=TreeButtons ƒvƒƒpƒeƒB
 PRIM_LIST_TreeButtons.Desc=“WŠJ/Ü‚è‚½‚½‚İó‘Ô‚ÌƒCƒ[ƒW‚ğ•\¦‚Ü‚½‚Í”ñ•\¦
@@ -12526,7 +12868,7 @@ PRIM_LIST_VerticalScrollTo.Item.Desc=ˆÊ’u•t‚¯‚éƒŠƒXƒg“à‚Ì€–Ú
 PRIM_LIST_VerticalScrollTo.ScrollPosition.Name=ScrollPosition ƒpƒ‰ƒ[ƒ^
 PRIM_LIST_VerticalScrollTo.ScrollPosition.Desc=ƒrƒ…[ƒ|[ƒg“à‚ÌƒRƒ“ƒgƒ[ƒ‹ˆÊ’u
  
-PRIM_LIST_Virtualization.Name=Virtualization property
+PRIM_LIST_Virtualization.Name=Virtualization ƒvƒƒpƒeƒB
 PRIM_LIST_Virtualization.Desc=ƒŠƒXƒg‚ª‰¼‘z‰»‚³‚ê‚é‚©‚Ç‚¤‚©w’è‚µ‚Ü‚·
  
 PRIM_LIST.String.Name=PRIM_LIST.String ƒNƒ‰ƒX
@@ -12540,6 +12882,9 @@ PRIM_LIST.String_AutoCompleting.Value.Desc=ƒCƒxƒ“ƒg ƒnƒ“ƒhƒ‰[‚Å•ÏX‚Å‚«‚éƒtƒB[
  
 PRIM_LIST.String_AutoSelect.Name=AutoSelect ƒvƒƒpƒeƒB
 PRIM_LIST.String_AutoSelect.Desc=ƒeƒLƒXƒg‚ğ©“®“I‚É‘I‘ğ‚·‚é‚½‚ß‚ÌƒvƒƒpƒeƒB‚Å‚·B
+ 
+PRIM_LIST.String_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_LIST.String_CellThemeDrawStyle.Desc=ƒŠƒXƒgƒZƒ‹‚Ì•`‰æƒXƒ^ƒCƒ‹
  
 PRIM_LIST.String_CharacterCase.Name=CharacterCase ƒvƒƒpƒeƒB
 PRIM_LIST.String_CharacterCase.Desc=•¶š‚ğ‘å•¶š‚©¬•¶š‚©—¼•û‚ğ“ü—Í‰Â”\‚Éİ’è‚·‚é‚½‚ß‚ÌƒvƒƒpƒeƒB‚Å‚·B
@@ -13540,6 +13885,9 @@ PRIM_MD.ActionButton_Click.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒCƒxƒ“ƒg‚ªe‚ÌƒRƒ“ƒgƒ
 PRIM_MD.ActionButton_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
 PRIM_MD.ActionButton_Ellipses.Desc=Ø‚è‹l‚ß‚ç‚ê‚½ƒeƒLƒXƒg‚ÉÈ—ª‹L†‚ğ•\¦
  
+PRIM_MD.ActionButton_GotFocus.Name=GotFocus ƒCƒxƒ“ƒg
+PRIM_MD.ActionButton_GotFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğó‚¯æ‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
 PRIM_MD.ActionButton_Icon.Name=Icon ƒvƒƒpƒeƒB
 PRIM_MD.ActionButton_Icon.Desc=ƒ{ƒ^ƒ““à‚É•\¦‚·‚éƒCƒ[ƒW
  
@@ -13549,7 +13897,7 @@ PRIM_MD.ActionButton_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
 PRIM_MD.ActionButton_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.ActionButton_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ActionButton_IconFileName.Name=IconFileName property
+PRIM_MD.ActionButton_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ActionButton_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.ActionButton_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -13576,8 +13924,14 @@ PRIM_MD.ActionButton_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
 PRIM_MD.ActionButton_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.ActionButton_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
-PRIM_MD.ActionButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_MD.ActionButton_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.ActionButton_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ActionButton_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.ActionButton_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
+ 
+PRIM_MD.ActionButton_LostFocus.Name=LostFocus ƒCƒxƒ“ƒg
+PRIM_MD.ActionButton_LostFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğ¸‚¤‚Æ‹N“®‚µ‚Ü‚·
  
 PRIM_MD.ActionButton_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
 PRIM_MD.ActionButton_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
@@ -13627,7 +13981,7 @@ PRIM_MD.Alert_CloseIconClick.Origin.Desc=ƒCƒxƒ“ƒg‚ªÅ‰‚É‹N“®‚³‚ê‚½ƒRƒ“ƒgƒ[ƒ‹‚
 PRIM_MD.Alert_CloseIconClick.Handled.Name=Handled ƒpƒ‰ƒ[ƒ^
 PRIM_MD.Alert_CloseIconClick.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒCƒxƒ“ƒg‚ªe‚ÌƒRƒ“ƒgƒ[ƒ‹‚É“`’B‚³‚ê‚È‚¢‚æ‚¤‚É‚µ‚Ü‚·B
  
-PRIM_MD.Alert_Duration.Name=Duration property
+PRIM_MD.Alert_Duration.Name=Duration ƒvƒƒpƒeƒB
 PRIM_MD.Alert_Duration.Desc=Œx‚ª•\¦‚³‚ê‚éŠÔ (ƒ~ƒŠ•b)
  
 PRIM_MD.Alert_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
@@ -13645,7 +13999,7 @@ PRIM_MD.Alert_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
 PRIM_MD.Alert_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.Alert_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.Alert_IconFileName.Name=IconFileName property
+PRIM_MD.Alert_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.Alert_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.Alert_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -13671,6 +14025,9 @@ PRIM_MD.Alert_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
 PRIM_MD.Alert_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.Alert_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
+ 
+PRIM_MD.Alert_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.Alert_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
  
 PRIM_MD.Alert_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.Alert_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
@@ -13735,7 +14092,7 @@ PRIM_MD.AppBar_IconClick.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒCƒxƒ“ƒg‚ªe‚ÌƒRƒ“ƒgƒ[ƒ
 PRIM_MD.AppBar_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.AppBar_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.AppBar_IconFileName.Name=IconFileName property
+PRIM_MD.AppBar_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.AppBar_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.AppBar_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -13765,19 +14122,25 @@ PRIM_MD.AppBar_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
 PRIM_MD.AppBar_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.AppBar_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
+PRIM_MD.AppBar_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.AppBar_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.AppBar_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_MD.AppBar_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚é•`‰æƒXƒ^ƒCƒ‹
+ 
 PRIM_MD.AppDrawer.Name=ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ ƒhƒƒ[
 PRIM_MD.AppDrawer.Desc=ƒiƒrƒQ[ƒVƒ‡ƒ“‚ÌƒIƒvƒVƒ‡ƒ“‚ğ•\¦‚·‚éƒ|ƒbƒvƒAƒbƒv ƒTƒCƒhƒo[
  
-PRIM_MD.AppDrawer_CloseDrawer.Name=CloseDrawer method
+PRIM_MD.AppDrawer_CloseDrawer.Name=CloseDrawer ƒƒ\ƒbƒh
 PRIM_MD.AppDrawer_CloseDrawer.Desc=ƒAƒvƒŠ ƒhƒƒ[‚ğ•Â‚¶‚Ü‚·
  
 PRIM_MD.AppDrawer_DrawerStyle.Name=DrawerStyle ƒvƒƒpƒeƒB
 PRIM_MD.AppDrawer_DrawerStyle.Desc=ƒhƒƒ[‚Ì•\¦•û–@‚ğw’è‚µ‚Ü‚·
  
-PRIM_MD.AppDrawer_IsShowing.Name=IsShowing property
+PRIM_MD.AppDrawer_IsShowing.Name=IsShowing ƒvƒƒpƒeƒB
 PRIM_MD.AppDrawer_IsShowing.Desc=ƒAƒvƒŠ ƒhƒƒ[‚ª•\¦‚³‚ê‚Ä‚¢‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
  
-PRIM_MD.AppDrawer_ShowDrawer.Name=ShowDrawer method
+PRIM_MD.AppDrawer_ShowDrawer.Name=ShowDrawer ƒƒ\ƒbƒh
 PRIM_MD.AppDrawer_ShowDrawer.Desc=ƒAƒvƒŠ ƒhƒƒ[‚ğ•\¦‚³‚¹‚Ü‚·
  
 PRIM_MD.AppDrawer_ToggleDrawer.Name=ToggleDrawer ƒƒ\ƒbƒh
@@ -13837,6 +14200,9 @@ PRIM_MD.CheckBox_CheckState.Desc=ƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚ªƒ`ƒFƒbƒN‚³‚ê‚Ä‚¢‚é‚©‚Ç‚¤‚©‚ğ
 PRIM_MD.CheckBox_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
 PRIM_MD.CheckBox_Ellipses.Desc=Ø‚è‹l‚ß‚ç‚ê‚½ƒeƒLƒXƒg‚ÉÈ—ª‹L†‚ğ•\¦
  
+PRIM_MD.CheckBox_GotFocus.Name=GotFocus ƒCƒxƒ“ƒg
+PRIM_MD.CheckBox_GotFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğó‚¯æ‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
 PRIM_MD.CheckBox_IconAlignment.Name=IconAlignment ƒvƒƒpƒeƒB
 PRIM_MD.CheckBox_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
  
@@ -13857,6 +14223,9 @@ PRIM_MD.CheckBox_IconMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
 PRIM_MD.CheckBox_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
 PRIM_MD.CheckBox_IconMarginTop.Desc=‰º‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.CheckBox_LostFocus.Name=LostFocus ƒCƒxƒ“ƒg
+PRIM_MD.CheckBox_LostFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğ¸‚¤‚Æ‹N“®‚µ‚Ü‚·
  
 PRIM_MD.CheckBox_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
 PRIM_MD.CheckBox_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
@@ -13900,13 +14269,13 @@ PRIM_MD.DateTime_MaxDate.Desc=ƒJƒŒƒ“ƒ_[‚É•\¦‚·‚éÅŒã‚Ì“ú•t
 PRIM_MD.DateTime_MinDate.Name=MinDate ƒvƒƒpƒeƒB
 PRIM_MD.DateTime_MinDate.Desc=ƒJƒŒƒ“ƒ_[‚É•\¦‚·‚éÅ‰‚Ì“ú•t
  
-PRIM_MD.DateTime_Prompting.Name=Prompting event
+PRIM_MD.DateTime_Prompting.Name=Prompting ƒCƒxƒ“ƒg
 PRIM_MD.DateTime_Prompting.Desc=ƒvƒƒ“ƒvƒg ƒAƒCƒRƒ“‚ª‰Ÿ‰º‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
  
-PRIM_MD.DateTime_Prompting.Origin.Name=Origin parameter
+PRIM_MD.DateTime_Prompting.Origin.Name=Origin ƒpƒ‰ƒ[ƒ^
 PRIM_MD.DateTime_Prompting.Origin.Desc=ƒCƒxƒ“ƒg‚ªÅ‰‚É‹N“®‚³‚ê‚½ƒRƒ“ƒgƒ[ƒ‹‚Ö‚ÌQÆ
  
-PRIM_MD.DateTime_Prompting.Handled.Name=Handled parameter
+PRIM_MD.DateTime_Prompting.Handled.Name=Handled ƒpƒ‰ƒ[ƒ^
 PRIM_MD.DateTime_Prompting.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒL[‚ª©“®“I‚Éˆ—‚³‚ê‚È‚¢‚æ‚¤‚É‚µ‚Ü‚·B
  
 PRIM_MD.DateTime_PromptOnly.Name=PromptOnly ƒvƒƒpƒeƒB
@@ -13933,16 +14302,16 @@ PRIM_MD.DateTimeField.Desc=“ú•t‚ÆŠÔ‚Ì“ü—Í‚â•\¦‚Ég—p‚·‚é“ü—ÍƒtƒB[ƒ‹ƒh
 PRIM_MD.DateTimeField_CaptionType.Name=CaptionType ƒvƒƒpƒeƒB
 PRIM_MD.DateTimeField_CaptionType.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚Ìƒ^ƒCƒv‚ğŒˆ’è‚µ‚Ü‚·
  
-PRIM_MD.DateTimeField_Validate.Name=Validate method
+PRIM_MD.DateTimeField_Validate.Name=Validate ƒƒ\ƒbƒh
 PRIM_MD.DateTimeField_Validate.Desc=ŠÈ’P‚ÈƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Æƒe[ƒuƒ‹‹K‘¥‚ğg‚Á‚ÄƒtƒB[ƒ‹ƒh‚ğŒŸØ‚µ‚Ü‚·
  
-PRIM_MD.DateTimeField_Validate.Valid.Name=Valid parameter
+PRIM_MD.DateTimeField_Validate.Valid.Name=Valid ƒpƒ‰ƒ[ƒ^
 PRIM_MD.DateTimeField_Validate.Valid.Desc=ƒtƒB[ƒ‹ƒh‚ª‘Ã“–«‹K‘¥‚ğ“n‚·ê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
  
-PRIM_MD.DateTimeField_Validate.Operation.Name=Operation parameter
+PRIM_MD.DateTimeField_Validate.Operation.Name=Operation ƒpƒ‰ƒ[ƒ^
 PRIM_MD.DateTimeField_Validate.Operation.Desc=ƒtƒB[ƒ‹ƒhŒŸØ‚Ì‘ÎÛ‚Æ‚È‚éƒIƒyƒŒ[ƒVƒ‡ƒ“ (‘}“üAXVAíœ)
  
-PRIM_MD.DateTimeField_Validate.Table.Name=Table parameter
+PRIM_MD.DateTimeField_Validate.Table.Name=Table ƒpƒ‰ƒ[ƒ^
 PRIM_MD.DateTimeField_Validate.Table.Desc=ŒŸØ‚Ég—p‚³‚ê‚éƒe[ƒuƒ‹
  
 PRIM_MD.DateTimePicker.Name=“ú•tƒsƒbƒJ[
@@ -14032,6 +14401,9 @@ PRIM_MD.Dropdown_AutoSuggest.Desc=’l‚ª•ÏX‚³‚ê‚½‚É’Z‚¢ŠÔ‚ğ‚¨‚¢‚Ä‹N“®‚µ‚Ü‚·
 PRIM_MD.Dropdown_Changed.Name=Changed ƒCƒxƒ“ƒg
 PRIM_MD.Dropdown_Changed.Desc=’l‚ª•ÏX‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
  
+PRIM_MD.Dropdown_ClearButton.Name=ClearButton ƒvƒƒpƒeƒB
+PRIM_MD.Dropdown_ClearButton.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ÉƒNƒŠƒA ƒ{ƒ^ƒ“‚ğ•\¦‚·‚é‚©‚Ç‚¤‚©‚ğw’è‚µ‚Ü‚·
+ 
 PRIM_MD.Dropdown_CloseDropDown.Name=CloseDropDown ƒƒ\ƒbƒh
 PRIM_MD.Dropdown_CloseDropDown.Desc=ƒhƒƒbƒvƒ_ƒEƒ“‚ÌƒŠƒXƒg•”•ª‚ğ‹­§“I‚É•Â‚¶‚Ü‚·B
  
@@ -14110,13 +14482,13 @@ PRIM_MD.Dropdown_OpenDropDown.Desc=ƒhƒƒbƒvƒ_ƒEƒ“‚ÌƒŠƒXƒg•”•ª‚ğ‹­§“I‚É•\¦‚µ‚Ü‚
 PRIM_MD.Dropdown_PasswordChar.Name=PasswordChar ƒvƒƒpƒeƒB
 PRIM_MD.Dropdown_PasswordChar.Desc=ƒf[ƒ^“ü—Í’†‚Ìƒ}ƒXƒN‚Ég—p‚·‚é•¶š
  
-PRIM_MD.Dropdown_Prompting.Name=Prompting event
+PRIM_MD.Dropdown_Prompting.Name=Prompting ƒCƒxƒ“ƒg
 PRIM_MD.Dropdown_Prompting.Desc=ƒvƒƒ“ƒvƒg ƒAƒCƒRƒ“‚ª‰Ÿ‰º‚³‚ê‚é‚Æ‹N“®‚³‚ê‚Ü‚·
  
-PRIM_MD.Dropdown_Prompting.Origin.Name=Origin parameter
+PRIM_MD.Dropdown_Prompting.Origin.Name=Origin ƒpƒ‰ƒ[ƒ^
 PRIM_MD.Dropdown_Prompting.Origin.Desc=ƒCƒxƒ“ƒg‚ªÅ‰‚É‹N“®‚³‚ê‚½ƒRƒ“ƒgƒ[ƒ‹‚Ö‚ÌQÆ
  
-PRIM_MD.Dropdown_Prompting.Handled.Name=Handled parameter
+PRIM_MD.Dropdown_Prompting.Handled.Name=Handled ƒpƒ‰ƒ[ƒ^
 PRIM_MD.Dropdown_Prompting.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒL[‚ª©“®“I‚Éˆ—‚³‚ê‚È‚¢‚æ‚¤‚É‚µ‚Ü‚·B
  
 PRIM_MD.Dropdown_PromptOnly.Name=PromptOnly ƒvƒƒpƒeƒB
@@ -14152,19 +14524,19 @@ PRIM_MD.Dropdown_Value.Desc=ƒhƒƒbƒvƒ_ƒEƒ“‚Ì’l
 PRIM_MD.DropdownField.Name=PRIM_MD.DropdownField
 PRIM_MD.DropdownField.Desc=•ÒWƒtƒB[ƒ‹ƒh—p‚Ìƒ}ƒeƒŠƒAƒ‹ƒfƒUƒCƒ“ ƒhƒƒbƒvƒ_ƒEƒ“‚ÌƒrƒWƒ…ƒAƒ‰ƒCƒ[[ƒVƒ‡ƒ“
  
-PRIM_MD.DropdownField_CaptionType.Name=CaptionType property
+PRIM_MD.DropdownField_CaptionType.Name=CaptionType ƒvƒƒpƒeƒB
 PRIM_MD.DropdownField_CaptionType.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚Ìƒ^ƒCƒv‚ğŒˆ’è‚µ‚Ü‚·B
  
-PRIM_MD.DropdownField_Validate.Name=Validate method
+PRIM_MD.DropdownField_Validate.Name=Validate ƒƒ\ƒbƒh
 PRIM_MD.DropdownField_Validate.Desc=ŠÈ’P‚ÈƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Æƒe[ƒuƒ‹‹K‘¥‚ğg‚Á‚ÄƒtƒB[ƒ‹ƒh‚ğŒŸØ‚µ‚Ü‚·
  
-PRIM_MD.DropdownField_Validate.Valid.Name=Valid parameter
+PRIM_MD.DropdownField_Validate.Valid.Name=Valid ƒpƒ‰ƒ[ƒ^
 PRIM_MD.DropdownField_Validate.Valid.Desc=ƒtƒB[ƒ‹ƒh‚ª‘Ã“–«‹K‘¥‚ğ“n‚·ê‡ATRUE ‚ğ•Ô‚µ‚Ü‚·B
  
-PRIM_MD.DropdownField_Validate.Operation.Name=Operation parameter
+PRIM_MD.DropdownField_Validate.Operation.Name=Operation ƒpƒ‰ƒ[ƒ^
 PRIM_MD.DropdownField_Validate.Operation.Desc==ƒtƒB[ƒ‹ƒhŒŸØ‚Ì‘ÎÛ‚Æ‚È‚éƒIƒyƒŒ[ƒVƒ‡ƒ“ (‘}“üAXVAíœ)
  
-PRIM_MD.DropdownField_Validate.Table.Name=Table parameter
+PRIM_MD.DropdownField_Validate.Table.Name=Table ƒpƒ‰ƒ[ƒ^
 PRIM_MD.DropdownField_Validate.Table.Desc=ŒŸØ‚Ég—p‚³‚ê‚éƒe[ƒuƒ‹
  
 PRIM_MD.DropdownItem.Name=ƒhƒƒbƒvƒ_ƒEƒ“ ƒAƒCƒeƒ€
@@ -14203,7 +14575,7 @@ PRIM_MD.DropdownItem_IconAlignment.Desc=ƒAƒCƒeƒ€“à‚ÌƒAƒCƒRƒ“”z’u
 PRIM_MD.DropdownItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.DropdownItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.DropdownItem_IconFileName.Name=IconFileName property
+PRIM_MD.DropdownItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.DropdownItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘OB
  
 PRIM_MD.DropdownItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -14248,7 +14620,7 @@ PRIM_MD.DropdownItems.Desc=ƒhƒƒbƒvƒ_ƒEƒ““àƒAƒCƒeƒ€‚ÌƒRƒŒƒNƒVƒ‡ƒ“
 PRIM_MD.DropdownItems_Add.Name=Add ƒƒ\ƒbƒh
 PRIM_MD.DropdownItems_Add.Desc=ƒAƒCƒeƒ€‚ğƒhƒƒbƒvƒ_ƒEƒ“‚É’Ç‰Á‚µ‚Ü‚·
  
-PRIM_MD.DropdownItems_Add.Result.Name=Result parameter
+PRIM_MD.DropdownItems_Add.Result.Name=Result ƒpƒ‰ƒ[ƒ^
 PRIM_MD.DropdownItems_Add.Result.Desc=V‹KƒAƒCƒeƒ€ ƒCƒ“ƒXƒ^ƒ“ƒX‚Ö‚ÌQÆ
  
 PRIM_MD.DropdownItems_Add.Value.Name=Value ƒpƒ‰ƒ[ƒ^
@@ -14295,6 +14667,9 @@ PRIM_MD.Edit_AutoSuggest.Desc=’l‚ª•ÏX‚³‚ê‚½‚É’Z‚¢ŠÔ‚ğ‚¨‚¢‚Ä‹N“®‚µ‚Ü‚·
  
 PRIM_MD.Edit_Changed.Name=Changed ƒCƒxƒ“ƒg
 PRIM_MD.Edit_Changed.Desc=’l‚ª•ÏX‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
+PRIM_MD.Edit_ClearButton.Name=ClearButton ƒvƒƒpƒeƒB
+PRIM_MD.Edit_ClearButton.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ÉƒNƒŠƒA ƒ{ƒ^ƒ“‚ğ•\¦‚·‚é‚©‚Ç‚¤‚©‚ğw’è‚µ‚Ü‚·
  
 PRIM_MD.Edit_DisplayAlignment.Name=DisplayAlignment ƒvƒƒpƒeƒB
 PRIM_MD.Edit_DisplayAlignment.Desc=ƒtƒH[ƒJƒX‚ª‚È‚¢‚ÌƒeƒLƒXƒg‚Ì”z’u‚ğİ’è‚µ‚Ü‚·
@@ -14368,11 +14743,14 @@ PRIM_MD.Edit_PromptIcon.Desc=“ü—Í“à‚É•\¦‚·‚éƒCƒ[ƒW
 PRIM_MD.Edit_PromptIconColor.Name=PromptIconColor ƒvƒƒpƒeƒB
 PRIM_MD.Edit_PromptIconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.Edit_PromptIconFileName.Name=PromptIconFileName property
+PRIM_MD.Edit_PromptIconFileName.Name=PromptIconFileName ƒvƒƒpƒeƒB
 PRIM_MD.Edit_PromptIconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.Edit_PromptIconHeight.Name=PromptIconHeight ƒvƒƒpƒeƒB
 PRIM_MD.Edit_PromptIconHeight.Desc=ƒAƒCƒRƒ“‚Ì‚‚³ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.Edit_PromptIconHint.Name=PromptIconHint ƒvƒƒpƒeƒB
+PRIM_MD.Edit_PromptIconHint.Desc=ƒvƒƒ“ƒvƒ^[‚É•\¦‚·‚éƒeƒLƒXƒg
  
 PRIM_MD.Edit_PromptIconImage.Name=PromptIconImage ƒvƒƒpƒeƒB
 PRIM_MD.Edit_PromptIconImage.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É•\¦‚·‚éƒ}ƒeƒŠƒAƒ‹ ƒfƒUƒCƒ“‚ÌƒCƒ[ƒW
@@ -14383,13 +14761,13 @@ PRIM_MD.Edit_PromptIconImageSizing.Desc=PromptIconImage ‚ÌƒTƒCƒY’²®‚Ì“®ì‚ğw’è
 PRIM_MD.Edit_PromptIconOpacity.Name=PromptIconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.Edit_PromptIconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
-PRIM_MD.Edit_Prompting.Name=Prompting event
+PRIM_MD.Edit_Prompting.Name=Prompting ƒCƒxƒ“ƒg
 PRIM_MD.Edit_Prompting.Desc=ƒvƒƒ“ƒvƒg ƒAƒCƒRƒ“‚ª‰Ÿ‰º‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
  
-PRIM_MD.Edit_Prompting.Origin.Name=Origin parameter
+PRIM_MD.Edit_Prompting.Origin.Name=Origin ƒpƒ‰ƒ[ƒ^
 PRIM_MD.Edit_Prompting.Origin.Desc=ƒCƒxƒ“ƒg‚ªÅ‰‚É‹N“®‚³‚ê‚½ƒRƒ“ƒgƒ[ƒ‹‚Ö‚ÌQÆ
  
-PRIM_MD.Edit_Prompting.Handled.Name=Handled parameter
+PRIM_MD.Edit_Prompting.Handled.Name=Handled ƒpƒ‰ƒ[ƒ^
 PRIM_MD.Edit_Prompting.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒL[‚ª©“®“I‚Éˆ—‚³‚ê‚È‚¢‚æ‚¤‚É‚µ‚Ü‚·B
  
 PRIM_MD.Edit_PromptOnly.Name=PromptOnly ƒvƒƒpƒeƒB
@@ -14425,17 +14803,104 @@ PRIM_MD.EditField.Desc=ƒeƒLƒXƒg‚Ì“ü—Í‚¨‚æ‚Ñ•\¦‚Ég—p‚·‚é“ü—ÍƒtƒB[ƒ‹ƒh
 PRIM_MD.EditField_CaptionType.Name=CaptionType ƒvƒƒpƒeƒB
 PRIM_MD.EditField_CaptionType.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚Ìƒ^ƒCƒv‚ğŒˆ’è‚µ‚Ü‚·
  
-PRIM_MD.EditField_Validate.Name=Validate method
+PRIM_MD.EditField_Validate.Name=Validate ƒƒ\ƒbƒh
 PRIM_MD.EditField_Validate.Desc=ŠÈ’P‚ÈƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Æƒe[ƒuƒ‹‹K‘¥‚ğg‚Á‚ÄƒtƒB[ƒ‹ƒh‚ğŒŸØ‚µ‚Ü‚·
  
-PRIM_MD.EditField_Validate.Valid.Name=Valid parameter
+PRIM_MD.EditField_Validate.Valid.Name=Valid ƒpƒ‰ƒ[ƒ^
 PRIM_MD.EditField_Validate.Valid.Desc=ƒtƒB[ƒ‹ƒh‚ª‘Ã“–«‹K‘¥‚ğ“n‚·ê‡ATRUE ‚ğ•Ô‚µ‚Ü‚·B
  
-PRIM_MD.EditField_Validate.Operation.Name=Operation parameter
+PRIM_MD.EditField_Validate.Operation.Name=Operation ƒpƒ‰ƒ[ƒ^
 PRIM_MD.EditField_Validate.Operation.Desc=ƒtƒB[ƒ‹ƒhŒŸØ‚Ì‘ÎÛ‚Æ‚È‚éƒIƒyƒŒ[ƒVƒ‡ƒ“ (‘}“üAXVAíœ)
  
-PRIM_MD.EditField_Validate.Table.Name=Table parameter
+PRIM_MD.EditField_Validate.Table.Name=Table ƒpƒ‰ƒ[ƒ^
 PRIM_MD.EditField_Validate.Table.Desc=ŒŸØ‚Ég—p‚³‚ê‚éƒe[ƒuƒ‹
+ 
+PRIM_MD.Expander.Name=PRIM_MD.Expander
+PRIM_MD.Expander.Desc=PRIM_MD.ExpanderPanel —pƒRƒ“ƒeƒi
+ 
+PRIM_MD.Expander_ViewStyle.Name=ViewStyle ƒvƒƒpƒeƒB
+PRIM_MD.Expander_ViewStyle.Desc=ƒGƒLƒXƒpƒ“ƒ_[ ƒpƒlƒ‹‚Ì“WŠJAÜ‚è‚½‚½‚İ‚Ì•û–@‚ğw’è‚µ‚Ü‚·
+ 
+PRIM_MD.ExpanderPanel.Name=PRIM_MD.ExpanderPanel
+PRIM_MD.ExpanderPanel.Desc=“WŠJAÜ‚è‚½‚½‚İ‚Å‚«‚éƒpƒlƒ‹
+ 
+PRIM_MD.ExpanderPanel_Caption.Name=Caption ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_Caption.Desc=ƒGƒLƒXƒpƒ“ƒ_[ ƒpƒlƒ‹‚É•\¦‚·‚éƒeƒLƒXƒg
+ 
+PRIM_MD.ExpanderPanel_CaptionAlignment.Name=CaptionAlignment ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_CaptionAlignment.Desc=ƒGƒLƒXƒpƒ“ƒ_[ ƒpƒlƒ‹‚ÌƒLƒƒƒvƒVƒ‡ƒ“ˆÊ’u
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginBottom.Name=CaptionMarginBottom ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_CaptionMarginBottom.Desc=‰º‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginLeft.Name=CaptionMarginLeft ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_CaptionMarginLeft.Desc=¶‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginRight.Name=CaptionMarginRight ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_CaptionMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginTop.Name=CaptionMarginTop ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_CaptionMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ExpanderPanel_Collapsing.Name=Collapsing ƒCƒxƒ“ƒg
+PRIM_MD.ExpanderPanel_Collapsing.Desc=ƒpƒlƒ‹‚ªÜ‚èô‚Ü‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
+PRIM_MD.ExpanderPanel_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_Ellipses.Desc=ƒeƒLƒXƒg‚ªØ‚è‹l‚ß‚ç‚ê‚é‚ÆÈ—ª‹L†‚ğ•\¦‚µ‚Ü‚·
+ 
+PRIM_MD.ExpanderPanel_Expanded.Name=Expanded ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_Expanded.Desc=ƒpƒlƒ‹‚ª“WŠJ‚³‚ê‚é‚Æ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_MD.ExpanderPanel_Expanding.Name=Expanding ƒCƒxƒ“ƒg
+PRIM_MD.ExpanderPanel_Expanding.Desc=ƒpƒlƒ‹‚ª“WŠJ‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
+PRIM_MD.ExpanderPanel_Icon.Name=Icon ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_Icon.Desc=ƒpƒlƒ‹‚É•\¦‚·‚éƒAƒCƒRƒ“
+ 
+PRIM_MD.ExpanderPanel_IconAlignment.Name=IconAlignment ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconAlignment.Desc=ƒpƒlƒ‹ã‚ÌƒAƒCƒRƒ“”z’u
+ 
+PRIM_MD.ExpanderPanel_IconColor.Name=IconColor ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconColor.Desc=ƒAƒCƒRƒ“‚ÌF
+ 
+PRIM_MD.ExpanderPanel_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconFileName.Desc=g—p‚·‚éƒAƒCƒRƒ“ ƒtƒ@ƒCƒ‹‚Ö‚ÌƒpƒX
+ 
+PRIM_MD.ExpanderPanel_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconHeight.Desc=g—p‚·‚éƒAƒCƒRƒ“‚Ì‚‚³
+ 
+PRIM_MD.ExpanderPanel_IconImage.Name=IconImage ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconImage.Desc=ƒAƒCƒRƒ“‚Ég—p‚·‚éƒCƒ[ƒW
+ 
+PRIM_MD.ExpanderPanel_IconImageSizing.Name=IconImageSizing ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconImageSizing.Desc=ƒAƒCƒRƒ“‚ÌƒTƒCƒY’²®
+ 
+PRIM_MD.ExpanderPanel_IconMarginBottom.Name=IconMarginBottom ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconMarginBottom.Desc=‰º‚©‚ç‚ÌƒAƒCƒRƒ“‚Ìƒ}[ƒWƒ“
+ 
+PRIM_MD.ExpanderPanel_IconMarginLeft.Name=IconMarginLeft ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconMarginLeft.Desc=¶‚©‚ç‚ÌƒAƒCƒRƒ“‚Ìƒ}[ƒWƒ“
+ 
+PRIM_MD.ExpanderPanel_IconMarginRight.Name=IconMarginRight ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconMarginRight.Desc=‰E‚©‚ç‚ÌƒAƒCƒRƒ“‚Ìƒ}[ƒWƒ“
+ 
+PRIM_MD.ExpanderPanel_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconMarginTop.Desc=ã‚©‚ç‚ÌƒAƒCƒRƒ“‚Ìƒ}[ƒWƒ“
+ 
+PRIM_MD.ExpanderPanel_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x‚ğw’è‚µ‚Ü‚·
+ 
+PRIM_MD.ExpanderPanel_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO‚ğƒsƒNƒZƒ‹‚Åw’è‚µ‚Ü‚·
+ 
+PRIM_MD.ExpanderPanel_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚Ì•`‰æƒXƒ^ƒCƒ‹
+ 
+PRIM_MD.ExpanderPanel_LayoutManager.Name=LayoutManager ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_LayoutManager.Desc=ƒGƒLƒXƒpƒ“ƒ_[ ƒpƒlƒ‹‚ÌƒŒƒCƒAƒEƒg ƒ}ƒl[ƒWƒƒ
+ 
+PRIM_MD.ExpanderPanel_WordWrap.Name=WordWrap ƒvƒƒpƒeƒB
+PRIM_MD.ExpanderPanel_WordWrap.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌÜ•Ô‚µ‚ğ‚·‚é‚©‚Ç‚¤‚©w’è‚µ‚Ü‚·
  
 PRIM_MD.FlatButton.Name=ƒtƒ‰ƒbƒg ƒ{ƒ^ƒ“
 PRIM_MD.FlatButton.Desc=ŠÈ’P‚Èƒtƒ‰ƒbƒg ƒRƒ“ƒgƒ[ƒ‹‚Æ‚µ‚Ä•\¦‚³‚ê‚éƒ{ƒ^ƒ“
@@ -14476,6 +14941,9 @@ PRIM_MD.FlatButton_Click.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒCƒxƒ“ƒg‚ªe‚ÌƒRƒ“ƒgƒ[ƒ
 PRIM_MD.FlatButton_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
 PRIM_MD.FlatButton_Ellipses.Desc=Ø‚è‹l‚ß‚ç‚ê‚½ƒeƒLƒXƒg‚ÉÈ—ª‹L†‚ğ•\¦
  
+PRIM_MD.FlatButton_GotFocus.Name=GotFocus ƒCƒxƒ“ƒg
+PRIM_MD.FlatButton_GotFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğó‚¯æ‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
 PRIM_MD.FlatButton_Icon.Name=Icon ƒvƒƒpƒeƒB
 PRIM_MD.FlatButton_Icon.Desc=ƒ{ƒ^ƒ““à‚É•\¦‚·‚éƒCƒ[ƒW
  
@@ -14485,7 +14953,7 @@ PRIM_MD.FlatButton_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
 PRIM_MD.FlatButton_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.FlatButton_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.FlatButton_IconFileName.Name=IconFileName property
+PRIM_MD.FlatButton_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.FlatButton_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘OB
  
 PRIM_MD.FlatButton_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -14512,8 +14980,14 @@ PRIM_MD.FlatButton_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
 PRIM_MD.FlatButton_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.FlatButton_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
+PRIM_MD.FlatButton_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.FlatButton_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
 PRIM_MD.FlatButton_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.FlatButton_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
+ 
+PRIM_MD.FlatButton_LostFocus.Name=LostFocus ƒCƒxƒ“ƒg
+PRIM_MD.FlatButton_LostFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğ¸‚¤‚Æ‹N“®‚µ‚Ü‚·
  
 PRIM_MD.FlatButton_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
 PRIM_MD.FlatButton_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
@@ -14548,7 +15022,7 @@ PRIM_MD.Icon_Icon.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚É•\¦‚·‚éƒCƒ[ƒW
 PRIM_MD.Icon_IconAlignment.Name=IconAlignment ƒvƒƒpƒeƒB
 PRIM_MD.Icon_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
  
-PRIM_MD.Icon_IconFileName.Name=IconFileName property
+PRIM_MD.Icon_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.Icon_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘OB
  
 PRIM_MD.Icon_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -14578,6 +15052,9 @@ PRIM_MD.Icon_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
 PRIM_MD.Icon_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.Icon_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
+PRIM_MD.Icon_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.Icon_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
 PRIM_MD.Icon_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.Icon_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
  
@@ -14602,14 +15079,20 @@ PRIM_MD.Input_Appearance.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ÌŒ`®
 PRIM_MD.Input_Caption.Name=Caption ƒvƒƒpƒeƒB
 PRIM_MD.Input_Caption.Desc=ƒLƒƒƒvƒVƒ‡ƒ“ ƒvƒƒpƒeƒB
  
+PRIM_MD.Input_CaptionColor.Name=CaptionColor ƒvƒƒpƒeƒB
+PRIM_MD.Input_CaptionColor.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌF
+ 
 PRIM_MD.Input_CaptionPosition.Name=CaptionPosition ƒvƒƒpƒeƒB
 PRIM_MD.Input_CaptionPosition.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·
  
 PRIM_MD.Input_ClearError.Name=ClearError ƒƒ\ƒbƒh
-PRIM_MD.Input_ClearError.Desc=ƒGƒ‰[‚ğƒNƒŠƒAe
+PRIM_MD.Input_ClearError.Desc=ƒGƒ‰[‚ÌƒNƒŠƒA
  
 PRIM_MD.Input_HasError.Name=HasError ƒvƒƒpƒeƒB
 PRIM_MD.Input_HasError.Desc=ƒtƒB[ƒ‹ƒh‚ÌƒGƒ‰[ó‘Ô‚Ìƒtƒ‰ƒO‚ª—§‚Á‚Ä‚¢‚é‚©
+ 
+PRIM_MD.Input_HelperColor.Name=HelperColor ƒvƒƒpƒeƒB
+PRIM_MD.Input_HelperColor.Desc=ƒwƒ‹ƒp[ ƒeƒLƒXƒg‚ÌF
  
 PRIM_MD.Input_HelperPosition.Name=HelperPosition ƒvƒƒpƒeƒB
 PRIM_MD.Input_HelperPosition.Desc=ƒwƒ‹ƒp[ ƒeƒLƒXƒg‚ª•\¦‚³‚ê‚éˆÊ’u
@@ -14632,7 +15115,7 @@ PRIM_MD.Input_IconClick.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒCƒxƒ“ƒg‚ªe‚ÌƒRƒ“ƒgƒ[ƒ‹
 PRIM_MD.Input_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.Input_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.Input_IconFileName.Name=IconFileName property
+PRIM_MD.Input_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.Input_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.Input_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -14701,7 +15184,7 @@ PRIM_MD.Label_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
 PRIM_MD.Label_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.Label_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.Label_IconFileName.Name=IconFileName property
+PRIM_MD.Label_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.Label_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.Label_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -14727,6 +15210,9 @@ PRIM_MD.Label_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
 PRIM_MD.Label_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.Label_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
+ 
+PRIM_MD.Label_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.Label_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
  
 PRIM_MD.Label_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.Label_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
@@ -14755,8 +15241,14 @@ PRIM_MD.List_Changed.Desc=ƒŠƒXƒg‚ª•ÏX‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
 PRIM_MD.List_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
 PRIM_MD.List_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚ÅÅŒã‚É‘I‘ğ‚³‚ê‚½ƒŠƒXƒg“à‚Ì€–Ú
  
+PRIM_MD.List_CurrentPage.Name=CurrentPage ƒvƒƒpƒeƒB
+PRIM_MD.List_CurrentPage.Desc=ƒŠƒXƒg‚É‚æ‚è•\¦‚·‚éŒ»İ‚Ìƒy[ƒW‚ğw’è‚µ‚Ü‚·
+ 
 PRIM_MD.List_DeleteAll.Name=DeleteAll ƒƒ\ƒbƒh
 PRIM_MD.List_DeleteAll.Desc=ƒŠƒXƒg“à‚ÌƒAƒCƒeƒ€‚ğ‚·‚×‚Äíœ‚µ‚Ü‚·
+ 
+PRIM_MD.List_Filter.Name=Filter ƒvƒƒpƒeƒB
+PRIM_MD.List_Filter.Desc=ƒŠƒXƒg‚ğƒtƒBƒ‹ƒ^[‚·‚é‚½‚ß‚ÉŒŸõ‚·‚é•¶š—ñ
  
 PRIM_MD.List_FindReference.Name=FindReference ƒƒ\ƒbƒh
 PRIM_MD.List_FindReference.Desc=RelatedReference ‚Æ‚µ‚ÄŠi”[‚³‚ê‚½ƒIƒuƒWƒFƒNƒg‚ğŒŸõ‚µ‚Ü‚·B
@@ -14824,16 +15316,16 @@ PRIM_MD.List_ItemLostSelection.Desc=•Ê‚ÌƒAƒCƒeƒ€‚ª‘I‘ğ‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
 PRIM_MD.List_ItemLostSelection.Item.Name=Item ƒpƒ‰ƒ[ƒ^
 PRIM_MD.List_ItemLostSelection.Item.Desc=ƒAƒCƒeƒ€‚Ö‚ÌQÆ
  
-PRIM_MD.List_ItemMarginBottom.Name=ItemMarginBottom property
+PRIM_MD.List_ItemMarginBottom.Name=ItemMarginBottom ƒvƒƒpƒeƒB
 PRIM_MD.List_ItemMarginBottom.Desc=ƒAƒCƒeƒ€‚Ì‰º—]”’ (ƒsƒNƒZƒ‹)
  
-PRIM_MD.List_ItemMarginLeft.Name=ItemMarginLeft property
+PRIM_MD.List_ItemMarginLeft.Name=ItemMarginLeft ƒvƒƒpƒeƒB
 PRIM_MD.List_ItemMarginLeft.Desc=ƒAƒCƒeƒ€‚Ì¶—]”’ (ƒsƒNƒZƒ‹)
  
-PRIM_MD.List_ItemMarginRight.Name=ItemMarginRight property
+PRIM_MD.List_ItemMarginRight.Name=ItemMarginRight ƒvƒƒpƒeƒB
 PRIM_MD.List_ItemMarginRight.Desc=ƒAƒCƒeƒ€‚Ì‰E—]”’ (ƒsƒNƒZƒ‹)
  
-PRIM_MD.List_ItemMarginTop.Name=ItemMarginTop property
+PRIM_MD.List_ItemMarginTop.Name=ItemMarginTop ƒvƒƒpƒeƒB
 PRIM_MD.List_ItemMarginTop.Desc=ƒAƒCƒeƒ€‚Ìã—]”’ (ƒsƒNƒZƒ‹)
  
 PRIM_MD.List_ItemMouseEnter.Name=ItemMouseEnter ƒCƒxƒ“ƒg
@@ -14854,19 +15346,19 @@ PRIM_MD.List_ItemMouseLeave.Desc=ƒ}ƒEƒX‚ªƒAƒCƒeƒ€‚Ì‹«ŠE‚ğo‚Ü‚µ‚½B
 PRIM_MD.List_ItemMouseLeave.Item.Name=Item ƒpƒ‰ƒ[ƒ^
 PRIM_MD.List_ItemMouseLeave.Item.Desc=ƒAƒCƒeƒ€‚Ö‚ÌQÆ
  
-PRIM_MD.List_ItemRealizing.Name=ItemRealizing event
+PRIM_MD.List_ItemRealizing.Name=ItemRealizing ƒCƒxƒ“ƒg
 PRIM_MD.List_ItemRealizing.Desc=ƒAƒCƒeƒ€‚ÌƒfƒUƒCƒ“ ƒCƒ“ƒXƒ^ƒ“ƒX‚ªÀ{‚³‚ê‚éA’Êí‚Íƒrƒ…[ƒ|[ƒg‚É“ü‚Á‚½‚É‹N“®‚µ‚Ü‚·B
  
-PRIM_MD.List_ItemRealizing.Item.Name=Item parameter
+PRIM_MD.List_ItemRealizing.Item.Name=Item ƒpƒ‰ƒ[ƒ^
 PRIM_MD.List_ItemRealizing.Item.Desc=ƒAƒCƒeƒ€‚Ö‚ÌQÆ
  
 PRIM_MD.List_Items.Name=Items ƒvƒƒpƒeƒB
 PRIM_MD.List_Items.Desc=‚·‚×‚Ä‚ÌƒAƒCƒeƒ€‚ÌƒRƒŒƒNƒVƒ‡ƒ“
  
-PRIM_MD.List_ItemsPerRow.Name=ItemsPerRow property
+PRIM_MD.List_ItemsPerRow.Name=ItemsPerRow ƒvƒƒpƒeƒB
 PRIM_MD.List_ItemsPerRow.Desc=1 s‚É•\¦‚·‚éƒAƒCƒeƒ€”
  
-PRIM_MD.List_ItemThemeDrawStyle.Name=ItemThemeDrawStyle property
+PRIM_MD.List_ItemThemeDrawStyle.Name=ItemThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.List_ItemThemeDrawStyle.Desc=ƒAƒCƒeƒ€‚É“K—p‚·‚éƒe[ƒ}•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.List_LayoutManager.Name=LayoutManager ƒvƒƒpƒeƒB
@@ -14878,16 +15370,22 @@ PRIM_MD.List_LostFocus.Desc=ƒAƒCƒeƒ€‚ªƒtƒH[ƒJƒX‚ğ¸‚¤‚É‹N“®‚µ‚Ü‚·
 PRIM_MD.List_RowHeight.Name=RowHeight ƒvƒƒpƒeƒB
 PRIM_MD.List_RowHeight.Desc=s‚Ì‚‚³ (ƒsƒNƒZƒ‹)
  
+PRIM_MD.List_RowsPerPage.Name=RowsPerPage ƒvƒƒpƒeƒB
+PRIM_MD.List_RowsPerPage.Desc=ƒy[ƒW‚É•\¦‚·‚és‚Ì—Ê
+ 
 PRIM_MD.List_ScrollChanged.Name=ScrollChanged ƒCƒxƒ“ƒg
 PRIM_MD.List_ScrollChanged.Desc=•¡‡ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒXƒNƒ[ƒ‹ƒo[‚ªˆÚ“®‚³‚ê‚é‚Æ‹N“®‚³‚ê‚Ü‚·B
  
 PRIM_MD.List_ScrollChanged.Orientation.Name=Orientation ƒpƒ‰ƒ[ƒ^
 PRIM_MD.List_ScrollChanged.Orientation.Desc=ƒXƒNƒ[ƒ‹‚Ì•ûŒü‚Ì•Ï‰»‚ğw’è‚µ‚Ü‚·
  
+PRIM_MD.List_ShowPages.Name=ShowPages ƒvƒƒpƒeƒB
+PRIM_MD.List_ShowPages.Desc=ƒŠƒXƒg‚ğƒy[ƒW‚É•\¦‚·‚é‚©‚Ç‚¤‚©‚ğw’è‚µ‚Ü‚·
+ 
 PRIM_MD.List_VerticalScrollPos.Name=VerticalScrollPos ƒvƒƒpƒeƒB
 PRIM_MD.List_VerticalScrollPos.Desc=…•½•ûŒü‚ÌƒXƒNƒ[ƒ‹ƒo[‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·B
  
-PRIM_MD.List_VerticalScrollRemainder.Name=VerticalScrollRemainder property
+PRIM_MD.List_VerticalScrollRemainder.Name=VerticalScrollRemainder ƒvƒƒpƒeƒB
 PRIM_MD.List_VerticalScrollRemainder.Desc=Œ»İ‚ÌƒXƒNƒ[ƒ‹ˆÊ’u‚©‚ç‰º‚Ü‚Å‚Ìc‚è‚ğƒsƒNƒZƒ‹’PˆÊ‚Åw’è‚µ‚Ü‚·
  
 PRIM_MD.ListBadge.Name=ƒŠƒXƒg ƒoƒbƒW ƒRƒ“ƒgƒ[ƒ‹
@@ -14898,6 +15396,9 @@ PRIM_MD.ListBadge_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚ÅÅŒã
  
 PRIM_MD.ListBadge_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListBadge_FocusItem.Desc=ƒŠƒXƒg‚ÌƒtƒH[ƒJƒX‚³‚ê‚Ä‚¢‚éƒGƒ“ƒgƒŠ[“à‚ÌƒoƒbƒW‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListBadge_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListBadge_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
  
 PRIM_MD.ListBadgeCurrentItem.Name=ƒŠƒXƒg ƒoƒbƒW‚ÌŒ»İ‚ÌƒAƒCƒeƒ€
 PRIM_MD.ListBadgeCurrentItem.Desc=Œ»İ‚ÌƒŠƒXƒg ƒAƒCƒeƒ€‚ÌƒoƒbƒW‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
@@ -14929,7 +15430,7 @@ PRIM_MD.ListBadgeCurrentItem_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
 PRIM_MD.ListBadgeCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListBadgeCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListBadgeCurrentItem_IconFileName.Name=IconFileName property
+PRIM_MD.ListBadgeCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListBadgeCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.ListBadgeCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -14956,6 +15457,9 @@ PRIM_MD.ListBadgeCurrentItem_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
 PRIM_MD.ListBadgeCurrentItem_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.ListBadgeCurrentItem_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
+PRIM_MD.ListBadgeCurrentItem_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.ListBadgeCurrentItem_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
 PRIM_MD.ListBadgeCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.ListBadgeCurrentItem_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
  
@@ -14979,6 +15483,9 @@ PRIM_MD.ListCheckBox_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚Å
  
 PRIM_MD.ListCheckBox_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListCheckBox_FocusItem.Desc=ƒŠƒXƒg‚ÌƒtƒH[ƒJƒX‚³‚ê‚½ƒGƒ“ƒgƒŠ[“à‚Ìƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListCheckBox_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListCheckBox_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
  
 PRIM_MD.ListCheckBox_Source.Name=Source ƒvƒƒpƒeƒB
 PRIM_MD.ListCheckBox_Source.Desc=‚±‚ÌƒRƒ“ƒgƒ[ƒ‹—p‚Ìƒf[ƒ^‚ğ’è‹`A•ÛŠÇ‚·‚é‚½‚ß‚Ég—p‚·‚éƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Ì–¼‘O
@@ -15097,6 +15604,9 @@ PRIM_MD.ListDateTime_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚Å
 PRIM_MD.ListDateTime_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListDateTime_FocusItem.Desc=ƒŠƒXƒg‚ÌƒtƒH[ƒJƒX‚³‚ê‚½ƒGƒ“ƒgƒŠ[“à‚Ì“úƒtƒB[ƒ‹ƒh‚Ö‚ÌQÆ
  
+PRIM_MD.ListDateTime_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListDateTime_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
+ 
 PRIM_MD.ListDateTime_Source.Name=Source ƒvƒƒpƒeƒB
 PRIM_MD.ListDateTime_Source.Desc=‚±‚ÌƒRƒ“ƒgƒ[ƒ‹—p‚Ìƒf[ƒ^‚ğ’è‹`A•ÛŠÇ‚·‚é‚½‚ß‚Ég—p‚·‚éƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Ì–¼‘O
  
@@ -15127,7 +15637,7 @@ PRIM_MD.ListDateTimeCurrentItem_Icon.Desc=ƒAƒCƒeƒ€“à‚É•\¦‚·‚éƒCƒ[ƒW
 PRIM_MD.ListDateTimeCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListDateTimeCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListDateTimeCurrentItem_IconFileName.Name=IconFileName property
+PRIM_MD.ListDateTimeCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListDateTimeCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.ListDateTimeCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -15184,6 +15694,9 @@ PRIM_MD.ListEdit_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚ÅÅŒã‚
 PRIM_MD.ListEdit_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListEdit_FocusItem.Desc=ƒŠƒXƒg“à‚ÌƒtƒH[ƒJƒX‚³‚ê‚½ƒGƒ“ƒgƒŠ[‚Ö‚ÌQÆ
  
+PRIM_MD.ListEdit_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListEdit_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚éƒŠƒXƒg‚Ö‚ÌQÆ
+ 
 PRIM_MD.ListEdit_Source.Name=Source ƒvƒƒpƒeƒB
 PRIM_MD.ListEdit_Source.Desc=‚±‚ÌƒRƒ“ƒgƒ[ƒ‹—p‚Ìƒf[ƒ^‚ğ’è‹`A•ÛŠÇ‚·‚é‚½‚ß‚Ég—p‚·‚éƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Ì–¼‘O
  
@@ -15220,7 +15733,7 @@ PRIM_MD.ListEditCurrentItem_Icon.Desc=ƒAƒCƒeƒ€“à‚É•\¦‚·‚éƒCƒ[ƒW
 PRIM_MD.ListEditCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListEditCurrentItem_IconFileName.Name=IconFileName property
+PRIM_MD.ListEditCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.ListEditCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -15256,11 +15769,14 @@ PRIM_MD.ListEditCurrentItem_PromptIcon.Desc=“ü—Í“à‚É•\¦‚·‚éƒCƒ[ƒW
 PRIM_MD.ListEditCurrentItem_PromptIconColor.Name=PromptIconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_PromptIconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListEditCurrentItem_PromptIconFileName.Name=PromptIconFileName property
+PRIM_MD.ListEditCurrentItem_PromptIconFileName.Name=PromptIconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_PromptIconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.ListEditCurrentItem_PromptIconHeight.Name=PromptIconHeight ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_PromptIconHeight.Desc=ƒAƒCƒRƒ“‚Ì‚‚³ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ListEditCurrentItem_PromptIconHint.Name=PromptIconHint ƒvƒƒpƒeƒB
+PRIM_MD.ListEditCurrentItem_PromptIconHint.Desc=•\¦‚·‚éƒqƒ“ƒg
  
 PRIM_MD.ListEditCurrentItem_PromptIconImage.Name=PromptIconImage ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_PromptIconImage.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É•\¦‚·‚éƒ}ƒeƒŠƒAƒ‹ ƒfƒUƒCƒ“‚ÌƒCƒ[ƒW
@@ -15298,6 +15814,9 @@ PRIM_MD.ListFlatButton_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚
 PRIM_MD.ListFlatButton_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListFlatButton_FocusItem.Desc=ƒŠƒXƒg‚ÌƒtƒH[ƒJƒX‚³‚ê‚½ƒGƒ“ƒgƒŠ[“à‚Ìƒtƒ‰ƒbƒgƒ{ƒ^ƒ“‚Ö‚ÌQÆ
  
+PRIM_MD.ListFlatButton_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListFlatButton_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
+ 
 PRIM_MD.ListFlatButton_Source.Name=Source ƒvƒƒpƒeƒB
 PRIM_MD.ListFlatButton_Source.Desc=‚±‚ÌƒRƒ“ƒgƒ[ƒ‹—p‚Ìƒf[ƒ^‚ğ’è‹`A•ÛŠÇ‚·‚é‚½‚ß‚Ég—p‚·‚éƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Ì–¼‘O
  
@@ -15334,7 +15853,7 @@ PRIM_MD.ListFlatButtonCurrentItem_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’
 PRIM_MD.ListFlatButtonCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListFlatButtonCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListFlatButtonCurrentItem_IconFileName.Name=IconFileName property
+PRIM_MD.ListFlatButtonCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListFlatButtonCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.ListFlatButtonCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -15361,6 +15880,9 @@ PRIM_MD.ListFlatButtonCurrentItem_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
 PRIM_MD.ListFlatButtonCurrentItem_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.ListFlatButtonCurrentItem_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
+PRIM_MD.ListFlatButtonCurrentItem_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.ListFlatButtonCurrentItem_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
 PRIM_MD.ListFlatButtonCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.ListFlatButtonCurrentItem_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
  
@@ -15382,74 +15904,137 @@ PRIM_MD.ListFlatButtonCurrentItem_WordWrap.Desc=\•ª‚ÈƒXƒy[ƒX‚ª‚È‚¢ê‡AƒeƒLƒX
 PRIM_MD.ListIcon.Name=PRIM_MD.ListIcon
 PRIM_MD.ListIcon.Desc=ƒŠƒXƒg ƒAƒCƒRƒ“‚ÌƒAƒCƒeƒ€
  
-PRIM_MD.ListIcon_CurrentItem.Name=CurrentItem property
+PRIM_MD.ListIcon_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
 PRIM_MD.ListIcon_CurrentItem.Desc=ƒŠƒXƒg ƒAƒCƒRƒ“‚ÌŒ»İ‚ÌƒAƒCƒeƒ€
  
-PRIM_MD.ListIcon_FocusItem.Name=FocusItem property
+PRIM_MD.ListIcon_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListIcon_FocusItem.Desc=ƒŠƒXƒg ƒAƒCƒRƒ“‚ÌƒtƒH[ƒJƒX‚Ì‚ ‚éƒAƒCƒeƒ€
  
-PRIM_MD.ListIcon_SortDirection.Name=SortDirection property
+PRIM_MD.ListIcon_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListIcon_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListIcon_SortDirection.Name=SortDirection ƒvƒƒpƒeƒB
 PRIM_MD.ListIcon_SortDirection.Desc=ƒŠƒXƒg‚Ìƒ\[ƒg•û–@‚ğ§Œä‚µ‚Ü‚·
  
-PRIM_MD.ListIcon_SortPosition.Name=SortPosition property
+PRIM_MD.ListIcon_SortPosition.Name=SortPosition ƒvƒƒpƒeƒB
 PRIM_MD.ListIcon_SortPosition.Desc=‚±‚ÌƒŠƒXƒg ƒAƒCƒeƒ€‚ªƒ\[ƒg‡‚Ì‚Ç‚ÌˆÊ’u‚É‚È‚é‚©‚ğŒˆ’è‚µ‚Ü‚·
  
-PRIM_MD.ListIcon_Source.Name=Source property
+PRIM_MD.ListIcon_Source.Name=Source ƒvƒƒpƒeƒB
 PRIM_MD.ListIcon_Source.Desc=‚±‚ÌƒŠƒXƒg ƒAƒCƒeƒ€‚Ìƒf[ƒ^‚ğ’è‹`‚µAŠi”[‚·‚é‚½‚ß‚Ég—p‚·‚éƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Ì–¼‘O
  
 PRIM_MD.ListIconCurrentItem.Name=PRIM_MD.ListIconCurrentItem
 PRIM_MD.ListIconCurrentItem.Desc=ƒŠƒXƒg ƒAƒCƒRƒ“‚ÌŒ»İ‚ÌƒAƒCƒeƒ€
  
-PRIM_MD.ListIconCurrentItem_Icon.Name=Icon property
+PRIM_MD.ListIconCurrentItem_Icon.Name=Icon ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_Icon.Desc=‚±‚ÌƒAƒCƒeƒ€“à‚É•\¦‚³‚ê‚éƒCƒ[ƒW
  
-PRIM_MD.ListIconCurrentItem_IconAlignment.Name=IconAlignment property
+PRIM_MD.ListIconCurrentItem_IconAlignment.Name=IconAlignment ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“ˆÊ’u
  
-PRIM_MD.ListIconCurrentItem_IconColor.Name=IconColor property
+PRIM_MD.ListIconCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListIconCurrentItem_IconFileName.Name=IconFileName property
+PRIM_MD.ListIconCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
-PRIM_MD.ListIconCurrentItem_IconHeight.Name=IconHeight property
+PRIM_MD.ListIconCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconHeight.Desc=ƒAƒCƒRƒ“‚Ì‚‚³ (ƒsƒNƒZƒ‹)
  
-PRIM_MD.ListIconCurrentItem_IconImage.Name=IconImage property
+PRIM_MD.ListIconCurrentItem_IconImage.Name=IconImage ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconImage.Desc=ƒRƒ“ƒgƒ[ƒ‹é‚É•\¦‚·‚éƒCƒ[ƒW
  
-PRIM_MD.ListIconCurrentItem_IconImageSizing.Name=IconImageSizing property
+PRIM_MD.ListIconCurrentItem_IconImageSizing.Name=IconImageSizing ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconImageSizing.Desc=ƒAƒCƒRƒ“ ƒCƒ[ƒW‚ÌƒTƒCƒY’²®‚Ì“®ì‚ğw’è‚µ‚Ü‚·B
  
-PRIM_MD.ListIconCurrentItem_IconMarginBottom.Name=IconMarginBottom property
+PRIM_MD.ListIconCurrentItem_IconMarginBottom.Name=IconMarginBottom ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconMarginBottom.Desc=‰º‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
-PRIM_MD.ListIconCurrentItem_IconMarginLeft.Name=IconMarginLeft property
+PRIM_MD.ListIconCurrentItem_IconMarginLeft.Name=IconMarginLeft ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconMarginLeft.Desc=¶‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
-PRIM_MD.ListIconCurrentItem_IconMarginRight.Name=IconMarginRight property
+PRIM_MD.ListIconCurrentItem_IconMarginRight.Name=IconMarginRight ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
-PRIM_MD.ListIconCurrentItem_IconMarginTop.Name=IconMarginTop property
+PRIM_MD.ListIconCurrentItem_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
-PRIM_MD.ListIconCurrentItem_IconOpacity.Name=IconOpacity property
+PRIM_MD.ListIconCurrentItem_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
-PRIM_MD.ListIconCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_MD.ListIconCurrentItem_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.ListIconCurrentItem_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ListIconCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
  
-PRIM_MD.ListIconCurrentItem_PaddingBottom.Name=PaddingBottom property
+PRIM_MD.ListIconCurrentItem_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
  
-PRIM_MD.ListIconCurrentItem_PaddingLeft.Name=PaddingLeft property
+PRIM_MD.ListIconCurrentItem_PaddingLeft.Name=PaddingLeft ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_PaddingLeft.Desc=¶‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
  
-PRIM_MD.ListIconCurrentItem_PaddingRight.Name=PaddingRight property
+PRIM_MD.ListIconCurrentItem_PaddingRight.Name=PaddingRight ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_PaddingRight.Desc=‰E‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
  
-PRIM_MD.ListIconCurrentItem_PaddingTop.Name=PaddingTop property
+PRIM_MD.ListIconCurrentItem_PaddingTop.Name=PaddingTop ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_PaddingTop.Desc=ã‚ÌƒpƒfƒBƒ“ƒO
+ 
+PRIM_MD.ListImage.Name=PRIM_MD.ListImage
+PRIM_MD.ListImage.Desc=prim_md.list ‚Åg—p‚·‚éƒCƒ[ƒW—ñ 
+ 
+PRIM_MD.ListImage_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
+PRIM_MD.ListImage_CurrentItem.Desc=Œ»İ‚ÌƒŠƒXƒgƒAƒCƒeƒ€“à‚Ì prim_md.listImage ‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListImage_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
+PRIM_MD.ListImage_FocusItem.Desc=Œ»İ‚ÌƒŠƒXƒgƒAƒCƒeƒ€“à‚ÌƒtƒH[ƒJƒX‚Ì prim_md.listImage ‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListImage_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListImage_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListImageCurrentItem.Name=PRIM_MD.ListImageCurrentItem
+PRIM_MD.ListImageCurrentItem.Desc=Œ»İ‚ÌƒŠƒXƒgƒAƒCƒeƒ€“à‚Ì prim_md.listImage ‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListImageCurrentItem_FileName.Name=FileName ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_FileName.Desc=ƒCƒ[ƒW‚Ìƒtƒ@ƒCƒ‹–¼
+ 
+PRIM_MD.ListImageCurrentItem_Image.Name=Image ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_Image.Desc=•\¦‚·‚éƒCƒ[ƒW
+ 
+PRIM_MD.ListImageCurrentItem_ImageAlignment.Name=ImageAlignment ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_ImageAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒCƒ[ƒWˆÊ’u
+ 
+PRIM_MD.ListImageCurrentItem_ImageHeight.Name=ImageHeight ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_ImageHeight.Desc=ƒCƒ[ƒW‚Ì‚‚³‚Æ•‚ğƒsƒNƒZƒ‹‚Åİ’è‚µ‚Ü‚·
+ 
+PRIM_MD.ListImageCurrentItem_ImageLeft.Name=ImageLeft ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_ImageLeft.Desc=ƒCƒ[ƒW‚Ì¶‘¤‚ÌˆÊ’uBImageUnits ‚ğQÆ
+ 
+PRIM_MD.ListImageCurrentItem_ImageSizing.Name=ImageSizing ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_ImageSizing.Desc=ƒCƒ[ƒW‚Ég—p‚·‚éƒTƒCƒY’²®
+ 
+PRIM_MD.ListImageCurrentItem_ImageTile.Name=ImageTile ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_ImageTile.Desc=ƒCƒ[ƒW‚ğŒJ‚è•Ô‚·‚©‚Ç‚¤‚©‚ğ’è‹`‚µ‚Ü‚·
+ 
+PRIM_MD.ListImageCurrentItem_ImageTop.Name=ImageTop ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_ImageTop.Desc=ƒCƒ[ƒW‚Ìã‘¤‚ÌˆÊ’uBImageUnits ‚ğQÆ
+ 
+PRIM_MD.ListImageCurrentItem_ImageUnits.Name=ImageUnits ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_ImageUnits.Desc=ƒCƒ[ƒW‚ÌŒv‘ª‚ğƒsƒNƒZƒ‹‚©ƒp[ƒZƒ“ƒg‚Ì‚Ç‚¿‚ç‚Ås‚¤‚©‚ğw’è‚µ‚Ü‚·
+ 
+PRIM_MD.ListImageCurrentItem_ImageWidth.Name=ImageWidth ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_ImageWidth.Desc=ƒCƒ[ƒW‚Ì•
+ 
+PRIM_MD.ListImageCurrentItem_MarginBottom.Name=MarginBottom ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_MarginBottom.Desc=‰º‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ListImageCurrentItem_MarginLeft.Name=MarginLeft ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_MarginLeft.Desc=¶‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ListImageCurrentItem_MarginRight.Name=MarginRight ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_MarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.ListImageCurrentItem_MarginTop.Name=MarginTop ƒvƒƒpƒeƒB
+PRIM_MD.ListImageCurrentItem_MarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
 PRIM_MD.ListItem.Name=ƒŠƒXƒg ƒAƒCƒeƒ€
 PRIM_MD.ListItem.Desc=ƒŠƒXƒg ƒAƒCƒeƒ€
@@ -15544,10 +16129,13 @@ PRIM_MD.ListLabel_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚ÅÅŒã
 PRIM_MD.ListLabel_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListLabel_FocusItem.Desc=ƒŠƒXƒg‚ÌƒtƒH[ƒJƒX‚³‚ê‚½ƒGƒ“ƒgƒŠ[“à‚ÌƒtƒH[ƒJƒX‚Ì‚ ‚éƒ‰ƒxƒ‹‚Ö‚ÌQÆƒGƒ“ƒgƒŠ[
  
-PRIM_MD.ListLabel_SortDirection.Name=SortDirection property
+PRIM_MD.ListLabel_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListLabel_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListLabel_SortDirection.Name=SortDirection ƒvƒƒpƒeƒB
 PRIM_MD.ListLabel_SortDirection.Desc=ƒŠƒXƒg‚Ìƒ\[ƒg•û–@‚ğ§Œä‚µ‚Ü‚·
  
-PRIM_MD.ListLabel_SortPosition.Name=SortPosition property
+PRIM_MD.ListLabel_SortPosition.Name=SortPosition ƒvƒƒpƒeƒB
 PRIM_MD.ListLabel_SortPosition.Desc=ƒ\[ƒg‡‚Ì‚±‚ÌƒRƒ“ƒgƒ[ƒ‹‚ÌˆÊ’u‚ğŒˆ’è‚µ‚Ü‚·
  
 PRIM_MD.ListLabel_Source.Name=Source ƒvƒƒpƒeƒB
@@ -15583,7 +16171,7 @@ PRIM_MD.ListLabelCurrentItem_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
 PRIM_MD.ListLabelCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListLabelCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListLabelCurrentItem_IconFileName.Name=IconFileName property
+PRIM_MD.ListLabelCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListLabelCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.ListLabelCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -15610,6 +16198,9 @@ PRIM_MD.ListLabelCurrentItem_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
 PRIM_MD.ListLabelCurrentItem_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.ListLabelCurrentItem_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
+PRIM_MD.ListLabelCurrentItem_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.ListLabelCurrentItem_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
 PRIM_MD.ListLabelCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.ListLabelCurrentItem_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
  
@@ -15633,6 +16224,9 @@ PRIM_MD.ListRaisedButton_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—
  
 PRIM_MD.ListRaisedButton_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListRaisedButton_FocusItem.Desc=ƒŠƒXƒg‚ÌƒtƒH[ƒJƒX‚³‚ê‚½ƒGƒ“ƒgƒŠ[“à‚Ì‚¿ã‚°Œ^ƒ{ƒ^ƒ“‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListRaisedButton_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListRaisedButton_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
  
 PRIM_MD.ListRaisedButton_Source.Name=Source ƒvƒƒpƒeƒB
 PRIM_MD.ListRaisedButton_Source.Desc=‚±‚ÌƒRƒ“ƒgƒ[ƒ‹—p‚Ìƒf[ƒ^‚ğ’è‹`A•ÛŠÇ‚·‚é‚½‚ß‚Ég—p‚·‚éƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Ì–¼‘O
@@ -15670,7 +16264,7 @@ PRIM_MD.ListRaisedButtonCurrentItem_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”
 PRIM_MD.ListRaisedButtonCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListRaisedButtonCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListRaisedButtonCurrentItem_IconFileName.Name=IconFileName property
+PRIM_MD.ListRaisedButtonCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListRaisedButtonCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.ListRaisedButtonCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -15696,6 +16290,9 @@ PRIM_MD.ListRaisedButtonCurrentItem_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
 PRIM_MD.ListRaisedButtonCurrentItem_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.ListRaisedButtonCurrentItem_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
+ 
+PRIM_MD.ListRaisedButtonCurrentItem_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.ListRaisedButtonCurrentItem_IconPadding.Desc=Œ»İ‚ÌƒŠƒXƒgƒAƒCƒeƒ€‚ÌƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO’l
  
 PRIM_MD.ListRaisedButtonCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.ListRaisedButtonCurrentItem_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}‚Ì•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
@@ -15724,6 +16321,9 @@ PRIM_MD.ListSpinEdit_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚Å
 PRIM_MD.ListSpinEdit_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEdit_FocusItem.Desc=ƒŠƒXƒg‚ÌƒtƒH[ƒJƒX‚³‚ê‚½ƒGƒ“ƒgƒŠ[“à‚ÌƒXƒsƒ“•ÒW‚Ö‚ÌQÆ
  
+PRIM_MD.ListSpinEdit_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListSpinEdit_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
+ 
 PRIM_MD.ListSpinEdit_Source.Name=Source ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEdit_Source.Desc=‚±‚ÌƒRƒ“ƒgƒ[ƒ‹—p‚Ìƒf[ƒ^‚ğ’è‹`A•ÛŠÇ‚·‚é‚½‚ß‚Ég—p‚·‚éƒŠƒ|ƒWƒgƒŠ
  
@@ -15739,7 +16339,7 @@ PRIM_MD.ListSpinEditCurrentItem_Caption.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚É•\¦‚·‚éƒeƒLƒXƒg
 PRIM_MD.ListSpinEditCurrentItem_CaptionPosition.Name=CaptionPosition ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_CaptionPosition.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·
  
-PRIM_MD.ListSpinEditCurrentItem_HasSelection.Name=HasSelection property
+PRIM_MD.ListSpinEditCurrentItem_HasSelection.Name=HasSelection ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_HasSelection.Desc=•ÒW‰Â”\‚ÈƒeƒLƒXƒg‚Ìˆê•”‚ª‘I‘ğ‚³‚ê‚Ä‚¢‚éê‡ TRUE
  
 PRIM_MD.ListSpinEditCurrentItem_HelperPosition.Name=HelperPosition ƒvƒƒpƒeƒB
@@ -15754,7 +16354,7 @@ PRIM_MD.ListSpinEditCurrentItem_Icon.Desc=ƒAƒCƒeƒ€“à‚É•\¦‚·‚éƒCƒ[ƒW
 PRIM_MD.ListSpinEditCurrentItem_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListSpinEditCurrentItem_IconFileName.Name=IconFileName property
+PRIM_MD.ListSpinEditCurrentItem_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.ListSpinEditCurrentItem_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -15769,7 +16369,7 @@ PRIM_MD.ListSpinEditCurrentItem_IconImageSizing.Desc=IconImage ‚ÌƒTƒCƒY’²®‚Ì“®
 PRIM_MD.ListSpinEditCurrentItem_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
-PRIM_MD.ListSpinEditCurrentItem_Increment.Name=Increment property
+PRIM_MD.ListSpinEditCurrentItem_Increment.Name=Increment ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_Increment.Desc=ƒXƒsƒ“ ƒ{ƒ^ƒ“‚ª‚Ç‚Ì‚æ‚¤‚É’l‚ğ’²®‚·‚é‚©‚ğw’è‚µ‚Ü‚·
  
 PRIM_MD.ListSpinEditCurrentItem_Placeholder.Name=Placeholder ƒvƒƒpƒeƒB
@@ -15778,40 +16378,43 @@ PRIM_MD.ListSpinEditCurrentItem_Placeholder.Desc=•ÒW•”•ª‚É’l‚ª‚È‚¢‚É•\¦‚·‚éƒ
 PRIM_MD.ListSpinEditCurrentItem_PlaceholderColor.Name=PlaceholderColor ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_PlaceholderColor.Desc=ƒvƒŒ[ƒXƒzƒ‹ƒ_[ ƒeƒLƒXƒg‚ÌF
  
-PRIM_MD.ListSpinEditCurrentItem_PromptIcon.Name=PromptIcon property
+PRIM_MD.ListSpinEditCurrentItem_PromptIcon.Name=PromptIcon ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_PromptIcon.Desc=“ü—Í“à‚É•\¦‚·‚éƒCƒ[ƒW
  
-PRIM_MD.ListSpinEditCurrentItem_PromptIconColor.Name=PromptIconColor property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconColor.Name=PromptIconColor ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_PromptIconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.ListSpinEditCurrentItem_PromptIconFileName.Name=PromptIconFileName property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconFileName.Name=PromptIconFileName ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_PromptIconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
-PRIM_MD.ListSpinEditCurrentItem_PromptIconHeight.Name=PromptIconHeight property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconHeight.Name=PromptIconHeight ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_PromptIconHeight.Desc=ƒAƒCƒRƒ“‚Ì‚‚³ (ƒsƒNƒZƒ‹)
  
-PRIM_MD.ListSpinEditCurrentItem_PromptIconImage.Name=PromptIconImage property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconHint.Name=PromptIconHint ƒvƒƒpƒeƒB
+PRIM_MD.ListSpinEditCurrentItem_PromptIconHint.Desc=Œ»İ‚ÌƒŠƒXƒgƒAƒCƒeƒ€‚Ìƒqƒ“ƒg‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListSpinEditCurrentItem_PromptIconImage.Name=PromptIconImage ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_PromptIconImage.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É•\¦‚·‚éƒCƒ[ƒW
  
-PRIM_MD.ListSpinEditCurrentItem_PromptIconImageSizing.Name=PromptIconImageSizing property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconImageSizing.Name=PromptIconImageSizing ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_PromptIconImageSizing.Desc=ƒvƒƒ“ƒvƒg‚ÌƒAƒCƒRƒ“ ƒCƒ[ƒW‚ÌƒTƒCƒY’²®‚Ì“®ì‚ğw’è‚µ‚Ü‚·B
  
-PRIM_MD.ListSpinEditCurrentItem_PromptIconOpacity.Name=PromptIconOpacity property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconOpacity.Name=PromptIconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_PromptIconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
-PRIM_MD.ListSpinEditCurrentItem_PromptOnly.Name=PromptOnly property
+PRIM_MD.ListSpinEditCurrentItem_PromptOnly.Name=PromptOnly ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_PromptOnly.Desc=ã‰º–îˆó‚É‚æ‚é“ü—Í‚Ì‚İ‹–‰Â
  
-PRIM_MD.ListSpinEditCurrentItem_ReadOnly.Name=ReadOnly property
+PRIM_MD.ListSpinEditCurrentItem_ReadOnly.Name=ReadOnly ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_ReadOnly.Desc=ƒRƒ“ƒ|[ƒlƒ“ƒg‚ª“ü—Í‚Ég—p‚Å‚«‚é‚©‚Ç‚¤‚©‚ğ§Œä‚µ‚Ü‚·B
  
-PRIM_MD.ListSpinEditCurrentItem_SelectionEnd.Name=SelectionEnd property
+PRIM_MD.ListSpinEditCurrentItem_SelectionEnd.Name=SelectionEnd ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_SelectionEnd.Desc=‘I‘ğ‚ªI—¹‚·‚é’l‚ÌˆÊ’u
  
-PRIM_MD.ListSpinEditCurrentItem_SelectionStart.Name=SelectionStart property
+PRIM_MD.ListSpinEditCurrentItem_SelectionStart.Name=SelectionStart ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_SelectionStart.Desc=‘I‘ğ‚ªŠJn‚·‚é’l‚ÌˆÊ’u
  
-PRIM_MD.ListSpinEditCurrentItem_Value.Name=Value property
+PRIM_MD.ListSpinEditCurrentItem_Value.Name=Value ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_Value.Desc=ƒXƒsƒ“•ÒW‚Ì’l‚ğİ’è‚Ü‚½‚Íæ“¾‚µ‚Ü‚·
  
 PRIM_MD.ListSwitch.Name=ƒŠƒXƒg ƒXƒCƒbƒ` ƒRƒ“ƒgƒ[ƒ‹
@@ -15822,6 +16425,9 @@ PRIM_MD.ListSwitch_CurrentItem.Desc=UI ‚Ìƒ^ƒbƒ`‚Ü‚½‚ÍƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—R‚ÅÅŒ
  
 PRIM_MD.ListSwitch_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_MD.ListSwitch_FocusItem.Desc=ƒŠƒXƒg‚ÌƒtƒH[ƒJƒX‚³‚ê‚½ƒGƒ“ƒgƒŠ[“à‚ÌƒXƒCƒbƒ`‚Ö‚ÌQÆ
+ 
+PRIM_MD.ListSwitch_Parent.Name=Parent ƒvƒƒpƒeƒB
+PRIM_MD.ListSwitch_Parent.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ğŠÜ‚ñ‚Å‚¢‚é prim_md.list ‚Ö‚ÌQÆ
  
 PRIM_MD.ListSwitch_Source.Name=Source ƒvƒƒpƒeƒB
 PRIM_MD.ListSwitch_Source.Desc=‚±‚ÌƒRƒ“ƒgƒ[ƒ‹—p‚Ìƒf[ƒ^‚ğ’è‹`A•ÛŠÇ‚·‚é‚½‚ß‚Ég—p‚·‚éƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Ì–¼‘O
@@ -15886,47 +16492,59 @@ PRIM_MD.ListSwitchCurrentItem_PaddingTop.Desc=ã‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
 PRIM_MD.Menu.Name=PRIM_MD.Menu
 PRIM_MD.Menu.Desc=ƒƒjƒ…[€–Ú—p‚Ìƒƒjƒ…[ ƒRƒ“ƒeƒi
  
-PRIM_MD.Menu_ItemCollapsed.Name=ItemCollapsed event
+PRIM_MD.Menu_ItemCollapsed.Name=ItemCollapsed ƒCƒxƒ“ƒg
 PRIM_MD.Menu_ItemCollapsed.Desc=ƒƒjƒ…[‚ÌeƒAƒCƒeƒ€‚ªÜ‚èô‚Ü‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
  
-PRIM_MD.Menu_ItemCollapsed.Item.Name=Item parameter
+PRIM_MD.Menu_ItemCollapsed.Item.Name=Item ƒpƒ‰ƒ[ƒ^
 PRIM_MD.Menu_ItemCollapsed.Item.Desc=Ü‚èô‚Ü‚ê‚½ƒƒjƒ…[€–Ú‚ğ•Ô‚µ‚Ü‚·
  
-PRIM_MD.Menu_ItemExpanded.Name=ItemExpanded event
+PRIM_MD.Menu_ItemExpanded.Name=ItemExpanded ƒCƒxƒ“ƒg
 PRIM_MD.Menu_ItemExpanded.Desc=ƒƒjƒ…[‚ÌeƒAƒCƒeƒ€‚ª“WŠJ‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
  
-PRIM_MD.Menu_ItemExpanded.Item.Name=Item parameter
+PRIM_MD.Menu_ItemExpanded.Item.Name=Item ƒpƒ‰ƒ[ƒ^
 PRIM_MD.Menu_ItemExpanded.Item.Desc=“WŠJ‚³‚ê‚½ƒƒjƒ…[€–Ú‚ğ•Ô‚µ‚Ü‚·
  
-PRIM_MD.Menu_ShowSelection.Name=ShowSelection property
+PRIM_MD.Menu_ShowSelection.Name=ShowSelection ƒvƒƒpƒeƒB
 PRIM_MD.Menu_ShowSelection.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ÉƒtƒH[ƒJƒX‚ª‚È‚¢‚Ì‘I‘ğ‚ğ•\¦
  
 PRIM_MD.MenuItem.Name=PRIM_MD.MenuItem
 PRIM_MD.MenuItem.Desc=Web ƒy[ƒW‚ğƒRƒ“ƒgƒ[ƒ‹‚·‚éƒƒjƒ…[€–Ú
  
-PRIM_MD.MenuItem_Dialog.Name=Dialog property
+PRIM_MD.MenuItem_Dialog.Name=Dialog ƒvƒƒpƒeƒB
 PRIM_MD.MenuItem_Dialog.Desc=ƒƒjƒ…[€–ÚƒNƒŠƒbƒN‚É•\¦‚·‚éƒ_ƒCƒAƒƒO
  
-PRIM_MD.MenuItem_Expanded.Name=Expanded property
+PRIM_MD.MenuItem_Expanded.Name=Expanded ƒvƒƒpƒeƒB
 PRIM_MD.MenuItem_Expanded.Desc=ƒAƒCƒeƒ€‚ª“WŠJ‚³‚ê‚Ä‚¢‚é‚©AÜ‚èô‚Ü‚ê‚Ä‚¢‚é‚©
  
-PRIM_MD.MenuItem_ParentItem.Name=ParentItem property
+PRIM_MD.MenuItem_ParentItem.Name=ParentItem ƒvƒƒpƒeƒB
 PRIM_MD.MenuItem_ParentItem.Desc=ƒƒjƒ…[€–Ú‚ÌeƒAƒCƒeƒ€‚Ö‚ÌQÆBƒ‹[ƒg‚ÌƒAƒCƒeƒ€‚Í NULL ‚ÌeƒAƒCƒeƒ€‚ğ‚¿‚Ü‚·B
  
-PRIM_MD.MenuItem_SelectedStyle.Name=SelectedStyle property
+PRIM_MD.MenuItem_SelectedStyle.Name=SelectedStyle ƒvƒƒpƒeƒB
 PRIM_MD.MenuItem_SelectedStyle.Desc=‘I‘ğ‚ÌƒAƒCƒeƒ€‚É“K—p‚³‚ê‚éƒXƒ^ƒCƒ‹
  
-PRIM_MD.MenuItem_SelectedStyles.Name=SelectedStyles property
+PRIM_MD.MenuItem_SelectedStyles.Name=SelectedStyles ƒvƒƒpƒeƒB
 PRIM_MD.MenuItem_SelectedStyles.Desc=‘I‘ğƒAƒCƒeƒ€‚É“K—p‚³‚ê‚éƒXƒ^ƒCƒ‹‚ÌƒRƒŒƒNƒVƒ‡ƒ“
  
-PRIM_MD.MenuItem_TabSheet.Name=TabSheet property
+PRIM_MD.MenuItem_TabSheet.Name=TabSheet ƒvƒƒpƒeƒB
 PRIM_MD.MenuItem_TabSheet.Desc=ƒƒjƒ…[€–ÚƒNƒŠƒbƒN‚É•\¦‚·‚éƒ^ƒu ƒV[ƒg
  
-PRIM_MD.MenuItem_View.Name=View property
+PRIM_MD.MenuItem_View.Name=View ƒvƒƒpƒeƒB
 PRIM_MD.MenuItem_View.Desc=ƒƒjƒ…[€–ÚƒNƒŠƒbƒN‚É•\¦‚·‚éƒrƒ…[
  
 PRIM_MD.Name=ƒ}ƒeƒŠƒAƒ‹ ƒfƒUƒCƒ“
 PRIM_MD.Desc=ƒ}ƒeƒŠƒAƒ‹ ƒfƒUƒCƒ“ ƒRƒ“ƒgƒ[ƒ‹ ƒNƒ‰ƒX
+ 
+PRIM_MD.ProgressBar.Name=PRIM_MD.ProgressBar
+PRIM_MD.ProgressBar.Desc=ƒ}ƒeƒŠƒAƒ‹ƒfƒUƒCƒ“‚Ìisó‹µƒo[ ƒRƒ“ƒgƒ[ƒ‹
+ 
+PRIM_MD.ProgressBar_BufferValue.Name=BufferValue ƒvƒƒpƒeƒB
+PRIM_MD.ProgressBar_BufferValue.Desc=ƒoƒbƒtƒ@[‚Ìisó‹µ‚ğ•\¦‚·‚é 0 ‚Æ 100 ‚ÌŠÔ‚Ìisó‹µƒo[‚Ì’l 
+ 
+PRIM_MD.ProgressBar_Mode.Name=Mode ƒvƒƒpƒeƒB
+PRIM_MD.ProgressBar_Mode.Desc=isó‹µƒo[‚Ì•\¦•û–@‚ğŒˆ’è‚µ‚Ü‚·
+ 
+PRIM_MD.ProgressBar_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_MD.ProgressBar_Value.Desc=Œ»İ‚Ìisó‹µ‚ğ•\¦‚·‚é 0 ‚Æ 100 ‚ÌŠÔ‚Ìisó‹µƒo[‚Ì’l
  
 PRIM_MD.RadioButton.Name=ƒ‰ƒWƒIƒ{ƒ^ƒ“
 PRIM_MD.RadioButton.Desc=‘ŠŒİ”r‘¼“I‘I‘ğ‚ğ•\¦‚·‚éƒ‰ƒWƒIƒ{ƒ^ƒ“
@@ -15958,6 +16576,9 @@ PRIM_MD.RadioButton_Checked.Desc=ƒ`ƒFƒbƒNƒ{ƒbƒNƒX‚ªƒ`ƒFƒbƒN‚³‚ê‚Ä‚¢‚é‚©‚Ç‚¤‚©‚ğ
 PRIM_MD.RadioButton_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
 PRIM_MD.RadioButton_Ellipses.Desc=Ø‚è‹l‚ß‚ç‚ê‚½ƒeƒLƒXƒg‚ÉÈ—ª‹L†‚ğ•\¦
  
+PRIM_MD.RadioButton_GotFocus.Name=GotFocus ƒCƒxƒ“ƒg
+PRIM_MD.RadioButton_GotFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğó‚¯æ‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
 PRIM_MD.RadioButton_GroupIndex.Name=GroupIndex ƒvƒƒpƒeƒB
 PRIM_MD.RadioButton_GroupIndex.Desc=‘ŠŒİ‚É”r‘¼“I‚ÈƒIƒvƒVƒ‡ƒ“‚ÌƒZƒbƒg‚ğì¬‚µ‚Ü‚·
  
@@ -15981,6 +16602,9 @@ PRIM_MD.RadioButton_IconMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
 PRIM_MD.RadioButton_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
 PRIM_MD.RadioButton_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.RadioButton_LostFocus.Name=LostFocus ƒCƒxƒ“ƒg
+PRIM_MD.RadioButton_LostFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğ¸‚¤‚Æ‹N“®‚µ‚Ü‚·
  
 PRIM_MD.RadioButton_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
 PRIM_MD.RadioButton_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
@@ -16036,6 +16660,9 @@ PRIM_MD.RaisedButton_Click.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒCƒxƒ“ƒg‚ªe‚ÌƒRƒ“ƒgƒ
 PRIM_MD.RaisedButton_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
 PRIM_MD.RaisedButton_Ellipses.Desc=Ø‚è‹l‚ß‚ç‚ê‚½ƒeƒLƒXƒg‚ÉÈ—ª‹L†‚ğ•\¦
  
+PRIM_MD.RaisedButton_GotFocus.Name=GotFocus ƒCƒxƒ“ƒg
+PRIM_MD.RaisedButton_GotFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğó‚¯æ‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
 PRIM_MD.RaisedButton_Icon.Name=Icon ƒvƒƒpƒeƒB
 PRIM_MD.RaisedButton_Icon.Desc=ƒ{ƒ^ƒ““à‚É•\¦‚·‚éƒCƒ[ƒW
  
@@ -16045,7 +16672,7 @@ PRIM_MD.RaisedButton_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
 PRIM_MD.RaisedButton_IconColor.Name=IconColor ƒvƒƒpƒeƒB
 PRIM_MD.RaisedButton_IconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.RaisedButton_IconFileName.Name=IconFileName property
+PRIM_MD.RaisedButton_IconFileName.Name=IconFileName ƒvƒƒpƒeƒB
 PRIM_MD.RaisedButton_IconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.RaisedButton_IconHeight.Name=IconHeight ƒvƒƒpƒeƒB
@@ -16072,8 +16699,14 @@ PRIM_MD.RaisedButton_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
 PRIM_MD.RaisedButton_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.RaisedButton_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
-PRIM_MD.RaisedButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_MD.RaisedButton_IconPadding.Name=IconPadding ƒvƒƒpƒeƒB
+PRIM_MD.RaisedButton_IconPadding.Desc=ƒAƒCƒRƒ“‚ÌƒpƒfƒBƒ“ƒO‚ğƒsƒNƒZƒ‹‚Åw’è‚µ‚Ü‚·
+ 
+PRIM_MD.RaisedButton_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_MD.RaisedButton_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éƒe[ƒ}•`‰æƒXƒ^ƒCƒ‹‚Ì–¼‘O
+ 
+PRIM_MD.RaisedButton_LostFocus.Name=LostFocus ƒCƒxƒ“ƒg
+PRIM_MD.RaisedButton_LostFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğ¸‚¤‚Æ‹N“®‚µ‚Ü‚·
  
 PRIM_MD.RaisedButton_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
 PRIM_MD.RaisedButton_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
@@ -16089,6 +16722,27 @@ PRIM_MD.RaisedButton_PaddingTop.Desc=ã‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
  
 PRIM_MD.RaisedButton_WordWrap.Name=WordWrap ƒvƒƒpƒeƒB
 PRIM_MD.RaisedButton_WordWrap.Desc=\•ª‚ÈƒXƒy[ƒX‚ª‚È‚¢ê‡AƒeƒLƒXƒg‚ğŸ‚Ìs‚ÉÜ‚è•Ô‚µ‚Ü‚·B
+ 
+PRIM_MD.Slider.Name=PRIM_MD.Slider
+PRIM_MD.Slider.Desc=ƒ}ƒeƒŠƒAƒ‹ƒfƒUƒCƒ“‚ÌƒXƒ‰ƒCƒ_[ ƒRƒ“ƒgƒ[ƒ‹
+ 
+PRIM_MD.Slider_Changed.Name=Changed ƒCƒxƒ“ƒg
+PRIM_MD.Slider_Changed.Desc=ƒXƒ‰ƒCƒ_[‚Ì’l‚ª•ÏX‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
+PRIM_MD.Slider_Increment.Name=Increment ƒvƒƒpƒeƒB
+PRIM_MD.Slider_Increment.Desc=ƒXƒ‰ƒCƒ_[“®ì‚Ì‚»‚ê‚¼‚ê‚Ì‘•ª‚Ì’l
+ 
+PRIM_MD.Slider_MaximumValue.Name=MaximumValue ƒvƒƒpƒeƒB
+PRIM_MD.Slider_MaximumValue.Desc=ƒXƒ‰ƒCƒh‚É‚æ‚èİ’è‚³‚ê‚éÅ‘å’l
+ 
+PRIM_MD.Slider_MinimumValue.Name=MinimumValue ƒvƒƒpƒeƒB
+PRIM_MD.Slider_MinimumValue.Desc=ƒXƒ‰ƒCƒh‚É‚æ‚èİ’è‚³‚ê‚éÅ¬’l
+ 
+PRIM_MD.Slider_Type.Name=Type ƒvƒƒpƒeƒB
+PRIM_MD.Slider_Type.Desc=ƒXƒ‰ƒCƒ_[‚ğ•s˜A‘±‚©˜A‘±‚Ì‚Ç‚¿‚ç‚Å•\¦‚·‚é‚©‚ğİ’è‚µ‚Ü‚·
+ 
+PRIM_MD.Slider_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_MD.Slider_Value.Desc=ƒXƒ‰ƒCƒ_[‚Ì’l
  
 PRIM_MD.SpinEdit.Name=ƒXƒsƒ“•ÒW
 PRIM_MD.SpinEdit.Desc=’l‚ª•ÏX‚Å‚«‚éã‰º–îˆó‚ª•t‚¢‚½”’l•ÒW
@@ -16156,11 +16810,14 @@ PRIM_MD.SpinEdit_PromptIcon.Desc=“ü—Í“à‚É•\¦‚·‚éƒCƒ[ƒW
 PRIM_MD.SpinEdit_PromptIconColor.Name=PromptIconColor ƒvƒƒpƒeƒB
 PRIM_MD.SpinEdit_PromptIconColor.Desc=ƒAƒCƒRƒ“‚É“K—p‚·‚éF
  
-PRIM_MD.SpinEdit_PromptIconFileName.Name=PromptIconFileName property
+PRIM_MD.SpinEdit_PromptIconFileName.Name=PromptIconFileName ƒvƒƒpƒeƒB
 PRIM_MD.SpinEdit_PromptIconFileName.Desc=ƒCƒ[ƒW ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
 PRIM_MD.SpinEdit_PromptIconHeight.Name=PromptIconHeight ƒvƒƒpƒeƒB
 PRIM_MD.SpinEdit_PromptIconHeight.Desc=ƒAƒCƒRƒ“‚Ì‚‚³ (ƒsƒNƒZƒ‹)
+ 
+PRIM_MD.SpinEdit_PromptIconHint.Name=PromptIconHint ƒvƒƒpƒeƒB
+PRIM_MD.SpinEdit_PromptIconHint.Desc=ƒvƒƒ“ƒvƒg ƒAƒCƒRƒ“‚É•\¦‚·‚éƒqƒ“ƒg
  
 PRIM_MD.SpinEdit_PromptIconImage.Name=PromptIconImage ƒvƒƒpƒeƒB
 PRIM_MD.SpinEdit_PromptIconImage.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É•\¦‚·‚éƒ}ƒeƒŠƒAƒ‹ ƒfƒUƒCƒ“‚ÌƒCƒ[ƒW
@@ -16171,13 +16828,13 @@ PRIM_MD.SpinEdit_PromptIconImageSizing.Desc=PromptIconImage ‚ÌƒTƒCƒY’²®‚Ì“®ì‚ğ
 PRIM_MD.SpinEdit_PromptIconOpacity.Name=PromptIconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.SpinEdit_PromptIconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
-PRIM_MD.SpinEdit_Prompting.Name=Prompting event
+PRIM_MD.SpinEdit_Prompting.Name=Prompting ƒCƒxƒ“ƒg
 PRIM_MD.SpinEdit_Prompting.Desc=ƒvƒƒ“ƒvƒg ƒAƒCƒRƒ“‚ª‰Ÿ‰º‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
  
-PRIM_MD.SpinEdit_Prompting.Origin.Name=Origin parameter
+PRIM_MD.SpinEdit_Prompting.Origin.Name=Origin ƒpƒ‰ƒ[ƒ^
 PRIM_MD.SpinEdit_Prompting.Origin.Desc=ƒCƒxƒ“ƒg‚ªÅ‰‚É‹N“®‚³‚ê‚½ƒRƒ“ƒgƒ[ƒ‹‚Ö‚ÌQÆ
  
-PRIM_MD.SpinEdit_Prompting.Handled.Name=Handled parameter
+PRIM_MD.SpinEdit_Prompting.Handled.Name=Handled ƒpƒ‰ƒ[ƒ^
 PRIM_MD.SpinEdit_Prompting.Handled.Desc=TRUE ‚Éİ’è‚µ‚ÄAƒL[‚ª©“®“I‚Éˆ—‚³‚ê‚È‚¢‚æ‚¤‚É‚µ‚Ü‚·B
  
 PRIM_MD.SpinEdit_PromptOnly.Name=PromptOnly ƒvƒƒpƒeƒB
@@ -16201,16 +16858,16 @@ PRIM_MD.SpinEdit_SelectText.StartPosition.Desc=’l‚Ì’†‚Ì‘I‘ğ‚ªŠJn‚·‚éˆÊ’u
 PRIM_MD.SpinEdit_SelectText.Length.Name=Length ƒpƒ‰ƒ[ƒ^
 PRIM_MD.SpinEdit_SelectText.Length.Desc=‘I‘ğ‚·‚é•¶š”
  
-PRIM_MD.SpinEdit_Validate.Name=Validate method
+PRIM_MD.SpinEdit_Validate.Name=Validate ƒƒ\ƒbƒh
 PRIM_MD.SpinEdit_Validate.Desc=ŠÈ’P‚ÈƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Æƒe[ƒuƒ‹‹K‘¥‚ğg‚Á‚ÄƒtƒB[ƒ‹ƒh‚ğŒŸØ‚µ‚Ü‚·
  
-PRIM_MD.SpinEdit_Validate.Valid.Name=Valid parameter
+PRIM_MD.SpinEdit_Validate.Valid.Name=Valid ƒpƒ‰ƒ[ƒ^
 PRIM_MD.SpinEdit_Validate.Valid.Desc=ƒtƒB[ƒ‹ƒh‚ª‘Ã“–«‹K‘¥‚ğ“n‚·ê‡ATRUE ‚ğ•Ô‚µ‚Ü‚·
  
-PRIM_MD.SpinEdit_Validate.Operation.Name=Operation parameter
+PRIM_MD.SpinEdit_Validate.Operation.Name=Operation ƒpƒ‰ƒ[ƒ^
 PRIM_MD.SpinEdit_Validate.Operation.Desc=ƒtƒB[ƒ‹ƒhŒŸØ‚Ì‘ÎÛ‚Æ‚È‚éƒIƒyƒŒ[ƒVƒ‡ƒ“ (‘}“üAXVAíœ)
  
-PRIM_MD.SpinEdit_Validate.Table.Name=Table parameter
+PRIM_MD.SpinEdit_Validate.Table.Name=Table ƒpƒ‰ƒ[ƒ^
 PRIM_MD.SpinEdit_Validate.Table.Desc=ŒŸØ‚Ég—p‚³‚ê‚éƒe[ƒuƒ‹
  
 PRIM_MD.SpinEdit_Value.Name=Value ƒvƒƒpƒeƒB
@@ -16222,16 +16879,16 @@ PRIM_MD.SpinEditField.Desc=’l‚ª•ÏX‚Å‚«‚éã‰º–îˆó‚ª•t‚¢‚½”’l•ÒW
 PRIM_MD.SpinEditField_CaptionType.Name=CaptionType ƒvƒƒpƒeƒB
 PRIM_MD.SpinEditField_CaptionType.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚Ìƒ^ƒCƒv‚ğŒˆ’è‚µ‚Ü‚·
  
-PRIM_MD.SpinEditField_Validate.Name=Validate method
+PRIM_MD.SpinEditField_Validate.Name=Validate ƒƒ\ƒbƒh
 PRIM_MD.SpinEditField_Validate.Desc=ŠÈ’P‚ÈƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Æƒe[ƒuƒ‹‹K‘¥‚ğg‚Á‚ÄƒtƒB[ƒ‹ƒh‚ğŒŸØ‚µ‚Ü‚·
  
-PRIM_MD.SpinEditField_Validate.Valid.Name=Valid parameter
+PRIM_MD.SpinEditField_Validate.Valid.Name=Valid ƒpƒ‰ƒ[ƒ^
 PRIM_MD.SpinEditField_Validate.Valid.Desc=ƒtƒB[ƒ‹ƒh‚ª‘Ã“–«‹K‘¥‚ğ“n‚·ê‡ATRUE ‚ğ•Ô‚µ‚Ü‚·
  
-PRIM_MD.SpinEditField_Validate.Operation.Name=Operation parameter
+PRIM_MD.SpinEditField_Validate.Operation.Name=Operation ƒpƒ‰ƒ[ƒ^
 PRIM_MD.SpinEditField_Validate.Operation.Desc=ƒtƒB[ƒ‹ƒhŒŸØ‚Ì‘ÎÛ‚Æ‚È‚éƒIƒyƒŒ[ƒVƒ‡ƒ“ (‘}“üAXVAíœ)
  
-PRIM_MD.SpinEditField_Validate.Table.Name=Table parameter
+PRIM_MD.SpinEditField_Validate.Table.Name=Table ƒpƒ‰ƒ[ƒ^
 PRIM_MD.SpinEditField_Validate.Table.Desc=ŒŸØ‚Ég—p‚³‚ê‚éƒe[ƒuƒ‹
  
 PRIM_MD.Switch.Name=ƒXƒCƒbƒ`
@@ -16264,6 +16921,9 @@ PRIM_MD.Switch_Checked.Desc=ƒXƒCƒbƒ`‚ªƒIƒ“‚©ƒIƒt‚©‚ğ¦‚µ‚Ü‚·
 PRIM_MD.Switch_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
 PRIM_MD.Switch_Ellipses.Desc=Ø‚è‹l‚ß‚ç‚ê‚½ƒeƒLƒXƒg‚ÉÈ—ª‹L†‚ğ•\¦
  
+PRIM_MD.Switch_GotFocus.Name=GotFocus ƒCƒxƒ“ƒg
+PRIM_MD.Switch_GotFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğó‚¯æ‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
 PRIM_MD.Switch_IconAlignment.Name=IconAlignment ƒvƒƒpƒeƒB
 PRIM_MD.Switch_IconAlignment.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚ÌƒAƒCƒRƒ“”z’u
  
@@ -16285,6 +16945,9 @@ PRIM_MD.Switch_IconMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
 PRIM_MD.Switch_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
 PRIM_MD.Switch_IconMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
+PRIM_MD.Switch_LostFocus.Name=LostFocus ƒCƒxƒ“ƒg
+PRIM_MD.Switch_LostFocus.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ªƒtƒH[ƒJƒX‚ğ¸‚¤‚Æ‹N“®‚µ‚Ü‚·
+ 
 PRIM_MD.Switch_PaddingBottom.Name=PaddingBottom ƒvƒƒpƒeƒB
 PRIM_MD.Switch_PaddingBottom.Desc=‰º‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
  
@@ -16303,31 +16966,43 @@ PRIM_MD.Switch_WordWrap.Desc=\•ª‚ÈƒXƒy[ƒX‚ª‚È‚¢ê‡AƒeƒLƒXƒg‚ğŸ‚Ìs‚ÉÜ‚è•Ô‚
 PRIM_MD.Tab.Name=PRIM_MD.Tab
 PRIM_MD.Tab.Desc=ƒ}ƒeƒŠƒAƒ‹ƒfƒUƒCƒ“‚Ìƒ^ƒu
  
-PRIM_MD.Tab_SelectionColor.Name=SelectionColor property
+PRIM_MD.Tab_SelectionColor.Name=SelectionColor ƒvƒƒpƒeƒB
 PRIM_MD.Tab_SelectionColor.Desc=ƒAƒNƒeƒBƒu‚Èƒrƒ…[‚Ü‚½‚Íƒ^ƒu ƒV[ƒg‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½ƒƒjƒ…[€–Ú‚É•\¦‚·‚é‰ºü‚ÌF
  
-PRIM_MD.Tab_ShowSelection.Name=ShowSelection property
+PRIM_MD.Tab_ShowSelection.Name=ShowSelection ƒvƒƒpƒeƒB
 PRIM_MD.Tab_ShowSelection.Desc=ƒRƒ“ƒgƒ[ƒ‹‚ÉƒtƒH[ƒJƒX‚ª‚È‚¢‚Ì‘I‘ğ‚ğ•\¦
  
-PRIM_MD.Tab_ViewStyle.Name=ViewStyle property
+PRIM_MD.Tab_TabChanging.Name=TabChanging ƒCƒxƒ“ƒg
+PRIM_MD.Tab_TabChanging.Desc=Prim_tab.item ‚ªƒNƒŠƒbƒN‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
+PRIM_MD.Tab_TabChanging.OpenItem.Name=OpenItem ƒpƒ‰ƒ[ƒ^
+PRIM_MD.Tab_TabChanging.OpenItem.Desc=Œ»İŠJ‚©‚ê‚Ä‚¢‚éƒAƒCƒeƒ€‚Ö‚ÌQÆ
+ 
+PRIM_MD.Tab_TabChanging.OpeningItem.Name=OpeningItem ƒpƒ‰ƒ[ƒ^
+PRIM_MD.Tab_TabChanging.OpeningItem.Desc=‚±‚ê‚©‚çŠJ‚­ƒAƒCƒeƒ€‚Ö‚ÌQÆ
+ 
+PRIM_MD.Tab_TabChanging.CanChangeItem.Name=CanChangeItem ƒpƒ‰ƒ[ƒ^
+PRIM_MD.Tab_TabChanging.CanChangeItem.Desc=ƒAƒCƒeƒ€‚ª•ÏX‰Â”\‚©‚Ç‚¤‚©‚ğw’è‚µ‚Ü‚·
+ 
+PRIM_MD.Tab_ViewStyle.Name=ViewStyle ƒvƒƒpƒeƒB
 PRIM_MD.Tab_ViewStyle.Desc=‰º•”ƒhƒbƒN—Ìˆæ‚Ìƒ^ƒu ƒy[ƒW‚ÌŠOŠÏ‚¨‚æ‚Ñ“®ì‚ğ’è‹`‚µ‚Ü‚·
  
 PRIM_MD.TabItem.Name=PRIM_MD.TabItem
 PRIM_MD.TabItem.Desc=PRIM_MD.Tab ‚ÉŠÜ‚Ü‚ê‚éƒRƒ“ƒgƒ[ƒ‹
  
-PRIM_MD.TabItem_Dialog.Name=Dialog property
+PRIM_MD.TabItem_Dialog.Name=Dialog ƒvƒƒpƒeƒB
 PRIM_MD.TabItem_Dialog.Desc=ƒ^ƒu ƒAƒCƒeƒ€‚ª‰Ÿ‰º‚³‚ê‚é‚ÆŠJ‚­ƒ_ƒCƒAƒƒO
  
-PRIM_MD.TabItem_SelectedStyle.Name=SelectedStyle property
+PRIM_MD.TabItem_SelectedStyle.Name=SelectedStyle ƒvƒƒpƒeƒB
 PRIM_MD.TabItem_SelectedStyle.Desc=‘I‘ğ‚ÌƒAƒCƒeƒ€‚É“K—p‚·‚éƒXƒ^ƒCƒ‹
  
-PRIM_MD.TabItem_SelectedStyles.Name=SelectedStyles property
+PRIM_MD.TabItem_SelectedStyles.Name=SelectedStyles ƒvƒƒpƒeƒB
 PRIM_MD.TabItem_SelectedStyles.Desc=‘I‘ğ‚ÌƒAƒCƒeƒ€‚É“K—p‚·‚éƒXƒ^ƒCƒ‹‚ÌƒRƒŒƒNƒVƒ‡ƒ“
  
-PRIM_MD.TabItem_TabSheet.Name=TabSheet property
+PRIM_MD.TabItem_TabSheet.Name=TabSheet ƒvƒƒpƒeƒB
 PRIM_MD.TabItem_TabSheet.Desc=ƒAƒCƒeƒ€‰Ÿ‰º‚É•\¦‚³‚ê‚éƒ^ƒuƒV[ƒg
  
-PRIM_MD.TabItem_View.Name=View property
+PRIM_MD.TabItem_View.Name=View ƒvƒƒpƒeƒB
 PRIM_MD.TabItem_View.Desc=ƒAƒCƒeƒ€‰Ÿ‰º‚É•\¦‚³‚ê‚éƒ^ƒuƒV[ƒgƒrƒ…[
  
 PRIM_MD.ViewContainer.Name=ƒrƒ…[ ƒRƒ“ƒeƒi
@@ -16942,7 +17617,7 @@ PRIM_PANL_HorizontalScrollInc.Desc=HorizontalScrollInc ‚ÍA…•½•ûŒü‚ÌƒXƒNƒ[ƒ‹ƒ
 PRIM_PANL_HorizontalScrollPos.Name=HorizontalScrollPos ƒvƒƒpƒeƒB
 PRIM_PANL_HorizontalScrollPos.Desc=HorizontalScrollPos …•½•ûŒü‚ÌƒXƒNƒ[ƒ‹ƒo[‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·B
  
-PRIM_PANL_HorizontalScrollRemainder.Name=HorizontalScrollRemainder property
+PRIM_PANL_HorizontalScrollRemainder.Name=HorizontalScrollRemainder ƒvƒƒpƒeƒB
 PRIM_PANL_HorizontalScrollRemainder.Desc=Œ»İ‚ÌƒXƒNƒ[ƒ‹ˆÊ’u‚©‚ç‰E‚Ìc‚è‚ğƒsƒNƒZƒ‹’PˆÊ‚Åw’è‚µ‚Ü‚·
  
 PRIM_PANL_HorizontalScrollTo.Name=HorizontalScrollTo ƒƒ\ƒbƒh
@@ -17014,7 +17689,7 @@ PRIM_PANL_VerticalScrollInc.Desc=VerticalScrollInc ‚ÍA‚’¼•ûŒü‚ÌƒXƒNƒ[ƒ‹ƒo[‚
 PRIM_PANL_VerticalScrollPos.Name=VerticalScrollPos ƒvƒƒpƒeƒB
 PRIM_PANL_VerticalScrollPos.Desc=VerticalScrollPos ‚Í‚’¼•ûŒü‚ÌƒXƒNƒ[ƒ‹ƒo[‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·B
  
-PRIM_PANL_VerticalScrollRemainder.Name=VerticalScrollRemainder property
+PRIM_PANL_VerticalScrollRemainder.Name=VerticalScrollRemainder ƒvƒƒpƒeƒB
 PRIM_PANL_VerticalScrollRemainder.Desc=Œ»İ‚ÌƒXƒNƒ[ƒ‹ˆÊ’u‚©‚ç¶‰º‚Ü‚Å‚Ìc‚è‚ğƒsƒNƒZƒ‹’PˆÊ‚Åw’è‚µ‚Ü‚·
  
 PRIM_PANL_VerticalScrollTo.Name=VerticalScrollTo ƒƒ\ƒbƒh
@@ -18970,35 +19645,11 @@ PRIM_SRVM.HttpRequest.Desc=HTTP —v‹
 PRIM_SRVM.HttpRequest_Content.Name=Content ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequest_Content.Desc=HTTP —v‹‚ÌƒRƒ“ƒeƒ“ƒc
  
-PRIM_SRVM.HttpRequest_Header.Name=Header ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_Header.Desc=HTTP ƒwƒbƒ_[
- 
-PRIM_SRVM.HttpRequest_Header.Name.Name=Name ƒpƒ‰ƒ[ƒ^
-PRIM_SRVM.HttpRequest_Header.Name.Desc=ƒAƒNƒZƒX‚·‚éƒwƒbƒ_[‚Ì–¼‘O
- 
 PRIM_SRVM.HttpRequest_Headers.Name=Headers ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequest_Headers.Desc=—v‹ƒwƒbƒ_[ ƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
  
 PRIM_SRVM.HttpRequest_Method.Name=Method ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequest_Method.Desc=ˆ—ƒG[ƒWƒFƒ“ƒg‚ÉƒtƒH[ƒ€‚ğ‘—M‚·‚é‚½‚ß‚Ég—p‚·‚é HTTP ƒƒ\ƒbƒh
- 
-PRIM_SRVM.HttpRequest_PathInfo.Name=PathInfo ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_PathInfo.Desc=—v‹‚ÌƒpƒX
- 
-PRIM_SRVM.HttpRequest_PathInfoPart.Name=PathInfoPart ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_PathInfoPart.Desc=ƒpƒX‚Ìˆê•”‚ÉƒAƒNƒZƒX
- 
-PRIM_SRVM.HttpRequest_PathInfoPart.Index.Name=Index ƒpƒ‰ƒ[ƒ^
-PRIM_SRVM.HttpRequest_PathInfoPart.Index.Desc=ƒpƒX•”•ª‚ÌƒCƒ“ƒfƒbƒNƒX
- 
-PRIM_SRVM.HttpRequest_PathInfoPartCount.Name=PathInfoPartCount ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_PathInfoPartCount.Desc=ƒpƒX ƒs[ƒX‚Ì”
- 
-PRIM_SRVM.HttpRequest_QueryParameter.Name=QueryParameter ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_QueryParameter.Desc=—v‹ƒNƒGƒŠ•¶š—ñ‚ÌƒAƒNƒZƒX•”•ª
- 
-PRIM_SRVM.HttpRequest_QueryParameter.Name.Name=Name ƒpƒ‰ƒ[ƒ^
-PRIM_SRVM.HttpRequest_QueryParameter.Name.Desc=ƒAƒNƒZƒX‚·‚éƒNƒGƒŠ•¶š—ñ•”•ª‚Ì–¼‘O
  
 PRIM_SRVM.HttpRequest_QueryParameters.Name=QueryParameters ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequest_QueryParameters.Desc=ƒNƒGƒŠ ƒpƒ‰ƒ[ƒ^‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
@@ -19006,29 +19657,8 @@ PRIM_SRVM.HttpRequest_QueryParameters.Desc=ƒNƒGƒŠ ƒpƒ‰ƒ[ƒ^‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQ
 PRIM_SRVM.HttpRequest_QueryString.Name=QueryString ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequest_QueryString.Desc=ƒNƒGƒŠ•¶š—ñ‚ğ—v‹
  
-PRIM_SRVM.HttpRequest_ScriptName.Name=ScriptName ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_ScriptName.Desc=ƒXƒNƒŠƒvƒg–¼‚ğ—v‹
- 
-PRIM_SRVM.HttpRequest_ServerVariable.Name=ServerVariable ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_ServerVariable.Desc=ƒT[ƒo[•Ï”‚ÉƒAƒNƒZƒX
- 
-PRIM_SRVM.HttpRequest_ServerVariable.Name.Name=Name ƒpƒ‰ƒ[ƒ^
-PRIM_SRVM.HttpRequest_ServerVariable.Name.Desc=ƒAƒNƒZƒX‚·‚éƒT[ƒo[•Ï”‚Ì–¼‘O
- 
 PRIM_SRVM.HttpRequest_ServerVariables.Name=ServerVariables ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequest_ServerVariables.Desc=ƒT[ƒo[•Ï”‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
- 
-PRIM_SRVM.HttpRequest_URL.Name=URL ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_URL.Desc=URL ‚ğ—v‹
- 
-PRIM_SRVM.HttpRequest_URLPart.Name=URLPart ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_URLPart.Desc=URL ‚Ì•”•ª‚ÉƒAƒNƒZƒX
- 
-PRIM_SRVM.HttpRequest_URLPart.Index.Name=Index ƒpƒ‰ƒ[ƒ^
-PRIM_SRVM.HttpRequest_URLPart.Index.Desc=ƒAƒNƒZƒX‚·‚é URL •”•ª‚ÌƒCƒ“ƒfƒbƒNƒX
- 
-PRIM_SRVM.HttpRequest_URLPartCount.Name=URLPartCount ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequest_URLPartCount.Desc=URL •”•ª‚Ì”
  
 PRIM_SRVM.HttpRequestContent.Name=PRIM_SRVM.HttpRequestContent
 PRIM_SRVM.HttpRequestContent.Desc=ƒRƒ“ƒeƒ“ƒc‚ğ—v‹
@@ -19044,12 +19674,6 @@ PRIM_SRVM.HttpRequestContent_FileExtension.Desc=ƒRƒ“ƒeƒ“ƒc ƒtƒ@ƒCƒ‹‚ÌŠg’£q
  
 PRIM_SRVM.HttpRequestContent_Files.Name=Files ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequestContent_Files.Desc=ƒtƒ@ƒCƒ‹‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
- 
-PRIM_SRVM.HttpRequestContent_FormVariable.Name=FormVariable ƒvƒƒpƒeƒB
-PRIM_SRVM.HttpRequestContent_FormVariable.Desc=“Á’è‚ÌƒtƒH[ƒ€•Ï”‚Ö‚ÌƒAƒNƒZƒX
- 
-PRIM_SRVM.HttpRequestContent_FormVariable.Name.Name=Name ƒpƒ‰ƒ[ƒ^
-PRIM_SRVM.HttpRequestContent_FormVariable.Name.Desc=ƒAƒNƒZƒX‚·‚éƒtƒH[ƒ€•Ï”‚Ì–¼‘O
  
 PRIM_SRVM.HttpRequestContent_FormVariables.Name=FormVariables ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequestContent_FormVariables.Desc=ƒtƒH[ƒ€•Ï”‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
@@ -19854,6 +20478,15 @@ PRIM_TEXT_Text.Desc=Text ƒvƒƒpƒeƒB‚Ì’l‚ÉƒRƒ“ƒ|[ƒlƒ“ƒg‚Ì“ü—Íˆæ‚É•\¦‚³‚ê‚Ä‚¢‚éƒ
  
 PRIM_TEXT_WordWrap.Name=WordWrap ƒvƒƒpƒeƒB
 PRIM_TEXT_WordWrap.Desc=•K—v‚É‰‚¶‚ÄƒeƒLƒXƒg‚ğÜ‚è•Ô‚µ‚Ü‚·B
+ 
+PRIM_THM.Color.Name=PRIM_THM.Color
+PRIM_THM.Color.Desc=ƒe[ƒ}‚Ég—p‚·‚é’è‹`
+ 
+PRIM_THM.Color_Color.Name=Color ƒvƒƒpƒeƒB
+PRIM_THM.Color_Color.Desc=g—p‚·‚éF
+ 
+PRIM_THM.Color_Name.Name=Name ƒvƒƒpƒeƒB
+PRIM_THM.Color_Name.Desc=‚±‚ÌF‚Ég—p‚·‚é–¼‘O
  
 PRIM_THM.DrawStyle.Name=DrawStyle
 PRIM_THM.DrawStyle.Desc=‚ ‚é‹@”\‚É“K—p‚·‚éƒXƒ^ƒCƒ‹‚ğW‚ß‚Ü‚·
@@ -21862,8 +22495,11 @@ PRIM_VIEW.Desc=ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ìƒrƒ…[
 PRIM_VIEW_Caption.Name=Caption ƒvƒƒpƒeƒB
 PRIM_VIEW_Caption.Desc=ƒrƒ…[‚É•\¦‚·‚éƒeƒLƒXƒg
  
-PRIM_VIEW_ClearErrors.Name=ClearErrors method
+PRIM_VIEW_ClearErrors.Name=ClearErrors ƒƒ\ƒbƒh
 PRIM_VIEW_ClearErrors.Desc=ƒrƒ…[“à‚ÌƒtƒB[ƒ‹ƒh‚ÌƒGƒ‰[‚ğƒNƒŠƒA
+ 
+PRIM_VIEW_Closed.Name=Closed ƒCƒxƒ“ƒg
+PRIM_VIEW_Closed.Desc=ƒrƒ…[‚ª•Â‚¶‚ç‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
  
 PRIM_VIEW_IsActiveView.Name=IsActiveView ƒvƒƒpƒeƒB
 PRIM_VIEW_IsActiveView.Desc=ƒAƒNƒeƒBƒu‚Èƒrƒ…[‚Ìê‡ TRUE
@@ -21874,16 +22510,16 @@ PRIM_VIEW_Prepare.Desc=ƒrƒ…[‚ª•\¦‚³‚ê‚æ‚¤‚Æ‚µ‚Ä‚¢‚Ü‚·
 PRIM_VIEW_Show.Name=Show ƒƒ\ƒbƒh
 PRIM_VIEW_Show.Desc=ƒrƒ…[‚Ì•\¦
  
-PRIM_VIEW_Validate.Name=Validate method
+PRIM_VIEW_Validate.Name=Validate ƒƒ\ƒbƒh
 PRIM_VIEW_Validate.Desc=ŠÈ’P‚ÈƒŠƒ|ƒWƒgƒŠ ƒtƒB[ƒ‹ƒh‚Æƒe[ƒuƒ‹‹K‘¥‚ğg‚Á‚ÄƒtƒB[ƒ‹ƒh‚ğŒŸØ‚µ‚Ü‚·
  
-PRIM_VIEW_Validate.Valid.Name=Valid parameter
+PRIM_VIEW_Validate.Valid.Name=Valid ƒpƒ‰ƒ[ƒ^
 PRIM_VIEW_Validate.Valid.Desc=ƒtƒB[ƒ‹ƒh‚ª‘Ã“–«‹K‘¥‚ğ“n‚·ê‡ATRUE ‚ğ•Ô‚µ‚Ü‚·
  
-PRIM_VIEW_Validate.Operation.Name=Operation parameter
+PRIM_VIEW_Validate.Operation.Name=Operation ƒpƒ‰ƒ[ƒ^
 PRIM_VIEW_Validate.Operation.Desc=ƒtƒB[ƒ‹ƒhŒŸØ‚Ì‘ÎÛ‚Æ‚È‚éƒIƒyƒŒ[ƒVƒ‡ƒ“ (‘}“üAXVAíœ)
  
-PRIM_VIEW_Validate.Table.Name=Table parameter
+PRIM_VIEW_Validate.Table.Name=Table ƒpƒ‰ƒ[ƒ^
 PRIM_VIEW_Validate.Table.Desc=ŒŸØ‚Ég—p‚³‚ê‚éƒe[ƒuƒ‹
  
 PRIM_VPAN.Name=ƒrƒfƒI ƒpƒlƒ‹

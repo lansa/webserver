@@ -359,6 +359,19 @@ Category.Caption=Caption
 Category.Other=Other
 Category.User=User
 
+Exception.Arithmetic=Arithmetic exception. Explanation:&1.
+Exception.Arithmetic.DivisionByZeroError=Arithmetic error - attempt to divide by zero. 
+
+Lpx.InterfaceCastFailure=Runtime class casting failure attempting to cast type &1 to interface type &2.
+Lpx.ObjectCastFailure=Runtime class casting failure attempting to cast type &1 to object type &2.
+
+Ioc.InvalidBase16Sequence=Invalid Base16 characters &1 at offset &2.
+Ioc.InvalidBase16Length=&1 is an invalid Base16 length. Length must be divisible by 2.
+Ioc.InvalidBase16String=String '&1' is not a valid Base16 encoded value.
+Ioc.InvalidBase64Length=&1 is an invalid Base64 length. Length must be divisible by 4.
+Ioc.InvalidBase64Sequence=Invalid Base64 characters &1 at offset &2.
+Ioc.Format.Base64ArrayChar=Character array contains invalid Base64 encoded values.
+
 Rx.UnexpectedEndOfPattern=Unexpected end of regular expression pattern.
 Rx.InvalidAlternation=Invalid alternation. Too many | in (?()|)."
 Rx.BadQuantifier=Bad quantifier at &1.
@@ -416,3 +429,29 @@ Uri.DefaultValuesAreImmutable=Default values collection is immutable.
 Uri.Duplicate=Uri templates '&1' and '&2' contain duplicate queries.
 Uri.OtherAmbiguousQueries=Uri template collection contains ambiguous queries - &1
 Uri.AmbiguousQueries=Uri templates '&1' and '&2' contain ambiguous queries.
+
+Capi.BlockIncorrect=Header of block of PKCS1 data is invalid. The type is wrong or length is invalid.
+Capi.BlockIncorrectSize=Block size of data incorrect for PKCS1 encoding instructed to use strict length.
+Capi.BlockTruncated=Processed block of PKCS1 data is invalid. It has been truncated.
+Capi.CannotReuseNonceForGCMEncryption=Cannot reuse nonce for GCM encryption.
+Capi.CipherRequiredBlockSize=Block size of cipher supplied to GCM engine does not match required block size of GCM. Supplied &1; required 16.
+Capi.CipherRequiredWithBlockSize=Invalid cipher. Cipher block size must match engine block size of &1.
+Capi.DiffieHellmanPublicKeyHasWrongParameters=Parameters of public key supplied to calculate agreement of DiffieHellman key exchange agreement do not match the private key used to initialize the engine.
+Capi.EngineNotInitialised=Cryptography engine has not been initialized before the first request to process data.
+Capi.KeyAgreementAlgorithmNotInitialised=Key Agreement algorithm not initialised.
+Capi.InputCountTooLargeForElGamalCipher=Input count too large for ElGamal cipher.
+Capi.InputTooLargeForElGamalCipher=Input too large for ElGamal cipher.
+Capi.InvalidParametersPassedToInit=CAPI engine class name &1 does not support parameter class name &2 during Init call.
+Capi.InvalidValueForMacSize=Value &1 is an invalid MAC bit size. Value must be between 32 and 128 inclusive and a multiple of 8.
+Capi.InvalidValueForMacSizeForOcb=Value &1 is an invalid MAC bit size. Value must be between 64 and 128 inclusive and a multiple of 8.
+Capi.IvMustBeAtLeastOneByte=Invalid IV value. Value must be have a least one byte.
+Capi.MacCheckInCCMFailed=Invalid cipher text. MAC check during CCM decryption has failed.
+Capi.MacCheckInEaxFailed=Invalid cipher text. MAC check during EAX decryption has failed.
+Capi.MacCheckInOcbFailed=Invalid cipher text. MAC check during OCB decryption has failed.
+Capi.NoDataInBlock=Processed block of PKCS1 data is invalid. It does not contain any data.
+Capi.PrivateKeyRequiredForSigning=Private key parameter required to initialize signer for signing.
+Capi.PublicKeyHasWrongParametersForDiffieHellman=Public key has wrong parameters for DiffieHellman.
+Capi.PublicKeyIsWeakForDiffieHellman=Public key is weak for DiffieHellman.
+Capi.PublicKeyRequiredForSigning=Public key parameter required to initialize signer for verification.
+Capi.UnknownBlockType=Processed block of PKCS1 data is invalid. Value &1 is an unknown block type.
+

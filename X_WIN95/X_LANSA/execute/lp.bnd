@@ -3493,6 +3493,9 @@ PRIM_DLG.Desc=Simple modal dialog with shroud
 PRIM_DLG_AutoClose.Name=AutoClose property
 PRIM_DLG_AutoClose.Desc=Close the dialog automatically
  
+PRIM_DLG_AutoFocus.Name=AutoFocus property
+PRIM_DLG_AutoFocus.Desc=AutoFocus property sets focus to dialog automatically when opened
+ 
 PRIM_DLG_ClearErrors.Name=ClearErrors method
 PRIM_DLG_ClearErrors.Desc=Clears errors of fields in the dialog
  
@@ -11257,6 +11260,9 @@ PRIM_LIST.Button_Alignment.Desc=Position of the caption within the button
 PRIM_LIST.Button_Caption.Name=Caption property
 PRIM_LIST.Button_Caption.Desc=Text to be displayed within the control
  
+PRIM_LIST.Button_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Button_CellThemeDrawStyle.Desc=Theme Drawstyle to be applied to the list cell
+ 
 PRIM_LIST.Button_Click.Name=Click event
 PRIM_LIST.Button_Click.Desc=Fired when the button is clicked
  
@@ -11298,6 +11304,9 @@ PRIM_LIST.CheckBox.Desc=Column displaying a check box for each item in the list
  
 PRIM_LIST.CheckBox_ButtonState.Name=ButtonState property
 PRIM_LIST.CheckBox_ButtonState.Desc=ButtonState indicates whether a check box is checked
+ 
+PRIM_LIST.CheckBox_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.CheckBox_CellThemeDrawStyle.Desc=Theme drawstyle to be applied to a checkbox cell in a list
  
 PRIM_LIST.CheckBox_Click.Name=Click event
 PRIM_LIST.CheckBox_Click.Desc=Fired when the check box is clicked
@@ -11523,6 +11532,9 @@ PRIM_LIST.CurrentItem_Visible.Desc=Show or hide the list item
  
 PRIM_LIST.DateTime.Name=List DateTime Column
 PRIM_LIST.DateTime.Desc=Column displaying date/times
+ 
+PRIM_LIST.DateTime_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.DateTime_CellThemeDrawStyle.Desc=DrawStyle to be applied to a DateTime cell in a list
  
 PRIM_LIST.DateTime_CheckBox.Name=Checkbox property
 PRIM_LIST.DateTime_CheckBox.Desc=Checkbox controls whether the date and time picker is enabled
@@ -11752,6 +11764,132 @@ PRIM_LIST.DropDown_Text.Desc=Text contains the formatted data currently showing 
 PRIM_LIST.DropDown_Value.Name=Value property
 PRIM_LIST.DropDown_Value.Desc=Value of the data class
  
+PRIM_LIST.Icon.Name=PRIM_LIST.Icon
+PRIM_LIST.Icon.Desc=Column to display Icons in a list
+ 
+PRIM_LIST.Icon_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Icon_CellThemeDrawStyle.Desc=Drawstyle to be applied to an icon cell in a list
+ 
+PRIM_LIST.Icon_ColumnCaptionType.Name=ColumnCaptionType property
+PRIM_LIST.Icon_ColumnCaptionType.Desc=Type of caption to appear in the column header
+ 
+PRIM_LIST.Icon_CurrentItem.Name=CurrentItem property
+PRIM_LIST.Icon_CurrentItem.Desc=Provides access to the Icon for the current list item
+ 
+PRIM_LIST.Icon_FocusItem.Name=FocusItem property
+PRIM_LIST.Icon_FocusItem.Desc=Provides access to the Icon for the current list item
+ 
+PRIM_LIST.Icon_Icon.Name=Icon property
+PRIM_LIST.Icon_Icon.Desc=Image displayed within the cell
+ 
+PRIM_LIST.Icon_IconAlignment.Name=IconAlignment property
+PRIM_LIST.Icon_IconAlignment.Desc==Position of the icon within the cell
+ 
+PRIM_LIST.Icon_IconColor.Name=IconColor property
+PRIM_LIST.Icon_IconColor.Desc=Color to be used for icon
+ 
+PRIM_LIST.Icon_IconFileName.Name=IconFileName property
+PRIM_LIST.Icon_IconFileName.Desc=FileName is the name of image file
+ 
+PRIM_LIST.Icon_IconHeight.Name=IconHeight property
+PRIM_LIST.Icon_IconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_LIST.Icon_IconImage.Name=IconImage property
+PRIM_LIST.Icon_IconImage.Desc=Material design image to show on the control
+ 
+PRIM_LIST.Icon_IconImageSizing.Name=IconImageSizing property
+PRIM_LIST.Icon_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
+ 
+PRIM_LIST.Icon_IconMarginBottom.Name=IconMarginBottom property
+PRIM_LIST.Icon_IconMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.Icon_IconMarginLeft.Name=IconMarginLeft property
+PRIM_LIST.Icon_IconMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.Icon_IconMarginRight.Name=IconMarginRight property
+PRIM_LIST.Icon_IconMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.Icon_IconMarginTop.Name=IconMarginTop property
+PRIM_LIST.Icon_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.Icon_IconOpacity.Name=IconOpacity property
+PRIM_LIST.Icon_IconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_LIST.Icon_IconPadding.Name=IconPadding property
+PRIM_LIST.Icon_IconPadding.Desc=Padding of the icon in pixels
+ 
+PRIM_LIST.Icon_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_LIST.Icon_IconThemeDrawStyle.Desc=Drawstyle to be applied to Icon
+ 
+PRIM_LIST.Icon_PaddingBottom.Name=PaddingBottom property
+PRIM_LIST.Icon_PaddingBottom.Desc=Bottom padding in pixels
+ 
+PRIM_LIST.Icon_PaddingLeft.Name=PaddingLeft property
+PRIM_LIST.Icon_PaddingLeft.Desc=Left padding in pixels
+ 
+PRIM_LIST.Icon_PaddingRight.Name=PaddingRight property
+PRIM_LIST.Icon_PaddingRight.Desc=Right padding in pixels
+ 
+PRIM_LIST.Icon_PaddingTop.Name=PaddingTop property
+PRIM_LIST.Icon_PaddingTop.Desc=Top padding in pixels
+ 
+PRIM_LIST.IconCurrentItem.Name=PRIM_LIST.IconCurrentItem
+PRIM_LIST.IconCurrentItem.Desc=Provides access to the icon for the current list item.
+ 
+PRIM_LIST.IconCurrentItem_Icon.Name=Icon property
+PRIM_LIST.IconCurrentItem_Icon.Desc=Image displayed within the item
+ 
+PRIM_LIST.IconCurrentItem_IconAlignment.Name=IconAlignment property
+PRIM_LIST.IconCurrentItem_IconAlignment.Desc=Position of the icon within the control
+ 
+PRIM_LIST.IconCurrentItem_IconColor.Name=IconColor property
+PRIM_LIST.IconCurrentItem_IconColor.Desc=Color to be applied to the icon
+ 
+PRIM_LIST.IconCurrentItem_IconFileName.Name=IconFileName property
+PRIM_LIST.IconCurrentItem_IconFileName.Desc=FileName is the name of image file
+ 
+PRIM_LIST.IconCurrentItem_IconHeight.Name=IconHeight property
+PRIM_LIST.IconCurrentItem_IconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconImage.Name=IconImage property
+PRIM_LIST.IconCurrentItem_IconImage.Desc=Material design image to show on the control
+ 
+PRIM_LIST.IconCurrentItem_IconImageSizing.Name=IconImageSizing property
+PRIM_LIST.IconCurrentItem_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
+ 
+PRIM_LIST.IconCurrentItem_IconMarginBottom.Name=IconMarginBottom property
+PRIM_LIST.IconCurrentItem_IconMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconMarginLeft.Name=IconMarginLeft property
+PRIM_LIST.IconCurrentItem_IconMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconMarginRight.Name=IconMarginRight property
+PRIM_LIST.IconCurrentItem_IconMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconMarginTop.Name=IconMarginTop property
+PRIM_LIST.IconCurrentItem_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconOpacity.Name=IconOpacity property
+PRIM_LIST.IconCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_LIST.IconCurrentItem_IconPadding.Name=IconPadding property
+PRIM_LIST.IconCurrentItem_IconPadding.Desc=Padding of the icon in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_LIST.IconCurrentItem_IconThemeDrawStyle.Desc=Drawstyle to be applied to Icon
+ 
+PRIM_LIST.IconCurrentItem_PaddingBottom.Name=PaddingBottom property
+PRIM_LIST.IconCurrentItem_PaddingBottom.Desc=Bottom padding in pixels
+ 
+PRIM_LIST.IconCurrentItem_PaddingLeft.Name=PaddingLeft property
+PRIM_LIST.IconCurrentItem_PaddingLeft.Desc=Left padding in pixels
+ 
+PRIM_LIST.IconCurrentItem_PaddingRight.Name=PaddingRight property
+PRIM_LIST.IconCurrentItem_PaddingRight.Desc=Right padding in pixels
+ 
+PRIM_LIST.IconCurrentItem_PaddingTop.Name=PaddingTop property
+PRIM_LIST.IconCurrentItem_PaddingTop.Desc=Top padding in pixels
+ 
 PRIM_LIST.IListCellDesign.Name=List Cell Interface
 PRIM_LIST.IListCellDesign.Desc=Interface allowing a List to communicate with a reusable part being used as a cell
  
@@ -11839,6 +11977,9 @@ PRIM_LIST.IListCellDesign_OnUpdate.ListItem.Desc=Reference to the list item bein
 PRIM_LIST.Image.Name=List Image Column
 PRIM_LIST.Image.Desc=Column displaying an image
  
+PRIM_LIST.Image_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Image_CellThemeDrawStyle.Desc=Drawstyle to be used on list cell
+ 
 PRIM_LIST.Image_Click.Name=Click event
 PRIM_LIST.Image_Click.Desc=Fired when the mouse is clicked on the control
  
@@ -11913,6 +12054,183 @@ PRIM_LIST.ImageCurrentItem_ImageUnits.Desc=Specifies whether the image is measur
  
 PRIM_LIST.ImageCurrentItem_ImageWidth.Name=ImageWidth property
 PRIM_LIST.ImageCurrentItem_ImageWidth.Desc=Width of the image. See ImageUnits
+ 
+PRIM_LIST.Label.Name=PRIM_LIST.Label
+PRIM_LIST.Label.Desc=Material Design Label to be shown in column
+ 
+PRIM_LIST.Label_Caption.Name=Caption property
+PRIM_LIST.Label_Caption.Desc=Text to be displayed within the label
+ 
+PRIM_LIST.Label_CaptionAlignment.Name=CaptionAlignment property
+PRIM_LIST.Label_CaptionAlignment.Desc=Position of the caption within the control
+ 
+PRIM_LIST.Label_CaptionMarginBottom.Name=CaptionMarginBottom property
+PRIM_LIST.Label_CaptionMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.Label_CaptionMarginLeft.Name=CaptionMarginLeft property
+PRIM_LIST.Label_CaptionMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.Label_CaptionMarginRight.Name=CaptionMarginRight property
+PRIM_LIST.Label_CaptionMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.Label_CaptionMarginTop.Name=CaptionMarginTop property
+PRIM_LIST.Label_CaptionMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.Label_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Label_CellThemeDrawStyle.Desc=Drawstyle to be used in list cell
+ 
+PRIM_LIST.Label_ColumnCaptionType.Name=ColumnCaptionType property
+PRIM_LIST.Label_ColumnCaptionType.Desc=Type of caption to appear in the column header
+ 
+PRIM_LIST.Label_CurrentItem.Name=CurrentItem property
+PRIM_LIST.Label_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
+ 
+PRIM_LIST.Label_Ellipses.Name=Ellipses property
+PRIM_LIST.Label_Ellipses.Desc=Specifies if ellipses are displayed when text is truncated
+ 
+PRIM_LIST.Label_FocusItem.Name=FocusItem property
+PRIM_LIST.Label_FocusItem.Desc=Reference to the focus label in the focus entry of the list
+ 
+PRIM_LIST.Label_Icon.Name=Icon property
+PRIM_LIST.Label_Icon.Desc=Icon to be used in label
+ 
+PRIM_LIST.Label_IconAlignment.Name=IconAlignment property
+PRIM_LIST.Label_IconAlignment.Desc=Position of the caption within the control
+ 
+PRIM_LIST.Label_IconColor.Name=IconColor property
+PRIM_LIST.Label_IconColor.Desc=Color to be applied to the icon
+ 
+PRIM_LIST.Label_IconFileName.Name=IconFileName property
+PRIM_LIST.Label_IconFileName.Desc=FileName is the name of image file
+ 
+PRIM_LIST.Label_IconHeight.Name=IconHeight property
+PRIM_LIST.Label_IconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_LIST.Label_IconImage.Name=IconImage property
+PRIM_LIST.Label_IconImage.Desc=Image to be shown on the control
+ 
+PRIM_LIST.Label_IconImageSizing.Name=IconImageSizing property
+PRIM_LIST.Label_IconImageSizing.Desc=Specifies the sizing behavior of the IconImage
+ 
+PRIM_LIST.Label_IconMarginBottom.Name=IconMarginBottom property
+PRIM_LIST.Label_IconMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.Label_IconMarginLeft.Name=IconMarginLeft property
+PRIM_LIST.Label_IconMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.Label_IconMarginRight.Name=IconMarginRight property
+PRIM_LIST.Label_IconMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.Label_IconMarginTop.Name=IconMarginTop property
+PRIM_LIST.Label_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.Label_IconOpacity.Name=IconOpacity property
+PRIM_LIST.Label_IconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_LIST.Label_IconPadding.Name=IconPadding property
+PRIM_LIST.Label_IconPadding.Desc=Padding of an Icon in pixels
+ 
+PRIM_LIST.Label_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_LIST.Label_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
+PRIM_LIST.Label_PaddingBottom.Name=PaddingBottom property
+PRIM_LIST.Label_PaddingBottom.Desc=Bottom padding in pixels
+ 
+PRIM_LIST.Label_PaddingLeft.Name=PaddingLeft property
+PRIM_LIST.Label_PaddingLeft.Desc=Left padding in pixels
+ 
+PRIM_LIST.Label_PaddingRight.Name=PaddingRight property
+PRIM_LIST.Label_PaddingRight.Desc=Right padding in pixels
+ 
+PRIM_LIST.Label_PaddingTop.Name=PaddingTop property
+PRIM_LIST.Label_PaddingTop.Desc=Top padding in pixels
+ 
+PRIM_LIST.Label_SortOnClick.Name=SortOnClick property
+PRIM_LIST.Label_SortOnClick.Desc=Sort the column when the column header is clicked
+ 
+PRIM_LIST.Label_WordWrap.Name=WordWrap property
+PRIM_LIST.Label_WordWrap.Desc=Wrap text on to the next line if there is insufficient space
+ 
+PRIM_LIST.LabelCurrentItem.Name=PRIM_LIST.LabelCurrentItem
+PRIM_LIST.LabelCurrentItem.Desc=Provides access to the label of the current list item
+ 
+PRIM_LIST.LabelCurrentItem_Caption.Name=Caption property
+PRIM_LIST.LabelCurrentItem_Caption.Desc=Text to be displayed within the label
+ 
+PRIM_LIST.LabelCurrentItem_CaptionAlignment.Name=CaptionAlignment property
+PRIM_LIST.LabelCurrentItem_CaptionAlignment.Desc=Position of the caption within the control
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginBottom.Name=CaptionMarginBottom property
+PRIM_LIST.LabelCurrentItem_CaptionMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginLeft.Name=CaptionMarginLeft property
+PRIM_LIST.LabelCurrentItem_CaptionMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginRight.Name=CaptionMarginRight property
+PRIM_LIST.LabelCurrentItem_CaptionMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Name=CaptionMarginTop property
+PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_Ellipses.Name=Ellipses property
+PRIM_LIST.LabelCurrentItem_Ellipses.Desc=Show ellipses for truncated text
+ 
+PRIM_LIST.LabelCurrentItem_Icon.Name=Icon property
+PRIM_LIST.LabelCurrentItem_Icon.Desc=Material design image to show on the control
+ 
+PRIM_LIST.LabelCurrentItem_IconAlignment.Name=IconAlignment property
+PRIM_LIST.LabelCurrentItem_IconAlignment.Desc=Position of the icon within the control
+ 
+PRIM_LIST.LabelCurrentItem_IconColor.Name=IconColor property
+PRIM_LIST.LabelCurrentItem_IconColor.Desc=Color to be applied to the icon
+ 
+PRIM_LIST.LabelCurrentItem_IconFileName.Name=IconFileName property
+PRIM_LIST.LabelCurrentItem_IconFileName.Desc=FileName is the name of image file
+ 
+PRIM_LIST.LabelCurrentItem_IconHeight.Name=IconHeight property
+PRIM_LIST.LabelCurrentItem_IconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconImage.Name=IconImage property
+PRIM_LIST.LabelCurrentItem_IconImage.Desc=Material design image to show on the control
+ 
+PRIM_LIST.LabelCurrentItem_IconImageSizing.Name=IconImageSizing property
+PRIM_LIST.LabelCurrentItem_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginBottom.Name=IconMarginBottom property
+PRIM_LIST.LabelCurrentItem_IconMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginLeft.Name=IconMarginLeft property
+PRIM_LIST.LabelCurrentItem_IconMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginRight.Name=IconMarginRight property
+PRIM_LIST.LabelCurrentItem_IconMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginTop.Name=IconMarginTop property
+PRIM_LIST.LabelCurrentItem_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconOpacity.Name=IconOpacity property
+PRIM_LIST.LabelCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_LIST.LabelCurrentItem_IconPadding.Name=IconPadding property
+PRIM_LIST.LabelCurrentItem_IconPadding.Desc=Padding of the icon in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_LIST.LabelCurrentItem_IconThemeDrawStyle.Desc=Drawstyle to be applied to Icon
+ 
+PRIM_LIST.LabelCurrentItem_PaddingBottom.Name=PaddingBottom property
+PRIM_LIST.LabelCurrentItem_PaddingBottom.Desc=Bottom padding in pixels
+ 
+PRIM_LIST.LabelCurrentItem_PaddingLeft.Name=PaddingLeft property
+PRIM_LIST.LabelCurrentItem_PaddingLeft.Desc=Left padding in pixels
+ 
+PRIM_LIST.LabelCurrentItem_PaddingRight.Name=PaddingRight property
+PRIM_LIST.LabelCurrentItem_PaddingRight.Desc=Right padding in pixels
+ 
+PRIM_LIST.LabelCurrentItem_PaddingTop.Name=PaddingTop property
+PRIM_LIST.LabelCurrentItem_PaddingTop.Desc=Top padding in pixels
+ 
+PRIM_LIST.LabelCurrentItem_WordWrap.Name=WordWrap property
+PRIM_LIST.LabelCurrentItem_WordWrap.Desc=Wrap text on to the next line if there is insufficient space
  
 PRIM_LIST.ListItem.Name=List List Item
 PRIM_LIST.ListItem.Desc=List Item
@@ -12097,6 +12415,9 @@ PRIM_LIST.Number.Desc=Column displaying numerical data
 PRIM_LIST.Number_AutoSelect.Name=AutoSelect property
 PRIM_LIST.Number_AutoSelect.Desc=Automatically select the text when the control receives focus
  
+PRIM_LIST.Number_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Number_CellThemeDrawStyle.Desc=Drawstyle for list cell
+ 
 PRIM_LIST.Number_Click.Name=Click event
 PRIM_LIST.Number_Click.Desc=Fired when the mouse is clicked on the control
  
@@ -12223,6 +12544,9 @@ PRIM_LIST.NumberCurrentItem_Wrap.Desc=Set to true to start again when either end
 PRIM_LIST.Part.Name=List Reusable Part Column
 PRIM_LIST.Part.Desc=Column displaying a reusable part in the cell
  
+PRIM_LIST.Part_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Part_CellThemeDrawStyle.Desc=Drawstyle for list cell
+ 
 PRIM_LIST.Part_CurrentItem.Name=CurrentItem property
 PRIM_LIST.Part_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
  
@@ -12304,6 +12628,9 @@ PRIM_LIST_ColumnThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to
 PRIM_LIST_CurrentItem.Name=List Current Item
 PRIM_LIST_CurrentItem.Desc=Base class for all Prim_List Current Item classes
  
+PRIM_LIST_CurrentPage.Name=CurrentPage property
+PRIM_LIST_CurrentPage.Desc=Specifies the current page to be displayed
+ 
 PRIM_LIST_Enter.Name=Enter event
 PRIM_LIST_Enter.Desc=Fired when the Enter key is pressed
  
@@ -12327,6 +12654,15 @@ PRIM_LIST_Enter.Handled.Desc=Set to true to stop the key being processed automat
  
 PRIM_LIST_EnterKeyStyle.Name=EnterKeyStyle property
 PRIM_LIST_EnterKeyStyle.Desc=EnterKeyStyle determines what happens when Enter key is pressed in a list
+ 
+PRIM_LIST_Export.Name=Export method
+PRIM_LIST_Export.Desc=Exports list data to text file
+ 
+PRIM_LIST_Export.FileName.Name=FileName parameter
+PRIM_LIST_Export.FileName.Desc=Specifies the file name of the text file to export
+ 
+PRIM_LIST_Filter.Name=Filter property
+PRIM_LIST_Filter.Desc=String to be searched for to filter the list
  
 PRIM_LIST_FindItem.Name=FindItem method
 PRIM_LIST_FindItem.Desc=Executes the OnFind method on the design interface for all list items
@@ -12496,6 +12832,9 @@ PRIM_LIST_RowResize.Desc=Allow rows to be resized
 PRIM_LIST_RowSizing.Name=RowSizing property
 PRIM_LIST_RowSizing.Desc=Determines how rows will resize
  
+PRIM_LIST_RowsPerPage.Name=RowsPerPage property
+PRIM_LIST_RowsPerPage.Desc=Specifies how many rows will appear per page
+ 
 PRIM_LIST_ScrollChanged.Name=ScrollChanged event
 PRIM_LIST_ScrollChanged.Desc=Fired when the scrollbars in a composite control are moved
  
@@ -12507,6 +12846,9 @@ PRIM_LIST_SelectedRowCount.Desc=SelectedRowCount shows how many columns have bee
  
 PRIM_LIST_SelectionStyle.Name=SelectionStyle property
 PRIM_LIST_SelectionStyle.Desc=Specifies the rules for item selection within the list
+ 
+PRIM_LIST_ShowPages.Name=ShowPages property
+PRIM_LIST_ShowPages.Desc=Show or hide the paging buttons
  
 PRIM_LIST_TreeButtons.Name=TreeButtons property
 PRIM_LIST_TreeButtons.Desc=Show or hide the expand/collapse images
@@ -12540,6 +12882,9 @@ PRIM_LIST.String_AutoCompleting.Value.Desc=Current value of the field and the re
  
 PRIM_LIST.String_AutoSelect.Name=AutoSelect property
 PRIM_LIST.String_AutoSelect.Desc=Automatically select the text when the control receives focus
+ 
+PRIM_LIST.String_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.String_CellThemeDrawStyle.Desc=Drawstyle for list cell
  
 PRIM_LIST.String_CharacterCase.Name=CharacterCase property
 PRIM_LIST.String_CharacterCase.Desc=CharacterCase sets character case
@@ -13540,6 +13885,9 @@ PRIM_MD.ActionButton_Click.Handled.Desc=Set to true to stop the event being prop
 PRIM_MD.ActionButton_Ellipses.Name=Ellipses property
 PRIM_MD.ActionButton_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.ActionButton_GotFocus.Name=GotFocus event
+PRIM_MD.ActionButton_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.ActionButton_Icon.Name=Icon property
 PRIM_MD.ActionButton_Icon.Desc=Image displayed within the button
  
@@ -13576,8 +13924,14 @@ PRIM_MD.ActionButton_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ActionButton_IconOpacity.Name=IconOpacity property
 PRIM_MD.ActionButton_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ActionButton_IconPadding.Name=IconPadding property
+PRIM_MD.ActionButton_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.ActionButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ActionButton_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
+PRIM_MD.ActionButton_LostFocus.Name=LostFocus event
+PRIM_MD.ActionButton_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.ActionButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.ActionButton_PaddingBottom.Desc=Bottom padding in pixels
@@ -13672,6 +14026,9 @@ PRIM_MD.Alert_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.Alert_IconOpacity.Name=IconOpacity property
 PRIM_MD.Alert_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.Alert_IconPadding.Name=IconPadding property
+PRIM_MD.Alert_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.Alert_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.Alert_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -13765,6 +14122,12 @@ PRIM_MD.AppBar_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.AppBar_IconOpacity.Name=IconOpacity property
 PRIM_MD.AppBar_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.AppBar_IconPadding.Name=IconPadding property
+PRIM_MD.AppBar_IconPadding.Desc=Padding of the icon in pixels
+ 
+PRIM_MD.AppBar_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_MD.AppBar_IconThemeDrawStyle.Desc=Drawstyle to be applied to Icon
+ 
 PRIM_MD.AppDrawer.Name=Application Drawer
 PRIM_MD.AppDrawer.Desc=Popup sidebar showing navigation options
  
@@ -13837,6 +14200,9 @@ PRIM_MD.CheckBox_CheckState.Desc=CheckState indicates whether a check box is che
 PRIM_MD.CheckBox_Ellipses.Name=Ellipses property
 PRIM_MD.CheckBox_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.CheckBox_GotFocus.Name=GotFocus event
+PRIM_MD.CheckBox_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.CheckBox_IconAlignment.Name=IconAlignment property
 PRIM_MD.CheckBox_IconAlignment.Desc=Position of the icon within the control
  
@@ -13857,6 +14223,9 @@ PRIM_MD.CheckBox_IconMarginRight.Desc=Right margin in pixels
  
 PRIM_MD.CheckBox_IconMarginTop.Name=IconMarginTop property
 PRIM_MD.CheckBox_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_MD.CheckBox_LostFocus.Name=LostFocus event
+PRIM_MD.CheckBox_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.CheckBox_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.CheckBox_PaddingBottom.Desc=Bottom padding in pixels
@@ -14031,6 +14400,9 @@ PRIM_MD.Dropdown_AutoSuggest.Desc=Fired when the value is changed after a short 
  
 PRIM_MD.Dropdown_Changed.Name=Changed event
 PRIM_MD.Dropdown_Changed.Desc=Fired when the value is changed
+ 
+PRIM_MD.Dropdown_ClearButton.Name=ClearButton property
+PRIM_MD.Dropdown_ClearButton.Desc=Specifies if clear button is displayed on control
  
 PRIM_MD.Dropdown_CloseDropDown.Name=CloseDropDown method
 PRIM_MD.Dropdown_CloseDropDown.Desc=Forces the list portion of the DropDown to be closed
@@ -14296,6 +14668,9 @@ PRIM_MD.Edit_AutoSuggest.Desc=Fired when the value is changed after a short dela
 PRIM_MD.Edit_Changed.Name=Changed event
 PRIM_MD.Edit_Changed.Desc=Fired when the value is changed
  
+PRIM_MD.Edit_ClearButton.Name=ClearButton property
+PRIM_MD.Edit_ClearButton.Desc=Specifies if clear button is displayed on control
+ 
 PRIM_MD.Edit_DisplayAlignment.Name=DisplayAlignment property
 PRIM_MD.Edit_DisplayAlignment.Desc=DisplayAlignment sets the text alignment when not in focus
  
@@ -14374,6 +14749,9 @@ PRIM_MD.Edit_PromptIconFileName.Desc=FileName is the name of image file
 PRIM_MD.Edit_PromptIconHeight.Name=PromptIconHeight property
 PRIM_MD.Edit_PromptIconHeight.Desc=Height of the icon in pixels
  
+PRIM_MD.Edit_PromptIconHint.Name=PromptIconHint property
+PRIM_MD.Edit_PromptIconHint.Desc=Text to be displayed for prompter
+ 
 PRIM_MD.Edit_PromptIconImage.Name=PromptIconImage property
 PRIM_MD.Edit_PromptIconImage.Desc=Material design image to show on the control
  
@@ -14437,6 +14815,93 @@ PRIM_MD.EditField_Validate.Operation.Desc=The operation for the field to be vali
 PRIM_MD.EditField_Validate.Table.Name=Table parameter
 PRIM_MD.EditField_Validate.Table.Desc=Table to be used for validation
  
+PRIM_MD.Expander.Name=PRIM_MD.Expander
+PRIM_MD.Expander.Desc=Container for PRIM_MD.ExpanderPanel
+ 
+PRIM_MD.Expander_ViewStyle.Name=ViewStyle property
+PRIM_MD.Expander_ViewStyle.Desc=Specifies how the ExpanderPanels will be expanded and collapsed
+ 
+PRIM_MD.ExpanderPanel.Name=PRIM_MD.ExpanderPanel
+PRIM_MD.ExpanderPanel.Desc=Panel that can be expanded or collapsed
+ 
+PRIM_MD.ExpanderPanel_Caption.Name=Caption property
+PRIM_MD.ExpanderPanel_Caption.Desc=Text to be displayed in expander panel
+ 
+PRIM_MD.ExpanderPanel_CaptionAlignment.Name=CaptionAlignment property
+PRIM_MD.ExpanderPanel_CaptionAlignment.Desc=Position of the caption in Expander panel
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginBottom.Name=CaptionMarginBottom property
+PRIM_MD.ExpanderPanel_CaptionMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginLeft.Name=CaptionMarginLeft property
+PRIM_MD.ExpanderPanel_CaptionMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginRight.Name=CaptionMarginRight property
+PRIM_MD.ExpanderPanel_CaptionMarginRight.Desc=Right margin in pixels
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginTop.Name=CaptionMarginTop property
+PRIM_MD.ExpanderPanel_CaptionMarginTop.Desc=Top margin in pixels
+ 
+PRIM_MD.ExpanderPanel_Collapsing.Name=Collapsing event
+PRIM_MD.ExpanderPanel_Collapsing.Desc=Fired when the panel is collapseing
+ 
+PRIM_MD.ExpanderPanel_Ellipses.Name=Ellipses property
+PRIM_MD.ExpanderPanel_Ellipses.Desc=Show ellipses for truncated text
+ 
+PRIM_MD.ExpanderPanel_Expanded.Name=Expanded property
+PRIM_MD.ExpanderPanel_Expanded.Desc=Returns true if panel is expanded
+ 
+PRIM_MD.ExpanderPanel_Expanding.Name=Expanding event
+PRIM_MD.ExpanderPanel_Expanding.Desc=Fires when the panel is expanding
+ 
+PRIM_MD.ExpanderPanel_Icon.Name=Icon property
+PRIM_MD.ExpanderPanel_Icon.Desc=Icon to be displayed on panel
+ 
+PRIM_MD.ExpanderPanel_IconAlignment.Name=IconAlignment property
+PRIM_MD.ExpanderPanel_IconAlignment.Desc=Alignment of the icon on the panel
+ 
+PRIM_MD.ExpanderPanel_IconColor.Name=IconColor property
+PRIM_MD.ExpanderPanel_IconColor.Desc=Color of the icon
+ 
+PRIM_MD.ExpanderPanel_IconFileName.Name=IconFileName property
+PRIM_MD.ExpanderPanel_IconFileName.Desc=Path to icon file to be used
+ 
+PRIM_MD.ExpanderPanel_IconHeight.Name=IconHeight property
+PRIM_MD.ExpanderPanel_IconHeight.Desc=Height of the icon to be used
+ 
+PRIM_MD.ExpanderPanel_IconImage.Name=IconImage property
+PRIM_MD.ExpanderPanel_IconImage.Desc=Image to be used for the icon
+ 
+PRIM_MD.ExpanderPanel_IconImageSizing.Name=IconImageSizing property
+PRIM_MD.ExpanderPanel_IconImageSizing.Desc=Sizing of the icon
+ 
+PRIM_MD.ExpanderPanel_IconMarginBottom.Name=IconMarginBottom property
+PRIM_MD.ExpanderPanel_IconMarginBottom.Desc=Margin of the icon from the bottom
+ 
+PRIM_MD.ExpanderPanel_IconMarginLeft.Name=IconMarginLeft property
+PRIM_MD.ExpanderPanel_IconMarginLeft.Desc=Margin of the icon from the left
+ 
+PRIM_MD.ExpanderPanel_IconMarginRight.Name=IconMarginRight property
+PRIM_MD.ExpanderPanel_IconMarginRight.Desc=Margin of the icon from the right
+ 
+PRIM_MD.ExpanderPanel_IconMarginTop.Name=IconMarginTop property
+PRIM_MD.ExpanderPanel_IconMarginTop.Desc=Margin of the icon from the top
+ 
+PRIM_MD.ExpanderPanel_IconOpacity.Name=IconOpacity property
+PRIM_MD.ExpanderPanel_IconOpacity.Desc=Specifies the Opacity of the icon
+ 
+PRIM_MD.ExpanderPanel_IconPadding.Name=IconPadding property
+PRIM_MD.ExpanderPanel_IconPadding.Desc=Specifies the Icon padding in pixels
+ 
+PRIM_MD.ExpanderPanel_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_MD.ExpanderPanel_IconThemeDrawStyle.Desc=Drawstyle of the icon
+ 
+PRIM_MD.ExpanderPanel_LayoutManager.Name=LayoutManager property
+PRIM_MD.ExpanderPanel_LayoutManager.Desc=Layout manager of the expander panel
+ 
+PRIM_MD.ExpanderPanel_WordWrap.Name=WordWrap property
+PRIM_MD.ExpanderPanel_WordWrap.Desc=Specifies if the caption will wrap
+ 
 PRIM_MD.FlatButton.Name=Flat Button
 PRIM_MD.FlatButton.Desc=Button shown as a simple flat control
  
@@ -14476,6 +14941,9 @@ PRIM_MD.FlatButton_Click.Handled.Desc=Set to true to stop the event being propag
 PRIM_MD.FlatButton_Ellipses.Name=Ellipses property
 PRIM_MD.FlatButton_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.FlatButton_GotFocus.Name=GotFocus event
+PRIM_MD.FlatButton_GotFocus.Desc=Fired when the control recieves focus
+ 
 PRIM_MD.FlatButton_Icon.Name=Icon property
 PRIM_MD.FlatButton_Icon.Desc=Image displayed within the button
  
@@ -14512,8 +14980,14 @@ PRIM_MD.FlatButton_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.FlatButton_IconOpacity.Name=IconOpacity property
 PRIM_MD.FlatButton_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.FlatButton_IconPadding.Name=IconPadding property
+PRIM_MD.FlatButton_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.FlatButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.FlatButton_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
+PRIM_MD.FlatButton_LostFocus.Name=LostFocus event
+PRIM_MD.FlatButton_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.FlatButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.FlatButton_PaddingBottom.Desc=Bottom padding in pixels
@@ -14578,6 +15052,9 @@ PRIM_MD.Icon_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.Icon_IconOpacity.Name=IconOpacity property
 PRIM_MD.Icon_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.Icon_IconPadding.Name=IconPadding property
+PRIM_MD.Icon_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.Icon_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.Icon_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -14602,6 +15079,9 @@ PRIM_MD.Input_Appearance.Desc=Format of the control
 PRIM_MD.Input_Caption.Name=Caption
 PRIM_MD.Input_Caption.Desc=Caption property
  
+PRIM_MD.Input_CaptionColor.Name=CaptionColor property
+PRIM_MD.Input_CaptionColor.Desc=Color of caption
+ 
 PRIM_MD.Input_CaptionPosition.Name=CaptionPosition property
 PRIM_MD.Input_CaptionPosition.Desc=Sets the position of Caption
  
@@ -14610,6 +15090,9 @@ PRIM_MD.Input_ClearError.Desc=Clear the error
  
 PRIM_MD.Input_HasError.Name=HasError property
 PRIM_MD.Input_HasError.Desc=Is the field flagged as being in error
+ 
+PRIM_MD.Input_HelperColor.Name=HelperColor property
+PRIM_MD.Input_HelperColor.Desc=Color of helper text
  
 PRIM_MD.Input_HelperPosition.Name=HelperPosition property
 PRIM_MD.Input_HelperPosition.Desc=Position where the helper text will be displayed
@@ -14728,6 +15211,9 @@ PRIM_MD.Label_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.Label_IconOpacity.Name=IconOpacity property
 PRIM_MD.Label_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.Label_IconPadding.Name=IconPadding property
+PRIM_MD.Label_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.Label_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.Label_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -14755,8 +15241,14 @@ PRIM_MD.List_Changed.Desc=Fired when the list changes
 PRIM_MD.List_CurrentItem.Name=CurrentItem property
 PRIM_MD.List_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
  
+PRIM_MD.List_CurrentPage.Name=CurrentPage property
+PRIM_MD.List_CurrentPage.Desc=Specifies the current page displayed by the list
+ 
 PRIM_MD.List_DeleteAll.Name=DeleteAll method
 PRIM_MD.List_DeleteAll.Desc=Delete all items in the list
+ 
+PRIM_MD.List_Filter.Name=Filter property
+PRIM_MD.List_Filter.Desc=String to be searched for to filter the list
  
 PRIM_MD.List_FindReference.Name=FindReference method
 PRIM_MD.List_FindReference.Desc=Find an object stored as a RelatedReference
@@ -14878,11 +15370,17 @@ PRIM_MD.List_LostFocus.Desc=Fired when the item loses focus
 PRIM_MD.List_RowHeight.Name=RowHeight property
 PRIM_MD.List_RowHeight.Desc=Height of a row in pixels
  
+PRIM_MD.List_RowsPerPage.Name=RowsPerPage property
+PRIM_MD.List_RowsPerPage.Desc=Amount of rows to be displayed on the page
+ 
 PRIM_MD.List_ScrollChanged.Name=ScrollChanged event
 PRIM_MD.List_ScrollChanged.Desc=Fired when the scrollbars in a composite control are moved
  
 PRIM_MD.List_ScrollChanged.Orientation.Name=Orientation parameter
 PRIM_MD.List_ScrollChanged.Orientation.Desc=Specifies the direction of scroll change
+ 
+PRIM_MD.List_ShowPages.Name=ShowPages property
+PRIM_MD.List_ShowPages.Desc=Specifies if the list will be displayed in pages
  
 PRIM_MD.List_VerticalScrollPos.Name=VerticalScrollPos property
 PRIM_MD.List_VerticalScrollPos.Desc=VerticalScrollPos sets the position of the vertical scroll bar
@@ -14898,6 +15396,9 @@ PRIM_MD.ListBadge_CurrentItem.Desc=The last item in the list touched either in t
  
 PRIM_MD.ListBadge_FocusItem.Name=FocusItem property
 PRIM_MD.ListBadge_FocusItem.Desc=Reference to the badge in the focus entry of the list
+ 
+PRIM_MD.ListBadge_Parent.Name=Parent property
+PRIM_MD.ListBadge_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListBadgeCurrentItem.Name=List Badge Current Item
 PRIM_MD.ListBadgeCurrentItem.Desc=Provides access to the badge of the current list item
@@ -14956,6 +15457,9 @@ PRIM_MD.ListBadgeCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListBadgeCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListBadgeCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListBadgeCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListBadgeCurrentItem_IconPadding.Desc=Padding of an Icon in pixels
+ 
 PRIM_MD.ListBadgeCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListBadgeCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -14979,6 +15483,9 @@ PRIM_MD.ListCheckBox_CurrentItem.Desc=The last item in the list touched either i
  
 PRIM_MD.ListCheckBox_FocusItem.Name=FocusItem property
 PRIM_MD.ListCheckBox_FocusItem.Desc=Reference to the check box in the focus entry of the list
+ 
+PRIM_MD.ListCheckBox_Parent.Name=Parent property
+PRIM_MD.ListCheckBox_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListCheckBox_Source.Name=Source property
 PRIM_MD.ListCheckBox_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15097,6 +15604,9 @@ PRIM_MD.ListDateTime_CurrentItem.Desc=The last item in the list touched either i
 PRIM_MD.ListDateTime_FocusItem.Name=FocusItem property
 PRIM_MD.ListDateTime_FocusItem.Desc=Reference to the datetime field in the focus entry of the list
  
+PRIM_MD.ListDateTime_Parent.Name=Parent property
+PRIM_MD.ListDateTime_Parent.Desc=Reference to the prim_md.list containing the control
+ 
 PRIM_MD.ListDateTime_Source.Name=Source property
 PRIM_MD.ListDateTime_Source.Desc=Name of the repository field used to define and store the data for this control
  
@@ -15184,6 +15694,9 @@ PRIM_MD.ListEdit_CurrentItem.Desc=The last item in the list touched either in th
 PRIM_MD.ListEdit_FocusItem.Name=FocusItem property
 PRIM_MD.ListEdit_FocusItem.Desc=Reference to the focus entry in the list
  
+PRIM_MD.ListEdit_Parent.Name=Parent property
+PRIM_MD.ListEdit_Parent.Desc=A reference to the list that contains the control
+ 
 PRIM_MD.ListEdit_Source.Name=Source property
 PRIM_MD.ListEdit_Source.Desc=Name of the repository field used to define and store the data for this control
  
@@ -15262,6 +15775,9 @@ PRIM_MD.ListEditCurrentItem_PromptIconFileName.Desc=FileName is the name of imag
 PRIM_MD.ListEditCurrentItem_PromptIconHeight.Name=PromptIconHeight property
 PRIM_MD.ListEditCurrentItem_PromptIconHeight.Desc=Height of the icon in pixels
  
+PRIM_MD.ListEditCurrentItem_PromptIconHint.Name=PromptIconHint property
+PRIM_MD.ListEditCurrentItem_PromptIconHint.Desc=Hint to be displayed
+ 
 PRIM_MD.ListEditCurrentItem_PromptIconImage.Name=PromptIconImage property
 PRIM_MD.ListEditCurrentItem_PromptIconImage.Desc=Material design image to show on the control
  
@@ -15297,6 +15813,9 @@ PRIM_MD.ListFlatButton_CurrentItem.Desc=The last item in the list touched either
  
 PRIM_MD.ListFlatButton_FocusItem.Name=FocusItem property
 PRIM_MD.ListFlatButton_FocusItem.Desc=Reference to the flat button in the focus entry of the list
+ 
+PRIM_MD.ListFlatButton_Parent.Name=Parent property
+PRIM_MD.ListFlatButton_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListFlatButton_Source.Name=Source property
 PRIM_MD.ListFlatButton_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15361,6 +15880,9 @@ PRIM_MD.ListFlatButtonCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListFlatButtonCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListFlatButtonCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListFlatButtonCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListFlatButtonCurrentItem_IconPadding.Desc=Padding of an Icon in pixels
+ 
 PRIM_MD.ListFlatButtonCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListFlatButtonCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -15387,6 +15909,9 @@ PRIM_MD.ListIcon_CurrentItem.Desc=List icon current item
  
 PRIM_MD.ListIcon_FocusItem.Name=FocusItem property
 PRIM_MD.ListIcon_FocusItem.Desc=List icon focus item
+ 
+PRIM_MD.ListIcon_Parent.Name=Parent property
+PRIM_MD.ListIcon_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListIcon_SortDirection.Name=SortDirection property
 PRIM_MD.ListIcon_SortDirection.Desc=SortDirection controls how list is sorted
@@ -15436,6 +15961,9 @@ PRIM_MD.ListIconCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListIconCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListIconCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListIconCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListIconCurrentItem_IconPadding.Desc=Padding of an Icon in pixels
+ 
 PRIM_MD.ListIconCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListIconCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -15450,6 +15978,63 @@ PRIM_MD.ListIconCurrentItem_PaddingRight.Desc=Right padding in pixels
  
 PRIM_MD.ListIconCurrentItem_PaddingTop.Name=PaddingTop property
 PRIM_MD.ListIconCurrentItem_PaddingTop.Desc=Top padding in pixels
+ 
+PRIM_MD.ListImage.Name=PRIM_MD.ListImage
+PRIM_MD.ListImage.Desc=An image column to be used in a prim_md.list
+ 
+PRIM_MD.ListImage_CurrentItem.Name=CurrentItem property
+PRIM_MD.ListImage_CurrentItem.Desc=A reference to an prim_md.listImage in the current list item
+ 
+PRIM_MD.ListImage_FocusItem.Name=FocusItem property
+PRIM_MD.ListImage_FocusItem.Desc=A reference to the focus prim_md.listImage in the current list item
+ 
+PRIM_MD.ListImage_Parent.Name=Parent property
+PRIM_MD.ListImage_Parent.Desc=Reference to the prim_md.list containing the control
+ 
+PRIM_MD.ListImageCurrentItem.Name=PRIM_MD.ListImageCurrentItem
+PRIM_MD.ListImageCurrentItem.Desc=A reference to an prim_md.listImage in the current list item
+ 
+PRIM_MD.ListImageCurrentItem_FileName.Name=FileName property
+PRIM_MD.ListImageCurrentItem_FileName.Desc=file name of the image
+ 
+PRIM_MD.ListImageCurrentItem_Image.Name=Image property
+PRIM_MD.ListImageCurrentItem_Image.Desc=image to be displayed
+ 
+PRIM_MD.ListImageCurrentItem_ImageAlignment.Name=ImageAlignment property
+PRIM_MD.ListImageCurrentItem_ImageAlignment.Desc=Position of the image within the control
+ 
+PRIM_MD.ListImageCurrentItem_ImageHeight.Name=ImageHeight property
+PRIM_MD.ListImageCurrentItem_ImageHeight.Desc=Set the height and width of the image in pixels
+ 
+PRIM_MD.ListImageCurrentItem_ImageLeft.Name=ImageLeft property
+PRIM_MD.ListImageCurrentItem_ImageLeft.Desc=Left position of the image. See ImageUnits
+ 
+PRIM_MD.ListImageCurrentItem_ImageSizing.Name=ImageSizing property
+PRIM_MD.ListImageCurrentItem_ImageSizing.Desc=The sizing to be used for the image
+ 
+PRIM_MD.ListImageCurrentItem_ImageTile.Name=ImageTile property
+PRIM_MD.ListImageCurrentItem_ImageTile.Desc=Defines whether the image is repeated
+ 
+PRIM_MD.ListImageCurrentItem_ImageTop.Name=ImageTop property
+PRIM_MD.ListImageCurrentItem_ImageTop.Desc=Top position of the image. See ImageUnits
+ 
+PRIM_MD.ListImageCurrentItem_ImageUnits.Name=ImageUnits property
+PRIM_MD.ListImageCurrentItem_ImageUnits.Desc=Specifies whether the image is measured using pixels or percentages
+ 
+PRIM_MD.ListImageCurrentItem_ImageWidth.Name=ImageWidth property
+PRIM_MD.ListImageCurrentItem_ImageWidth.Desc=Width of the image
+ 
+PRIM_MD.ListImageCurrentItem_MarginBottom.Name=MarginBottom property
+PRIM_MD.ListImageCurrentItem_MarginBottom.Desc=Margin from the bottom in pixels
+ 
+PRIM_MD.ListImageCurrentItem_MarginLeft.Name=MarginLeft property
+PRIM_MD.ListImageCurrentItem_MarginLeft.Desc=Margin from the left in pixels
+ 
+PRIM_MD.ListImageCurrentItem_MarginRight.Name=MarginRight property
+PRIM_MD.ListImageCurrentItem_MarginRight.Desc=Margin from the right in pixels
+ 
+PRIM_MD.ListImageCurrentItem_MarginTop.Name=MarginTop property
+PRIM_MD.ListImageCurrentItem_MarginTop.Desc=Margin from the top in pixels
  
 PRIM_MD.ListItem.Name=List Item
 PRIM_MD.ListItem.Desc=List Item
@@ -15544,6 +16129,9 @@ PRIM_MD.ListLabel_CurrentItem.Desc=The last item in the list touched either in t
 PRIM_MD.ListLabel_FocusItem.Name=FocusItem property
 PRIM_MD.ListLabel_FocusItem.Desc=Reference to the focus label in the focus entry of the list
  
+PRIM_MD.ListLabel_Parent.Name=Parent property
+PRIM_MD.ListLabel_Parent.Desc=Reference to the prim_md.list containing the control
+ 
 PRIM_MD.ListLabel_SortDirection.Name=SortDirection property
 PRIM_MD.ListLabel_SortDirection.Desc=SortDirection controls how list is sorted
  
@@ -15610,6 +16198,9 @@ PRIM_MD.ListLabelCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListLabelCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListLabelCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListLabelCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListLabelCurrentItem_IconPadding.Desc=Padding of an Icon in pixels
+ 
 PRIM_MD.ListLabelCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListLabelCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -15633,6 +16224,9 @@ PRIM_MD.ListRaisedButton_CurrentItem.Desc=The last item in the list touched eith
  
 PRIM_MD.ListRaisedButton_FocusItem.Name=FocusItem property
 PRIM_MD.ListRaisedButton_FocusItem.Desc=Reference to the raised button in the focus entry of the list
+ 
+PRIM_MD.ListRaisedButton_Parent.Name=Parent property
+PRIM_MD.ListRaisedButton_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListRaisedButton_Source.Name=Source property
 PRIM_MD.ListRaisedButton_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15697,6 +16291,9 @@ PRIM_MD.ListRaisedButtonCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListRaisedButtonCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListRaisedButtonCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListRaisedButtonCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListRaisedButtonCurrentItem_IconPadding.Desc=The icon padding value of the current list item
+ 
 PRIM_MD.ListRaisedButtonCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListRaisedButtonCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -15723,6 +16320,9 @@ PRIM_MD.ListSpinEdit_CurrentItem.Desc=The last item in the list touched either i
  
 PRIM_MD.ListSpinEdit_FocusItem.Name=FocusItem property
 PRIM_MD.ListSpinEdit_FocusItem.Desc=Reference to the spin edit in the focus entry of the list
+ 
+PRIM_MD.ListSpinEdit_Parent.Name=Parent property
+PRIM_MD.ListSpinEdit_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListSpinEdit_Source.Name=Source property
 PRIM_MD.ListSpinEdit_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15790,6 +16390,9 @@ PRIM_MD.ListSpinEditCurrentItem_PromptIconFileName.Desc=FileName is the name of 
 PRIM_MD.ListSpinEditCurrentItem_PromptIconHeight.Name=PromptIconHeight property
 PRIM_MD.ListSpinEditCurrentItem_PromptIconHeight.Desc=Height of the icon in pixels
  
+PRIM_MD.ListSpinEditCurrentItem_PromptIconHint.Name=PromptIconHint property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconHint.Desc=A reference to the hint of the current list item
+ 
 PRIM_MD.ListSpinEditCurrentItem_PromptIconImage.Name=PromptIconImage property
 PRIM_MD.ListSpinEditCurrentItem_PromptIconImage.Desc=Image to show on the control
  
@@ -15822,6 +16425,9 @@ PRIM_MD.ListSwitch_CurrentItem.Desc=The last item in the list touched either in 
  
 PRIM_MD.ListSwitch_FocusItem.Name=FocusItem property
 PRIM_MD.ListSwitch_FocusItem.Desc=Reference to the switch in the focus entry of the list
+ 
+PRIM_MD.ListSwitch_Parent.Name=Parent property
+PRIM_MD.ListSwitch_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListSwitch_Source.Name=Source property
 PRIM_MD.ListSwitch_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15928,6 +16534,18 @@ PRIM_MD.MenuItem_View.Desc=View to display when the menu item is clicked
 PRIM_MD.Name=Material Design
 PRIM_MD.Desc=Material Design control class
  
+PRIM_MD.ProgressBar.Name=PRIM_MD.ProgressBar
+PRIM_MD.ProgressBar.Desc=Material Design progress bar control
+ 
+PRIM_MD.ProgressBar_BufferValue.Name=BufferValue property
+PRIM_MD.ProgressBar_BufferValue.Desc=The value of buffering progress displayed of the progress bar between 0 and 100
+ 
+PRIM_MD.ProgressBar_Mode.Name=Mode property
+PRIM_MD.ProgressBar_Mode.Desc=Determines how the progress bar is displayed
+ 
+PRIM_MD.ProgressBar_Value.Name=Value property
+PRIM_MD.ProgressBar_Value.Desc=Value of the current progress to be displayed on the progress bar between 0 and 100
+ 
 PRIM_MD.RadioButton.Name=Radio Button
 PRIM_MD.RadioButton.Desc=Radio Buttons show mutually exclusive choices
  
@@ -15958,6 +16576,9 @@ PRIM_MD.RadioButton_Checked.Desc=Checked property specifies whether the check bo
 PRIM_MD.RadioButton_Ellipses.Name=Ellipses property
 PRIM_MD.RadioButton_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.RadioButton_GotFocus.Name=GotFocus event
+PRIM_MD.RadioButton_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.RadioButton_GroupIndex.Name=GroupIndex property
 PRIM_MD.RadioButton_GroupIndex.Desc=GroupIndex creates a set of mutually exclusive options
  
@@ -15981,6 +16602,9 @@ PRIM_MD.RadioButton_IconMarginRight.Desc=Right margin in pixels
  
 PRIM_MD.RadioButton_IconMarginTop.Name=IconMarginTop property
 PRIM_MD.RadioButton_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_MD.RadioButton_LostFocus.Name=LostFocus event
+PRIM_MD.RadioButton_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.RadioButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.RadioButton_PaddingBottom.Desc=Bottom padding in pixels
@@ -16036,6 +16660,9 @@ PRIM_MD.RaisedButton_Click.Handled.Desc=Set to true to stop the event being prop
 PRIM_MD.RaisedButton_Ellipses.Name=Ellipses property
 PRIM_MD.RaisedButton_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.RaisedButton_GotFocus.Name=GotFocus event
+PRIM_MD.RaisedButton_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.RaisedButton_Icon.Name=Icon property
 PRIM_MD.RaisedButton_Icon.Desc=Image displayed within the button
  
@@ -16072,8 +16699,14 @@ PRIM_MD.RaisedButton_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.RaisedButton_IconOpacity.Name=IconOpacity property
 PRIM_MD.RaisedButton_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.RaisedButton_IconPadding.Name=IconPadding property
+PRIM_MD.RaisedButton_IconPadding.Desc=Specifies the padding of the icon in pixels
+ 
 PRIM_MD.RaisedButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.RaisedButton_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
+PRIM_MD.RaisedButton_LostFocus.Name=LostFocus event
+PRIM_MD.RaisedButton_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.RaisedButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.RaisedButton_PaddingBottom.Desc=Bottom padding in pixels
@@ -16089,6 +16722,27 @@ PRIM_MD.RaisedButton_PaddingTop.Desc=Top padding in pixels
  
 PRIM_MD.RaisedButton_WordWrap.Name=WordWrap property
 PRIM_MD.RaisedButton_WordWrap.Desc=Wrap text on to the next line if there is insufficient space
+ 
+PRIM_MD.Slider.Name=PRIM_MD.Slider
+PRIM_MD.Slider.Desc=Material Design slider control
+ 
+PRIM_MD.Slider_Changed.Name=Changed event
+PRIM_MD.Slider_Changed.Desc=Fired when the value of the slider is changed
+ 
+PRIM_MD.Slider_Increment.Name=Increment property
+PRIM_MD.Slider_Increment.Desc=Value each increment of the slider movement
+ 
+PRIM_MD.Slider_MaximumValue.Name=MaximumValue property
+PRIM_MD.Slider_MaximumValue.Desc=Maximum value to be set by the slide
+ 
+PRIM_MD.Slider_MinimumValue.Name=MinimumValue property
+PRIM_MD.Slider_MinimumValue.Desc=Minimum value to be set by the slider
+ 
+PRIM_MD.Slider_Type.Name=Type property
+PRIM_MD.Slider_Type.Desc=Sets whether the slider displayed as discrete or continuous
+ 
+PRIM_MD.Slider_Value.Name=Value property
+PRIM_MD.Slider_Value.Desc=Value of the slider
  
 PRIM_MD.SpinEdit.Name=Spin Edit
 PRIM_MD.SpinEdit.Desc=Numeric edit with up and down arrows to change the value
@@ -16161,6 +16815,9 @@ PRIM_MD.SpinEdit_PromptIconFileName.Desc=FileName is the name of image file
  
 PRIM_MD.SpinEdit_PromptIconHeight.Name=PromptIconHeight property
 PRIM_MD.SpinEdit_PromptIconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_MD.SpinEdit_PromptIconHint.Name=PromptIconHint property
+PRIM_MD.SpinEdit_PromptIconHint.Desc=Hint to be displayed for prompt icon
  
 PRIM_MD.SpinEdit_PromptIconImage.Name=PromptIconImage property
 PRIM_MD.SpinEdit_PromptIconImage.Desc=Image to show on the control
@@ -16264,6 +16921,9 @@ PRIM_MD.Switch_Checked.Desc=Checked indicates whether the switch is on or off
 PRIM_MD.Switch_Ellipses.Name=Ellipses property
 PRIM_MD.Switch_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.Switch_GotFocus.Name=GotFocus event
+PRIM_MD.Switch_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.Switch_IconAlignment.Name=IconAlignment property
 PRIM_MD.Switch_IconAlignment.Desc=Position of the icon within the control
  
@@ -16284,6 +16944,9 @@ PRIM_MD.Switch_IconMarginRight.Desc=Right margin in pixels
  
 PRIM_MD.Switch_IconMarginTop.Name=IconMarginTop property
 PRIM_MD.Switch_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_MD.Switch_LostFocus.Name=LostFocus event
+PRIM_MD.Switch_LostFocus.Desc=Fired when the control Loses focus
  
 PRIM_MD.Switch_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.Switch_PaddingBottom.Desc=Bottom padding in pixels
@@ -16308,6 +16971,18 @@ PRIM_MD.Tab_SelectionColor.Desc=Underline color displayed on tab menu item that 
  
 PRIM_MD.Tab_ShowSelection.Name=ShowSelection property
 PRIM_MD.Tab_ShowSelection.Desc=Show selection when the control does not have focus
+ 
+PRIM_MD.Tab_TabChanging.Name=TabChanging event
+PRIM_MD.Tab_TabChanging.Desc=Fired when a Prim_tab.item is clicked
+ 
+PRIM_MD.Tab_TabChanging.OpenItem.Name=OpenItem parameter
+PRIM_MD.Tab_TabChanging.OpenItem.Desc=Reference to an the current opened item
+ 
+PRIM_MD.Tab_TabChanging.OpeningItem.Name=OpeningItem parameter
+PRIM_MD.Tab_TabChanging.OpeningItem.Desc=A reference to the Item to be opened
+ 
+PRIM_MD.Tab_TabChanging.CanChangeItem.Name=CanChangeItem parameter
+PRIM_MD.Tab_TabChanging.CanChangeItem.Desc=Specifies whether the item can be changed
  
 PRIM_MD.Tab_ViewStyle.Name=ViewStyle property
 PRIM_MD.Tab_ViewStyle.Desc=Defines the appearance and behaviour of the tabs pages in the bottom dock area
@@ -18933,7 +19608,7 @@ PRIM_SRVM.HttpFormVariables_Item.Name.Desc=Name of the variable
  
 PRIM_SRVM.HttpFormVariables_ItemCount.Name=ItemCount property
 PRIM_SRVM.HttpFormVariables_ItemCount.Desc=ItemCount is the number of items in a collection
- 
+  
 PRIM_SRVM.HttpQueryParameter.Name=PRIM_SRVM.HttpQueryParameter
 PRIM_SRVM.HttpQueryParameter.Desc=HTTP Query string parameter
  
@@ -18970,35 +19645,11 @@ PRIM_SRVM.HttpRequest.Desc=HTTP Request
 PRIM_SRVM.HttpRequest_Content.Name=Content property
 PRIM_SRVM.HttpRequest_Content.Desc=The content of an HTTP request
  
-PRIM_SRVM.HttpRequest_Header.Name=Header property
-PRIM_SRVM.HttpRequest_Header.Desc=HTTP Header
- 
-PRIM_SRVM.HttpRequest_Header.Name.Name=Name parameter
-PRIM_SRVM.HttpRequest_Header.Name.Desc=Name of the header to access
- 
 PRIM_SRVM.HttpRequest_Headers.Name=Headers property
 PRIM_SRVM.HttpRequest_Headers.Desc=Reference to the collection request headers
  
 PRIM_SRVM.HttpRequest_Method.Name=Method property
 PRIM_SRVM.HttpRequest_Method.Desc=HTTP method used to send the form to the processing agent
- 
-PRIM_SRVM.HttpRequest_PathInfo.Name=PathInfo property
-PRIM_SRVM.HttpRequest_PathInfo.Desc=Path of he request
- 
-PRIM_SRVM.HttpRequest_PathInfoPart.Name=PathInfoPart property
-PRIM_SRVM.HttpRequest_PathInfoPart.Desc=Access a part of the path
- 
-PRIM_SRVM.HttpRequest_PathInfoPart.Index.Name=Index parameter
-PRIM_SRVM.HttpRequest_PathInfoPart.Index.Desc=Index of the path part
- 
-PRIM_SRVM.HttpRequest_PathInfoPartCount.Name=PathInfoPartCount property
-PRIM_SRVM.HttpRequest_PathInfoPartCount.Desc=Number of pieces of path
- 
-PRIM_SRVM.HttpRequest_QueryParameter.Name=QueryParameter property
-PRIM_SRVM.HttpRequest_QueryParameter.Desc=Access part of the request query string
- 
-PRIM_SRVM.HttpRequest_QueryParameter.Name.Name=Name parameter
-PRIM_SRVM.HttpRequest_QueryParameter.Name.Desc=Name of the query string part to access
  
 PRIM_SRVM.HttpRequest_QueryParameters.Name=QueryParameters property
 PRIM_SRVM.HttpRequest_QueryParameters.Desc=Reference to a collection of query parameters
@@ -19006,29 +19657,8 @@ PRIM_SRVM.HttpRequest_QueryParameters.Desc=Reference to a collection of query pa
 PRIM_SRVM.HttpRequest_QueryString.Name=QueryString property
 PRIM_SRVM.HttpRequest_QueryString.Desc=Request query string
  
-PRIM_SRVM.HttpRequest_ScriptName.Name=ScriptName property
-PRIM_SRVM.HttpRequest_ScriptName.Desc=Request script name
- 
-PRIM_SRVM.HttpRequest_ServerVariable.Name=ServerVariable property
-PRIM_SRVM.HttpRequest_ServerVariable.Desc=Access a server variable
- 
-PRIM_SRVM.HttpRequest_ServerVariable.Name.Name=Name parameter
-PRIM_SRVM.HttpRequest_ServerVariable.Name.Desc=Name for the server variable to access
- 
 PRIM_SRVM.HttpRequest_ServerVariables.Name=ServerVariables property
 PRIM_SRVM.HttpRequest_ServerVariables.Desc=Reference to the collection of server variables
- 
-PRIM_SRVM.HttpRequest_URL.Name=URL property
-PRIM_SRVM.HttpRequest_URL.Desc=Request URL
- 
-PRIM_SRVM.HttpRequest_URLPart.Name=URLPart property
-PRIM_SRVM.HttpRequest_URLPart.Desc=Access a part of the URL
- 
-PRIM_SRVM.HttpRequest_URLPart.Index.Name=Index parameter
-PRIM_SRVM.HttpRequest_URLPart.Index.Desc=Index of the URL part to access
- 
-PRIM_SRVM.HttpRequest_URLPartCount.Name=URLPartCount property
-PRIM_SRVM.HttpRequest_URLPartCount.Desc=Number of URL parts
  
 PRIM_SRVM.HttpRequestContent.Name=PRIM_SRVM.HttpRequestContent
 PRIM_SRVM.HttpRequestContent.Desc=Request content
@@ -19044,12 +19674,6 @@ PRIM_SRVM.HttpRequestContent_FileExtension.Desc=Content file extension
  
 PRIM_SRVM.HttpRequestContent_Files.Name=Files property
 PRIM_SRVM.HttpRequestContent_Files.Desc=Reference to a collection of file
- 
-PRIM_SRVM.HttpRequestContent_FormVariable.Name=FormVariable property
-PRIM_SRVM.HttpRequestContent_FormVariable.Desc=Access to a specific form variable
- 
-PRIM_SRVM.HttpRequestContent_FormVariable.Name.Name=Name parameter
-PRIM_SRVM.HttpRequestContent_FormVariable.Name.Desc=Name of the form variable to access
  
 PRIM_SRVM.HttpRequestContent_FormVariables.Name=FormVariables property
 PRIM_SRVM.HttpRequestContent_FormVariables.Desc=Reference to a collection of form variables
@@ -19854,6 +20478,15 @@ PRIM_TEXT_Text.Desc=Text contains the formatted data currently showing in the ed
  
 PRIM_TEXT_WordWrap.Name=WordWrap property
 PRIM_TEXT_WordWrap.Desc=Wrap text on to the next line if there is insufficient space
+ 
+PRIM_THM.Color.Name=PRIM_THM.Color
+PRIM_THM.Color.Desc=Definition of to be used in a theme
+ 
+PRIM_THM.Color_Color.Name=Color property
+PRIM_THM.Color_Color.Desc=The color to be used.
+ 
+PRIM_THM.Color_Name.Name=Name property
+PRIM_THM.Color_Name.Desc=Name to be used for this color.
  
 PRIM_THM.DrawStyle.Name=DrawStyle
 PRIM_THM.DrawStyle.Desc=A DrawStyle collects styles to be applied to a feature
@@ -21864,6 +22497,9 @@ PRIM_VIEW_Caption.Desc=Text displayed for the view
  
 PRIM_VIEW_ClearErrors.Name=ClearErrors method
 PRIM_VIEW_ClearErrors.Desc=Clears errors of fields in the view
+ 
+PRIM_VIEW_Closed.Name=Closed event
+PRIM_VIEW_Closed.Desc=The closed event fires when a view is closed
  
 PRIM_VIEW_IsActiveView.Name=IsActiveView property
 PRIM_VIEW_IsActiveView.Desc=True if this is the active view

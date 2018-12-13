@@ -359,6 +359,19 @@ Category.Caption=キャプション
 Category.Other=その他
 Category.User=ユーザーUser
 
+Exception.Arithmetic=演算例外 例外:&1.
+Exception.Arithmetic.DivisionByZeroError=演算エラー - ゼロによる除算
+
+Lpx.InterfaceCastFailure=実行時クラス キャスティングに失敗　タイプ &1 からインターフェース タイプ &2 へのキャスト試行中
+Lpx.ObjectCastFailure=実行時クラス キャスティングに失敗　タイプ &1 からオブジェクト タイプ &2 へのキャスト試行中
+
+Ioc.InvalidBase16Sequence=無効な Base16 文字 &1 (オフセット &2)
+Ioc.InvalidBase16Length=&1 は無効な Base16 長です。長さは 2 で割り切れなければいけません。
+Ioc.InvalidBase16String=文字列 '&1' は有効な Base16 エンコード値ではありません。
+Ioc.InvalidBase64Length=&1 は無効な Base64 長です。長さは 4 で割り切れなければいけません。
+Ioc.InvalidBase64Sequence=無効な Base64 文字 &1 (オフセット &2)
+Ioc.Format.Base64ArrayChar=文字配列に無効な Base64 エンコード値が含まれます。
+
 Rx.UnexpectedEndOfPattern=正規表現のパターンの予期せぬ終わり。
 Rx.InvalidAlternation=無効な交代。(?()|) に | が多過ぎます。"
 Rx.BadQuantifier=&1 で不良な修飾子。
@@ -416,3 +429,29 @@ Uri.DefaultValuesAreImmutable=省略値コレクションは変えることはできません。
 Uri.Duplicate=URI テンプレート '&1' および '&2' に重複したクエリが含まれています。
 Uri.OtherAmbiguousQueries=URI テンプレート コレクションに曖昧なクエリが含まれています。 - &1
 Uri.AmbiguousQueries=URI テンプレート '&1' および '&2' に曖昧なクエリが含まれています。
+
+Capi.BlockIncorrect=PKCS1 データのブロックのヘッダーが無効です。タイプが間違っているまたは長さが無効です。
+Capi.BlockIncorrectSize=厳格な長さでの使用が指示されている PKCS1 エンコーディングのデータのブロックサイズが正しくありません。
+Capi.BlockTruncated=PKCS1 データの処理されたブロックが無効です。切り捨てられています。
+Capi.CannotReuseNonceForGCMEncryption=GCM 暗号のノンスは再利用できません。
+Capi.CipherRequiredBlockSize=GCM エンジンに提供された暗号のブロック サイズが GCM の必要ブロック サイズに一致しません。 提供サイズ &1; 必要サイズ 16。
+Capi.CipherRequiredWithBlockSize=無効な暗号。暗号ブロック サイズはエンジン ブロック サイズ &1 に一致しなければいけません。
+Capi.DiffieHellmanPublicKeyHasWrongParameters=DiffieHellman 鍵交換アグリーメントのアグリーメント計算に提供されたパブリックキーのパラメータがエンジン初期化に使用されたプライベート キーに一致しません。
+Capi.EngineNotInitialised=暗号エンジンは、最初のデータ処理要求前に初期化されていません。
+Capi.KeyAgreementAlgorithmNotInitialised=鍵アグリーメントのアルゴリズムが初期化されていません。
+Capi.InputCountTooLargeForElGamalCipher=入力カウントが ElGamal 暗号には大きすぎます。
+Capi.InputTooLargeForElGamalCipher=入力が ElGamal 暗号には大きすぎます。
+Capi.InvalidParametersPassedToInit=CAPI エンジンのクラス名 &1 は、Init 呼び出し中はパラメータ クラス名 &2 をサポートしません。
+Capi.InvalidValueForMacSize=値 &1 は無効な MAC ビット サイズです。値は 32 以上 128 以下の 8 の倍数でなければいけません。
+Capi.InvalidValueForMacSizeForOcb=値 &1 は無効な MAC ビット サイズです。値は 64 以上 128 以下の 8 の倍数でなければいけません。
+Capi.IvMustBeAtLeastOneByte=無効な IV 値です。値は少なくとも 1 バイトなければいけません。
+Capi.MacCheckInCCMFailed=無効な暗号テキストです。CCM 暗号解読中 MAC 検査に失敗しました。
+Capi.MacCheckInEaxFailed=無効な暗号テキストです。EAX 暗号解読中 MAC 検査に失敗しました。 
+Capi.MacCheckInOcbFailed=無効な暗号テキストです。OCB 暗号解読中 MAC 検査に失敗しました。 
+Capi.NoDataInBlock=PKCS1 データの処理されたブロックが無効です。データが含まれていません。
+Capi.PrivateKeyRequiredForSigning=署名のための署名者の初期化は、ライベートキーのパラメータが必要です。
+Capi.PublicKeyHasWrongParametersForDiffieHellman=パブリックキーの DiffieHellman に対するパラメータが間違っています。
+Capi.PublicKeyIsWeakForDiffieHellman=パブリックキーは DiffieHellman には弱いです。
+Capi.PublicKeyRequiredForSigning=検証のための署名者の初期化は、パブリックキーのパラメータが必要です。
+Capi.UnknownBlockType=PKCS1 データの処理されたブロックが無効です。値 &1 は不明なブロック タイプです。
+

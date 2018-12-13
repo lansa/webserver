@@ -165,7 +165,6 @@ Ribbon.ShowAbove=ｸｲｯｸ ｱｸｾｽ ﾂｰﾙﾊﾞｰをﾘﾎﾞﾝの上に表示
 *** Theme Strings                ***********************************
 ********************************************************************
 
-
 Theme.LightTitle=テーマ 淡いタイトル
 Theme.MediumTitle=テーマ 中間のタイトル
 Theme.DarkTitle=テーマ 濃いタイトル
@@ -210,3 +209,5 @@ Card.Secondary=セカンダリ テキスト
 Card.Tertiary=ターシャリー テキスト
 
 Navigation.Help=ビューの追加
+List.Help=フィールドをここにドロップして、データ テーブルを作成
+List.Filter=フィルター

@@ -440,7 +440,7 @@ UnmatchedBrackets=&1 ½Ã°ÄÒİÄ‚ÌŠ‡ŒÊ‚ªˆê’v‚µ‚Ä‚¢‚Ü‚¹‚ñB
 UnmatchedBrackets.Id=81
 UnmatchedRightBracket=‰E‚ÌŠ‡ŒÊ‚É‘Î‰‚·‚éŠ‡ŒÊ‚ª‚ ‚è‚Ü‚¹‚ñB
 UnmatchedRightBracket.Id=82
-InvalidChar=–³Œø‚Ü‚½‚Í—\Šú‚µ‚È‚¢•¶š - &1.
+InvalidChar=–³Œø‚Ü‚½‚Í—\Šú‚µ‚È‚¢•¶š - &1B
 InvalidChar.Id=83
 NameNotCollection=ºİÎß°ÈİÄ &1 ‚ÍºÚ¸¼®İ‚Å‚Í‚ ‚è‚Ü‚¹‚ñA·°‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB
 NameNotCollection.Id=84
@@ -1218,6 +1218,12 @@ InvalidLongNameNotEnabled=&1‚ÍÛİ¸ŞÈ°Ñ‚È‚Ì‚ÅAŒ»İ‚Ì‹æ‰æ‚ÌÛİ¸ŞÈ°Ñ‚ª—LŒø‚É‚È‚Á‚Ä‚¢
 InvalidLongNameNotEnabled.Id=521
 InvalidUseOfLongName2=Ûİ¸ŞÈ°Ñ &1 ‚Í¯•Êq‚ª‚È‚¢‚½‚ßA‚±‚ÌºÏİÄŞ‚Å»Îß°Ä‚³‚ê‚Ü‚¹‚ñB
 InvalidUseOfLongName2.Id=522
+InvalidFileForReturnUpdId=ƒtƒ@ƒCƒ‹‚Í RET_UPDID ƒpƒ‰ƒ[ƒ^‚Æg—p‚Å‚«‚Ü‚¹‚ñBƒtƒ@ƒCƒ‹’è‹`‚ÉXV ID —ñ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñB
+InvalidFileForReturnUpdId.Id=523
+InvalidFileForWithUpdId=ƒtƒ@ƒCƒ‹‚Í WITH_UPDID ƒpƒ‰ƒ[ƒ^‚Æg—p‚Å‚«‚Ü‚¹‚ñB ƒtƒ@ƒCƒ‹’è‹`‚ÉXV ID —ñ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñB
+InvalidFileForWithUpdId.Id=524
+InvalidUseOfWithUpdId=WITH_UPDID ƒpƒ‰ƒ[ƒ^‚Ì–³Œø‚Èg—pBWITH_UPDID —˜—pAƒRƒ}ƒ“ƒh‚Å WITH_KEYAWITH_RRN ‚Ü‚½‚Í WHERE ‚ªw’è‚³‚ê‚Ä‚¢‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+InvalidUseOfWithUpdId.Id=525
 
 **********************************************
 ***** LIIOSRV Error Text               *******
@@ -1770,6 +1776,8 @@ Cmd.TemplateSetIdxIdxName=²İÃŞ¯¸½–¼
 Cmd.TemplateSetIdxTo=²İÃŞ¯¸½–¼
 Cmd.FunctionTarget=À°¹Ş¯Ä
 Cmd.SelectSqlUsing=g—p
+Cmd.DatabaseRetUpdid=XV ID ‚ğ•Ô‚·
+Cmd.DatabaseWithUpdid=XV ID ‚Æ‚Æ‚à‚É
 Cmd.WebRoutineHttpResponse=http ‰“š
 
 *************************************************************
@@ -3506,7 +3514,7 @@ DocOtherFileConnectionHomeless=‘€ì‚Í‘±s‚Å‚«‚Ü‚¹‚ñBÚ‘±ƒIƒuƒWƒFƒNƒg‚ªƒz[ƒ€ ƒI
 DocOtherFileConnectionHomeless.Id=1718
 DocOtherFileConnectionInvalidUserId=‘Šiî•ñ‚ª‚ ‚è‚Ü‚¹‚ñBƒ†[ƒU[ ID ‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocOtherFileConnectionInvalidUserId.Id=1719
-DocOtherFileConnectionInvalidPassword==‘Šiî•ñ‚ª‚ ‚è‚Ü‚¹‚ñB ƒpƒXƒ[ƒh‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocOtherFileConnectionInvalidPassword=‘Šiî•ñ‚ª‚ ‚è‚Ü‚¹‚ñB ƒpƒXƒ[ƒh‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocOtherFileConnectionInvalidPassword.Id=1720
 DocOtherFileDsnDescriptionTooLong=–³Œø‚Èƒf[ƒ^ƒ\[ƒX‹Lq‚Å‚·B260 •¶š‚ğ’´‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocOtherFileDsnDescriptionTooLong.Id=1721
@@ -3665,10 +3673,20 @@ DocServerModuleApiMinValueTooSmall=Å¬’l‚ª¬‚³‚·‚¬‚Ü‚·BƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Å
 DocServerModuleApiMaxValueIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒCƒv‚ÍÅ‘å’l‚Éƒ[ƒ‚Å‚È‚¢’l‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiMaxValueTooLarge=Å‘å’l‚ª‘å‚«‚·‚¬‚Ü‚·BƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÅƒTƒ|[ƒg‚³‚ê‚éÅ‘å’l‚Ì &1 ‚ğ’´‚¦‚Ä‚¢‚Ü‚·B
 DocServerModuleApiMaxValueTooSmall=Å‘å’l‚Ì’l‚Í–³Œø‚Å‚·B’l‚ÍÅ¬’l‚Ì’lˆÈã‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeEncodingContentTypeRequired=ƒƒfƒBƒA ƒ^ƒCƒv ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ÌƒRƒ“ƒeƒ“ƒc ƒ^ƒCƒv‚ª•K—v‚Å‚·Bƒuƒ‰ƒ“ƒN‚Ü‚½‚Í‚·‚×‚ÄƒXƒy[ƒX‚É‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeEncodingNameDuplicated=ƒƒfƒBƒA ƒ^ƒCƒv ƒGƒ“ƒR[ƒfƒBƒ“ƒO–¼ '&1' ‚Í‚·‚Å‚É•Ê‚ÌƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeEncodingNameNotFound=ƒƒfƒBƒA ƒ^ƒCƒv‚ÌƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÌƒvƒƒpƒeƒB‚Æ‚µ‚Ä‚ÌƒƒfƒBƒA ƒ^ƒCƒv ƒGƒ“ƒR[ƒfƒBƒ“ƒO–¼ '&1' ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeEncodingNameRequired=ƒƒfƒBƒA ƒ^ƒCƒv ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Ì–¼‘O‚ª•K—v‚Å‚·Bƒuƒ‰ƒ“ƒN‚Ü‚½‚Í‚·‚×‚ÄƒXƒy[ƒX‚É‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeEncodingNotAllowed=ƒƒfƒBƒA ƒ^ƒCƒv &1 ‚É‘Î‚µ‚ÄƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeNotSupported=ƒƒfƒBƒA ƒ^ƒCƒv '&1' ‚ÍAƒRƒ“ƒeƒ“ƒc‚Ì‚±‚Ìƒ^ƒCƒv‚É‘Î‚µ‚Ä‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 DocServerModuleApiOperationIdRequired=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiOperationIdNotValid=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocServerModuleApiOperationIdDuplicated=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiOperationConfigurationMatch=ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÍAƒpƒX '&1' A‹æ‰æ '&2' ‚Ì '&3.&4' ‚ÉŠ„‚è“–‚Ä‚ç‚ê‚½\¬ƒtƒ@ƒCƒ‹‚ÌƒGƒ“ƒgƒŠ[‚Éˆê’v‚µ‚Ü‚µ‚½B
 DocServerModuleApiOperationNameReserved=ƒIƒyƒŒ[ƒVƒ‡ƒ“–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger ƒo[ƒWƒ‡ƒ“ 2 ‚Í form-data ‚Ü‚½‚Í body ‚ÌƒŠƒNƒGƒXƒg ƒRƒ“ƒeƒ“ƒc‚ğƒTƒ|[ƒg‚µ‚Ü‚·B—¼•û‚Í–³Œø‚Å‚·B
+DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger ƒo[ƒWƒ‡ƒ“ 2 ‚Í’Pˆê‚Ì body ƒŠƒNƒGƒXƒg ƒRƒ“ƒeƒ“ƒc‚ğƒTƒ|[ƒg‚µ‚Ü‚·B'&1' ‚Íd•¡‚µ‚½ body ƒRƒ“ƒeƒ“ƒc‚È‚Ì‚ÅA–³Œø‚Å‚·B
+DocServerModuleApiOperationRequestDuplicateFormContent=Swagger ƒo[ƒWƒ‡ƒ“ 2 ‚Í’Pˆê‚Ì form-data ƒŠƒNƒGƒXƒg ƒRƒ“ƒeƒ“ƒc‚ğƒTƒ|[ƒg‚µ‚Ü‚·B'&1' ‚Íd•¡‚µ‚½ form-data ƒRƒ“ƒeƒ“ƒc‚È‚Ì‚ÅA–³Œø‚Å‚·B
 DocServerModuleApiOperationRequestRequiredIgnored=ƒIƒyƒŒ[ƒVƒ‡ƒ“ verb ‚Í—v‹–{•¶‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBRequired=true ‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiOperationRequestMediaTypesIgnored=ƒIƒyƒŒ[ƒVƒ‡ƒ“ verb ‚Í—v‹–{•¶‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiOperationResponseRequired=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚Ì‹Lq‚Í­‚È‚­‚Æ‚à 1 ‚Â‚Ì‰“š‚Ì‹Lq‚ª•K—v‚Å‚·B
@@ -3710,13 +3728,18 @@ DocServerModuleApiSchemaObjectNameNotValid=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼ &1 ‚É‚Í–³Œø‚È
 DocServerModuleApiSchemaObjectNameReserved=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚©‚çn‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSchemaObjectPropertiesIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒXƒL[ƒ} ƒvƒƒpƒeƒB‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBƒvƒƒpƒeƒB‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectPropertiesRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í­‚È‚­‚Æ‚à 1 ‚Â‚ÌƒXƒL[ƒ} ƒvƒƒpƒeƒB‚ª•K—v‚Å‚·B
-DocServerModuleApiSchemaObjectReferenceNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍQÆ–¼‚ª•K—v‚Å‚·B
-DocServerModuleApiSchemaObjectReferenceNameNotFound=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÌQÆ–¼‚ÍƒXƒL[ƒ} ƒ^ƒCƒv‚ğ“Á’è‚µ‚Ü‚¹‚ñB
 DocServerModuleApiSchemaObjectReferenceNameIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍQÆ–¼‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaObjectReferenceNameNotFound=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÌQÆ–¼‚ÍƒXƒL[ƒ} ƒ^ƒCƒv‚ğ“Á’è‚µ‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectReferenceNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍQÆ–¼‚ª•K—v‚Å‚·B
 DocServerModuleApiSchemaObjectRequiredIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Í•K{‚Æ‚µ‚Äƒtƒ‰ƒO‚ª—§‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·‚ªA‚±‚Ìİ’è‚ğƒTƒ|[ƒg‚·‚é—Bˆê‚ÌƒvƒƒpƒeƒB‚Å‚·Bİ’è‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectSingleItemOnly=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í’Pˆê‚ÌƒXƒL[ƒ} ƒAƒCƒeƒ€‚Ì‚İƒTƒ|[ƒg‚µ‚Ü‚·B
 DocServerModuleApiSchemaPropertyNameDuplicated=ƒXƒL[ƒ} ƒvƒƒpƒeƒB–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiSchemaTypeNameDuplicated=ƒXƒL[ƒ} ƒ^ƒCƒv–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiSecurityRequirementSchemeNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍQÆ–¼‚ª•K—v‚Å‚·B
+DocServerModuleApiSecurityRequirementSchemeNameNotFound=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÌQÆ–¼‚ÍƒXƒL[ƒ} ƒ^ƒCƒv‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
+DocServerModuleApiSecurityRequirementSchemesRequired=ƒZƒLƒ…ƒŠƒeƒB—vŒ‚Å‚ÍAƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚ğ¯•Ê‚·‚é‚½‚ß‚ÉA1 ‚Â‚ÌƒZƒLƒ…ƒŠƒeƒB—v‹ƒXƒL[ƒ€‚ª•K—v‚Å‚·B
+DocServerModuleApiSecurityRequirementScopeNameRequired=ƒZƒLƒ…ƒŠƒeƒB—vŒƒXƒR[ƒv‚Å‚ÍAƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚Ìƒtƒ[‚ğ¯•Ê‚·‚é–¼‘O‚ª•K—v‚Å‚·B
+DocServerModuleApiSecurityRequirementScopeNameNotFound=ƒZƒLƒ…ƒŠƒeƒB—vŒƒXƒR[ƒv–¼ &1 ‚ÍAƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚Ìƒtƒ[‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
 DocServerModuleApiSecuritySchemeApiKeyParameterNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ƒpƒ‰ƒ[ƒ^–¼ ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSecuritySchemeApiKeyParameterNameIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ƒpƒ‰ƒ[ƒ^–¼‚Í NULL ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocServerModuleApiSecuritySchemeApiKeyParameterNameNotValid=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ƒpƒ‰ƒ[ƒ^–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
@@ -3733,7 +3756,7 @@ DocServerModuleApiSecuritySchemeOAuthFlowDuplicate=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ‚
 DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[”FØ URL ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[”FØ URL ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[‚Ìƒg[ƒNƒ“ URL ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
-DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlIgnored==ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[‚Ìƒg[ƒNƒ“ URL ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
+DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[‚Ìƒg[ƒNƒ“ URL ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocServerModuleApiSecuritySchemeOAuthFlowScopesRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth2 ƒtƒ[‚Í­‚È‚­‚Æ‚à 1 ‚Â‚ÌƒXƒR[ƒv ƒAƒCƒeƒ€‚ª•K—v‚Å‚·B
 DocServerModuleApiSecuritySchemeOAuthFlowScopeNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[‚ÌƒXƒR[ƒv–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSecuritySchemeOAuthFlowScopeNameNotValid=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ƒtƒ[‚ÌƒXƒR[ƒv–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
@@ -3741,12 +3764,8 @@ DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒ
 DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒI[ƒvƒ“ ID ‚ÌÚ‘± URL ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocServerModuleApiSecuritySchemeReferenceNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€QÆ–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSecuritySchemeReferenceNameNotFound=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€QÆ–¼ &1 ‚ÍƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
-
-*** @TRANS NEW
-DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger version 2 supports either form-data or body request content. Both are invalid.
-DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger version 2 supports a single body request content. '&1' is a duplicate body content and is invalid.
-DocServerModuleApiOperationRequestDuplicateFormContent=Swagger version 2 supports a single form-data request content. '&1' is a duplicate form-data content and is invalid.
-*** @TRANS END
+DocServerModuleApiServiceNameNotValid=ƒT[ƒrƒX–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiStructuredTypeRequired=ƒƒfƒBƒA ƒ^ƒCƒv &1 ‚ÍA\‘¢ƒ^ƒCƒv‚ğà–¾‚·‚éƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ª•K—v‚Å‚·BPrimitive ƒ^ƒCƒv‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 
 *************************************************************
 ***** Services Model                                    *****
@@ -3772,3 +3791,102 @@ SMx.JsonDom.NodeValueNotDecimal=JSON ƒm[ƒh (&1) Decimal ’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚
 SMx.JsonDom.NodeValueNotInt32=JSON ƒm[ƒh (&1) Int32 ’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñB
 SMx.JsonDom.NodeValueNotInt64=JSON ƒm[ƒh (&1) Int64 ’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñB
 SMx.JsonDom.NodeValueNotString=JSON ƒm[ƒh (&1) •¶š—ñ’l‚Æ‚µ‚ÄƒAƒNƒZƒX‚Å‚«‚Ü‚¹‚ñB
+
+SMx.Json.UnsupportedType=ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv &1 ‚Í–³ŒøA‚Ü‚½‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
+
+SMx.JsonReader.Exception=JSON ƒŠ[ƒ_[—áŠO
+
+SMx.JsonReader.AdditionalTextEncountered=JSON ƒRƒ“ƒeƒ“ƒc“Ç‚İ‚İŒãA’Ç‰ÁƒeƒLƒXƒg‚É‘˜‹ö‚µ‚Ü‚µ‚½: &1B
+SMx.JsonReader.BadJsonEscapeSequence=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€B•s³‚È JSON ƒGƒXƒP[ƒv ƒV[ƒPƒ“ƒX: &1B
+SMx.JsonReader.CannotReadNanAsaDecimal=–³Œø‚È’lBNaN ’l‚ğ¬”‚Æ‚µ‚Ä“Ç‚İ‚ß‚Ü‚¹‚ñB
+SMx.JsonReader.CannotReadNegativeInfinityAsaDecimal=–³Œø‚È’l‚Å‚·B-Infinity ’l‚ğ¬”‚Æ‚µ‚Ä“Ç‚İ‚ß‚Ü‚¹‚ñB
+SMx.JsonReader.CannotReadPositiveInfinityAsaDecimal=–³Œø‚È’l‚Å‚·BInfinity ’l‚ğ¬”‚Æ‚µ‚Ä“Ç‚İ‚ß‚Ü‚¹‚ñB
+SMx.JsonReader.CouldNotConvertStringToDateTimeOffset=•¶š—ñ &1 ‚ğ DateTimeOffset ’l‚É•ÏŠ·‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½B
+SMx.JsonReader.CouldNotConvertStringToDecimal=•¶š—ñ &1 ‚ğ\i’l‚É•ÏŠ·‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½B
+SMx.JsonReader.CouldNotConvertStringToInt32=•¶š—ñ &1 ‚ğ Int32 ’l‚É•ÏŠ·‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½B
+SMx.JsonReader.ErrorParsingComment=ƒGƒ‰[ ƒRƒƒ“ƒg‰ğÍBŠú‘Ò’l: *A &1 ‚ğæ“¾B
+SMx.JsonReader.ErrorParsingBooleanValue=ƒGƒ‰[ ƒu[ƒ‹’l‰ğÍBŠú‘Ò’l: true ‚Ü‚½‚Í falseA&1 ‚ğæ“¾B
+SMx.JsonReader.ErrorParsingNanValue=ƒGƒ‰[ NAN ’l‰ğÍBŠú‘Ò’l: NaNA&1 ‚ğæ“¾B
+SMx.JsonReader.ErrorParsingNegativeInfinityValue=ƒGƒ‰[ •‰‚Ì–³ŒÀ’l‰ğÍBŠú‘Ò’l: -InfinityA&1 ‚ğæ“¾B
+SMx.JsonReader.ErrorParsingNullValue=ƒGƒ‰[ NULL ’l‰ğÍBŠú‘Ò’l: NULLA&1 ‚ğæ“¾B
+SMx.JsonReader.ErrorParsingPositiveInfinityValue=ƒGƒ‰[ ³‚Ì–³ŒÀ’l‰ğÍBŠú‘Ò’l: InfinityA&1 ‚ğæ“¾B
+SMx.JsonReader.ErrorParsingTrueValue=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒGƒ‰[ TRUE ’l‰ğÍB
+SMx.JsonReader.ErrorParsingUndefinedValue=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒGƒ‰[ –¢’è‹`’l‰ğÍB
+SMx.JsonReader.ErrorReadingBytes=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚ÌƒoƒCƒg“Ç‚İ‚İB
+SMx.JsonReader.ErrorReadingDateTimeOffset=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚Ì DateTimeOffset ’l“Ç‚İ‚İB
+SMx.JsonReader.ErrorReadingDecimal=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚Ì\i’l“Ç‚İ‚İB
+SMx.JsonReader.ErrorReadingInt32=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚Ì Int32 ’l“Ç‚İ‚İB
+SMx.JsonReader.ErrorReadingString=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚Ì•¶š—ñ’l“Ç‚İ‚İB
+SMx.JsonReader.InputStringIsNotaDecimal=’l &1 ‚Í\i”‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+SMx.JsonReader.InputStringIsNotaNumber=’l &1 ‚Í—LŒø‚È”š‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+SMx.JsonReader.InputStringIsNotaValidDecimal=’l &1 ‚Í—LŒø‚È\i”‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+SMx.JsonReader.InputStringIsNotaValidInteger=’l &1 ‚Í—LŒø‚È®”‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+SMx.JsonReader.InputStringIsTooLargeToParse=“ü—Í’l &1 ‚Í‘å‚«‚·‚¬‚Ä”š‚Æ‚µ‚Äˆ—‚Å‚«‚Ü‚¹‚ñB
+SMx.JsonReader.InputStringTooLargeForInteger=“ü—Í’l &1 ‚Í‘å‚«‚·‚¬‚Ä®”‚É•ÏŠ·‚Å‚«‚Ü‚¹‚ñB
+SMx.JsonReader.InvalidCharacterAfterParsingPropertyName=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒvƒƒpƒeƒB–¼‰ğÍŒã‚É–³Œø‚È•¶š: &1B
+SMx.JsonReader.InvalidCloseToken=ƒNƒ[ƒWƒ“ƒO ƒg[ƒNƒ“‚ª–³‚¢‚½‚ßAƒg[ƒNƒ“ ƒ^ƒCƒv &1 ‚Í–³Œø‚Å‚·B
+SMx.JsonReader.InvalidEndTokenForJsonType=ƒg[ƒNƒ“ &1 ‚ÍƒNƒ[ƒWƒ“ƒO JsonType &2 ‚É‘Î‚µ—LŒø‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+SMx.JsonReader.InvalidJavascriptPropertyIdentifierCharacter=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒvƒƒpƒeƒB–¼‰ğÍ’†‚É–³Œø‚ÈƒvƒƒpƒeƒB¯•Ê•¶š: &1B
+SMx.JsonReader.InvalidPropertyIdentifierCharacter=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒvƒƒpƒeƒB–¼‰ğÍ’†‚É—\Šú‚¹‚ÊƒvƒƒpƒeƒB¯•Ê•¶š: &1B
+SMx.JsonReader.MaxDepthExceeded=JSON “ü—Í‚ğ“Ç‚İ‚İ’†‚ÉÅ‘å‚Ì[‚³ &1 ‚ğ’´‚¦‚Ü‚µ‚½B
+SMx.JsonReader.ReadPastEndOfCurrentContainerContext=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BŒ»İ‚ÌƒRƒ“ƒeƒi‚ÌƒRƒ“ƒeƒLƒXƒg‚ÌI‚í‚è‚ğ‰ß‚¬‚Ä“Ç‚İ‚à‚¤‚Æ‚µ‚Ü‚µ‚½B
+SMx.JsonReader.UnableToReadBeyondTheEndOfTheStream=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€B “ü—ÍƒXƒgƒŠ[ƒ€‚ÌI‚í‚è‚ğ’´‚¦‚Ä“Ç‚İ‚à‚¤‚Æ‚µ‚Ü‚µ‚½B
+SMx.JsonReader.UnexpectedBsonTypeValue=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€B—\Šú‚¹‚Ê BSON ƒ^ƒCƒv’l: &1B
+SMx.JsonReader.UnexpectedCharacter=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€B“ü—Í‰ğÍ’†‚Ì—\Šú‚¹‚Ê•¶š—ñ: &1B
+SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingNumber=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€B”’l‰ğÍ’†‚Ì—\Šú‚¹‚Ê•¶š—ñ: &1B
+SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingValue=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€B’l‰ğÍ’†‚Ì—\Šú‚¹‚Ê•¶š—ñ: &1B
+SMx.JsonReader.UnexpectedCharacterWhileParsingConstructor=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒRƒ“ƒXƒgƒ‰ƒNƒ^‰ğÍ’†‚Ì—\Šú‚¹‚Ê•¶š—ñB
+SMx.JsonReader.UnexpectedContentWhileParsingJson=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BJSON ‰ğÍ’†‚Ì—\Šú‚¹‚ÊƒRƒ“ƒeƒ“ƒcB
+SMx.JsonReader.UnexpectedEnd=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BJSON ’l‰ğÍ’†‚É—\Šú‚¹‚ÊƒXƒgƒŠ[ƒ€‚ÌI‚í‚èB
+SMx.JsonReader.UnexpectedEndOfObjectByteValue=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€B—\Šú‚¹‚ÊƒIƒuƒWƒFƒNƒg ƒoƒCƒg’l‚ÌI‚í‚èB
+SMx.JsonReader.UnexpectedEndWhenReadingBytes=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒoƒCƒg“Ç‚İ‚İs’†‚É—\Šú‚¹‚Ê“ü—Í‚ÌI‚í‚èB
+SMx.JsonReader.UnexpectedEndWhileParsing=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒRƒ“ƒXƒgƒ‰ƒNƒ^‰ğÍ’†‚É—\Šú‚¹‚ÊƒXƒgƒŠ[ƒ€‚ÌI‚í‚èB
+SMx.JsonReader.UnexpectedEndWhileParsingComment=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒRƒƒ“ƒg‰ğÍ’†‚É—\Šú‚¹‚ÊƒXƒgƒŠ[ƒ€‚ÌI‚í‚èB
+SMx.JsonReader.UnexpectedEndWhileParsingUnicodeCharacter=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BUnicode •¶š—ñ‰ğÍ’†‚É—\Šú‚¹‚Ê“ü—Í‚ÌI‚í‚èB
+SMx.JsonReader.UnexpectedEndWhileParsingUnquotedPropertyName=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€Bˆø—p•„‚ÅˆÍ‚Ü‚ê‚È‚¢ƒvƒƒpƒeƒB–¼‚Ì‰ğÍ’†‚É—\Šú‚¹‚ÊƒXƒgƒŠ[ƒ€‚ÌI‚í‚èB
+SMx.JsonReader.UnexpectedJsonTypeEncountered=ƒŠ[ƒ_[‚Ìó‘Ô‚ğŒ»İ‚ÌƒIƒuƒWƒFƒNƒg‚Éİ’è‚ğ–ß‚µ‚Ä‚¢‚é‚É—\Šú‚¹‚Ê JsonType ‚É‘˜‹ö‚µ‚Ü‚µ‚½: &1B
+SMx.JsonReader.UnexpectedState=“à•”ƒGƒ‰[B—\Šú‚¹‚Ê JSON ƒŠ[ƒ_[‚Ìó‘Ô: &1B
+SMx.JsonReader.UnexpectedStateWhenReadingBsonCodeWithScope=“à•”ƒGƒ‰[BBSON ƒR[ƒh‚ğƒXƒR[ƒv‚Å“Ç‚İ‚İ’†‚ÉƒŠ[ƒ_[‚ª—\Šú‚¹‚Êó‘Ô‚É‚È‚è‚Ü‚µ‚½: &1B
+SMx.JsonReader.UnexpectedStateWhenReadingBsonNormal=“à•”ƒGƒ‰[BBSON ‚ğ’Êí’Ê‚è‚É“Ç‚İ‚İ’†‚ÉƒŠ[ƒ_[‚ª—\Šú‚¹‚Êó‘Ô‚É‚È‚è‚Ü‚µ‚½: &1B
+SMx.JsonReader.UnexpectedStateWhenReadingBsonReference=“à•”ƒGƒ‰[BBSON QÆ‚ğ“Ç‚İ‚İ’†‚ÉƒŠ[ƒ_[‚ª—\Šú‚¹‚Êó‘Ô‚É‚È‚è‚Ü‚µ‚½: &1B
+SMx.JsonReader.UnexpectedTokenWhenReadingBytes=JSON “ü—Í‚ğ“Ç‚İ‚İ’†‚Éƒ^ƒCƒv &1 ‚Ìƒg[ƒNƒ“‚ª—\Šú‚¹‚Êó‘Ô‚É‚È‚è‚Ü‚µ‚½B
+SMx.JsonReader.UnterminatedString=I—¹‚³‚ê‚Ä‚¢‚È‚¢•¶š—ñBŠú‘Ò‚³‚ê‚é‹æØ‚è•¶š: &1B
+
+SMx.JsonWriter.Exception=JSON ƒ‰ƒCƒ^[—áŠO
+
+SMx.JsonWriter.AnObjectIdMustBeTwelveBytes=ObjectId ‚Ì‘‚«‚İ‚É‚Í 12 ƒoƒCƒg‚Ì’l‚ª•K—v‚Å‚·B
+SMx.JsonWriter.CannotWriteJsonCommentAsBson=Json ƒRƒƒ“ƒg‚ğ Bson ‚Æ‚µ‚Ä‘‚«‚ß‚Ü‚¹‚ñB
+SMx.JsonWriter.CannotWriteJsonConstructorAsBson=Json ƒRƒ“ƒXƒgƒ‰ƒNƒ^‚ğ Bson ‚Æ‚µ‚Ä‘‚«‚ß‚Ü‚¹‚ñB
+SMx.JsonWriter.CannotWriteRawJsonAsBson=raw Json ‚ğ Bson ‚Æ‚µ‚Ä‘‚«‚ß‚Ü‚¹‚ñB
+SMx.JsonWriter.ErrorWritingBsonValue=ƒGƒ‰[ &1 ’l‚Ì‘‚«‚İBBSON ‚ÍƒIƒuƒWƒFƒNƒg‚Ü‚½‚Í”z—ñ‚Ån‚Ü‚ç‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+SMx.JsonWriter.InvalidClose=–³Œø‚ÈØ‚è‘Ö‚¦BƒhƒLƒ…ƒƒ“ƒg‚ğ•Â‚¶‚æ‚¤‚Æ‚·‚é‚ÆAŒ‹‰Ê“I‚É–³Œø‚È JSON ƒIƒuƒWƒFƒNƒg‚É‚È‚è‚Ü‚·B
+SMx.JsonWriter.InvalidJsonToken=ƒXƒR[ƒv‚ÌÅŒã‚ğ‘‚«‚İ‚É–³Œø‚Èƒg[ƒNƒ“ ƒ^ƒCƒv: &1B
+SMx.JsonWriter.InvalidState=“à•”ƒGƒ‰[BJSON ƒ‰ƒCƒ^[‚Ì—\Šú‚¹‚Êó‘Ô: &1B
+SMx.JsonWriter.InvalidTransition=–³Œø‚ÈØ‚è‘Ö‚¦Bƒg[ƒNƒ“ &1 (ó‘Ô &2) ‚ÍŒ‹‰Ê“I‚É–³Œø‚È JSON ƒIƒuƒWƒFƒNƒg‚É‚È‚è‚Ü‚·B
+SMx.JsonWriter.NoCloseTokenForType=“à•”ƒGƒ‰[B JSON ƒ^ƒCƒv‚É‘Î‚·‚éƒNƒ[ƒY ƒg[ƒNƒ“‚ª‚ ‚è‚Ü‚¹‚ñ: &1B
+SMx.JsonWriter.OnlyWhitespaceCharactersShouldBeUsed=ƒzƒƒCƒgƒXƒy[ƒX‚Ì‘‚«‚İ‚ğg‚Á‚ÄA”ñƒzƒƒCƒgƒXƒy[ƒX‚Ì‘‚«‚İ‚Í–³Œø‚Å‚·B
+SMx.JsonWriter.PropertyNameRequired=ƒvƒƒpƒeƒB–¼‚Ìó‘Ôİ’è‚É–¼‘O‚Í•K{‚Å‚·B
+SMx.JsonWriter.UnexpectedEndWhenReadingDateConstructor=Date ƒRƒ“ƒXƒgƒ‰ƒNƒ^“Ç‚Ì—\Šú‚¹‚ÊI—¹
+SMx.JsonWriter.UnexpectedTokenWhenReadingDateConstructor=Date ƒRƒ“ƒXƒgƒ‰ƒNƒ^“Ç‚Ì—\Šú‚¹‚Êƒg[ƒNƒ“BŠú‘Ò’l‚Í®”A&1 ‚ğæ“¾B
+SMx.JsonWriter.UnexpectedTokenWhenWritingBson=Bson ‘‚«‚İ‚Ì—\Šú‚¹‚Êƒg[ƒNƒ“ ƒ^ƒCƒv: &1B
+SMx.JsonWriter.UnexpectedTypeWhenWritingEnd=ƒXƒR[ƒv‚ÌÅŒã‚ğ‘‚«‚İ‚É—\Šú‚¹‚Êƒg[ƒNƒ“ ƒ^ƒCƒv: &1B
+SMx.JsonWriter.UnknownJsonType=“à•”ƒGƒ‰[B•s–¾‚È JSON ƒ^ƒCƒv: &1B
+SMx.JsonWriter.UnsupportedType=ƒTƒ|[ƒg‚³‚ê‚È‚¢ƒ^ƒCƒv: &1BƒIƒuƒWƒFƒNƒg‚Ì JSON •\Œ»‚ğæ“¾‚·‚é‚É‚ÍAJsonSerializer ƒNƒ‰ƒX‚ğg—p‚µ‚Ü‚·B
+SMx.JsonWriter.ValueTooLargeToFitInaSigned32BitInteger=’l‚Í‘å‚«‚·‚¬‚ÄA•„†•t‚« 32 ƒrƒbƒg®”‚É“ü‚è‚Ü‚¹‚ñB
+SMx.JsonWriter.ValueTooLargeToFitInaSigned64BitInteger=’l‚Í‘å‚«‚·‚¬‚ÄA•„†•t‚« 64 ƒrƒbƒg®”‚É“ü‚è‚Ü‚¹‚ñB
+
+****************************************
+***** Web Application Validations  *****
+****************************************
+WebApplicationPrefixInvalid=Ú“ª«‚É“Á•Ê‚È•¶š‚ğŠÜ‚Ş‚±‚Æ‚Í‚Å‚«‚¸A•¶š‚©‚çn‚ß‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+WebApplicationPrefixRequired=ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÌÚ“ª«‚ğ’ñ‹Ÿ‚µ‚Ä‚­‚¾‚³‚¢B
+WebApplicationPrefixExists=&2 ‚ÆŒÄ‚Î‚ê‚é &1 ‚Í LANSA ƒŠƒ|ƒWƒgƒŠ‚É‚·‚Å‚É‘¶İ‚µ‚Ü‚·B•Ê‚ÌÚ“ª«‚ğ‘I‚ñ‚Å‚­‚¾‚³‚¢B
+WebApplicationPrefixReserved=‚±‚ÌÚ“ª«‚Í«—ˆ‚Ì‚½‚ß‚É LANSA ‚É‚æ‚Á‚Ä—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B
+WebApplicationNameRequired=ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ì–¼‘O‚ğ’ñ‹Ÿ‚µ‚Ä‚­‚¾‚³‚¢B
+WebApplicationNameExistsAsList=LANSA ƒŠƒ|ƒWƒgƒŠ‚ÉA‚±‚Ì–¼‘O‚ÌƒŠƒXƒg‚ª‚·‚Å‚ÉŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B•Ê‚Ì–¼‘O‚ğ‘I‚ñ‚Å‚­‚¾‚³‚¢B
+WebApplicationViewNameRequired=‚±‚Ìƒrƒ…[‚Ì–¼‘O‚ğ’ñ‹Ÿ‚µ‚Ä‚­‚¾‚³‚¢B
+WebApplicationViewNameInvalid=‚±‚Ì–¼‘O‚ğg‚Á‚Ä—LŒø‚È¯•Êq‚ğì¬‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB•Ê‚Ì–¼‘O‚ğ‘I‚ñ‚Å‚­‚¾‚³‚¢B
+WebApplicationViewNameDuplicate=ƒrƒ…[–¼‚Í‚±‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ““à‚ÅˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+WebApplicationViewTableRequired=‚±‚Ìƒrƒ…[‚ªŠÇ—‚·‚éƒe[ƒuƒ‹‚ğw’è‚µ‚Ä‚­‚¾‚³‚¢B
+WebApplicationViewTableInvalid=‚±‚Ìƒe[ƒuƒ‹‚Í LANSA ƒŠƒ|ƒWƒgƒŠ‚É‘¶İ‚µ‚Ü‚¹‚ñB
+WebApplicationViewDescriptionRequired=‚±‚Ìƒrƒ…[‚Ìà–¾‚ğ’ñ‹Ÿ‚µ‚Ä‚­‚¾‚³‚¢B

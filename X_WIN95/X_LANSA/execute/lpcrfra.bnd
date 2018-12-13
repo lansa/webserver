@@ -1218,6 +1218,12 @@ InvalidLongNameNotEnabled=&1 est un nom long et nécessite que la partition en co
 InvalidLongNameNotEnabled.Id=521
 InvalidUseOfLongName2=Le nom long &1 n'est pas actuellement supportée par cette commande car il n'a pas d'identifiant.
 InvalidUseOfLongName2.Id=522
+InvalidFileForReturnUpdId=Le fichier ne peut pas être utilisé avec le paramètre RET_UPDID. La définition du fichier ne contient pas de colonne Identifiant de mise à jour.
+InvalidFileForReturnUpdId.Id=523
+InvalidFileForWithUpdId=Le fichier ne peut pas être utilisé avec le paramètre WITH_UPDID. La définition du fichier ne contient pas de colonne Identifiant de mise à jour.
+InvalidFileForWithUpdId.Id=524
+InvalidUseOfWithUpdId=Utilisation incorrecte du paramètre WITH_UPDID. WITH_KEY, WITH_RRN ou WHERE doit être spécifié sur la commande quand WITH_UPDID est utilisé.
+InvalidUseOfWithUpdId.Id=525
 
 **********************************************
 ***** LIIOSRV Error Text               *******
@@ -1770,6 +1776,8 @@ Cmd.TemplateSetIdxIdxName=Nom d'index
 Cmd.TemplateSetIdxTo=Valeur d'index
 Cmd.FunctionTarget=Cible
 Cmd.SelectSqlUsing=Utilisant
+Cmd.DatabaseRetUpdid=Renvoi l'identifiant de mise à jour
+Cmd.DatabaseWithUpdid=Avec l'identifiant de mise à jour
 Cmd.WebRoutineHttpResponse=Réponse Http
 
 *************************************************************
@@ -3665,10 +3673,20 @@ DocServerModuleApiMinValueTooSmall=La valeur minimum est trop petite. Elle dépas
 DocServerModuleApiMaxValueIgnored=Le type d'objet schéma ne supporte pas de valeur non nulle pour la valeur maximum. Valeur ignorée.
 DocServerModuleApiMaxValueTooLarge=La valeur maximum est trop grande. Elle dépasse la valeur maximum de &1 admise par l'objet schéma.
 DocServerModuleApiMaxValueTooSmall=La valeur maximum est incorrecte. Elle doit être supérieure ou égale à la valeur de minimum.
+DocServerModuleApiMediaTypeEncodingContentTypeRequired=Le type de contenu d'encodage du support est obligatoire. Il ne peut pas être à blanc.
+DocServerModuleApiMediaTypeEncodingNameDuplicated=Le nom d'encodage du type du support '&1' a déjà été attribué à un autre encodage. Les noms doivent être uniques.
+DocServerModuleApiMediaTypeEncodingNameNotFound=Le nom d'encodage du type du support '&1' introuvable en tant que propriété de l'objet de schéma du type de support.
+DocServerModuleApiMediaTypeEncodingNameRequired=Le nom du type de support encodé est obligatoire. Il ne peut pas être à blanc.
+DocServerModuleApiMediaTypeEncodingNotAllowed=L'encodage n'est pas supporté par le type de support &1.
+DocServerModuleApiMediaTypeNotSupported=Type de support '&1' n'est pas supporté par ce type de contenu.
 DocServerModuleApiOperationIdRequired=L'id d'opération de l'opération chemin ne peut pas être à blanc.
 DocServerModuleApiOperationIdNotValid=L'id d'opération &1 de l'opération chemin contient des caractères incorrects.
 DocServerModuleApiOperationIdDuplicated=L'id d'opération &1 de l'opération chemin est déjà utilisé. Le nom doit être unique.
+DocServerModuleApiOperationConfigurationMatch=Opération correspondant à l'entrée dans le fichier de configuration avec le chemin '&1' affectée à '&3. &4' dans la partition '&2'.
 DocServerModuleApiOperationNameReserved=Le nom d'opération &1 est réservé. Le nom ne peut pas commencer par la lettrer 'X'
+DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger version 2 supporte soit les form-data ou les body request content. Les deux sont invalides.
+DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger version 2 supporte un simple  body request content. '&1' est un body content en double et est invalide.
+DocServerModuleApiOperationRequestDuplicateFormContent=Swagger version 2 supporte un  simple form-data request content. '&1' est un form-data content en double et est invalide.
 DocServerModuleApiOperationRequestRequiredIgnored=Le verbe de l'opération ne supporte pas de corps de demande. Required=true ignoré.
 DocServerModuleApiOperationRequestMediaTypesIgnored=Le verbe de l'opération ne supporte pas de corps de demande. Eléments de type media ignorés.
 DocServerModuleApiOperationResponseRequired=La description de l'opération chemin nécessite au moins une description de réponse.
@@ -3710,13 +3728,18 @@ DocServerModuleApiSchemaObjectNameNotValid=Le nom d'objet schéma &1 contient des
 DocServerModuleApiSchemaObjectNameReserved=Le nom d'objet schéma &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
 DocServerModuleApiSchemaObjectPropertiesIgnored=Le type d'objet schéma n'admet pas de propriétés schéma. Propriétés ignorées.
 DocServerModuleApiSchemaObjectPropertiesRequired=Le type d'objet schéma demande au moins une propriété schéma.
-DocServerModuleApiSchemaObjectReferenceNameRequired=Le type d'objet schéma demande un nom de référence.
-DocServerModuleApiSchemaObjectReferenceNameNotFound=Le nom de référence du type d'objet schéma n'identifie pas de type de schéma.
 DocServerModuleApiSchemaObjectReferenceNameIgnored=Le type d'objet schéma n'admet pas de nom de référence. Valeur ignorée.
+DocServerModuleApiSchemaObjectReferenceNameNotFound=Le nom de référence du type d'objet schéma n'identifie pas de type de schéma.
+DocServerModuleApiSchemaObjectReferenceNameRequired=Le type d'objet schéma demande un nom de référence.
 DocServerModuleApiSchemaObjectRequiredIgnored=L'objet schéma est noté comme nécessaire mais seules les propriétés admettent ce paramétrage. Paramétrage ignoré.
 DocServerModuleApiSchemaObjectSingleItemOnly=Le type d'objet schéma n'admet qu'un seul élément schéma.
 DocServerModuleApiSchemaPropertyNameDuplicated=Le nom de propriété schéma &1 a déjà été utilisé. Le nom doit être unique.
 DocServerModuleApiSchemaTypeNameDuplicated=Le nom de type de schéma &1 a déjà été utilisé. Le nom doit être unique.
+DocServerModuleApiSecurityRequirementSchemeNameRequired=Le type d'objet de schéma nécessite un nom de référence.
+DocServerModuleApiSecurityRequirementSchemeNameNotFound=Le nom de référence du type d'objet de schéma n'identifie pas un type de schéma.
+DocServerModuleApiSecurityRequirementSchemesRequired=L'exigence de sécurité nécessite un schéma d'exigence de sécurité pour identifier un schéma de sécurité.
+DocServerModuleApiSecurityRequirementScopeNameRequired=L'étendue des exigences de sécurité nécessite un nom identifiant un flux de schéma de sécurité.
+DocServerModuleApiSecurityRequirementScopeNameNotFound=Le nom étendue des exigences de sécurité &1 n'identifie pas de flux de schéma de sécurité.
 DocServerModuleApiSecuritySchemeApiKeyParameterNameRequired=Le nom de paramètre de schéma de sécurité ApiKey ne peut pas être vide ou à blanc.
 DocServerModuleApiSecuritySchemeApiKeyParameterNameIgnored=Le nom de paramètre de schéma de sécurité ApiKey est non nul. Valeur ignorée.
 DocServerModuleApiSecuritySchemeApiKeyParameterNameNotValid=Le nom de paramètre de schéma de sécurité ApiKey &1 contient des caractères incorrects.
@@ -3741,12 +3764,8 @@ DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=L'id Open de l'Url de c
 DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=L'id Open de l'Url de connexion du schéma de sécurité a une valeur. La valeur sera ignorée.
 DocServerModuleApiSecuritySchemeReferenceNameRequired=Le nom de référence du schéma de sécurité ne peut pas être vide ou à blanc.
 DocServerModuleApiSecuritySchemeReferenceNameNotFound=Le nom de référence du schéma de sécurité &1 n'identifie un schéma de sécurité.
-
-*** @TRANS NEW
-DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger version 2 supports either form-data or body request content. Both are invalid.
-DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger version 2 supports a single body request content. '&1' is a duplicate body content and is invalid.
-DocServerModuleApiOperationRequestDuplicateFormContent=Swagger version 2 supports a single form-data request content. '&1' is a duplicate form-data content and is invalid.
-*** @TRANS END
+DocServerModuleApiServiceNameNotValid=Le nom de Service &1 contient des caractères invalides.
+DocServerModuleApiStructuredTypeRequired=Le type de support &1 nécessite un type d'objet schéma qui décrit un type structuré. Les types primitifs ne sont pas pris en charge.
 
 *************************************************************
 ***** Services Model                                    *****
@@ -3772,3 +3791,103 @@ SMx.JsonDom.NodeValueNotDecimal=Le noeud Json (&1) ne peut pas être accédé en ta
 SMx.JsonDom.NodeValueNotInt32=Le noeud Json (&1) ne peut pas être accédé en tant que valeur Int32.
 SMx.JsonDom.NodeValueNotInt64=Le noeud Json (&1) ne peut pas être accédé en tant que valeur Int64.
 SMx.JsonDom.NodeValueNotString=Le noeud Json (&1) ne peut pas être accédé en tant que valeur String.
+
+SMx.Json.UnsupportedType=Le type d'objet  &1 est invalide ou n'est pas supporté.
+
+SMx.JsonReader.Exception=Exception JSON Reader .
+
+SMx.JsonReader.AdditionalTextEncountered=Texte supplémentaire rencontré après la fin de la lecture du JSON content: &1.
+SMx.JsonReader.BadJsonEscapeSequence=Flux d'entrée non valide. Mauvaise séquence d'échappement JSON: &1.
+SMx.JsonReader.CannotReadNanAsaDecimal=Valeur invalide. Impossible de lire la valeur NaN sous forme décimale.
+SMx.JsonReader.CannotReadNegativeInfinityAsaDecimal=Valeur invalide. Impossible de lire la valeur Infinity sous forme décimale.
+SMx.JsonReader.CannotReadPositiveInfinityAsaDecimal=Valeur invalide. Impossible de lire la valeur Infinity sous forme décimale.
+SMx.JsonReader.CouldNotConvertStringToDateTimeOffset=Impossible de convertir la chaîne &1 en une valeur DateTimeOffset.
+SMx.JsonReader.CouldNotConvertStringToDecimal=Impossible de convertir la chaîne &1 en une valeur décimale.
+SMx.JsonReader.CouldNotConvertStringToInt32=Impossible de convertir la chaîne &1 en une valeur Int32.
+SMx.JsonReader.ErrorParsingComment=Erreur d'analyse du commentaire. Attendu: *, obtenu &1.
+SMx.JsonReader.ErrorParsingBooleanValue=Erreur d'analyse de la valeur booléenne. Attendu: vrai ou faux, obtenu &1.
+SMx.JsonReader.ErrorParsingNanValue=Erreur d'analyse de la valeur NAN. Attendu: NaN, obtenu &1.
+SMx.JsonReader.ErrorParsingNegativeInfinityValue=Erreur d'analyse de la valeur négative infinity. Attendu: -Infinity, obtenu &1.
+SMx.JsonReader.ErrorParsingNullValue=Erreur d'analyse de la valeur nulle. Attendu: null, obtenu &1.
+SMx.JsonReader.ErrorParsingPositiveInfinityValue=Erreur d'analyse de la valeur positive infinity. Attendu: Infinity, obtenu &1.
+SMx.JsonReader.ErrorParsingTrueValue=Flux d'entrée non valide. Erreur d'analyse de la valeur vraie.
+SMx.JsonReader.ErrorParsingUndefinedValue=Flux d'entrée non valide. Erreur d'analyse de la valeur indéfinie.
+SMx.JsonReader.ErrorReadingBytes=Erreur de lecture des octets lors du traitement du type de jeton &1.
+SMx.JsonReader.ErrorReadingDateTimeOffset=Erreur de lecture de la valeur DateTimeOffset lors du traitement du type de jeton &1.
+SMx.JsonReader.ErrorReadingDecimal=Erreur de lecture de la valeur décimale lors du traitement du type de jeton &1.
+SMx.JsonReader.ErrorReadingInt32=Erreur de lecture de la valeur Int32 lors du traitement du type de jeton &1.
+SMx.JsonReader.ErrorReadingString=Erreur de lecture de la valeur de la chaîne lors du traitement du type de jeton &1.
+SMx.JsonReader.InputStringIsNotaDecimal= La valeur &1 n'est pas un décimal.
+SMx.JsonReader.InputStringIsNotaNumber=La valeur &1 n'est pas un nombre valide.
+SMx.JsonReader.InputStringIsNotaValidDecimal=La valeur &1 n'est pas un décimal valide.
+SMx.JsonReader.InputStringIsNotaValidInteger=La valeur &1 n'est pas un entier valide.
+SMx.JsonReader.InputStringIsTooLargeToParse=La valeur d'entrée &1 est trop grande pour être convertie en nombre.
+SMx.JsonReader.InputStringTooLargeForInteger=La valeur d'entrée &1 est trop grande pour être convertie en entier.
+SMx.JsonReader.InvalidCharacterAfterParsingPropertyName=Flux d'entrée non valide. Caractère invalide après l'analyse du nom de la propriété: &1.
+SMx.JsonReader.InvalidCloseToken=Le type de jeton &1 n'est pas valide car il n'a pas de jeton de fermeture.
+SMx.JsonReader.InvalidEndTokenForJsonType=Le jeton &1 n'est pas valide pour la fermeture de JsonType &2.
+SMx.JsonReader.InvalidJavascriptPropertyIdentifierCharacter=Flux d'entrée non valide. Caractère identifiant de propriété invalide lors de l'analyse du nom de la propriété: &1.
+SMx.JsonReader.InvalidPropertyIdentifierCharacter=Flux d'entrée non valide. Caractère identifiant de propriété inattendu lors de l'analyse du nom de la propriété: &1.
+SMx.JsonReader.MaxDepthExceeded=L'étendue maximale de & 1 a été dépassée lors de la lecture de l'entrée JSON.
+SMx.JsonReader.ReadPastEndOfCurrentContainerContext=Flux d'entrée non valide. Tentative de lecture  de fin du contexte de conteneur actuel.
+SMx.JsonReader.UnableToReadBeyondTheEndOfTheStream=Flux d'entrée non valide. Tentative de lecture au-delà de la fin du flux d'entrée.
+SMx.JsonReader.UnexpectedBsonTypeValue=Flux d'entrée non valide. Valeur de type BSON inattendue: &1.
+SMx.JsonReader.UnexpectedCharacter=Flux d'entrée non valide. Caractère inattendu lors de l'analyse de l'entrée: &1.
+SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingNumber=Flux d'entrée non valide. Caractère inattendu lors de l'analyse de la valeur numerique: &1.
+SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingValue=Flux d'entrée non valide. Caractère inattendu lors de l'analyse de la valeur: &1.
+SMx.JsonReader.UnexpectedCharacterWhileParsingConstructor=Flux d'entrée non valide. Caractère inattendu lors de l'analyse du constructeur.
+SMx.JsonReader.UnexpectedContentWhileParsingJson=Flux d'entrée non valide. Contenu inattendu lors de l'analyse JSON.
+SMx.JsonReader.UnexpectedEnd=Flux d'entrée non valide. Fin inattendu du flux lors de l'analyse de la valeur JSON.
+SMx.JsonReader.UnexpectedEndOfObjectByteValue=Flux d'entrée non valide. Fin inattendue de la valeur d'octet de l'objet.
+SMx.JsonReader.UnexpectedEndWhenReadingBytes=Flux d'entrée non valide. Fin inattendue de l'entrée lors de la lecture des octets.
+SMx.JsonReader.UnexpectedEndWhileParsing=Flux d'entrée non valide. Fin inattendue du flux lors de l'analyse du constructeur.
+SMx.JsonReader.UnexpectedEndWhileParsingComment=Flux d'entrée non valide. Fin inattendu du flux lors de l'analyse de commentaire.
+SMx.JsonReader.UnexpectedEndWhileParsingUnicodeCharacter=Flux d'entrée non valide. Fin inattendue de l'entrée lors de l'analyse du caractère unicode.
+SMx.JsonReader.UnexpectedEndWhileParsingUnquotedPropertyName=Flux d'entrée non valide. Fin inattendu du flux lors de l'analyse du nom de propriété unquoted .
+SMx.JsonReader.UnexpectedJsonTypeEncountered=Lors de la définition de l'état du lecteur sur l'objet actuel, un JsonType inattendu a été rencontré: &1.
+SMx.JsonReader.UnexpectedState=Erreur interne. Lecteur JSON dans un état inattendu: &1.
+SMx.JsonReader.UnexpectedStateWhenReadingBsonCodeWithScope=Erreur interne. Lecteur dans un état inattendu lors de la lecture du code BSON avec une portée: &1.
+SMx.JsonReader.UnexpectedStateWhenReadingBsonNormal=Erreur interne. Lecteur en état inattendu lors de la lecture BSON: &1.
+SMx.JsonReader.UnexpectedStateWhenReadingBsonReference=Erreur interne. Lecteur en état inattendu lors de la lecture de la référence BSON: &1.
+SMx.JsonReader.UnexpectedTokenWhenReadingBytes=Le jeton de type &1 est inattendu lors de la lecture de l'entrée JSON.
+SMx.JsonReader.UnterminatedString=Unterminated string. Délimiteur attendu: &1.
+
+SMx.JsonWriter.Exception=Exception JSON Writer .
+
+SMx.JsonWriter.AnObjectIdMustBeTwelveBytes=L'écriture d'ObjectId requiert une valeur de 12 octets.
+SMx.JsonWriter.CannotWriteJsonCommentAsBson=Impossible d'écrire un commentaire Json en tant que Bson.
+SMx.JsonWriter.CannotWriteJsonConstructorAsBson=Impossible d'écrire un constructeur Json en tant que Bson.
+SMx.JsonWriter.CannotWriteRawJsonAsBson=Impossible d'écrire une ligne Json en tant que Bson.
+SMx.JsonWriter.ErrorWritingBsonValue=Erreur d'écriture de la valeur &1. BSON doit commencer par un objet ou un tableau.
+SMx.JsonWriter.InvalidClose=Transition invalide. Un objet invalide JSON résultera de la fermeture du document.
+SMx.JsonWriter.InvalidJsonToken=Type de jeton invalide lors  de la fin de l'écriture du périmètre &1.
+SMx.JsonWriter.InvalidState=Erreur interne. JSON writer dans un état inattendu: &1.
+SMx.JsonWriter.InvalidTransition=Transition invalide. Un objet invalide JSON résultera du jeton &1 en état &2 .
+SMx.JsonWriter.NoCloseTokenForType=Erreur interne. Pas de jeton de fermeture pour le type JSON &1.
+SMx.JsonWriter.OnlyWhitespaceCharactersShouldBeUsed=Tentative invalide d'écrire des caractères différents d'un espace.
+SMx.JsonWriter.PropertyNameRequired=Un nom est nécessaire lors de la définition du nom de la propriété.
+SMx.JsonWriter.UnexpectedEndWhenReadingDateConstructor=Fin inattendu lors de la lecture du constructeur de date.
+SMx.JsonWriter.UnexpectedTokenWhenReadingDateConstructor=Jeton inattendu lors de la lecture du constructeur de date. Entier attendu, obtenu &1.
+SMx.JsonWriter.UnexpectedTokenWhenWritingBson=Type de jeton inattendu lors del'écriture Bson: &1.
+SMx.JsonWriter.UnexpectedTypeWhenWritingEnd=Type de jeton inattendu lors de l'écriture de fin du périmètre: &1.
+SMx.JsonWriter.UnknownJsonType=Erreur interne. Type JSON inconnu: &1.
+SMx.JsonWriter.UnsupportedType=Type non supporté: &1. Utilisez la classe JsonSerializer pour obtenir la représentation JSON de l'objet.
+SMx.JsonWriter.ValueTooLargeToFitInaSigned32BitInteger=Valeur trop grande pour un entier signé de 32 bits
+SMx.JsonWriter.ValueTooLargeToFitInaSigned64BitInteger=Valeur trop grande pour un entier signé de 64 bits.
+
+
+****************************************
+***** Web Application Validations  *****
+****************************************
+WebApplicationPrefixInvalid=Votre préfixe ne doit contenir aucun caractère spécial et doit commencer par une lettre.
+WebApplicationPrefixRequired=Veuillez fournir un préfixe pour votre application.
+WebApplicationPrefixExists=Un &1 appelé &2 existe déjà dans le référentiel LANSA, veuillez choisir un préfixe différent.
+WebApplicationPrefixReserved=Ce préfixe est réservé pour une utilisation future par LANSA. 
+WebApplicationNameRequired=Veuillez donner un nom à votre application.
+WebApplicationNameExistsAsList=Le référentiel LANSA contient déjà une liste portant ce nom, veuillez choisir un autre nom.
+WebApplicationViewNameRequired=Veuillez fournir un nom pour cette vue.
+WebApplicationViewNameInvalid=Il n'est pas possible de créer un identifiant valide en utilisant ce nom, veuillez choisir un autre nom.
+WebApplicationViewNameDuplicate=Le nom de la vue doit être unique dans cette application.
+WebApplicationViewTableRequired=Veuillez préciser la table à gérer avec cette vue.
+WebApplicationViewTableInvalid=Cette table n'existe pas dans le référentiel LANSA.
+WebApplicationViewDescriptionRequired=Veuillez fournir une description pour cette vue.

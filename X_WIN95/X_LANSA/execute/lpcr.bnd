@@ -1218,6 +1218,12 @@ InvalidLongNameNotEnabled=&1 is a long name and requires the current partition t
 InvalidLongNameNotEnabled.Id=521
 InvalidUseOfLongName2=Long name &1 is not supported by this command because it does not have an identifier.
 InvalidUseOfLongName2.Id=522
+InvalidFileForReturnUpdId=File cannot be used with RET_UPDID parameter. File definition does not contain Update Id column.
+InvalidFileForReturnUpdId.Id=523
+InvalidFileForWithUpdId=File cannot be used with WITH_UPDID parameter. File definition does not contain Update Id column.
+InvalidFileForWithUpdId.Id=524
+InvalidUseOfWithUpdId=Invalid use of WITH_UPDID parameter. WITH_KEY, WITH_RRN or WHERE must be specified on the command when WITH_UPDID is used.
+InvalidUseOfWithUpdId.Id=525
 
 **********************************************
 ***** LIIOSRV Error Text               *******
@@ -1770,6 +1776,8 @@ Cmd.TemplateSetIdxIdxName=Index name
 Cmd.TemplateSetIdxTo=Index value
 Cmd.FunctionTarget=Target
 Cmd.SelectSqlUsing=Using
+Cmd.DatabaseRetUpdid=Return Update Id
+Cmd.DatabaseWithUpdid=With Update Id
 Cmd.WebRoutineHttpResponse=Http Response
 
 *************************************************************
@@ -3506,7 +3514,7 @@ DocOtherFileConnectionHomeless=Operation cannot proceed. Connection object disco
 DocOtherFileConnectionHomeless.Id=1718
 DocOtherFileConnectionInvalidUserId=Credentials missing. UserId not supplied.
 DocOtherFileConnectionInvalidUserId.Id=1719
-DocOtherFileConnectionInvalidPassword==Credentials missing. Password not supplied.
+DocOtherFileConnectionInvalidPassword=Credentials missing. Password not supplied.
 DocOtherFileConnectionInvalidPassword.Id=1720
 DocOtherFileDsnDescriptionTooLong=Invalid data source description. It cannot be longer than 260 characters.
 DocOtherFileDsnDescriptionTooLong.Id=1721
@@ -3665,9 +3673,16 @@ DocServerModuleApiMinValueTooSmall=Minimum value is too small. It exceeds the mi
 DocServerModuleApiMaxValueIgnored=Type of schema object does not support a non-zero value for maximum value. Value ignored.
 DocServerModuleApiMaxValueTooLarge=Maximum value is too large. It exceeds the maximum value of &1 supported by the schema object.
 DocServerModuleApiMaxValueTooSmall=Value of maximum value is invalid. It must be greater or equal to the value of minimum value.
+DocServerModuleApiMediaTypeEncodingContentTypeRequired=Content type of media type encoding is required. It cannot be blank or all spaces.
+DocServerModuleApiMediaTypeEncodingNameDuplicated=Media type encoding name '&1' has already been assigned to another encoding. Names must be unique.
+DocServerModuleApiMediaTypeEncodingNameNotFound=Media type encoding name '&1' cannot be found as a property of the media type's schema object.
+DocServerModuleApiMediaTypeEncodingNameRequired=The name of a media type encoding is required. It cannot be blank or all spaces.
+DocServerModuleApiMediaTypeEncodingNotAllowed=Encodings are not supported for media type &1.
+DocServerModuleApiMediaTypeNotSupported=Media type '&1' is not supported for this type of content.
 DocServerModuleApiOperationIdRequired=Path Operation OperationId cannot be blank or all spaces.
 DocServerModuleApiOperationIdNotValid=Path Operation OperationId &1 contains invalid characters.
 DocServerModuleApiOperationIdDuplicated=Path Operation OperationId &1 has already been used. Name must be unique.
+DocServerModuleApiOperationConfigurationMatch=Operation matched to entry in configuration file with path '&1' assigned to '&3.&4' in partition '&2'.
 DocServerModuleApiOperationNameReserved=Operation name &1 is reserved. Name cannot start with letter 'X'
 DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger version 2 supports either form-data or body request content. Both are invalid.
 DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger version 2 supports a single body request content. '&1' is a duplicate body content and is invalid.
@@ -3713,13 +3728,18 @@ DocServerModuleApiSchemaObjectNameNotValid=Schema object name &1 contains invali
 DocServerModuleApiSchemaObjectNameReserved=Schema object name &1 is reserved. Name cannot start with letter 'X'
 DocServerModuleApiSchemaObjectPropertiesIgnored=Schema object type does not support Schema Properties. Properties ignored.
 DocServerModuleApiSchemaObjectPropertiesRequired=Schema object type requires at least one Schema Property.
-DocServerModuleApiSchemaObjectReferenceNameRequired=Schema object type requires a reference name.
-DocServerModuleApiSchemaObjectReferenceNameNotFound=Schema object type's reference name does not identify a schema type.
 DocServerModuleApiSchemaObjectReferenceNameIgnored=Schema object type does not support a reference name. Value ignored.
+DocServerModuleApiSchemaObjectReferenceNameNotFound=Schema object type's reference name does not identify a schema type.
+DocServerModuleApiSchemaObjectReferenceNameRequired=Schema object type requires a reference name.
 DocServerModuleApiSchemaObjectRequiredIgnored=Schema object is flagged as required but only properties support this setting. Setting ignored.
 DocServerModuleApiSchemaObjectSingleItemOnly=Schema object type only supports a single Schema Item.
 DocServerModuleApiSchemaPropertyNameDuplicated=Schema property name &1 has already been used. Name must be unique.
 DocServerModuleApiSchemaTypeNameDuplicated=Schema type name &1 has already been used. Name must be unique.
+DocServerModuleApiSecurityRequirementSchemeNameRequired=Schema object type requires a reference name.
+DocServerModuleApiSecurityRequirementSchemeNameNotFound=Schema object type's reference name does not identify a schema type.
+DocServerModuleApiSecurityRequirementSchemesRequired=Security requirement requires one security requirement scheme to identify a security scheme.
+DocServerModuleApiSecurityRequirementScopeNameRequired=Security requirement scope requires a name that identifies a security scheme flow.
+DocServerModuleApiSecurityRequirementScopeNameNotFound=Security requirement scope name &1 does not identify a security scheme flow.
 DocServerModuleApiSecuritySchemeApiKeyParameterNameRequired=Security scheme ApiKey parameter name cannot be blank or all spaces.
 DocServerModuleApiSecuritySchemeApiKeyParameterNameIgnored=Security scheme ApiKey parameter name is not null. Value is ignored.
 DocServerModuleApiSecuritySchemeApiKeyParameterNameNotValid=Security scheme ApiKey parameter name &1 contains invalid characters.
@@ -3736,7 +3756,7 @@ DocServerModuleApiSecuritySchemeOAuthFlowDuplicate=Security scheme OAuth Flow ty
 DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlRequired=Security scheme OAuth Flow Authorization Url cannot be blank or all spaces.
 DocServerModuleApiSecuritySchemeOAuthFlowAuthorizationUrlIgnored=Security scheme OAuth Flow Authorization Url has a value. Value will be ignored.
 DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlRequired=Security scheme OAuth Flow TokenUrl cannot be blank or all spaces.
-DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlIgnored==Security scheme OAuth Flow Token Url has a value. Value will be ignored.
+DocServerModuleApiSecuritySchemeOAuthFlowTokenUrlIgnored=Security scheme OAuth Flow Token Url has a value. Value will be ignored.
 DocServerModuleApiSecuritySchemeOAuthFlowScopesRequired=Security scheme OAuth2 Flow requires at least one scope item.
 DocServerModuleApiSecuritySchemeOAuthFlowScopeNameRequired=Security scheme OAuth Flow Scope name cannot be blank or all spaces.
 DocServerModuleApiSecuritySchemeOAuthFlowScopeNameNotValid=Security scheme OAuth Flow Scope name &1 contains invalid characters.
@@ -3744,6 +3764,8 @@ DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=Security scheme Open Id
 DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=Security scheme Open Id Connect Url has a value. Value will be ignored.
 DocServerModuleApiSecuritySchemeReferenceNameRequired=Security scheme reference name cannot be blank or all spaces.
 DocServerModuleApiSecuritySchemeReferenceNameNotFound=Security scheme reference name &1 does not identify a security scheme.
+DocServerModuleApiServiceNameNotValid=Service name &1 contains invalid characters.
+DocServerModuleApiStructuredTypeRequired=Media type &1 requires a schema object type that describes a structured type. Primitive types are not supported.
 
 *************************************************************
 ***** Services Model                                    *****
@@ -3769,3 +3791,103 @@ SMx.JsonDom.NodeValueNotDecimal=Json node (&1) cannot be accessed as Decimal val
 SMx.JsonDom.NodeValueNotInt32=Json node (&1) cannot be accessed as Int32 value.
 SMx.JsonDom.NodeValueNotInt64=Json node (&1) cannot be accessed as Int64 value.
 SMx.JsonDom.NodeValueNotString=Json node (&1) cannot be accessed as String value.
+
+SMx.Json.UnsupportedType=Object type &1 is invalid or unsupported.
+
+SMx.JsonReader.Exception=JSON Reader exception.
+
+SMx.JsonReader.AdditionalTextEncountered=Additional text encountered after finished reading JSON content: &1.
+SMx.JsonReader.BadJsonEscapeSequence=Invalid input stream. Bad JSON escape sequence: &1.
+SMx.JsonReader.CannotReadNanAsaDecimal=Invalid value. Cannot read the NaN value as a decimal.
+SMx.JsonReader.CannotReadNegativeInfinityAsaDecimal=Invalid value. Cannot read the -Infinity value as a decimal.
+SMx.JsonReader.CannotReadPositiveInfinityAsaDecimal=Invalid value. Cannot read the Infinity value as a decimal.
+SMx.JsonReader.CouldNotConvertStringToDateTimeOffset=Could not convert string &1 to a DateTimeOffset value.
+SMx.JsonReader.CouldNotConvertStringToDecimal=Could not convert string &1 to a decimal value.
+SMx.JsonReader.CouldNotConvertStringToInt32=Could not convert string &1 to an Int32 value.
+SMx.JsonReader.ErrorParsingComment=Error parsing comment. Expected: *, got &1.
+SMx.JsonReader.ErrorParsingBooleanValue=Error parsing boolean value. Expected: true or false, got &1.
+SMx.JsonReader.ErrorParsingNanValue=Error parsing NAN value. Expected: NaN, got &1.
+SMx.JsonReader.ErrorParsingNegativeInfinityValue=Error parsing negative infinity value. Expected: -Infinity, got &1.
+SMx.JsonReader.ErrorParsingNullValue=Error parsing null value. Expected: null, got &1.
+SMx.JsonReader.ErrorParsingPositiveInfinityValue=Error parsing positive infinity value. Expected: Infinity, got &1.
+SMx.JsonReader.ErrorParsingTrueValue=Invalid input stream. Error parsing true value.
+SMx.JsonReader.ErrorParsingUndefinedValue=Invalid input stream. Error parsing undefined value.
+SMx.JsonReader.ErrorReadingBytes=Error reading bytes while processing token type &1.
+SMx.JsonReader.ErrorReadingDateTimeOffset=Error reading DateTimeOffset value while processing token type &1.
+SMx.JsonReader.ErrorReadingDecimal=Error reading decimal value while processing token type &1.
+SMx.JsonReader.ErrorReadingInt32=Error reading Int32 value while processing token type &1.
+SMx.JsonReader.ErrorReadingString=Error reading string value while processing token type &1.
+SMx.JsonReader.InputStringIsNotaDecimal=Value &1 is not a decimal.
+SMx.JsonReader.InputStringIsNotaNumber=Value &1 is not a valid number.
+SMx.JsonReader.InputStringIsNotaValidDecimal=Value &1 is not a valid decimal.
+SMx.JsonReader.InputStringIsNotaValidInteger=Value &1 is not a valid integer.
+SMx.JsonReader.InputStringIsTooLargeToParse=Input value &1 is too large to be processed as a number.
+SMx.JsonReader.InputStringTooLargeForInteger=Input value &1 is too large to be converted to an integer.
+SMx.JsonReader.InvalidCharacterAfterParsingPropertyName=Invalid input stream. Invalid character after parsing property name: &1.
+SMx.JsonReader.InvalidCloseToken=Token type &1 is invalid as it does not have a closing token.
+SMx.JsonReader.InvalidEndTokenForJsonType=Token &1 is not valid for closing JsonType &2.
+SMx.JsonReader.InvalidJavascriptPropertyIdentifierCharacter=Invalid input stream. Invalid property identifier character while parsing property name: &1.
+SMx.JsonReader.InvalidPropertyIdentifierCharacter=Invalid input stream. Unexpected property identifier character while parsing property name: &1.
+SMx.JsonReader.MaxDepthExceeded=Maximum depth of &1 has been exceeded while reading JSON input.
+SMx.JsonReader.ReadPastEndOfCurrentContainerContext=Invalid input stream. Attempt to read past end of current container context.
+SMx.JsonReader.UnableToReadBeyondTheEndOfTheStream=Invalid input stream. Attempt to read beyond the end of the input stream.
+SMx.JsonReader.UnexpectedBsonTypeValue=Invalid input stream. Unexpected BSON type value: &1.
+SMx.JsonReader.UnexpectedCharacter=Invalid input stream. Unexpected character while parsing input: &1.
+SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingNumber=Invalid input stream. Unexpected character while parsing numeric value: &1.
+SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingValue=Invalid input stream. Unexpected character while parsing value: &1.
+SMx.JsonReader.UnexpectedCharacterWhileParsingConstructor=Invalid input stream. Unexpected character while parsing constructor.
+SMx.JsonReader.UnexpectedContentWhileParsingJson=Invalid input stream. Unexpected content while parsing JSON.
+SMx.JsonReader.UnexpectedEnd=Invalid input stream. Unexpected end of stream while parsing JSON value.
+SMx.JsonReader.UnexpectedEndOfObjectByteValue=Invalid input stream. Unexpected end of object byte value.
+SMx.JsonReader.UnexpectedEndWhenReadingBytes=Invalid input stream. Unexpected end of input while trying to read bytes.
+SMx.JsonReader.UnexpectedEndWhileParsing=Invalid input stream. Unexpected end of stream while parsing constructor.
+SMx.JsonReader.UnexpectedEndWhileParsingComment=Invalid input stream. Unexpected end of stream while parsing comment.
+SMx.JsonReader.UnexpectedEndWhileParsingUnicodeCharacter=Invalid input stream. Unexpected end of input while parsing unicode character.
+SMx.JsonReader.UnexpectedEndWhileParsingUnquotedPropertyName=Invalid input stream. Unexpected end of stream while parsing unquoted property name.
+SMx.JsonReader.UnexpectedJsonTypeEncountered=While setting the reader state back to current object an unexpected JsonType was encountered: &1.
+SMx.JsonReader.UnexpectedState=Internal error. JSON reader in unexpected state: &1.
+SMx.JsonReader.UnexpectedStateWhenReadingBsonCodeWithScope=Internal error. Reader in unexpected state when reading BSON code with scope: &1.
+SMx.JsonReader.UnexpectedStateWhenReadingBsonNormal=Internal error. Reader in unexpected state when reading BSON normally: &1.
+SMx.JsonReader.UnexpectedStateWhenReadingBsonReference=Internal error. Reader in unexpected state when reading BSON reference: &1.
+SMx.JsonReader.UnexpectedTokenWhenReadingBytes=Token of type &1 is unexpected while reading JSON input.
+SMx.JsonReader.UnterminatedString=Unterminated string. Expected delimiter: &1.
+
+SMx.JsonWriter.Exception=JSON Writer exception.
+
+SMx.JsonWriter.AnObjectIdMustBeTwelveBytes=Writing ObjectId requires 12 byte value.
+SMx.JsonWriter.CannotWriteJsonCommentAsBson=Cannot write Json comment as Bson.
+SMx.JsonWriter.CannotWriteJsonConstructorAsBson=Cannot write Json constructor as Bson.
+SMx.JsonWriter.CannotWriteRawJsonAsBson=Cannot write raw Json as Bson.
+SMx.JsonWriter.ErrorWritingBsonValue=Error writing &1 value. BSON must start with an Object or Array.
+SMx.JsonWriter.InvalidClose=Invalid transition. Attempt to close document would result in an invalid JSON object.
+SMx.JsonWriter.InvalidJsonToken=Invalid token type when writing end of scope: &1.
+SMx.JsonWriter.InvalidState=Internal error. JSON writer in unexpected state: &1.
+SMx.JsonWriter.InvalidTransition=Invalid transition. Token &1 in state &2 would result in an invalid JSON object.
+SMx.JsonWriter.NoCloseTokenForType=Internal error. No close token for JSON type: &1.
+SMx.JsonWriter.OnlyWhitespaceCharactersShouldBeUsed=Invalid attempt to write non-whitespace using whitespace write.
+SMx.JsonWriter.PropertyNameRequired=A name is required when setting property name state.
+SMx.JsonWriter.UnexpectedEndWhenReadingDateConstructor=Unexpected end when reading date constructor.
+SMx.JsonWriter.UnexpectedTokenWhenReadingDateConstructor=Unexpected Token When Reading Date Constructor. Expected Integer, got &1.
+SMx.JsonWriter.UnexpectedTokenWhenWritingBson=Unexpected token type when writing Bson: &1.
+SMx.JsonWriter.UnexpectedTypeWhenWritingEnd=Unexpected Token type when writing end of scope: &1.
+SMx.JsonWriter.UnknownJsonType=Internal error. Unknown JSON type: &1.
+SMx.JsonWriter.UnsupportedType=Unsupported type: &1. Use the JsonSerializer class to get the object's JSON representation.
+SMx.JsonWriter.ValueTooLargeToFitInaSigned32BitInteger=Value too large to fit in a signed 32-bit integer.
+SMx.JsonWriter.ValueTooLargeToFitInaSigned64BitInteger=Value too large to fit in a signed 64-bit integer.
+
+
+****************************************
+***** Web Application Validations  *****
+****************************************
+WebApplicationPrefixInvalid=Your prefix should not contain any special characters and must start with a letter.
+WebApplicationPrefixRequired=Please provide a prefix for your application.
+WebApplicationPrefixExists=A &1 called &2 already exists in the LANSA Repository, please choose a different prefix.
+WebApplicationPrefixReserved=This prefix is reserved for future use by LANSA.
+WebApplicationNameRequired=Please provide a name for your application.
+WebApplicationNameExistsAsList=The LANSA Repository already contains a List with this name, please choose a different name.
+WebApplicationViewNameRequired=Please provide a name for this view.
+WebApplicationViewNameInvalid=It isn't possible to create a valid identifier using this name, please choose a different name.
+WebApplicationViewNameDuplicate=The view name must be unique within this application.
+WebApplicationViewTableRequired=Please specify the table to be maintained by this view.
+WebApplicationViewTableInvalid=This table doesn't exist in the LANSA Repository.
+WebApplicationViewDescriptionRequired=Please provide a description for this view.

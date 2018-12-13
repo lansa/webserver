@@ -209,3 +209,5 @@ Card.Secondary=Secondary Text
 Card.Tertiary=Tertiary Text
 
 Navigation.Help=Add View
+List.Help=Drop Fields here to create Data table
+List.Filter=Filter

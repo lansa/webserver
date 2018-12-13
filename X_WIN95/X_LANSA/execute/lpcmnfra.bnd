@@ -359,6 +359,19 @@ Category.Caption=Caption
 Category.Other=Autre
 Category.User=Utilisateur
 
+Exception.Arithmetic=Exception arithmétique. Explication:&1.
+Exception.Arithmetic.DivisionByZeroError=Erreur arithmétique - tentative de division par zéro. 
+
+Lpx.InterfaceCastFailure=Échec lors de la tentative de conversion d'une classe d'exécution de type & 1 vers le type d'interface & 2.
+Lpx.ObjectCastFailure=Échec lors de la tentative de conversion d'une classe d'exécution de type &1 vers l'object de type &2.
+
+Ioc.InvalidBase16Sequence=Caractères en Base16 invalides &1 à l'offset &2.
+Ioc.InvalidBase16Length=&1 est une longueur invalide en Base16. La Longueur doit être divisible par 2.
+Ioc.InvalidBase16String=Chaîne '&1' n'est pas une valeur encodée valide en Base16.
+Ioc.InvalidBase64Length=&1 est une longueur invalide en Base64. La Longueur doit être divisible par 4.
+Ioc.InvalidBase64Sequence=Caractères en Base64 invalides &1 à l'offset &2.
+Ioc.Format.Base64ArrayChar=Le tableau de caractères contient des valeurs encodées en Base64 non valides.
+
 Rx.UnexpectedEndOfPattern=Fin de motif d'expression régulière inattendu.
 Rx.InvalidAlternation=Alternance incorrecte. Trop de | dans (?()|)."
 Rx.BadQuantifier=Mauvais quantificateur en &1.
@@ -416,3 +429,28 @@ Uri.DefaultValuesAreImmutable=La collection de valeurs par défaut est immuable.
 Uri.Duplicate=Les modèles d'Uri '&1' et '&2' contiennent des requêtes dupliquées.
 Uri.OtherAmbiguousQueries=La collection de modèle d'Uri contient des requêtes ambiguës - &1
 Uri.AmbiguousQueries=Les modèle d'Uri '&1' et '&2' contiennent des requêtes ambiguës.
+
+Capi.BlockIncorrect=L'en-tête du bloc de données PKCS1 n'est pas valide. Le type est incorrect ou la longueur est invalide.
+Capi.BlockIncorrectSize=Taille de bloc des données incorrectes pour l'encodage PKCS1 indique d'utiliser une longueur stricte.
+Capi.BlockTruncated=Bloc de données PKCS1 traité n'est pas valide. Il a été tronqué.
+Capi.CannotReuseNonceForGCMEncryption=Ne peut pas être réutilisé à l'occasion pour l'encryptage GCM.
+Capi.CipherRequiredBlockSize=Taille de bloc du chiffrement fourni au moteur GCM ne correspond pas à la taille de bloc requise pour GCM. Fourni &1; nécessaire 16.
+Capi.CipherRequiredWithBlockSize=Chiffrement invalide. La taille du bloc de chiffrement doit correspondre à la taille du bloc moteur de &1.
+Capi.DiffieHellmanPublicKeyHasWrongParameters=Les paramètres de clé publique fournis pour calculer l'accord d'échange de clé Diffie-Hellman ne correspondent pas à la clé privée utilisée pour initialiser le protocole.
+Capi.EngineNotInitialised=L'algorithme de cryptographie n'a pas été initialisé avant la première demande de traitement de données.
+Capi.KeyAgreementAlgorithmNotInitialised=L'algorithme d'acceptation de clé n'a pas été initialisé.
+Capi.InputCountTooLargeForElGamalCipher=Le nombre d'entrées est trop important pour le chiffrement ElGamal.
+Capi.InputTooLargeForElGamalCipher=Entrée trop grande pour le chiffrement ElGamal.
+Capi.InvalidParametersPassedToInit=Le nom de classe du moteur CAPI &1 ne prend pas en charge le nom de classe de paramètre &2 pendant l'appel Initial.
+Capi.InvalidValueForMacSize=Value &1 is an invalid MAC bit size. La valeur doit être comprise entre 32 et 128 inclus et un multiple de 8.
+Capi.InvalidValueForMacSizeForOcb=La valeur &1 a une taille de bit MAC invalide. La valeur doit être comprise entre 64 et 128 inclus et un multiple de 8.
+Capi.IvMustBeAtLeastOneByte=Valeur IV invalide. La valeur doit être au moins un octet.
+Capi.MacCheckInCCMFailed=Texte chiffré invalide. La vérification MAC pendant le déchiffrement CCM a échoué.
+Capi.MacCheckInEaxFailed=Texte chiffré invalide. La vérification EAX pendant le déchiffrement CCM a échoué.
+Capi.MacCheckInOcbFailed=Texte chiffré invalide. La vérification OCB pendant le déchiffrement CCM a échoué.
+Capi.NoDataInBlock=Le bloc de données PKCS1 traité n'est pas valide. Il ne contient aucune donnée.
+Capi.PrivateKeyRequiredForSigning=Paramètre de clé privée requis pour initialiser le signataire pour la signature.
+Capi.PublicKeyHasWrongParametersForDiffieHellman=La clé publique a des paramètres incorrects pour Diffie-Hellman.
+Capi.PublicKeyIsWeakForDiffieHellman=La clé publique est fragile pour Diffie-Hellman.
+Capi.PublicKeyRequiredForSigning=Paramètre de clé publique requis pour initialiser le signataire pour la verification.
+Capi.UnknownBlockType=Le bloc de données PKCS1 traité n'est pas valide. Value &1 est un type de bloc inconnu.

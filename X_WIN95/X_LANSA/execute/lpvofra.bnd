@@ -209,3 +209,5 @@ Card.Secondary=Texte secondaire
 Card.Tertiary=Texte tertiaire
 
 Navigation.Help=Ajouter une vue
+List.Help=Déposer les champs ici pour créer la table de données
+List.Filter=Filtre

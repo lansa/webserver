@@ -1,4 +1,4 @@
-"PostDeploy.ps1" | Write-Host
+"PostDeploy.ps1" | Format-List | Out-String
 
 #Requires -RunAsAdministrator
 
@@ -16,10 +16,10 @@ if ($args.length -gt 0) {
         Write-Host "Working directory is $($args[1])"
         $WorkingDirectory = $args[1]
 
-        Set-Location $WorkingDirectory | Write-Host
+        Write-Host( Set-Location $WorkingDirectory | Format-List | Out-String )
 
-        Write-Host("Re-run script without the log file parameter but using redirection to the log file")
-        & $MyInvocation.MyCommand.Path > $LogFile *>&1 | Write-Host
+        Write-Host( "Re-run script without the log file parameter but using redirection to the log file")
+        Write-Host( & $MyInvocation.MyCommand.Path > $LogFile *>&1 | Format-List | Out-String )
         return
     } else {
         Write-Error("Working Directory parameter missing")
@@ -79,11 +79,11 @@ function Execute-Process
     $output = $p.StandardOutput.ReadToEnd()
     $errorOutput = $p.StandardError.ReadToEnd()
     $p.WaitForExit()
-    $output     | Write-Host
-    $errorOutput | Write-Host
+    Write-Host( $output  | Format-List | Out-String )
+    Write-Host( $errorOutput  | Format-List | Out-String )
 
     # Set $LASTERRORCODE
-    cmd /c exit $p.ExitCode | Write-Host
+    Write-Host( cmd /c exit $p.ExitCode  | Format-List | Out-String )
 
 	# Must continue on error so that everything that can be started is started.
 	# Not all installations have everything installed anyway.
@@ -131,14 +131,14 @@ function Control-Related-WebSites
             Write-Host "$(Log-Date) Web Site = $($SiteVirtualDirectory.Site)"
             if ($Start) {
                 Write-Host ("$(Log-Date) Starting web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) | Write-Host
+                Write-Host ( Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool)  | Format-List | Out-String )
                 Write-Host ("$(Log-Date) Starting web site $($SiteVirtualDirectory.Site)")
-                Start-Website -name $($SiteVirtualDirectory.Site) | Write-Host
+                Write-Host ( Start-Website -name $($SiteVirtualDirectory.Site) | Format-List | Out-String )
             } else {
                 Write-Host ("$(Log-Date) Stopping web site $($SiteVirtualDirectory.Site)")
-                Stop-Website -name $($SiteVirtualDirectory.Site) | Write-Host
+                Write-Host( Stop-Website -name $($SiteVirtualDirectory.Site)  | Format-List | Out-String )
                 Write-Host ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) | Write-Host
+                Write-Host( Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool)  | Format-List | Out-String )
                 # Web Site stopping has not yet ever logged a wait state
                 $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 $Loop = 0
@@ -148,7 +148,7 @@ function Control-Related-WebSites
                         throw
                     }
                     Write-Host("$(Log-Date) Waiting for web site to stop")
-                    Start-Sleep -s 1 | Write-Host
+                    Write-Host( Start-Sleep -s 1  | Format-List | Out-String )
                     $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 }
 
@@ -162,7 +162,7 @@ function Control-Related-WebSites
                         throw
                     }
                     Write-Host("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
-                    Start-Sleep -s 1 | Write-Host
+                    Write-Host( Start-Sleep -s 1  | Format-List | Out-String )
                     $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
                 }
             }
@@ -222,7 +222,7 @@ try {
 
     $x_lansa_pro = (Join-Path $ExecuteDir '..\x_lansa.pro')
     $x_lansa_pro_old = "$($x_lansa_pro)_old"
-    Copy-Item $x_lansa_pro $x_lansa_pro_old | Write-Host
+    Write-Host( Copy-Item $x_lansa_pro $x_lansa_pro_old | Format-List | Out-String )
     get-content $x_lansa_pro_old | Where-Object { $_ -ne 'INST=MSI' -and $_ -ne '' } | set-content $x_lansa_pro
 
     ###############################################################################
@@ -304,7 +304,7 @@ try {
             }
             Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-sstart") "Starting Listener returned error code"
         }
-        Start-Sleep 5 | Write-Host
+        Write-Host( Start-Sleep 5 | Format-List | Out-String )
         $loop += 1
         Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") "Listener startup check returned "
     }
@@ -320,7 +320,7 @@ try {
     $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
     Remove-Item $webserver -ErrorAction SilentlyContinue
     if ( Test-Path $webserver_saved ) {
-        Copy-Item $webserver_saved -Destination $webserver -Force | Write-Host
+        Write-Host ( Copy-Item $webserver_saved -Destination $webserver -Force | Format-List | Out-String )
     }
 
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
@@ -331,7 +331,7 @@ try {
     $IIsReset = (Get-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'PluginFullyInstalled' -ErrorAction SilentlyContinue).PluginFullyInstalled
     if ( $IIsReset -eq 1) {
         Write-Host ("$(Log-Date) iisreset always required")
-        iisreset | Write-Host
+        Write-Host ( iisreset | Format-List | Out-String )
     } else {
         Write-Host ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")
         $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
@@ -346,7 +346,7 @@ try {
             if ( (Test-Path $TargetVLWebDatFile -PathType Leaf)) {
                 if ( (Get-FileHash $VLWebDatFile).hash  -ne (Get-FileHash $TargetVLWebDatFile).hash) {
                     Write-Host ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
-                    iisreset | Write-Host
+                    Write-Host ( iisreset | Format-List | Out-String )
                 } else {
                     Write-Host ("$(Log-Date) vlweb.dat has not changed.")
                 }

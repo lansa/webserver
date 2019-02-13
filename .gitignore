@@ -23,6 +23,7 @@
 !*.gitignore
 !*.gitattributes
 !.exclude_backup
+!*.gitlab-ci.yml
 
 # Need to explicitly include DLLs and other binaries that are generically excluded in machine .gitignore
 !*.dll
@@ -924,4 +925,5 @@ WebServer/Images/wiztridown.gif
 WebServer/Images/wiztrileft.gif
 WebServer/Images/yourlogo.gif
 WebServer/Images/libs/jquery-file-upload/9.12.3/server/php/files/.htaccess
+
 

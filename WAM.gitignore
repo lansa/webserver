@@ -23,6 +23,7 @@
 !*.gitignore
 !*.gitattributes
 !.exclude_backup
+!*.gitlab-ci.yml
 
 # Need to explicitly include DLLs and other binaries that are generically excluded in machine .gitignore
 !*.dll

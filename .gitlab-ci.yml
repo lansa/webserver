@@ -1,0 +1,185 @@
+# Notes
+# This pipeline requires that the shell is specified as powershell in the runner's config.toml file
+# Wrap each powershell line in single quotes so that the syntax is not checked.
+# Within the single quotes its now interpreted as powershell syntax.
+# If a script line has just 1 command, it is tested to see if the returned code is non-zero, and fails immediately.
+# The actual error code is not reported though.
+# So to do so, each line requires ;Write-Host "LASTEXITCODE $LASTEXITCODE"' to be appended. And when thats appended, the script line has multiple commands
+# and so when there is an error the script continues! Also, if the script continues, and no further error occurs, the script is designated as successful,
+# even though $LASTEXITCODE is non-zero!
+# Script setting LASTEXITCODE is also not displayed in the log. So log the error before throwing, and throw from the script to ensure it stops processing.
+# Global before script run before each and every job, in the context of the job. So thats goodness. We can use it.
+# Global after_script run just once, and NOT in the context of the job. So thats NOT goodness. We can't use it. Think docker containers for each job.
+# Not yet clear whether a job-specific after_script is run in the context of the job. The presumption is that it is.
+
+# The APPL_PATH environment variable is the root of the application installation.
+# It should be set in the project CI/CD settings. There it may be different for different branches/tags enabling test and production to be in
+# different directories and not require this file to be modified.
+
+# The 'tags' setting specifies which jobs a runner will run. So it will only run, say jobs with a job tag of 'test-tag'. Then that job will be further
+# validated to ensure that the git reference matches the job too - that is the 'only' setting. The result is that every job has both 'tags' and 'only' specified
+# and they are the same values to easily match up which job is run where. So, when the git reference 'test-tag' is pushed, it results in the runner with
+# the job tag 'test-tag' being run.
+# Note that ALL job tags listed in this file MUST have a Runner that has that job tag specified otherwise it will be STUCK.
+
+# The 'only' setting is used to separate out the different references you want to process.
+# For a particular Runner on a machine once the 'only' setting is true, it still needs to match with the git reference that the application is configured to watch.
+# That setting is in HKLM:\Software\LANSA\$ENV:LANSA_APPL_NAME\ENG\GITREPOBRANCH. Every script checks that this git reference being watched
+# is the same as the commit's reference and returns without error. If an error was returned it would create many false errors.
+
+# The default script provided will correctly deploy either a master branch commit, test-tag commit or prod-tag commit. 
+
+stages:
+  - validate
+  - deploy
+
+# Define scripts globally, so they may be run in multiple jobs
+
+.validate_script_template:
+    script:  &validate_script_definition
+      - '"LANSA_ROOT_PATH = $ENV:LANSA_ROOT_PATH"'
+      - '"LANSA_APPL_NAME = $ENV:LANSA_APPL_NAME"'
+      - &grb1 '$LANSA_GITREPOBRANCH = (Get-ItemProperty -Path "HKLM:\Software\LANSA\$ENV:LANSA_APPL_NAME\ENG"  -Name "GITREPOBRANCH"
+).GITREPOBRANCH'
+      - &grb2 '[Environment]::SetEnvironmentVariable("LANSA_GITREPOBRANCH", $LANSA_GITREPOBRANCH, "Process")'
+      - &grb3 '"LANSA_GITREPOBRANCH = $ENV:LANSA_GITREPOBRANCH"'
+      - 'if ( !(Test-Path $ENV:LANSA_ROOT_PATH -PathType Container)) { throw "LANSA_ROOT_PATH $ENV:LANSA_ROOT_PATH does not exist"}'
+      - 'if ( [string]::IsNullOrEmpty($ENV:LANSA_APPL_NAME) ) { throw "LANSA_APPL_NAME $ENV:LANSA_APPL_NAME is null or empty"}'
+      - 'if ( [string]::IsNullOrEmpty($ENV:LANSA_GITREPOBRANCH) ) { throw "LANSA_GITREPOBRANCH $ENV:LANSA_GITREPOBRANCH is null or empty"}'
+      - &set-path '$LANSA_APPL_PATH = Join-Path $ENV:LANSA_ROOT_PATH $ENV:LANSA_APPL_NAME'
+      - 'if ( !(Test-Path $LANSA_APPL_PATH -PathType Container)) { throw "LANSA_APPL_PATH $LANSA_APPL_PATH does not exist"}'
+
+.before_script_template:
+    before_script:  &before_script_definition
+      - *grb1
+      - *grb2
+      - *grb3
+      - &grb4 'if ( $ENV:LANSA_GITREPOBRANCH -ne $ENV:CI_COMMIT_REF_NAME ) { "Skipping commit. Runner is watching $ENV:LANSA_GITREPOBRANCH which is not the same as this commit $ENV:CI_COMMIT_REF_NAME";return }'
+      - *set-path
+      - '& "$LANSA_APPL_PATH\autodeploy\PreDeploy.ps1"'
+
+# For use when watching a branch
+# Do the pull like GitDeployHub website
+.branch_script_template:
+    script:  &branch_script_definition
+      - *grb1
+      - *grb2
+      - *grb3
+      - *grb4
+      - *set-path
+      - &git1 'cd $LANSA_APPL_PATH'
+      - &git2 '& git clean -fd -- X_Win95\X_Lansa\X_Apps\$ENV:LANSA_APPL_NAME\'
+      - &git3 '& git fetch'
+      - &git4 '& git fetch --tags --force'
+      - &git5 '& git status -uno'
+      - '& git reset --hard origin/$ENV:LANSA_GITREPOBRANCH' # Set the working directory to the correct state. We could stop here. Its now clean and mergeable.
+      - '& git checkout -f $ENV:LANSA_GITREPOBRANCH'         # Make sure we are on the correct branch, which sets the working directory back to the prior state.
+      - '& git pull'                                         # Make the current branch ref match the origin. Only makes a difference if previously in detached head state due to checking out a tag
+
+# For use when watching a tag.
+# Notice its the same as for a branch except the git reset is slightly different
+# Do the pull like GitDeployHub website
+.tag_script_template:
+    script:  &tag_script_definition
+      - *grb1
+      - *grb2
+      - *grb3
+      - *grb4
+      - *set-path
+      - *git1
+      - *git2
+      - *git3
+      - *git4
+      - *git5
+      - '& git reset --hard $ENV:LANSA_GITREPOBRANCH' # Set the working directory to the correct state. The git repo is now a detached head.
+
+.after_script_template:
+    after_script:  &after_script_definition
+      - *grb1
+      - *grb2
+      - *grb3
+      - *grb4
+      - *set-path
+      - '& "$LANSA_APPL_PATH\autodeploy\PostDeploy.ps1"'
+
+#
+# These jobs execute only when the commit being deployed is to branch master
+#
+validate_branch_job:
+  stage: validate
+  only:
+    - master
+  tags:
+    - master
+  script: *validate_script_definition
+
+deploy_branch_job:
+  stage: deploy
+  only:
+    - master
+  tags:
+    - master
+
+  # job-specific before_script
+  before_script: *before_script_definition
+
+  script: *branch_script_definition
+
+  # job-specific after_script
+  # Using an after script so that its run even when there is an error elsewhere - ensures the system is left in a running state, if its possible
+  after_script: *after_script_definition
+
+#
+# These jobs execute only when the commit being deployed is to tag test-tag
+#
+validate_test_job:
+  stage: validate
+  only:
+    - test-tag
+  tags:
+    - test-tag
+  script: *validate_script_definition
+
+deploy_test-tag_job:
+  stage: deploy
+  only:
+    - test-tag
+  tags:
+    - test-tag
+
+  # job-specific before_script
+  before_script: *before_script_definition
+
+  script: *tag_script_definition
+
+  # job-specific after_script
+  # Using an after script so that its run even when there is an error elsewhere - ensures the system is left in a running state, if its possible
+  after_script: *after_script_definition
+
+#
+# These jobs execute only when the commit being deployed is to tag prod-tag
+#
+validate_prod_job:
+  stage: validate
+  only:
+    - prod-tag
+  tags:
+    - prod-tag
+  script: *validate_script_definition
+
+deploy_prod-tag_job:
+  stage: deploy
+  only:
+    - prod-tag
+  tags:
+    - prod-tag
+
+  # job-specific before_script
+  before_script: *before_script_definition
+
+  script: *tag_script_definition
+
+  # job-specific after_script
+  # Using an after script so that its run even when there is an error elsewhere - ensures the system is left in a running state, if its possible
+  after_script: *after_script_definition
+

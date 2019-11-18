@@ -75,8 +75,8 @@ function Execute-Process
     $output = $p.StandardOutput.ReadToEnd()
     $errorText = $p.StandardError.ReadToEnd()
     $p.WaitForExit()
-    $output | Write-Host
-    $errorText | Write-Host
+    $output | Out-Default | Write-Host
+    $errorText | Out-Default | Write-Host
 
 	# Must continue on error so that everything that can be stopped is stopped.
 	# Not all installations have everything running anyway.
@@ -121,14 +121,14 @@ function Control-Related-WebSites
             Write-Host "$(Log-Date) Web Site = $($SiteVirtualDirectory.Site)"
             if ($Start) {
                 Write-Host ("$(Log-Date) Starting web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) | Write-Host
+                Start-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) | Out-Default | Write-Host
                 Write-Host ("$(Log-Date) Starting web site $($SiteVirtualDirectory.Site)")
-                Start-Website -name $($SiteVirtualDirectory.Site) | Write-Host
+                Start-Website -name $($SiteVirtualDirectory.Site) | Out-Default | Write-Host
             } else {
                 Write-Host ("$(Log-Date) Stopping web site $($SiteVirtualDirectory.Site)")
-                Stop-Website -name $($SiteVirtualDirectory.Site)  -ErrorAction SilentlyContinue | Write-Host
+                Stop-Website -name $($SiteVirtualDirectory.Site)  -ErrorAction SilentlyContinue | Out-Default | Write-Host
                 Write-Host ("$(Log-Date) Stopping web application pool $($SiteVirtualDirectory.ApplicationPool)")
-                Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) -ErrorAction SilentlyContinue | Write-Host
+                Stop-WebAppPool -name $($SiteVirtualDirectory.ApplicationPool) -ErrorAction SilentlyContinue | Out-Default | Write-Host
 
                 # Web Site stopping has not yet ever logged a wait state
                 $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
@@ -139,7 +139,7 @@ function Control-Related-WebSites
                         throw "Web site $($SiteVirtualDirectory.Site) could not be stopped"
                     }
                     Write-Host("$(Log-Date) Waiting for web site to stop")
-                    Start-Sleep -s 2 | Write-Host
+                    Start-Sleep -s 2 | Out-Default | Write-Host
                     $WebSiteState = Get-WebsiteState -name $($SiteVirtualDirectory.Site)
                 }
 
@@ -153,7 +153,7 @@ function Control-Related-WebSites
                         throw "App Pool $($SiteVirtualDirectory.ApplicationPool) could not be stopped"
                     }
                     Write-Host("Waiting for App Pool to stop - current state $($WebAppPoolState.Value)")
-                    Start-Sleep -s 2 | Write-Host
+                    Start-Sleep -s 2 | Out-Default | Write-Host
                     $WebAppPoolState = Get-WebAppPoolState -name $($SiteVirtualDirectory.ApplicationPool)
                 }
             }
@@ -208,16 +208,26 @@ try {
 
     $webserver = Join-Path $Root 'run\conf\webserver.conf'
     $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
-    Remove-Item $webserver_saved -ErrorAction SilentlyContinue | Write-Host
+
+    Remove-Item $webserver_saved -ErrorAction SilentlyContinue | Out-Default | Write-Host
+
+    $NoFilters = '{}'
     if ( Test-Path $webserver ) {
-        Copy-Item -Path $webserver -Destination $webserver_saved | Write-Host
+        Write-Host ("$(Log-Date) $webserver exists...")
+        If (Get-Content $webserver | Select-String -Pattern $NoFilters) {
+            Write-Host ("$(Log-Date) but it contains 0 filters. This is the state we use below to purposely remove the filters so that no transactions can occur during deployment. So, its presumed to be created by this script and thus we can delete it now because it should not be here. See CCS 161986...")
+        } else {
+            Write-Host ("$(Log-Date) and it contains filters, so save it...")
+
+            Copy-Item -Path $webserver -Destination $webserver_saved | Out-Default | Write-Host
+        }
     }
 
-    # This removes all the filters from the running iisplugin
-    echo '{}' > $webserver
+    # This removes all the filters from the running iisplugin, so that no txns can occur during deployment
+    Write-Output $NoFilters > $webserver
 
     Write-Host( "$(Log-Date) Wait for any current transactions to complete")
-    Start-Sleep 10 | Write-Host
+    Start-Sleep 10 | Out-Default | Write-Host
 
     ###############################################################################
     Write-Host ("$(Log-Date) Stopping processes running in this installation")
@@ -228,7 +238,7 @@ try {
     Control-Related-WebSites -Root $Root -Start $false
 
     #
-    # Check if Listener has stopped. Check every 0.1s. If not stopped within 20s fail
+    # Check if Listener has stopped. Check every 0.5s. If not stopped within 20s fail
     #
     Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") -ErrorText "Listener stop check returned "
     Write-Host( "LASTEXITCODE = $LASTEXITCODE")
@@ -238,7 +248,7 @@ try {
         if ( $Loop -ge 40 ) {
             throw "Listener could not be stopped"
         }
-        Start-Sleep -Milliseconds 500 | Write-Host
+        Start-Sleep -Milliseconds 500 | Out-Default | Write-Host
         $loop += 1
         Execute-Process (Join-Path $Root 'connect64\lcolist.exe') @("-q") "Listener stop check returned "
     }
@@ -249,7 +259,7 @@ try {
     $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root\*" })
     foreach ($process in $processes ) {
         Write-Host("$(Log-Date) Stopping $($Process.ProcessName)")
-        Stop-Process $process.id -Force | Write-Host
+        Stop-Process $process.id -Force | Out-Default | Write-Host
     }
 
     # Wait for processes to end
@@ -262,7 +272,7 @@ try {
         }
         Write-Host("Waiting for $($Processes[0].ProcessName)")
         # Wait 1 second
-        Start-Sleep -s 1 | Write-Host
+        Start-Sleep -s 1 | Out-Default | Write-Host
         $Processes = @(Get-Process | Where-Object {$_.Path -like "$Root\*" })
     }
 
@@ -276,21 +286,23 @@ try {
     #     Start-Sleep -s 20
     # }
 
-    Write-Host ("$(Log-Date) Saving copy of vlweb.dat to detect if an iisreset is required")
+    Write-Host ("$(Log-Date) Show current value of vlweb.dat")
     $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
     if ( !(Test-Path $VLWebDatFile -PathType Leaf)) {
         $VLWebDatFile = Join-Path $Root 'x_win64\x_lansa\web\vl\vlweb.dat'
     }
-    Copy-Item -Path $VLWebDatFile -Destination $ENV:TEMP -Force | Write-Host
+    Write-Host( "$(Log-Date) $VLWebDatFile contents...")
+    Get-Content -Path $VLWebDatFile | Out-Default | Write-Host
+    # Saving the current file is now done by GitDeployHub because it performs a pull before running predeploy.ps1 - in order to update pre-deploy.ps1!
+    # Copy-Item -Path $VLWebDatFile -Destination $ENV:TEMP -Force | Out-Default | Write-Host
 } catch {
-    throw
-} finally {
-    Write-Host( "$(Log-Date) Bring the Application Server back online")
+    Write-Host( "$(Log-Date) Fatal: Bring the Application Server back online")
 
     $webserver = Join-Path $Root 'run\conf\webserver.conf'
     $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
     Remove-Item $webserver -ErrorAction SilentlyContinue | Write-Host
     if ( Test-Path $webserver_saved ) {
-        Copy-Item $webserver_saved -Destination $webserver -Force | Write-Host
+        Copy-Item $webserver_saved -Destination $webserver -Force | Out-Default| Write-Host
     }
+    throw
 }

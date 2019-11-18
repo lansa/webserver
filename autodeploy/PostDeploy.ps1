@@ -193,6 +193,42 @@ function Control-Related-Services
     Out-String -InputObject $IntegratorService | Write-Verbose
 }
 
+# Provide a common routine so its easily modified.
+# It will need to be improved as more understanding arises
+# Using iisreset defaults to /stop /start /force
+# This frequentkly causes automatic kills to occur - 3204 in the system event log.
+# What follows a 3204 is always that other services get killed too.
+# occassionally iis is not restarted (last time there were 84 resets (42 iterations) before this occurred)
+
+function Iis-Reset {
+    Write-Host( "$(Log-Date) iisreset /stop /noforce..." )
+    iisreset /stop /noforce
+    if ( $LASTEXITCODE -ne 0 ) {
+        Write-Host( "$(Log-Date) iisreset /stop /noforce resulted in exit code $LASTEXITCODE" )
+
+        Write-Host( "$(Log-Date) iisreset /kill..." )
+        iisreset /kill
+        if ( $LASTEXITCODE -ne 0 ) {
+            Write-Host( "$(Log-Date) iisreset /kill resulted in exit code $LASTEXITCODE" )
+            iisreset /kill
+
+            Write-Host( "$(Log-Date) Pause 10s to allow IIS to 'recover'..." )
+            Start-Sleep 10
+        }
+    }
+
+    Write-Host( "$(Log-Date) iisreset /start..." )
+    iisreset /start
+    if ( $LASTEXITCODE -ne 0 ) {
+        Write-Host( "$(Log-Date) iisreset /start resulted in exit code $LASTEXITCODE" )
+        Write-Host( "$(Log-Date) iisreset /start again..." )
+        iisreset /start
+        if ( $LASTEXITCODE -ne 0 ) {
+            Write-Host( "$(Log-Date) iisreset /start resulted in exit code $LASTEXITCODE" )
+        }
+    }
+}
+
 ###############################################################################
 # Main Code
 ###############################################################################
@@ -239,12 +275,14 @@ try {
     }
 
     # DEVF=4096 forces Alternate Name reuse so that tables with the same name in the initial MSI do not cause fatal errors to occur, like xEmployee
-    $Arguments = @("PROC=*INSTALL", "QUET=Y", "MODE=B", "BPQS=Y", "LOCK=NO", "DEVF=4096")
+    $Arguments = @("PROC=*INSTALL", "INST=MSI", "QUET=Y", "MODE=B", "BPQS=Y", "LOCK=NO", "DEVF=4096")
 
-    $Auto = @(Get-Content (Join-Path $Root 'autodeploy\AutoPackageInstallParameters.txt') )
-    $Admin = @(Get-Content (Join-Path $Root 'autodeployadmin\AdminPackageInstallParameters.txt') )
-    $Override = @(Get-Content (Join-Path $Root 'autodeploy\OverridePackageInstallParameters.txt') )
+    # Must have AutoPackageInstallParameters.txt as it contains the APPL setting to use
+    $Auto = @(Get-Content (Join-Path $Root 'autodeploy\AutoPackageInstallParameters.txt') -ErrorAction Stop)
+    $Admin = @(Get-Content (Join-Path $Root 'autodeployadmin\AdminPackageInstallParameters.txt') -ErrorAction SilentlyContinue)
+    $Override = @(Get-Content (Join-Path $Root 'autodeploy\OverridePackageInstallParameters.txt') -ErrorAction SilentlyContinue)
     foreach ( $line in $Auto ){
+        $line | Write-Host
         $line = $line.Trim()
         if (  $line.Length -gt 0) {
             $Arguments += $line
@@ -252,14 +290,16 @@ try {
     }
 
     foreach ( $line in $Override ){
+        $line | Write-Host
         $line = $line.Trim()
         if (  $line.Length -gt 0) {
             $Arguments += $line
         }
     }
 
-    # Admin params must not be overriden
+    # Admin params must not be overriden, so add them last
     foreach ( $line in $Admin ){
+        $line | Write-Host
         $line = $line.Trim()
         if (  $line.Length -gt 0) {
             $Arguments += $line
@@ -275,12 +315,22 @@ try {
         Write-Host ("$(Log-Date) x_err.log size before Package Install $($Measure_before.Lines) lines. Now its $($Measure_after.Lines) lines")
         if ( $Measure_after.Lines -gt ($Measure_before.Lines + 3 ) ) {
             Write-Host ("$(Log-Date) *** begin x_err.log")
-            Out-File $x_err
+            Get-Content $x_err
             Write-Host ("$(Log-Date) *** end x_err.log")
             throw "x_err.log contains extra text after Package Install"
         }
     }
 
+    Write-Host ("$(Log-Date) Deployment Successful")
+    cmd /c exit 0
+} catch {
+    Write-Host ("$(Log-Date) Deployment Failed")
+    Write-Host ("$(Log-Date) Note that its common AND NORMAL for AutoPackageInstallParameters.txt to be missing for the Setup Inital Environment commit. If thats the exception, it may be safely ignored because its fine for that commit to not be 'installed'" )
+    $_
+    cmd /c exit 1
+
+    throw
+} finally {
     ###############################################################################
     Write-Host ("$(Log-Date) Starting listener and web site")
     ###############################################################################
@@ -310,17 +360,16 @@ try {
     }
     Write-Host( "Listener started")
 
-    cmd /c exit 0
-} catch {
-    throw
-} finally {
     Write-Host( "$(Log-Date) Bring the Application Server back online")
 
     $webserver = Join-Path $Root 'run\conf\webserver.conf'
     $webserver_saved = Join-Path $Root 'run\conf\webserver.conf.saved'
-    Remove-Item $webserver -ErrorAction SilentlyContinue
     if ( Test-Path $webserver_saved ) {
-        Write-Host ( Copy-Item $webserver_saved -Destination $webserver -Force | Format-List | Out-String )
+        Write-Host( "$(Log-Date) Put the existing webserver.conf back" )
+        Get-Content $webserver_saved > $webserver
+    } else {
+        Write-Host( "$(Log-Date) Use default filters in webserver.conf" )
+        Write-Output '{"use-default":true}' > $webserver
     }
 
     $EncodedPath = $($([System.Web.HttpUtility]::UrlPathEncode($Root)) -replace "\\","%5C").ToUpper()
@@ -331,7 +380,7 @@ try {
     $IIsReset = (Get-ItemProperty -Path HKLM:\Software\LANSA\$EncodedPath  -Name 'PluginFullyInstalled' -ErrorAction SilentlyContinue).PluginFullyInstalled
     if ( $IIsReset -eq 1) {
         Write-Host ("$(Log-Date) iisreset always required")
-        Write-Host ( iisreset | Format-List | Out-String )
+        iis-reset | Out-Default | Write-Host
     } else {
         Write-Host ("$(Log-Date) Check if vlweb.dat has been changed. If so an iisreset is required")
         $VLWebDatFile = Join-Path $Root 'x_win95\x_lansa\web\vl\vlweb.dat'
@@ -343,10 +392,15 @@ try {
         if ( (Test-Path $VLWebDatFile -PathType Leaf)) {
             $TargetVLWebDatFile =  Join-Path $ENV:TEMP 'vlweb.dat'
 
+            Write-Host( "$(Log-Date) $TargetVLWebDatFile previous contents...")
+            Get-Content -Path $TargetVLWebDatFile | Out-Default | Write-Host
+            Write-Host( "$(Log-Date) $VLWebDatFile new contents...")
+            Get-Content -Path $VLWebDatFile | Out-Default | Write-Host
+
             if ( (Test-Path $TargetVLWebDatFile -PathType Leaf)) {
                 if ( (Get-FileHash $VLWebDatFile).hash  -ne (Get-FileHash $TargetVLWebDatFile).hash) {
                     Write-Host ("$(Log-Date) vlweb.dat has changed. Calling iisreset")
-                    Write-Host ( iisreset | Format-List | Out-String )
+                    iis-reset | Out-Default | Write-Host
                 } else {
                     Write-Host ("$(Log-Date) vlweb.dat has not changed.")
                 }

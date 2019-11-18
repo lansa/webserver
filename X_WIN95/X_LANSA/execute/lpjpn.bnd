@@ -1708,6 +1708,9 @@ PRIM_BOOK_Sort.Key.Desc=ƒ†[ƒU[’è‹`‚Ìƒ\[ƒg‡˜
 PRIM_BOOK_Sort.Order.Name=Order ƒpƒ‰ƒ[ƒ^
 PRIM_BOOK_Sort.Order.Desc=ƒŠƒXƒg‚ğƒ\[ƒg‚·‚éÛ‚Ì‡˜
  
+PRIM_CAPI.Name=ˆÃ† API
+PRIM_CAPI.Desc=ˆÃ† API ‚Ìƒz[ƒ€
+ 
 PRIM_CARO.CarouselItem.Name=CarouselItem ƒNƒ‰ƒX
 PRIM_CARO.CarouselItem.Desc=ƒJƒ‹[ƒZƒ‹‚ÉƒGƒ“ƒgƒŠ[‚ª’Ç‰Á‚³‚ê‚½‚Éì¬‚³‚ê‚éƒAƒCƒeƒ€
  
@@ -6192,6 +6195,1302 @@ PRIM_IMGE_ImageHeight.Desc=ƒIƒŠƒWƒiƒ‹‚ÌÊ^‚Ì‚‚³‚Å‚·B
  
 PRIM_IMGE_ImageWidth.Name=ImageWidth
 PRIM_IMGE_ImageWidth.Desc=ƒIƒŠƒWƒiƒ‹‚ÌÊ^‚Ì•‚Å‚·B
+ 
+PRIM_IOC.Encoding.Name=PRIM_IOC.Encoding
+PRIM_IOC.Encoding.Desc=•¶šƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Ìà–¾
+ 
+PRIM_IOC.FileStream.Name=PRIM_IOC.FileStream
+PRIM_IOC.FileStream.Desc=“Ç‚İæ‚èA‘‚«‚İ‘€ì—¼•û‚ğƒTƒ|[ƒg‚·‚éƒtƒ@ƒCƒ‹‚ÌƒXƒgƒŠ[ƒ€‚ğ’ñ‹Ÿ
+ 
+PRIM_IOC.FileStream_BufferSize.Name=BufferSize ƒvƒƒpƒeƒB
+PRIM_IOC.FileStream_BufferSize.Desc=0 ‚æ‚è‘å‚«‚¢³‚Ì 32 ƒrƒbƒg‚Ì®”’l‚Åƒoƒbƒtƒ@‚ÌƒTƒCƒY‚ğ¦‚µ‚Ü‚·
+ 
+PRIM_IOC.FileStream_FileAccess.Name=FileAccess ƒvƒƒpƒeƒB
+PRIM_IOC.FileStream_FileAccess.Desc=FileStream ƒIƒuƒWƒFƒNƒg‚É‚æ‚éƒtƒ@ƒCƒ‹‚Ö‚ÌƒAƒNƒZƒX•û–@‚ğŒˆ’è‚·‚é’è”
+ 
+PRIM_IOC.FileStream_FileMode.Name=FileMode ƒvƒƒpƒeƒB
+PRIM_IOC.FileStream_FileMode.Desc=ƒtƒ@ƒCƒ‹‚ÌŠJ‚«•ûAì¬•û–@‚ğŒˆ’è‚·‚é’è”
+ 
+PRIM_IOC.FileStream_FileShare.Name=FileShare ƒvƒƒpƒeƒB
+PRIM_IOC.FileStream_FileShare.Desc=ƒvƒƒZƒX‚É‚æ‚èƒtƒ@ƒCƒ‹‚ª‹¤—L‚³‚ê‚é•û–@‚ğŒˆ’è‚·‚é’è”
+ 
+PRIM_IOC.FileStream_Path.Name=Path ƒvƒƒpƒeƒB
+PRIM_IOC.FileStream_Path.Desc=Œ»İ‚Ì FileStream ‚ªƒJƒvƒZƒ‹‰»‚·‚éƒtƒ@ƒCƒ‹‚Ì‘Š‘Î‚Ü‚½‚Íâ‘ÎƒpƒX
+ 
+PRIM_IOC.IPromise.Name=PRIM_IOC.IPromise
+PRIM_IOC.IPromise.Desc=”ñ“¯Šú‘€ì‚ÌÅIŒ‹‰Ê‚ğ•\‚·ƒCƒ“ƒ^[ƒtƒFƒCƒXA³í‚Èê‡‚ÌŒ‹‰Ê’l‚Ü‚½‚Í¸”s‚Ì——R‚ªƒvƒŒ[ƒXƒzƒ‹ƒ_[“à‚É•\‚³‚ê‚Ü‚·B
+ 
+PRIM_IOC.MemoryStream.Name=PRIM_IOC.MemoryStream
+PRIM_IOC.MemoryStream.Desc=ƒoƒbƒLƒ“ƒO ƒXƒgƒA‚ªƒƒ‚ƒŠ‚ÌƒXƒgƒŠ[ƒ€‚ğÀ‘•
+ 
+PRIM_IOC.MemoryStream_BufferSize.Name=BufferSize ƒvƒƒpƒeƒB
+PRIM_IOC.MemoryStream_BufferSize.Desc=“à•”ƒAƒŒƒC‚ÌƒTƒCƒY (ƒoƒCƒg)
+ 
+PRIM_IOC.MemoryStream_Chunked.Name=Chunked ƒvƒƒpƒeƒB
+PRIM_IOC.MemoryStream_Chunked.Desc=1 ‚Â‚Ìƒƒ‚ƒŠ ƒuƒƒbƒN‚ğƒTƒCƒY’²®‚·‚é‚Ì‚Å‚Í‚È‚­A•¡”‚Ìƒƒ‚ƒŠ ƒuƒƒbƒN‚ğŠ„‚è“–‚Ä‚é‚±‚Æ‚ÅƒoƒbƒLƒ“ƒO ƒXƒgƒA‚ğ‹­§“I‚É‘å‚«‚­‚µ‚Ü‚·
+ 
+PRIM_IOC.Name=“ü—ÍAo—Í‚¨‚æ‚ÑƒR[ƒfƒBƒ“ƒO ƒ‰ƒCƒuƒ‰ƒŠ
+PRIM_IOC.Desc=“ü—ÍAo—Í‚¨‚æ‚ÑƒR[ƒfƒBƒ“ƒO ƒ‰ƒCƒuƒ‰ƒŠ ƒTƒ|[ƒg‚Ìƒz[ƒ€
+ 
+PRIM_IOC_Base16Decode.Name=Base16Decode ƒƒ\ƒbƒh
+PRIM_IOC_Base16Decode.Desc=w’è‚³‚ê‚½“ü—Í’l‚ğ Base16/16 i”‚Ì•¶šƒV[ƒPƒ“ƒX‚©‚çƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚Ü‚· 
+ 
+PRIM_IOC_Base16Decode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base16Decode.Result.Desc=Base16/16 i”‚Ì“ü—Í’l‚ğ‰ğ“Ç‚µ‚½Œ‹‰Ê‚ÌƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_IOC_Base16Decode.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base16Decode.InputValue.Desc=Base16/16 i”‚Ì•¶šƒV[ƒPƒ“ƒX‚ªŠÜ‚Ü‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC_Base16Decode.Encoding.Name=Base16/16 i”ƒGƒ“ƒR[ƒfƒBƒ“ƒO
+PRIM_IOC_Base16Decode.Encoding.Desc=ƒoƒCƒg‚ğ Base16/16 i”‚Ì•¶šƒV[ƒPƒ“ƒX‚Æ‚µ‚ÄƒGƒ“ƒR[ƒfƒBƒ“ƒO‚·‚é‘O‚ÉAw’è‚³‚ê‚½“ü—Í’l‚ğƒoƒCƒg‚ÌƒV[ƒPƒ“ƒX‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_IOC_Base16Encode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base16Encode.Result.Desc=“ü—Í’l‚ğ Base16/16 i”ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Æ‚µ‚Ä•\‚µ‚½ Unicode •¶š—ñ
+ 
+PRIM_IOC_Base16Encode.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base16Encode.InputValue.Desc=Base16/16 i”‚Ì•¶šƒV[ƒPƒ“ƒX‚Æ‚µ‚ÄƒGƒ“ƒR[ƒfƒBƒ“ƒO‚·‚é’l
+ 
+PRIM_IOC_Base16Encode.Encoding.Name=Encoding ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base16Encode.Encoding.Desc=w’è‚Ì“ü—Í’l‚ğƒoƒCƒg‚É•ÏŠ·‚·‚éÛ‚Ég—p‚·‚éƒGƒ“ƒR[ƒfƒBƒ“ƒOBÈ—ª’l‚Í UTF-8
+ 
+PRIM_IOC_Base64Decode.Name=Base64Decode ƒƒ\ƒbƒh
+PRIM_IOC_Base64Decode.Desc=w’è‚Ì“ü—Í’l‚ğ Base64 •¶šƒV[ƒPƒ“ƒX‚©‚çƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚Ü‚·B
+ 
+PRIM_IOC_Base64Decode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64Decode.Result.Desc=Base64 “ü—Í’l‚ª‰ğ“Ç‚³‚ê‚½Œ‹‰Ê‚ÌƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_IOC_Base64Decode.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64Decode.InputValue.Desc=Base64 •¶šƒV[ƒPƒ“ƒX‚ğŠÜ‚Ş Unicode •¶š—ñ
+ 
+PRIM_IOC_Base64Encode.Name=Base64Encode ƒƒ\ƒbƒh
+PRIM_IOC_Base64Encode.Desc=ƒoƒCƒg‚ğ Base64 ‚Ì•¶šƒV[ƒPƒ“ƒX‚Æ‚µ‚ÄƒGƒ“ƒR[ƒfƒBƒ“ƒO‚·‚é‘O‚ÉAw’è‚³‚ê‚½“ü—Í’l‚ğƒoƒCƒg‚ÌƒV[ƒPƒ“ƒX‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_IOC_Base64Encode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64Encode.Result.Desc=“ü—Í’l‚ğ Base64 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Æ‚µ‚Ä•\‚µ‚½ Unicode •¶š—ñ
+ 
+PRIM_IOC_Base64Encode.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64Encode.InputValue.Desc=Base64 ‚Ì•¶šƒV[ƒPƒ“ƒX‚Æ‚µ‚ÄƒGƒ“ƒR[ƒfƒBƒ“ƒO‚·‚é’l
+ 
+PRIM_IOC_Base64Encode.Encoding.Name=Encoding ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64Encode.Encoding.Desc=w’è‚Ì“ü—Í’l‚ğƒoƒCƒg‚É•ÏŠ·‚·‚éÛ‚Ég—p‚·‚éƒGƒ“ƒR[ƒfƒBƒ“ƒOBÈ—ª’l‚Í UTF-8
+ 
+PRIM_IOC_Base64UrlDecode.Name=Base64UrlDecode ƒƒ\ƒbƒh
+PRIM_IOC_Base64UrlDecode.Desc=w’è‚Ì“ü—Í’l‚ğ Base64 URF ƒZ[ƒt‚Ì•¶šƒV[ƒPƒ“ƒX‚©‚çƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_IOC_Base64UrlDecode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64UrlDecode.Result.Desc=Base64 URF ƒZ[ƒt‚Ì“ü—Í’l‚ª‰ğ“Ç‚³‚ê‚½Œ‹‰Ê‚ÌƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_IOC_Base64UrlDecode.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64UrlDecode.InputValue.Desc=Base64 URF ƒZ[ƒt‚Ì•¶šƒV[ƒPƒ“ƒX‚ğŠÜ‚Ş Unicode •¶š—ñ
+ 
+PRIM_IOC_Base64UrlEncode.Name=Base64UrlEncode ƒƒ\ƒbƒh
+PRIM_IOC_Base64UrlEncode.Desc=ƒoƒCƒg‚ğ Base64 URF ƒZ[ƒt‚Ì•¶šƒV[ƒPƒ“ƒX‚Æ‚µ‚ÄƒGƒ“ƒR[ƒfƒBƒ“ƒO‚·‚é‘O‚ÉAw’è‚³‚ê‚½“ü—Í’l‚ğƒoƒCƒg‚ÌƒV[ƒPƒ“ƒX‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_IOC_Base64UrlEncode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64UrlEncode.Result.Desc=“ü—Í’l‚ğ Base64 URF ƒZ[ƒt‚ÌƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Æ‚µ‚Ä•\‚µ‚½ Unicode •¶š—ñ
+ 
+PRIM_IOC_Base64UrlEncode.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64UrlEncode.InputValue.Desc=Base64 URF ƒZ[ƒt‚Ì•¶šƒV[ƒPƒ“ƒX‚Æ‚µ‚ÄƒGƒ“ƒR[ƒfƒBƒ“ƒO‚·‚é’l
+ 
+PRIM_IOC_Base64UrlEncode.Encoding.Name=Encoding ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_Base64UrlEncode.Encoding.Desc=w’è‚Ì“ü—Í’l‚ğƒoƒCƒg‚É•ÏŠ·‚·‚éÛ‚Ég—p‚·‚éƒGƒ“ƒR[ƒfƒBƒ“ƒOBÈ—ª’l‚Í UTF-8
+ 
+PRIM_IOC_TryBase16Decode.Name=TryBase16Decode ƒƒ\ƒbƒh
+PRIM_IOC_TryBase16Decode.Desc=w’è‚Ì“ü—Í’l‚ğ Base16/16 i”‚Ì•¶šƒV[ƒPƒ“ƒX‚©‚çƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚æ‚¤‚Æ‚İ‚Ü‚·
+ 
+PRIM_IOC_TryBase16Decode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_TryBase16Decode.Result.Desc=w’è‚Ì“ü—Í‚ª•ÏŠ·‚³‚ê‚½ê‡ TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_IOC_TryBase16Decode.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_TryBase16Decode.InputValue.Desc=Base16/16 i”‚Ì•¶šƒV[ƒPƒ“ƒX‚ğŠÜ‚Ş Unicode •¶š—ñ
+ 
+PRIM_IOC_TryBase16Decode.DecodedValue.Name=DecodedValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_TryBase16Decode.DecodedValue.Desc=w’è‚Ì Base16/16 i”‚Ì“ü—Í’l‚ª³í‚É‰ğ“Ç‚³‚ê‚½Œã‚ÉXV‚³‚ê‚½ƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_IOC_TryBase64Decode.Name=TryBase64Decode ƒƒ\ƒbƒh
+PRIM_IOC_TryBase64Decode.Desc=w’è‚Ì“ü—Í’l‚ğ Base64 ‚Ì•¶šƒV[ƒPƒ“ƒX‚©‚çƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚æ‚¤‚Æ‚İ‚Ü‚·
+ 
+PRIM_IOC_TryBase64Decode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_TryBase64Decode.Result.Desc=w’è‚Ì“ü—Í‚ª•ÏŠ·‚³‚ê‚½ê‡ TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_IOC_TryBase64Decode.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_TryBase64Decode.InputValue.Desc=Base64 ‚Ì•¶šƒV[ƒPƒ“ƒX‚ğŠÜ‚Ş Unicode •¶š—ñ
+ 
+PRIM_IOC_TryBase64Decode.DecodedValue.Name=DecodedValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_TryBase64Decode.DecodedValue.Desc=w’è‚Ì Base64 ‚Ì“ü—Í’l‚ª³í‚É‰ğ“Ç‚³‚ê‚½Œã‚ÉXV‚³‚ê‚½ƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_IOC_TryBase64UrlDecode.Name=TryBase64UrlDecode ƒƒ\ƒbƒh
+PRIM_IOC_TryBase64UrlDecode.Desc=w’è‚Ì“ü—Í’l‚ğ Base64 URF ƒZ[ƒt‚Ì•¶šƒV[ƒPƒ“ƒX‚©‚çƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚æ‚¤‚Æ‚İ‚Ü‚·
+ 
+PRIM_IOC_TryBase64UrlDecode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_TryBase64UrlDecode.Result.Desc=w’è‚Ì“ü—Í‚ª•ÏŠ·‚³‚ê‚½ê‡ TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_IOC_TryBase64UrlDecode.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_TryBase64UrlDecode.InputValue.Desc=Base64 URF ƒZ[ƒt‚Ì•¶šƒV[ƒPƒ“ƒX‚ğŠÜ‚Ş Unicode •¶š—ñ
+ 
+PRIM_IOC_TryBase64UrlDecode.DecodedValue.Name=DecodedValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC_TryBase64UrlDecode.DecodedValue.Desc=w’è‚Ì Base64 URF ƒZ[ƒt‚Ì“ü—Í’l‚ª³í‚É‰ğ“Ç‚³‚ê‚½Œã‚ÉXV‚³‚ê‚½ƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_IOC_Utf16.Name=Utf16 ƒvƒƒpƒeƒB
+PRIM_IOC_Utf16.Desc=Unicode •¶š‚ğƒRƒ“ƒsƒ…[ƒ^[ˆË‘¶‚ÌƒoƒCƒg‡‚Å UTF-16 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Å•\‚µ‚½ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ
+ 
+PRIM_IOC_Utf16BigEndian.Name=Utf16BigEndian ƒvƒƒpƒeƒB
+PRIM_IOC_Utf16BigEndian.Desc=Unicode •¶š‚ğƒrƒbƒO ƒGƒ“ƒfƒBƒAƒ“‚ÌƒoƒCƒg‡‚Å UTF-16 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Å•\‚µ‚½ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ
+ 
+PRIM_IOC_Utf16LittleEndian.Name=Utf16LittleEndian ƒvƒƒpƒeƒB
+PRIM_IOC_Utf16LittleEndian.Desc=Unicode •¶š‚ğƒŠƒgƒ‹ ƒGƒ“ƒfƒBƒAƒ“‚ÌƒoƒCƒg‡‚Å UTF-16 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Å•\‚µ‚½ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ
+ 
+PRIM_IOC_Utf32.Name=Utf32 ƒvƒƒpƒeƒB
+PRIM_IOC_Utf32.Desc=Unicode •¶š‚ğƒRƒ“ƒsƒ…[ƒ^[ˆË‘¶‚ÌƒoƒCƒg‡‚Å UTF-32 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Å•\‚µ‚½ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ
+ 
+PRIM_IOC_Utf32BigEndian.Name=Utf32BigEndian ƒvƒƒpƒeƒB
+PRIM_IOC_Utf32BigEndian.Desc=Unicode •¶š‚ğƒrƒbƒO ƒGƒ“ƒfƒBƒAƒ“‚ÌƒoƒCƒg‡‚Å UTF-32 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Å•\‚µ‚½ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ
+ 
+PRIM_IOC_Utf32LittleEndian.Name=Utf32LittleEndian ƒvƒƒpƒeƒB
+PRIM_IOC_Utf32LittleEndian.Desc=Unicode •¶š‚ğƒŠƒgƒ‹ ƒGƒ“ƒfƒBƒAƒ“‚ÌƒoƒCƒg‡‚Å UTF-32 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Å•\‚µ‚½ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ
+ 
+PRIM_IOC_Utf8.Name=Utf8 ƒvƒƒpƒeƒB
+PRIM_IOC_Utf8.Desc=Unicode •¶š‚Ì UTF-8 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ğ•\‚·ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ
+ 
+PRIM_IOC_Utf8Unmarked.Name=Utf8Unmarked ƒvƒƒpƒeƒB
+PRIM_IOC_Utf8Unmarked.Desc=BOM (ƒoƒCƒg ƒI[ƒ_[ ƒ}[ƒN) ‚ğ–³‹‚·‚é Unicode •¶š‚Ì UTF-8 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ğ•\‚·ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ
+ 
+PRIM_IOC.Stream.Name=ƒXƒgƒŠ[ƒ€ ƒx[ƒX ƒNƒ‰ƒX
+PRIM_IOC.Stream.Desc=ƒoƒCƒg ƒV[ƒPƒ“ƒX‚Ìˆê”Ê“I‚È‹“_‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_IOC.Stream_Length.Name=Length ƒvƒƒpƒeƒB
+PRIM_IOC.Stream_Length.Desc=ƒXƒgƒŠ[ƒ€‚Ì’·‚³‚ğƒoƒCƒg‚Åİ’è‚Ü‚½‚Íæ“¾‚µ‚Ü‚·
+ 
+PRIM_IOC.Stream_Position.Name=Position ƒvƒƒpƒeƒB
+PRIM_IOC.Stream_Position.Desc=Œ»İ‚ÌƒXƒgƒŠ[ƒ€“à‚ÌˆÊ’u‚ğİ’è‚Ü‚½‚Íæ“¾‚µ‚Ü‚·
+ 
+PRIM_IOC.StreamReader.Name=PRIM_IOC.StreamReader
+PRIM_IOC.StreamReader.Desc=“Á’è‚ÌƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ÅƒoƒCƒg ƒXƒgƒŠ[ƒ€‚©‚ç•¶š‚ğ“Ç‚İ‚ŞƒeƒLƒXƒg ƒŠ[ƒ_[‚ğÀ‘•‚µ‚Ü‚·
+ 
+PRIM_IOC.StreamReader_EncodingName.Name=EncodingName ƒvƒƒpƒeƒB
+PRIM_IOC.StreamReader_EncodingName.Desc=ƒoƒCƒg‚©‚ç Unicode •¶š‚Ì‰ğ“Ç‚Ég—p‚³‚ê‚éƒGƒ“ƒR[ƒfƒBƒ“ƒO ƒRƒ“ƒ|[ƒlƒ“ƒg
+ 
+PRIM_IOC.StreamReader_Stream.Name=Stream ƒvƒƒpƒeƒB
+PRIM_IOC.StreamReader_Stream.Desc=‚±‚ÌƒeƒLƒXƒg ƒŠ[ƒ_[‚É‚æ‚è“Ç‚İ‚İA‰ğ“Ç‚³‚ê‚½ƒoƒCƒg‚ğ’ñ‹Ÿ‚·‚éƒXƒgƒŠ[ƒ€ ƒRƒ“ƒ|[ƒlƒ“ƒg
+ 
+PRIM_IOC.StreamWriter.Name=PRIM_IOC.StreamWriter
+PRIM_IOC.StreamWriter.Desc=“Á’è‚ÌƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Å•¶š‚ğƒXƒgƒŠ[ƒ€‚É‘‚«‚Ş‚½‚ß‚ÌƒeƒLƒXƒg ƒ‰ƒCƒ^[‚ğÀ‘•‚µ‚Ü‚·B
+ 
+PRIM_IOC.StreamWriter_EncodingName.Name=EncodingName ƒvƒƒpƒeƒB
+PRIM_IOC.StreamWriter_EncodingName.Desc=Unicode •¶š‚ğƒoƒCƒg‚ÉƒGƒ“ƒR[ƒfƒBƒ“ƒO‚·‚éÛ‚Ég—p‚·‚éƒGƒ“ƒR[ƒfƒBƒ“ƒO ƒRƒ“ƒ|[ƒlƒ“ƒg
+ 
+PRIM_IOC.StreamWriter_Stream.Name=Stream ƒvƒƒpƒeƒB
+PRIM_IOC.StreamWriter_Stream.Desc=’ñ‹Ÿ‚³‚ê‚½•¶š‚ªƒoƒCƒg‚ÉƒGƒ“ƒR[ƒfƒBƒ“ƒO‚³‚ê‚éÛ‚É‘‚«‚Ü‚ê‚éƒXƒgƒŠ[ƒ€ ƒRƒ“ƒ|[ƒlƒ“ƒg
+ 
+PRIM_IOC.StringReader.Name=PRIM_IOC.StringReader
+PRIM_IOC.StringReader.Desc=Unicode •¶š—ñ‚©‚ç“Ç‚İ‚ŞƒeƒLƒXƒg ƒŠ[ƒ_[‚ğÀ‘•‚µ‚Ü‚·
+ 
+PRIM_IOC.StringReader_Append.Name=Append ƒƒ\ƒbƒh
+PRIM_IOC.StringReader_Append.Desc=StringReader ‚ªˆ—‚·‚éƒeƒLƒXƒg•¶š—ñ‚É Unicode •¶š—ñ‚ğ 10 ŒÂ‚Ü‚Å˜AŒ‹‚³‚¹‚Ü‚·
+ 
+PRIM_IOC.StringReader_Append.Value1.Name=Value1 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value1.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Append.Value2.Name=Value2 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value2.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Append.Value3.Name=Value3 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value3.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Append.Value4.Name=Value4 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value4.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Append.Value5.Name=Value5 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value5.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Append.Value6.Name=Value6 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value6.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Append.Value7.Name=Value7 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value7.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Append.Value8.Name=Value8 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value8.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Append.Value9.Name=Value9 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value9.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Append.Value10.Name=Value10 ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.StringReader_Append.Value10.Desc=ƒŠ[ƒ_[‚ÌƒeƒLƒXƒg•¶š—ñ‚É˜AŒ‹‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_IOC.StringReader_Text.Name=Text ƒvƒƒpƒeƒB
+PRIM_IOC.StringReader_Text.Desc=StringReader ‚ªˆ—‚·‚é•¶š‚ÌƒV[ƒPƒ“ƒX‚ğ•\‚· Unicode •¶š—ñ
+ 
+PRIM_IOC.StringWriter.Name=PRIM_IOC.StringWriter
+PRIM_IOC.StringWriter.Desc=î•ñ‚ğ•¶š—ñ‚É‘‚«‚ŞƒeƒLƒXƒgƒ‰ƒCƒ^[‚ğÀ‘•‚µ‚Ü‚·
+ 
+PRIM_IOC.StringWriter_Text.Name=Text ƒvƒƒpƒeƒB
+PRIM_IOC.StringWriter_Text.Desc=Œ»İ‚Ì StringWriter ‚É‚±‚ê‚Ü‚Å‘‚«‚Ü‚ê‚½•¶š‚ğŠÜ‚Ş Unicode •¶š—ñ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_IOC.TextReader.Name=PRIM_IOC.TextReader
+PRIM_IOC.TextReader.Desc=•¶šƒV[ƒPƒ“ƒX‚ğ“Ç‚İ‚Ş‚±‚Æ‚©‚Å‚«‚éƒŠ[ƒ_[‚ğ•\‚µ‚Ü‚·
+ 
+PRIM_IOC.TextReader_TryReadLine.Name=TryReadLine ƒƒ\ƒbƒh
+PRIM_IOC.TextReader_TryReadLine.Desc=ƒeƒLƒXƒgƒŠ[ƒ_[‚©‚ç 1 s•ª‚Ì•¶š‚ğ“Ç‚İæ‚èA•¶š—ñ‚Æ‚µ‚Äƒf[ƒ^‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_IOC.TextReader_TryReadLine.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.TextReader_TryReadLine.Result.Desc=1 s‚ª“Ç‚İ‚Ü‚ê‚½‚ç TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_IOC.TextReader_TryReadLine.String.Name=String ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.TextReader_TryReadLine.String.Desc=ƒeƒLƒXƒgƒŠ[ƒ_[‚©‚ç³í‚É“Ç‚İ‚Ü‚ê‚½ 1 s•ª‚Ì•¶š
+ 
+PRIM_IOC.TextReader_TryReadString.Name=TryReadString ƒƒ\ƒbƒh
+PRIM_IOC.TextReader_TryReadString.Desc=ƒeƒLƒXƒgƒŠ[ƒ_[‚©‚ç•¡”‚Ì•¶š‚ğ“Ç‚İæ‚èA•¶š—ñ‚Æ‚µ‚Äƒf[ƒ^‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_IOC.TextReader_TryReadString.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.TextReader_TryReadString.Result.Desc=1 ˆÈã‚Ì•¶š‚ª“Ç‚İ‚Ü‚ê‚½‚ç TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_IOC.TextReader_TryReadString.Count.Name=Count ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.TextReader_TryReadString.Count.Desc=ƒeƒLƒXƒgƒŠ[ƒ_[‚©‚ç“Ç‚İ‚ŞÅ‘åŒÀ‚Ì•¶š”
+ 
+PRIM_IOC.TextReader_TryReadString.String.Name=String ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.TextReader_TryReadString.String.Desc=ƒeƒLƒXƒgƒŠ[ƒ_[‚©‚ç³í‚É“Ç‚İ‚Ü‚ê‚½•¶šƒV[ƒPƒ“ƒX
+ 
+PRIM_IOC.TextWriter.Name=PRIM_IOC.TextWriter
+PRIM_IOC.TextWriter.Desc=ˆê˜A‚Ì•¶šƒV[ƒPƒ“ƒX‚ğ‘‚«‚Ş‚±‚Æ‚©‚Å‚«‚éƒ‰ƒCƒ^[‚ğ•\‚µ‚Ü‚·
+ 
+PRIM_IOC.TextWriter_WriteLine.Name=WriteLine ƒƒ\ƒbƒh
+PRIM_IOC.TextWriter_WriteLine.Desc=ƒeƒLƒXƒg•¶š—ñ‚Ü‚½‚ÍƒXƒgƒŠ[ƒ€‚ÉsI’[‹L†‚ğ•t‚¯‚½ƒf[ƒ^‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_IOC.TextWriter_WriteLine.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.TextWriter_WriteLine.InputValue.Desc=ƒ‰ƒCƒ^[‚É‘‚«‚Ş•¶š—ñ
+ 
+PRIM_IOC.TextWriter_WriteString.Name=WriteString ƒƒ\ƒbƒh
+PRIM_IOC.TextWriter_WriteString.Desc=ƒeƒLƒXƒg•¶š—ñ‚Ü‚½‚ÍƒXƒgƒŠ[ƒ€‚Éƒf[ƒ^‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_IOC.TextWriter_WriteString.InputValue.Name=InputValue ƒpƒ‰ƒ[ƒ^
+PRIM_IOC.TextWriter_WriteString.InputValue.Desc=ƒ‰ƒCƒ^[‚É‘‚«‚Ş•¶š—ñ
+ 
+PRIM_IOC.WhenAll.Name=PRIM_IOC.WhenAll
+PRIM_IOC.WhenAll.Desc=’ñ‹Ÿ‚³‚ê‚½–ñ‘©‚ª‚·‚×‚ÄŠ®—¹‚µ‚½‚ÉI—¹‚ğ¦‚·‘Ò‹@‰Â”\‚ÈM†‚Å‚·
+ 
+PRIM_IOC.WhenAll_Promise.Name=Promise ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAll_Promise1.Name=Promise1 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise1.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAll_Promise2.Name=Promise2 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise2.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAll_Promise3.Name=Promise3 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise3.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAll_Promise4.Name=Promise4 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise4.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAll_Promise5.Name=Promise5 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise5.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAll_Promise6.Name=Promise6 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise6.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAll_Promise7.Name=Promise7 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise7.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAll_Promise8.Name=Promise8 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise8.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAll_Promise9.Name=Promise9 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAll_Promise9.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny.Name=PRIM_IOC.WhenAny
+PRIM_IOC.WhenAny.Desc=’ñ‹Ÿ‚³‚ê‚½–ñ‘©‚Ì‚¢‚¸‚ê‚©‚ªŠ®—¹‚µ‚½‚ÉI—¹‚ğ¦‚·‘Ò‹@‰Â”\‚ÈM†‚Å‚·
+ 
+PRIM_IOC.WhenAny_Promise.Name=Promise ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny_Promise1.Name=Promise1 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise1.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny_Promise2.Name=Promise2 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise2.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny_Promise3.Name=Promise3 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise3.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny_Promise4.Name=Promise4 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise4.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny_Promise5.Name=Promise5 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise5.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny_Promise6.Name=Promise6 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise6.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny_Promise7.Name=Promise7 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise7.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny_Promise8.Name=Promise8 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise8.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenAny_Promise9.Name=Promise9 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenAny_Promise9.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach.Name=PRIM_IOC.WhenEach
+PRIM_IOC.WhenEach.Desc=’ñ‹Ÿ‚³‚ê‚½–ñ‘©‚Ì‚»‚ê‚¼‚ê‚ªŠ®—¹‚µ‚½‚ÉI—¹‚ğ¦‚·‘Ò‹@‰Â”\‚ÈM†‚Å‚·
+ 
+PRIM_IOC.WhenEach_Promise.Name=Promise ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach_Promise1.Name=Promise1 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise1.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach_Promise2.Name=Promise2 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise2.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach_Promise3.Name=Promise3 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise3.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach_Promise4.Name=Promise4 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise4.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach_Promise5.Name=Promise5 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise5.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach_Promise6.Name=Promise6 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise6.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach_Promise7.Name=Promise7 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise7.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach_Promise8.Name=Promise8 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise8.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_IOC.WhenEach_Promise9.Name=Promise9 ƒvƒƒpƒeƒB
+PRIM_IOC.WhenEach_Promise9.Desc=‘Ò‹@ó‘Ô‚Ì–ñ‘©‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array.Name=PRIM_JSON.Array
+PRIM_JSON.Array.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ JSON ƒm[ƒh‚ÌƒAƒŒƒC‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Array_AddArrayItem.Name=AddArrayItem ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddArrayItem.Desc=V‹K‚Ì JSON ƒAƒŒƒC ƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddArrayItem.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddArrayItem.Result.Desc=V‹K JSON ƒAƒŒƒC ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddBooleanItem.Name=AddBooleanItem ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddBooleanItem.Desc=V‹K‚Ì JSON ƒu[ƒ‹’lƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddBooleanItem.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddBooleanItem.Result.Desc=V‹K JSON ƒu[ƒ‹’lƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddBooleanItem.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddBooleanItem.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚éƒu[ƒ‹’l
+ 
+PRIM_JSON.Array_AddDateTimeItem.Name=AddDateTimeItem ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddDateTimeItem.Desc=V‹K‚Ì JSON “úƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddDateTimeItem.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddDateTimeItem.Result.Desc=V‹K JSON “úƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddDateTimeItem.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddDateTimeItem.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é“ú‚Ì’l
+ 
+PRIM_JSON.Array_AddDecimalItem.Name=AddDecimalItem ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddDecimalItem.Desc=V‹K‚Ì JSON \iƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddDecimalItem.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddDecimalItem.Result.Desc=V‹K JSON \iƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddDecimalItem.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddDecimalItem.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é\i’l
+ 
+PRIM_JSON.Array_AddFloat64Item.Name=AddFloat64Item ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddFloat64Item.Desc=V‹K‚Ì JSON Float64 ƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddFloat64Item.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddFloat64Item.Result.Desc=V‹K JSON Float64 ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddFloat64Item.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddFloat64Item.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 64 ƒrƒbƒg‚Ì•‚“®¬”’l
+ 
+PRIM_JSON.Array_AddInt32Item.Name=AddInt32Item ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddInt32Item.Desc=V‹K‚Ì JSON Int32 ƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddInt32Item.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddInt32Item.Result.Desc=V‹K JSON Int32 ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddInt32Item.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddInt32Item.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 32 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Array_AddInt64Item.Name=AddInt64Item ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddInt64Item.Desc=V‹K‚Ì JSON Int64 ƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddInt64Item.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddInt64Item.Result.Desc=V‹K JSON Int64 ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddInt64Item.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddInt64Item.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 64 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Array_AddNullItem.Name=AddNullItem ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddNullItem.Desc=V‹K‚Ì JSON Null ƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddNullItem.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddNullItem.Result.Desc=V‹K JSON Null ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddNumberItem.Name=AddNumberItem ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddNumberItem.Desc=V‹K‚Ì JSON ”’lƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddNumberItem.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddNumberItem.Result.Desc=V‹K JSON ”’lƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddNumberItem.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddNumberItem.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é”’l‚Ì•¶š—ñ
+ 
+PRIM_JSON.Array_AddObjectItem.Name=AddObjectItem ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddObjectItem.Desc=V‹K‚Ì JSON ƒIƒuƒWƒFƒNƒg ƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddObjectItem.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddObjectItem.Result.Desc=V‹K JSON ƒIƒuƒWƒFƒNƒg ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddStringItem.Name=AddStringItem ƒƒ\ƒbƒh
+PRIM_JSON.Array_AddStringItem.Desc=V‹K‚Ì JSON •¶š—ñƒm[ƒh‚ğì¬‚µAƒAƒŒƒC‚É’Ç‰Á‚µ‚Ü‚·
+ 
+PRIM_JSON.Array_AddStringItem.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddStringItem.Result.Desc=V‹K JSON •¶š—ñƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Array_AddStringItem.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Array_AddStringItem.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é Unicode •¶š—ñ‚Ì’l
+ 
+PRIM_JSON.Boolean.Name=PRIM_JSON.Boolean
+PRIM_JSON.Boolean.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ƒu[ƒ‹’l‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Boolean_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_JSON.Boolean_Value.Desc=JSON ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½ƒu[ƒ‹’l‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Comment.Name=PRIM_JSON.Comment
+PRIM_JSON.Comment.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ƒRƒƒ“ƒg‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.DateTime.Name=PRIM_JSON.DateTime
+PRIM_JSON.DateTime.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½“ú‚Ì’l‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.DateTime_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_JSON.DateTime_Value.Desc=JSON ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½“ú‚Ì’l‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Decimal.Name=PRIM_JSON.Decimal
+PRIM_JSON.Decimal.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ 10 i‚Ì’l‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Decimal_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_JSON.Decimal_Value.Desc=JSON ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½ 10 i‚Ì’l‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Document.Name=PRIM_JSON.Document
+PRIM_JSON.Document.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ JSON ƒhƒLƒ…ƒƒ“ƒg ƒcƒŠ[‚Ìƒ‹[ƒg‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒXBƒhƒLƒ…ƒƒ“ƒg‚Ìƒf[ƒ^‚Ö‚Ìƒvƒ‰ƒCƒ}ƒŠ ƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateArray.Name=CreateArray ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateArray.Desc=V‹K JSON ƒAƒŒƒC ƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateArray.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateArray.Result.Desc=V‹K JSON ƒAƒŒƒC ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateBoolean.Name=CreateBoolean ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateBoolean.Desc=V‹K JSON ƒu[ƒ‹’lƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateBoolean.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateBoolean.Result.Desc=V‹K JSON ƒu[ƒ‹’lƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateBoolean.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateBoolean.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚éƒu[ƒ‹’l
+ 
+PRIM_JSON.Document_CreateDateTime.Name=CreateDateTime ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateDateTime.Desc=V‹K JSON “úƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateDateTime.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateDateTime.Result.Desc=V‹K JSON “úƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateDateTime.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateDateTime.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é“ú‚Ì’l
+ 
+PRIM_JSON.Document_CreateDecimal.Name=CreateDecimal ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateDecimal.Desc=V‹K JSON 10 iƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateDecimal.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateDecimal.Result.Desc=V‹K JSON 10 iƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateDecimal.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateDecimal.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 10 i‚Ì’l
+ 
+PRIM_JSON.Document_CreateFloat64.Name=CreateFloat64 ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateFloat64.Desc=V‹K JSON Float64 ƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateFloat64.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateFloat64.Result.Desc=V‹K JSON Float64 ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateFloat64.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateFloat64.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 64 ƒrƒbƒg‚Ì•‚“®¬”’l
+ 
+PRIM_JSON.Document_CreateInt32.Name=CreateInt32 ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateInt32.Desc=V‹K JSON Int32 ƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateInt32.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateInt32.Result.Desc=V‹K JSON Int32 ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateInt32.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateInt32.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 32 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Document_CreateInt64.Name=CreateInt64 ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateInt64.Desc=V‹K JSON Int64 ƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateInt64.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateInt64.Result.Desc=V‹K JSON Int64 ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateInt64.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateInt64.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 64 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Document_CreateNull.Name=CreateNull ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateNull.Desc=V‹K JSON Null ƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateNull.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateNull.Result.Desc=V‹K JSON Null ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateNumber.Name=CreateNumber ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateNumber.Desc=V‹K JSON ”’lƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateNumber.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateNumber.Result.Desc=V‹K JSON ”’lƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateNumber.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateNumber.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é”š•¶š—ñ
+ 
+PRIM_JSON.Document_CreateObject.Name=CreateObject ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateObject.Desc=V‹K JSON ƒIƒuƒWƒFƒNƒg ƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateObject.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateObject.Result.Desc=V‹K JSON ƒIƒuƒWƒFƒNƒg ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateRootArray.Name=CreateRootArray ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateRootArray.Desc=V‹K JSON ƒAƒŒƒC ƒm[ƒh‚ğì¬‚µA‚±‚Ìƒm[ƒh‚ğƒhƒLƒ…ƒƒ“ƒg‚Ìƒ‹[ƒg‚Æ‚µ‚ÄŠ„‚è“–‚Ä‚Ü‚·
+ 
+PRIM_JSON.Document_CreateRootArray.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateRootArray.Result.Desc=V‹K JSON ƒAƒŒƒC ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateRootObject.Name=CreateRootObject ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateRootObject.Desc=V‹K JSON ƒIƒuƒWƒFƒNƒg ƒm[ƒh‚ğì¬‚µA‚±‚Ìƒm[ƒh‚ğƒhƒLƒ…ƒƒ“ƒg‚Ìƒ‹[ƒg‚Æ‚µ‚ÄŠ„‚è“–‚Ä‚Ü‚·
+ 
+PRIM_JSON.Document_CreateRootObject.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateRootObject.Result.Desc=V‹K JSON ƒIƒuƒWƒFƒNƒg ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateString.Name=CreateString ƒƒ\ƒbƒh
+PRIM_JSON.Document_CreateString.Desc=V‹K JSON •¶š—ñƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_CreateString.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateString.Result.Desc=V‹K JSON •¶š—ñƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_CreateString.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_CreateString.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_JSON.Document_LoadFromFile.Name=LoadFromFile ƒƒ\ƒbƒh
+PRIM_JSON.Document_LoadFromFile.Desc=w’èƒtƒ@ƒCƒ‹‚ÌƒRƒ“ƒeƒ“ƒc‚Å‰Šú‰»‚³‚ê‚½ JSON ƒŠ[ƒ_[‚ğ—˜—p‚µ‚ÄA“KØ‚È JSON ƒm[ƒh‚ğì¬‚µ‚Äƒf[ƒ^‚ğ“ü‚ê‚½ŒãA‚±‚ÌƒhƒLƒ…ƒƒ“ƒg‚Ìƒ‹[ƒg ƒm[ƒh‚Æ’u‚«Š·‚¦‚Ü‚·
+ 
+PRIM_JSON.Document_LoadFromString.Name=LoadFromString ƒƒ\ƒbƒh
+PRIM_JSON.Document_LoadFromString.Desc=w’è‚Ì“ü—Í•¶š—ñ‚Å‰Šú‰»‚³‚ê‚½ JSON ƒŠ[ƒ_[‚ğ—˜—p‚µ‚ÄA“KØ‚È JSON ƒm[ƒh‚ğì¬‚µ‚Äƒf[ƒ^‚ğ“ü‚ê‚½ŒãA‚±‚ÌƒhƒLƒ…ƒƒ“ƒg‚Ìƒ‹[ƒg ƒm[ƒh‚Æ’u‚«Š·‚¦‚Ü‚·
+ 
+PRIM_JSON.Document_LoadFromString.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Document_LoadFromString.InputString.Desc=JSON ƒf[ƒ^‚ğ Unicode •¶š—ñ‚Æ‚µ‚ÄƒVƒŠƒAƒ‹‰»‚µ‚Ü‚·
+ 
+PRIM_JSON.Document_RootNode.Name=RootNode ƒvƒƒpƒeƒB
+PRIM_JSON.Document_RootNode.Desc=ƒhƒLƒ…ƒƒ“ƒg ƒ‹[ƒg‚Æ‚µ‚ÄŠ„‚è“–‚Ä‚ç‚ê‚½ JSON ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Document_SaveToFile.Name=SaveToFile ƒƒ\ƒbƒh
+PRIM_JSON.Document_SaveToFile.Desc=JSON ƒhƒLƒ…ƒƒ“ƒg‚ğ•Û‘¶‚µ‚Ü‚·
+ 
+PRIM_JSON.Factory.Name=PRIM_JSON.Factory
+PRIM_JSON.Factory.Desc=(ƒ^ƒCƒv‚É‚æ‚Á‚ÄV‹K‚É\’zA‚Ü‚½‚Í‹¤—L‚³‚ê‚½) ƒhƒLƒ…ƒƒ“ƒg‚ÌƒCƒ“ƒXƒ^ƒ“ƒX‚ÉƒAƒNƒZƒX‚ğ“¾‚é‚½‚ß‚Ìƒƒ\ƒbƒh‚¨‚æ‚Ñ‚±‚Ìƒƒ\ƒbƒh‚ÌŠî–{“I‚ÈÀ‘•‚ğw’è‚·‚éƒx[ƒX ƒNƒ‰ƒXB(ƒm[ƒhƒ^ƒCƒv‚Ì“®ì‚Ì‘¼‚É) Šg’£‹@”\‚ª•K—v‚Èê‡‚ÍAƒTƒuƒNƒ‰ƒX‚ÉİŒv‚³‚ê‚Ü‚·B
+ 
+PRIM_JSON.Factory_CreateDocument.Name=CreateDocument ƒƒ\ƒbƒh
+PRIM_JSON.Factory_CreateDocument.Desc=V‹K JSON ƒhƒLƒ…ƒƒ“ƒg ƒm[ƒg‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Factory_CreateDocument.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Factory_CreateDocument.Result.Desc=V‹K JSON ƒhƒLƒ…ƒƒ“ƒg ƒm[ƒg‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Factory_CreateIterator.Name=CreateIterator ƒƒ\ƒbƒh
+PRIM_JSON.Factory_CreateIterator.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ğ”½•œ‚·‚é”½•œƒRƒ“ƒ|[ƒlƒ“ƒg‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Factory_CreateIterator.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Factory_CreateIterator.Result.Desc=V‹K”½•œƒCƒ“ƒXƒ^ƒ“ƒX‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Factory_OwnerDocument.Name=OwnerDocument ƒvƒƒpƒeƒB
+PRIM_JSON.Factory_OwnerDocument.Desc=‚±‚Ìƒtƒ@ƒNƒgƒŠ[‚É‚æ‚Á‚Äì¬‚³‚ê‚½Å‰‚Ì JSON ƒhƒLƒ…ƒƒ“ƒg ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Factory_ReadNode.Name=ReadNode ƒƒ\ƒbƒh
+PRIM_JSON.Factory_ReadNode.Desc=w’è‚Ì JSON ƒŠ[ƒ_[‚ÌŒ»İ‚ÌˆÊ’u‚ğƒx[ƒX‚ÉŠ®‘S‚È JSON ƒm[ƒh‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Factory_ReadNode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Factory_ReadNode.Result.Desc=%V‹K JSON ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Factory_ReadNode.Reader.Name=Reader ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Factory_ReadNode.Reader.Desc=V‹K JSON ƒm[ƒh\’z’†‚ÉƒAƒNƒZƒX‚·‚é JSON ƒŠ[ƒ_[
+ 
+PRIM_JSON.Float64.Name=PRIM_JSON.Float64
+PRIM_JSON.Float64.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ 64 ƒrƒbƒg‚Ì•‚“®¬”’l‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Float64_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_JSON.Float64_Value.Desc=JSON ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½ 64 ƒrƒbƒg‚Ì•‚“®¬”’l‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Int32.Name=PRIM_JSON.Int32
+PRIM_JSON.Int32.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ 32 ƒrƒbƒg‚Ì®”’l‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Int32_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_JSON.Int32_Value.Desc=JSON ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½ 32 ƒrƒbƒg‚Ì®”’l‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Int64.Name=PRIM_JSON.Int64
+PRIM_JSON.Int64.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ 64 ƒrƒbƒg‚Ì®”’l‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Int64_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_JSON.Int64_Value.Desc=JSON ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½ 64 ƒrƒbƒg‚Ì®”’l‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Member.Name=PRIM_JSON.Member
+PRIM_JSON.Member.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Member_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_JSON.Member_Value.Desc=JSON ƒƒ“ƒo[ ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½ JSON ’lƒm[ƒh‚Ö‚ÌQÆ‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Node.Name=PRIM_JSON.Node
+PRIM_JSON.Node.Desc=JSON ƒm[ƒh‚·‚×‚Ä‚Ìƒx[ƒX ƒNƒ‰ƒXB‚±‚ê‚ª JSON DOM ‚ÌŠî‘b‚ğŒ`¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_AsBase16BinaryString.Name=AsBase16BinaryString ƒƒ\ƒbƒh
+PRIM_JSON.Node_AsBase16BinaryString.Desc=’l‚Ì Base16/16 i”‚Ì•¶šƒV[ƒPƒ“ƒX‚ğ‰ğ“Ç‚·‚é‚±‚Æ‚ÅAŒ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_AsBase16BinaryString.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_AsBase16BinaryString.Result.Desc=Œ»İ‚Ì JSON ƒm[ƒh’l‚ğ Base16/16 i”ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚©‚ç³‚µ‚­•ÏŠ·‚µ‚½‚±‚Æ‚É‚æ‚è“¾‚ç‚ê‚½ƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_JSON.Node_AsBase64BinaryString.Name=AsBase64BinaryString ƒƒ\ƒbƒh
+PRIM_JSON.Node_AsBase64BinaryString.Desc=’l‚Ì Base64 ‚Ì•¶šƒV[ƒPƒ“ƒX‚ğ‰ğ“Ç‚·‚é‚±‚Æ‚ÅAŒ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_AsBase64BinaryString.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_AsBase64BinaryString.Result.Desc=Œ»İ‚Ì JSON ƒm[ƒh’l‚ğ Base64 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚©‚ç³‚µ‚­•ÏŠ·‚µ‚½‚±‚Æ‚É‚æ‚è“¾‚ç‚ê‚½ƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_JSON.Node_AsBoolean.Name=AsBoolean ƒƒ\ƒbƒh
+PRIM_JSON.Node_AsBoolean.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğƒu[ƒ‹’l‚Æ‚µ‚Äæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_AsBoolean.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_AsBoolean.Result.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ¦‚·ƒu[ƒ‹’l
+ 
+PRIM_JSON.Node_AsDateTime.Name=AsDateTime ƒƒ\ƒbƒh
+PRIM_JSON.Node_AsDateTime.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ“ú‚Æ‚µ‚Äæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_AsDateTime.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_AsDateTime.Result.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ¦‚·“ú
+ 
+PRIM_JSON.Node_AsDecimal.Name=AsDecimal ƒƒ\ƒbƒh
+PRIM_JSON.Node_AsDecimal.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ 10 i”‚Æ‚µ‚Äæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_AsDecimal.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_AsDecimal.Result.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ¦‚· 10 i”
+ 
+PRIM_JSON.Node_AsInt32.Name=AsInt32 ƒƒ\ƒbƒh
+PRIM_JSON.Node_AsInt32.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ 32 ƒrƒbƒg®”‚Æ‚µ‚Äæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_AsInt32.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_AsInt32.Result.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ¦‚· 32 ƒrƒbƒg®”
+ 
+PRIM_JSON.Node_AsInt64.Name=AsInt64 ƒƒ\ƒbƒh
+PRIM_JSON.Node_AsInt64.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ 64 ƒrƒbƒg®”‚Æ‚µ‚Äæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_AsInt64.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_AsInt64.Result.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ¦‚· 64 ƒrƒbƒg®”
+ 
+PRIM_JSON.Node_AsString.Name=AsString ƒƒ\ƒbƒh
+PRIM_JSON.Node_AsString.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ Unicode •¶š—ñ‚Æ‚µ‚Äæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_AsString.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_AsString.Result.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ì’l‚ğ¦‚· Unicode •¶š—ñ
+ 
+PRIM_JSON.Node_Clone.Name=Clone ƒƒ\ƒbƒh
+PRIM_JSON.Node_Clone.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚ÌƒRƒs[‚ğì¬‚µAÄ‹A“I‚Éƒm[ƒh‚Ìq‚·‚×‚Ä‚ÌƒNƒ[ƒ“‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_Clone.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_Clone.Result.Desc=V‹K‚ÉƒNƒ[ƒ“‚ªì¬‚³‚ê‚½ JSON ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Node_CloneNode.Name=CloneNode ƒƒ\ƒbƒh
+PRIM_JSON.Node_CloneNode.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚ÌƒRƒs[‚ğì¬‚µAƒIƒvƒVƒ‡ƒ“‚ÅÄ‹A“I‚Éƒm[ƒh‚Ìq‚·‚×‚Ä‚ÌƒNƒ[ƒ“‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_CloneNode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_CloneNode.Result.Desc=V‹K‚ÉƒNƒ[ƒ“‚ªì¬‚³‚ê‚½ JSON ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Node_CloneNode.Deep.Name=Deep ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_CloneNode.Deep.Desc=Œ»İ‚Ì JSON ƒm[ƒh‚Ìq‚àƒNƒ[ƒ“‚ªì¬‚³‚ê‚éê‡ TRUEAŒ»İ‚Ìƒm[ƒh‚ÌƒNƒ[ƒ“‚¾‚¯‚ªì¬‚³‚ê‚éê‡‚Í FALSE
+ 
+PRIM_JSON.Node_CreateIterator.Name=CreateIterator ƒƒ\ƒbƒh
+PRIM_JSON.Node_CreateIterator.Desc=ƒm[ƒh‚Ìq‚ÌŠÔ‚Å”½•œ‚Å‚«‚é”½•œƒRƒ“ƒ|[ƒlƒ“ƒg‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_CreateIterator.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_CreateIterator.Result.Desc=V‹K”½•œƒCƒ“ƒXƒ^ƒ“ƒX‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Node_FirstChild.Name=FirstChild ƒvƒƒpƒeƒB
+PRIM_JSON.Node_FirstChild.Desc=Å‰‚Ìqƒm[ƒh‚Ö‚ÌQÆ‚ğ•Ô‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¯‚ê‚Î *NULL
+ 
+PRIM_JSON.Node_HasChildNodes.Name=HasChildNodes ƒvƒƒpƒeƒB
+PRIM_JSON.Node_HasChildNodes.Desc=ƒm[ƒh‚Éqƒm[ƒh‚ª‚ ‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_IsArray.Name=IsArray ƒvƒƒpƒeƒB
+PRIM_JSON.Node_IsArray.Desc=JSON ƒAƒŒƒC ƒm[ƒh‚Å‚ ‚é JSON ’lƒm[ƒh‚É‰ğŒˆ‚·‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_IsBoolean.Name=IsBoolean ƒvƒƒpƒeƒB
+PRIM_JSON.Node_IsBoolean.Desc=ƒu[ƒ‹’l‚ğ’ñ‹Ÿ‚Å‚«‚é JSON ’lƒm[ƒh‚É‰ğŒˆ‚·‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_IsDateTime.Name=IsDateTime ƒvƒƒpƒeƒB
+PRIM_JSON.Node_IsDateTime.Desc=“ú‚Ì’l‚ğ’ñ‹Ÿ‚Å‚«‚é JSON ’lƒm[ƒh‚É‰ğŒˆ‚·‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_IsDecimal.Name=IsDecimal ƒvƒƒpƒeƒB
+PRIM_JSON.Node_IsDecimal.Desc=10 i’l‚ğ’ñ‹Ÿ‚Å‚«‚é JSON ’lƒm[ƒh‚É‰ğŒˆ‚·‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_IsInt32.Name=IsInt32 ƒvƒƒpƒeƒB
+PRIM_JSON.Node_IsInt32.Desc=32 ƒrƒbƒg‚Ì®”’l‚ğ’ñ‹Ÿ‚Å‚«‚é JSON ’lƒm[ƒh‚É‰ğŒˆ‚·‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_IsInt64.Name=IsInt64 ƒvƒƒpƒeƒB
+PRIM_JSON.Node_IsInt64.Desc=64 ƒrƒbƒg‚Ì®”’l‚ğ’ñ‹Ÿ‚Å‚«‚é JSON ’lƒm[ƒh‚É‰ğŒˆ‚·‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_IsNull.Name=IsNull ƒvƒƒpƒeƒB
+PRIM_JSON.Node_IsNull.Desc=JSON NULL ƒm[ƒh‚Å‚ ‚é JSON ’lƒm[ƒh‚É‰ğŒˆ‚·‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_IsObject.Name=IsObject ƒvƒƒpƒeƒB
+PRIM_JSON.Node_IsObject.Desc=JSON ƒIƒuƒWƒFƒNƒg ƒm[ƒh‚Å‚ ‚é JSON ’lƒm[ƒh‚É‰ğŒˆ‚·‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_IsString.Name=IsString ƒvƒƒpƒeƒB
+PRIM_JSON.Node_IsString.Desc=Unicode •¶š—ñ‚ğ’ñ‹Ÿ‚Å‚«‚é JSON ’lƒm[ƒh‚É‰ğŒˆ‚·‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_Item.Name=Item ƒvƒƒpƒeƒB
+PRIM_JSON.Node_Item.Desc=Key ƒpƒ‰ƒ[ƒ^‚Æ’v‚·‚é–¼‘O‚ğ‚Âqƒm[ƒh‚Ö‚ÌQÆ‚ğ•Ô‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¢ê‡‚Í *NULL
+ 
+PRIM_JSON.Node_Item.Key.Name=Key ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_Item.Key.Desc=qƒm[ƒh‚Ì–¼‘O‚Æˆê’v‚³‚¹‚é‚½‚ß‚Ég—p‚·‚é Unicode •¶š—ñ
+ 
+PRIM_JSON.Node_ItemAt.Name=ItemAt ƒvƒƒpƒeƒB
+PRIM_JSON.Node_ItemAt.Desc=’ñ‹Ÿ‚ÌƒCƒ“ƒfƒbƒNƒX‚ğ‚Âqƒm[ƒh‚Ö‚ÌQÆ‚ğ•Ô‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¢ê‡‚Í *NULL
+ 
+PRIM_JSON.Node_ItemAt.Index.Name=Index ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Node_ItemAt.Index.Desc=qƒm[ƒh‚ÌƒCƒ“ƒfƒbƒNƒX‚Æˆê’v‚³‚¹‚é‚½‚ß‚Ég—p‚·‚é®”
+ 
+PRIM_JSON.Node_ItemCount.Name=ItemCount ƒvƒƒpƒeƒB
+PRIM_JSON.Node_ItemCount.Desc=qƒm[ƒh‚Ì”
+ 
+PRIM_JSON.Node_LastChild.Name=LastChild ƒvƒƒpƒeƒB
+PRIM_JSON.Node_LastChild.Desc=‚±‚Ìƒm[ƒh‚ÌÅŒã‚Ìq‚Ö‚ÌQÆ‚ğ•Ô‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¢ê‡‚Í *NULL
+ 
+PRIM_JSON.Node_NextSibling.Name=NextSibling ƒvƒƒpƒeƒB
+PRIM_JSON.Node_NextSibling.Desc=‚±‚Ìƒm[ƒh‚ÌŸ‚ÌŒZ’í‚Ö‚ÌQÆ‚ğ•Ô‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¢ê‡‚Í *NULL
+ 
+PRIM_JSON.Node_NodeName.Name=NodeName ƒvƒƒpƒeƒB
+PRIM_JSON.Node_NodeName.Desc=‚±‚Ìƒm[ƒh‚ÉŠ„‚è“–‚Ä‚ç‚ê‚½–¼‘O
+ 
+PRIM_JSON.Node_NodeType.Name=NodeType ƒvƒƒpƒeƒB
+PRIM_JSON.Node_NodeType.Desc=‚±‚Ìƒm[ƒh‚Ìƒ^ƒCƒv
+ 
+PRIM_JSON.Node_NodeValue.Name=NodeValue ƒvƒƒpƒeƒB
+PRIM_JSON.Node_NodeValue.Desc=‚±‚Ìƒm[ƒh‚Ì’l‚ğ Unicode •¶š—ñ‚Æ‚µ‚Ä•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Node_OwnerDocument.Name=OwnerDocument ƒvƒƒpƒeƒB
+PRIM_JSON.Node_OwnerDocument.Desc=‚±‚Ìƒm[ƒh‚Ìƒtƒ@ƒNƒgƒŠ[‚ÌƒhƒLƒ…ƒƒ“ƒg‚Ö‚ÌQÆ‚ğ•Ô‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¢ê‡‚Í *NULL
+ 
+PRIM_JSON.Node_ParentDocument.Name=ParentDocument ƒvƒƒpƒeƒB
+PRIM_JSON.Node_ParentDocument.Desc=‚±‚Ìƒm[ƒh‚Ìe‚ÌƒhƒLƒ…ƒƒ“ƒg‚Ö‚ÌQÆ‚ğ•Ô‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¢ê‡‚Í *NULL
+ 
+PRIM_JSON.Node_ParentNode.Name=ParentNode ƒvƒƒpƒeƒB
+PRIM_JSON.Node_ParentNode.Desc=‚±‚Ìƒm[ƒh‚Ìe‚Ö‚ÌQÆ‚ğ•Ô‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¢ê‡‚Í *NULL
+ 
+PRIM_JSON.Node_PreviousSibling.Name=PreviousSibling ƒvƒƒpƒeƒB
+PRIM_JSON.Node_PreviousSibling.Desc=‚±‚Ìƒm[ƒh‚Ì‘O‚ÌŒZ’í‚Ö‚ÌQÆ‚ğ•Ô‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¢ê‡‚Í *NULL
+ 
+PRIM_JSON.Node_RemoveAll.Name=RemoveAll ƒƒ\ƒbƒh
+PRIM_JSON.Node_RemoveAll.Desc=Šeqƒm[ƒh‚Ìe‚É Null ‚ğİ’è‚·‚é‚±‚Æ‚ÅA‚±‚Ìƒm[ƒh‚Ì‚·‚×‚Ä‚Ìqƒm[ƒh‚ğíœ‚·‚éƒƒ\ƒbƒh
+ 
+PRIM_JSON.Null.Name=PRIM_JSON.Null
+PRIM_JSON.Null.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ NULL ’l‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Number.Name=PRIM_JSON.Number
+PRIM_JSON.Number.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½”’l•¶š—ñ‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Number_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_JSON.Number_Value.Desc=JSON ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½”’l•¶š—ñ‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Object.Name=PRIM_JSON.Object
+PRIM_JSON.Object.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ JSON ƒƒ“ƒo[‚Ì˜A‘zƒAƒŒƒC‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.Object_AddArrayMember.Name=AddArrayMember ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddArrayMember.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON ƒAƒŒƒC ƒm[ƒh‚ğŒ‹‡‚µAqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚³‚ê‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·B
+ 
+PRIM_JSON.Object_AddArrayMember.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddArrayMember.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddArrayMember.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddArrayMember.Name.Desc=V‹K JSON ƒAƒŒƒC ƒm[ƒh‚ÆŠÖ˜A•t‚¯‚ç‚ê‚é–¼‘O
+ 
+PRIM_JSON.Object_AddBooleanMember.Name=AddBooleanMember ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddBooleanMember.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON ƒu[ƒ‹’lƒm[ƒh‚ğŒ‹‡‚µAqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚³‚ê‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·B
+ 
+PRIM_JSON.Object_AddBooleanMember.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddBooleanMember.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddBooleanMember.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddBooleanMember.Name.Desc=V‹K JSON ƒu[ƒ‹’lƒm[ƒh‚ÆŠÖ˜A•t‚¯‚ç‚ê‚é–¼‘O
+ 
+PRIM_JSON.Object_AddBooleanMember.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddBooleanMember.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚éƒu[ƒ‹’l 
+ 
+PRIM_JSON.Object_AddDateTimeMember.Name=AddDateTimeMember ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddDateTimeMember.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON “úƒm[ƒh‚ğŒ‹‡‚µAqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚³‚ê‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·B
+ 
+PRIM_JSON.Object_AddDateTimeMember.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddDateTimeMember.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddDateTimeMember.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddDateTimeMember.Name.Desc=V‹K JSON “úƒm[ƒh‚ÆŠÖ˜A•t‚¯‚ç‚ê‚é–¼‘O
+ 
+PRIM_JSON.Object_AddDateTimeMember.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddDateTimeMember.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é“ú‚Ì’l
+ 
+PRIM_JSON.Object_AddDecimalMember.Name=AddDecimalMember ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddDecimalMember.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON 10 iƒm[ƒh‚ğŒ‹‡‚³‚¹Aqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚·‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·
+ 
+PRIM_JSON.Object_AddDecimalMember.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddDecimalMember.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddDecimalMember.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddDecimalMember.Name.Desc=V‹K JSON 10 iƒm[ƒh‚ÉŠÖ˜A•t‚¯‚é–¼‘O
+ 
+PRIM_JSON.Object_AddDecimalMember.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddDecimalMember.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 10 i’l
+ 
+PRIM_JSON.Object_AddFloat64Member.Name=AddFloat64Member ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddFloat64Member.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON Float64 ƒm[ƒh‚ğŒ‹‡‚³‚¹Aqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚·‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·
+ 
+PRIM_JSON.Object_AddFloat64Member.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddFloat64Member.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddFloat64Member.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddFloat64Member.Name.Desc=V‹K JSON Float64 ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚é–¼‘O
+ 
+PRIM_JSON.Object_AddFloat64Member.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddFloat64Member.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 64 ƒrƒbƒg‚Ì•‚“®¬”’l
+ 
+PRIM_JSON.Object_AddInt32Member.Name=AddInt32Member ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddInt32Member.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON Int32 ƒm[ƒh‚ğŒ‹‡‚³‚¹Aqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚·‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·
+ 
+PRIM_JSON.Object_AddInt32Member.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddInt32Member.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddInt32Member.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddInt32Member.Name.Desc=V‹K JSON Int32 ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚é–¼‘O
+ 
+PRIM_JSON.Object_AddInt32Member.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddInt32Member.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 32 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Object_AddInt64Member.Name=AddInt64Member ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddInt64Member.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON Int64 ƒm[ƒh‚ğŒ‹‡‚³‚¹Aqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚·‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·
+ 
+PRIM_JSON.Object_AddInt64Member.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddInt64Member.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddInt64Member.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddInt64Member.Name.Desc=V‹K JSON Int64 ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚é–¼‘O
+ 
+PRIM_JSON.Object_AddInt64Member.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddInt64Member.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é 64 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Object_AddNullMember.Name=AddNullMember ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddNullMember.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON NULL ƒm[ƒh‚ğŒ‹‡‚³‚¹Aqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚·‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·
+ 
+PRIM_JSON.Object_AddNullMember.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddNullMember.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddNullMember.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddNullMember.Name.Desc=V‹K JSON NULL ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚é–¼‘O
+ 
+PRIM_JSON.Object_AddNumberMember.Name=AddNumberMember ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddNumberMember.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON ”’lƒm[ƒh‚ğŒ‹‡‚³‚¹Aqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚·‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·
+ 
+PRIM_JSON.Object_AddNumberMember.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddNumberMember.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddNumberMember.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddNumberMember.Name.Desc=V‹K JSON ”’lƒm[ƒh‚ÉŠÖ˜A•t‚¯‚é–¼‘O
+ 
+PRIM_JSON.Object_AddNumberMember.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddNumberMember.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é”’l‚Ì•¶š—ñ
+ 
+PRIM_JSON.Object_AddObjectMember.Name=AddObjectMember ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddObjectMember.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON ƒIƒuƒWƒFƒNƒg ƒm[ƒh‚ğŒ‹‡‚³‚¹Aqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚·‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·
+ 
+PRIM_JSON.Object_AddObjectMember.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddObjectMember.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddObjectMember.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddObjectMember.Name.Desc=V‹K JSON ƒIƒuƒWƒFƒNƒg ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚é–¼‘O
+ 
+PRIM_JSON.Object_AddStringMember.Name=AddStringMember ƒƒ\ƒbƒh
+PRIM_JSON.Object_AddStringMember.Desc=’ñ‹Ÿ‚³‚ê‚½–¼‘O‚ÆV‹K JSON •¶š—ñƒm[ƒh‚ğŒ‹‡‚³‚¹Aqƒm[ƒh‚Æ‚µ‚Ä‘}“ü‚·‚éV‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚É‚µ‚Ü‚·
+ 
+PRIM_JSON.Object_AddStringMember.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddStringMember.Result.Desc=V‹K JSON ƒƒ“ƒo[ ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Object_AddStringMember.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddStringMember.Name.Desc=V‹K JSON •¶š—ñƒm[ƒh‚ÉŠÖ˜A•t‚¯‚é–¼‘O
+ 
+PRIM_JSON.Object_AddStringMember.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Object_AddStringMember.Value.Desc=V‹K JSON ƒm[ƒh‚Ì‰Šú‰»‚Ég—p‚³‚ê‚é Unicode •¶š—ñ
+ 
+PRIM_JSON.Name=JSON ƒ‰ƒCƒuƒ‰ƒŠ
+PRIM_JSON.Desc=JSON DOMAƒŠ[ƒ_[Aƒ‰ƒCƒ^[ ƒTƒ|[ƒg‚Ìƒz[ƒ€B
+ 
+PRIM_JSON_ReadNode.Name=ReadNode ƒƒ\ƒbƒh
+PRIM_JSON_ReadNode.Desc=“KØ‚È JSON ƒm[ƒh‚ğì¬‚µƒf[ƒ^‚ğ“ü‚ê‚éw’è JSON ƒŠ[ƒ_[‚ÌƒAƒNƒZƒXó‘Ô
+ 
+PRIM_JSON_ReadNode.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON_ReadNode.Result.Desc=w’è JSON ƒŠ[ƒ_[‚Ìó‘Ô‚©‚çì¬‚³‚ê‚½V‹K JSON ƒm[ƒh‚Ö‚ÌQÆ
+ 
+PRIM_JSON_ReadNode.Reader.Name=Reader ƒpƒ‰ƒ[ƒ^
+PRIM_JSON_ReadNode.Reader.Desc=“KØ‚È JSON ƒm[ƒh‚ğì¬‚µƒf[ƒ^‚ğ“ü‚ê‚é‚½‚ß‚ÉƒAƒNƒZƒX‚³‚ê‚½w’è JSON ƒŠ[ƒ_[‚Ö‚ÌQÆ
+ 
+PRIM_JSON.Reader.Name=PRIM_JSON.Reader
+PRIM_JSON.Reader.Desc=ƒLƒƒƒbƒVƒ…‚ª–³‚­A‘f‘‚­ƒVƒŠƒAƒ‹‰»‚³‚ê‚½ JSON ƒf[ƒ^‚É‡•ûŒüƒAƒNƒZƒX‚·‚éƒŠ[ƒ_[‚ğ¦‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_Depth.Name=Depth ƒvƒƒpƒeƒB
+PRIM_JSON.Reader_Depth.Desc=JSON ƒhƒLƒ…ƒƒ“ƒg‚ÌŒ»ƒg[ƒNƒ“‚Ì[‚³‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_LineNumber.Name=LineNumber ƒvƒƒpƒeƒB
+PRIM_JSON.Reader_LineNumber.Desc=JSON ƒhƒLƒ…ƒƒ“ƒg‚ÌŒ»ƒg[ƒNƒ“‚Ìs”‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_LinePosition.Name=LinePosition ƒvƒƒpƒeƒB
+PRIM_JSON.Reader_LinePosition.Desc=JSON ƒhƒLƒ…ƒƒ“ƒg‚ÌŒ»ƒg[ƒNƒ“‚ÌŒ»İs‚ÌˆÊ’u‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_Read.Name=Read ƒƒ\ƒbƒh
+PRIM_JSON.Reader_Read.Desc=ƒ\[ƒX‚©‚çŸ‚Ì JSON ƒg[ƒNƒ“‚ğ“Ç‚İ‚İ‚Ü‚·
+ 
+PRIM_JSON.Reader_Read.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_Read.Result.Desc=Ÿ‚Ìƒg[ƒNƒ“‚ª³‚µ‚­“Ç‚İ‚Ü‚ê‚½ê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·B‚±‚êˆÈã“Ç‚İ‚Şƒg[ƒNƒ“‚ª–³‚¢ê‡‚Í FALSE
+ 
+PRIM_JSON.Reader_Skip.Name=Skip ƒƒ\ƒbƒh
+PRIM_JSON.Reader_Skip.Desc=Œ»ƒg[ƒNƒ“‚Ìq‚ğ”ò‚Î‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TextReader.Name=TextReader ƒvƒƒpƒeƒB
+PRIM_JSON.Reader_TextReader.Desc=“Ç‚İ‚İ—\’è‚ÌƒVƒŠƒAƒ‹‰» JSON ƒf[ƒ^‚ğ’ñ‹Ÿ‚·‚éƒeƒLƒXƒgƒŠ[ƒ_[ ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsBase16.Name=TokenAsBase16 ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsBase16.Desc=ƒg[ƒNƒ“‚Ì@Base16/16 i•¶šƒV[ƒPƒ“ƒX‚ğ‰ğ“Ç‚µ‚ÄAŒ»ƒg[ƒNƒ“‚ğƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚Ü‚· 
+ 
+PRIM_JSON.Reader_TokenAsBase16.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsBase16.Result.Desc=Œ»ƒg[ƒNƒ“’l‚ğ@Base16/16 iƒGƒ“ƒR[ƒfƒBƒ“ƒO‚©‚ç³‚µ‚­•ÏŠ·‚·‚é‚±‚Æ‚Å“¾‚ç‚ê‚½ƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_JSON.Reader_TokenAsBase64.Name=TokenAsBase64 ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsBase64.Desc=ƒg[ƒNƒ“‚Ì@Base64 •¶šƒV[ƒPƒ“ƒX‚ğ‰ğ“Ç‚µ‚ÄAŒ»ƒg[ƒNƒ“‚ğƒoƒCƒiƒŠ•¶š—ñ‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsBase64.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsBase64.Result.Desc=Œ»ƒg[ƒNƒ“’l‚ğ@Base64 ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚©‚ç³‚µ‚­•ÏŠ·‚·‚é‚±‚Æ‚Å“¾‚ç‚ê‚½ƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_JSON.Reader_TokenAsBoolean.Name=TokenAsBoolean ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsBoolean.Desc=Œ»ƒg[ƒNƒ“‚ğƒu[ƒ‹’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsBoolean.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsBoolean.Result.Desc=Œ»ƒg[ƒNƒ“‚Ìƒu[ƒ‹’lB‚±‚ê‚ª–³—‚Èê‡‚Í FALSE
+ 
+PRIM_JSON.Reader_TokenAsDate.Name=TokenAsDate ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsDate.Desc=Œ»ƒg[ƒNƒ“‚ğ“ú•t‚Ì’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsDate.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsDate.Result.Desc=Œ»ƒg[ƒNƒ“‚Ì“ú•t’l
+ 
+PRIM_JSON.Reader_TokenAsDate.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsDate.Format.Desc=“ú•tƒg[ƒNƒ“‚ÌŒ`®
+ 
+PRIM_JSON.Reader_TokenAsDateTime.Name=TokenAsDateTime ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsDateTime.Desc=Œ»ƒg[ƒNƒ“‚ğ“ú‚Ì’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsDateTime.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsDateTime.Result.Desc=Œ»ƒg[ƒNƒ“‚Ì“ú‚Ì’l
+ 
+PRIM_JSON.Reader_TokenAsDateTime.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsDateTime.Format.Desc=“úƒg[ƒNƒ“‚ÌŒ`®
+ 
+PRIM_JSON.Reader_TokenAsDecimal.Name=TokenAsDecimal ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsDecimal.Desc=Œ»ƒg[ƒNƒ“‚ğ 10 i’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsDecimal.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsDecimal.Result.Desc=Œ»ƒg[ƒNƒ“‚Ì 10 i’l
+ 
+PRIM_JSON.Reader_TokenAsFloat64.Name=TokenAsFloat64 ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsFloat64.Desc=Œ»ƒg[ƒNƒ“‚ğ 64 ƒrƒbƒg‚Ì•‚“®¬”’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsFloat64.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsFloat64.Result.Desc=Œ»ƒg[ƒNƒ“‚Ì 64 ƒrƒbƒg‚Ì•‚“®¬”’l
+ 
+PRIM_JSON.Reader_TokenAsInt32.Name=TokenAsInt32 ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsInt32.Desc=Œ»ƒg[ƒNƒ“‚ğ 32 ƒrƒbƒg‚Ì®”’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsInt32.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsInt32.Result.Desc=Œ»ƒg[ƒNƒ“‚Ì 32 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Reader_TokenAsInt64.Name=TokenAsInt64 ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsInt64.Desc=Œ»ƒg[ƒNƒ“‚ğ 64 ƒrƒbƒg‚Ì®”’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsInt64.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsInt64.Result.Desc=Œ»ƒg[ƒNƒ“‚Ì 64 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Reader_TokenAsName.Name=TokenAsName ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsName.Desc=Œ»ƒg[ƒNƒ“‚©‚ç–¼‘O‚Ì’l‚ğ Unicode •¶š—ñ‚Æ‚µ‚Äæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsName.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsName.Result.Desc=Œ»ƒg[ƒNƒ“‚Ì Unicode •¶š—ñ‚Å‚Ì–¼‘O‚Ì’l
+ 
+PRIM_JSON.Reader_TokenAsString.Name=TokenAsString ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsString.Desc=Œ»ƒg[ƒNƒ“‚ğ Unicode ‚Ì•¶š—ñ’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsString.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsString.Result.Desc=Œ»ƒg[ƒNƒ“‚Ì Unicode ‚Ì•¶š—ñ’l
+ 
+PRIM_JSON.Reader_TokenAsTime.Name=TokenAsTime ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenAsTime.Desc=Œ»ƒg[ƒNƒ“‚ğŠÔ‚Ì’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenAsTime.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsTime.Result.Desc=Œ»ƒg[ƒNƒ“‚ÌŠÔ‚Ì’l
+ 
+PRIM_JSON.Reader_TokenAsTime.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenAsTime.Format.Desc=ŠÔƒg[ƒNƒ“‚ÌŒ`®
+ 
+PRIM_JSON.Reader_TokenIsDate.Name=TokenIsDate ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenIsDate.Desc=Œ»ƒg[ƒNƒ“‚ğ“ú•t‚Ì’l‚É•ÏŠ·‚Å‚«‚é‚©‚ğƒ`ƒFƒbƒN‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenIsDate.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenIsDate.Result.Desc=Œ»ƒg[ƒNƒ“‚ğ“ú•t‚Ì’l‚É•ÏŠ·‚Å‚«‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenIsDate.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenIsDate.Format.Desc=“ú•tƒg[ƒNƒ“‚ÌŒ`®
+ 
+PRIM_JSON.Reader_TokenIsDateTime.Name=TokenIsDateTime ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenIsDateTime.Desc=Œ»ƒg[ƒNƒ“‚ğ“ú‚Ì’l‚É•ÏŠ·‚Å‚«‚é‚©‚ğƒ`ƒFƒbƒN‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenIsDateTime.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenIsDateTime.Result.Desc=Œ»ƒg[ƒNƒ“‚ğ“ú‚Ì’l‚É•ÏŠ·‚Å‚«‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenIsDateTime.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenIsDateTime.Format.Desc=“úƒg[ƒNƒ“‚ÌŒ`®
+ 
+PRIM_JSON.Reader_TokenIsTime.Name=TokenIsTime ƒƒ\ƒbƒh
+PRIM_JSON.Reader_TokenIsTime.Desc=Œ»ƒg[ƒNƒ“‚ğŠÔ‚Ì’l‚É•ÏŠ·‚Å‚«‚é‚©‚ğƒ`ƒFƒbƒN‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenIsTime.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenIsTime.Result.Desc=Œ»ƒg[ƒNƒ“‚ğŠÔ‚Ì’l‚É•ÏŠ·‚Å‚«‚éê‡ TRUE ‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenIsTime.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Reader_TokenIsTime.Format.Desc=ŠÔƒg[ƒNƒ“‚ÌŒ`®
+ 
+PRIM_JSON.Reader_TokenNumberType.Name=TokenNumberType ƒvƒƒpƒeƒB
+PRIM_JSON.Reader_TokenNumberType.Desc=Œ»İ‚Ì JSON ƒg[ƒNƒ“‚Ì”šƒ^ƒCƒv‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenText.Name=TokenText ƒvƒƒpƒeƒB
+PRIM_JSON.Reader_TokenText.Desc=Œ»İ‚Ì JSON ƒg[ƒNƒ“‚ÌƒeƒLƒXƒg‚ğ Unicode •¶š—ñ‚Æ‚µ‚Äæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenType.Name=TokenType ƒvƒƒpƒeƒB
+PRIM_JSON.Reader_TokenType.Desc=Œ»İ‚Ì JSON ƒg[ƒNƒ“‚Ìƒ^ƒCƒv‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.Reader_TokenValueType.Name=TokenValueType ƒvƒƒpƒeƒB
+PRIM_JSON.Reader_TokenValueType.Desc=Œ»İ‚Ì JSON ƒg[ƒNƒ“‚Ì’l‚Ìƒ^ƒCƒv‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_JSON.String.Name=PRIM_JSON.String
+PRIM_JSON.String.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½ Unicode •¶š—ñ‚ğ¦‚· JSON ƒm[ƒh ƒNƒ‰ƒX
+ 
+PRIM_JSON.String_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_JSON.String_Value.Desc=JSON ƒm[ƒh‚ÉŠÖ˜A•t‚¯‚ç‚ê‚½ Unicode •¶š—ñ‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.ValueNode.Name=PRIM_JSON.ValueNode
+PRIM_JSON.ValueNode.Desc=JSON ƒRƒ“ƒeƒ“ƒc‚©‚çƒ}ƒbƒv‚³‚ê‚½’l‚ğ¦‚·‚·‚×‚Ä‚Ì JSON ƒm[ƒh‚Ì‚½‚ß‚Ìƒx[ƒX ƒNƒ‰ƒX
+ 
+PRIM_JSON.Writer.Name=PRIM_JSON.Writer
+PRIM_JSON.Writer.Desc=ƒLƒƒƒbƒVƒ…‚ª–³‚­A‘f‘‚­ JSON ƒf[ƒ^‚ğ‡•ûŒü‚É‘‚«‚Şƒ‰ƒCƒ^[‚ğ¦‚µ‚Ü‚·
+ 
+PRIM_JSON.Writer_BeginArray.Name=BeginArray ƒƒ\ƒbƒh
+PRIM_JSON.Writer_BeginArray.Desc=JSON ƒAƒŒƒC‚Ìn‚Ü‚è‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_BeginArray.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_BeginArray.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì’l‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚ÅAJSON ƒAƒŒƒC‚ª’l‚Å‚·B
+ 
+PRIM_JSON.Writer_BeginObject.Name=BeginObject ƒƒ\ƒbƒh
+PRIM_JSON.Writer_BeginObject.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ìn‚Ü‚è‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_BeginObject.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_BeginObject.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì’l‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚ÅAJSON ƒIƒuƒWƒFƒNƒg‚ª’l‚Å‚·B
+ 
+PRIM_JSON.Writer_Close.Name=Close ƒƒ\ƒbƒh
+PRIM_JSON.Writer_Close.Desc=‚±‚Ìƒ‰ƒCƒ^[‚ğ•Â‚¶AJSON ƒf[ƒ^‚ğ©“®“I‚ÉŠ®—¹‚µ‚Ü‚·
+ 
+PRIM_JSON.Writer_EndArray.Name=EndArray ƒƒ\ƒbƒh
+PRIM_JSON.Writer_EndArray.Desc=JSON ƒAƒŒƒC‚ÌI‚í‚è‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_EndObject.Name=EndObject ƒƒ\ƒbƒh
+PRIM_JSON.Writer_EndObject.Desc=JSON ƒIƒuƒWƒFƒNƒgƒC‚ÌI‚í‚è‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_TextWriter.Name=TextWriter ƒvƒƒpƒeƒB
+PRIM_JSON.Writer_TextWriter.Desc=ƒVƒŠƒAƒ‹‰»‚³‚ê‚½ JSON ƒf[ƒ^‚Ì‘‚«‚İ‚ğƒTƒ|[ƒg‚·‚éƒeƒLƒXƒgƒ‰ƒCƒ^[ ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ‚ğæ“¾‚Ü‚½‚Íİ’è‚µ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteBase16.Name=WriteBase16 ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteBase16.Desc=ƒoƒCƒiƒŠ•¶š—ñ’l‚ğ Base16/16 i”ƒGƒ“ƒR[ƒfƒBƒ“ƒO’l‚Æ‚µ‚Ä‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteBase16.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteBase16.Value.Desc=ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚·‚é‘‚«‚İ‘O‚ÌƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_JSON.Writer_WriteBase16.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteBase16.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteBase64.Name=WriteBase64 ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteBase64.Desc=ƒoƒCƒiƒŠ•¶š—ñ’l‚ğ Base64@ƒGƒ“ƒR[ƒfƒBƒ“ƒO’l‚Æ‚µ‚Ä‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteBase64.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteBase64.Value.Desc=ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚·‚é‘‚«‚İ‘O‚ÌƒoƒCƒiƒŠ•¶š—ñ
+ 
+PRIM_JSON.Writer_WriteBase64.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteBase64.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteBlockComment.Name=WriteBlockComment ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteBlockComment.Desc=JSON ƒuƒƒbƒN‚ÌƒRƒƒ“ƒg‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteBlockComment.Text.Name=Text ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteBlockComment.Text.Desc=‘‚«‚ŞƒRƒƒ“ƒg‚ÌƒeƒLƒXƒg‚ğ Unicode •¶š—ñ‚Å•\‚µ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteBoolean.Name=WriteBoolean ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteBoolean.Desc=ƒu[ƒ‹’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteBoolean.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteBoolean.Value.Desc=‘‚«‚Şƒu[ƒ‹’l
+ 
+PRIM_JSON.Writer_WriteBoolean.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteBoolean.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteDate.Name=WriteDate ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteDate.Desc=“ú•t‚Ì’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteDate.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteDate.Value.Desc=‘‚«‚Ş“ú•t‚Ì’l
+ 
+PRIM_JSON.Writer_WriteDate.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteDate.Format.Desc=“ú•t‚Ì’l‚ÌŒ`®
+ 
+PRIM_JSON.Writer_WriteDate.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteDate.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteDateTime.Name=WriteDateTime ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteDateTime.Desc=“ú‚Ì’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteDateTime.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteDateTime.Value.Desc=‘‚«‚Ş“ú‚Ì’l
+ 
+PRIM_JSON.Writer_WriteDateTime.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteDateTime.Format.Desc=“ú‚Ì’l‚ÌŒ`®
+ 
+PRIM_JSON.Writer_WriteDateTime.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteDateTime.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteDecimal.Name=WriteDecimal ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteDecimal.Desc=10 i”‚Ì’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteDecimal.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteDecimal.Value.Desc=‘‚«‚Ş 10 i”‚Ì’l
+ 
+PRIM_JSON.Writer_WriteDecimal.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteDecimal.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteFloat64.Name=WriteFloat64 ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteFloat64.Desc=64 ƒrƒbƒg‚Ì•‚“®¬”’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteFloat64.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteFloat64.Value.Desc=‘‚«‚Ş 64 ƒrƒbƒg‚Ì•‚“®¬”’l
+ 
+PRIM_JSON.Writer_WriteFloat64.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteFloat64.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteInt32.Name=WriteInt32 ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteInt32.Desc=32 ƒrƒbƒg‚Ì®”’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteInt32.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteInt32.Value.Desc=‘‚«‚Ş 32 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Writer_WriteInt32.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteInt32.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteInt64.Name=WriteInt64 ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteInt64.Desc=64 ƒrƒbƒg‚Ì®”’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteInt64.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteInt64.Value.Desc=‘‚«‚Ş 64 ƒrƒbƒg‚Ì®”’l
+ 
+PRIM_JSON.Writer_WriteInt64.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteInt64.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteLineComment.Name=WriteLineComment ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteLineComment.Desc=JSON sƒRƒƒ“ƒg‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteLineComment.Text.Name=Text ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteLineComment.Text.Desc=‘‚«‚ŞƒRƒƒ“ƒg‚Ì Unicode •¶š—ñ‚Å•\‚µ‚½ƒeƒLƒXƒg
+ 
+PRIM_JSON.Writer_WriteMemberBoolean.Name=WriteMemberBoolean ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteMemberBoolean.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚Æ‚µ‚Äƒu[ƒ‹’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteMemberBoolean.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteMemberBoolean.MemberName.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Æ‚µ‚Ä‚Ì Unicode •¶š—ñ
+ 
+PRIM_JSON.Writer_WriteMemberBoolean.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteMemberBoolean.Value.Desc=‘‚«‚Şƒu[ƒ‹’l
+ 
+PRIM_JSON.Writer_WriteMemberDecimal.Name=WriteMemberDecimal ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteMemberDecimal.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚Æ‚µ‚Ä 10 i”‚Ì’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteMemberDecimal.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteMemberDecimal.MemberName.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Æ‚µ‚Ä‚Ì Unicode •¶š—ñ
+ 
+PRIM_JSON.Writer_WriteMemberDecimal.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteMemberDecimal.Value.Desc=‘‚«‚Ş 10 i”‚Ì’l
+ 
+PRIM_JSON.Writer_WriteMemberName.Name=WriteMemberName ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteMemberName.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌÅ‰‚Ì•”•ª‚Æ‚µ‚Äƒƒ“ƒo[–¼‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteMemberName.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteMemberName.MemberName.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Æ‚µ‚Ä‚Ì Unicode •¶š—ñ
+ 
+PRIM_JSON.Writer_WriteMemberNull.Name=WriteMemberNull ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteMemberNull.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚Æ‚µ‚Ä NULL ’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteMemberNull.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteMemberNull.MemberName.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Æ‚µ‚Ä‚Ì Unicode •¶š—ñ
+ 
+PRIM_JSON.Writer_WriteMemberString.Name=WriteMemberString ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteMemberString.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚Æ‚µ‚Ä Unicode •¶š—ñ‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteMemberString.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteMemberString.MemberName.Desc=JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Æ‚µ‚Ä‚Ì Unicode •¶š—ñ
+ 
+PRIM_JSON.Writer_WriteMemberString.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteMemberString.Value.Desc=‘‚«‚Ş Unicode •¶š‚ê—ñ
+ 
+PRIM_JSON.Writer_WriteNull.Name=WriteNull ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteNull.Desc=JSON Null ’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteNull.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteNull.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteString.Name=WriteString ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteString.Desc=Unicode •¶š—ñ‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteString.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteString.Value.Desc=‘‚«‚Ş Unicode •¶š‚ê—ñ
+ 
+PRIM_JSON.Writer_WriteString.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteString.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
+ 
+PRIM_JSON.Writer_WriteTime.Name=WriteTime ƒƒ\ƒbƒh
+PRIM_JSON.Writer_WriteTime.Desc=ŠÔ‚Ì’l‚ğ‘‚«‚İ‚Ü‚·
+ 
+PRIM_JSON.Writer_WriteTime.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteTime.Value.Desc=‘‚«‚ŞŠÔ‚Ì’l
+ 
+PRIM_JSON.Writer_WriteTime.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteTime.Format.Desc=ŠÔ‚Ì’l‚ÌŒ`®
+ 
+PRIM_JSON.Writer_WriteTime.MemberName.Name=MemberName ƒpƒ‰ƒ[ƒ^
+PRIM_JSON.Writer_WriteTime.MemberName.Desc=’ñ‹Ÿ‚³‚ê‚½ê‡A‚±‚Ì•¶š—ñ‚Í JSON ƒIƒuƒWƒFƒNƒg‚Ì–¼‘O/’l‚ÌƒyƒA‚ÌƒvƒƒpƒeƒB–¼‚Å‚·
  
 PRIM_KBRD.Name=Keyboard ƒRƒ“ƒ|[ƒlƒ“ƒg
 PRIM_KBRD.Desc=keyboard ƒRƒ“ƒ|[ƒlƒ“ƒg ‚Í ƒVƒtƒg (Shift) A Alt ˆ½‚¢‚ÍA Ctrl ‚ª‰Ÿ‚³‚ê‚Ä‚¢‚é‚©‚Ç‚¤‚©‚ğ¦‚µ‚Ü‚·B
@@ -11617,9 +12916,6 @@ PRIM_LIST.DateTime_MaxDate.Desc=w’è‚Å‚«‚é“ú‚ÌÅ‘å’l‚ğİ’è‚µ‚Ü‚·B
 PRIM_LIST.DateTime_MinDate.Name=MinDate ƒvƒƒpƒeƒB
 PRIM_LIST.DateTime_MinDate.Desc=w’è‚Å‚«‚é“ú‚ÌÅ¬’l‚ğİ’è‚µ‚Ü‚·B
  
-PRIM_LIST.DateTime_ReadOnly.Name=ReadOnly ƒvƒƒpƒeƒB
-PRIM_LIST.DateTime_ReadOnly.Desc=ƒZƒ‹‚ª“ü—Í‚Ì‚½‚ß‚Ég—p‚Å‚«‚é‚©‚Ç‚¤‚©‚ğ§Œä‚µ‚Ü‚·
- 
 PRIM_LIST.DateTime_ShowDate.Name=ShowDate ƒvƒƒpƒeƒB
 PRIM_LIST.DateTime_ShowDate.Desc=ƒRƒ“ƒgƒ[ƒ‹‚Ì“ú•t•”•ª‚Ì•\¦A”ñ•\¦
  
@@ -11770,11 +13066,17 @@ PRIM_LIST.Icon.Desc=ƒŠƒXƒg“à‚ÌƒAƒCƒRƒ“‚ğ•\¦‚·‚é—ñ
 PRIM_LIST.Icon_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_LIST.Icon_CellThemeDrawStyle.Desc=ƒŠƒXƒg“à‚ÌƒAƒCƒRƒ“‚É“K—p‚·‚é•`‰æƒXƒ^ƒCƒ‹
  
+PRIM_LIST.Icon_Click.Name=Click ƒCƒxƒ“ƒg
+PRIM_LIST.Icon_Click.Desc=ƒRƒ“ƒgƒ[ƒ‹ã‚Åƒ}ƒEƒX‚ªƒNƒŠƒbƒN‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
 PRIM_LIST.Icon_ColumnCaptionType.Name=ColumnCaptionType ƒvƒƒpƒeƒB
 PRIM_LIST.Icon_ColumnCaptionType.Desc=—ñŒ©o‚µ‚É•\¦‚·‚éƒLƒƒƒvƒVƒ‡ƒ“‚Ìƒ^ƒCƒv
  
 PRIM_LIST.Icon_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
 PRIM_LIST.Icon_CurrentItem.Desc=Œ»İ‚ÌƒŠƒXƒg ƒAƒCƒeƒ€‚ÌƒAƒCƒRƒ“‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_LIST.Icon_DoubleClick.Name=DoubleClick ƒCƒxƒ“ƒg
+PRIM_LIST.Icon_DoubleClick.Desc=ƒ†[ƒU[‚ªƒŠƒXƒg“à‚ÌƒAƒCƒeƒ€‚ğƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚½‚É‹N“®‚³‚ê‚Ü‚·
  
 PRIM_LIST.Icon_FocusItem.Name=FocusItem ƒvƒƒpƒeƒB
 PRIM_LIST.Icon_FocusItem.Desc=Œ»İ‚ÌƒŠƒXƒg ƒAƒCƒeƒ€‚ÌƒAƒCƒRƒ“‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
@@ -12079,11 +13381,17 @@ PRIM_LIST.Label_CaptionMarginTop.Desc=ã‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
 PRIM_LIST.Label_CellThemeDrawStyle.Name=CellThemeDrawStyle ƒvƒƒpƒeƒB
 PRIM_LIST.Label_CellThemeDrawStyle.Desc=ƒŠƒXƒg‚ÌƒZƒ‹‚É—˜—p‚·‚é•`‰æƒXƒ^ƒCƒ‹
  
+PRIM_LIST.Label_Click.Name=Click ƒCƒxƒ“ƒg
+PRIM_LIST.Label_Click.Desc=ƒRƒ“ƒgƒ[ƒ‹ã‚Åƒ}ƒEƒX‚ªƒNƒŠƒbƒN‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
 PRIM_LIST.Label_ColumnCaptionType.Name=ColumnCaptionType ƒvƒƒpƒeƒB
 PRIM_LIST.Label_ColumnCaptionType.Desc=—ñŒ©o‚µ‚É•\¦‚·‚éƒLƒƒƒvƒVƒ‡ƒ“‚Ìƒ^ƒCƒv
  
 PRIM_LIST.Label_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
 PRIM_LIST.Label_CurrentItem.Desc=ƒŠƒXƒgŠÖ˜AƒRƒ}ƒ“ƒhŒo—RA‚Ü‚½‚Í UI ‚Åƒ^ƒbƒ`‚³‚ê‚½ƒŠƒXƒg“à‚ÌÅŒã‚ÌƒAƒCƒeƒ€
+ 
+PRIM_LIST.Label_DoubleClick.Name=DoubleClick ƒCƒxƒ“ƒg
+PRIM_LIST.Label_DoubleClick.Desc=ƒŠƒXƒg“à‚ÌƒAƒCƒeƒ€‚Åƒ†[ƒU[‚ªƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚½‚É‹N“®‚³‚ê‚Ü‚·
  
 PRIM_LIST.Label_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
 PRIM_LIST.Label_Ellipses.Desc=ƒeƒLƒXƒgØ‚èÌ‚Ä‚ÉÈ—ª‹L†‚ğ•\¦‚·‚é‚©‚Ç‚¤‚©w’è‚µ‚Ü‚·
@@ -12123,7 +13431,7 @@ PRIM_LIST.Label_IconMarginRight.Desc=‰E‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
  
 PRIM_LIST.Label_IconMarginTop.Name=IconMarginTop ƒvƒƒpƒeƒB
 PRIM_LIST.Label_IconMarginTop.Desc=ã‚Ìƒ}[ƒWƒ“ (ƒsƒNƒZƒ‹)
-
+ 
 PRIM_LIST.Label_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_LIST.Label_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
  
@@ -12144,6 +13452,18 @@ PRIM_LIST.Label_PaddingRight.Desc=‰E‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
  
 PRIM_LIST.Label_PaddingTop.Name=PaddingTop ƒvƒƒpƒeƒB
 PRIM_LIST.Label_PaddingTop.Desc=ã‚ÌƒpƒfƒBƒ“ƒO (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.Label_PrompterImage.Name=PrompterImage ƒvƒƒpƒeƒB
+PRIM_LIST.Label_PrompterImage.Desc=ƒfƒtƒHƒ‹ƒg‚Ìƒtƒ@ƒCƒ‹ ƒvƒƒ“ƒvƒ^[ ƒCƒ[ƒW‚ğã‘‚«‚·‚é‚½‚ß‚Ég—p‚·‚éƒCƒ[ƒW
+ 
+PRIM_LIST.Label_Prompting.Name=Prompting ƒCƒxƒ“ƒg
+PRIM_LIST.Label_Prompting.Desc=ƒvƒƒ“ƒvƒg ƒAƒCƒRƒ“‚ª‰Ÿ‰º‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
+PRIM_LIST.Label_Prompting.Items.Name=Items ƒpƒ‰ƒ[ƒ^
+PRIM_LIST.Label_Prompting.Items.Desc=ƒCƒxƒ“ƒg‚ªÅ‰‚É‹N“®‚³‚ê‚½ƒRƒ“ƒgƒ[ƒ‹‚Ö‚ÌQÆ
+ 
+PRIM_LIST.Label_ShowPrompter.Name=ShowPrompter ƒvƒƒpƒeƒB
+PRIM_LIST.Label_ShowPrompter.Desc=ƒvƒƒ“ƒvƒ^[‚Ì•\¦‚Ü‚½‚Í”ñ•\¦
  
 PRIM_LIST.Label_SortOnClick.Name=SortOnClick ƒvƒƒpƒeƒB
 PRIM_LIST.Label_SortOnClick.Desc=—ñŒ©o‚µ‚ªƒNƒŠƒbƒN‚³‚ê‚é‚Æ—ñ‚ğ•À‚Ñ‘Ö‚¦‚Ü‚·
@@ -12171,6 +13491,9 @@ PRIM_LIST.LabelCurrentItem_CaptionMarginRight.Desc=‰E‚Ì—]”’ (ƒsƒNƒZƒ‹)
  
 PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Name=CaptionMarginTop ƒvƒƒpƒeƒB
 PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Desc=ã‚Ì—]”’ (ƒsƒNƒZƒ‹)
+ 
+PRIM_LIST.LabelCurrentItem_Dropdown.Name=Dropdown ƒvƒƒpƒeƒB
+PRIM_LIST.LabelCurrentItem_Dropdown.Desc=ƒe[ƒuƒ‹Œ`®‚Ìƒhƒƒbƒvƒ_ƒEƒ“ ƒŠƒXƒg ƒf[ƒ^
  
 PRIM_LIST.LabelCurrentItem_Ellipses.Name=Ellipses ƒvƒƒpƒeƒB
 PRIM_LIST.LabelCurrentItem_Ellipses.Desc=ƒeƒLƒXƒg‚ªØ‚è‹l‚ß‚ç‚ê‚½Û‚ÉÈ—ª‹L†‚ğ•\¦‚µ‚Ü‚·B
@@ -12502,6 +13825,12 @@ PRIM_LIST.Number_PrompterActivate.Continue.Desc=FALSE ‚Éİ’è‚µ‚ÄAƒvƒƒ“ƒvƒ^[‚ª
 PRIM_LIST.Number_PrompterImage.Name=PrompterImage ƒvƒƒpƒeƒB
 PRIM_LIST.Number_PrompterImage.Desc=È—ª’l‚Ìƒtƒ@ƒCƒ‹ ƒvƒƒ“ƒ^[ ƒCƒ[ƒW‚ÌƒI[ƒo[ƒ‰ƒCƒh‚Ég—p‚·‚éƒCƒ[ƒW
  
+PRIM_LIST.Number_Prompting.Name=Prompting ƒCƒxƒ“ƒg
+PRIM_LIST.Number_Prompting.Desc=ƒvƒƒ“ƒvƒg ƒAƒCƒRƒ“‚ª‰Ÿ‰º‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
+PRIM_LIST.Number_Prompting.Items.Name=Items ƒpƒ‰ƒ[ƒ^
+PRIM_LIST.Number_Prompting.Items.Desc=ƒCƒxƒ“ƒg‚ªÅ‰‚É‹N“®‚³‚ê‚½ƒRƒ“ƒgƒ[ƒ‹‚Ö‚ÌQÆ
+ 
 PRIM_LIST.Number_ShowPrompter.Name=ShowPrompter ƒvƒƒpƒeƒB
 PRIM_LIST.Number_ShowPrompter.Desc=ƒtƒ@ƒCƒ‹ ƒvƒƒ“ƒ^[ ƒCƒ[ƒW‚Ì•\¦‚Ü‚½‚Í”ñ•\¦
  
@@ -12522,6 +13851,9 @@ PRIM_LIST.NumberCurrentItem_AutoSelect.Desc=ƒeƒLƒXƒg‚ğ©“®“I‚É‘I‘ğ‚·‚é‚½‚ß‚Ìƒvƒ
  
 PRIM_LIST.NumberCurrentItem_DisplayAlignment.Name=DisplayAlignment ƒvƒƒpƒeƒB
 PRIM_LIST.NumberCurrentItem_DisplayAlignment.Desc=ƒtƒH[ƒJƒX‚ª‚È‚¢‚É•¶š‚Ì•\¦ˆÊ’u‚ğİ’è‚·‚é‚½‚ß‚ÌƒvƒƒpƒeƒB‚Å‚·B
+ 
+PRIM_LIST.NumberCurrentItem_Dropdown.Name=Dropdown ƒvƒƒpƒeƒB
+PRIM_LIST.NumberCurrentItem_Dropdown.Desc=ƒe[ƒuƒ‹Œ`®‚Ìƒhƒƒbƒvƒ_ƒEƒ“ ƒŠƒXƒg ƒf[ƒ^
  
 PRIM_LIST.NumberCurrentItem_EditAlignment.Name=EditAlignment ƒvƒƒpƒeƒB
 PRIM_LIST.NumberCurrentItem_EditAlignment.Desc=ƒtƒH[ƒJƒX‚ª‚ ‚é‚É•¶š‚Ì•\¦ˆÊ’u‚ğİ’è‚·‚é‚½‚ß‚ÌƒvƒƒpƒeƒB‚Å‚·B
@@ -12976,6 +14308,12 @@ PRIM_LIST.String_PrompterActivate.Continue.Desc=FALSE ‚Éİ’è‚µ‚ÄAƒvƒƒ“ƒvƒ^[‚ª
 PRIM_LIST.String_PrompterImage.Name=PrompterImage ƒvƒƒpƒeƒB
 PRIM_LIST.String_PrompterImage.Desc=È—ª’l‚Ìƒtƒ@ƒCƒ‹ ƒvƒƒ“ƒ^[ ƒCƒ[ƒW‚ÌƒI[ƒo[ƒ‰ƒCƒh‚Ég—p‚·‚éƒCƒ[ƒW
  
+PRIM_LIST.String_Prompting.Name=Prompting ƒCƒxƒ“ƒg
+PRIM_LIST.String_Prompting.Desc=ƒvƒƒ“ƒvƒg ƒAƒCƒRƒ“‚ª‰Ÿ‰º‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
+ 
+PRIM_LIST.String_Prompting.Items.Name=Items ƒpƒ‰ƒ[ƒ^
+PRIM_LIST.String_Prompting.Items.Desc=ƒCƒxƒ“ƒg‚ªÅ‰‚É‹N“®‚³‚ê‚½ƒRƒ“ƒgƒ[ƒ‹‚Ö‚ÌQÆ
+ 
 PRIM_LIST.String_ShowPrompter.Name=ShowPrompter ƒvƒƒpƒeƒB
 PRIM_LIST.String_ShowPrompter.Desc=ƒtƒ@ƒCƒ‹ ƒvƒƒ“ƒ^[ ƒCƒ[ƒW‚Ì•\¦‚Ü‚½‚Í”ñ•\¦
  
@@ -12999,6 +14337,9 @@ PRIM_LIST.StringCurrentItem_CharacterCase.Desc=•¶š‚ğ‘å•¶š‚©¬•¶š‚©—¼•û‚ğ“ü—Í‰
  
 PRIM_LIST.StringCurrentItem_DisplayAlignment.Name=DisplayAlignment ƒvƒƒpƒeƒB
 PRIM_LIST.StringCurrentItem_DisplayAlignment.Desc=ƒtƒH[ƒJƒX‚ª‚È‚¢‚É•¶š‚Ì•\¦ˆÊ’u‚ğİ’è‚·‚é‚½‚ß‚ÌƒvƒƒpƒeƒB‚Å‚·B
+ 
+PRIM_LIST.StringCurrentItem_Dropdown.Name=Dropdown ƒvƒƒpƒeƒB
+PRIM_LIST.StringCurrentItem_Dropdown.Desc=ƒe[ƒuƒ‹Œ`®‚Ìƒhƒƒbƒvƒ_ƒEƒ“ ƒŠƒXƒg ƒf[ƒ^
  
 PRIM_LIST.StringCurrentItem_EditAlignment.Name=EditAlignment ƒvƒƒpƒeƒB
 PRIM_LIST.StringCurrentItem_EditAlignment.Desc=ƒtƒH[ƒJƒX‚ª‚ ‚é‚É•¶š‚Ì•\¦ˆÊ’u‚ğİ’è‚·‚é‚½‚ß‚ÌƒvƒƒpƒeƒB‚Å‚·B
@@ -14254,6 +15595,9 @@ PRIM_MD.DateTime.Desc=“ú•t‚ÆŠÔ‚Ì“ü—Í‚â•\¦‚Ég—p‚·‚é“ü—ÍƒtƒB[ƒ‹ƒh
 PRIM_MD.DateTime_Changed.Name=Changed ƒCƒxƒ“ƒg
 PRIM_MD.DateTime_Changed.Desc=’l‚ª•ÏX‚³‚ê‚é‚Æ‹N“®‚µ‚Ü‚·
  
+PRIM_MD.DateTime_CustomDateFormat.Name=CustomDateFormat ƒvƒƒpƒeƒB
+PRIM_MD.DateTime_CustomDateFormat.Desc=ƒJƒXƒ^ƒ€Œ`®‚Å“ú•t‚ğ•\¦
+ 
 PRIM_MD.DateTime_DateFormat.Name=DateFormat ƒvƒƒpƒeƒB
 PRIM_MD.DateTime_DateFormat.Desc=“ú•t‚ÌŒ`®
  
@@ -14902,6 +16246,21 @@ PRIM_MD.ExpanderPanel_LayoutManager.Desc=ƒGƒLƒXƒpƒ“ƒ_[ ƒpƒlƒ‹‚ÌƒŒƒCƒAƒEƒg ƒ}ƒl
 PRIM_MD.ExpanderPanel_WordWrap.Name=WordWrap ƒvƒƒpƒeƒB
 PRIM_MD.ExpanderPanel_WordWrap.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌÜ•Ô‚µ‚ğ‚·‚é‚©‚Ç‚¤‚©w’è‚µ‚Ü‚·
  
+PRIM_MD.FilePicker.Name=PRIM_MD.FilePicker
+PRIM_MD.FilePicker.Desc=ƒtƒ@ƒCƒ‹‘I‘ğ‚Ì‚½‚ß‚É Explorer ‚ğ•\¦
+ 
+PRIM_MD.FilePicker_FileSelected.Name=FileSelected ƒCƒxƒ“ƒg
+PRIM_MD.FilePicker_FileSelected.Desc=ƒtƒ@ƒCƒ‹‘I‘ğ‚É‹N“®‚³‚ê‚Ü‚·
+ 
+PRIM_MD.FilePicker_FileSelected.File.Name=File ƒpƒ‰ƒ[ƒ^
+PRIM_MD.FilePicker_FileSelected.File.Desc=‘I‘ğ‚³‚ê‚½ƒtƒ@ƒCƒ‹ ƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_MD.FilePicker_FileSelected.Files.Name=Files ƒpƒ‰ƒ[ƒ^
+PRIM_MD.FilePicker_FileSelected.Files.Desc=‘I‘ğ‚³‚ê‚½ƒtƒ@ƒCƒ‹‚ÌƒRƒŒƒNƒVƒ‡ƒ“
+ 
+PRIM_MD.FilePicker_MultiSelect.Name=MultiSelect ƒvƒƒpƒeƒB
+PRIM_MD.FilePicker_MultiSelect.Desc=•¡”‚Ìƒtƒ@ƒCƒ‹‘I‘ğ‚ğ‹–‰Â
+ 
 PRIM_MD.FlatButton.Name=ƒtƒ‰ƒbƒg ƒ{ƒ^ƒ“
 PRIM_MD.FlatButton.Desc=ŠÈ’P‚Èƒtƒ‰ƒbƒg ƒRƒ“ƒgƒ[ƒ‹‚Æ‚µ‚Ä•\¦‚³‚ê‚éƒ{ƒ^ƒ“
  
@@ -15129,6 +16488,9 @@ PRIM_MD.Input_IconImageSizing.Desc=IconImage ‚ÌƒTƒCƒY’²®‚Ì“®ì‚ğw’è‚µ‚Ü‚·
  
 PRIM_MD.Input_IconOpacity.Name=IconOpacity ƒvƒƒpƒeƒB
 PRIM_MD.Input_IconOpacity.Desc=ƒAƒCƒRƒ“‚Ì•s“§–¾“x (ƒp[ƒZƒ“ƒg)
+ 
+PRIM_MD.Input_IconThemeDrawStyle.Name=IconThemeDrawStyle ƒvƒƒpƒeƒB
+PRIM_MD.Input_IconThemeDrawStyle.Desc=ƒAƒCƒRƒ“‚Ìƒe[ƒ}•`‰æƒXƒ^ƒCƒ‹
  
 PRIM_MD.Input_Placeholder.Name=Placeholder ƒvƒƒpƒeƒB
 PRIM_MD.Input_Placeholder.Desc=•ÒW—Ìˆæ‚É’l‚ª‚È‚¢‚É•\¦‚·‚éƒeƒLƒXƒg
@@ -15388,6 +16750,15 @@ PRIM_MD.List_VerticalScrollPos.Desc=…•½•ûŒü‚ÌƒXƒNƒ[ƒ‹ƒo[‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·B
 PRIM_MD.List_VerticalScrollRemainder.Name=VerticalScrollRemainder ƒvƒƒpƒeƒB
 PRIM_MD.List_VerticalScrollRemainder.Desc=Œ»İ‚ÌƒXƒNƒ[ƒ‹ˆÊ’u‚©‚ç‰º‚Ü‚Å‚Ìc‚è‚ğƒsƒNƒZƒ‹’PˆÊ‚Åw’è‚µ‚Ü‚·
  
+PRIM_MD.List_VerticalScrollTo.Name=VerticalScrollTo ƒƒ\ƒbƒh
+PRIM_MD.List_VerticalScrollTo.Desc=ƒRƒ“ƒeƒi‚ğƒXƒNƒ[ƒ‹‚µ‚ÄƒRƒ“ƒgƒ[ƒ‹‚ğƒrƒ…[“à‚ÉˆÚ“®‚µ‚Ü‚·
+ 
+PRIM_MD.List_VerticalScrollTo.Item.Name=Item ƒpƒ‰ƒ[ƒ^
+PRIM_MD.List_VerticalScrollTo.Item.Desc=ƒXƒNƒ[ƒ‹æ‚ÌƒAƒCƒeƒ€‚ğİ’è‚µ‚Ü‚·
+ 
+PRIM_MD.List_VerticalScrollTo.ScrollPosition.Name=ScrollPosition ƒpƒ‰ƒ[ƒ^
+PRIM_MD.List_VerticalScrollTo.ScrollPosition.Desc=‚’¼ƒXƒNƒ[ƒ‹ ƒo[‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·
+ 
 PRIM_MD.ListBadge.Name=ƒŠƒXƒg ƒoƒbƒW ƒRƒ“ƒgƒ[ƒ‹
 PRIM_MD.ListBadge.Desc=ƒŠƒXƒg‚ÌŠeƒGƒ“ƒgƒŠ[–ˆ‚ÉŒJ‚è•Ô‚³‚ê‚éƒoƒbƒW
  
@@ -15619,11 +16990,17 @@ PRIM_MD.ListDateTimeCurrentItem_Appearance.Desc=ƒtƒB[ƒ‹ƒh (PRIM_MD.Input) ‚©‚çŒ
 PRIM_MD.ListDateTimeCurrentItem_Caption.Name=Caption ƒvƒƒpƒeƒB
 PRIM_MD.ListDateTimeCurrentItem_Caption.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚É•\¦‚·‚éƒeƒLƒXƒg
  
+PRIM_MD.ListDateTimeCurrentItem_CaptionColor.Name=CaptionColor ƒvƒƒpƒeƒB
+PRIM_MD.ListDateTimeCurrentItem_CaptionColor.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌF
+ 
 PRIM_MD.ListDateTimeCurrentItem_CaptionPosition.Name=CaptionPosition ƒvƒƒpƒeƒB
 PRIM_MD.ListDateTimeCurrentItem_CaptionPosition.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·
  
 PRIM_MD.ListDateTimeCurrentItem_DateFormat.Name=DateFormat ƒvƒƒpƒeƒB
 PRIM_MD.ListDateTimeCurrentItem_DateFormat.Desc=“ú•t‚ÌŒ`®
+ 
+PRIM_MD.ListDateTimeCurrentItem_HelperColor.Name=HelperColor ƒvƒƒpƒeƒB
+PRIM_MD.ListDateTimeCurrentItem_HelperColor.Desc=ƒwƒ‹ƒp[ ƒeƒLƒXƒg‚ÌF
  
 PRIM_MD.ListDateTimeCurrentItem_HelperPosition.Name=HelperPosition ƒvƒƒpƒeƒB
 PRIM_MD.ListDateTimeCurrentItem_HelperPosition.Desc=ƒwƒ‹ƒp[ ƒeƒLƒXƒg‚ª•\¦‚³‚ê‚éˆÊ’u
@@ -15709,6 +17086,9 @@ PRIM_MD.ListEditCurrentItem_Appearance.Desc=ƒtƒB[ƒ‹ƒh (PRIM_MD.Input) ‚©‚çŒp³‚
 PRIM_MD.ListEditCurrentItem_Caption.Name=Caption ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_Caption.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚É•\¦‚·‚éƒeƒLƒXƒg
  
+PRIM_MD.ListEditCurrentItem_CaptionColor.Name=CaptionColor ƒvƒƒpƒeƒB
+PRIM_MD.ListEditCurrentItem_CaptionColor.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌF
+ 
 PRIM_MD.ListEditCurrentItem_CaptionPosition.Name=CaptionPosition ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_CaptionPosition.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·
  
@@ -15720,6 +17100,9 @@ PRIM_MD.ListEditCurrentItem_EditAlignment.Desc=ƒtƒH[ƒJƒX‚ª‚ ‚é‚ÌƒeƒLƒXƒg‚Ì”z’
  
 PRIM_MD.ListEditCurrentItem_HasSelection.Name=HasSelection ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_HasSelection.Desc=•ÒW‰Â”\‚ÈƒeƒLƒXƒg‚ª‘I‘ğ‚³‚ê‚Ä‚¢‚éê‡ TRUE
+ 
+PRIM_MD.ListEditCurrentItem_HelperColor.Name=HelperColor ƒvƒƒpƒeƒB
+PRIM_MD.ListEditCurrentItem_HelperColor.Desc=ƒwƒ‹ƒp[ ƒeƒLƒXƒg‚ÌF
  
 PRIM_MD.ListEditCurrentItem_HelperPosition.Name=HelperPosition ƒvƒƒpƒeƒB
 PRIM_MD.ListEditCurrentItem_HelperPosition.Desc=ƒwƒ‹ƒp[ ƒeƒLƒXƒg‚ª•\¦‚³‚ê‚éˆÊ’u
@@ -15980,7 +17363,7 @@ PRIM_MD.ListIconCurrentItem_PaddingTop.Name=PaddingTop ƒvƒƒpƒeƒB
 PRIM_MD.ListIconCurrentItem_PaddingTop.Desc=ã‚ÌƒpƒfƒBƒ“ƒO
  
 PRIM_MD.ListImage.Name=PRIM_MD.ListImage
-PRIM_MD.ListImage.Desc=prim_md.list ‚Åg—p‚·‚éƒCƒ[ƒW—ñ 
+PRIM_MD.ListImage.Desc=prim_md.list ‚Åg—p‚·‚éƒCƒ[ƒW—ñ
  
 PRIM_MD.ListImage_CurrentItem.Name=CurrentItem ƒvƒƒpƒeƒB
 PRIM_MD.ListImage_CurrentItem.Desc=Œ»İ‚ÌƒŠƒXƒgƒAƒCƒeƒ€“à‚Ì prim_md.listImage ‚Ö‚ÌQÆ
@@ -16336,11 +17719,17 @@ PRIM_MD.ListSpinEditCurrentItem_Appearance.Desc=ƒtƒB[ƒ‹ƒh (PRIM_MD.Input) ‚©‚çŒ
 PRIM_MD.ListSpinEditCurrentItem_Caption.Name=Caption ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_Caption.Desc=ƒRƒ“ƒgƒ[ƒ‹“à‚É•\¦‚·‚éƒeƒLƒXƒg
  
+PRIM_MD.ListSpinEditCurrentItem_CaptionColor.Name=CaptionColor ƒvƒƒpƒeƒB
+PRIM_MD.ListSpinEditCurrentItem_CaptionColor.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌF
+ 
 PRIM_MD.ListSpinEditCurrentItem_CaptionPosition.Name=CaptionPosition ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_CaptionPosition.Desc=ƒLƒƒƒvƒVƒ‡ƒ“‚ÌˆÊ’u‚ğİ’è‚µ‚Ü‚·
  
 PRIM_MD.ListSpinEditCurrentItem_HasSelection.Name=HasSelection ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_HasSelection.Desc=•ÒW‰Â”\‚ÈƒeƒLƒXƒg‚Ìˆê•”‚ª‘I‘ğ‚³‚ê‚Ä‚¢‚éê‡ TRUE
+ 
+PRIM_MD.ListSpinEditCurrentItem_HelperColor.Name=HelperColor ƒvƒƒpƒeƒB
+PRIM_MD.ListSpinEditCurrentItem_HelperColor.Desc=ƒwƒ‹ƒp[ ƒeƒLƒXƒg‚ÌF
  
 PRIM_MD.ListSpinEditCurrentItem_HelperPosition.Name=HelperPosition ƒvƒƒpƒeƒB
 PRIM_MD.ListSpinEditCurrentItem_HelperPosition.Desc=ƒwƒ‹ƒp[ ƒeƒLƒXƒg‚ª•\¦‚³‚ê‚éˆÊ’u
@@ -16538,7 +17927,7 @@ PRIM_MD.ProgressBar.Name=PRIM_MD.ProgressBar
 PRIM_MD.ProgressBar.Desc=ƒ}ƒeƒŠƒAƒ‹ƒfƒUƒCƒ“‚Ìisó‹µƒo[ ƒRƒ“ƒgƒ[ƒ‹
  
 PRIM_MD.ProgressBar_BufferValue.Name=BufferValue ƒvƒƒpƒeƒB
-PRIM_MD.ProgressBar_BufferValue.Desc=ƒoƒbƒtƒ@[‚Ìisó‹µ‚ğ•\¦‚·‚é 0 ‚Æ 100 ‚ÌŠÔ‚Ìisó‹µƒo[‚Ì’l 
+PRIM_MD.ProgressBar_BufferValue.Desc=ƒoƒbƒtƒ@[‚Ìisó‹µ‚ğ•\¦‚·‚é 0 ‚Æ 100 ‚ÌŠÔ‚Ìisó‹µƒo[‚Ì’l
  
 PRIM_MD.ProgressBar_Mode.Name=Mode ƒvƒƒpƒeƒB
 PRIM_MD.ProgressBar_Mode.Desc=isó‹µƒo[‚Ì•\¦•û–@‚ğŒˆ’è‚µ‚Ü‚·
@@ -18448,6 +19837,285 @@ PRIM_RDOM_ReferenceType.Desc=ƒhƒƒCƒ“‚Ìí—Ş‚Ö‚ÌQÆ
 PRIM_RDOM_ValueKind.Name=ValueKind ƒvƒƒpƒeƒB
 PRIM_RDOM_ValueKind.Desc=ƒhƒƒCƒ“‚Ìí—Ş‚Ì’l
  
+PRIM_REGX.Capture.Name=PRIM_REGX.Capture
+PRIM_REGX.Capture.Desc=’Pˆê‚Ì•”•ª®‚ÌƒLƒƒƒvƒ`ƒƒ‚ª³‚µ‚­s‚í‚ê‚½Û‚ÌŒ‹‰Ê‚ğ¦‚µ‚Ü‚·
+ 
+PRIM_REGX.Capture_Index.Name=Index ƒvƒƒpƒeƒB
+PRIM_REGX.Capture_Index.Desc=Œ³‚Æ‚È‚é•¶š—ñ“à‚ÌƒLƒƒƒvƒ`ƒƒ‚µ‚½•”•ª•¶š—ñ‚ÌÅ‰‚Ì•¶š‚ªŒŸ’m‚³‚ê‚½êŠ
+ 
+PRIM_REGX.Capture_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_REGX.Capture_Value.Desc=“ü—Í•¶š—ñ‚©‚çƒLƒƒƒvƒ`ƒƒ‚µ‚½•”•ª•¶š—ñ‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_REGX.CaptureCollection.Name=PRIM_REGX.CaptureCollection
+PRIM_REGX.CaptureCollection.Desc=1 ‚Â‚Ì‚ÌƒLƒƒƒvƒ`ƒƒ ƒOƒ‹[ƒv‚É‚æ‚èì¬‚³‚ê‚½ƒLƒƒƒvƒ`ƒƒˆê®‚ğ•\‚µ‚Ü‚·
+ 
+PRIM_REGX.CaptureCollection_CreateIterator.Name=CreateIterator ƒƒ\ƒbƒh
+PRIM_REGX.CaptureCollection_CreateIterator.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚Ì”½•œ‚ğ‰Â”\‚É‚·‚é”½•œƒRƒ“ƒ|[ƒlƒ“ƒg‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_REGX.CaptureCollection_CreateIterator.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.CaptureCollection_CreateIterator.Result.Desc=V‹K”½•œƒCƒ“ƒXƒ^ƒ“ƒX‚Ö‚ÌQÆ
+ 
+PRIM_REGX.CaptureCollection_Item.Name=Item ƒvƒƒpƒeƒB
+PRIM_REGX.CaptureCollection_Item.Desc=ƒRƒŒƒNƒVƒ‡ƒ“‚ÌŒÂ•Êƒƒ“ƒo[‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_REGX.CaptureCollection_Item.Index.Name=Index ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.CaptureCollection_Item.Index.Desc=ƒLƒƒƒvƒ`ƒƒ ƒRƒŒƒNƒVƒ‡ƒ““à‚ÌƒCƒ“ƒfƒbƒNƒX
+ 
+PRIM_REGX.CaptureCollection_ItemCount.Name=ItemCount ƒvƒƒpƒeƒB
+PRIM_REGX.CaptureCollection_ItemCount.Desc=ƒOƒ‹[ƒv‚É‚æ‚èƒLƒƒƒvƒ`ƒƒ‚³‚ê‚½•”•ª•¶š—ñ‚Ì”‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_REGX.Group.Name=PRIM_REGX.Group
+PRIM_REGX.Group.Desc=1 ‚Â‚Ì‚ÌƒLƒƒƒvƒ`ƒƒ ƒOƒ‹[ƒv‚©‚ç‚ÌŒ‹‰Ê‚ğ•\‚µ‚Ü‚·
+ 
+PRIM_REGX.Group_Index.Name=Index ƒvƒƒpƒeƒB
+PRIM_REGX.Group_Index.Desc=Œ³‚Æ‚È‚é•¶š—ñ“à‚ÌƒLƒƒƒvƒ`ƒƒ‚µ‚½•”•ª•¶š—ñ‚ÌÅ‰‚Ì•¶š‚ªŒŸ’m‚³‚ê‚½êŠ
+ 
+PRIM_REGX.Group_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_REGX.Group_Value.Desc=“ü—Í•¶š—ñ‚©‚çƒLƒƒƒvƒ`ƒƒ‚µ‚½•”•ª•¶š—ñ‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_REGX.GroupCollection.Name=PRIM_REGX.GroupCollection
+PRIM_REGX.GroupCollection.Desc=ˆê’v€–Ú‚ª 1 ‚Â‚ÌƒLƒƒƒvƒ`ƒƒ ƒOƒ‹[ƒvˆê®‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_REGX.GroupCollection_CreateIterator.Name=CreateIterator ƒƒ\ƒbƒh
+PRIM_REGX.GroupCollection_CreateIterator.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚Ì”½•œ‚ğ‰Â”\‚É‚·‚é”½•œƒRƒ“ƒ|[ƒlƒ“ƒg‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_REGX.GroupCollection_CreateIterator.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.GroupCollection_CreateIterator.Result.Desc=V‹K”½•œƒCƒ“ƒXƒ^ƒ“ƒX‚Ö‚ÌQÆ
+ 
+PRIM_REGX.GroupCollection_Item.Name=Item ƒvƒƒpƒeƒB
+PRIM_REGX.GroupCollection_Item.Desc=ƒRƒŒƒNƒVƒ‡ƒ“‚ÌŒÂ•Êƒƒ“ƒo[‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_REGX.GroupCollection_Item.Index.Name=Index ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.GroupCollection_Item.Index.Desc=ƒOƒ‹[ƒv ƒRƒŒƒNƒVƒ‡ƒ““à‚ÌƒCƒ“ƒfƒbƒNƒX
+ 
+PRIM_REGX.GroupCollection_ItemCount.Name=ItemCount ƒvƒƒpƒeƒB
+PRIM_REGX.GroupCollection_ItemCount.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÌƒOƒ‹[ƒv‚Ì”‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_REGX.Match.Name=PRIM_REGX.Match
+PRIM_REGX.Match.Desc=’Pˆê‚Ì³‹K•\Œ»‚Åˆê’v‚·‚éŒ‹‰Ê‚ğ¦‚µ‚Ü‚·
+ 
+PRIM_REGX.Match_Groups.Name=Groups ƒvƒƒpƒeƒB
+PRIM_REGX.Match_Groups.Desc=³‹K•\Œ»‚ªˆê’v‚µ‚½ƒOƒ‹[ƒv‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_REGX.Match_Index.Name=Index ƒvƒƒpƒeƒB
+PRIM_REGX.Match_Index.Desc=Œ³‚Æ‚È‚é•¶š—ñ“à‚ÌƒLƒƒƒvƒ`ƒƒ‚µ‚½•”•ª•¶š—ñ‚ÌÅ‰‚Ì•¶š‚ªŒŸ’m‚³‚ê‚½êŠ
+ 
+PRIM_REGX.Match_NextMatch.Name=NextMatch ƒƒ\ƒbƒh
+PRIM_REGX.Match_NextMatch.Desc=‘O‰ñ‚Ìˆê’v‚ÌI—¹ (‘O‰ñˆê’v‚µ‚½ÅŒã‚Ì•¶š‚É‘±‚­•¶š) ˆÊ’u‚©‚çŠJn‚µ‚ÄAŸ‚Ìˆê’vŒ‹‰Ê‚ÅV‹K‚Ìˆê’vƒIƒuƒWƒFƒNƒg‚ğ•Ô‚µ‚Ü‚·B
+ 
+PRIM_REGX.Match_NextMatch.Match.Name=Match ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.Match_NextMatch.Match.Desc=Ÿ‚Ì³‹K•\Œ»ˆê’v‚Ö‚ÌQÆ
+ 
+PRIM_REGX.Match_Replace.Name=Replace ƒƒ\ƒbƒh
+PRIM_REGX.Match_Replace.Desc=Œ³‚Ì“ü—Í•¶š—ñ‚É‘Î‚µA‘O‰ñ‚Ì³‹K•\Œ»‚Éˆê’v‚µ‚½•¶š—ñ‚ğw’è‚Ì’uŠ·•¶š—ñ‚É’u‚«Š·‚¦‚Ü‚·
+ 
+PRIM_REGX.Match_Replace.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.Match_Replace.Result.Desc=‘O‰ñ‚Ìˆê’v•¶š—ñ‚ğ’uŠ·•¶š—ñ‚É’u‚«Š·‚¦‚½ó‘Ô‚ÌŒ³‚Ì“ü—Í•¶š—ñ
+ 
+PRIM_REGX.Match_Replace.ReplaceString.Name=ReplaceString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.Match_Replace.ReplaceString.Desc=’uŠ·‚·‚é Unicode •¶š—ñ
+ 
+PRIM_REGX.Match_Success.Name=Success ƒvƒƒpƒeƒB
+PRIM_REGX.Match_Success.Desc=ˆê’v‚ª¬Œ÷‚µ‚½‚©‚Ç‚¤‚©¦‚·’l‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_REGX.Match_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_REGX.Match_Value.Desc=“ü—Í•¶š—ñ‚©‚çƒLƒƒƒvƒ`ƒƒ‚³‚ê‚½•”•ª•¶š—ñ‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_REGX.MatchAll.Name=PRIM_REGX.MatchAll
+PRIM_REGX.MatchAll.Desc=³‹K•\Œ»‚ÌoŒ»‚·‚×‚Ä‚É‘Î‚µŒJ‚è•Ô‚µŒŸõ‚ªo—ˆ‚é‚æ‚¤‚É‚µ‚Ü‚·
+ 
+PRIM_REGX.MatchAll_Execute.Name=Execute ƒƒ\ƒbƒh
+PRIM_REGX.MatchAll_Execute.Desc=“ü—Í•¶š—ñ‚ğŒŸõ‚µ‚ÄŒ»İ‚Ì³‹K•\Œ»‚ÌoŒ»‚·‚×‚Ä‚ğ’T‚µo‚µAˆê’v‚µ‚½‚à‚Ì‚·‚×‚Ä‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_REGX.MatchAll_Execute.Match.Name=Match ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.MatchAll_Execute.Match.Desc=ˆê’v‚É‚Â‚¢‚Ä‚Ìî•ñ‚ğŠÜ‚ŞƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX.MatchAll_Execute.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.MatchAll_Execute.InputString.Desc=ˆê’vŒŸõ‚ğs‚¤ Unicode •¶š—ñ
+ 
+PRIM_REGX.MatchAll_Matches.Name=Matches ƒvƒƒpƒeƒB
+PRIM_REGX.MatchAll_Matches.Desc=‘O‰ñ‚ÌŒŸõ‚ÅŒŸ’m‚³‚ê‚½ˆê’vƒIƒuƒWƒFƒNƒg‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆBˆê’v‚·‚é‚à‚Ì‚ª–³‚¢ê‡AƒRƒŒƒNƒVƒ‡ƒ“‚Í‹ó‚Å‚·
+ 
+PRIM_REGX.MatchAll_Pattern.Name=Pattern ƒvƒƒpƒeƒB
+PRIM_REGX.MatchAll_Pattern.Desc=ˆê’v‚³‚¹‚é³‹K•\Œ»‚Ìƒpƒ^[ƒ“
+ 
+PRIM_REGX.MatchAll_Settings.Name=Settings ƒvƒƒpƒeƒB
+PRIM_REGX.MatchAll_Settings.Desc=ˆê’vƒIƒvƒVƒ‡ƒ“‚ğ§Œä‚·‚éİ’èƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX.MatchCollection.Name=PRIM_REGX.MatchCollection
+PRIM_REGX.MatchCollection.Desc=“ü—Í•¶š—ñ‚É³‹K•\Œ»ƒpƒ^[ƒ“‚ğ”½•œ“I‚É“K—p‚³‚¹‚é‚±‚Æ‚ÅŒ©‚Â‚©‚Á‚½ˆê’v‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚ğ•\‚µ‚Ü‚·
+ 
+PRIM_REGX.MatchCollection_CreateIterator.Name=CreateIterator ƒƒ\ƒbƒh
+PRIM_REGX.MatchCollection_CreateIterator.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚Ì”½•œ‚ğ‰Â”\‚É‚·‚é”½•œƒRƒ“ƒ|[ƒlƒ“ƒg‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_REGX.MatchCollection_CreateIterator.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.MatchCollection_CreateIterator.Result.Desc=V‹K‚Ì”½•œƒCƒ“ƒXƒ^ƒ“ƒX‚Ö‚ÌQÆ
+ 
+PRIM_REGX.MatchCollection_Item.Name=Item ƒvƒƒpƒeƒB
+PRIM_REGX.MatchCollection_Item.Desc=ƒRƒŒƒNƒVƒ‡ƒ“‚ÌŒÂ•Êƒƒ“ƒo[‚ğæ“¾‚µ‚Ü‚·
+ 
+PRIM_REGX.MatchCollection_Item.Index.Name=Index ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.MatchCollection_Item.Index.Desc=ˆê’vƒRƒŒƒNƒVƒ‡ƒ““à‚ÌƒCƒ“ƒfƒbƒNƒX
+ 
+PRIM_REGX.MatchCollection_ItemCount.Name=ItemCount ƒvƒƒpƒeƒB
+PRIM_REGX.MatchCollection_ItemCount.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚Åˆê’v‚µ‚½”‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_REGX.MatchOne.Name=PRIM_REGX.MatchOne
+PRIM_REGX.MatchOne.Desc=³‹K•\Œ»‚Ì 1 “x‚ÌoŒ»‚É‘Î‚µAŒŸõ‚ğŒJ‚è•Ô‚¹‚é‚æ‚¤‚É‚µ‚Ü‚·
+ 
+PRIM_REGX.MatchOne_Execute.Name=Execute ƒƒ\ƒbƒh
+PRIM_REGX.MatchOne_Execute.Desc=w’è‚Ì•¶š—ñ‚ÉŒŸõ‚ğÀs‚µAŒ»İ‚Ì³‹K•\Œ»‚ÌÅ‰‚ÌoŒ»‚ğ’T‚µo‚µAˆê’vƒIƒuƒWƒFƒNƒg‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_REGX.MatchOne_Execute.Match.Name=Match ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.MatchOne_Execute.Match.Desc=ˆê’v‚É‚Â‚¢‚Ä‚Ìî•ñ‚ğŠÜ‚ŞƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX.MatchOne_Execute.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.MatchOne_Execute.InputString.Desc=ˆê’vŒŸõ‚ğs‚¤ Unicode •¶š—ñ
+ 
+PRIM_REGX.MatchOne_Match.Name=Match ƒvƒƒpƒeƒB
+PRIM_REGX.MatchOne_Match.Desc=ÅŒã‚Ìˆê’v‚É‚Â‚¢‚Ä‚Ìî•ñ‚ğŠÜ‚ŞƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX.MatchOne_Pattern.Name=Pattern ƒvƒƒpƒeƒB
+PRIM_REGX.MatchOne_Pattern.Desc=ˆê’v‚³‚¹‚é³‹K•\Œ»‚Ìƒpƒ^[ƒ“
+ 
+PRIM_REGX.MatchOne_Settings.Name=Settings ƒvƒƒpƒeƒB
+PRIM_REGX.MatchOne_Settings.Desc=ˆê’vƒIƒvƒVƒ‡ƒ“‚ğ§Œä‚·‚éİ’èƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX.Name=³‹K•\Œ»
+PRIM_REGX.Desc=LANSA ‚Ì³‹K•\Œ»ƒGƒ“ƒWƒ“‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_REGX_IsMatch.Name=IsMatch ƒƒ\ƒbƒh
+PRIM_REGX_IsMatch.Desc=“ü—Í•¶š—ñ‚É³‹K•\Œ»‚Ìˆê’v‚ªŒ©‚Â‚©‚Á‚½‚©‚Ç‚¤‚©‚ğ¦‚µ‚Ü‚·
+ 
+PRIM_REGX_IsMatch.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_IsMatch.Result.Desc=³‹K•\Œ»‚Ìˆê’v‚ªŒ©‚Â‚©‚Á‚½ê‡ TRUE ‚»‚Ì‘¼‚Í FALSE
+ 
+PRIM_REGX_IsMatch.Pattern.Name=Pattern ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_IsMatch.Pattern.Desc=ˆê’v‚³‚¹‚é³‹K•\Œ»‚Ìƒpƒ^[ƒ“
+ 
+PRIM_REGX_IsMatch.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_IsMatch.InputString.Desc=ˆê’vŒŸõ‚ğs‚¤ Unicode •¶š—ñ
+ 
+PRIM_REGX_Match.Name=Match ƒƒ\ƒbƒh
+PRIM_REGX_Match.Desc=“ü—Í•¶š—ñ‚Å³‹K•\Œ»‚Ìƒpƒ^[ƒ“‚Éˆê’v‚·‚é•”•ª•¶š—ñ‚ğ’T‚µAÅ‰‚ÉŒ©‚Â‚©‚Á‚½‚à‚Ì‚ğ 1 ‚Â‚Ìˆê’vƒIƒuƒWƒFƒNƒg‚Æ‚µ‚Ä•Ô‚µ‚Ü‚·
+ 
+PRIM_REGX_Match.Match.Name=Match ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Match.Match.Desc=ˆê’v‚É‚Â‚¢‚Ä‚Ìî•ñ‚ğŠÜ‚ŞƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX_Match.Pattern.Name=Pattern ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Match.Pattern.Desc=ˆê’v‚³‚¹‚é³‹K•\Œ»‚Ìƒpƒ^[ƒ“
+ 
+PRIM_REGX_Match.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Match.InputString.Desc=ˆê’vŒŸõ‚ğs‚¤ Unicode •¶š—ñ
+ 
+PRIM_REGX_Matches.Name=Matches ƒƒ\ƒbƒh
+PRIM_REGX_Matches.Desc=“ü—Í•¶š—ñ‚ğŒŸõ‚µ‚Ä³‹K•\Œ»‚ÌoŒ»‚·‚×‚Ä‚ğ’T‚µo‚µAˆê’v‚µ‚½‚à‚Ì‚·‚×‚Ä‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_REGX_Matches.Matches.Name=Matches ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Matches.Matches.Desc=“ü—Í•¶š—ñ‚ğŒŸõ‚µ‚Ä³‹K•\Œ»‚ÌoŒ»‚·‚×‚Ä‚ğ’T‚µo‚µAˆê’v‚µ‚½‚à‚Ì‚·‚×‚Ä‚ğ•Ô‚µ‚Ü‚·
+ 
+PRIM_REGX_Matches.Pattern.Name=Pattern ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Matches.Pattern.Desc=ˆê’v‚³‚¹‚é³‹K•\Œ»‚Ìƒpƒ^[ƒ“
+ 
+PRIM_REGX_Matches.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Matches.InputString.Desc=ˆê’vŒŸõ‚ğs‚¤ Unicode •¶š—ñ
+ 
+PRIM_REGX_Replace.Name=Replace ƒƒ\ƒbƒh
+PRIM_REGX_Replace.Desc=w’è‚Ì³‹K•\Œ»‚Éˆê’v‚·‚é‚·‚×‚Ä‚Ì•¶š—ñ‚ğw’è‚Ì’uŠ·•¶š—ñ‚É’u‚«Š·‚¦‚Ü‚·
+ 
+PRIM_REGX_Replace.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Replace.Result.Desc=ˆê’v‚µ‚½•¶š—ñ‚»‚ê‚¼‚ê‚ª’uŠ·‚³‚ê‚½Œã‚Ì“ü—Í•¶š—ñ
+ 
+PRIM_REGX_Replace.Pattern.Name=Pattern ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Replace.Pattern.Desc=ˆê’v‚³‚¹‚é³‹K•\Œ»‚Ìƒpƒ^[ƒ“
+ 
+PRIM_REGX_Replace.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Replace.InputString.Desc=ˆê’vŒŸõ‚ğs‚¤ Unicode •¶š—ñ
+ 
+PRIM_REGX_Replace.ReplaceString.Name=ReplaceString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Replace.ReplaceString.Desc=’uŠ·‚·‚é Unicode •¶š—ñ
+ 
+PRIM_REGX_Settings.Name=Settings ƒvƒƒpƒeƒB
+PRIM_REGX_Settings.Desc=ˆê’vƒIƒvƒVƒ‡ƒ“‚ğ§Œä‚·‚éİ’èƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX_Split.Name=Split ƒƒ\ƒbƒh
+PRIM_REGX_Split.Desc=³‹K•\Œ»ƒpƒ^[ƒ“‚É‚æ‚è’è‹`‚³‚ê‚½ˆÊ’u‚Å“ü—Í•¶š—ñ‚ğ•”•ª•¶š—ñ‚ÌƒAƒŒƒC‚É•ªŠ„‚µ‚Ü‚·
+ 
+PRIM_REGX_Split.Tokens.Name=Tokens ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Split.Tokens.Desc=³‹K•\Œ»‚É‚æ‚èŒˆ’è‚³‚ê‹æØ‚ç‚ê‚½•”•ª•¶š—ñ‚ğ¯•Ê‚·‚éƒLƒƒƒvƒ`ƒƒ ƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
+ 
+PRIM_REGX_Split.Pattern.Name=Pattern ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Split.Pattern.Desc=ˆê’v‚³‚¹‚é³‹K•\Œ»‚Ìƒpƒ^[ƒ“
+ 
+PRIM_REGX_Split.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX_Split.InputString.Desc=•ªŠ„‚·‚é Unicode •¶š—ñ
+ 
+PRIM_REGX.Replace.Name=PRIM_REGX.Replace
+PRIM_REGX.Replace.Desc=w’è‚Ì³‹K•\Œ»‚Éˆê’v‚·‚é•¶š—ñ‚ğw’è’uŠ·•¶š—ñ‚ÉŒJ‚è•Ô‚µ’u‚«Š·‚¦‚ç‚ê‚é‚æ‚¤‚É‚È‚è‚Ü‚·
+ 
+PRIM_REGX.Replace_Execute.Name=Execute ƒƒ\ƒbƒh
+PRIM_REGX.Replace_Execute.Desc=w’è‚Ì³‹K•\Œ»‚Éˆê’v‚·‚é‚·‚×‚Ä‚Ì•¶š—ñ‚ğw’è‚Ì’uŠ·•¶š—ñ‚É’u‚«Š·‚¦‚Ü‚·
+ 
+PRIM_REGX.Replace_Execute.Match.Name=Match ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.Replace_Execute.Match.Desc=ˆê’v‚É‚Â‚¢‚Ä‚Ìî•ñ‚ğŠÜ‚ŞƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX.Replace_Execute.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.Replace_Execute.InputString.Desc=ˆê’vŒŸõ‚ğs‚¤ Unicode •¶š—ñ
+ 
+PRIM_REGX.Replace_Pattern.Name=Pattern ƒvƒƒpƒeƒB
+PRIM_REGX.Replace_Pattern.Desc=ˆê’v‚³‚¹‚é³‹K•\Œ»‚Ìƒpƒ^[ƒ“
+ 
+PRIM_REGX.Replace_Replacement.Name=Replacement ƒvƒƒpƒeƒB
+PRIM_REGX.Replace_Replacement.Desc=’uŠ·‚·‚é Unicode •¶š—ñ
+ 
+PRIM_REGX.Replace_Result.Name=Result ƒvƒƒpƒeƒB
+PRIM_REGX.Replace_Result.Desc=ˆê’v‚µ‚½•¶š—ñ‚»‚ê‚¼‚ê‚ª’uŠ·‚³‚ê‚½Œã‚Ì“ü—Í•¶š—ñ
+ 
+PRIM_REGX.Replace_Settings.Name=Settings ƒvƒƒpƒeƒB
+PRIM_REGX.Replace_Settings.Desc=ˆê’vƒIƒvƒVƒ‡ƒ“‚ğ§Œä‚·‚éİ’èƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX.Settings.Name=PRIM_REGX.Settings
+PRIM_REGX.Settings.Desc=ˆê’vƒIƒvƒVƒ‡ƒ“‚ğ§Œä‚·‚éİ’èƒIƒuƒWƒFƒNƒg
+ 
+PRIM_REGX.Settings_ExplicitCapture.Name=ExplicitCapture ƒvƒƒpƒeƒB
+PRIM_REGX.Settings_ExplicitCapture.Desc=—LŒø‚ÈƒLƒƒƒvƒ`ƒƒ‚Ì‚İ–¾¦“I‚É–¼•t‚¯‚é‚©A‚à‚µ‚­‚ÍƒtƒH[ƒ€ (?<name>E ‚ÌƒOƒ‹[ƒv‚Æ‚µ‚Ä”Ô†‚ğ•t‚¯‚é‚©‚ğw’è‚µ‚Ü‚·
+ 
+PRIM_REGX.Settings_IgnoreCase.Name=IgnoreCase ƒvƒƒpƒeƒB
+PRIM_REGX.Settings_IgnoreCase.Desc=‘å•¶š‚Æ¬•¶š‚Ì‹æ•Ê‚ğ‚µ‚È‚¢ˆê’v‚ğw’è‚µ‚Ü‚·
+ 
+PRIM_REGX.Settings_IgnorePatternWhitespace.Name=IgnorePatternWhitespace ƒvƒƒpƒeƒB
+PRIM_REGX.Settings_IgnorePatternWhitespace.Desc=ƒpƒ^[ƒ“‚©‚çƒGƒXƒP[ƒv‚³‚ê‚Ä‚¢‚È‚¢‹ó”’‚ğœŠO‚µA# ‚Å‹L‚³‚ê‚½‚à‚Ì‚ğƒRƒƒ“ƒg‚É‚µ‚Ü‚·
+ 
+PRIM_REGX.Settings_Multiline.Name=Multiline ƒvƒƒpƒeƒB
+PRIM_REGX.Settings_Multiline.Desc=•¡”sƒ‚[ƒhB^ ‚â $ ‚ÌˆÓ–¡‚ğ•ÏX‚µ‚ÄA•¶š—ñ‘S‘Ì‚Ìn‚Ü‚è‚ÆI‚í‚è‚¾‚¯‚Å‚È‚­AŠes‚Ìn‚ß‚ÆI‚í‚è‚Æ“¯‚¶‚É‚È‚é‚æ‚¤‚É‚µ‚Ü‚·
+ 
+PRIM_REGX.Settings_RightToLeft.Name=RightToLeft ƒvƒƒpƒeƒB
+PRIM_REGX.Settings_RightToLeft.Desc=¶‚©‚ç‰E‚Ì‘ã‚í‚è‚É‰E‚©‚ç¶‚ÉŒŸõ‚ğs‚¤‚æ‚¤w’è‚µ‚Ü‚·
+ 
+PRIM_REGX.Settings_Singleline.Name=Singleline ƒvƒƒpƒeƒB
+PRIM_REGX.Settings_Singleline.Desc=’Pˆêsƒ‚[ƒh‚ğw’è‚µ‚Ü‚·Bƒhƒbƒg (.) ‚ÌˆÓ–¡‚ğ•ÏX‚µ‚ÄA(\n ˆÈŠO‚Ì‚»‚ê‚¼‚ê‚Ì•¶š‚Å‚Í‚È‚­)@•¶š‚Æ“¯‚¶‚É‚È‚é‚æ‚¤‚É‚µ‚Ü‚·B
+ 
+PRIM_REGX.Split.Name=PRIM_REGX.Split
+PRIM_REGX.Split.Desc=³‹K•\Œ»‚Å’è‹`‚³‚ê‚½ˆÊ’u‚Å“ü—Í•¶š—ñ‚ğ•ªŠ„o—ˆ‚é‚æ‚¤‚É‚µ‚Ü‚·
+ 
+PRIM_REGX.Split_Execute.Name=Execute ƒƒ\ƒbƒh
+PRIM_REGX.Split_Execute.Desc=“ü—Í•¶š—ñ‚ğŒ»İ‚Ì³‹K•\Œ»‚Å’è‹`‚³‚ê‚½ˆÊ’u‚Å•”•ª•¶š—ñ‚ÌƒAƒŒƒC‚É•ªŠ„‚µ‚Ü‚·
+ 
+PRIM_REGX.Split_Execute.Match.Name=Match ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.Split_Execute.Match.Desc=ˆê’v‚É‚Â‚¢‚Ä‚Ìî•ñ‚ğŠÜ‚ŞƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX.Split_Execute.InputString.Name=InputString ƒpƒ‰ƒ[ƒ^
+PRIM_REGX.Split_Execute.InputString.Desc=•ªŠ„‚·‚é Unicode •¶š—ñ
+ 
+PRIM_REGX.Split_Pattern.Name=Pattern ƒvƒƒpƒeƒB
+PRIM_REGX.Split_Pattern.Desc=ˆê’v‚³‚¹‚é³‹K•\Œ»‚Ìƒpƒ^[ƒ“
+ 
+PRIM_REGX.Split_Settings.Name=Settings ƒvƒƒpƒeƒB
+PRIM_REGX.Split_Settings.Desc=ˆê’vƒIƒvƒVƒ‡ƒ“‚ğ§Œä‚·‚éİ’èƒIƒuƒWƒFƒNƒg‚Ö‚ÌQÆ
+ 
+PRIM_REGX.Split_Tokens.Name=Tokens ƒvƒƒpƒeƒB
+PRIM_REGX.Split_Tokens.Desc=³‹K•\Œ»‚É‚æ‚èŒˆ’è‚³‚ê‹æØ‚ç‚ê‚½•”•ª•¶š—ñ‚ğ¯•Ê‚·‚éƒLƒƒƒvƒ`ƒƒ ƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
+ 
 PRIM_REPM.Name=Event ƒpƒ‰ƒ[ƒ^ ƒRƒ“ƒ|[ƒlƒ“ƒg
 PRIM_REPM.Desc=Event ƒpƒ‰ƒ[ƒ^ ‚Í Visual LANSA ƒCƒxƒ“ƒg ƒpƒ‰ƒ[ƒ^‚ğ”½‰f‚µ‚Ü‚·
  
@@ -19609,6 +21277,192 @@ PRIM_SRVM.HttpFormVariables_Item.Name.Desc=•Ï”–¼
 PRIM_SRVM.HttpFormVariables_ItemCount.Name=ItemCount ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpFormVariables_ItemCount.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÌƒAƒCƒeƒ€”
  
+PRIM_SRVM.HttpNameValueCollection.Name=PRIM_SRVM.HttpNameValueCollection
+PRIM_SRVM.HttpNameValueCollection.Desc=–¼‘O/’lƒyƒA‚Ì HTTP ƒRƒŒƒNƒVƒ‡ƒ“‚Ìƒx[ƒX ƒNƒ‰ƒX
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Name=TryGetString ƒƒ\ƒbƒh
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Desc=w’è‚Ì–¼‘O‚ÌƒyƒA‚ğŒŸõ‚µ‚ÄAŠÖ˜A•t‚¯‚ç‚ê‚½’l‚ğ Unicode •¶š—ñ‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Result.Desc=w’è‚Ì’l‚ª Unicode •¶š—ñ‚ÉXV‚³‚ê‚½ê‡‚Í TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Name.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÅŒŸõ‚·‚é–¼‘O
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Value.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Å Unicode •¶š—ñ‚ÉXV‚³‚ê‚½•Ï”BŒ©‚Â‚©‚ç‚È‚©‚Á‚½ê‡‚Íw’è‚ÌÈ—ª’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Default.Name=Default ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Default.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚É–¼‘O‚ª‘¶İ‚µ‚È‚©‚Á‚½ê‡‚Ég—p‚·‚é Unicode •¶š—ñ
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Name=TryParseAsBoolean ƒƒ\ƒbƒh
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Desc=w’è‚Ì–¼‘O‚ÌƒyƒA‚ğŒŸõ‚µ‚ÄAŠÖ˜A•t‚¯‚ç‚ê‚½’l‚ğƒu[ƒ‹’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Result.Desc=w’è‚Ì’l‚ªƒu[ƒ‹’l‚ÉXV‚³‚ê‚½ê‡‚Í TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Name.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÅŒŸõ‚·‚é–¼‘O
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Value.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Åƒu[ƒ‹’l‚ÉXV‚³‚ê‚½•Ï”BŒ©‚Â‚©‚ç‚È‚©‚Á‚½ê‡‚Íw’è‚ÌÈ—ª’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Default.Name=Default ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Default.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚É–¼‘O‚ª‘¶İ‚µ‚È‚©‚Á‚½ê‡‚Ég—p‚·‚éƒu[ƒ‹’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Name=TryParseAsDate ƒƒ\ƒbƒh
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Desc=w’è‚Ì–¼‘O‚ÌƒyƒA‚ğŒŸõ‚µ‚ÄAŠÖ˜A•t‚¯‚ç‚ê‚½’l‚ğ“ú•t’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Result.Desc=w’è‚Ì’l‚ª“ú•t’l‚ÉXV‚³‚ê‚½ê‡‚Í TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Name.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÅŒŸõ‚·‚é–¼‘O
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Value.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Å“ú•t’l‚ÉXV‚³‚ê‚½•Ï”BŒ©‚Â‚©‚ç‚È‚©‚Á‚½ê‡‚Íw’è‚ÌÈ—ª’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Format.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Ì’l‚Ì“ú•tŒ`®
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Default.Name=Default ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Default.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚É–¼‘O‚ª‘¶İ‚µ‚È‚©‚Á‚½ê‡‚Ég—p‚·‚é“ú•t’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Name=TryParseAsDateTime ƒƒ\ƒbƒh
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Desc=w’è‚Ì–¼‘O‚ÌƒyƒA‚ğŒŸõ‚µ‚ÄAŠÖ˜A•t‚¯‚ç‚ê‚½’l‚ğ“ú‚Ì’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Result.Desc=w’è‚Ì’l‚ª“ú‚Ì’l‚ÉXV‚³‚ê‚½ê‡‚Í TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Name.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÅŒŸõ‚·‚é–¼‘O
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Value.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Å“ú‚Ì’l‚ÉXV‚³‚ê‚½•Ï”BŒ©‚Â‚©‚ç‚È‚©‚Á‚½ê‡‚Íw’è‚ÌÈ—ª’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Format.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Ì’l‚Ì“ú‚ÌŒ`®
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Default.Name=Default ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Default.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚É–¼‘O‚ª‘¶İ‚µ‚È‚©‚Á‚½ê‡‚Ég—p‚·‚é“ú‚Ì’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Name=TryParseAsDecimal ƒƒ\ƒbƒh
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Desc=w’è‚Ì–¼‘O‚ÌƒyƒA‚ğŒŸõ‚µ‚ÄAŠÖ˜A•t‚¯‚ç‚ê‚½’l‚ğ 10 i”’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Result.Desc=w’è‚Ì’l‚ª 10 i”’l‚ÉXV‚³‚ê‚½ê‡‚Í TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Name.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÅŒŸõ‚·‚é–¼‘O
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Value.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Å 10 i”’l‚ÉXV‚³‚ê‚½•Ï”BŒ©‚Â‚©‚ç‚È‚©‚Á‚½ê‡‚Íw’è‚ÌÈ—ª’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Default.Name=Default ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Default.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚É–¼‘O‚ª‘¶İ‚µ‚È‚©‚Á‚½ê‡‚Ég—p‚·‚é 10 i”’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Name=TryParseAsInt32 ƒƒ\ƒbƒh
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Desc=w’è‚Ì–¼‘O‚ÌƒyƒA‚ğŒŸõ‚µ‚ÄAŠÖ˜A•t‚¯‚ç‚ê‚½’l‚ğ 32 ƒrƒbƒg‚Ì®”’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Result.Desc=w’è‚Ì’l‚ª Int32 ’l‚ÉXV‚³‚ê‚½ê‡‚Í TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Name.Desc==ƒRƒŒƒNƒVƒ‡ƒ““à‚ÅŒŸõ‚·‚é–¼‘O
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Value.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Å Int32 ’l‚ÉXV‚³‚ê‚½•Ï”BŒ©‚Â‚©‚ç‚È‚©‚Á‚½ê‡‚Íw’è‚ÌÈ—ª’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Default.Name=Default ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Default.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚É–¼‘O‚ª‘¶İ‚µ‚È‚©‚Á‚½ê‡‚Ég—p‚·‚é Int32 ’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Name=TryParseAsInt64 ƒƒ\ƒbƒh
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Desc=w’è‚Ì–¼‘O‚ÌƒyƒA‚ğŒŸõ‚µ‚ÄAŠÖ˜A•t‚¯‚ç‚ê‚½’l‚ğ 64 ƒrƒbƒg‚Ì®”’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Result.Desc=w’è‚Ì’l‚ª Int64 ’l‚ÉXV‚³‚ê‚½ê‡‚Í TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Name.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÅŒŸõ‚·‚é–¼‘O
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Value.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Å Int64 ’l‚ÉXV‚³‚ê‚½•Ï”BŒ©‚Â‚©‚ç‚È‚©‚Á‚½ê‡‚Íw’è‚ÌÈ—ª’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Default.Name=Default ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Default.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚É–¼‘O‚ª‘¶İ‚µ‚È‚©‚Á‚½ê‡‚Ég—p‚·‚é Int64 ’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Name=TryParseAsTime ƒƒ\ƒbƒh
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Desc=w’è‚Ì–¼‘O‚ÌƒyƒA‚ğŒŸõ‚µ‚ÄAŠÖ˜A•t‚¯‚ç‚ê‚½’l‚ğŠÔ‚Ì’l‚É•ÏŠ·‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Result.Desc=w’è‚Ì’l‚ªŠÔ‚Ì’l‚ÉXV‚³‚ê‚½ê‡‚Í TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Name.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÅŒŸõ‚·‚é–¼‘O
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Value.Name=Value ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Value.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚ÅŠÔ‚Ì’l‚ÉXV‚³‚ê‚½•Ï”BŒ©‚Â‚©‚ç‚È‚©‚Á‚½ê‡‚Íw’è‚ÌÈ—ª’l
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Format.Name=Format ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Format.Desc=Œ©‚Â‚©‚Á‚½ƒyƒA‚Ì’l‚ÌŠÔ‚ÌŒ`®
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Default.Name=Default ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Default.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚É–¼‘O‚ª‘¶İ‚µ‚È‚©‚Á‚½ê‡‚Ég—p‚·‚éŠÔ‚Ì’l
+ 
+PRIM_SRVM.HttpPathParameter.Name=PRIM_SRVM.HttpPathParameter
+PRIM_SRVM.HttpPathParameter.Desc=HTTP ƒpƒX ƒpƒ‰ƒ[ƒ^
+ 
+PRIM_SRVM.HttpPathParameter_Name.Name=Name ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpPathParameter_Name.Desc=ƒpƒX ƒpƒ‰ƒ[ƒ^–¼
+ 
+PRIM_SRVM.HttpPathParameter_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpPathParameter_Value.Desc=ƒpƒX ƒpƒ‰ƒ[ƒ^’l
+ 
+PRIM_SRVM.HttpPathParameters.Name=PRIM_SRVM.HttpPathParameters
+PRIM_SRVM.HttpPathParameters.Desc=HTTP ƒpƒX ƒpƒ‰ƒ[ƒ^‚ÌƒRƒŒƒNƒVƒ‡ƒ“
+ 
+PRIM_SRVM.HttpPathParameters_CreateIterator.Name=CreateIterator ƒƒ\ƒbƒh
+PRIM_SRVM.HttpPathParameters_CreateIterator.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚Ì”½•œ‚ğ‰Â”\‚É‚·‚é”½•œƒRƒ“ƒ|[ƒlƒ“ƒg‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpPathParameters_CreateIterator.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpPathParameters_CreateIterator.Result.Desc=V‹K‚Ì”½•œƒCƒ“ƒXƒ^ƒ“ƒX‚Ö‚ÌQÆ
+ 
+PRIM_SRVM.HttpPathParameters_Item.Name=Item ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpPathParameters_Item.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚Ì“Á’è‚ÌƒAƒCƒeƒ€‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpPathParameters_Item.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpPathParameters_Item.Name.Desc=ƒpƒX ƒpƒ‰ƒ[ƒ^–¼
+ 
+PRIM_SRVM.HttpPathParameters_ItemCount.Name=ItemCount ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpPathParameters_ItemCount.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÌƒpƒX ƒpƒ‰ƒ[ƒ^”
+ 
+PRIM_SRVM.HttpPathSegment.Name=PRIM_SRVM.HttpPathSegment
+PRIM_SRVM.HttpPathSegment.Desc=HTTP ƒpƒX ƒZƒOƒƒ“ƒg
+ 
+PRIM_SRVM.HttpPathSegment_IsRoutingSegment.Name=IsRoutingSegment ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpPathSegment_IsRoutingSegment.Desc=‚±‚ÌƒZƒOƒƒ“ƒg‚ªƒT[ƒo[ ƒ‚ƒWƒ…[ƒ‹¯•Ê‚ÌƒvƒƒZƒX‚Æ HTTP —v‹ˆ—‚Ìƒ‹[ƒ`ƒ“‚Åg—p‚³‚ê‚½ê‡ TRUEA‚»‚êˆÈŠO‚Í FALSE
+ 
+PRIM_SRVM.HttpPathSegment_Value.Name=Value ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpPathSegment_Value.Desc=ƒpƒX ƒZƒOƒƒ“ƒg‚Ì Unicode •¶š—ñ‚Æ‚µ‚Ä‚Ì’l
+ 
+PRIM_SRVM.HttpPathSegments.Name=PRIM_SRVM.HttpPathSegments
+PRIM_SRVM.HttpPathSegments.Desc=HTTP ƒpƒX ƒZƒOƒƒ“ƒg‚ÌƒRƒŒƒNƒVƒ‡ƒ“
+ 
+PRIM_SRVM.HttpPathSegments_CreateIterator.Name=CreateIterator ƒƒ\ƒbƒh
+PRIM_SRVM.HttpPathSegments_CreateIterator.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚Ì”½•œ‚ğ‰Â”\‚É‚·‚é”½•œƒRƒ“ƒ|[ƒlƒ“ƒg‚ğì¬‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpPathSegments_CreateIterator.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpPathSegments_CreateIterator.Result.Desc=V‹K‚Ì”½•œƒCƒ“ƒXƒ^ƒ“ƒX‚Ö‚ÌQÆ
+ 
+PRIM_SRVM.HttpPathSegments_Item.Name=Item ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpPathSegments_Item.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚Ì“Á’è‚ÌƒAƒCƒeƒ€‚Ö‚ÌƒAƒNƒZƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpPathSegments_Item.Index.Name=Index ƒpƒ‰ƒ[ƒ^
+PRIM_SRVM.HttpPathSegments_Item.Index.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÌƒpƒX ƒZƒOƒƒ“ƒg‚ğ¯•Ê‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpPathSegments_ItemCount.Name=ItemCount ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpPathSegments_ItemCount.Desc=ƒRƒŒƒNƒVƒ‡ƒ““à‚ÌƒpƒX ƒZƒOƒƒ“ƒg”
+ 
 PRIM_SRVM.HttpQueryParameter.Name=PRIM_SRVM.HttpQueryParameter
 PRIM_SRVM.HttpQueryParameter.Desc=HTTP ƒNƒGƒŠ•¶š—ñƒpƒ‰ƒ[ƒ^
  
@@ -19651,6 +21505,15 @@ PRIM_SRVM.HttpRequest_Headers.Desc=—v‹ƒwƒbƒ_[ ƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
 PRIM_SRVM.HttpRequest_Method.Name=Method ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequest_Method.Desc=ˆ—ƒG[ƒWƒFƒ“ƒg‚ÉƒtƒH[ƒ€‚ğ‘—M‚·‚é‚½‚ß‚Ég—p‚·‚é HTTP ƒƒ\ƒbƒh
  
+PRIM_SRVM.HttpRequest_Path.Name=Path ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpRequest_Path.Desc=HTTP —v‹ URL ‚ÌŠ®‘SƒpƒX‚ğ Unicode •¶š—ñ‚Å•\‚µ‚Ü‚·
+ 
+PRIM_SRVM.HttpRequest_PathParameters.Name=PathParameters ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpRequest_PathParameters.Desc=ƒpƒX ƒpƒ‰ƒ[ƒ^‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
+ 
+PRIM_SRVM.HttpRequest_PathSegments.Name=PathSegments ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpRequest_PathSegments.Desc=ƒpƒX ƒZƒOƒƒ“ƒg‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
+ 
 PRIM_SRVM.HttpRequest_QueryParameters.Name=QueryParameters ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequest_QueryParameters.Desc=ƒNƒGƒŠ ƒpƒ‰ƒ[ƒ^‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Ö‚ÌQÆ
  
@@ -19683,6 +21546,12 @@ PRIM_SRVM.HttpRequestContent_Length.Desc=ƒRƒ“ƒeƒ“ƒc‚Ì’·‚³ (ƒoƒCƒg)
  
 PRIM_SRVM.HttpRequestContent_MimeType.Name=MimeType ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpRequestContent_MimeType.Desc=ƒtƒ@ƒCƒ‹ MIME ƒ^ƒCƒv
+ 
+PRIM_SRVM.HttpRequestContentAggregate.Name=Length ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpRequestContentAggregate.Desc=ƒRƒ“ƒeƒ“ƒc‚Ì’·‚³ (ƒoƒCƒg)
+ 
+PRIM_SRVM.HttpRequestContentEmpty.Name=MimeType ƒvƒƒpƒeƒB
+PRIM_SRVM.HttpRequestContentEmpty.Desc=ƒtƒ@ƒCƒ‹‚Ì Mime ƒ^ƒCƒv
  
 PRIM_SRVM.HttpRequestFile.Name=PRIM_SRVM.HttpRequestFile
 PRIM_SRVM.HttpRequestFile.Desc=ƒtƒ@ƒCƒ‹‚ğ—v‹
@@ -19806,7 +21675,7 @@ PRIM_SRVM.HttpResponse_ClearHeader.Desc=ƒwƒbƒ_[•Ï”‚ğíœ
  
 PRIM_SRVM.HttpResponse_ClearHeader.Name.Name=Name ƒpƒ‰ƒ[ƒ^
 PRIM_SRVM.HttpResponse_ClearHeader.Name.Desc=ƒwƒbƒ_[•Ï”‚Ì–¼‘O
- 
+  
 PRIM_SRVM.HttpResponse_ContentFileName.Name=ContentFileName ƒvƒƒpƒeƒB
 PRIM_SRVM.HttpResponse_ContentFileName.Desc=ƒRƒ“ƒeƒ“ƒc ƒtƒ@ƒCƒ‹‚Ì–¼‘O
  
@@ -19845,9 +21714,6 @@ PRIM_SRVM.HttpResponse_SetContentFile.RemoveAfterSend.Desc=‘—M‚ª³í‚ÉI—¹‚µ‚½Œ
  
 PRIM_SRVM.HttpResponse_SetContentFile.AddHeaderLastModified.Name=AddHeaderLastModified ƒpƒ‰ƒ[ƒ^
 PRIM_SRVM.HttpResponse_SetContentFile.AddHeaderLastModified.Desc=ƒwƒbƒ_[‚ÌÅIC³‚ğ’Ç‰Á
- 
-PRIM_SRVM.HttpResponse_SetContentFile.AddHeaderContentDisposition.Name=AddHeaderContentDisposition ƒpƒ‰ƒ[ƒ^
-PRIM_SRVM.HttpResponse_SetContentFile.AddHeaderContentDisposition.Desc=ƒwƒbƒ_[ ƒRƒ“ƒeƒ“ƒc‚Ì”pŠü‚ğ’Ç‰Á
  
 PRIM_SRVM.HttpResponseHeader.Name=PRIM_SRVM.HttpResponseHeader
 PRIM_SRVM.HttpResponseHeader.Desc=HTTP ƒT[ƒo[‰“šƒwƒbƒ_[
@@ -21454,6 +23320,9 @@ PRIM_TREE_ItemRealizing.Item.Desc=ƒcƒŠ[ ƒAƒCƒeƒ€‚Ö‚ÌQÆ
 PRIM_TREE_Items.Name=Items ƒvƒƒpƒeƒB
 PRIM_TREE_Items.Desc=‘SƒAƒCƒeƒ€‚ÌƒRƒŒƒNƒVƒ‡ƒ“
  
+PRIM_TREE_ItemsPerRow.Name=ItemsPerRow ƒvƒƒpƒeƒB
+PRIM_TREE_ItemsPerRow.Desc=ˆês‚É•\¦‚·‚éƒAƒCƒeƒ€”
+ 
 PRIM_TREE_LostFocus.Name=LostFocus ƒCƒxƒ“ƒg
 PRIM_TREE_LostFocus.Desc=LostFocus ƒCƒxƒ“ƒg‚Í‘¼‚Ì€–Ú‚ªƒtƒH[ƒJƒX‚ğ‚Â‚ÆÀs‚³‚ê‚Ü‚·B
  
@@ -22354,6 +24223,54 @@ PRIM_VCOL_Remove.Style.Desc=ƒRƒ“ƒgƒ[ƒ‹‚©‚çíœ‚³‚ê‚éƒXƒ^ƒCƒ‹
 PRIM_VCOL_RemoveAll.Name=RemoveAll ƒƒ\ƒbƒh
 PRIM_VCOL_RemoveAll.Desc=ƒRƒ“ƒgƒ[ƒ‹‚É’Ç‰Á‚³‚êƒXƒ^ƒCƒ‹‚ğ‚·‚×‚Äíœ
  
+PRIM_VCS.Compiler.Name=PRIM_VCS.Compiler
+PRIM_VCS.Compiler.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileProject.Name=CompileProject ƒƒ\ƒbƒh
+PRIM_VCS.Compiler_CompileProject.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileProject.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileProject.Result.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileProject.Name.Name=Name ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileProject.Name.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileProject.ExceptionListName.Name=ExceptionListName ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileProject.ExceptionListName.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileProject.CompileObjectsInVcOnly.Name=CompileObjectsInVcOnly ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileProject.CompileObjectsInVcOnly.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileProject.CompileSynchronously.Name=CompileSynchronously ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileProject.CompileSynchronously.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileProject.ObjectTypesToCompile.Name=ObjectTypesToCompile ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileProject.ObjectTypesToCompile.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileProject.CompileId.Name=CompileId ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileProject.CompileId.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileSolution.Name=CompileSolution ƒƒ\ƒbƒh
+PRIM_VCS.Compiler_CompileSolution.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileSolution.Result.Name=Result ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileSolution.Result.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileSolution.ExceptionListName.Name=ExceptionListName ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileSolution.ExceptionListName.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileSolution.CompileObjectsInVcOnly.Name=CompileObjectsInVcOnly ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileSolution.CompileObjectsInVcOnly.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileSolution.CompileSynchronously.Name=CompileSynchronously ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileSolution.CompileSynchronously.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileSolution.ObjectTypesToCompile.Name=ObjectTypesToCompile ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileSolution.ObjectTypesToCompile.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS.Compiler_CompileSolution.CompileId.Name=CompileId ƒpƒ‰ƒ[ƒ^
+PRIM_VCS.Compiler_CompileSolution.CompileId.Desc=LANSA “à•”ê—p
+ 
 PRIM_VCS.Name=PRIM_VCS
 PRIM_VCS.Desc=LANSA “à•”ê—p
  
@@ -22362,6 +24279,30 @@ PRIM_VCS_GetLatestVersion.Desc=LANSA “à•”ê—p
  
 PRIM_VCS_GetLatestVersion.Result.Name=Result ƒpƒ‰ƒ[ƒ^
 PRIM_VCS_GetLatestVersion.Result.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS_GetLatestVersion.CompileChangedObjects.Name=CompileChangedObjects ƒpƒ‰ƒ[ƒ^
+PRIM_VCS_GetLatestVersion.CompileChangedObjects.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS_GetLatestVersion.CompileCrossReferences.Name=CompileCrossReferences ƒpƒ‰ƒ[ƒ^
+PRIM_VCS_GetLatestVersion.CompileCrossReferences.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS_GetLatestVersion.CompileObjectsInVcOnly.Name=CompileObjectsInVcOnly ƒpƒ‰ƒ[ƒ^
+PRIM_VCS_GetLatestVersion.CompileObjectsInVcOnly.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS_GetLatestVersion.CompileSynchronously.Name=CompileSynchronously ƒpƒ‰ƒ[ƒ^
+PRIM_VCS_GetLatestVersion.CompileSynchronously.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS_GetLatestVersion.ProjectName.Name=ProjectName ƒpƒ‰ƒ[ƒ^
+PRIM_VCS_GetLatestVersion.ProjectName.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS_GetLatestVersion.DoNotCompileListName.Name=DoNotCompileListName ƒpƒ‰ƒ[ƒ^
+PRIM_VCS_GetLatestVersion.DoNotCompileListName.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS_GetLatestVersion.ObjectTypesToCompile.Name=ObjectTypesToCompile ƒpƒ‰ƒ[ƒ^
+PRIM_VCS_GetLatestVersion.ObjectTypesToCompile.Desc=LANSA “à•”ê—p
+ 
+PRIM_VCS_GetLatestVersion.CompileId.Name=CompileId ƒpƒ‰ƒ[ƒ^
+PRIM_VCS_GetLatestVersion.CompileId.Desc=LANSA “à•”ê—p
  
 PRIM_VCS_GetLatestVersionOf.Name=GetLatestVersionOf ƒƒ\ƒbƒh
 PRIM_VCS_GetLatestVersionOf.Desc=LANSA “à•”ê—p

@@ -2137,6 +2137,339 @@ PRIM_CCOL_Item.Desc=Provides access to a particular item in a collection
 PRIM_CCOL_Item.StandardCursor.Name=StandardCursor parameter
 PRIM_CCOL_Item.StandardCursor.Desc=Enumeration of system cursors
  
+PRIM_CHRT.Name=Chart
+PRIM_CHRT.Desc=Chart
+
+PRIM_CHRT.Axis.Name=Chart Axis
+PRIM_CHRT.Axis.Desc=Base class of all chart axes configuration classes
+
+PRIM_CHRT.Axis_Title.Name=Title property
+PRIM_CHRT.Axis_Title.Desc=The title displayed with an axis
+
+PRIM_CHRT.BarChart.Name=Bar Chart
+PRIM_CHRT.BarChart.Desc=Bar Chart
+
+PRIM_CHRT.BarChart_AnimationDuration.Name=AnimationDuration property
+PRIM_CHRT.BarChart_AnimationDuration.Desc=The duration of all animations in milliseconds, a value of zero will disable animations
+
+PRIM_CHRT.BarChart_Axes.Name=Axes property
+PRIM_CHRT.BarChart_Axes.Desc=Determines which axes to show
+
+PRIM_CHRT.BarChart_BarPercentage.Name=BarPercentage property
+PRIM_CHRT.BarChart_BarPercentage.Desc=Determines the width of each bar as a percentage of the available space
+
+PRIM_CHRT.BarChart_BarType.Name=BarType property
+PRIM_CHRT.BarChart_BarType.Desc=A bar chart can show each category as either grouped or stacked
+
+PRIM_CHRT.BarChart_CaptionAxis.Name=CaptionAxis property
+PRIM_CHRT.BarChart_CaptionAxis.Desc=The configuration details of the axis used to display captions
+
+PRIM_CHRT.BarChart_CategoryPercentage.Name=CategoryPercentage property
+PRIM_CHRT.BarChart_CategoryPercentage.Desc=Determines the width of each group/category of bars as a percentage of the available space
+
+PRIM_CHRT.BarChart_FormatTick.Name=FormatTick event
+PRIM_CHRT.BarChart_FormatTick.Desc=Fires when the ticks are created to allow formatting of the tick values
+
+PRIM_CHRT.BarChart_GridLines.Name=Gridlines property
+PRIM_CHRT.BarChart_GridLines.Desc=Determines which gridlines to show
+
+PRIM_CHRT.BarChart_LegendPosition.Name=LegendPosition property
+PRIM_CHRT.BarChart_LegendPosition.Desc=The legend can either be hidden or displayed on any side of the chart 
+
+PRIM_CHRT.BarChart_Orientation.Name=Orientation property
+PRIM_CHRT.BarChart_Orientation.Desc=Allows you to choose a vertical or a horizontal bar chart
+
+PRIM_CHRT.BarChart_PrimaryAxis.Name=PrimaryAxis property
+PRIM_CHRT.BarChart_PrimaryAxis.Desc=The configuration details of the primary value axis
+
+PRIM_CHRT.BarChart_SecondaryAxis.Name=SecondaryAxis property
+PRIM_CHRT.BarChart_SecondaryAxis.Desc=The configuration details of the secondary value axis
+
+PRIM_CHRT.BarChartCaption.Name=Bar Chart Caption
+PRIM_CHRT.BarChartCaption.Desc=Defines the dataclass and behaviour of a bar chart's captions
+
+PRIM_CHRT.BarChartCaption_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.BarChartCaption_CurrentItem.Desc=The caption of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.BarChartCaption_Parent.Name=Parent property
+PRIM_CHRT.BarChartCaption_Parent.Desc=Reference to the bar chart that this is part of
+
+PRIM_CHRT.BarChartCaptionItem.Name=Bar Chart Caption Item
+PRIM_CHRT.BarChartCaptionItem.Desc=A reference to a particular caption in a bar chart
+
+PRIM_CHRT.BarChartValue.Name=Bar Chart Value
+PRIM_CHRT.BarChartValue.Desc=Defines the dataclass and behaviour of a bar chart's values
+
+PRIM_CHRT.BarChartValue_Axis.Name=Axis property
+PRIM_CHRT.BarChartValue_Axis.Desc=Specifies which axis to plot this value against
+
+PRIM_CHRT.BarChartValue_BorderWidth.Name=BorderWidth property
+PRIM_CHRT.BarChartValue_BorderWidth.Desc=Specifies the border width of this value's bar
+
+PRIM_CHRT.BarChartValue_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.BarChartValue_CurrentItem.Desc=The value of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.BarChartValue_Description.Name=Description property
+PRIM_CHRT.BarChartValue_Description.Desc=Description of this particular set of values
+
+PRIM_CHRT.BarChartValue_Parent.Name=Parent property
+PRIM_CHRT.BarChartValue_Parent.Desc=Reference to the bar chart that this is part of
+
+PRIM_CHRT.BarChartValue_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.BarChartValue_ThemeDrawStyle.Desc=Controls the colors to use when displaying this value in the chart
+
+PRIM_CHRT.BarChartValueItem.Name=Bar Chart Value Item
+PRIM_CHRT.BarChartValueItem.Desc=A reference to a particular value in a bar chart
+
+PRIM_CHRT.BarChartValueItem_FormatHint.Name=FormatHint method
+PRIM_CHRT.BarChartValueItem_FormatHint.Desc=Allows you to overwrite the default hint for a chart item
+
+PRIM_CHRT.BubbleChart.Name=Bubble Chart
+PRIM_CHRT.BubbleChart.Desc=Bubble Chart
+
+PRIM_CHRT.BubbleChart_AnimationDuration.Name=AnimationDuration property
+PRIM_CHRT.BubbleChart_AnimationDuration.Desc=The duration of all animations in milliseconds, a value of zero will disable animations
+
+PRIM_CHRT.BubbleChart_Axes.Name=Axes property
+PRIM_CHRT.BubbleChart_Axes.Desc=Determines which axes to show
+
+PRIM_CHRT.BubbleChart_BorderWidth.Name=BorderWidth property
+PRIM_CHRT.BubbleChart_BorderWidth.Desc=Specifies the border width of the bubbles
+
+PRIM_CHRT.BubbleChart_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.BubbleChart_CurrentItem.Desc=Represents the bubble in the chart that was touched either in the UI or via a list related command
+
+PRIM_CHRT.BubbleChart_MinSize.Name=MinSize property
+PRIM_CHRT.BubbleChart_MinSize.Desc=The minimum size of a bubble, a bubble's size is determined by its value in relation to the min and max size
+
+PRIM_CHRT.BubbleChart_MaxSize.Name=MaxSize property
+PRIM_CHRT.BubbleChart_MaxSize.Desc=The maximum size of a bubble, a bubble's size is determined by its value in relation to the min and max size
+
+PRIM_CHRT.BubbleChart_FormatTick.Name=FormatTick event
+PRIM_CHRT.BubbleChart_FormatTick.Desc=Fires when the ticks are created to allow formatting of the tick values
+
+PRIM_CHRT.BubbleChart_GridLines.Name=Gridlines property
+PRIM_CHRT.BubbleChart_GridLines.Desc=Determines which gridlines to show
+
+PRIM_CHRT.BubbleChart_LegendPosition.Name=LegendPosition property
+PRIM_CHRT.BubbleChart_LegendPosition.Desc=The legend can either be hidden or displayed on any side of the chart 
+
+PRIM_CHRT.BubbleChart_PrimaryAxis.Name=PrimaryAxis property
+PRIM_CHRT.BubbleChart_PrimaryAxis.Desc=The configuration details of the primary value axis
+
+PRIM_CHRT.BubbleChart_SecondaryAxis.Name=SecondaryAxis property
+PRIM_CHRT.BubbleChart_SecondaryAxis.Desc=The configuration details of the secondary value axis
+
+PRIM_CHRT.BubbleChartCategory.Name=Bubble Chart Category
+PRIM_CHRT.BubbleChartCategory.Desc=Defines the categories of bubbles in the bubble chart
+
+PRIM_CHRT.BubbleChartCategory_Parent.Name=Parent property
+PRIM_CHRT.BubbleChartCategory_Parent.Desc=Reference to the bubble chart that this is part of
+
+PRIM_CHRT.BubbleChartCategory_Caption.Name=Caption property
+PRIM_CHRT.BubbleChartCategory_Caption.Desc=The category's caption is displayed in the legend
+
+PRIM_CHRT.BubbleChartCategory_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.BubbleChartCategory_ThemeDrawStyle.Desc=Controls the colors to use for this category in the bubble chart
+
+PRIM_CHRT.BubbleChartValue.Name=Bubble Chart Value
+PRIM_CHRT.BubbleChartValue.Desc=Defines a value displayed in the bubble chart, depending on display position this is either the x-, y-, or size-value
+
+PRIM_CHRT.BubbleChartValue_Description.Name=Description property
+PRIM_CHRT.BubbleChartValue_Description.Desc=A bubble represents a set of three values, the descriptions of each of these values are used in the default hint
+
+PRIM_CHRT.BubbleChartValue_Parent.Name=Parent property
+PRIM_CHRT.BubbleChartValue_Parent.Desc=Reference to the bubble chart that this is part of
+
+PRIM_CHRT.BubbleChartItem.Name=Bubble Chart Item
+PRIM_CHRT.BubbleChartItem.Desc=A reference to a particular bubble in a bubble chart.
+
+PRIM_CHRT.BubbleChartItem_FormatHint.Name=FormatHint method
+PRIM_CHRT.BubbleChartItem_FormatHint.Desc=Allows you to overwrite the default hint for a bubble
+
+PRIM_CHRT.BubbleChartItem_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.BubbleChartItem_ThemeDrawStyle.Desc=Controls the colors to use when displaying this bubble in the chart
+
+PRIM_CHRT.Caption.Name=Chart Caption
+PRIM_CHRT.Caption.Desc=Base class for all chart captions
+
+PRIM_CHRT.Caption_Caption.Name=Caption property
+PRIM_CHRT.Caption_Caption.Desc=The caption of a chart item
+
+PRIM_CHRT.Caption_Source.Name=Source property
+PRIM_CHRT.Caption_Source.Desc=Field used as a source for a caption
+
+PRIM_CHRT.CaptionAxis.Name=Chart Caption Axis
+PRIM_CHRT.CaptionAxis.Desc=Configuration of a chart's caption axis
+
+PRIM_CHRT.CaptionItem.Name=Chart Caption Item
+PRIM_CHRT.CaptionItem.Desc=Base class for all chart caption items
+
+PRIM_CHRT.CaptionItem_Caption.Name=Caption property
+PRIM_CHRT.CaptionItem_Caption.Desc=The caption of a chart item
+
+PRIM_CHRT.Column.Name=Chart Column
+PRIM_CHRT.Column.Desc=Base class for all chart columns
+
+PRIM_CHRT.LineChart.Name=Line Chart
+PRIM_CHRT.LineChart.Desc=Line Chart
+
+PRIM_CHRT.LineChart_AnimationDuration.Name=AnimationDuration property
+PRIM_CHRT.LineChart_AnimationDuration.Desc=The duration of all animations in milliseconds, a value of zero will disable animations
+
+PRIM_CHRT.LineChart_Axes.Name=Axes property
+PRIM_CHRT.LineChart_Axes.Desc=Determines which axes to show
+
+PRIM_CHRT.LineChart_CaptionAxis.Name=CaptionAxis property
+PRIM_CHRT.LineChart_CaptionAxis.Desc=The configuration details of the axis used to display captions
+
+PRIM_CHRT.LineChart_FormatTick.Name=FormatTick event
+PRIM_CHRT.LineChart_FormatTick.Desc=Fires when the ticks are created to allow formatting of the tick values
+
+PRIM_CHRT.LineChart_GridLines.Name=Gridlines property
+PRIM_CHRT.LineChart_GridLines.Desc=Determines which gridlines to show
+
+PRIM_CHRT.LineChart_LegendPosition.Name=LegendPosition property
+PRIM_CHRT.LineChart_LegendPosition.Desc=The legend can either be hidden or displayed on any side of the chart 
+
+PRIM_CHRT.LineChart_PrimaryAxis.Name=PrimaryAxis property
+PRIM_CHRT.LineChart_PrimaryAxis.Desc=The configuration details of the primary value axis
+
+PRIM_CHRT.LineChart_SecondaryAxis.Name=SecondaryAxis property
+PRIM_CHRT.LineChart_SecondaryAxis.Desc=The configuration details of the secondary value axis
+
+PRIM_CHRT.LineChartCaption.Name=Line Chart Caption
+PRIM_CHRT.LineChartCaption.Desc=Defines the dataclass and behaviour of a line chart's captions
+
+PRIM_CHRT.LineChartCaption_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.LineChartCaption_CurrentItem.Desc=The caption of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.LineChartCaption_Parent.Name=Parent property
+PRIM_CHRT.LineChartCaption_Parent.Desc=Reference to the line chart that this is part of
+
+PRIM_CHRT.LineChartCaptionItem.Name=Line Chart Caption Item
+PRIM_CHRT.LineChartCaptionItem.Desc=A reference to a particular caption in a line chart
+
+PRIM_CHRT.LineChartValue.Name=Line Chart Value
+PRIM_CHRT.LineChartValue.Desc=Defines the dataclass and behaviour of a line chart's values
+
+PRIM_CHRT.LineChartValue_Axis.Name=Axis property
+PRIM_CHRT.LineChartValue_Axis.Desc=Specifies which axis to plot this value against
+
+PRIM_CHRT.LineChartValue_BorderWidth.Name=BorderWidth property
+PRIM_CHRT.LineChartValue_BorderWidth.Desc=Because a line chart is effectively an area chart, it is the border width that determines the width of the line
+
+PRIM_CHRT.LineChartValue_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.LineChartValue_CurrentItem.Desc=The value of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.LineChartValue_Description.Name=Description property
+PRIM_CHRT.LineChartValue_Description.Desc=Description of this particular set of values
+
+PRIM_CHRT.LineChartValue_LineStyle.Name=LineStyle property
+PRIM_CHRT.LineChartValue_LineStyle.Desc=Describes how to draw the line connecting the values
+
+PRIM_CHRT.LineChartValue_Parent.Name=Parent property
+PRIM_CHRT.LineChartValue_Parent.Desc=Reference to the line chart that this is part of
+
+PRIM_CHRT.LineChartValue_PointStyle.Name=PointStyle property
+PRIM_CHRT.LineChartValue_PointStyle.Desc=Describes how to draw the points representing the values
+
+PRIM_CHRT.LineChartValue_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.LineChartValue_ThemeDrawStyle.Desc=Controls the background(=area) and border(=line) colors use to draw the card
+
+PRIM_CHRT.LineChartValueItem.Name=Line Chart Value Item
+PRIM_CHRT.LineChartValueItem.Desc=A reference to a particular value in a line chart
+
+PRIM_CHRT.LineChartValueItem_FormatHint.Name=FormatHint method
+PRIM_CHRT.LineChartValueItem_FormatHint.Desc=Allows you to overwrite the default hint for a chart item
+
+PRIM_CHRT.PieChart.Name=Pie Chart
+PRIM_CHRT.PieChart.Desc=Pie Chart
+
+PRIM_CHRT.PieChart_AnimationDuration.Name=AnimationDuration property
+PRIM_CHRT.PieChart_AnimationDuration.Desc=The duration of all animations in milliseconds, a value of zero will disable animations
+
+PRIM_CHRT.PieChart_BorderWidth.Name=BorderWidth property
+PRIM_CHRT.PieChart_BorderWidth.Desc=Specifies the border width of the slices
+
+PRIM_CHRT.PieChart_CutoutPercentage.Name=CutoutPercentage property
+PRIM_CHRT.PieChart_CutoutPercentage.Desc=Allows you to turn a pie chart into a donut chart by creating a hole in the center
+
+PRIM_CHRT.PieChart_LegendPosition.Name=LegendPosition property
+PRIM_CHRT.PieChart_LegendPosition.Desc=The legend can either be hidden or displayed on any side of the chart 
+
+PRIM_CHRT.PieChartCaption.Name=Pie Chart Caption
+PRIM_CHRT.PieChartCaption.Desc=Defines the dataclass and behaviour of a pie chart's captions
+
+PRIM_CHRT.PieChartCaption_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.PieChartCaption_CurrentItem.Desc=The caption of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.PieChartCaption_Parent.Name=Parent property
+PRIM_CHRT.PieChartCaption_Parent.Desc=Reference to the pie chart that this is part of
+
+PRIM_CHRT.PieChartCaptionItem.Name=Pie Chart Caption Item
+PRIM_CHRT.PieChartCaptionItem.Desc=A reference to a particular caption in a pie chart
+
+PRIM_CHRT.PieChartValue.Name=Pie Chart Value
+PRIM_CHRT.PieChartValue.Desc=Defines the dataclass and behaviour of a pie chart's values
+
+PRIM_CHRT.PieChartValue_Parent.Name=Parent property
+PRIM_CHRT.PieChartValue_Parent.Desc=Reference to the pie chart that this is part of
+
+PRIM_CHRT.PieChartValue_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.PieChartValue_ThemeDrawStyle.Desc=Controls the colors to use when displaying this value in the chart
+
+PRIM_CHRT.PieChartValue_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.PieChartValue_CurrentItem.Desc=The value of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.PieChartValueItem.Name=Pie Chart Value Item
+PRIM_CHRT.PieChartValueItem.Desc=A reference to a particular value in a pie chart
+
+PRIM_CHRT.PieChartValueItem_FormatHint.Name=FormatHint method
+PRIM_CHRT.PieChartValueItem_FormatHint.Desc=Allows you to overwrite the default hint for a chart item
+
+PRIM_CHRT.Value.Name=Chart Value
+PRIM_CHRT.Value.Desc=Base class for all chart values
+
+PRIM_CHRT.Value_Click.Name=Click event
+PRIM_CHRT.Value_Click.Desc=Fired when an item is clicked
+
+PRIM_CHRT.Value_DisplayPosition.Name=DisplayPosition property
+PRIM_CHRT.Value_DisplayPosition.Desc=DisplayPosition determines the order of datasets displayed in the chart
+
+PRIM_CHRT.Value_Source.Name=Source property
+PRIM_CHRT.Value_Source.Desc=Field used as a source for a value
+
+PRIM_CHRT.Value_Value.Name=Value property
+PRIM_CHRT.Value_Value.Desc=The value of a chart item
+
+PRIM_CHRT.Value_Visible.Name=Visible property
+PRIM_CHRT.Value_Visible.Desc=Show or hide a dataset
+
+PRIM_CHRT.ValueAxis.Name=Chart Value Axis
+PRIM_CHRT.ValueAxis.Desc=Configuration of a chart's value axis
+
+PRIM_CHRT.ValueAxis_BeginAtZero.Name=BeginAtZero property
+PRIM_CHRT.ValueAxis_BeginAtZero.Desc=Ensure the axis includes a zero value
+
+PRIM_CHRT.ValueAxis_Max.Name=Max property
+PRIM_CHRT.ValueAxis_Max.Desc=Specifically set a maximum value for the axis
+
+PRIM_CHRT.ValueAxis_Min.Name=Min property
+PRIM_CHRT.ValueAxis_Min.Desc=Specifically set a minimum value for the axis
+
+PRIM_CHRT.ValueAxis_SuggestedMax.Name=SuggestedMax property
+PRIM_CHRT.ValueAxis_SuggestedMax.Desc=Suggest a maximum value for the axis to be used unless an item requires a higher value
+
+PRIM_CHRT.ValueAxis_SuggestedMin.Name=SuggestedMin property
+PRIM_CHRT.ValueAxis_SuggestedMin.Desc=Suggest a minimum value for the axis to be used unless an item requires a lower value
+
+PRIM_CHRT.ValueItem.Name=Chart Value Item
+PRIM_CHRT.ValueItem.Desc=Base class for all chart value items
+
+PRIM_CHRT.ValueItem_Value.Name=Value property
+PRIM_CHRT.ValueItem_Value.Desc=The value of a chart item
+
 PRIM_CKBX.Name=Check Box
 PRIM_CKBX.Desc=Check Box is typically used to present a Boolean choice
  
@@ -2540,7 +2873,7 @@ PRIM_COER_HelpContext.Name=HelpContext property
 PRIM_COER_HelpContext.Desc=Returns the context identifier of the help text for a failed HRESULT as a 32-bit integer.
  
 PRIM_COER_HelpFile.Name=HelpFile property
-PRIM_COER_HelpFile.Desc=Returns the name of a Window’s help file that can be used to display help text for a failed HRESULT.
+PRIM_COER_HelpFile.Desc=Returns the name of a Windowï¿½s help file that can be used to display help text for a failed HRESULT.
  
 PRIM_COER_IsError.Name=IsError property
 PRIM_COER_IsError.Desc=Returns a value indicating whether the current HRESULT is a failure.
@@ -2952,7 +3285,7 @@ PRIM_CTRL_SetFocus.Desc=Sets the control to be the focus control
  
 PRIM_CTRL_ShowMessages.Name=ShowMessages method
 PRIM_CTRL_ShowMessages.Desc=LANSA Internal Use
-  
+ 
 PRIM_CTRL_SkewLeft.Name=SkewLeft property
 PRIM_CTRL_SkewLeft.Desc=SkewLeft defines the angle at which to skew the control horizontally
  
@@ -6241,6 +6574,9 @@ PRIM_IOC_Base16Decode.Result.Desc=Binary string resulting from decoding Base16/H
 PRIM_IOC_Base16Decode.InputValue.Name=InputValue parameter
 PRIM_IOC_Base16Decode.InputValue.Desc=Unicode string containing a sequence of Base16/Hexadecimal characters
  
+PRIM_IOC_Base16Decode.Encoding.Name=Encoding parameter
+PRIM_IOC_Base16Decode.Encoding.Desc=[MISSING]
+ 
 PRIM_IOC_Base16Encode.Name=Base16/Hexadecimal encode
 PRIM_IOC_Base16Encode.Desc=Converts specified input value to a sequence of bytes before encoding the bytes as a sequence of Base16/Hexadecimal characters
  
@@ -6307,6 +6643,9 @@ PRIM_IOC_TryBase16Decode.InputValue.Desc=Unicode string containing a sequence of
 PRIM_IOC_TryBase16Decode.DecodedValue.Name=DecodedValue parameter
 PRIM_IOC_TryBase16Decode.DecodedValue.Desc=Binary string updated after successfully decoding specified Base16/Hexadecimal input value
  
+PRIM_IOC_TryBase16Decode.Encoding.Name=Encoding parameter
+PRIM_IOC_TryBase16Decode.Encoding.Desc=[MISSING]
+ 
 PRIM_IOC_TryBase64Decode.Name=TryBase64Decode method
 PRIM_IOC_TryBase64Decode.Desc=Attempts to convert specified input value from a sequence of Base64 characters to a binary string
  
@@ -6319,6 +6658,9 @@ PRIM_IOC_TryBase64Decode.InputValue.Desc=Unicode string containing a sequence of
 PRIM_IOC_TryBase64Decode.DecodedValue.Name=DecodedValue parameter
 PRIM_IOC_TryBase64Decode.DecodedValue.Desc=Binary string updated after successfully decoding specified Base64 input value
  
+PRIM_IOC_TryBase64Decode.Encoding.Name=Encoding parameter
+PRIM_IOC_TryBase64Decode.Encoding.Desc=[MISSING]
+ 
 PRIM_IOC_TryBase64UrlDecode.Name=TryBase64UrlDecode method
 PRIM_IOC_TryBase64UrlDecode.Desc=Attempts to convert specified input value from a sequence of Base64 URL-safe characters to a binary string
  
@@ -6330,6 +6672,9 @@ PRIM_IOC_TryBase64UrlDecode.InputValue.Desc=Unicode string containing a sequence
  
 PRIM_IOC_TryBase64UrlDecode.DecodedValue.Name=DecodedValue parameter
 PRIM_IOC_TryBase64UrlDecode.DecodedValue.Desc=Binary string updated after successfully decoding specified Base64 URL-safe input value
+ 
+PRIM_IOC_TryBase64UrlDecode.Encoding.Name=Encoding parameter
+PRIM_IOC_TryBase64UrlDecode.Encoding.Desc=[MISSING]
  
 PRIM_IOC_Utf16.Name=Utf16 property
 PRIM_IOC_Utf16.Desc=Reference to component that represents a UTF-16 encoding of Unicode characters with machine dependent byte order
@@ -6363,7 +6708,13 @@ PRIM_IOC.Stream_Length.Desc=Gets or sets the length in bytes of the stream
  
 PRIM_IOC.Stream_Position.Name=Position property
 PRIM_IOC.Stream_Position.Desc=Gets or sets the position within the current stream
-  
+ 
+PRIM_IOC.Stream_ReportMessage.Name=ReportMessage event
+PRIM_IOC.Stream_ReportMessage.Desc=[MISSING]
+ 
+PRIM_IOC.Stream_ReportMessage.Message.Name=Message parameter
+PRIM_IOC.Stream_ReportMessage.Message.Desc=[MISSING]
+ 
 PRIM_IOC.StreamReader.Name=PRIM_IOC.StreamReader
 PRIM_IOC.StreamReader.Desc=Implements a TextReader that reads characters from a byte stream in a particular encoding.
  
@@ -6430,6 +6781,12 @@ PRIM_IOC.StringWriter_Text.Desc=Returns a unicode string containing the characte
 PRIM_IOC.TextReader.Name=PRIM_IOC.TextReader
 PRIM_IOC.TextReader.Desc=Represents a reader that can read a sequential series of characters
  
+PRIM_IOC.TextReader_ReportMessage.Name=ReportMessage event
+PRIM_IOC.TextReader_ReportMessage.Desc=[MISSING]
+ 
+PRIM_IOC.TextReader_ReportMessage.Message.Name=Message parameter
+PRIM_IOC.TextReader_ReportMessage.Message.Desc=[MISSING]
+ 
 PRIM_IOC.TextReader_TryReadLine.Name=TryReadLine method
 PRIM_IOC.TextReader_TryReadLine.Desc=Attempts to read a line of characters from the text reader and returns the data as a string
  
@@ -6453,6 +6810,12 @@ PRIM_IOC.TextReader_TryReadString.String.Desc=The sequence of characters success
  
 PRIM_IOC.TextWriter.Name=PRIM_IOC.TextWriter
 PRIM_IOC.TextWriter.Desc=Represents a writer that can write a sequential series of characters
+ 
+PRIM_IOC.TextWriter_ReportMessage.Name=ReportMessage event
+PRIM_IOC.TextWriter_ReportMessage.Desc=[MISSING]
+ 
+PRIM_IOC.TextWriter_ReportMessage.Message.Name=Message parameter
+PRIM_IOC.TextWriter_ReportMessage.Message.Desc=[MISSING]
  
 PRIM_IOC.TextWriter_WriteLine.Name=WriteLine method
 PRIM_IOC.TextWriter_WriteLine.Desc=Writes data followed by a line terminator to the text string or stream
@@ -6681,7 +7044,7 @@ PRIM_JSON.Decimal_Value.Desc=Gets or sets the decimal value associated with the 
  
 PRIM_JSON.Document.Name=PRIM_JSON.Document
 PRIM_JSON.Document.Desc=JSON node class that represents the root of a JSON document tree mapped from JSON content, and gives us the primary access to the document's data
- 
+
 PRIM_JSON.Document_CreateArray.Name=CreateArray method
 PRIM_JSON.Document_CreateArray.Desc=Creates a new JSON Array node
  
@@ -6797,7 +7160,10 @@ PRIM_JSON.Document_RootNode.Name=RootNode property
 PRIM_JSON.Document_RootNode.Desc=Reference to JSON node assigned as the document root
  
 PRIM_JSON.Document_SaveToFile.Name=SaveToFile method
-PRIM_JSON.Document_SaveToFile.Desc=Save JSON Document.
+PRIM_JSON.Document_SaveToFile.Desc=[MISSING]
+ 
+PRIM_JSON.Document_SaveToString.Name=SaveToString method
+PRIM_JSON.Document_SaveToString.Desc=[MISSING]
  
 PRIM_JSON.Factory.Name=PRIM_JSON.Factory
 PRIM_JSON.Factory.Desc=Base class that specifies methods for getting access to Document instances (newly constructed, or shared, depending on type), as well as basic implementation of the methods. Designed to be sub-classed if extended functionality (additions to behavior of node types, mostly) is needed.
@@ -6854,17 +7220,29 @@ PRIM_JSON.Node.Name=PRIM_JSON.Node
 PRIM_JSON.Node.Desc=Base class for all JSON nodes, which form the basis of the JSON DOM
  
 PRIM_JSON.Node_AsBase16BinaryString.Name=AsBase16BinaryString method
-PRIM_JSON.Node_AsBase16BinaryString.Desc=Converts the value of the current JSON node to a binary string by decoding the value's sequence of Base16/Hexadecimal characters
- 
+PRIM_JSON.Node_AsBase16BinaryString.Desc=Converts the value of the current JSON node to a binary string by decoding the value's sequence of Base16/Hexadecimal characters 
+
 PRIM_JSON.Node_AsBase16BinaryString.Result.Name=Result parameter
 PRIM_JSON.Node_AsBase16BinaryString.Result.Desc=Binary string obtained by successfully converting current JSON node's value from it's Base16/Hexadecimal encoding
  
+PRIM_JSON.Node_AsBase16File.Name=AsBase16File method
+PRIM_JSON.Node_AsBase16File.Desc=[MISSING]
+ 
+PRIM_JSON.Node_AsBase16File.FileName.Name=FileName parameter
+PRIM_JSON.Node_AsBase16File.FileName.Desc=[MISSING]
+ 
 PRIM_JSON.Node_AsBase64BinaryString.Name=AsBase64BinaryString method
-PRIM_JSON.Node_AsBase64BinaryString.Desc=Converts the value of the current JSON node to a binary string by decoding the value's sequence of Base64 characters
+PRIM_JSON.Node_AsBase64BinaryString.Desc=Converts the value of the current JSON node to a binary string by decoding the value's sequence of Base64 characters 
  
 PRIM_JSON.Node_AsBase64BinaryString.Result.Name=Result parameter
 PRIM_JSON.Node_AsBase64BinaryString.Result.Desc=Binary string obtained by successfully converting current JSON node's value from it's Base64 encoding
-
+ 
+PRIM_JSON.Node_AsBase64File.Name=AsBase64File method
+PRIM_JSON.Node_AsBase64File.Desc=[MISSING]
+ 
+PRIM_JSON.Node_AsBase64File.FileName.Name=FileName parameter
+PRIM_JSON.Node_AsBase64File.FileName.Desc=[MISSING]
+ 
 PRIM_JSON.Node_AsBoolean.Name=AsBoolean method
 PRIM_JSON.Node_AsBoolean.Desc=Retrieves the value of the current JSON node as a boolean
  
@@ -12916,6 +13294,9 @@ PRIM_LIST.DateTime_MaxDate.Desc=MaxDate sets the maximum date and time that can 
 PRIM_LIST.DateTime_MinDate.Name=MinDate property
 PRIM_LIST.DateTime_MinDate.Desc=MinDate sets the minimum date and time that can be specified
  
+PRIM_LIST.DateTime_ReadOnly.Name=ReadOnly property
+PRIM_LIST.DateTime_ReadOnly.Desc=ReadOnly controls whether the cell can be used for input
+ 
 PRIM_LIST.DateTime_ShowDate.Name=ShowDate property
 PRIM_LIST.DateTime_ShowDate.Desc=Show or hide the date portion of the control
  
@@ -13060,23 +13441,44 @@ PRIM_LIST.DropDown_Text.Desc=Text contains the formatted data currently showing 
 PRIM_LIST.DropDown_Value.Name=Value property
 PRIM_LIST.DropDown_Value.Desc=Value of the data class
  
+PRIM_LIST.DropdownColumn.Name=Dropdown Column
+PRIM_LIST.DropdownColumn.Desc=Column displaying text that can be edited through a dropdown
+
+PRIM_LIST.DropdownColumn_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.DropdownColumn_CellThemeDrawStyle.Desc=Theme Drawstyle to be applied to the list cell
+
+PRIM_LIST.DropdownColumn_ColumnCaptionType.Name=ColumnCaptionType property
+PRIM_LIST.DropdownColumn_ColumnCaptionType.Desc=Type of caption to appear in the column header
+
+PRIM_LIST.DropdownColumn_ColumnReadOnly.Name=ColumnReadOnly property
+PRIM_LIST.DropdownColumn_ColumnReadOnly.Desc=Specifies whether the column is input capable
+
+PRIM_LIST.DropdownColumn_CurrentItem.Name=CurrentItem property
+PRIM_LIST.DropdownColumn_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
+
+PRIM_LIST.DropdownColumn_DropdownItems.Name=DropdownItems property
+PRIM_LIST.DropdownColumn_DropdownItems.Desc=The collection of items used to populate the dropdown
+
+PRIM_LIST.DropdownColumn_SortOnClick.Name=SortOnClick property
+PRIM_LIST.DropdownColumn_SortOnClick.Desc=Sort the column when the column header is clicked
+
+PRIM_LIST.DropdownColumn_Source.Name=Source property
+PRIM_LIST.DropdownColumn_Source.Desc=Field used as a source of data for the column
+
+PRIM_LIST.DropdownColumn_FocusItem.Name=FocusItem property
+PRIM_LIST.DropdownColumn_FocusItem.Desc=Reference to the focus item in the column
+
 PRIM_LIST.Icon.Name=PRIM_LIST.Icon
 PRIM_LIST.Icon.Desc=Column to display Icons in a list
  
 PRIM_LIST.Icon_CellThemeDrawStyle.Name=CellThemeDrawStyle property
 PRIM_LIST.Icon_CellThemeDrawStyle.Desc=Drawstyle to be applied to an icon cell in a list
  
-PRIM_LIST.Icon_Click.Name=Click event
-PRIM_LIST.Icon_Click.Desc=Fired when the mouse is clicked on the control
- 
 PRIM_LIST.Icon_ColumnCaptionType.Name=ColumnCaptionType property
 PRIM_LIST.Icon_ColumnCaptionType.Desc=Type of caption to appear in the column header
  
 PRIM_LIST.Icon_CurrentItem.Name=CurrentItem property
 PRIM_LIST.Icon_CurrentItem.Desc=Provides access to the Icon for the current list item
- 
-PRIM_LIST.Icon_DoubleClick.Name=DoubleClick event
-PRIM_LIST.Icon_DoubleClick.Desc=Fired when the user double clicks an item in the list
  
 PRIM_LIST.Icon_FocusItem.Name=FocusItem property
 PRIM_LIST.Icon_FocusItem.Desc=Provides access to the Icon for the current list item
@@ -13381,17 +13783,11 @@ PRIM_LIST.Label_CaptionMarginTop.Desc=Top margin in pixels
 PRIM_LIST.Label_CellThemeDrawStyle.Name=CellThemeDrawStyle property
 PRIM_LIST.Label_CellThemeDrawStyle.Desc=Drawstyle to be used in list cell
  
-PRIM_LIST.Label_Click.Name=Click event
-PRIM_LIST.Label_Click.Desc=Fired when the mouse is clicked on the control
- 
 PRIM_LIST.Label_ColumnCaptionType.Name=ColumnCaptionType property
 PRIM_LIST.Label_ColumnCaptionType.Desc=Type of caption to appear in the column header
  
 PRIM_LIST.Label_CurrentItem.Name=CurrentItem property
 PRIM_LIST.Label_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
- 
-PRIM_LIST.Label_DoubleClick.Name=DoubleClick event
-PRIM_LIST.Label_DoubleClick.Desc=Fired when the user double clicks an item in the list
  
 PRIM_LIST.Label_Ellipses.Name=Ellipses property
 PRIM_LIST.Label_Ellipses.Desc=Specifies if ellipses are displayed when text is truncated
@@ -13453,18 +13849,6 @@ PRIM_LIST.Label_PaddingRight.Desc=Right padding in pixels
 PRIM_LIST.Label_PaddingTop.Name=PaddingTop property
 PRIM_LIST.Label_PaddingTop.Desc=Top padding in pixels
  
-PRIM_LIST.Label_PrompterImage.Name=PrompterImage property
-PRIM_LIST.Label_PrompterImage.Desc=Image used to override the default file prompter image
- 
-PRIM_LIST.Label_Prompting.Name=Prompting event
-PRIM_LIST.Label_Prompting.Desc=Fired when prompt icon is pressed
- 
-PRIM_LIST.Label_Prompting.Items.Name=Items parameter
-PRIM_LIST.Label_Prompting.Items.Desc=Reference to the control on which the event was initially fired
- 
-PRIM_LIST.Label_ShowPrompter.Name=ShowPrompter property
-PRIM_LIST.Label_ShowPrompter.Desc=Show or hide the prompter
- 
 PRIM_LIST.Label_SortOnClick.Name=SortOnClick property
 PRIM_LIST.Label_SortOnClick.Desc=Sort the column when the column header is clicked
  
@@ -13491,9 +13875,6 @@ PRIM_LIST.LabelCurrentItem_CaptionMarginRight.Desc=Right margin in pixels
  
 PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Name=CaptionMarginTop property
 PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Desc=Top margin in pixels
- 
-PRIM_LIST.LabelCurrentItem_Dropdown.Name=Dropdown property
-PRIM_LIST.LabelCurrentItem_Dropdown.Desc=DropDown List Data in table format
  
 PRIM_LIST.LabelCurrentItem_Ellipses.Name=Ellipses property
 PRIM_LIST.LabelCurrentItem_Ellipses.Desc=Show ellipses for truncated text
@@ -13825,12 +14206,6 @@ PRIM_LIST.Number_PrompterActivate.Continue.Desc=Set to false to prevent the prom
 PRIM_LIST.Number_PrompterImage.Name=PrompterImage property
 PRIM_LIST.Number_PrompterImage.Desc=Image used to override the default file prompter image
  
-PRIM_LIST.Number_Prompting.Name=Prompting event
-PRIM_LIST.Number_Prompting.Desc=Fired when prompt icon is pressed
- 
-PRIM_LIST.Number_Prompting.Items.Name=Items parameter
-PRIM_LIST.Number_Prompting.Items.Desc=Reference to the control on which the event was initially fired
- 
 PRIM_LIST.Number_ShowPrompter.Name=ShowPrompter property
 PRIM_LIST.Number_ShowPrompter.Desc=Show or hide the prompter
  
@@ -13851,9 +14226,6 @@ PRIM_LIST.NumberCurrentItem_AutoSelect.Desc=Automatically select the text when t
  
 PRIM_LIST.NumberCurrentItem_DisplayAlignment.Name=DisplayAlignment property
 PRIM_LIST.NumberCurrentItem_DisplayAlignment.Desc=DisplayAlignment sets edit box alignment when not in focus
- 
-PRIM_LIST.NumberCurrentItem_Dropdown.Name=Dropdown property
-PRIM_LIST.NumberCurrentItem_Dropdown.Desc=DropDown List Data in table format
  
 PRIM_LIST.NumberCurrentItem_EditAlignment.Name=EditAlignment property
 PRIM_LIST.NumberCurrentItem_EditAlignment.Desc=EditAlignment sets the alignment of the text when in focus
@@ -14204,7 +14576,7 @@ PRIM_LIST_Virtualization.Name=Virtualization property
 PRIM_LIST_Virtualization.Desc=Specifies if a list is a virtualized.
  
 PRIM_LIST.String.Name=List String Column
-PRIM_LIST.String.Desc=Column displaying numerical data
+PRIM_LIST.String.Desc=Column displaying text
  
 PRIM_LIST.String_AutoCompleting.Name=AutoCompleting
 PRIM_LIST.String_AutoCompleting.Desc=Fired as a value is being edited allowing for a replacement value to be returned
@@ -14308,12 +14680,6 @@ PRIM_LIST.String_PrompterActivate.Continue.Desc=Set to false to prevent the prom
 PRIM_LIST.String_PrompterImage.Name=PrompterImage property
 PRIM_LIST.String_PrompterImage.Desc=Image used to override the default file prompter image
  
-PRIM_LIST.String_Prompting.Name=Prompting event
-PRIM_LIST.String_Prompting.Desc=Fired when prompt icon is pressed
- 
-PRIM_LIST.String_Prompting.Items.Name=Items parameter
-PRIM_LIST.String_Prompting.Items.Desc=Reference to the control on which the event was initially fired
- 
 PRIM_LIST.String_ShowPrompter.Name=ShowPrompter property
 PRIM_LIST.String_ShowPrompter.Desc=Show or hide the prompter
  
@@ -14337,9 +14703,6 @@ PRIM_LIST.StringCurrentItem_CharacterCase.Desc=CharacterCase sets character case
  
 PRIM_LIST.StringCurrentItem_DisplayAlignment.Name=DisplayAlignment property
 PRIM_LIST.StringCurrentItem_DisplayAlignment.Desc=DisplayAlignment sets edit box alignment when not in focus
- 
-PRIM_LIST.StringCurrentItem_Dropdown.Name=Dropdown property
-PRIM_LIST.StringCurrentItem_Dropdown.Desc=DropDown List Data in table format
  
 PRIM_LIST.StringCurrentItem_EditAlignment.Name=EditAlignment property
 PRIM_LIST.StringCurrentItem_EditAlignment.Desc=EditAlignment sets the alignment of the text when in focus
@@ -15595,9 +15958,6 @@ PRIM_MD.DateTime.Desc=Entry field used for entering and displaying dates and tim
 PRIM_MD.DateTime_Changed.Name=Changed event
 PRIM_MD.DateTime_Changed.Desc=Fired when the value is changed
  
-PRIM_MD.DateTime_CustomDateFormat.Name=CustomDateFormat property
-PRIM_MD.DateTime_CustomDateFormat.Desc=Show the date using a custom format
- 
 PRIM_MD.DateTime_DateFormat.Name=DateFormat property
 PRIM_MD.DateTime_DateFormat.Desc=Format of the date
  
@@ -16246,21 +16606,6 @@ PRIM_MD.ExpanderPanel_LayoutManager.Desc=Layout manager of the expander panel
 PRIM_MD.ExpanderPanel_WordWrap.Name=WordWrap property
 PRIM_MD.ExpanderPanel_WordWrap.Desc=Specifies if the caption will wrap
  
-PRIM_MD.FilePicker.Name=PRIM_MD.FilePicker
-PRIM_MD.FilePicker.Desc=Show explorer to select a file
- 
-PRIM_MD.FilePicker_FileSelected.Name=FileSelected event
-PRIM_MD.FilePicker_FileSelected.Desc=Fired when a file is selected
- 
-PRIM_MD.FilePicker_FileSelected.File.Name=File parameter
-PRIM_MD.FilePicker_FileSelected.File.Desc=Reference to the selected file object
- 
-PRIM_MD.FilePicker_FileSelected.Files.Name=Files parameter
-PRIM_MD.FilePicker_FileSelected.Files.Desc=Collection of the selected files
- 
-PRIM_MD.FilePicker_MultiSelect.Name=MultiSelect property
-PRIM_MD.FilePicker_MultiSelect.Desc=Allow multiple files to be selected
- 
 PRIM_MD.FlatButton.Name=Flat Button
 PRIM_MD.FlatButton.Desc=Button shown as a simple flat control
  
@@ -16488,9 +16833,6 @@ PRIM_MD.Input_IconImageSizing.Desc=Specifies the sizing behaviour of the IconIma
  
 PRIM_MD.Input_IconOpacity.Name=IconOpacity property
 PRIM_MD.Input_IconOpacity.Desc=Percentage opacity of the icon
- 
-PRIM_MD.Input_IconThemeDrawStyle.Name=IconThemeDrawStyle property
-PRIM_MD.Input_IconThemeDrawStyle.Desc=ThemeDrawStyle of icon
  
 PRIM_MD.Input_Placeholder.Name=Placeholder property
 PRIM_MD.Input_Placeholder.Desc=Text to be shown when the edit has no value
@@ -16750,15 +17092,6 @@ PRIM_MD.List_VerticalScrollPos.Desc=VerticalScrollPos sets the position of the v
 PRIM_MD.List_VerticalScrollRemainder.Name=VerticalScrollRemainder property
 PRIM_MD.List_VerticalScrollRemainder.Desc=Specifies the pixels remaining to the bottom from the current scroll position
  
-PRIM_MD.List_VerticalScrollTo.Name=VerticalScrollTo method
-PRIM_MD.List_VerticalScrollTo.Desc=Scroll the container to move a control in to view
- 
-PRIM_MD.List_VerticalScrollTo.Item.Name=Item parameter
-PRIM_MD.List_VerticalScrollTo.Item.Desc=Sets the item to scroll to
- 
-PRIM_MD.List_VerticalScrollTo.ScrollPosition.Name=ScrollPosition parameter
-PRIM_MD.List_VerticalScrollTo.ScrollPosition.Desc=Sets the position of the vertical scroll bar
- 
 PRIM_MD.ListBadge.Name=List Badge control
 PRIM_MD.ListBadge.Desc=Badge that is repeated for each entry in the list
  
@@ -16990,17 +17323,11 @@ PRIM_MD.ListDateTimeCurrentItem_Appearance.Desc=Format of the control Inherited 
 PRIM_MD.ListDateTimeCurrentItem_Caption.Name=Caption property
 PRIM_MD.ListDateTimeCurrentItem_Caption.Desc=Text to be shown within the control
  
-PRIM_MD.ListDateTimeCurrentItem_CaptionColor.Name=CaptionColor property
-PRIM_MD.ListDateTimeCurrentItem_CaptionColor.Desc=Color of caption
- 
 PRIM_MD.ListDateTimeCurrentItem_CaptionPosition.Name=CaptionPosition property
 PRIM_MD.ListDateTimeCurrentItem_CaptionPosition.Desc=Sets the position of Caption
  
 PRIM_MD.ListDateTimeCurrentItem_DateFormat.Name=DateFormat property
 PRIM_MD.ListDateTimeCurrentItem_DateFormat.Desc=Format of the date
- 
-PRIM_MD.ListDateTimeCurrentItem_HelperColor.Name=HelperColor property
-PRIM_MD.ListDateTimeCurrentItem_HelperColor.Desc=Color of helper text
  
 PRIM_MD.ListDateTimeCurrentItem_HelperPosition.Name=HelperPosition property
 PRIM_MD.ListDateTimeCurrentItem_HelperPosition.Desc=Position where the helper text will be displayed
@@ -17086,9 +17413,6 @@ PRIM_MD.ListEditCurrentItem_Appearance.Desc=Format of the control Inherited from
 PRIM_MD.ListEditCurrentItem_Caption.Name=Caption property
 PRIM_MD.ListEditCurrentItem_Caption.Desc=Text to be shown within the control
  
-PRIM_MD.ListEditCurrentItem_CaptionColor.Name=CaptionColor property
-PRIM_MD.ListEditCurrentItem_CaptionColor.Desc=Color of caption
- 
 PRIM_MD.ListEditCurrentItem_CaptionPosition.Name=CaptionPosition property
 PRIM_MD.ListEditCurrentItem_CaptionPosition.Desc=Sets the position of Caption
  
@@ -17100,9 +17424,6 @@ PRIM_MD.ListEditCurrentItem_EditAlignment.Desc=EditAlignment sets the alignment 
  
 PRIM_MD.ListEditCurrentItem_HasSelection.Name=HasSelection property
 PRIM_MD.ListEditCurrentItem_HasSelection.Desc=True if some of the editable text is selected
- 
-PRIM_MD.ListEditCurrentItem_HelperColor.Name=HelperColor property
-PRIM_MD.ListEditCurrentItem_HelperColor.Desc=Color of helper text
  
 PRIM_MD.ListEditCurrentItem_HelperPosition.Name=HelperPosition property
 PRIM_MD.ListEditCurrentItem_HelperPosition.Desc=Position where the helper text will be displayed
@@ -17719,17 +18040,11 @@ PRIM_MD.ListSpinEditCurrentItem_Appearance.Desc=Format of the control Inherited 
 PRIM_MD.ListSpinEditCurrentItem_Caption.Name=Caption property
 PRIM_MD.ListSpinEditCurrentItem_Caption.Desc=Text to be shown within the control
  
-PRIM_MD.ListSpinEditCurrentItem_CaptionColor.Name=CaptionColor property
-PRIM_MD.ListSpinEditCurrentItem_CaptionColor.Desc=Color of caption
- 
 PRIM_MD.ListSpinEditCurrentItem_CaptionPosition.Name=CaptionPosition property
 PRIM_MD.ListSpinEditCurrentItem_CaptionPosition.Desc=Sets the position of Caption
  
 PRIM_MD.ListSpinEditCurrentItem_HasSelection.Name=HasSelection property
 PRIM_MD.ListSpinEditCurrentItem_HasSelection.Desc=True if some of the editable text is selected
- 
-PRIM_MD.ListSpinEditCurrentItem_HelperColor.Name=HelperColor property
-PRIM_MD.ListSpinEditCurrentItem_HelperColor.Desc=Color of helper text
  
 PRIM_MD.ListSpinEditCurrentItem_HelperPosition.Name=HelperPosition property
 PRIM_MD.ListSpinEditCurrentItem_HelperPosition.Desc=Position where the helper text will be displayed
@@ -19113,7 +19428,13 @@ PRIM_PCOL_Item.Desc=Provides access to a particular item in a collection
  
 PRIM_PCOL_Item.Index.Name=Index parameter
 PRIM_PCOL_Item.Index.Desc=Index parameter identifies the item in the collection
- 
+
+PRIM_PDF.Name=PDF Writer
+PRIM_PDF.Desc=PDF report writer
+
+PRIM_PDF.Component_AutoTable.Name=AutoTable Plug-in
+PRIM_PDF.Component_AutoTable.Desc=Plug-in to write tables
+
 PRIM_PGBR.Name=Progress Bar
 PRIM_PGBR.Desc=Progress Bar shows how an operation progresses
  
@@ -19927,8 +20248,8 @@ PRIM_REGX.MatchAll.Desc=Enables repeated searching for all occurrences of a regu
 PRIM_REGX.MatchAll_Execute.Name=Execute method
 PRIM_REGX.MatchAll_Execute.Desc=Runs a search on specified input string for all occurrences of current regular expression and returns all the matches
  
-PRIM_REGX.MatchAll_Execute.Match.Name=Match parameter
-PRIM_REGX.MatchAll_Execute.Match.Desc=Reference to an object that contains information about the match
+PRIM_REGX.MatchAll_Execute.Matches.Name=Match parameter
+PRIM_REGX.MatchAll_Execute.Matches.Desc=Reference to a collection of the Match objects found by the search; if no matches were found, the collection is empty
  
 PRIM_REGX.MatchAll_Execute.InputString.Name=InputString parameter
 PRIM_REGX.MatchAll_Execute.InputString.Desc=The unicode string to search for a match
@@ -19983,7 +20304,7 @@ PRIM_REGX.MatchOne_Settings.Desc=Reference to a settings object that controls ma
  
 PRIM_REGX.Name=Regular expressions
 PRIM_REGX.Desc=Provides access to the LANSA regular expression engine
- 
+
 PRIM_REGX_IsMatch.Name=IsMatch method
 PRIM_REGX_IsMatch.Desc=Indicates whether the regular expression finds a match in the input string
  
@@ -20056,8 +20377,8 @@ PRIM_REGX.Replace.Desc=Enables repeated replacement of strings that match a spec
 PRIM_REGX.Replace_Execute.Name=Execute method
 PRIM_REGX.Replace_Execute.Desc=Replaces all strings that match a specified regular expression with a specified replacement string
  
-PRIM_REGX.Replace_Execute.Match.Name=Match parameter
-PRIM_REGX.Replace_Execute.Match.Desc=Reference to an object that contains information about the match
+PRIM_REGX.Replace_Execute.Result.Name=Match parameter
+PRIM_REGX.Replace_Execute.Result.Desc=The input string with the replacement string taking the place of each matched string
  
 PRIM_REGX.Replace_Execute.InputString.Name=InputString parameter
 PRIM_REGX.Replace_Execute.InputString.Desc=The unicode string to search for a match
@@ -20078,7 +20399,7 @@ PRIM_REGX.Settings.Name=PRIM_REGX.Settings
 PRIM_REGX.Settings.Desc=Settings object that controls matching options
  
 PRIM_REGX.Settings_ExplicitCapture.Name=ExplicitCapture property
-PRIM_REGX.Settings_ExplicitCapture.Desc=Specifies that the only valid captures are explicitly named or numbered groups of the form (?<name>…)
+PRIM_REGX.Settings_ExplicitCapture.Desc=Specifies that the only valid captures are explicitly named or numbered groups of the form (?<name>ï¿½)
  
 PRIM_REGX.Settings_IgnoreCase.Name=IgnoreCase property
 PRIM_REGX.Settings_IgnoreCase.Desc=Specifies case-insensitive matching
@@ -20097,12 +20418,12 @@ PRIM_REGX.Settings_Singleline.Desc=Specifies single-line mode; Changing the mean
  
 PRIM_REGX.Split.Name=PRIM_REGX.Split
 PRIM_REGX.Split.Desc=Enables repeated splitting of input strings at the positions defined by a regular expression
- 
+
 PRIM_REGX.Split_Execute.Name=Execute method
 PRIM_REGX.Split_Execute.Desc=Splits a specified input string into an array of substrings at the positions defined by the current regular expression pattern
  
-PRIM_REGX.Split_Execute.Match.Name=Match parameter
-PRIM_REGX.Split_Execute.Match.Desc=Reference to an object that contains information about the match
+PRIM_REGX.Split_Execute.Tokens.Name=Tokens parameter
+PRIM_REGX.Split_Execute.Tokens.Desc=Reference to capture collection identifying delimited substrings as determined by regular expression
  
 PRIM_REGX.Split_Execute.InputString.Name=InputString parameter
 PRIM_REGX.Split_Execute.InputString.Desc=The unicode string to split
@@ -23323,9 +23644,6 @@ PRIM_TREE_ItemRealizing.Item.Desc=Reference to the Tree item
 PRIM_TREE_Items.Name=Items property
 PRIM_TREE_Items.Desc=Collection of all items
  
-PRIM_TREE_ItemsPerRow.Name=ItemsPerRow property
-PRIM_TREE_ItemsPerRow.Desc=Number of items to be displayed across a single row
- 
 PRIM_TREE_LostFocus.Name=LostFocus event
 PRIM_TREE_LostFocus.Desc=LostFocus happens when a component is no longer active
  
@@ -24226,54 +24544,6 @@ PRIM_VCOL_Remove.Style.Desc=Style to be removed from the control
 PRIM_VCOL_RemoveAll.Name=RemoveAll method
 PRIM_VCOL_RemoveAll.Desc=Remove all added styles from the control
  
-PRIM_VCS.Compiler.Name=PRIM_VCS.Compiler
-PRIM_VCS.Compiler.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileProject.Name=CompileProject method
-PRIM_VCS.Compiler_CompileProject.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileProject.Result.Name=Result parameter
-PRIM_VCS.Compiler_CompileProject.Result.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileProject.Name.Name=Name parameter
-PRIM_VCS.Compiler_CompileProject.Name.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileProject.ExceptionListName.Name=ExceptionListName parameter
-PRIM_VCS.Compiler_CompileProject.ExceptionListName.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileProject.CompileObjectsInVcOnly.Name=CompileObjectsInVcOnly parameter
-PRIM_VCS.Compiler_CompileProject.CompileObjectsInVcOnly.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileProject.CompileSynchronously.Name=CompileSynchronously parameter
-PRIM_VCS.Compiler_CompileProject.CompileSynchronously.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileProject.ObjectTypesToCompile.Name=ObjectTypesToCompile parameter
-PRIM_VCS.Compiler_CompileProject.ObjectTypesToCompile.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileProject.CompileId.Name=CompileId parameter
-PRIM_VCS.Compiler_CompileProject.CompileId.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileSolution.Name=CompileSolution method
-PRIM_VCS.Compiler_CompileSolution.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileSolution.Result.Name=Result parameter
-PRIM_VCS.Compiler_CompileSolution.Result.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileSolution.ExceptionListName.Name=ExceptionListName parameter
-PRIM_VCS.Compiler_CompileSolution.ExceptionListName.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileSolution.CompileObjectsInVcOnly.Name=CompileObjectsInVcOnly parameter
-PRIM_VCS.Compiler_CompileSolution.CompileObjectsInVcOnly.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileSolution.CompileSynchronously.Name=CompileSynchronously parameter
-PRIM_VCS.Compiler_CompileSolution.CompileSynchronously.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileSolution.ObjectTypesToCompile.Name=ObjectTypesToCompile parameter
-PRIM_VCS.Compiler_CompileSolution.ObjectTypesToCompile.Desc=LANSA Internal Use
- 
-PRIM_VCS.Compiler_CompileSolution.CompileId.Name=CompileId parameter
-PRIM_VCS.Compiler_CompileSolution.CompileId.Desc=LANSA Internal Use
- 
 PRIM_VCS.Name=PRIM_VCS
 PRIM_VCS.Desc=LANSA Internal Use
  
@@ -24282,30 +24552,6 @@ PRIM_VCS_GetLatestVersion.Desc=LANSA Internal Use
  
 PRIM_VCS_GetLatestVersion.Result.Name=Result parameter
 PRIM_VCS_GetLatestVersion.Result.Desc=LANSA Internal Use
- 
-PRIM_VCS_GetLatestVersion.CompileChangedObjects.Name=CompileChangedObjects parameter
-PRIM_VCS_GetLatestVersion.CompileChangedObjects.Desc=LANSA Internal Use
- 
-PRIM_VCS_GetLatestVersion.CompileCrossReferences.Name=CompileCrossReferences parameter
-PRIM_VCS_GetLatestVersion.CompileCrossReferences.Desc=LANSA Internal Use
- 
-PRIM_VCS_GetLatestVersion.CompileObjectsInVcOnly.Name=CompileObjectsInVcOnly parameter
-PRIM_VCS_GetLatestVersion.CompileObjectsInVcOnly.Desc=LANSA Internal Use
- 
-PRIM_VCS_GetLatestVersion.CompileSynchronously.Name=CompileSynchronously parameter
-PRIM_VCS_GetLatestVersion.CompileSynchronously.Desc=LANSA Internal Use
- 
-PRIM_VCS_GetLatestVersion.ProjectName.Name=ProjectName parameter
-PRIM_VCS_GetLatestVersion.ProjectName.Desc=LANSA Internal Use
- 
-PRIM_VCS_GetLatestVersion.DoNotCompileListName.Name=DoNotCompileListName parameter
-PRIM_VCS_GetLatestVersion.DoNotCompileListName.Desc=LANSA Internal Use
- 
-PRIM_VCS_GetLatestVersion.ObjectTypesToCompile.Name=ObjectTypesToCompile parameter
-PRIM_VCS_GetLatestVersion.ObjectTypesToCompile.Desc=LANSA Internal Use
- 
-PRIM_VCS_GetLatestVersion.CompileId.Name=CompileId parameter
-PRIM_VCS_GetLatestVersion.CompileId.Desc=LANSA Internal Use
  
 PRIM_VCS_GetLatestVersionOf.Name=GetLatestVersionOf method
 PRIM_VCS_GetLatestVersionOf.Desc=LANSA Internal Use

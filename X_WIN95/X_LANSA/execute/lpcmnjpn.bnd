@@ -346,11 +346,17 @@ GServer.FailGSOpenChildWin.Id=135
 
 Category.Common=共通
 Category.Layout=レイアウト
+*** @TRANS END
+Category.CSS=CSS
+*** @TRANS END
 Category.Style=スタイル
 Category.LPCInternal=コンポーネント
 Category.Docking=ドッキング
 Category.Cell=セル
 Category.Column=列
+Category.Flex=フレックス
+Category.Margins=余白
+Category.Padding=パディング
 Category.Icon=アイコン
 Category.Prompt=プロンプト
 Category.Badge=バッジ
@@ -358,6 +364,7 @@ Category.MenuItem=メニュー アイテム
 Category.Caption=キャプション
 Category.Other=その他
 Category.User=ユーザーUser
+Category.Model=モデル
 
 Exception.Arithmetic=演算例外 例外:&1.
 Exception.Arithmetic.DivisionByZeroError=演算エラー - ゼロによる除算

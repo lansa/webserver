@@ -9,6 +9,9 @@ App.OutlineTitle=Vue hiérarchique
 App.OutlineLabel=Vue hiérarchique
 App.CompLabel=Détails
 App.PtyLabel=Propriétés
+*** @TRANS NEW
+App.PtyLayoutLabel=CSS
+*** @TRANS NEW
 App.EvtLabel=Evénements
 App.MthLabel=Méthodes
 App.RepLabel=Référentiel
@@ -1055,6 +1058,9 @@ MsgBox.FormatOptions.VersionControl.RestartVL=Les modifications de contrôle de v
 MsgBox.FormatOptions.VersionControl.GitInitialization=Un clone ne peut être créé que dans un répertoire vide. Tout objet du répertoire choisi sera enlever. Voulez-vous continuer?
 MsgBox.FormatOptions.VersionControl.GitNoRemoteRepo=Un référentiel distant n'a pas été précisé. Si un référentiel distant est ajouté plus tard, les conflits avec les fichiers existants peuvent se produire et devront être résolus manuellement. Voulez-vous continuer ?
 MsgBox.FormatOptions.VersionControl.EmptyField=&1 doit être précisé.
+*** @TRANS NEW
+MsgBox.FormatOptions.VersionControl.NoSpaces=&1 must not contain spaces.
+*** @TRANS END
 MsgBox.VersionControl.InitializeNewGitRepo=Initialisation du nouveaux référentiel Git. Patientez...
 MsgBox.VersionControl.InitialSyncWaitMessage=Synchronisation du référentiel local avec le référentiel distant cloné. Patientez...
 MsgBox.VersionControl.SyncWaitMessage=Synchronisation des objets dans le référentiel Visual LANSA avec le dossier de travail du contrôle de version.
@@ -1064,6 +1070,10 @@ MsgBox.VersionControl.SyncRefreshEditorMessage=Actualisation de l'éditeur...
 MsgBox.VersionControl.SyncUpdateFolderMessage=Traitement des modifications hors ligne...
 MsgBox.VersionControl.ObjectHasMergeConflict=Cet objet a un conflit de fusion en attente. Le code source affiché NE CONTIENT PAS les dernières modifications dans Git. Il est grandement recommandé de résoudre le conflit de fusion avant d’effectuer toute modification.
 MsgBox.VersionControl.ObjectHasInvalidYAML=Le fichier YAML pour cet objet contient un texte incorrect. Ceci peut provenir d’un conflit de fusion en attente. Le code source affiché NE CONTIENT PAS les dernières modifications du contrôle de version. Il est grandement recommandé de résoudre les erreurs du YAML en dehors de Visual LANSA avant d’effectuer toute modification dans Visual LANSA.
+*** @TRANS NEW
+MsgBox.VersionControl.PartitionRestartRequired=The current partition definition has changed. Not all changes will take effect until the next time you start Visual LANSA.
+MsgBox.VersionControl.PartitionRestart=The current partition definition has changed. Visual LANSA will now close. Please restart Visual LANSA for all changes to take effect.
+*** @TRANS END
 
 *************************************************************
 *** SPEED BUTTON HINTS                                  *****
@@ -3153,10 +3163,15 @@ VersionControl.Caption=Contrôle de version
 VersionControl.Actions.CreateFolder=Créer le dossier
 VersionControl.Actions.RenameFolder=Renommer le dossier
 VersionControl.Actions.CreateGitRepo=Créer le référentiel Git
+*** @TRANS NEW
+VersionControl.Actions.Fetch=Fetch
+*** @TRANS END
 VersionControl.Actions.Pull=Extraire
 VersionControl.Actions.Push=Push
 VersionControl.Actions.Commit=Commit
-VersionControl.Actions.SelectBranch=Modifier la branche
+*** @TRANS NEW
+VersionControl.Actions.SelectBranch=View Branches
+*** @TRANS END
 VersionControl.Actions.Branch=Branche
 VersionControl.Actions.NoBranch=Pas de commits dans le référentiel
 VersionControl.Actions.RemoteRepo=Référentiel distant
@@ -3167,12 +3182,50 @@ VersionControl.Actions.ShowItemFolderView=Afficher dans la vue de dossier
 VersionControl.Actions.ShowRepoFolderView=Afficher le référentiel
 VersionControl.Actions.ShowHistory=Afficher historique
 VersionControl.Actions.ResolveConflict=Résoudre les conflits
+*** @TRANS NEW
+VersionControl.Actions.ShowChanges=Show Changes
+VersionControl.Actions.NewBranch=New Local Branch From...
+VersionControl.Actions.Checkout=Checkout
+VersionControl.Actions.MergeBranch=Merge From...
+VersionControl.Actions.Rebase=Rebase Onto...
+
+VersionControl.Actions.PushPull.LocalBranch=Local Branch
+
+VersionControl.Actions.Fetch.Title=Fetch
+VersionControl.Actions.Fetch.Prune=Prune
+
+VersionControl.Actions.NewBranch.Title=New Branch
+VersionControl.Actions.NewBranch.NewBranch=New Branch
+VersionControl.Actions.NewBranch.FromBranch=From Branch
+VersionControl.Actions.NewBranch.CheckoutBranch=Checkout New Branch
+
+VersionControl.Actions.Checkout.Title=Checkout
+VersionControl.Actions.Checkout.Branch=Branch
+VersionControl.Actions.Checkout.LocalChanges=Local Changes
+VersionControl.Actions.Checkout.Leave=Don't Change
+VersionControl.Actions.Checkout.Discard=Discard
+VersionControl.Actions.Checkout.Stash=Stash
+VersionControl.Actions.Checkout.StashMessage=WIP when checkout &1: &2
+
+VersionControl.Actions.MergeBranch.Title=Merge Branches
+VersionControl.Actions.MergeBranch.Branch=Merge From Branch
+VersionControl.Actions.MergeBranch.IntoBranch=Into Current Branch
+VersionControl.Actions.MergeBranch.Commit=Commit Merge Result
+
+VersionControl.Actions.RebaseBranch.Title=Rebase Branch
+VersionControl.Actions.RebaseBranch.CurrentBranch=Rebase Current Branch
+VersionControl.Actions.RebaseBranch.OntoBranch=Onto Branch
+VersionControl.Actions.RebaseBranch.PreserveMerges=Preserve Merges
+*** @TRANS END
 
 VersionControl.Status.New=Nouveau
 VersionControl.Status.Unchanged=Inchangé
 VersionControl.Status.Changed=Modifié
 VersionControl.Status.Deleted=Supprimé
 VersionControl.Status.Renamed=Renommé
+*** @TRANS NEW
+VersionControl.Status.Moved=Déplacé
+*** @TRANS END
 VersionControl.Status.Conflict=Conflit
 VersionControl.Status.Unknown=Inconnu
 
@@ -3448,6 +3501,7 @@ Editor.Styles.ThemeForeDrawStyle.KeyTip=ZC
 Editor.Styles.ThemeBackDrawStyle.KeyTip=ZD
 Editor.Styles.ThemeThemeDrawStyle.KeyTip=ZE
 Editor.Styles.ThemeFontDrawStyle.KeyTip=ZF
+Editor.Styles.Typography.KeyTip=ZF
 Editor.Styles.ThemeBordersDrawStyle.KeyTip=ZG
 
 **************************************************************************
@@ -3611,6 +3665,9 @@ Editor.Styles.ThemeDivider.Right.Caption=Droite
 Editor.Styles.ThemeShadowsDrawStyle.Caption=Ombres
 Editor.Styles.ThemeShapesDrawStyle.Caption=Formes
 Editor.Styles.ThemeFontDrawStyle.Caption=Police
+*** @TRANS NEW
+Editor.Styles.Typography.Caption=Typography
+*** @TRANS END
 Editor.Styles.ThemeControlDrawStyle.Caption=Style de dessin de contrôles du thème
 Editor.Styles.Palette.Caption=Palette
 Editor.Styles.ThemeVariantsDrawStyle.Caption=Variantes
@@ -3826,6 +3883,184 @@ Editor.Layouts.Attach.Client.Title=Centre
 Editor.Layouts.Attach.Client.Hint=Attache le contrôle au centre de son parent
 Editor.Layouts.Attach.Title=Attachement
 Editor.Layouts.Attach.Hint=Crée un gestionnaire de présentation d'attachement pour le contrôle en cours
+*** @TRANS NEW
+Editor.Layouts.Html.Title=Html
+Editor.Layouts.HtmlDisplay.Title=Display
+Editor.Layouts.HtmlDisplay.Html.Caption=Html
+Editor.Layouts.HtmlDisplay.Flex.Caption=Flex
+Editor.Layouts.HtmlDisplay.FlexGrid.Caption=Flex Grid
+Editor.Layouts.HtmlPositioning.Caption=Positioning
+Editor.Layouts.HtmlPosition.Caption=Position
+Editor.Layouts.HtmlGutter.Caption=Gutters
+Editor.Layouts.HtmlVisible.Caption=Visible
+Editor.Layouts.HtmlVisibility.Caption=Visibility
+Editor.Layouts.HtmlRipple.Caption=Ripple
+Editor.Layouts.HtmlElevation.Caption=Elevation
+Editor.Layouts.HtmlTypography.Caption=Typography
+Editor.Layouts.HtmlType.Caption=Type
+Editor.Layouts.HtmlFontFamily.Caption=Font Family
+Editor.Layouts.HtmlFontSize.Caption=Font Size
+Editor.Layouts.HtmlFontStyle.Caption=Font Style
+Editor.Layouts.HtmlFontWeight.Caption=Font Weight
+Editor.Layouts.HtmlBorderWidth.Caption=Width
+Editor.Layouts.HtmlBorderStyle.Caption=Style
+Editor.Layouts.HtmlBorderColor.Caption=Color
+Editor.Layouts.HtmlBorderRadius.Caption=Radius
+Editor.Layouts.HtmlBorderTopLeftRadius.Caption=Top Left Radius
+Editor.Layouts.HtmlBorderTopRightRadius.Caption=Top Right Radius
+Editor.Layouts.HtmlBorderBottomLeftRadius.Caption=Bottom Left Radius
+Editor.Layouts.HtmlBorderBottomRightRadius.Caption=Bottom Right Radius
+Editor.Layouts.HtmlBorderLeftWidth.Caption=Left Width
+Editor.Layouts.HtmlBorderLeftStyle.Caption=Left Style
+Editor.Layouts.HtmlBorderLeftColor.Caption=Left Color
+Editor.Layouts.HtmlBorderTopWidth.Caption=Top Width
+Editor.Layouts.HtmlBorderTopStyle.Caption=Top Style
+Editor.Layouts.HtmlBorderTopColor.Caption=Top Color
+Editor.Layouts.HtmlBorderRightWidth.Caption=Right Width
+Editor.Layouts.HtmlBorderRightStyle.Caption=Right Style
+Editor.Layouts.HtmlBorderRightColor.Caption=Right Color
+Editor.Layouts.HtmlBorderBottomWidth.Caption=Bottom Width
+Editor.Layouts.HtmlBorderBottomStyle.Caption=Bottom Style
+Editor.Layouts.HtmlBorderBottomColor.Caption=Bottom Color
+Editor.Layouts.HtmlColor.Caption=Color
+Editor.Layouts.HtmlLetterSpacing.Caption=Letter Spacing
+Editor.Layouts.HtmlLineHeight.Caption=Line Height
+Editor.Layouts.HtmlTextAlign.Caption=Text Align
+Editor.Layouts.HtmlTextDecoration.Caption=Text Decoration
+Editor.Layouts.HtmlTextDecorationLine.Caption=Text Decoration Line
+Editor.Layouts.HtmlTextDecorationColor.Caption=Text Decoration Color
+Editor.Layouts.HtmlTextDecorationStyle.Caption=Text Decoration Style
+Editor.Layouts.HtmlTextIndent.Caption=Text Indent
+Editor.Layouts.HtmlTextShadow.Caption=Text Shadow
+Editor.Layouts.HtmlTextTransform.Caption=Text Transform
+Editor.Layouts.HtmlTextOverflow.Caption=Text Overflow
+Editor.Layouts.HtmlWhiteSpace.Caption=Whitespace
+Editor.Layouts.HtmlWordSpacing.Caption=Word Spacing
+Editor.Layouts.HtmlTransform.Caption=Transform
+Editor.Layouts.HtmlTransition.Caption=Transition
+Editor.Transition.Caption=Transition
+Editor.TransitionDelay.Caption=Transition Delay
+Editor.TransitionDuration.Caption=Transition Duration
+Editor.TransitionProperty.Caption=Transition Property
+Editor.TransitionTimingFunction.Caption=Transition Timing Function
+Editor.Animation.Caption=Animation
+Editor.AnimationDelay.Caption=Animation Delay
+Editor.AnimationDuration.Caption=Animation Duration
+Editor.AnimationIterationCount.Caption=Animation Iteration Count
+Editor.AnimationDirection.Caption=Animation Direction
+Editor.AnimationTimingFunction.Caption=Animation Timing Function
+Editor.AnimationFillMode.Caption=Animation Fill Mode
+Editor.AnimationName.Caption=Animation Name
+Editor.Layouts.HtmlAriaLabel.Caption=Aria Label
+Editor.Layouts.HtmlAriaHidden.Caption=Aria Hidden
+Editor.Layouts.HtmlClass.Caption=Class
+Editor.Layouts.HtmlOverflow.Caption=Overflow
+Editor.Layouts.HtmlOverflowX.Caption=Overflow X
+Editor.Layouts.HtmlOverflowY.Caption=Overflow Y
+Editor.Layouts.HtmlInline.Caption=Inline
+Editor.Layouts.HtmlDrawer.Caption=Drawer
+Editor.Layouts.HtmlDrawerMode.Caption=Mode
+Editor.Layouts.HtmlDrawerOpen.Caption=Open
+Editor.Layouts.ZIndex.Caption=Z-Index
+Editor.Layouts.TabIndex.Caption=Tab Index
+Editor.Layouts.HtmlPosition.Static.Caption=Static
+Editor.Layouts.HtmlPosition.Absolute.Caption=Absolute
+Editor.Layouts.HtmlPosition.Fixed.Caption=Fixed
+Editor.Layouts.HtmlPosition.Relative.Caption=Relative
+Editor.Layouts.HtmlPosition.Sticky.Caption=Sticky
+Editor.Layouts.Html.Extent.Caption=Extent
+Editor.Layouts.Html.Left.Caption=Left
+Editor.Layouts.Html.Top.Caption=Top
+Editor.Layouts.Html.Right.Caption=Right
+Editor.Layouts.Html.Bottom.Caption=Bottom
+Editor.Layouts.Html.Width.Caption=Width
+Editor.Layouts.Html.MinWidth.Caption=Min Width
+Editor.Layouts.Html.MaxWidth.Caption=Max Width
+Editor.Layouts.Html.Height.Caption=Height
+Editor.Layouts.Html.MinHeight.Caption=Min Height
+Editor.Layouts.Html.MaxHeight.Caption=Max Height
+Editor.Layouts.Html.Units.Caption=Units
+Editor.Layouts.Html.Units.Pixels.Caption=px
+Editor.Layouts.Html.Units.Percent.Caption=%
+Editor.CSS.ResetProperties.Hint=Reset all CSS properties
+Editor.CSS.ExpandAll.Hint=Expand all CSS property groups
+Editor.CSS.CollapseAll.Hint=Collapse all CSS property groups
+Editor.Layouts.CSSStyle.Title=Style
+Editor.Layouts.Overflow.Title=Overflow
+Editor.Layouts.Aria.Title=Aria
+Editor.Layouts.Animation.Title=Animation
+Editor.Layouts.Elevation.Title=Elevation
+Editor.Layouts.Transition.Title=Transition
+Editor.Layouts.Text.Title=Text
+Editor.Layouts.Font.Title=Font
+Editor.Layouts.Border.Title=Border
+Editor.Layouts.Background.Title=Background
+Editor.Layouts.Background.Caption=Background
+Editor.Layouts.BackgroundImage.Caption=Image
+Editor.Layouts.BackgroundPositionX.Caption=Position X
+Editor.Layouts.BackgroundPositionY.Caption=Position Y
+Editor.Layouts.BackgroundSize.Caption=Size
+Editor.Layouts.BackgroundRepeatX.Caption=Repeat X
+Editor.Layouts.BackgroundRepeatY.Caption=Repeat Y
+Editor.Layouts.BackgroundAttachment.Caption=Attachment
+Editor.Layouts.BackgroundOrigin.Caption=Origin
+Editor.Layouts.BackgroundClip.Caption=Clip
+Editor.Layouts.BackgroundColor.Caption=Color
+Editor.Layouts.FlexItem.Title=Flex Child
+Editor.Layouts.FlexItem.Grow.Caption=Grow
+Editor.Layouts.FlexItem.Columns.Caption=Columns
+Editor.Layouts.FlexItem.Shrink.Caption=Shrink
+Editor.Layouts.FlexItem.Order.Caption=Order
+Editor.Layouts.FlexItem.Basis.Caption=Basis
+Editor.Layouts.HtmlSize.Title=Size
+Editor.Layouts.HtmlPositioning.Title=Positioning
+Editor.Layouts.HtmlSizeAndPosition.Title=Size and Position
+Editor.Layouts.HtmlPosition.Title=Position
+Editor.Layouts.HtmlMargin.Title=Margin
+Editor.Layouts.HtmlMarginTop.Title=Margin Top
+Editor.Layouts.HtmlMarginRight.Title=Margin Right
+Editor.Layouts.HtmlMarginBottom.Title=Margin Bottom
+Editor.Layouts.HtmlMarginLeft.Title=Margin Left
+Editor.Layouts.HtmlPadding.Title=Padding
+Editor.Layouts.HtmlPaddingTop.Title=Padding Top
+Editor.Layouts.HtmlPaddingRight.Title=Padding Right
+Editor.Layouts.HtmlPaddingBottom.Title=Padding Bottom
+Editor.Layouts.HtmlPaddingLeft.Title=Padding Left
+Editor.Layouts.Flex.Title=Flex
+Editor.Layouts.FlexDirection.Caption=Direction
+Editor.Layouts.FlexDirection.Hint=Set the direction for the children of the Flex panel
+Editor.Layouts.FlexDirection.Row.Caption=Row
+Editor.Layouts.FlexDirection.RowReverse.Caption=Row Reverse
+Editor.Layouts.FlexDirection.Column.Caption=Column
+Editor.Layouts.FlexDirection.ColumnReverse.Caption=Column Reverse
+Editor.Layouts.FlexWrap.Caption=Wrap
+Editor.Layouts.FlexWrap.Hint=Set whether the children of the Flex panel should wrap or not
+Editor.Layouts.FlexWrap.NoWrap.Caption=No Wrap
+Editor.Layouts.FlexWrap.Wrap.Caption=Wrap
+Editor.Layouts.FlexWrap.WrapReverse.Caption=Wrap Reverse
+Editor.Layouts.FlexJustify.Caption=Justify Content
+Editor.Layouts.FlexJustify.Hint=Set the alignment of children on the main-axis when the children do not use all available space
+Editor.Layouts.FlexJustify.Start.Caption=Start
+Editor.Layouts.FlexJustify.End.Caption=End
+Editor.Layouts.FlexJustify.Center.Caption=Center
+Editor.Layouts.FlexJustify.Between.Caption=Space Between
+Editor.Layouts.FlexJustify.Around.Caption=Space Around
+Editor.Layouts.FlexAlignItems.Caption=Align Items
+Editor.Layouts.FlexAlignItems.Hint=Set the defaul alignment of children in the Flex panel
+Editor.Layouts.FlexAlignItems.Stretch.Caption=Stretch
+Editor.Layouts.FlexAlignItems.Center.Caption=Center
+Editor.Layouts.FlexAlignItems.Start.Caption=Start
+Editor.Layouts.FlexAlignItems.End.Caption=End
+Editor.Layouts.FlexAlignItems.Baseline.Caption=Baseline
+Editor.Layouts.FlexAlignContent.Caption=Align Content
+Editor.Layouts.FlexAlignContent.Hint=The Align Content property modifies the behavior of the Flex Wrap property. It is similar to Align Items, but instead of aligning children, it aligns flex lines
+Editor.Layouts.FlexAlignContent.Stretch.Caption=Stretch
+Editor.Layouts.FlexAlignContent.Center.Caption=Center
+Editor.Layouts.FlexAlignContent.Start.Caption=Start
+Editor.Layouts.FlexAlignContent.End.Caption=End
+Editor.Layouts.FlexAlignContent.Between.Caption=Space Between
+Editor.Layouts.FlexAlignContent.Around.Caption=Space Around
+*** @TRANS END
 Editor.Layouts.Table.Title=Table
 Editor.Layouts.Table.Hint=Crée un gestionnaire de présentation en table pour le contrôle en cours
 Editor.Layouts.Table.Item.Caption=Elément de table
@@ -3988,6 +4223,17 @@ Editor.Layouts.Table.Row.MinHeight.Caption=Hauteur Min
 Editor.Layouts.Table.Row.MaxHeight.Caption=Hauteur Max
 Editor.Layouts.Table.Col.MinWidth.Caption=Largeur Min
 Editor.Layouts.Table.Col.MaxWidth.Caption=Largeur Max
+
+*** @TRANS NEW
+Editor.Design.SnapToGrid.Caption=Snap to grid
+Editor.Design.ShowLines.Caption=Design lines
+Editor.Design.ShowGrid.Caption=Design grid
+Editor.Design.GridSettings.Caption=Show design settings
+Editor.Design.AddMenu.Caption=Add
+Editor.Design.AddChildPanel.Caption=Add child panel
+Editor.Design.AddSiblingPanel.Caption=Add sibling panel
+Editor.Design.ShowDevices.Tip=Toggle device toolbar
+*** @TRANS END
 
 Editor.Styles.Borders.Caption=Bordures
 Editor.Styles.BordersLeft.Caption=Gauche
@@ -4597,6 +4843,19 @@ Editor.ControlsView.Md.Buttons.OutlineRounded.Caption=Boutons arrondis Outlined
 Editor.ControlsView.Md.Buttons.Floating.Caption=Boutons d'action flottants
 Editor.ControlsView.Md.Alerts.Caption=Alertes
 Editor.ControlsView.Md.Cards.Caption=Cartes
+Editor.ControlsView.Md.Charts.Caption=Graphique
+Editor.ControlsView.Md.Charts.PieChart.Caption=Graphe Camembert
+Editor.ControlsView.Md.Charts.DonutChart.Caption=Graphe Anneau
+Editor.ControlsView.Md.Charts.BarChart.Caption=Graphe Barre 
+Editor.ControlsView.Md.Charts.LineChart.Caption=Graphe Courbe
+Editor.ControlsView.Md.Charts.BubbleChart.Caption=Graphe Bulle
+Editor.ControlsView.Md.Charts.LineChart.Curved.Caption=Graphe courbe avec une ligne courbe
+Editor.ControlsView.Md.Charts.LineChart.Stepped.Caption=Graphe courbe avec une ligne en escalier
+Editor.ControlsView.Md.Charts.LineChart.Area.Caption=Graphe courbe comme graphique en aire
+Editor.ControlsView.Md.Charts.LineChart.MultiValue.Caption=Graphe courbe avec plusieurs valeurs 
+Editor.ControlsView.Md.Charts.BarChart.MultiValue.Hor.Caption=Graphe Barre Horizontale avec plusieurs valeurs
+Editor.ControlsView.Md.Charts.BarChart.MultiValue.Ver.Caption=Graphe Barre Verticale avec plusieurs valeurs
+Editor.ControlsView.Md.Charts.BarChart.Stacked.Caption=Graphe barre empilées
 Editor.ControlsView.Md.Slider.Caption=Curseur
 Editor.ControlsView.Md.Snackbar.Caption=Snackbar
 Editor.ControlsView.Md.Progress.Caption=Progression
@@ -4610,6 +4869,15 @@ Editor.ControlsView.Md.FilePicker.OutlineRounded.Caption=Sélecteur arrondi encad
 Editor.ControlsView.Md.FilePicker.Default.Text=SELECTIONNER
 Editor.ControlsView.Md.Chips.Caption=Chips
 Editor.ControlsView.Md.Dividers.Caption=Diviseurs
+*** @TRANS NEW
+Editor.ControlsView.Md.Layout.Caption=Layout
+Editor.ControlsView.Md.LayoutBlocks.Caption=Building Blocks
+Editor.ControlsView.Md.LayoutCards.Caption=Cards
+Editor.ControlsView.Md.LayoutSections.Caption=Sections
+Editor.ControlsView.Md.LayoutLayouts.Caption=Layouts
+Editor.ControlsView.Md.LayoutResponsiveLayouts.Caption=Responsive Layouts
+Editor.ControlsView.Md.LayoutExamples.Caption=Examples
+*** @TRANS END
 Editor.ControlsView.Md.Dialogs.Caption=Dialogues
 Editor.ControlsView.Md.Dialogs.Save.Caption=ENREGISTRER
 Editor.ControlsView.Md.Dialogs.Discard.Caption=ABANDONNER
@@ -4658,6 +4926,21 @@ Editor.ControlsView.Md.Lists.Caption=Listes
 Editor.ControlsView.Md.BottomNavigation.Caption=Navigation en bas
 Editor.ControlsView.Md.Tabs.Caption=Onglets
 Editor.ControlsView.Md.Menus.Caption=Menus
+*** @TRANS NEW
+Editor.ControlsView.Md.Menus1.Caption=Simple Menu
+Editor.ControlsView.Md.Menus2.Caption=Nested Menu
+Editor.ControlsView.Md.Menus.MyFiles.Caption=My Files
+Editor.ControlsView.Md.Menus.Shared.Caption=Shared with me
+Editor.ControlsView.Md.Menus.Starred.Caption=Starred
+Editor.ControlsView.Md.Menus.Recent.Caption=Recent
+Editor.ControlsView.Md.Menus.Favorites.Caption=Favorites
+Editor.ControlsView.Md.Menus.Folders.Caption=Folders
+Editor.ControlsView.Md.Menus.Sent.Caption=Sent
+Editor.ControlsView.Md.Menus.Archive.Caption=Archive
+Editor.ControlsView.Md.Menus.Draft.Caption=Drafts
+Editor.ControlsView.Md.Menus.Inbox.Caption=Inbox
+Editor.ControlsView.Md.Menus.Junk.Caption=Junk
+*** @TRANS END
 Editor.ControlsView.Md.Nav1.Caption=Onglets
 Editor.ControlsView.Md.Nav1.Desc=Navigation à trois destinations de niveau supérieur alignées en haut
 Editor.ControlsView.Md.Nav2.Caption=Barre de navigation en bas
@@ -4686,11 +4969,16 @@ Editor.ControlsView.Md.Panel.Desc=Couche parente des contrôles
 Editor.ControlsView.Md.DateTime.Caption=Dates
 Editor.ControlsView.Md.Date.Caption=Date
 Editor.ControlsView.Md.Time.Caption=Heure
-Editor.ControlsView.Md.CheckBox.Caption=Cases à cocher
+Editor.ControlsView.Md.CheckBoxes.Caption=Cases à cocher
 Editor.ControlsView.Md.CheckBox1.Caption=Case à cocher
 Editor.ControlsView.Md.CheckBox1.Desc=Case à cocher standard
-Editor.ControlsView.Md.RadioButton.Caption=Case d'option 
-Editor.ControlsView.Md.Switch.Caption=Commutateurs
+Editor.ControlsView.Md.RadioButtons.Caption=Case d'option 
+Editor.ControlsView.Md.Switches.Caption=Commutateurs
+*** @TRANS NEW
+Editor.ControlsView.Md.Switch.Caption=Toggle
+Editor.ControlsView.Md.CheckBox.Caption=Checkbox
+Editor.ControlsView.Md.RadioButton.Caption=Option
+*** @TRANS END
 Editor.ControlsView.Md.Tables.Caption=Tables de données
 Editor.ControlsView.Md.Table.Caption=Table de données
 Editor.ControlsView.Md.Table.String.Caption=Colonne chaîne
@@ -4706,7 +4994,7 @@ Editor.ControlsView.Md.Text.Edit.Caption=Edition
 Editor.ControlsView.Md.Text.Edit.Desc=Les zones d'édition permettent aux utilisateurs de saisir, éditer, et sélectionner le texte
 Editor.ControlsView.Md.Text.Field.Caption=Edit
 Editor.ControlsView.Md.Text.FieldBox.Caption=Zone d'édition
-Editor.ControlsView.Md.Text.FieldBox.Desc=Edition avec identification renformée
+Editor.ControlsView.Md.Text.FieldBox.Desc=Edition avec identification renforcée
 Editor.ControlsView.Md.Text.Field.Desc=Edit permet aux utilisateurs de saisir, éditer et sélectionner le texte
 Editor.ControlsView.Md.Text.Field.Label=Caption
 Editor.ControlsView.Md.Text.DateField.Caption=Date 
@@ -4739,6 +5027,10 @@ Editor.ControlsView.Md.AppDrawer.View4.Caption=Paramètres
 Editor.ControlsView.Md.Avatar.Caption=Avatars
 Editor.ControlsView.Md.NavButton.Caption=Bouton de navigation
 Editor.ControlsView.Md.NavButton.Desc=Le bouton de navigation contrôle l'affichage de vos vues de niveau supérieur
+*** @TRANS NEW
+Editor.ControlsView.Md.Container.Caption=Container
+Editor.ControlsView.Md.Container.Desc=Container is used as a grouping component for application content
+*** @TRANS END
 Editor.ControlsView.Md.NavContainer.Caption=Conteneur de vue
 Editor.ControlsView.Md.NavContainer.Desc=Conteneur de vue utilisé comme composant de regroupement externe de vos vues de niveau supérieur
 Editor.ControlsView.Md.NavTabs.Caption=Onglets
@@ -4901,6 +5193,29 @@ Editor.ControlsView.Card.Phone2.Caption=(613) 222-8989
 Editor.ControlsView.Card.Lorem.Caption=Lorem ipsum
 Editor.ControlsView.Card.LoremShort.Caption=Lorem ipsum dolor sit amet, gravida ultrices, neque id, leo nonummy.
 Editor.ControlsView.Card.LoremMedium.Caption=Lorem ipsum dolor sit amet, gravida ultrices, neque id, leo nonummy. Tellus imperdiet, vivamus mi ultricies, proin varius lorem. Lorem ultricies, ut wisi. Turpis dolore. A nonummy.
+*** @TRANS NEW
+Editor.ControlsView.Typography.Headline1.Caption=Headline 1
+Editor.ControlsView.Typography.Headline2.Caption=Headline 2
+Editor.ControlsView.Typography.Headline3.Caption=Headline 3
+Editor.ControlsView.Typography.Headline4.Caption=Headline 4
+Editor.ControlsView.Typography.Headline5.Caption=Headline 5
+Editor.ControlsView.Typography.Headline6.Caption=Headline 6
+Editor.ControlsView.Typography.Body1.Caption=Body 1
+Editor.ControlsView.Typography.SecondaryBody1.Caption=Secondary Body 1
+Editor.ControlsView.Typography.Body2.Caption=Body 2
+Editor.ControlsView.Typography.SecondaryBody2.Caption=Secondary Body 2
+Editor.ControlsView.Typography.Text.Caption=Text Span
+Editor.ControlsView.Typography.SecondaryText.Caption=Secondary Text Span
+Editor.ControlsView.Typography.SubTitle1.Caption=Subtitle 1
+Editor.ControlsView.Typography.SecondarySubTitle1.Caption=Secondary Subtitle 1
+Editor.ControlsView.Typography.SubTitle2.Caption=Subtitle 2
+Editor.ControlsView.Typography.SecondarySubTitle2.Caption=Secondary Subtitle 2
+Editor.ControlsView.Typography.Caption.Caption=Caption
+Editor.ControlsView.Typography.SecondaryCaption.Caption=Secondary Caption
+Editor.ControlsView.Typography.Button.Caption=Button
+Editor.ControlsView.Typography.Overline.Caption=Overline
+Editor.ControlsView.Typography.SecondaryOverline.Caption=Secondary Overline
+*** @TRANS END
 Editor.ControlsView.List.Name.Caption=Nom
 Editor.ControlsView.List.1Line.Caption=Elément d'une seule ligne
 Editor.ControlsView.List.2Line.Caption=Elément de deux lignes

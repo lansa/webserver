@@ -1708,6 +1708,9 @@ PRIM_BOOK_Sort.Key.Desc=User defined sort order
 PRIM_BOOK_Sort.Order.Name=Order parameter
 PRIM_BOOK_Sort.Order.Desc=Order in which to sort the list
  
+PRIM_CAPI.Name=Cryptography API(s)
+PRIM_CAPI.Desc=Home of Cryptography API(s)
+ 
 PRIM_CARO.CarouselItem.Name=Carousel Item
 PRIM_CARO.CarouselItem.Desc=Item created when an entry is added to a Carousel
  
@@ -2134,6 +2137,339 @@ PRIM_CCOL_Item.Desc=Provides access to a particular item in a collection
 PRIM_CCOL_Item.StandardCursor.Name=StandardCursor parameter
 PRIM_CCOL_Item.StandardCursor.Desc=Enumeration of system cursors
  
+PRIM_CHRT.Name=Chart
+PRIM_CHRT.Desc=Chart
+
+PRIM_CHRT.Axis.Name=Chart Axis
+PRIM_CHRT.Axis.Desc=Base class of all chart axes configuration classes
+
+PRIM_CHRT.Axis_Title.Name=Title property
+PRIM_CHRT.Axis_Title.Desc=The title displayed with an axis
+
+PRIM_CHRT.BarChart.Name=Bar Chart
+PRIM_CHRT.BarChart.Desc=Bar Chart
+
+PRIM_CHRT.BarChart_AnimationDuration.Name=AnimationDuration property
+PRIM_CHRT.BarChart_AnimationDuration.Desc=The duration of all animations in milliseconds, a value of zero will disable animations
+
+PRIM_CHRT.BarChart_Axes.Name=Axes property
+PRIM_CHRT.BarChart_Axes.Desc=Determines which axes to show
+
+PRIM_CHRT.BarChart_BarPercentage.Name=BarPercentage property
+PRIM_CHRT.BarChart_BarPercentage.Desc=Determines the width of each bar as a percentage of the available space
+
+PRIM_CHRT.BarChart_BarType.Name=BarType property
+PRIM_CHRT.BarChart_BarType.Desc=A bar chart can show each category as either grouped or stacked
+
+PRIM_CHRT.BarChart_CaptionAxis.Name=CaptionAxis property
+PRIM_CHRT.BarChart_CaptionAxis.Desc=The configuration details of the axis used to display captions
+
+PRIM_CHRT.BarChart_CategoryPercentage.Name=CategoryPercentage property
+PRIM_CHRT.BarChart_CategoryPercentage.Desc=Determines the width of each group/category of bars as a percentage of the available space
+
+PRIM_CHRT.BarChart_FormatTick.Name=FormatTick event
+PRIM_CHRT.BarChart_FormatTick.Desc=Fires when the ticks are created to allow formatting of the tick values
+
+PRIM_CHRT.BarChart_GridLines.Name=Gridlines property
+PRIM_CHRT.BarChart_GridLines.Desc=Determines which gridlines to show
+
+PRIM_CHRT.BarChart_LegendPosition.Name=LegendPosition property
+PRIM_CHRT.BarChart_LegendPosition.Desc=The legend can either be hidden or displayed on any side of the chart 
+
+PRIM_CHRT.BarChart_Orientation.Name=Orientation property
+PRIM_CHRT.BarChart_Orientation.Desc=Allows you to choose a vertical or a horizontal bar chart
+
+PRIM_CHRT.BarChart_PrimaryAxis.Name=PrimaryAxis property
+PRIM_CHRT.BarChart_PrimaryAxis.Desc=The configuration details of the primary value axis
+
+PRIM_CHRT.BarChart_SecondaryAxis.Name=SecondaryAxis property
+PRIM_CHRT.BarChart_SecondaryAxis.Desc=The configuration details of the secondary value axis
+
+PRIM_CHRT.BarChartCaption.Name=Bar Chart Caption
+PRIM_CHRT.BarChartCaption.Desc=Defines the dataclass and behaviour of a bar chart's captions
+
+PRIM_CHRT.BarChartCaption_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.BarChartCaption_CurrentItem.Desc=The caption of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.BarChartCaption_Parent.Name=Parent property
+PRIM_CHRT.BarChartCaption_Parent.Desc=Reference to the bar chart that this is part of
+
+PRIM_CHRT.BarChartCaptionItem.Name=Bar Chart Caption Item
+PRIM_CHRT.BarChartCaptionItem.Desc=A reference to a particular caption in a bar chart
+
+PRIM_CHRT.BarChartValue.Name=Bar Chart Value
+PRIM_CHRT.BarChartValue.Desc=Defines the dataclass and behaviour of a bar chart's values
+
+PRIM_CHRT.BarChartValue_Axis.Name=Axis property
+PRIM_CHRT.BarChartValue_Axis.Desc=Specifies which axis to plot this value against
+
+PRIM_CHRT.BarChartValue_BorderWidth.Name=BorderWidth property
+PRIM_CHRT.BarChartValue_BorderWidth.Desc=Specifies the border width of this value's bar
+
+PRIM_CHRT.BarChartValue_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.BarChartValue_CurrentItem.Desc=The value of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.BarChartValue_Description.Name=Description property
+PRIM_CHRT.BarChartValue_Description.Desc=Description of this particular set of values
+
+PRIM_CHRT.BarChartValue_Parent.Name=Parent property
+PRIM_CHRT.BarChartValue_Parent.Desc=Reference to the bar chart that this is part of
+
+PRIM_CHRT.BarChartValue_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.BarChartValue_ThemeDrawStyle.Desc=Controls the colors to use when displaying this value in the chart
+
+PRIM_CHRT.BarChartValueItem.Name=Bar Chart Value Item
+PRIM_CHRT.BarChartValueItem.Desc=A reference to a particular value in a bar chart
+
+PRIM_CHRT.BarChartValueItem_FormatHint.Name=FormatHint method
+PRIM_CHRT.BarChartValueItem_FormatHint.Desc=Allows you to overwrite the default hint for a chart item
+
+PRIM_CHRT.BubbleChart.Name=Bubble Chart
+PRIM_CHRT.BubbleChart.Desc=Bubble Chart
+
+PRIM_CHRT.BubbleChart_AnimationDuration.Name=AnimationDuration property
+PRIM_CHRT.BubbleChart_AnimationDuration.Desc=The duration of all animations in milliseconds, a value of zero will disable animations
+
+PRIM_CHRT.BubbleChart_Axes.Name=Axes property
+PRIM_CHRT.BubbleChart_Axes.Desc=Determines which axes to show
+
+PRIM_CHRT.BubbleChart_BorderWidth.Name=BorderWidth property
+PRIM_CHRT.BubbleChart_BorderWidth.Desc=Specifies the border width of the bubbles
+
+PRIM_CHRT.BubbleChart_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.BubbleChart_CurrentItem.Desc=Represents the bubble in the chart that was touched either in the UI or via a list related command
+
+PRIM_CHRT.BubbleChart_MinSize.Name=MinSize property
+PRIM_CHRT.BubbleChart_MinSize.Desc=The minimum size of a bubble, a bubble's size is determined by its value in relation to the min and max size
+
+PRIM_CHRT.BubbleChart_MaxSize.Name=MaxSize property
+PRIM_CHRT.BubbleChart_MaxSize.Desc=The maximum size of a bubble, a bubble's size is determined by its value in relation to the min and max size
+
+PRIM_CHRT.BubbleChart_FormatTick.Name=FormatTick event
+PRIM_CHRT.BubbleChart_FormatTick.Desc=Fires when the ticks are created to allow formatting of the tick values
+
+PRIM_CHRT.BubbleChart_GridLines.Name=Gridlines property
+PRIM_CHRT.BubbleChart_GridLines.Desc=Determines which gridlines to show
+
+PRIM_CHRT.BubbleChart_LegendPosition.Name=LegendPosition property
+PRIM_CHRT.BubbleChart_LegendPosition.Desc=The legend can either be hidden or displayed on any side of the chart 
+
+PRIM_CHRT.BubbleChart_PrimaryAxis.Name=PrimaryAxis property
+PRIM_CHRT.BubbleChart_PrimaryAxis.Desc=The configuration details of the primary value axis
+
+PRIM_CHRT.BubbleChart_SecondaryAxis.Name=SecondaryAxis property
+PRIM_CHRT.BubbleChart_SecondaryAxis.Desc=The configuration details of the secondary value axis
+
+PRIM_CHRT.BubbleChartCategory.Name=Bubble Chart Category
+PRIM_CHRT.BubbleChartCategory.Desc=Defines the categories of bubbles in the bubble chart
+
+PRIM_CHRT.BubbleChartCategory_Parent.Name=Parent property
+PRIM_CHRT.BubbleChartCategory_Parent.Desc=Reference to the bubble chart that this is part of
+
+PRIM_CHRT.BubbleChartCategory_Caption.Name=Caption property
+PRIM_CHRT.BubbleChartCategory_Caption.Desc=The category's caption is displayed in the legend
+
+PRIM_CHRT.BubbleChartCategory_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.BubbleChartCategory_ThemeDrawStyle.Desc=Controls the colors to use for this category in the bubble chart
+
+PRIM_CHRT.BubbleChartValue.Name=Bubble Chart Value
+PRIM_CHRT.BubbleChartValue.Desc=Defines a value displayed in the bubble chart, depending on display position this is either the x-, y-, or size-value
+
+PRIM_CHRT.BubbleChartValue_Description.Name=Description property
+PRIM_CHRT.BubbleChartValue_Description.Desc=A bubble represents a set of three values, the descriptions of each of these values are used in the default hint
+
+PRIM_CHRT.BubbleChartValue_Parent.Name=Parent property
+PRIM_CHRT.BubbleChartValue_Parent.Desc=Reference to the bubble chart that this is part of
+
+PRIM_CHRT.BubbleChartItem.Name=Bubble Chart Item
+PRIM_CHRT.BubbleChartItem.Desc=A reference to a particular bubble in a bubble chart.
+
+PRIM_CHRT.BubbleChartItem_FormatHint.Name=FormatHint method
+PRIM_CHRT.BubbleChartItem_FormatHint.Desc=Allows you to overwrite the default hint for a bubble
+
+PRIM_CHRT.BubbleChartItem_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.BubbleChartItem_ThemeDrawStyle.Desc=Controls the colors to use when displaying this bubble in the chart
+
+PRIM_CHRT.Caption.Name=Chart Caption
+PRIM_CHRT.Caption.Desc=Base class for all chart captions
+
+PRIM_CHRT.Caption_Caption.Name=Caption property
+PRIM_CHRT.Caption_Caption.Desc=The caption of a chart item
+
+PRIM_CHRT.Caption_Source.Name=Source property
+PRIM_CHRT.Caption_Source.Desc=Field used as a source for a caption
+
+PRIM_CHRT.CaptionAxis.Name=Chart Caption Axis
+PRIM_CHRT.CaptionAxis.Desc=Configuration of a chart's caption axis
+
+PRIM_CHRT.CaptionItem.Name=Chart Caption Item
+PRIM_CHRT.CaptionItem.Desc=Base class for all chart caption items
+
+PRIM_CHRT.CaptionItem_Caption.Name=Caption property
+PRIM_CHRT.CaptionItem_Caption.Desc=The caption of a chart item
+
+PRIM_CHRT.Column.Name=Chart Column
+PRIM_CHRT.Column.Desc=Base class for all chart columns
+
+PRIM_CHRT.LineChart.Name=Line Chart
+PRIM_CHRT.LineChart.Desc=Line Chart
+
+PRIM_CHRT.LineChart_AnimationDuration.Name=AnimationDuration property
+PRIM_CHRT.LineChart_AnimationDuration.Desc=The duration of all animations in milliseconds, a value of zero will disable animations
+
+PRIM_CHRT.LineChart_Axes.Name=Axes property
+PRIM_CHRT.LineChart_Axes.Desc=Determines which axes to show
+
+PRIM_CHRT.LineChart_CaptionAxis.Name=CaptionAxis property
+PRIM_CHRT.LineChart_CaptionAxis.Desc=The configuration details of the axis used to display captions
+
+PRIM_CHRT.LineChart_FormatTick.Name=FormatTick event
+PRIM_CHRT.LineChart_FormatTick.Desc=Fires when the ticks are created to allow formatting of the tick values
+
+PRIM_CHRT.LineChart_GridLines.Name=Gridlines property
+PRIM_CHRT.LineChart_GridLines.Desc=Determines which gridlines to show
+
+PRIM_CHRT.LineChart_LegendPosition.Name=LegendPosition property
+PRIM_CHRT.LineChart_LegendPosition.Desc=The legend can either be hidden or displayed on any side of the chart 
+
+PRIM_CHRT.LineChart_PrimaryAxis.Name=PrimaryAxis property
+PRIM_CHRT.LineChart_PrimaryAxis.Desc=The configuration details of the primary value axis
+
+PRIM_CHRT.LineChart_SecondaryAxis.Name=SecondaryAxis property
+PRIM_CHRT.LineChart_SecondaryAxis.Desc=The configuration details of the secondary value axis
+
+PRIM_CHRT.LineChartCaption.Name=Line Chart Caption
+PRIM_CHRT.LineChartCaption.Desc=Defines the dataclass and behaviour of a line chart's captions
+
+PRIM_CHRT.LineChartCaption_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.LineChartCaption_CurrentItem.Desc=The caption of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.LineChartCaption_Parent.Name=Parent property
+PRIM_CHRT.LineChartCaption_Parent.Desc=Reference to the line chart that this is part of
+
+PRIM_CHRT.LineChartCaptionItem.Name=Line Chart Caption Item
+PRIM_CHRT.LineChartCaptionItem.Desc=A reference to a particular caption in a line chart
+
+PRIM_CHRT.LineChartValue.Name=Line Chart Value
+PRIM_CHRT.LineChartValue.Desc=Defines the dataclass and behaviour of a line chart's values
+
+PRIM_CHRT.LineChartValue_Axis.Name=Axis property
+PRIM_CHRT.LineChartValue_Axis.Desc=Specifies which axis to plot this value against
+
+PRIM_CHRT.LineChartValue_BorderWidth.Name=BorderWidth property
+PRIM_CHRT.LineChartValue_BorderWidth.Desc=Because a line chart is effectively an area chart, it is the border width that determines the width of the line
+
+PRIM_CHRT.LineChartValue_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.LineChartValue_CurrentItem.Desc=The value of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.LineChartValue_Description.Name=Description property
+PRIM_CHRT.LineChartValue_Description.Desc=Description of this particular set of values
+
+PRIM_CHRT.LineChartValue_LineStyle.Name=LineStyle property
+PRIM_CHRT.LineChartValue_LineStyle.Desc=Describes how to draw the line connecting the values
+
+PRIM_CHRT.LineChartValue_Parent.Name=Parent property
+PRIM_CHRT.LineChartValue_Parent.Desc=Reference to the line chart that this is part of
+
+PRIM_CHRT.LineChartValue_PointStyle.Name=PointStyle property
+PRIM_CHRT.LineChartValue_PointStyle.Desc=Describes how to draw the points representing the values
+
+PRIM_CHRT.LineChartValue_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.LineChartValue_ThemeDrawStyle.Desc=Controls the background(=area) and border(=line) colors use to draw the card
+
+PRIM_CHRT.LineChartValueItem.Name=Line Chart Value Item
+PRIM_CHRT.LineChartValueItem.Desc=A reference to a particular value in a line chart
+
+PRIM_CHRT.LineChartValueItem_FormatHint.Name=FormatHint method
+PRIM_CHRT.LineChartValueItem_FormatHint.Desc=Allows you to overwrite the default hint for a chart item
+
+PRIM_CHRT.PieChart.Name=Pie Chart
+PRIM_CHRT.PieChart.Desc=Pie Chart
+
+PRIM_CHRT.PieChart_AnimationDuration.Name=AnimationDuration property
+PRIM_CHRT.PieChart_AnimationDuration.Desc=The duration of all animations in milliseconds, a value of zero will disable animations
+
+PRIM_CHRT.PieChart_BorderWidth.Name=BorderWidth property
+PRIM_CHRT.PieChart_BorderWidth.Desc=Specifies the border width of the slices
+
+PRIM_CHRT.PieChart_CutoutPercentage.Name=CutoutPercentage property
+PRIM_CHRT.PieChart_CutoutPercentage.Desc=Allows you to turn a pie chart into a donut chart by creating a hole in the center
+
+PRIM_CHRT.PieChart_LegendPosition.Name=LegendPosition property
+PRIM_CHRT.PieChart_LegendPosition.Desc=The legend can either be hidden or displayed on any side of the chart 
+
+PRIM_CHRT.PieChartCaption.Name=Pie Chart Caption
+PRIM_CHRT.PieChartCaption.Desc=Defines the dataclass and behaviour of a pie chart's captions
+
+PRIM_CHRT.PieChartCaption_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.PieChartCaption_CurrentItem.Desc=The caption of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.PieChartCaption_Parent.Name=Parent property
+PRIM_CHRT.PieChartCaption_Parent.Desc=Reference to the pie chart that this is part of
+
+PRIM_CHRT.PieChartCaptionItem.Name=Pie Chart Caption Item
+PRIM_CHRT.PieChartCaptionItem.Desc=A reference to a particular caption in a pie chart
+
+PRIM_CHRT.PieChartValue.Name=Pie Chart Value
+PRIM_CHRT.PieChartValue.Desc=Defines the dataclass and behaviour of a pie chart's values
+
+PRIM_CHRT.PieChartValue_Parent.Name=Parent property
+PRIM_CHRT.PieChartValue_Parent.Desc=Reference to the pie chart that this is part of
+
+PRIM_CHRT.PieChartValue_ThemeDrawStyle.Name=ThemeDrawStyle property
+PRIM_CHRT.PieChartValue_ThemeDrawStyle.Desc=Controls the colors to use when displaying this value in the chart
+
+PRIM_CHRT.PieChartValue_CurrentItem.Name=CurrentItem property
+PRIM_CHRT.PieChartValue_CurrentItem.Desc=The value of the last item in the chart touched either in the UI or via a list related command
+
+PRIM_CHRT.PieChartValueItem.Name=Pie Chart Value Item
+PRIM_CHRT.PieChartValueItem.Desc=A reference to a particular value in a pie chart
+
+PRIM_CHRT.PieChartValueItem_FormatHint.Name=FormatHint method
+PRIM_CHRT.PieChartValueItem_FormatHint.Desc=Allows you to overwrite the default hint for a chart item
+
+PRIM_CHRT.Value.Name=Chart Value
+PRIM_CHRT.Value.Desc=Base class for all chart values
+
+PRIM_CHRT.Value_Click.Name=Click event
+PRIM_CHRT.Value_Click.Desc=Fired when an item is clicked
+
+PRIM_CHRT.Value_DisplayPosition.Name=DisplayPosition property
+PRIM_CHRT.Value_DisplayPosition.Desc=DisplayPosition determines the order of datasets displayed in the chart
+
+PRIM_CHRT.Value_Source.Name=Source property
+PRIM_CHRT.Value_Source.Desc=Field used as a source for a value
+
+PRIM_CHRT.Value_Value.Name=Value property
+PRIM_CHRT.Value_Value.Desc=The value of a chart item
+
+PRIM_CHRT.Value_Visible.Name=Visible property
+PRIM_CHRT.Value_Visible.Desc=Show or hide a dataset
+
+PRIM_CHRT.ValueAxis.Name=Chart Value Axis
+PRIM_CHRT.ValueAxis.Desc=Configuration of a chart's value axis
+
+PRIM_CHRT.ValueAxis_BeginAtZero.Name=BeginAtZero property
+PRIM_CHRT.ValueAxis_BeginAtZero.Desc=Ensure the axis includes a zero value
+
+PRIM_CHRT.ValueAxis_Max.Name=Max property
+PRIM_CHRT.ValueAxis_Max.Desc=Specifically set a maximum value for the axis
+
+PRIM_CHRT.ValueAxis_Min.Name=Min property
+PRIM_CHRT.ValueAxis_Min.Desc=Specifically set a minimum value for the axis
+
+PRIM_CHRT.ValueAxis_SuggestedMax.Name=SuggestedMax property
+PRIM_CHRT.ValueAxis_SuggestedMax.Desc=Suggest a maximum value for the axis to be used unless an item requires a higher value
+
+PRIM_CHRT.ValueAxis_SuggestedMin.Name=SuggestedMin property
+PRIM_CHRT.ValueAxis_SuggestedMin.Desc=Suggest a minimum value for the axis to be used unless an item requires a lower value
+
+PRIM_CHRT.ValueItem.Name=Chart Value Item
+PRIM_CHRT.ValueItem.Desc=Base class for all chart value items
+
+PRIM_CHRT.ValueItem_Value.Name=Value property
+PRIM_CHRT.ValueItem_Value.Desc=The value of a chart item
+
 PRIM_CKBX.Name=Check Box
 PRIM_CKBX.Desc=Check Box is typically used to present a Boolean choice
  
@@ -2537,7 +2873,7 @@ PRIM_COER_HelpContext.Name=HelpContext property
 PRIM_COER_HelpContext.Desc=Returns the context identifier of the help text for a failed HRESULT as a 32-bit integer.
  
 PRIM_COER_HelpFile.Name=HelpFile property
-PRIM_COER_HelpFile.Desc=Returns the name of a Window’s help file that can be used to display help text for a failed HRESULT.
+PRIM_COER_HelpFile.Desc=Returns the name of a Windowï¿½s help file that can be used to display help text for a failed HRESULT.
  
 PRIM_COER_IsError.Name=IsError property
 PRIM_COER_IsError.Desc=Returns a value indicating whether the current HRESULT is a failure.
@@ -2777,7 +3113,7 @@ PRIM_CTRL_FadeOut.Delay.Name=Delay parameter
 PRIM_CTRL_FadeOut.Delay.Desc=Number of milliseconds to wait before starting the animation
  
 PRIM_CTRL_FadeOut.Visible.Name=Visible parameter
-PRIM_CTRL_FadeOut.Visible.Desc=Default - False. Value of the control Visible property at the end of the animation
+PRIM_CTRL_FadeOut.Visible.Desc=Default - false. Value of the control Visible property at the end of the animation
  
 PRIM_CTRL_FixedPosition.Name=FixedPosition property
 PRIM_CTRL_FixedPosition.Desc=Fix the control position so that it does not move if the parent is scrolled
@@ -3047,16 +3383,16 @@ PRIM_CTRL_TouchStart.Origin.Name=Origin parameter
 PRIM_CTRL_TouchStart.Origin.Desc=Reference to the control on which the event was initially fired
  
 PRIM_CTRL_TouchStart.TouchMove.Name=TouchMove parameter
-PRIM_CTRL_TouchStart.TouchMove.Desc=Set to False to prevent moving
+PRIM_CTRL_TouchStart.TouchMove.Desc=Set to false to prevent moving
  
 PRIM_CTRL_TouchStart.TouchRotate.Name=TouchRotate parameter
-PRIM_CTRL_TouchStart.TouchRotate.Desc=Set to False to prevent a rotation
+PRIM_CTRL_TouchStart.TouchRotate.Desc=Set to false to prevent a rotation
  
 PRIM_CTRL_TouchStart.TouchScale.Name=TouchScale parameter
-PRIM_CTRL_TouchStart.TouchScale.Desc=Set to False to prevent scaling
+PRIM_CTRL_TouchStart.TouchScale.Desc=Set to false to prevent scaling
  
 PRIM_CTRL_TouchStart.TouchSize.Name=TouchSize parameter
-PRIM_CTRL_TouchStart.TouchSize.Desc=Set to False to prevent sizing
+PRIM_CTRL_TouchStart.TouchSize.Desc=Set to false to prevent sizing
  
 PRIM_CTRL_Unrealize.Name=Unrealize method
 PRIM_CTRL_Unrealize.Desc=Destroys the visual portion of dynamically created controls
@@ -3179,7 +3515,7 @@ PRIM_DC_SetValue.Name=SetValue method
 PRIM_DC_SetValue.Desc=Set Field value
  
 PRIM_DC_SetValue.Result.Name=Result parameter
-PRIM_DC_SetValue.Result.Desc=True if assignment succeeded, otherwise False
+PRIM_DC_SetValue.Result.Desc=True if assignment succeeded, otherwise false
  
 PRIM_DC_SetValue.Value.Name=Value parameter
 PRIM_DC_SetValue.Value.Desc=Value to be applied to the data class
@@ -3493,6 +3829,9 @@ PRIM_DLG.Desc=Simple modal dialog with shroud
 PRIM_DLG_AutoClose.Name=AutoClose property
 PRIM_DLG_AutoClose.Desc=Close the dialog automatically
  
+PRIM_DLG_AutoFocus.Name=AutoFocus property
+PRIM_DLG_AutoFocus.Desc=AutoFocus property sets focus to dialog automatically when opened
+ 
 PRIM_DLG_ClearErrors.Name=ClearErrors method
 PRIM_DLG_ClearErrors.Desc=Clears errors of fields in the dialog
  
@@ -3551,7 +3890,7 @@ PRIM_DTIM_Checked.Name=Checked property
 PRIM_DTIM_Checked.Desc=Checked indicates whether the check box is selected
  
 PRIM_DTIM_CloseDropDown.Name=CloseDropDown method
-PRIM_DTIM_CloseDropDown.Desc=Forces the listbox portion of a DateTime to be closed
+PRIM_DTIM_CloseDropDown.Desc=Forces the listbox portion of a datetime to be closed
  
 PRIM_DTIM_CloseUp.Name=CloseUp event
 PRIM_DTIM_CloseUp.Desc=Fired when the calendar portion of the control is closed
@@ -3638,7 +3977,7 @@ PRIM_DTIM_MinDate.Name=MinDate property
 PRIM_DTIM_MinDate.Desc=MinDate sets the minimum date and time that can be specified
  
 PRIM_DTIM_OpenDropDown.Name=OpenDropDown method
-PRIM_DTIM_OpenDropDown.Desc=Forces the listbox portion of a DateTime to be shown
+PRIM_DTIM_OpenDropDown.Desc=Forces the listbox portion of a datetime to be shown
  
 PRIM_DTIM_ReadOnly.Name=ReadOnly property
 PRIM_DTIM_ReadOnly.Desc=ReadOnly controls whether a component can be used for input
@@ -3854,7 +4193,7 @@ PRIM_EVDT_Checked.Name=Checked property
 PRIM_EVDT_Checked.Desc=Checked indicates whether the check box is selected
  
 PRIM_EVDT_CloseDropDown.Name=CloseDropDown method
-PRIM_EVDT_CloseDropDown.Desc=Forces the listbox portion of a DateTime to be closed
+PRIM_EVDT_CloseDropDown.Desc=Forces the listbox portion of a datetime to be closed
  
 PRIM_EVDT_CloseUp.Name=CloseUp event
 PRIM_EVDT_CloseUp.Desc=Fired when the calendar portion of the control is closed
@@ -6189,6 +6528,1347 @@ PRIM_IMGE_ImageHeight.Desc=ImageHeight is the height of the original image
  
 PRIM_IMGE_ImageWidth.Name=ImageWidth property
 PRIM_IMGE_ImageWidth.Desc=ImageWidth is the width of the original image
+ 
+PRIM_IOC.Encoding.Name=PRIM_IOC.Encoding
+PRIM_IOC.Encoding.Desc=Represents a character encoding
+ 
+PRIM_IOC.FileStream.Name=PRIM_IOC.FileStream
+PRIM_IOC.FileStream.Desc=Provides a Stream for a file, supporting both read and write operations
+ 
+PRIM_IOC.FileStream_BufferSize.Name=BufferSize property
+PRIM_IOC.FileStream_BufferSize.Desc=A positive 32-bit integer value greater than 0 indicating the buffer size
+ 
+PRIM_IOC.FileStream_FileAccess.Name=FileAccess property
+PRIM_IOC.FileStream_FileAccess.Desc=A constant that determines how the file can be accessed by the FileStream object
+ 
+PRIM_IOC.FileStream_FileMode.Name=FileMode property
+PRIM_IOC.FileStream_FileMode.Desc=A constant that determines how to open or create the file
+ 
+PRIM_IOC.FileStream_FileShare.Name=FileShare property
+PRIM_IOC.FileStream_FileShare.Desc=A constant that determines how the file will be shared by processes
+ 
+PRIM_IOC.FileStream_Path.Name=Path property
+PRIM_IOC.FileStream_Path.Desc=A relative or absolute path for the file that the current FileStream object will encapsulate
+ 
+PRIM_IOC.IPromise.Name=PRIM_IOC.IPromise
+PRIM_IOC.IPromise.Desc=Interface that represents the eventual result of an asynchronous operation, a placeholder into which the successful result value or reason for failure will materialize.
+ 
+PRIM_IOC.MemoryStream.Name=PRIM_IOC.MemoryStream
+PRIM_IOC.MemoryStream.Desc=Implements a stream whose backing store is memory
+ 
+PRIM_IOC.MemoryStream_BufferSize.Name=BufferSize property
+PRIM_IOC.MemoryStream_BufferSize.Desc=Size of the internal array in bytes
+ 
+PRIM_IOC.MemoryStream_Chunked.Name=Chunked property
+PRIM_IOC.MemoryStream_Chunked.Desc=Forces backing store to grow by allocating multiple memory blocks not just resizing one memory block
+ 
+PRIM_IOC.Name=Input, Output and Codings Library
+PRIM_IOC.Desc=Home of Input, Output and Coding support
+ 
+PRIM_IOC_Base16Decode.Name=Base16/Hexadecimal decode
+PRIM_IOC_Base16Decode.Desc=Converts specified input value from a sequence of Base16/Hexadecimal characters to a binary string
+ 
+PRIM_IOC_Base16Decode.Result.Name=Result parameter
+PRIM_IOC_Base16Decode.Result.Desc=Binary string resulting from decoding Base16/Hexadecimal input value
+ 
+PRIM_IOC_Base16Decode.InputValue.Name=InputValue parameter
+PRIM_IOC_Base16Decode.InputValue.Desc=Unicode string containing a sequence of Base16/Hexadecimal characters
+ 
+PRIM_IOC_Base16Decode.Encoding.Name=Encoding parameter
+PRIM_IOC_Base16Decode.Encoding.Desc=[MISSING]
+ 
+PRIM_IOC_Base16Encode.Name=Base16/Hexadecimal encode
+PRIM_IOC_Base16Encode.Desc=Converts specified input value to a sequence of bytes before encoding the bytes as a sequence of Base16/Hexadecimal characters
+ 
+PRIM_IOC_Base16Encode.Result.Name=Result parameter
+PRIM_IOC_Base16Encode.Result.Desc=Unicode string as Base16/Hexadecimal encoding of input value
+ 
+PRIM_IOC_Base16Encode.InputValue.Name=InputValue parameter
+PRIM_IOC_Base16Encode.InputValue.Desc=Value to be encoded as a sequence of Base16/Hexadecimal characters
+ 
+PRIM_IOC_Base16Encode.Encoding.Name=Encoding parameter
+PRIM_IOC_Base16Encode.Encoding.Desc=Encoding to be used when specified input value is converted to bytes; UTF-8 is the default
+ 
+PRIM_IOC_Base64Decode.Name=Base64 decode
+PRIM_IOC_Base64Decode.Desc=Converts specified input value from a sequence of Base64 characters to a binary string
+ 
+PRIM_IOC_Base64Decode.Result.Name=Result parameter
+PRIM_IOC_Base64Decode.Result.Desc=Binary string resulting from decoding Base64 input value
+ 
+PRIM_IOC_Base64Decode.InputValue.Name=InputValue parameter
+PRIM_IOC_Base64Decode.InputValue.Desc=Unicode string containing a sequence of Base64 characters
+ 
+PRIM_IOC_Base64Encode.Name=Base64 encode
+PRIM_IOC_Base64Encode.Desc=Converts specified input value to a sequence of bytes before encoding the bytes as a sequence of Base64 characters
+ 
+PRIM_IOC_Base64Encode.Result.Name=Result parameter
+PRIM_IOC_Base64Encode.Result.Desc=Unicode string as Base64 encoding of input value
+ 
+PRIM_IOC_Base64Encode.InputValue.Name=InputValue parameter
+PRIM_IOC_Base64Encode.InputValue.Desc=Value to be encoded as a sequence of Base64 characters
+ 
+PRIM_IOC_Base64Encode.Encoding.Name=Encoding parameter
+PRIM_IOC_Base64Encode.Encoding.Desc=Encoding to be used when specified input value is converted to bytes; UTF-8 is the default
+ 
+PRIM_IOC_Base64UrlDecode.Name=Base64UrlDecode method
+PRIM_IOC_Base64UrlDecode.Desc=Converts specified input value from a sequence of Base64 URL-safe characters to a binary string
+ 
+PRIM_IOC_Base64UrlDecode.Result.Name=Result parameter
+PRIM_IOC_Base64UrlDecode.Result.Desc=Binary string resulting from decoding Base64 URL-safe input value
+ 
+PRIM_IOC_Base64UrlDecode.InputValue.Name=InputValue parameter
+PRIM_IOC_Base64UrlDecode.InputValue.Desc=Unicode string containing a sequence of Base64 URL-safe characters
+ 
+PRIM_IOC_Base64UrlEncode.Name=Base64UrlEncode method
+PRIM_IOC_Base64UrlEncode.Desc=Converts specified input value to a sequence of bytes before encoding the bytes as a sequence of Base64 URL-safe characters
+ 
+PRIM_IOC_Base64UrlEncode.Result.Name=Result parameter
+PRIM_IOC_Base64UrlEncode.Result.Desc=Unicode string as Base64 URL-safe encoding of input value
+ 
+PRIM_IOC_Base64UrlEncode.InputValue.Name=InputValue parameter
+PRIM_IOC_Base64UrlEncode.InputValue.Desc=Value to be encoded as a sequence of Base64 URL-safe characters
+ 
+PRIM_IOC_Base64UrlEncode.Encoding.Name=Encoding parameter
+PRIM_IOC_Base64UrlEncode.Encoding.Desc=Encoding to be used when specified input value is converted to bytes; UTF-8 is the default
+ 
+PRIM_IOC_TryBase16Decode.Name=TryBase16Decode method
+PRIM_IOC_TryBase16Decode.Desc=Attempts to convert specified input value from a sequence of Base16/Hexadecimal characters to a binary string
+ 
+PRIM_IOC_TryBase16Decode.Result.Name=Result parameter
+PRIM_IOC_TryBase16Decode.Result.Desc=True if the specified input value can be converted, otherwise false
+ 
+PRIM_IOC_TryBase16Decode.InputValue.Name=InputValue parameter
+PRIM_IOC_TryBase16Decode.InputValue.Desc=Unicode string containing a sequence of Base16/Hexadecimal characters
+ 
+PRIM_IOC_TryBase16Decode.DecodedValue.Name=DecodedValue parameter
+PRIM_IOC_TryBase16Decode.DecodedValue.Desc=Binary string updated after successfully decoding specified Base16/Hexadecimal input value
+ 
+PRIM_IOC_TryBase16Decode.Encoding.Name=Encoding parameter
+PRIM_IOC_TryBase16Decode.Encoding.Desc=[MISSING]
+ 
+PRIM_IOC_TryBase64Decode.Name=TryBase64Decode method
+PRIM_IOC_TryBase64Decode.Desc=Attempts to convert specified input value from a sequence of Base64 characters to a binary string
+ 
+PRIM_IOC_TryBase64Decode.Result.Name=Result parameter
+PRIM_IOC_TryBase64Decode.Result.Desc=True if the specified input value can be converted, otherwise false
+ 
+PRIM_IOC_TryBase64Decode.InputValue.Name=InputValue parameter
+PRIM_IOC_TryBase64Decode.InputValue.Desc=Unicode string containing a sequence of Base64 characters
+ 
+PRIM_IOC_TryBase64Decode.DecodedValue.Name=DecodedValue parameter
+PRIM_IOC_TryBase64Decode.DecodedValue.Desc=Binary string updated after successfully decoding specified Base64 input value
+ 
+PRIM_IOC_TryBase64Decode.Encoding.Name=Encoding parameter
+PRIM_IOC_TryBase64Decode.Encoding.Desc=[MISSING]
+ 
+PRIM_IOC_TryBase64UrlDecode.Name=TryBase64UrlDecode method
+PRIM_IOC_TryBase64UrlDecode.Desc=Attempts to convert specified input value from a sequence of Base64 URL-safe characters to a binary string
+ 
+PRIM_IOC_TryBase64UrlDecode.Result.Name=Result parameter
+PRIM_IOC_TryBase64UrlDecode.Result.Desc=True if the specified input value can be converted, otherwise false
+ 
+PRIM_IOC_TryBase64UrlDecode.InputValue.Name=InputValue parameter
+PRIM_IOC_TryBase64UrlDecode.InputValue.Desc=Unicode string containing a sequence of Base64 URL-safe characters
+ 
+PRIM_IOC_TryBase64UrlDecode.DecodedValue.Name=DecodedValue parameter
+PRIM_IOC_TryBase64UrlDecode.DecodedValue.Desc=Binary string updated after successfully decoding specified Base64 URL-safe input value
+ 
+PRIM_IOC_TryBase64UrlDecode.Encoding.Name=Encoding parameter
+PRIM_IOC_TryBase64UrlDecode.Encoding.Desc=[MISSING]
+ 
+PRIM_IOC_Utf16.Name=Utf16 property
+PRIM_IOC_Utf16.Desc=Reference to component that represents a UTF-16 encoding of Unicode characters with machine dependent byte order
+ 
+PRIM_IOC_Utf16BigEndian.Name=Utf16BigEndian property
+PRIM_IOC_Utf16BigEndian.Desc=Reference to component that represents a UTF-16 encoding of Unicode characters with big endian byte order
+ 
+PRIM_IOC_Utf16LittleEndian.Name=Utf16LittleEndian property
+PRIM_IOC_Utf16LittleEndian.Desc=Reference to component that represents a UTF-16 encoding of Unicode characters with little endian byte order
+ 
+PRIM_IOC_Utf32.Name=Utf32 property
+PRIM_IOC_Utf32.Desc=Reference to component that represents a UTF-32 encoding of Unicode characters with machine dependent byte order
+ 
+PRIM_IOC_Utf32BigEndian.Name=Utf32BigEndian property
+PRIM_IOC_Utf32BigEndian.Desc=Reference to component that represents a UTF-32 encoding of Unicode characters with big endian byte order
+ 
+PRIM_IOC_Utf32LittleEndian.Name=Utf32LittleEndian property
+PRIM_IOC_Utf32LittleEndian.Desc=Reference to component that represents a UTF-32 encoding of Unicode characters with little endian byte order
+ 
+PRIM_IOC_Utf8.Name=Utf8 property
+PRIM_IOC_Utf8.Desc=Reference to component that represents a UTF-8 encoding of Unicode characters
+ 
+PRIM_IOC_Utf8Unmarked.Name=Utf8Unmarked property
+PRIM_IOC_Utf8Unmarked.Desc=Reference to component that represents a UTF-8 encoding of Unicode characters that ignores BOM (byte order marker)
+ 
+PRIM_IOC.Stream.Name=Stream base class
+PRIM_IOC.Stream.Desc=Provides a generic view of a sequence of bytes
+ 
+PRIM_IOC.Stream_Length.Name=Length property
+PRIM_IOC.Stream_Length.Desc=Gets or sets the length in bytes of the stream
+ 
+PRIM_IOC.Stream_Position.Name=Position property
+PRIM_IOC.Stream_Position.Desc=Gets or sets the position within the current stream
+ 
+PRIM_IOC.Stream_ReportMessage.Name=ReportMessage event
+PRIM_IOC.Stream_ReportMessage.Desc=[MISSING]
+ 
+PRIM_IOC.Stream_ReportMessage.Message.Name=Message parameter
+PRIM_IOC.Stream_ReportMessage.Message.Desc=[MISSING]
+ 
+PRIM_IOC.StreamReader.Name=PRIM_IOC.StreamReader
+PRIM_IOC.StreamReader.Desc=Implements a TextReader that reads characters from a byte stream in a particular encoding.
+ 
+PRIM_IOC.StreamReader_EncodingName.Name=EncodingName property
+PRIM_IOC.StreamReader_EncodingName.Desc=Encoding component used to decode unicode characters from bytes
+ 
+PRIM_IOC.StreamReader_Stream.Name=Stream property
+PRIM_IOC.StreamReader_Stream.Desc=Stream component that is provides the bytes that are read and decoded by this text reader
+ 
+PRIM_IOC.StreamWriter.Name=PRIM_IOC.StreamWriter
+PRIM_IOC.StreamWriter.Desc=Implements a TextWriter for writing characters to a stream in a particular encoding
+ 
+PRIM_IOC.StreamWriter_EncodingName.Name=EncodingName property
+PRIM_IOC.StreamWriter_EncodingName.Desc=Encoding component used to encode unicode characters as bytes
+ 
+PRIM_IOC.StreamWriter_Stream.Name=Stream property
+PRIM_IOC.StreamWriter_Stream.Desc=Stream component that is written to as supplied characters are encoded to bytes
+ 
+PRIM_IOC.StringReader.Name=PRIM_IOC.StringReader
+PRIM_IOC.StringReader.Desc=Implements a TextReader that reads from a unicode string
+ 
+PRIM_IOC.StringReader_Append.Name=Append method
+PRIM_IOC.StringReader_Append.Desc=Concatenates up to ten unicode strings to the text string to be processed by the StringReader
+ 
+PRIM_IOC.StringReader_Append.Value1.Name=Value1 parameter
+PRIM_IOC.StringReader_Append.Value1.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Append.Value2.Name=Value2 parameter
+PRIM_IOC.StringReader_Append.Value2.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Append.Value3.Name=Value3 parameter
+PRIM_IOC.StringReader_Append.Value3.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Append.Value4.Name=Value4 parameter
+PRIM_IOC.StringReader_Append.Value4.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Append.Value5.Name=Value5 parameter
+PRIM_IOC.StringReader_Append.Value5.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Append.Value6.Name=Value6 parameter
+PRIM_IOC.StringReader_Append.Value6.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Append.Value7.Name=Value7 parameter
+PRIM_IOC.StringReader_Append.Value7.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Append.Value8.Name=Value8 parameter
+PRIM_IOC.StringReader_Append.Value8.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Append.Value9.Name=Value9 parameter
+PRIM_IOC.StringReader_Append.Value9.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Append.Value10.Name=Value10 parameter
+PRIM_IOC.StringReader_Append.Value10.Desc=Unicode string that will be concatenated to the readers text string
+ 
+PRIM_IOC.StringReader_Text.Name=Text property
+PRIM_IOC.StringReader_Text.Desc=The unicode string that represents the sequence of characters to be processed by the StringReader
+ 
+PRIM_IOC.StringWriter.Name=PRIM_IOC.StringWriter
+PRIM_IOC.StringWriter.Desc=Implements a TextWriter for writing information to a string
+ 
+PRIM_IOC.StringWriter_Text.Name=Text property
+PRIM_IOC.StringWriter_Text.Desc=Returns a unicode string containing the characters written to the current StringWriter so far
+ 
+PRIM_IOC.TextReader.Name=PRIM_IOC.TextReader
+PRIM_IOC.TextReader.Desc=Represents a reader that can read a sequential series of characters
+ 
+PRIM_IOC.TextReader_ReportMessage.Name=ReportMessage event
+PRIM_IOC.TextReader_ReportMessage.Desc=[MISSING]
+ 
+PRIM_IOC.TextReader_ReportMessage.Message.Name=Message parameter
+PRIM_IOC.TextReader_ReportMessage.Message.Desc=[MISSING]
+ 
+PRIM_IOC.TextReader_TryReadLine.Name=TryReadLine method
+PRIM_IOC.TextReader_TryReadLine.Desc=Attempts to read a line of characters from the text reader and returns the data as a string
+ 
+PRIM_IOC.TextReader_TryReadLine.Result.Name=Result parameter
+PRIM_IOC.TextReader_TryReadLine.Result.Desc=True if a line was read, otherwise false
+ 
+PRIM_IOC.TextReader_TryReadLine.String.Name=String parameter
+PRIM_IOC.TextReader_TryReadLine.String.Desc=The line of characters successfully read from the text reader
+ 
+PRIM_IOC.TextReader_TryReadString.Name=TryReadString method
+PRIM_IOC.TextReader_TryReadString.Desc=Attempts to read a number of characters from the text reader and returns the data as a string
+ 
+PRIM_IOC.TextReader_TryReadString.Result.Name=Result parameter
+PRIM_IOC.TextReader_TryReadString.Result.Desc=True if one or more characters were read, otherwise false
+ 
+PRIM_IOC.TextReader_TryReadString.Count.Name=Count parameter
+PRIM_IOC.TextReader_TryReadString.Count.Desc=The maximum number of characters to read from the text reader
+ 
+PRIM_IOC.TextReader_TryReadString.String.Name=String parameter
+PRIM_IOC.TextReader_TryReadString.String.Desc=The sequence of characters successfully read from the text reader
+ 
+PRIM_IOC.TextWriter.Name=PRIM_IOC.TextWriter
+PRIM_IOC.TextWriter.Desc=Represents a writer that can write a sequential series of characters
+ 
+PRIM_IOC.TextWriter_ReportMessage.Name=ReportMessage event
+PRIM_IOC.TextWriter_ReportMessage.Desc=[MISSING]
+ 
+PRIM_IOC.TextWriter_ReportMessage.Message.Name=Message parameter
+PRIM_IOC.TextWriter_ReportMessage.Message.Desc=[MISSING]
+ 
+PRIM_IOC.TextWriter_WriteLine.Name=WriteLine method
+PRIM_IOC.TextWriter_WriteLine.Desc=Writes data followed by a line terminator to the text string or stream
+ 
+PRIM_IOC.TextWriter_WriteLine.InputValue.Name=InputValue parameter
+PRIM_IOC.TextWriter_WriteLine.InputValue.Desc=String of characters to be written to the writer
+ 
+PRIM_IOC.TextWriter_WriteString.Name=WriteString method
+PRIM_IOC.TextWriter_WriteString.Desc=Writes data to the text string or stream
+ 
+PRIM_IOC.TextWriter_WriteString.InputValue.Name=InputValue parameter
+PRIM_IOC.TextWriter_WriteString.InputValue.Desc=String of characters to be written to the writer
+ 
+PRIM_IOC.WhenAll.Name=PRIM_IOC.WhenAll
+PRIM_IOC.WhenAll.Desc=Represents an awaitable that will signal completion when all of the supplied promises complete
+ 
+PRIM_IOC.WhenAll_Promise.Name=Promise property
+PRIM_IOC.WhenAll_Promise.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAll_Promise1.Name=Promise1 property
+PRIM_IOC.WhenAll_Promise1.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAll_Promise2.Name=Promise2 property
+PRIM_IOC.WhenAll_Promise2.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAll_Promise3.Name=Promise3 property
+PRIM_IOC.WhenAll_Promise3.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAll_Promise4.Name=Promise4 property
+PRIM_IOC.WhenAll_Promise4.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAll_Promise5.Name=Promise5 property
+PRIM_IOC.WhenAll_Promise5.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAll_Promise6.Name=Promise6 property
+PRIM_IOC.WhenAll_Promise6.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAll_Promise7.Name=Promise7 property
+PRIM_IOC.WhenAll_Promise7.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAll_Promise8.Name=Promise8 property
+PRIM_IOC.WhenAll_Promise8.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAll_Promise9.Name=Promise9 property
+PRIM_IOC.WhenAll_Promise9.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny.Name=PRIM_IOC.WhenAny
+PRIM_IOC.WhenAny.Desc=Represents an awaitable that will signal completion when any of the supplied promises complete
+ 
+PRIM_IOC.WhenAny_Promise.Name=Promise property
+PRIM_IOC.WhenAny_Promise.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny_Promise1.Name=Promise1 property
+PRIM_IOC.WhenAny_Promise1.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny_Promise2.Name=Promise2 property
+PRIM_IOC.WhenAny_Promise2.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny_Promise3.Name=Promise3 property
+PRIM_IOC.WhenAny_Promise3.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny_Promise4.Name=Promise4 property
+PRIM_IOC.WhenAny_Promise4.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny_Promise5.Name=Promise5 property
+PRIM_IOC.WhenAny_Promise5.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny_Promise6.Name=Promise6 property
+PRIM_IOC.WhenAny_Promise6.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny_Promise7.Name=Promise7 property
+PRIM_IOC.WhenAny_Promise7.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny_Promise8.Name=Promise8 property
+PRIM_IOC.WhenAny_Promise8.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenAny_Promise9.Name=Promise9 property
+PRIM_IOC.WhenAny_Promise9.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach.Name=PRIM_IOC.WhenEach
+PRIM_IOC.WhenEach.Desc=Represents an awaitable that will signal completion as each of the supplied promises complete
+ 
+PRIM_IOC.WhenEach_Promise.Name=Promise property
+PRIM_IOC.WhenEach_Promise.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach_Promise1.Name=Promise1 property
+PRIM_IOC.WhenEach_Promise1.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach_Promise2.Name=Promise2 property
+PRIM_IOC.WhenEach_Promise2.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach_Promise3.Name=Promise3 property
+PRIM_IOC.WhenEach_Promise3.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach_Promise4.Name=Promise4 property
+PRIM_IOC.WhenEach_Promise4.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach_Promise5.Name=Promise5 property
+PRIM_IOC.WhenEach_Promise5.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach_Promise6.Name=Promise6 property
+PRIM_IOC.WhenEach_Promise6.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach_Promise7.Name=Promise7 property
+PRIM_IOC.WhenEach_Promise7.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach_Promise8.Name=Promise8 property
+PRIM_IOC.WhenEach_Promise8.Desc=Reference to a Promise that is awaited
+ 
+PRIM_IOC.WhenEach_Promise9.Name=Promise9 property
+PRIM_IOC.WhenEach_Promise9.Desc=Reference to a Promise that is awaited
+ 
+PRIM_JSON.Array.Name=PRIM_JSON.Array
+PRIM_JSON.Array.Desc=JSON node class that represents an array of JSON nodes mapped from JSON content
+ 
+PRIM_JSON.Array_AddArrayItem.Name=AddArrayItem method
+PRIM_JSON.Array_AddArrayItem.Desc=Creates a new JSON Array node and appends it to the array
+ 
+PRIM_JSON.Array_AddArrayItem.Result.Name=Result parameter
+PRIM_JSON.Array_AddArrayItem.Result.Desc=Reference to a new JSON Array node
+ 
+PRIM_JSON.Array_AddBooleanItem.Name=AddBooleanItem method
+PRIM_JSON.Array_AddBooleanItem.Desc=Creates a new JSON Boolean node and appends it to the array
+ 
+PRIM_JSON.Array_AddBooleanItem.Result.Name=Result parameter
+PRIM_JSON.Array_AddBooleanItem.Result.Desc=Reference to a new JSON Boolean node
+ 
+PRIM_JSON.Array_AddBooleanItem.Value.Name=Value parameter
+PRIM_JSON.Array_AddBooleanItem.Value.Desc=Boolean value used to initialize the new JSON node
+ 
+PRIM_JSON.Array_AddDateTimeItem.Name=AddDateTimeItem method
+PRIM_JSON.Array_AddDateTimeItem.Desc=Creates a new JSON datetime node and appends it to the array
+ 
+PRIM_JSON.Array_AddDateTimeItem.Result.Name=Result parameter
+PRIM_JSON.Array_AddDateTimeItem.Result.Desc=Reference to a new JSON datetime node
+ 
+PRIM_JSON.Array_AddDateTimeItem.Value.Name=Value parameter
+PRIM_JSON.Array_AddDateTimeItem.Value.Desc=DateTime value used to initialize the new JSON node
+ 
+PRIM_JSON.Array_AddDecimalItem.Name=AddDecimalItem method
+PRIM_JSON.Array_AddDecimalItem.Desc=Creates a new JSON Decimal node and appends it to the array
+ 
+PRIM_JSON.Array_AddDecimalItem.Result.Name=Result parameter
+PRIM_JSON.Array_AddDecimalItem.Result.Desc=Reference to a new JSON Decimal node
+ 
+PRIM_JSON.Array_AddDecimalItem.Value.Name=Value parameter
+PRIM_JSON.Array_AddDecimalItem.Value.Desc=Decimal value used to initialize the new JSON node
+ 
+PRIM_JSON.Array_AddFloat64Item.Name=AddFloat64Item method
+PRIM_JSON.Array_AddFloat64Item.Desc=Creates a new JSON Float64 node and appends it to the array
+ 
+PRIM_JSON.Array_AddFloat64Item.Result.Name=Result parameter
+PRIM_JSON.Array_AddFloat64Item.Result.Desc=Reference to a new JSON Float64 node
+ 
+PRIM_JSON.Array_AddFloat64Item.Value.Name=Value parameter
+PRIM_JSON.Array_AddFloat64Item.Value.Desc=64-bit floating point value used to initialize the new JSON node
+ 
+PRIM_JSON.Array_AddInt32Item.Name=AddInt32Item method
+PRIM_JSON.Array_AddInt32Item.Desc=Creates a new JSON Int32 node and appends it to the array
+ 
+PRIM_JSON.Array_AddInt32Item.Result.Name=Result parameter
+PRIM_JSON.Array_AddInt32Item.Result.Desc=Reference to a new JSON Int32 node
+ 
+PRIM_JSON.Array_AddInt32Item.Value.Name=Value parameter
+PRIM_JSON.Array_AddInt32Item.Value.Desc=32-bit integer value used to initialize the new JSON node
+ 
+PRIM_JSON.Array_AddInt64Item.Name=AddInt64Item method
+PRIM_JSON.Array_AddInt64Item.Desc=Creates a new JSON Int64 node and appends it to the array
+ 
+PRIM_JSON.Array_AddInt64Item.Result.Name=Result parameter
+PRIM_JSON.Array_AddInt64Item.Result.Desc=Reference to a new JSON Int64 node
+ 
+PRIM_JSON.Array_AddInt64Item.Value.Name=Value parameter
+PRIM_JSON.Array_AddInt64Item.Value.Desc=64-bit integer value value used to initialize the new JSON node
+ 
+PRIM_JSON.Array_AddNullItem.Name=AddNullItem method
+PRIM_JSON.Array_AddNullItem.Desc=Creates a new JSON Null node and appends it to the array
+ 
+PRIM_JSON.Array_AddNullItem.Result.Name=Result parameter
+PRIM_JSON.Array_AddNullItem.Result.Desc=Reference to a new JSON Null node
+ 
+PRIM_JSON.Array_AddNumberItem.Name=AddNumberItem method
+PRIM_JSON.Array_AddNumberItem.Desc=Creates a new JSON Number node and appends it to the array
+ 
+PRIM_JSON.Array_AddNumberItem.Result.Name=Result parameter
+PRIM_JSON.Array_AddNumberItem.Result.Desc=Reference to a new JSON Number node
+ 
+PRIM_JSON.Array_AddNumberItem.Value.Name=Value parameter
+PRIM_JSON.Array_AddNumberItem.Value.Desc=Numeric string used to initialize the new JSON node
+ 
+PRIM_JSON.Array_AddObjectItem.Name=AddObjectItem method
+PRIM_JSON.Array_AddObjectItem.Desc=Creates a new JSON Object node and appends it to the array
+ 
+PRIM_JSON.Array_AddObjectItem.Result.Name=Result parameter
+PRIM_JSON.Array_AddObjectItem.Result.Desc=Reference to a new JSON Object node
+ 
+PRIM_JSON.Array_AddStringItem.Name=AddStringItem method
+PRIM_JSON.Array_AddStringItem.Desc=Creates a new JSON String node and appends it to the array
+ 
+PRIM_JSON.Array_AddStringItem.Result.Name=Result parameter
+PRIM_JSON.Array_AddStringItem.Result.Desc=Reference to a new JSON String node
+ 
+PRIM_JSON.Array_AddStringItem.Value.Name=Value parameter
+PRIM_JSON.Array_AddStringItem.Value.Desc=Unicode string used to initialize the new JSON node
+ 
+PRIM_JSON.Boolean.Name=PRIM_JSON.Boolean
+PRIM_JSON.Boolean.Desc=JSON node class that represents a boolean value mapped from JSON content
+ 
+PRIM_JSON.Boolean_Value.Name=Value property
+PRIM_JSON.Boolean_Value.Desc=Gets or sets the boolean value associated with the JSON node
+ 
+PRIM_JSON.Comment.Name=PRIM_JSON.Comment
+PRIM_JSON.Comment.Desc=JSON node class that represents a comment mapped from JSON content
+ 
+PRIM_JSON.DateTime.Name=PRIM_JSON.DateTime
+PRIM_JSON.DateTime.Desc=JSON node class that represents a datetime value mapped from JSON content
+ 
+PRIM_JSON.DateTime_Value.Name=Value property
+PRIM_JSON.DateTime_Value.Desc=Gets or sets the date/time value associated with the JSON node
+ 
+PRIM_JSON.Decimal.Name=PRIM_JSON.Decimal
+PRIM_JSON.Decimal.Desc=JSON node class that represents a decimal value mapped from JSON content
+ 
+PRIM_JSON.Decimal_Value.Name=Value property
+PRIM_JSON.Decimal_Value.Desc=Gets or sets the decimal value associated with the JSON node
+ 
+PRIM_JSON.Document.Name=PRIM_JSON.Document
+PRIM_JSON.Document.Desc=JSON node class that represents the root of a JSON document tree mapped from JSON content, and gives us the primary access to the document's data
+
+PRIM_JSON.Document_CreateArray.Name=CreateArray method
+PRIM_JSON.Document_CreateArray.Desc=Creates a new JSON Array node
+ 
+PRIM_JSON.Document_CreateArray.Result.Name=Result parameter
+PRIM_JSON.Document_CreateArray.Result.Desc=Reference to a new JSON Array node
+ 
+PRIM_JSON.Document_CreateBoolean.Name=CreateBoolean method
+PRIM_JSON.Document_CreateBoolean.Desc=Creates a new JSON Boolean node
+ 
+PRIM_JSON.Document_CreateBoolean.Result.Name=Result parameter
+PRIM_JSON.Document_CreateBoolean.Result.Desc=Reference to a new JSON Boolean node
+ 
+PRIM_JSON.Document_CreateBoolean.Value.Name=Value parameter
+PRIM_JSON.Document_CreateBoolean.Value.Desc=Boolean value used to initialize the new JSON node
+ 
+PRIM_JSON.Document_CreateDateTime.Name=CreateDateTime method
+PRIM_JSON.Document_CreateDateTime.Desc=Creates a new JSON datetime node
+ 
+PRIM_JSON.Document_CreateDateTime.Result.Name=Result parameter
+PRIM_JSON.Document_CreateDateTime.Result.Desc=Reference to a new JSON datetime node
+ 
+PRIM_JSON.Document_CreateDateTime.Value.Name=Value parameter
+PRIM_JSON.Document_CreateDateTime.Value.Desc=DateTime value used to initialize the new JSON node
+ 
+PRIM_JSON.Document_CreateDecimal.Name=CreateDecimal method
+PRIM_JSON.Document_CreateDecimal.Desc=Creates a new JSON Decimal node
+ 
+PRIM_JSON.Document_CreateDecimal.Result.Name=Result parameter
+PRIM_JSON.Document_CreateDecimal.Result.Desc=Reference to a new JSON Decimal node
+ 
+PRIM_JSON.Document_CreateDecimal.Value.Name=Value parameter
+PRIM_JSON.Document_CreateDecimal.Value.Desc=Decimal value used to initialize the new JSON node
+ 
+PRIM_JSON.Document_CreateFloat64.Name=CreateFloat64 method
+PRIM_JSON.Document_CreateFloat64.Desc=Creates a new JSON Float64 node
+ 
+PRIM_JSON.Document_CreateFloat64.Result.Name=Result parameter
+PRIM_JSON.Document_CreateFloat64.Result.Desc=Reference to a new JSON Float64 node
+ 
+PRIM_JSON.Document_CreateFloat64.Value.Name=Value parameter
+PRIM_JSON.Document_CreateFloat64.Value.Desc=64-bit floating point value used to initialize the new JSON node
+ 
+PRIM_JSON.Document_CreateInt32.Name=CreateInt32 method
+PRIM_JSON.Document_CreateInt32.Desc=Creates a new JSON Int32 node
+ 
+PRIM_JSON.Document_CreateInt32.Result.Name=Result parameter
+PRIM_JSON.Document_CreateInt32.Result.Desc=Reference to a new JSON Int32 node
+ 
+PRIM_JSON.Document_CreateInt32.Value.Name=Value parameter
+PRIM_JSON.Document_CreateInt32.Value.Desc=32-bit integer value used to initialize the new JSON node
+ 
+PRIM_JSON.Document_CreateInt64.Name=CreateInt64 method
+PRIM_JSON.Document_CreateInt64.Desc=Creates a new JSON Int64 node
+ 
+PRIM_JSON.Document_CreateInt64.Result.Name=Result parameter
+PRIM_JSON.Document_CreateInt64.Result.Desc=Reference to a new JSON Int64 node
+ 
+PRIM_JSON.Document_CreateInt64.Value.Name=Value parameter
+PRIM_JSON.Document_CreateInt64.Value.Desc=64-bit integer value used to initialize the new JSON node
+ 
+PRIM_JSON.Document_CreateNull.Name=CreateNull method
+PRIM_JSON.Document_CreateNull.Desc=Creates a new JSON Null node
+ 
+PRIM_JSON.Document_CreateNull.Result.Name=Result parameter
+PRIM_JSON.Document_CreateNull.Result.Desc=Reference to a new JSON Null node
+ 
+PRIM_JSON.Document_CreateNumber.Name=CreateNumber method
+PRIM_JSON.Document_CreateNumber.Desc=Creates a new JSON Number node
+ 
+PRIM_JSON.Document_CreateNumber.Result.Name=Result parameter
+PRIM_JSON.Document_CreateNumber.Result.Desc=Reference to a new JSON Number node
+ 
+PRIM_JSON.Document_CreateNumber.Value.Name=Value parameter
+PRIM_JSON.Document_CreateNumber.Value.Desc=Numeric string used to initialize the new JSON node
+ 
+PRIM_JSON.Document_CreateObject.Name=CreateObject method
+PRIM_JSON.Document_CreateObject.Desc=Creates a new JSON Object node
+ 
+PRIM_JSON.Document_CreateObject.Result.Name=Result parameter
+PRIM_JSON.Document_CreateObject.Result.Desc=Reference to a new JSON Object node
+ 
+PRIM_JSON.Document_CreateRootArray.Name=CreateRootArray method
+PRIM_JSON.Document_CreateRootArray.Desc=Creates a new JSON Array node and assigns the node as the document root
+ 
+PRIM_JSON.Document_CreateRootArray.Result.Name=Result parameter
+PRIM_JSON.Document_CreateRootArray.Result.Desc=Reference to a new JSON Array node
+ 
+PRIM_JSON.Document_CreateRootObject.Name=CreateRootObject method
+PRIM_JSON.Document_CreateRootObject.Desc=Creates a new JSON Object node and assigns the node as the document root
+ 
+PRIM_JSON.Document_CreateRootObject.Result.Name=Result parameter
+PRIM_JSON.Document_CreateRootObject.Result.Desc=Reference to a new JSON Object node
+ 
+PRIM_JSON.Document_CreateString.Name=CreateString method
+PRIM_JSON.Document_CreateString.Desc=Creates a new JSON String node
+ 
+PRIM_JSON.Document_CreateString.Result.Name=Result parameter
+PRIM_JSON.Document_CreateString.Result.Desc=Reference to a new JSON String node
+ 
+PRIM_JSON.Document_CreateString.Value.Name=Value parameter
+PRIM_JSON.Document_CreateString.Value.Desc=Unicode string used to initialize the new JSON node
+ 
+PRIM_JSON.Document_LoadFromFile.Name=LoadFromFile method
+PRIM_JSON.Document_LoadFromFile.Desc=Utilizes a JSON Reader initialized with the contents of specified file to create and populate an appropriate JSON node that then replaces this document's root node
+ 
+PRIM_JSON.Document_LoadFromString.Name=LoadFromString method
+PRIM_JSON.Document_LoadFromString.Desc=Utilizes a JSON Reader initialized with specified input string to create and populate an appropriate JSON node that then replaces this document's root node
+ 
+PRIM_JSON.Document_LoadFromString.InputString.Name=InputString parameter
+PRIM_JSON.Document_LoadFromString.InputString.Desc=Serialized JSON data as a unicode string
+ 
+PRIM_JSON.Document_RootNode.Name=RootNode property
+PRIM_JSON.Document_RootNode.Desc=Reference to JSON node assigned as the document root
+ 
+PRIM_JSON.Document_SaveToFile.Name=SaveToFile method
+PRIM_JSON.Document_SaveToFile.Desc=[MISSING]
+ 
+PRIM_JSON.Document_SaveToString.Name=SaveToString method
+PRIM_JSON.Document_SaveToString.Desc=[MISSING]
+ 
+PRIM_JSON.Factory.Name=PRIM_JSON.Factory
+PRIM_JSON.Factory.Desc=Base class that specifies methods for getting access to Document instances (newly constructed, or shared, depending on type), as well as basic implementation of the methods. Designed to be sub-classed if extended functionality (additions to behavior of node types, mostly) is needed.
+ 
+PRIM_JSON.Factory_CreateDocument.Name=CreateDocument method
+PRIM_JSON.Factory_CreateDocument.Desc=Creates a new JSON Document node
+ 
+PRIM_JSON.Factory_CreateDocument.Result.Name=Result parameter
+PRIM_JSON.Factory_CreateDocument.Result.Desc=Reference to a new JSON Document node
+ 
+PRIM_JSON.Factory_CreateIterator.Name=CreateIterator method
+PRIM_JSON.Factory_CreateIterator.Desc=CreateIterator method creates an iterator component that enables iteration through the collection
+ 
+PRIM_JSON.Factory_CreateIterator.Result.Name=Result parameter
+PRIM_JSON.Factory_CreateIterator.Result.Desc=Reference to the new iterator instance
+ 
+PRIM_JSON.Factory_OwnerDocument.Name=OwnerDocument property
+PRIM_JSON.Factory_OwnerDocument.Desc=Reference to the first JSON Document node created by this factory
+ 
+PRIM_JSON.Factory_ReadNode.Name=ReadNode method
+PRIM_JSON.Factory_ReadNode.Desc=Creates a complete JSON node based on the current position of the specified JSON Reader
+ 
+PRIM_JSON.Factory_ReadNode.Result.Name=Result parameter
+PRIM_JSON.Factory_ReadNode.Result.Desc=Reference to a new JSON node
+ 
+PRIM_JSON.Factory_ReadNode.Reader.Name=Reader parameter
+PRIM_JSON.Factory_ReadNode.Reader.Desc=JSON Reader to access while building new JSON node
+ 
+PRIM_JSON.Float64.Name=PRIM_JSON.Float64
+PRIM_JSON.Float64.Desc=JSON node class that represents a 64-bit floating point value mapped from JSON content
+ 
+PRIM_JSON.Float64_Value.Name=Value property
+PRIM_JSON.Float64_Value.Desc=Gets or sets the 64-bit floating point value associated with the JSON node
+ 
+PRIM_JSON.Int32.Name=PRIM_JSON.Int32
+PRIM_JSON.Int32.Desc=JSON node class that represents a 32-bit integer value mapped from JSON content
+ 
+PRIM_JSON.Int32_Value.Name=Value property
+PRIM_JSON.Int32_Value.Desc=Gets or sets the 32-bit integer value associated with the JSON node
+ 
+PRIM_JSON.Int64.Name=PRIM_JSON.Int64
+PRIM_JSON.Int64.Desc=JSON node class that represents a 64-bit integer value mapped from JSON content
+ 
+PRIM_JSON.Int64_Value.Name=Value property
+PRIM_JSON.Int64_Value.Desc=Gets or sets the 64-bit integer value associated with the JSON node
+ 
+PRIM_JSON.Member.Name=PRIM_JSON.Member
+PRIM_JSON.Member.Desc=JSON node class that represents a name/value pair of a JSON Object node mapped from JSON content
+ 
+PRIM_JSON.Member_Value.Name=Value property
+PRIM_JSON.Member_Value.Desc=Gets or sets a reference to a JSON value node associated with the JSON Member node
+ 
+PRIM_JSON.Node.Name=PRIM_JSON.Node
+PRIM_JSON.Node.Desc=Base class for all JSON nodes, which form the basis of the JSON DOM
+ 
+PRIM_JSON.Node_AsBase16BinaryString.Name=AsBase16BinaryString method
+PRIM_JSON.Node_AsBase16BinaryString.Desc=Converts the value of the current JSON node to a binary string by decoding the value's sequence of Base16/Hexadecimal characters 
+
+PRIM_JSON.Node_AsBase16BinaryString.Result.Name=Result parameter
+PRIM_JSON.Node_AsBase16BinaryString.Result.Desc=Binary string obtained by successfully converting current JSON node's value from it's Base16/Hexadecimal encoding
+ 
+PRIM_JSON.Node_AsBase16File.Name=AsBase16File method
+PRIM_JSON.Node_AsBase16File.Desc=[MISSING]
+ 
+PRIM_JSON.Node_AsBase16File.FileName.Name=FileName parameter
+PRIM_JSON.Node_AsBase16File.FileName.Desc=[MISSING]
+ 
+PRIM_JSON.Node_AsBase64BinaryString.Name=AsBase64BinaryString method
+PRIM_JSON.Node_AsBase64BinaryString.Desc=Converts the value of the current JSON node to a binary string by decoding the value's sequence of Base64 characters 
+ 
+PRIM_JSON.Node_AsBase64BinaryString.Result.Name=Result parameter
+PRIM_JSON.Node_AsBase64BinaryString.Result.Desc=Binary string obtained by successfully converting current JSON node's value from it's Base64 encoding
+ 
+PRIM_JSON.Node_AsBase64File.Name=AsBase64File method
+PRIM_JSON.Node_AsBase64File.Desc=[MISSING]
+ 
+PRIM_JSON.Node_AsBase64File.FileName.Name=FileName parameter
+PRIM_JSON.Node_AsBase64File.FileName.Desc=[MISSING]
+ 
+PRIM_JSON.Node_AsBoolean.Name=AsBoolean method
+PRIM_JSON.Node_AsBoolean.Desc=Retrieves the value of the current JSON node as a boolean
+ 
+PRIM_JSON.Node_AsBoolean.Result.Name=Result parameter
+PRIM_JSON.Node_AsBoolean.Result.Desc=A boolean representing the value of the current JSON node
+ 
+PRIM_JSON.Node_AsDateTime.Name=AsDateTime method
+PRIM_JSON.Node_AsDateTime.Desc=Retrieves the value of the current JSON node as a date/time
+ 
+PRIM_JSON.Node_AsDateTime.Result.Name=Result parameter
+PRIM_JSON.Node_AsDateTime.Result.Desc=A date/time representing the value of the current JSON node
+ 
+PRIM_JSON.Node_AsDecimal.Name=AsDecimal method
+PRIM_JSON.Node_AsDecimal.Desc=Retrieves the value of the current JSON node as a decimal
+ 
+PRIM_JSON.Node_AsDecimal.Result.Name=Result parameter
+PRIM_JSON.Node_AsDecimal.Result.Desc=A decimal representing the value of the current JSON node
+ 
+PRIM_JSON.Node_AsInt32.Name=AsInt32 method
+PRIM_JSON.Node_AsInt32.Desc=Retrieves the value of the current JSON node as a 32-bit integer
+ 
+PRIM_JSON.Node_AsInt32.Result.Name=Result parameter
+PRIM_JSON.Node_AsInt32.Result.Desc=A 32-bit integer representing the value of the current JSON node
+ 
+PRIM_JSON.Node_AsInt64.Name=AsInt64 method
+PRIM_JSON.Node_AsInt64.Desc=Retrieves the value of the current JSON node as a 64-bit integer
+ 
+PRIM_JSON.Node_AsInt64.Result.Name=Result parameter
+PRIM_JSON.Node_AsInt64.Result.Desc=A 64-bit integer representing the value of the current JSON node
+ 
+PRIM_JSON.Node_AsString.Name=AsString method
+PRIM_JSON.Node_AsString.Desc=Retrieves the value of the resolved JSON value node as a unicode string
+ 
+PRIM_JSON.Node_AsString.Result.Name=Result parameter
+PRIM_JSON.Node_AsString.Result.Desc=A unicode string representing the value of the current JSON node
+ 
+PRIM_JSON.Node_Clone.Name=Clone method
+PRIM_JSON.Node_Clone.Desc=Makes a copy of the current JSON node and recursively clones all the node's children
+ 
+PRIM_JSON.Node_Clone.Result.Name=Result parameter
+PRIM_JSON.Node_Clone.Result.Desc=A reference to the newly cloned JSON node
+ 
+PRIM_JSON.Node_CloneNode.Name=CloneNode method
+PRIM_JSON.Node_CloneNode.Desc=Makes a copy of the current JSON node optionally recursively cloning all the node's children
+ 
+PRIM_JSON.Node_CloneNode.Result.Name=Result parameter
+PRIM_JSON.Node_CloneNode.Result.Desc=A reference to the newly cloned JSON node
+ 
+PRIM_JSON.Node_CloneNode.Deep.Name=Deep parameter
+PRIM_JSON.Node_CloneNode.Deep.Desc=True if the current JSON node's children are also cloned; false if just the current node is to be cloned
+ 
+PRIM_JSON.Node_CreateIterator.Name=CreateIterator method
+PRIM_JSON.Node_CreateIterator.Desc=Creates an iterator component that enables iteration through the node's children
+ 
+PRIM_JSON.Node_CreateIterator.Result.Name=Result parameter
+PRIM_JSON.Node_CreateIterator.Result.Desc=Reference to the new iterator instance
+ 
+PRIM_JSON.Node_FirstChild.Name=FirstChild property
+PRIM_JSON.Node_FirstChild.Desc=Returns a reference to the first child node, otherwise *NULL
+ 
+PRIM_JSON.Node_HasChildNodes.Name=HasChildNodes property
+PRIM_JSON.Node_HasChildNodes.Desc=Returns true if the node has child nodes
+ 
+PRIM_JSON.Node_IsArray.Name=IsArray property
+PRIM_JSON.Node_IsArray.Desc=Returns true if the node resolves to a JSON value node that is a JSON Array node
+ 
+PRIM_JSON.Node_IsBoolean.Name=IsBoolean property
+PRIM_JSON.Node_IsBoolean.Desc=Returns true if the node resolves to a JSON value node that can provide a boolean value
+ 
+PRIM_JSON.Node_IsDateTime.Name=IsDateTime property
+PRIM_JSON.Node_IsDateTime.Desc=Returns true if the node resolves to a JSON value node that can provide a datetime value
+ 
+PRIM_JSON.Node_IsDecimal.Name=IsDecimal property
+PRIM_JSON.Node_IsDecimal.Desc=Returns true if the node resolves to a JSON value node that can provide a decimal value
+ 
+PRIM_JSON.Node_IsInt32.Name=IsInt32 property
+PRIM_JSON.Node_IsInt32.Desc=Returns true if the node resolves to a JSON value node that can provide a 32-bit integer value
+ 
+PRIM_JSON.Node_IsInt64.Name=IsInt64 property
+PRIM_JSON.Node_IsInt64.Desc=Returns true if the node resolves to a JSON value node that can provide a 64-bit integer value
+ 
+PRIM_JSON.Node_IsNull.Name=IsNull property
+PRIM_JSON.Node_IsNull.Desc=Returns true if the node resolves to a JSON value node that is a JSON Null node
+ 
+PRIM_JSON.Node_IsObject.Name=IsObject property
+PRIM_JSON.Node_IsObject.Desc=Returns true if the node resolves to a JSON value node that is a JSON Object node
+ 
+PRIM_JSON.Node_IsString.Name=IsString property
+PRIM_JSON.Node_IsString.Desc=Returns true if the node resolves to a JSON value node that can provide a unicode string
+ 
+PRIM_JSON.Node_Item.Name=Item property
+PRIM_JSON.Node_Item.Desc=Returns a reference to the child node that has a name that matches the key parameter, otherwise *NULL
+ 
+PRIM_JSON.Node_Item.Key.Name=Key parameter
+PRIM_JSON.Node_Item.Key.Desc=A unicode string used to match the name of a child node
+ 
+PRIM_JSON.Node_ItemAt.Name=ItemAt property
+PRIM_JSON.Node_ItemAt.Desc=Returns a reference to the child node that has the supplied index, otherwise *NULL
+ 
+PRIM_JSON.Node_ItemAt.Index.Name=Index parameter
+PRIM_JSON.Node_ItemAt.Index.Desc=An integer used to match the index of a child node
+ 
+PRIM_JSON.Node_ItemCount.Name=ItemCount property
+PRIM_JSON.Node_ItemCount.Desc=Number of child nodes
+ 
+PRIM_JSON.Node_LastChild.Name=LastChild property
+PRIM_JSON.Node_LastChild.Desc=Returns a reference to this node's last child, otherwise *NULL
+ 
+PRIM_JSON.Node_NextSibling.Name=NextSibling property
+PRIM_JSON.Node_NextSibling.Desc=Returns a reference to this node's next sibling, otherwise *NULL
+ 
+PRIM_JSON.Node_NodeName.Name=NodeName property
+PRIM_JSON.Node_NodeName.Desc=Returns the name assigned to this node
+ 
+PRIM_JSON.Node_NodeType.Name=NodeType property
+PRIM_JSON.Node_NodeType.Desc=Returns the type of this node
+ 
+PRIM_JSON.Node_NodeValue.Name=NodeValue property
+PRIM_JSON.Node_NodeValue.Desc=Returns this node's value as a unicode string
+ 
+PRIM_JSON.Node_OwnerDocument.Name=OwnerDocument property
+PRIM_JSON.Node_OwnerDocument.Desc=Returns a reference to this node's factory's document, otherwise *NULL
+ 
+PRIM_JSON.Node_ParentDocument.Name=ParentDocument property
+PRIM_JSON.Node_ParentDocument.Desc=Returns a reference to this node's parent document, otherwise *NULL
+ 
+PRIM_JSON.Node_ParentNode.Name=ParentNode property
+PRIM_JSON.Node_ParentNode.Desc=Returns a reference to this node's parent, otherwise *NULL
+ 
+PRIM_JSON.Node_PreviousSibling.Name=PreviousSibling property
+PRIM_JSON.Node_PreviousSibling.Desc=Returns a reference to this node's previous sibling, otherwise *NULL
+ 
+PRIM_JSON.Node_RemoveAll.Name=RemoveAll method
+PRIM_JSON.Node_RemoveAll.Desc=Method for removing all children nodes of this node by setting each child node's parent to null
+ 
+PRIM_JSON.Null.Name=PRIM_JSON.Null
+PRIM_JSON.Null.Desc=JSON node class that represents a null value mapped from JSON content
+ 
+PRIM_JSON.Number.Name=PRIM_JSON.Number
+PRIM_JSON.Number.Desc=JSON node class that represents a numeric string mapped from JSON content
+ 
+PRIM_JSON.Number_Value.Name=Value property
+PRIM_JSON.Number_Value.Desc=Gets or sets the numeric string associated with the JSON node
+ 
+PRIM_JSON.Object.Name=PRIM_JSON.Object
+PRIM_JSON.Object.Desc=JSON node class that represents an associative array of JSON Member nodes mapped from JSON content
+ 
+PRIM_JSON.Object_AddArrayMember.Name=AddArrayMember method
+PRIM_JSON.Object_AddArrayMember.Desc=Combines the supplied name and a new JSON Array node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddArrayMember.Result.Name=Result parameter
+PRIM_JSON.Object_AddArrayMember.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddArrayMember.Name.Name=Name parameter
+PRIM_JSON.Object_AddArrayMember.Name.Desc=Name to be associated with the new JSON Array node
+ 
+PRIM_JSON.Object_AddBooleanMember.Name=AddBooleanMember method
+PRIM_JSON.Object_AddBooleanMember.Desc=Combines the supplied name and a new JSON Boolean node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddBooleanMember.Result.Name=Result parameter
+PRIM_JSON.Object_AddBooleanMember.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddBooleanMember.Name.Name=Name parameter
+PRIM_JSON.Object_AddBooleanMember.Name.Desc=Name to be associated with the new JSON Boolean node
+ 
+PRIM_JSON.Object_AddBooleanMember.Value.Name=Value parameter
+PRIM_JSON.Object_AddBooleanMember.Value.Desc=Boolean value used to initialize the new JSON node
+ 
+PRIM_JSON.Object_AddDateTimeMember.Name=AddDateTimeMember method
+PRIM_JSON.Object_AddDateTimeMember.Desc=Combines the supplied name and a new JSON datetime node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddDateTimeMember.Result.Name=Result parameter
+PRIM_JSON.Object_AddDateTimeMember.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddDateTimeMember.Name.Name=Name parameter
+PRIM_JSON.Object_AddDateTimeMember.Name.Desc=Name to be associated with the new JSON datetime node
+ 
+PRIM_JSON.Object_AddDateTimeMember.Value.Name=Value parameter
+PRIM_JSON.Object_AddDateTimeMember.Value.Desc=DateTime value used to initialize the new JSON node
+ 
+PRIM_JSON.Object_AddDecimalMember.Name=AddDecimalMember method
+PRIM_JSON.Object_AddDecimalMember.Desc=Combines the supplied name and a new JSON Decimal node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddDecimalMember.Result.Name=Result parameter
+PRIM_JSON.Object_AddDecimalMember.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddDecimalMember.Name.Name=Name parameter
+PRIM_JSON.Object_AddDecimalMember.Name.Desc=Name to be associated with the new JSON Decimal node
+ 
+PRIM_JSON.Object_AddDecimalMember.Value.Name=Value parameter
+PRIM_JSON.Object_AddDecimalMember.Value.Desc=Decimal value used to initialize the new JSON node
+ 
+PRIM_JSON.Object_AddFloat64Member.Name=AddFloat64Member method
+PRIM_JSON.Object_AddFloat64Member.Desc=Combines the supplied name and a new JSON Float64 node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddFloat64Member.Result.Name=Result parameter
+PRIM_JSON.Object_AddFloat64Member.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddFloat64Member.Name.Name=Name parameter
+PRIM_JSON.Object_AddFloat64Member.Name.Desc=Name to be associated with the new JSON Float64 node
+ 
+PRIM_JSON.Object_AddFloat64Member.Value.Name=Value parameter
+PRIM_JSON.Object_AddFloat64Member.Value.Desc=64-bit floating point value used to initialize the new JSON node
+ 
+PRIM_JSON.Object_AddInt32Member.Name=AddInt32Member method
+PRIM_JSON.Object_AddInt32Member.Desc=Combines the supplied name and a new JSON Int32 node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddInt32Member.Result.Name=Result parameter
+PRIM_JSON.Object_AddInt32Member.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddInt32Member.Name.Name=Name parameter
+PRIM_JSON.Object_AddInt32Member.Name.Desc=Name to be associated with the new JSON Int32 node
+ 
+PRIM_JSON.Object_AddInt32Member.Value.Name=Value parameter
+PRIM_JSON.Object_AddInt32Member.Value.Desc=32-bit integer value used to initialize the new JSON node
+ 
+PRIM_JSON.Object_AddInt64Member.Name=AddInt64Member method
+PRIM_JSON.Object_AddInt64Member.Desc=Combines the supplied name and a new JSON Int64 node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddInt64Member.Result.Name=Result parameter
+PRIM_JSON.Object_AddInt64Member.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddInt64Member.Name.Name=Name parameter
+PRIM_JSON.Object_AddInt64Member.Name.Desc=Name to be associated with the new JSON Int64 node
+ 
+PRIM_JSON.Object_AddInt64Member.Value.Name=Value parameter
+PRIM_JSON.Object_AddInt64Member.Value.Desc=64-bit integer value used to initialize the new JSON node
+ 
+PRIM_JSON.Object_AddNullMember.Name=AddNullMember method
+PRIM_JSON.Object_AddNullMember.Desc=Combines the supplied name and a new JSON Null node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddNullMember.Result.Name=Result parameter
+PRIM_JSON.Object_AddNullMember.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddNullMember.Name.Name=Name parameter
+PRIM_JSON.Object_AddNullMember.Name.Desc=Name to be associated with the new JSON Null node
+ 
+PRIM_JSON.Object_AddNumberMember.Name=AddNumberMember method
+PRIM_JSON.Object_AddNumberMember.Desc=Combines the supplied name and a new JSON Number node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddNumberMember.Result.Name=Result parameter
+PRIM_JSON.Object_AddNumberMember.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddNumberMember.Name.Name=Name parameter
+PRIM_JSON.Object_AddNumberMember.Name.Desc=Name to be associated with the new JSON Number node
+ 
+PRIM_JSON.Object_AddNumberMember.Value.Name=Value parameter
+PRIM_JSON.Object_AddNumberMember.Value.Desc=Numeric string used to initialize the new JSON node
+ 
+PRIM_JSON.Object_AddObjectMember.Name=AddObjectMember method
+PRIM_JSON.Object_AddObjectMember.Desc=Combines the supplied name and a new JSON Object node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddObjectMember.Result.Name=Result parameter
+PRIM_JSON.Object_AddObjectMember.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddObjectMember.Name.Name=Name parameter
+PRIM_JSON.Object_AddObjectMember.Name.Desc=Name to be associated with the new JSON Object node
+ 
+PRIM_JSON.Object_AddStringMember.Name=AddStringMember method
+PRIM_JSON.Object_AddStringMember.Desc=Combines the supplied name and a new JSON String node as a new JSON Member node that is inserted as a child node
+ 
+PRIM_JSON.Object_AddStringMember.Result.Name=Result parameter
+PRIM_JSON.Object_AddStringMember.Result.Desc=Reference to a new JSON Member node
+ 
+PRIM_JSON.Object_AddStringMember.Name.Name=Name parameter
+PRIM_JSON.Object_AddStringMember.Name.Desc=Name to be associated with the new JSON String node
+ 
+PRIM_JSON.Object_AddStringMember.Value.Name=Value parameter
+PRIM_JSON.Object_AddStringMember.Value.Desc=Unicode string used to initialize the new JSON node
+ 
+PRIM_JSON.Name=JSON Library
+PRIM_JSON.Desc=Home of JSON DOM, Reader and Writer support
+ 
+PRIM_JSON_ReadNode.Name=ReadNode method
+PRIM_JSON_ReadNode.Desc=Accesses state of specified JSON Reader to create and populate appropriate JSON node
+ 
+PRIM_JSON_ReadNode.Result.Name=Result parameter
+PRIM_JSON_ReadNode.Result.Desc=Reference to new JSON node created from state of specified JSON Reader
+ 
+PRIM_JSON_ReadNode.Reader.Name=Reader parameter
+PRIM_JSON_ReadNode.Reader.Desc=Reference to JSON Reader accessed to create and populate appropriate JSON node.
+ 
+PRIM_JSON.Reader.Name=PRIM_JSON.Reader
+PRIM_JSON.Reader.Desc=Represents a reader that provides fast, non-cached, forward-only access to serialized JSON data
+ 
+PRIM_JSON.Reader_Depth.Name=Depth property
+PRIM_JSON.Reader_Depth.Desc=Gets the depth of the current token in the JSON document
+ 
+PRIM_JSON.Reader_LineNumber.Name=LineNumber property
+PRIM_JSON.Reader_LineNumber.Desc=Gets the line number of the current token in the JSON document
+ 
+PRIM_JSON.Reader_LinePosition.Name=LinePosition property
+PRIM_JSON.Reader_LinePosition.Desc=Gets the position on the current line of the current token in the JSON document
+ 
+PRIM_JSON.Reader_Read.Name=Read method
+PRIM_JSON.Reader_Read.Desc=Reads the next JSON token from the source
+ 
+PRIM_JSON.Reader_Read.Result.Name=Result parameter
+PRIM_JSON.Reader_Read.Result.Desc=Returns true if the next token was read successfully; false if there are no more tokens to read
+ 
+PRIM_JSON.Reader_Skip.Name=Skip method
+PRIM_JSON.Reader_Skip.Desc=Skips the children of the current token
+ 
+PRIM_JSON.Reader_TextReader.Name=TextReader property
+PRIM_JSON.Reader_TextReader.Desc=Gets or sets a reference to a TextReader component that provides the serialized JSON data to be read
+ 
+PRIM_JSON.Reader_TokenAsBase16.Name=TokenAsBase16 method
+PRIM_JSON.Reader_TokenAsBase16.Desc=Converts the current token to a binary string by decoding the token's sequence of Base16/Hexadecimal characters
+ 
+PRIM_JSON.Reader_TokenAsBase16.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsBase16.Result.Desc=Binary string obtained by successfully converting current token's value from it's Base16/Hexadecimal encoding
+ 
+PRIM_JSON.Reader_TokenAsBase64.Name=TokenAsBase64 method
+PRIM_JSON.Reader_TokenAsBase64.Desc=Converts the current token to a binary string by decoding the token's sequence of Base64 characters
+ 
+PRIM_JSON.Reader_TokenAsBase64.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsBase64.Result.Desc=Binary string obtained by successfully converting current token's value from it's Base64 encoding
+ 
+PRIM_JSON.Reader_TokenAsBoolean.Name=TokenAsBoolean method
+PRIM_JSON.Reader_TokenAsBoolean.Desc=Converts the current token to a Boolean value
+ 
+PRIM_JSON.Reader_TokenAsBoolean.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsBoolean.Result.Desc=Boolean value of current token; false if not feasible
+ 
+PRIM_JSON.Reader_TokenAsDate.Name=TokenAsDate method
+PRIM_JSON.Reader_TokenAsDate.Desc=Converts the current token to a Date value
+ 
+PRIM_JSON.Reader_TokenAsDate.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsDate.Result.Desc=Date value of current token
+ 
+PRIM_JSON.Reader_TokenAsDate.Format.Name=Format parameter
+PRIM_JSON.Reader_TokenAsDate.Format.Desc=Format of the Date token
+ 
+PRIM_JSON.Reader_TokenAsDateTime.Name=TokenAsDateTime method
+PRIM_JSON.Reader_TokenAsDateTime.Desc=Converts the current token to a datetime value
+ 
+PRIM_JSON.Reader_TokenAsDateTime.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsDateTime.Result.Desc=DateTime value of current token
+ 
+PRIM_JSON.Reader_TokenAsDateTime.Format.Name=Format parameter
+PRIM_JSON.Reader_TokenAsDateTime.Format.Desc=Format of the datetime token
+ 
+PRIM_JSON.Reader_TokenAsDecimal.Name=TokenAsDecimal method
+PRIM_JSON.Reader_TokenAsDecimal.Desc=Converts the current token to a Decimal value
+ 
+PRIM_JSON.Reader_TokenAsDecimal.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsDecimal.Result.Desc=Decimal value of current token
+ 
+PRIM_JSON.Reader_TokenAsFloat64.Name=TokenAsFloat64 method
+PRIM_JSON.Reader_TokenAsFloat64.Desc=Converts the current token to a 64-bit floating point value
+ 
+PRIM_JSON.Reader_TokenAsFloat64.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsFloat64.Result.Desc=64-bit floating point value of current token
+ 
+PRIM_JSON.Reader_TokenAsInt32.Name=TokenAsInt32 method
+PRIM_JSON.Reader_TokenAsInt32.Desc=Converts the current token to a 32-bit integer value
+ 
+PRIM_JSON.Reader_TokenAsInt32.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsInt32.Result.Desc=32-bit integer value of current token
+ 
+PRIM_JSON.Reader_TokenAsInt64.Name=TokenAsInt64 method
+PRIM_JSON.Reader_TokenAsInt64.Desc=Converts the current token to a 64-bit integer value
+ 
+PRIM_JSON.Reader_TokenAsInt64.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsInt64.Result.Desc=64-bit integer value of current token
+ 
+PRIM_JSON.Reader_TokenAsName.Name=TokenAsName method
+PRIM_JSON.Reader_TokenAsName.Desc=Obtains a name value as a unicode string from the current token
+ 
+PRIM_JSON.Reader_TokenAsName.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsName.Result.Desc=Name value as a Unicode string of current token
+ 
+PRIM_JSON.Reader_TokenAsString.Name=TokenAsString method
+PRIM_JSON.Reader_TokenAsString.Desc=Converts the current token to a unicode string value
+ 
+PRIM_JSON.Reader_TokenAsString.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsString.Result.Desc=Unicode string value of current token
+ 
+PRIM_JSON.Reader_TokenAsTime.Name=TokenAsTime method
+PRIM_JSON.Reader_TokenAsTime.Desc=Converts the current token to a Time value
+ 
+PRIM_JSON.Reader_TokenAsTime.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenAsTime.Result.Desc=Time value of current token
+ 
+PRIM_JSON.Reader_TokenAsTime.Format.Name=Format parameter
+PRIM_JSON.Reader_TokenAsTime.Format.Desc=Format of the Time token
+ 
+PRIM_JSON.Reader_TokenIsDate.Name=TokenIsDate method
+PRIM_JSON.Reader_TokenIsDate.Desc=Checks if the current token can be converted to a Date value
+ 
+PRIM_JSON.Reader_TokenIsDate.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenIsDate.Result.Desc=Returns true if the current token can be converted to a Date value
+ 
+PRIM_JSON.Reader_TokenIsDate.Format.Name=Format parameter
+PRIM_JSON.Reader_TokenIsDate.Format.Desc=Format of the Date token
+ 
+PRIM_JSON.Reader_TokenIsDateTime.Name=TokenIsDateTime method
+PRIM_JSON.Reader_TokenIsDateTime.Desc=Checks if the current token can be converted to a datetime value
+ 
+PRIM_JSON.Reader_TokenIsDateTime.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenIsDateTime.Result.Desc=Returns true if the current token can be converted to a datetime value
+ 
+PRIM_JSON.Reader_TokenIsDateTime.Format.Name=Format parameter
+PRIM_JSON.Reader_TokenIsDateTime.Format.Desc=Format of the datetime token
+ 
+PRIM_JSON.Reader_TokenIsTime.Name=TokenIsTime method
+PRIM_JSON.Reader_TokenIsTime.Desc=Checks if the current token can be converted to a Time value
+ 
+PRIM_JSON.Reader_TokenIsTime.Result.Name=Result parameter
+PRIM_JSON.Reader_TokenIsTime.Result.Desc=Returns true if the current token can be converted to a Time value
+ 
+PRIM_JSON.Reader_TokenIsTime.Format.Name=Format parameter
+PRIM_JSON.Reader_TokenIsTime.Format.Desc=Format of the Time token
+ 
+PRIM_JSON.Reader_TokenNumberType.Name=TokenNumberType property
+PRIM_JSON.Reader_TokenNumberType.Desc=Gets the Number type of the current JSON token
+ 
+PRIM_JSON.Reader_TokenText.Name=TokenText property
+PRIM_JSON.Reader_TokenText.Desc=Gets the text of the current JSON token as a unicode string
+ 
+PRIM_JSON.Reader_TokenType.Name=TokenType property
+PRIM_JSON.Reader_TokenType.Desc=Gets the type of the current JSON token
+ 
+PRIM_JSON.Reader_TokenValueType.Name=TokenValueType property
+PRIM_JSON.Reader_TokenValueType.Desc=Gets the Value type of the current JSON token
+ 
+PRIM_JSON.String.Name=PRIM_JSON.String
+PRIM_JSON.String.Desc=JSON node class that represents a unicode string mapped from JSON content
+ 
+PRIM_JSON.String_Value.Name=Value property
+PRIM_JSON.String_Value.Desc=Gets or sets the unicode string value associated with the JSON node
+ 
+PRIM_JSON.ValueNode.Name=PRIM_JSON.ValueNode
+PRIM_JSON.ValueNode.Desc=Base class for all JSON nodes that represents values mapped from JSON content
+ 
+PRIM_JSON.Writer.Name=PRIM_JSON.Writer
+PRIM_JSON.Writer.Desc=Represents a writer that provides a fast, non-cached, forward-only way of generating JSON data.
+ 
+PRIM_JSON.Writer_BeginArray.Name=BeginArray method
+PRIM_JSON.Writer_BeginArray.Desc=Writes the beginning of a JSON Array
+ 
+PRIM_JSON.Writer_BeginArray.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_BeginArray.MemberName.Desc=When supplied, the value is the property name of a name/value pair of a JSON object and the JSON Array is the value
+ 
+PRIM_JSON.Writer_BeginObject.Name=BeginObject method
+PRIM_JSON.Writer_BeginObject.Desc=Writes the beginning of a JSON Object
+ 
+PRIM_JSON.Writer_BeginObject.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_BeginObject.MemberName.Desc=When supplied, the value is the property name of a name/value pair of a JSON object and the JSON Object is the value
+ 
+PRIM_JSON.Writer_Close.Name=Close method
+PRIM_JSON.Writer_Close.Desc=Closes this writer, auto-completing the JSON data
+ 
+PRIM_JSON.Writer_EndArray.Name=EndArray method
+PRIM_JSON.Writer_EndArray.Desc=Writes the end of a JSON Array
+ 
+PRIM_JSON.Writer_EndObject.Name=EndObject method
+PRIM_JSON.Writer_EndObject.Desc=Writes the end of a JSON Object
+ 
+PRIM_JSON.Writer_TextWriter.Name=TextWriter property
+PRIM_JSON.Writer_TextWriter.Desc=Gets or sets a reference to a TextWriter component that supports the writing of the serialized JSON data
+ 
+PRIM_JSON.Writer_WriteBase16.Name=WriteBase16 method
+PRIM_JSON.Writer_WriteBase16.Desc=Writes a binary string value as a Base16/Hexadecimal encoded value
+ 
+PRIM_JSON.Writer_WriteBase16.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteBase16.Value.Desc=Binary string to encode before writing
+ 
+PRIM_JSON.Writer_WriteBase16.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteBase16.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteBase64.Name=WriteBase64 method
+PRIM_JSON.Writer_WriteBase64.Desc=Writes a binary string value as a Base64 encoded value
+ 
+PRIM_JSON.Writer_WriteBase64.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteBase64.Value.Desc=Binary string to encode before writing
+ 
+PRIM_JSON.Writer_WriteBase64.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteBase64.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteBlockComment.Name=WriteBlockComment method
+PRIM_JSON.Writer_WriteBlockComment.Desc=Writes a JSON block comment
+ 
+PRIM_JSON.Writer_WriteBlockComment.Text.Name=Text parameter
+PRIM_JSON.Writer_WriteBlockComment.Text.Desc=Unicode string as the text of comment to write
+ 
+PRIM_JSON.Writer_WriteBoolean.Name=WriteBoolean method
+PRIM_JSON.Writer_WriteBoolean.Desc=Writes a Boolean value
+ 
+PRIM_JSON.Writer_WriteBoolean.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteBoolean.Value.Desc=Boolean value to write
+ 
+PRIM_JSON.Writer_WriteBoolean.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteBoolean.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteDate.Name=WriteDate method
+PRIM_JSON.Writer_WriteDate.Desc=Writes a Date value
+ 
+PRIM_JSON.Writer_WriteDate.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteDate.Value.Desc=Date value to write
+ 
+PRIM_JSON.Writer_WriteDate.Format.Name=Format parameter
+PRIM_JSON.Writer_WriteDate.Format.Desc=Format of the Date value
+ 
+PRIM_JSON.Writer_WriteDate.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteDate.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteDateTime.Name=WriteDateTime method
+PRIM_JSON.Writer_WriteDateTime.Desc=Writes a datetime value
+ 
+PRIM_JSON.Writer_WriteDateTime.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteDateTime.Value.Desc=DateTime value to write
+ 
+PRIM_JSON.Writer_WriteDateTime.Format.Name=Format parameter
+PRIM_JSON.Writer_WriteDateTime.Format.Desc=Format of the datetime value
+ 
+PRIM_JSON.Writer_WriteDateTime.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteDateTime.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteDecimal.Name=WriteDecimal method
+PRIM_JSON.Writer_WriteDecimal.Desc=Writes a Decimal value
+ 
+PRIM_JSON.Writer_WriteDecimal.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteDecimal.Value.Desc=Decimal value to write
+ 
+PRIM_JSON.Writer_WriteDecimal.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteDecimal.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteFloat64.Name=WriteFloat64 method
+PRIM_JSON.Writer_WriteFloat64.Desc=Writes a 64-bit floating point value
+ 
+PRIM_JSON.Writer_WriteFloat64.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteFloat64.Value.Desc=64-bit floating point value to write
+ 
+PRIM_JSON.Writer_WriteFloat64.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteFloat64.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteInt32.Name=WriteInt32 method
+PRIM_JSON.Writer_WriteInt32.Desc=Writes a 32-bit Integer value
+ 
+PRIM_JSON.Writer_WriteInt32.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteInt32.Value.Desc=32-bit integer value to write
+ 
+PRIM_JSON.Writer_WriteInt32.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteInt32.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteInt64.Name=WriteInt64 method
+PRIM_JSON.Writer_WriteInt64.Desc=Writes a 64-bit integer value
+ 
+PRIM_JSON.Writer_WriteInt64.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteInt64.Value.Desc=64-bit integer value to write
+ 
+PRIM_JSON.Writer_WriteInt64.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteInt64.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteLineComment.Name=WriteLineComment method
+PRIM_JSON.Writer_WriteLineComment.Desc=Writes a JSON line comment
+ 
+PRIM_JSON.Writer_WriteLineComment.Text.Name=Text parameter
+PRIM_JSON.Writer_WriteLineComment.Text.Desc=Unicode string as the text of comment to write
+ 
+PRIM_JSON.Writer_WriteMemberBoolean.Name=WriteMemberBoolean method
+PRIM_JSON.Writer_WriteMemberBoolean.Desc=Writes a Boolean value as a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberBoolean.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteMemberBoolean.MemberName.Desc=Unicode string as the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberBoolean.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteMemberBoolean.Value.Desc=Boolean value to write
+ 
+PRIM_JSON.Writer_WriteMemberDecimal.Name=WriteMemberDecimal method
+PRIM_JSON.Writer_WriteMemberDecimal.Desc=Writes a Decimal value as a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberDecimal.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteMemberDecimal.MemberName.Desc=Unicode string as the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberDecimal.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteMemberDecimal.Value.Desc=Decimal value to write
+ 
+PRIM_JSON.Writer_WriteMemberName.Name=WriteMemberName method
+PRIM_JSON.Writer_WriteMemberName.Desc=Writes a member name as a first part of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberName.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteMemberName.MemberName.Desc=Unicode string as the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberNull.Name=WriteMemberNull method
+PRIM_JSON.Writer_WriteMemberNull.Desc=Writes a Null value as a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberNull.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteMemberNull.MemberName.Desc=Unicode string as the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberString.Name=WriteMemberString method
+PRIM_JSON.Writer_WriteMemberString.Desc=Writes a unicode string as a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberString.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteMemberString.MemberName.Desc=Unicode string as the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteMemberString.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteMemberString.Value.Desc=Unicode string to write
+ 
+PRIM_JSON.Writer_WriteNull.Name=WriteNull method
+PRIM_JSON.Writer_WriteNull.Desc=Writes a JSON Null value
+ 
+PRIM_JSON.Writer_WriteNull.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteNull.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteString.Name=WriteString method
+PRIM_JSON.Writer_WriteString.Desc=Writes a unicode string value
+ 
+PRIM_JSON.Writer_WriteString.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteString.Value.Desc=Unicode string to write
+ 
+PRIM_JSON.Writer_WriteString.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteString.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
+ 
+PRIM_JSON.Writer_WriteTime.Name=WriteTime method
+PRIM_JSON.Writer_WriteTime.Desc=Writes a Time value
+ 
+PRIM_JSON.Writer_WriteTime.Value.Name=Value parameter
+PRIM_JSON.Writer_WriteTime.Value.Desc=Time value to write
+ 
+PRIM_JSON.Writer_WriteTime.Format.Name=Format parameter
+PRIM_JSON.Writer_WriteTime.Format.Desc=Format of the Time value
+ 
+PRIM_JSON.Writer_WriteTime.MemberName.Name=MemberName parameter
+PRIM_JSON.Writer_WriteTime.MemberName.Desc=When supplied, the string is the property name of a name/value pair of a JSON object
  
 PRIM_KBRD.Name=Keyboard
 PRIM_KBRD.Desc=The keyboard component indicates if Shift, Alt or Ctrl is pressed down
@@ -8954,7 +10634,7 @@ PRIM_LIBI.IDurationIntrinsics_AsDateTime.Name=AsDateTime method
 PRIM_LIBI.IDurationIntrinsics_AsDateTime.Desc=Returns the variable as a datetime
  
 PRIM_LIBI.IDurationIntrinsics_AsDateTime.Result.Name=Result parameter
-PRIM_LIBI.IDurationIntrinsics_AsDateTime.Result.Desc=Resulting DateTime
+PRIM_LIBI.IDurationIntrinsics_AsDateTime.Result.Desc=Resulting datetime
  
 PRIM_LIBI.IDurationIntrinsics_AsDateTime.Starting.Name=Starting parameter
 PRIM_LIBI.IDurationIntrinsics_AsDateTime.Starting.Desc=Datetime to subtract from the source
@@ -9007,7 +10687,7 @@ PRIM_LIBI.IFieldDateIntrinsics_FieldDefault.Desc=Return the default value of the
 PRIM_LIBI.IFieldDateIntrinsics_FieldDefault.Result.Name=Result parameter
 PRIM_LIBI.IFieldDateIntrinsics_FieldDefault.Result.Desc=Default value of the field
  
-PRIM_LIBI.IFieldDateTimeIntrinsics.Name=Field DateTime Intrinsic Functions
+PRIM_LIBI.IFieldDateTimeIntrinsics.Name=Field datetime Intrinsic Functions
 PRIM_LIBI.IFieldDateTimeIntrinsics.Desc=Field datetime intrinsic functions
  
 PRIM_LIBI.IFieldDateTimeIntrinsics_FieldDefault.Name=FieldDefault method
@@ -9593,7 +11273,7 @@ PRIM_LIBI.IGregorianDayIntrinsics_AsDateTime.Name=AsDateTime method
 PRIM_LIBI.IGregorianDayIntrinsics_AsDateTime.Desc=Returns the variable as a datetime
  
 PRIM_LIBI.IGregorianDayIntrinsics_AsDateTime.Result.Name=Result parameter
-PRIM_LIBI.IGregorianDayIntrinsics_AsDateTime.Result.Desc=Resulting DateTime
+PRIM_LIBI.IGregorianDayIntrinsics_AsDateTime.Result.Desc=Resulting datetime
  
 PRIM_LIBI.IGregorianDayIntrinsics_AsDateTime.Using.Name=Using parameter
 PRIM_LIBI.IGregorianDayIntrinsics_AsDateTime.Using.Desc=Datetime to be used as a base
@@ -9608,10 +11288,10 @@ PRIM_LIBI.IGregorianMonthDayIntrinsics.Name=Gregorian Month Day Intrinsic Functi
 PRIM_LIBI.IGregorianMonthDayIntrinsics.Desc=Gregorian month day intrinsic functions
  
 PRIM_LIBI.IGregorianMonthDayIntrinsics_AsDateTime.Name=AsDateTime method
-PRIM_LIBI.IGregorianMonthDayIntrinsics_AsDateTime.Desc=Return the variable as a DateTime
+PRIM_LIBI.IGregorianMonthDayIntrinsics_AsDateTime.Desc=Return the variable as a datetime
  
 PRIM_LIBI.IGregorianMonthDayIntrinsics_AsDateTime.Result.Name=Result parameter
-PRIM_LIBI.IGregorianMonthDayIntrinsics_AsDateTime.Result.Desc=Resulting DateTime
+PRIM_LIBI.IGregorianMonthDayIntrinsics_AsDateTime.Result.Desc=Resulting datetime
  
 PRIM_LIBI.IGregorianMonthDayIntrinsics_AsDateTime.Using.Name=Using parameter
 PRIM_LIBI.IGregorianMonthDayIntrinsics_AsDateTime.Using.Desc=Datetime to be used as a base
@@ -9626,10 +11306,10 @@ PRIM_LIBI.IGregorianMonthIntrinsics.Name=Gregorian Month Intrinsic Functions
 PRIM_LIBI.IGregorianMonthIntrinsics.Desc=Gregorian month intrinsic functions
  
 PRIM_LIBI.IGregorianMonthIntrinsics_AsDateTime.Name=AsDateTime method
-PRIM_LIBI.IGregorianMonthIntrinsics_AsDateTime.Desc=Return the variable as a DateTime
+PRIM_LIBI.IGregorianMonthIntrinsics_AsDateTime.Desc=Return the variable as a datetime
  
 PRIM_LIBI.IGregorianMonthIntrinsics_AsDateTime.Result.Name=Result parameter
-PRIM_LIBI.IGregorianMonthIntrinsics_AsDateTime.Result.Desc=Resulting DateTime
+PRIM_LIBI.IGregorianMonthIntrinsics_AsDateTime.Result.Desc=Resulting datetime
  
 PRIM_LIBI.IGregorianMonthIntrinsics_AsDateTime.Using.Name=Using parameter
 PRIM_LIBI.IGregorianMonthIntrinsics_AsDateTime.Using.Desc=Datetime to be used as a base
@@ -9644,10 +11324,10 @@ PRIM_LIBI.IGregorianYearIntrinsics.Name=Gregorian Year Intrinsic Functions
 PRIM_LIBI.IGregorianYearIntrinsics.Desc=Gregorian year intrinsic functions
  
 PRIM_LIBI.IGregorianYearIntrinsics_AsDateTime.Name=AsDateTime method
-PRIM_LIBI.IGregorianYearIntrinsics_AsDateTime.Desc=Return the variable as a DateTime
+PRIM_LIBI.IGregorianYearIntrinsics_AsDateTime.Desc=Return the variable as a datetime
  
 PRIM_LIBI.IGregorianYearIntrinsics_AsDateTime.Result.Name=Result parameter
-PRIM_LIBI.IGregorianYearIntrinsics_AsDateTime.Result.Desc=Resulting DateTime
+PRIM_LIBI.IGregorianYearIntrinsics_AsDateTime.Result.Desc=Resulting datetime
  
 PRIM_LIBI.IGregorianYearIntrinsics_AsDateTime.Using.Name=Using parameter
 PRIM_LIBI.IGregorianYearIntrinsics_AsDateTime.Using.Desc=Datetime to be used as a base
@@ -9662,10 +11342,10 @@ PRIM_LIBI.IGregorianYearMonthIntrinsics.Name=Gregorian Year Month Intrinsic Func
 PRIM_LIBI.IGregorianYearMonthIntrinsics.Desc=Gregorian year month intrinsic functions
  
 PRIM_LIBI.IGregorianYearMonthIntrinsics_AsDateTime.Name=AsDateTime method
-PRIM_LIBI.IGregorianYearMonthIntrinsics_AsDateTime.Desc=Return the variable as a DateTime
+PRIM_LIBI.IGregorianYearMonthIntrinsics_AsDateTime.Desc=Return the variable as a datetime
  
 PRIM_LIBI.IGregorianYearMonthIntrinsics_AsDateTime.Result.Name=Result parameter
-PRIM_LIBI.IGregorianYearMonthIntrinsics_AsDateTime.Result.Desc=Resulting DateTime
+PRIM_LIBI.IGregorianYearMonthIntrinsics_AsDateTime.Result.Desc=Resulting datetime
  
 PRIM_LIBI.IGregorianYearMonthIntrinsics_AsDateTime.Using.Name=Using parameter
 PRIM_LIBI.IGregorianYearMonthIntrinsics_AsDateTime.Using.Desc=Datetime to be used as a base
@@ -11257,6 +12937,9 @@ PRIM_LIST.Button_Alignment.Desc=Position of the caption within the button
 PRIM_LIST.Button_Caption.Name=Caption property
 PRIM_LIST.Button_Caption.Desc=Text to be displayed within the control
  
+PRIM_LIST.Button_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Button_CellThemeDrawStyle.Desc=Theme Drawstyle to be applied to the list cell
+ 
 PRIM_LIST.Button_Click.Name=Click event
 PRIM_LIST.Button_Click.Desc=Fired when the button is clicked
  
@@ -11298,6 +12981,9 @@ PRIM_LIST.CheckBox.Desc=Column displaying a check box for each item in the list
  
 PRIM_LIST.CheckBox_ButtonState.Name=ButtonState property
 PRIM_LIST.CheckBox_ButtonState.Desc=ButtonState indicates whether a check box is checked
+ 
+PRIM_LIST.CheckBox_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.CheckBox_CellThemeDrawStyle.Desc=Theme drawstyle to be applied to a checkbox cell in a list
  
 PRIM_LIST.CheckBox_Click.Name=Click event
 PRIM_LIST.CheckBox_Click.Desc=Fired when the check box is clicked
@@ -11523,6 +13209,9 @@ PRIM_LIST.CurrentItem_Visible.Desc=Show or hide the list item
  
 PRIM_LIST.DateTime.Name=List DateTime Column
 PRIM_LIST.DateTime.Desc=Column displaying date/times
+ 
+PRIM_LIST.DateTime_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.DateTime_CellThemeDrawStyle.Desc=DrawStyle to be applied to a datetime cell in a list
  
 PRIM_LIST.DateTime_CheckBox.Name=Checkbox property
 PRIM_LIST.DateTime_CheckBox.Desc=Checkbox controls whether the date and time picker is enabled
@@ -11752,6 +13441,159 @@ PRIM_LIST.DropDown_Text.Desc=Text contains the formatted data currently showing 
 PRIM_LIST.DropDown_Value.Name=Value property
 PRIM_LIST.DropDown_Value.Desc=Value of the data class
  
+PRIM_LIST.DropdownColumn.Name=Dropdown Column
+PRIM_LIST.DropdownColumn.Desc=Column displaying text that can be edited through a dropdown
+
+PRIM_LIST.DropdownColumn_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.DropdownColumn_CellThemeDrawStyle.Desc=Theme Drawstyle to be applied to the list cell
+
+PRIM_LIST.DropdownColumn_ColumnCaptionType.Name=ColumnCaptionType property
+PRIM_LIST.DropdownColumn_ColumnCaptionType.Desc=Type of caption to appear in the column header
+
+PRIM_LIST.DropdownColumn_ColumnReadOnly.Name=ColumnReadOnly property
+PRIM_LIST.DropdownColumn_ColumnReadOnly.Desc=Specifies whether the column is input capable
+
+PRIM_LIST.DropdownColumn_CurrentItem.Name=CurrentItem property
+PRIM_LIST.DropdownColumn_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
+
+PRIM_LIST.DropdownColumn_DropdownItems.Name=DropdownItems property
+PRIM_LIST.DropdownColumn_DropdownItems.Desc=The collection of items used to populate the dropdown
+
+PRIM_LIST.DropdownColumn_SortOnClick.Name=SortOnClick property
+PRIM_LIST.DropdownColumn_SortOnClick.Desc=Sort the column when the column header is clicked
+
+PRIM_LIST.DropdownColumn_Source.Name=Source property
+PRIM_LIST.DropdownColumn_Source.Desc=Field used as a source of data for the column
+
+PRIM_LIST.DropdownColumn_FocusItem.Name=FocusItem property
+PRIM_LIST.DropdownColumn_FocusItem.Desc=Reference to the focus item in the column
+
+PRIM_LIST.Icon.Name=PRIM_LIST.Icon
+PRIM_LIST.Icon.Desc=Column to display Icons in a list
+ 
+PRIM_LIST.Icon_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Icon_CellThemeDrawStyle.Desc=Drawstyle to be applied to an icon cell in a list
+ 
+PRIM_LIST.Icon_ColumnCaptionType.Name=ColumnCaptionType property
+PRIM_LIST.Icon_ColumnCaptionType.Desc=Type of caption to appear in the column header
+ 
+PRIM_LIST.Icon_CurrentItem.Name=CurrentItem property
+PRIM_LIST.Icon_CurrentItem.Desc=Provides access to the Icon for the current list item
+ 
+PRIM_LIST.Icon_FocusItem.Name=FocusItem property
+PRIM_LIST.Icon_FocusItem.Desc=Provides access to the Icon for the current list item
+ 
+PRIM_LIST.Icon_Icon.Name=Icon property
+PRIM_LIST.Icon_Icon.Desc=Image displayed within the cell
+ 
+PRIM_LIST.Icon_IconAlignment.Name=IconAlignment property
+PRIM_LIST.Icon_IconAlignment.Desc==Position of the icon within the cell
+ 
+PRIM_LIST.Icon_IconColor.Name=IconColor property
+PRIM_LIST.Icon_IconColor.Desc=Color to be used for icon
+ 
+PRIM_LIST.Icon_IconFileName.Name=IconFileName property
+PRIM_LIST.Icon_IconFileName.Desc=FileName is the name of image file
+ 
+PRIM_LIST.Icon_IconHeight.Name=IconHeight property
+PRIM_LIST.Icon_IconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_LIST.Icon_IconImage.Name=IconImage property
+PRIM_LIST.Icon_IconImage.Desc=Material design image to show on the control
+ 
+PRIM_LIST.Icon_IconImageSizing.Name=IconImageSizing property
+PRIM_LIST.Icon_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
+ 
+PRIM_LIST.Icon_IconMarginBottom.Name=IconMarginBottom property
+PRIM_LIST.Icon_IconMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.Icon_IconMarginLeft.Name=IconMarginLeft property
+PRIM_LIST.Icon_IconMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.Icon_IconMarginRight.Name=IconMarginRight property
+PRIM_LIST.Icon_IconMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.Icon_IconMarginTop.Name=IconMarginTop property
+PRIM_LIST.Icon_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.Icon_IconOpacity.Name=IconOpacity property
+PRIM_LIST.Icon_IconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_LIST.Icon_IconPadding.Name=IconPadding property
+PRIM_LIST.Icon_IconPadding.Desc=Padding of the icon in pixels
+ 
+PRIM_LIST.Icon_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_LIST.Icon_IconThemeDrawStyle.Desc=Drawstyle to be applied to Icon
+ 
+PRIM_LIST.Icon_PaddingBottom.Name=PaddingBottom property
+PRIM_LIST.Icon_PaddingBottom.Desc=Bottom padding in pixels
+ 
+PRIM_LIST.Icon_PaddingLeft.Name=PaddingLeft property
+PRIM_LIST.Icon_PaddingLeft.Desc=Left padding in pixels
+ 
+PRIM_LIST.Icon_PaddingRight.Name=PaddingRight property
+PRIM_LIST.Icon_PaddingRight.Desc=Right padding in pixels
+ 
+PRIM_LIST.Icon_PaddingTop.Name=PaddingTop property
+PRIM_LIST.Icon_PaddingTop.Desc=Top padding in pixels
+ 
+PRIM_LIST.IconCurrentItem.Name=PRIM_LIST.IconCurrentItem
+PRIM_LIST.IconCurrentItem.Desc=Provides access to the icon for the current list item.
+ 
+PRIM_LIST.IconCurrentItem_Icon.Name=Icon property
+PRIM_LIST.IconCurrentItem_Icon.Desc=Image displayed within the item
+ 
+PRIM_LIST.IconCurrentItem_IconAlignment.Name=IconAlignment property
+PRIM_LIST.IconCurrentItem_IconAlignment.Desc=Position of the icon within the control
+ 
+PRIM_LIST.IconCurrentItem_IconColor.Name=IconColor property
+PRIM_LIST.IconCurrentItem_IconColor.Desc=Color to be applied to the icon
+ 
+PRIM_LIST.IconCurrentItem_IconFileName.Name=IconFileName property
+PRIM_LIST.IconCurrentItem_IconFileName.Desc=FileName is the name of image file
+ 
+PRIM_LIST.IconCurrentItem_IconHeight.Name=IconHeight property
+PRIM_LIST.IconCurrentItem_IconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconImage.Name=IconImage property
+PRIM_LIST.IconCurrentItem_IconImage.Desc=Material design image to show on the control
+ 
+PRIM_LIST.IconCurrentItem_IconImageSizing.Name=IconImageSizing property
+PRIM_LIST.IconCurrentItem_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
+ 
+PRIM_LIST.IconCurrentItem_IconMarginBottom.Name=IconMarginBottom property
+PRIM_LIST.IconCurrentItem_IconMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconMarginLeft.Name=IconMarginLeft property
+PRIM_LIST.IconCurrentItem_IconMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconMarginRight.Name=IconMarginRight property
+PRIM_LIST.IconCurrentItem_IconMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconMarginTop.Name=IconMarginTop property
+PRIM_LIST.IconCurrentItem_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconOpacity.Name=IconOpacity property
+PRIM_LIST.IconCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_LIST.IconCurrentItem_IconPadding.Name=IconPadding property
+PRIM_LIST.IconCurrentItem_IconPadding.Desc=Padding of the icon in pixels
+ 
+PRIM_LIST.IconCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_LIST.IconCurrentItem_IconThemeDrawStyle.Desc=Drawstyle to be applied to Icon
+ 
+PRIM_LIST.IconCurrentItem_PaddingBottom.Name=PaddingBottom property
+PRIM_LIST.IconCurrentItem_PaddingBottom.Desc=Bottom padding in pixels
+ 
+PRIM_LIST.IconCurrentItem_PaddingLeft.Name=PaddingLeft property
+PRIM_LIST.IconCurrentItem_PaddingLeft.Desc=Left padding in pixels
+ 
+PRIM_LIST.IconCurrentItem_PaddingRight.Name=PaddingRight property
+PRIM_LIST.IconCurrentItem_PaddingRight.Desc=Right padding in pixels
+ 
+PRIM_LIST.IconCurrentItem_PaddingTop.Name=PaddingTop property
+PRIM_LIST.IconCurrentItem_PaddingTop.Desc=Top padding in pixels
+ 
 PRIM_LIST.IListCellDesign.Name=List Cell Interface
 PRIM_LIST.IListCellDesign.Desc=Interface allowing a List to communicate with a reusable part being used as a cell
  
@@ -11839,6 +13681,9 @@ PRIM_LIST.IListCellDesign_OnUpdate.ListItem.Desc=Reference to the list item bein
 PRIM_LIST.Image.Name=List Image Column
 PRIM_LIST.Image.Desc=Column displaying an image
  
+PRIM_LIST.Image_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Image_CellThemeDrawStyle.Desc=Drawstyle to be used on list cell
+ 
 PRIM_LIST.Image_Click.Name=Click event
 PRIM_LIST.Image_Click.Desc=Fired when the mouse is clicked on the control
  
@@ -11913,6 +13758,183 @@ PRIM_LIST.ImageCurrentItem_ImageUnits.Desc=Specifies whether the image is measur
  
 PRIM_LIST.ImageCurrentItem_ImageWidth.Name=ImageWidth property
 PRIM_LIST.ImageCurrentItem_ImageWidth.Desc=Width of the image. See ImageUnits
+ 
+PRIM_LIST.Label.Name=PRIM_LIST.Label
+PRIM_LIST.Label.Desc=Material Design Label to be shown in column
+ 
+PRIM_LIST.Label_Caption.Name=Caption property
+PRIM_LIST.Label_Caption.Desc=Text to be displayed within the label
+ 
+PRIM_LIST.Label_CaptionAlignment.Name=CaptionAlignment property
+PRIM_LIST.Label_CaptionAlignment.Desc=Position of the caption within the control
+ 
+PRIM_LIST.Label_CaptionMarginBottom.Name=CaptionMarginBottom property
+PRIM_LIST.Label_CaptionMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.Label_CaptionMarginLeft.Name=CaptionMarginLeft property
+PRIM_LIST.Label_CaptionMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.Label_CaptionMarginRight.Name=CaptionMarginRight property
+PRIM_LIST.Label_CaptionMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.Label_CaptionMarginTop.Name=CaptionMarginTop property
+PRIM_LIST.Label_CaptionMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.Label_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Label_CellThemeDrawStyle.Desc=Drawstyle to be used in list cell
+ 
+PRIM_LIST.Label_ColumnCaptionType.Name=ColumnCaptionType property
+PRIM_LIST.Label_ColumnCaptionType.Desc=Type of caption to appear in the column header
+ 
+PRIM_LIST.Label_CurrentItem.Name=CurrentItem property
+PRIM_LIST.Label_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
+ 
+PRIM_LIST.Label_Ellipses.Name=Ellipses property
+PRIM_LIST.Label_Ellipses.Desc=Specifies if ellipses are displayed when text is truncated
+ 
+PRIM_LIST.Label_FocusItem.Name=FocusItem property
+PRIM_LIST.Label_FocusItem.Desc=Reference to the focus label in the focus entry of the list
+ 
+PRIM_LIST.Label_Icon.Name=Icon property
+PRIM_LIST.Label_Icon.Desc=Icon to be used in label
+ 
+PRIM_LIST.Label_IconAlignment.Name=IconAlignment property
+PRIM_LIST.Label_IconAlignment.Desc=Position of the caption within the control
+ 
+PRIM_LIST.Label_IconColor.Name=IconColor property
+PRIM_LIST.Label_IconColor.Desc=Color to be applied to the icon
+ 
+PRIM_LIST.Label_IconFileName.Name=IconFileName property
+PRIM_LIST.Label_IconFileName.Desc=FileName is the name of image file
+ 
+PRIM_LIST.Label_IconHeight.Name=IconHeight property
+PRIM_LIST.Label_IconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_LIST.Label_IconImage.Name=IconImage property
+PRIM_LIST.Label_IconImage.Desc=Image to be shown on the control
+ 
+PRIM_LIST.Label_IconImageSizing.Name=IconImageSizing property
+PRIM_LIST.Label_IconImageSizing.Desc=Specifies the sizing behavior of the IconImage
+ 
+PRIM_LIST.Label_IconMarginBottom.Name=IconMarginBottom property
+PRIM_LIST.Label_IconMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.Label_IconMarginLeft.Name=IconMarginLeft property
+PRIM_LIST.Label_IconMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.Label_IconMarginRight.Name=IconMarginRight property
+PRIM_LIST.Label_IconMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.Label_IconMarginTop.Name=IconMarginTop property
+PRIM_LIST.Label_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.Label_IconOpacity.Name=IconOpacity property
+PRIM_LIST.Label_IconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_LIST.Label_IconPadding.Name=IconPadding property
+PRIM_LIST.Label_IconPadding.Desc=Padding of an Icon in pixels
+ 
+PRIM_LIST.Label_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_LIST.Label_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
+PRIM_LIST.Label_PaddingBottom.Name=PaddingBottom property
+PRIM_LIST.Label_PaddingBottom.Desc=Bottom padding in pixels
+ 
+PRIM_LIST.Label_PaddingLeft.Name=PaddingLeft property
+PRIM_LIST.Label_PaddingLeft.Desc=Left padding in pixels
+ 
+PRIM_LIST.Label_PaddingRight.Name=PaddingRight property
+PRIM_LIST.Label_PaddingRight.Desc=Right padding in pixels
+ 
+PRIM_LIST.Label_PaddingTop.Name=PaddingTop property
+PRIM_LIST.Label_PaddingTop.Desc=Top padding in pixels
+ 
+PRIM_LIST.Label_SortOnClick.Name=SortOnClick property
+PRIM_LIST.Label_SortOnClick.Desc=Sort the column when the column header is clicked
+ 
+PRIM_LIST.Label_WordWrap.Name=WordWrap property
+PRIM_LIST.Label_WordWrap.Desc=Wrap text on to the next line if there is insufficient space
+ 
+PRIM_LIST.LabelCurrentItem.Name=PRIM_LIST.LabelCurrentItem
+PRIM_LIST.LabelCurrentItem.Desc=Provides access to the label of the current list item
+ 
+PRIM_LIST.LabelCurrentItem_Caption.Name=Caption property
+PRIM_LIST.LabelCurrentItem_Caption.Desc=Text to be displayed within the label
+ 
+PRIM_LIST.LabelCurrentItem_CaptionAlignment.Name=CaptionAlignment property
+PRIM_LIST.LabelCurrentItem_CaptionAlignment.Desc=Position of the caption within the control
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginBottom.Name=CaptionMarginBottom property
+PRIM_LIST.LabelCurrentItem_CaptionMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginLeft.Name=CaptionMarginLeft property
+PRIM_LIST.LabelCurrentItem_CaptionMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginRight.Name=CaptionMarginRight property
+PRIM_LIST.LabelCurrentItem_CaptionMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Name=CaptionMarginTop property
+PRIM_LIST.LabelCurrentItem_CaptionMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_Ellipses.Name=Ellipses property
+PRIM_LIST.LabelCurrentItem_Ellipses.Desc=Show ellipses for truncated text
+ 
+PRIM_LIST.LabelCurrentItem_Icon.Name=Icon property
+PRIM_LIST.LabelCurrentItem_Icon.Desc=Material design image to show on the control
+ 
+PRIM_LIST.LabelCurrentItem_IconAlignment.Name=IconAlignment property
+PRIM_LIST.LabelCurrentItem_IconAlignment.Desc=Position of the icon within the control
+ 
+PRIM_LIST.LabelCurrentItem_IconColor.Name=IconColor property
+PRIM_LIST.LabelCurrentItem_IconColor.Desc=Color to be applied to the icon
+ 
+PRIM_LIST.LabelCurrentItem_IconFileName.Name=IconFileName property
+PRIM_LIST.LabelCurrentItem_IconFileName.Desc=FileName is the name of image file
+ 
+PRIM_LIST.LabelCurrentItem_IconHeight.Name=IconHeight property
+PRIM_LIST.LabelCurrentItem_IconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconImage.Name=IconImage property
+PRIM_LIST.LabelCurrentItem_IconImage.Desc=Material design image to show on the control
+ 
+PRIM_LIST.LabelCurrentItem_IconImageSizing.Name=IconImageSizing property
+PRIM_LIST.LabelCurrentItem_IconImageSizing.Desc=Specifies the sizing behaviour of the IconImage
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginBottom.Name=IconMarginBottom property
+PRIM_LIST.LabelCurrentItem_IconMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginLeft.Name=IconMarginLeft property
+PRIM_LIST.LabelCurrentItem_IconMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginRight.Name=IconMarginRight property
+PRIM_LIST.LabelCurrentItem_IconMarginRight.Desc=Right margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconMarginTop.Name=IconMarginTop property
+PRIM_LIST.LabelCurrentItem_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconOpacity.Name=IconOpacity property
+PRIM_LIST.LabelCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
+ 
+PRIM_LIST.LabelCurrentItem_IconPadding.Name=IconPadding property
+PRIM_LIST.LabelCurrentItem_IconPadding.Desc=Padding of the icon in pixels
+ 
+PRIM_LIST.LabelCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_LIST.LabelCurrentItem_IconThemeDrawStyle.Desc=Drawstyle to be applied to Icon
+ 
+PRIM_LIST.LabelCurrentItem_PaddingBottom.Name=PaddingBottom property
+PRIM_LIST.LabelCurrentItem_PaddingBottom.Desc=Bottom padding in pixels
+ 
+PRIM_LIST.LabelCurrentItem_PaddingLeft.Name=PaddingLeft property
+PRIM_LIST.LabelCurrentItem_PaddingLeft.Desc=Left padding in pixels
+ 
+PRIM_LIST.LabelCurrentItem_PaddingRight.Name=PaddingRight property
+PRIM_LIST.LabelCurrentItem_PaddingRight.Desc=Right padding in pixels
+ 
+PRIM_LIST.LabelCurrentItem_PaddingTop.Name=PaddingTop property
+PRIM_LIST.LabelCurrentItem_PaddingTop.Desc=Top padding in pixels
+ 
+PRIM_LIST.LabelCurrentItem_WordWrap.Name=WordWrap property
+PRIM_LIST.LabelCurrentItem_WordWrap.Desc=Wrap text on to the next line if there is insufficient space
  
 PRIM_LIST.ListItem.Name=List List Item
 PRIM_LIST.ListItem.Desc=List Item
@@ -12097,6 +14119,9 @@ PRIM_LIST.Number.Desc=Column displaying numerical data
 PRIM_LIST.Number_AutoSelect.Name=AutoSelect property
 PRIM_LIST.Number_AutoSelect.Desc=Automatically select the text when the control receives focus
  
+PRIM_LIST.Number_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Number_CellThemeDrawStyle.Desc=Drawstyle for list cell
+ 
 PRIM_LIST.Number_Click.Name=Click event
 PRIM_LIST.Number_Click.Desc=Fired when the mouse is clicked on the control
  
@@ -12223,6 +14248,9 @@ PRIM_LIST.NumberCurrentItem_Wrap.Desc=Set to true to start again when either end
 PRIM_LIST.Part.Name=List Reusable Part Column
 PRIM_LIST.Part.Desc=Column displaying a reusable part in the cell
  
+PRIM_LIST.Part_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.Part_CellThemeDrawStyle.Desc=Drawstyle for list cell
+ 
 PRIM_LIST.Part_CurrentItem.Name=CurrentItem property
 PRIM_LIST.Part_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
  
@@ -12304,6 +14332,9 @@ PRIM_LIST_ColumnThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to
 PRIM_LIST_CurrentItem.Name=List Current Item
 PRIM_LIST_CurrentItem.Desc=Base class for all Prim_List Current Item classes
  
+PRIM_LIST_CurrentPage.Name=CurrentPage property
+PRIM_LIST_CurrentPage.Desc=Specifies the current page to be displayed
+ 
 PRIM_LIST_Enter.Name=Enter event
 PRIM_LIST_Enter.Desc=Fired when the Enter key is pressed
  
@@ -12327,6 +14358,15 @@ PRIM_LIST_Enter.Handled.Desc=Set to true to stop the key being processed automat
  
 PRIM_LIST_EnterKeyStyle.Name=EnterKeyStyle property
 PRIM_LIST_EnterKeyStyle.Desc=EnterKeyStyle determines what happens when Enter key is pressed in a list
+ 
+PRIM_LIST_Export.Name=Export method
+PRIM_LIST_Export.Desc=Exports list data to text file
+ 
+PRIM_LIST_Export.FileName.Name=FileName parameter
+PRIM_LIST_Export.FileName.Desc=Specifies the file name of the text file to export
+ 
+PRIM_LIST_Filter.Name=Filter property
+PRIM_LIST_Filter.Desc=String to be searched for to filter the list
  
 PRIM_LIST_FindItem.Name=FindItem method
 PRIM_LIST_FindItem.Desc=Executes the OnFind method on the design interface for all list items
@@ -12496,6 +14536,9 @@ PRIM_LIST_RowResize.Desc=Allow rows to be resized
 PRIM_LIST_RowSizing.Name=RowSizing property
 PRIM_LIST_RowSizing.Desc=Determines how rows will resize
  
+PRIM_LIST_RowsPerPage.Name=RowsPerPage property
+PRIM_LIST_RowsPerPage.Desc=Specifies how many rows will appear per page
+ 
 PRIM_LIST_ScrollChanged.Name=ScrollChanged event
 PRIM_LIST_ScrollChanged.Desc=Fired when the scrollbars in a composite control are moved
  
@@ -12507,6 +14550,9 @@ PRIM_LIST_SelectedRowCount.Desc=SelectedRowCount shows how many columns have bee
  
 PRIM_LIST_SelectionStyle.Name=SelectionStyle property
 PRIM_LIST_SelectionStyle.Desc=Specifies the rules for item selection within the list
+ 
+PRIM_LIST_ShowPages.Name=ShowPages property
+PRIM_LIST_ShowPages.Desc=Show or hide the paging buttons
  
 PRIM_LIST_TreeButtons.Name=TreeButtons property
 PRIM_LIST_TreeButtons.Desc=Show or hide the expand/collapse images
@@ -12530,7 +14576,7 @@ PRIM_LIST_Virtualization.Name=Virtualization property
 PRIM_LIST_Virtualization.Desc=Specifies if a list is a virtualized.
  
 PRIM_LIST.String.Name=List String Column
-PRIM_LIST.String.Desc=Column displaying numerical data
+PRIM_LIST.String.Desc=Column displaying text
  
 PRIM_LIST.String_AutoCompleting.Name=AutoCompleting
 PRIM_LIST.String_AutoCompleting.Desc=Fired as a value is being edited allowing for a replacement value to be returned
@@ -12540,6 +14586,9 @@ PRIM_LIST.String_AutoCompleting.Value.Desc=Current value of the field and the re
  
 PRIM_LIST.String_AutoSelect.Name=AutoSelect property
 PRIM_LIST.String_AutoSelect.Desc=Automatically select the text when the control receives focus
+ 
+PRIM_LIST.String_CellThemeDrawStyle.Name=CellThemeDrawStyle property
+PRIM_LIST.String_CellThemeDrawStyle.Desc=Drawstyle for list cell
  
 PRIM_LIST.String_CharacterCase.Name=CharacterCase property
 PRIM_LIST.String_CharacterCase.Desc=CharacterCase sets character case
@@ -13540,6 +15589,9 @@ PRIM_MD.ActionButton_Click.Handled.Desc=Set to true to stop the event being prop
 PRIM_MD.ActionButton_Ellipses.Name=Ellipses property
 PRIM_MD.ActionButton_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.ActionButton_GotFocus.Name=GotFocus event
+PRIM_MD.ActionButton_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.ActionButton_Icon.Name=Icon property
 PRIM_MD.ActionButton_Icon.Desc=Image displayed within the button
  
@@ -13576,8 +15628,14 @@ PRIM_MD.ActionButton_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ActionButton_IconOpacity.Name=IconOpacity property
 PRIM_MD.ActionButton_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ActionButton_IconPadding.Name=IconPadding property
+PRIM_MD.ActionButton_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.ActionButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ActionButton_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
+PRIM_MD.ActionButton_LostFocus.Name=LostFocus event
+PRIM_MD.ActionButton_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.ActionButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.ActionButton_PaddingBottom.Desc=Bottom padding in pixels
@@ -13672,6 +15730,9 @@ PRIM_MD.Alert_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.Alert_IconOpacity.Name=IconOpacity property
 PRIM_MD.Alert_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.Alert_IconPadding.Name=IconPadding property
+PRIM_MD.Alert_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.Alert_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.Alert_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -13765,6 +15826,12 @@ PRIM_MD.AppBar_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.AppBar_IconOpacity.Name=IconOpacity property
 PRIM_MD.AppBar_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.AppBar_IconPadding.Name=IconPadding property
+PRIM_MD.AppBar_IconPadding.Desc=Padding of the icon in pixels
+ 
+PRIM_MD.AppBar_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_MD.AppBar_IconThemeDrawStyle.Desc=Drawstyle to be applied to Icon
+ 
 PRIM_MD.AppDrawer.Name=Application Drawer
 PRIM_MD.AppDrawer.Desc=Popup sidebar showing navigation options
  
@@ -13837,6 +15904,9 @@ PRIM_MD.CheckBox_CheckState.Desc=CheckState indicates whether a check box is che
 PRIM_MD.CheckBox_Ellipses.Name=Ellipses property
 PRIM_MD.CheckBox_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.CheckBox_GotFocus.Name=GotFocus event
+PRIM_MD.CheckBox_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.CheckBox_IconAlignment.Name=IconAlignment property
 PRIM_MD.CheckBox_IconAlignment.Desc=Position of the icon within the control
  
@@ -13857,6 +15927,9 @@ PRIM_MD.CheckBox_IconMarginRight.Desc=Right margin in pixels
  
 PRIM_MD.CheckBox_IconMarginTop.Name=IconMarginTop property
 PRIM_MD.CheckBox_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_MD.CheckBox_LostFocus.Name=LostFocus event
+PRIM_MD.CheckBox_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.CheckBox_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.CheckBox_PaddingBottom.Desc=Bottom padding in pixels
@@ -13928,7 +16001,7 @@ PRIM_MD.DateTime_Value.Name=Value property
 PRIM_MD.DateTime_Value.Desc=Value sets or retrieves the date and time
  
 PRIM_MD.DateTimeField.Name=DateTime Entry Field
-PRIM_MD.DateTimeField.Desc=Material Design DateTime Visualisation for DateTime fields
+PRIM_MD.DateTimeField.Desc=Material Design DateTime Visualisation for datetime fields
  
 PRIM_MD.DateTimeField_CaptionType.Name=CaptionType property
 PRIM_MD.DateTimeField_CaptionType.Desc=CaptionType determines the type of caption
@@ -14031,6 +16104,9 @@ PRIM_MD.Dropdown_AutoSuggest.Desc=Fired when the value is changed after a short 
  
 PRIM_MD.Dropdown_Changed.Name=Changed event
 PRIM_MD.Dropdown_Changed.Desc=Fired when the value is changed
+ 
+PRIM_MD.Dropdown_ClearButton.Name=ClearButton property
+PRIM_MD.Dropdown_ClearButton.Desc=Specifies if clear button is displayed on control
  
 PRIM_MD.Dropdown_CloseDropDown.Name=CloseDropDown method
 PRIM_MD.Dropdown_CloseDropDown.Desc=Forces the list portion of the DropDown to be closed
@@ -14296,6 +16372,9 @@ PRIM_MD.Edit_AutoSuggest.Desc=Fired when the value is changed after a short dela
 PRIM_MD.Edit_Changed.Name=Changed event
 PRIM_MD.Edit_Changed.Desc=Fired when the value is changed
  
+PRIM_MD.Edit_ClearButton.Name=ClearButton property
+PRIM_MD.Edit_ClearButton.Desc=Specifies if clear button is displayed on control
+ 
 PRIM_MD.Edit_DisplayAlignment.Name=DisplayAlignment property
 PRIM_MD.Edit_DisplayAlignment.Desc=DisplayAlignment sets the text alignment when not in focus
  
@@ -14374,6 +16453,9 @@ PRIM_MD.Edit_PromptIconFileName.Desc=FileName is the name of image file
 PRIM_MD.Edit_PromptIconHeight.Name=PromptIconHeight property
 PRIM_MD.Edit_PromptIconHeight.Desc=Height of the icon in pixels
  
+PRIM_MD.Edit_PromptIconHint.Name=PromptIconHint property
+PRIM_MD.Edit_PromptIconHint.Desc=Text to be displayed for prompter
+ 
 PRIM_MD.Edit_PromptIconImage.Name=PromptIconImage property
 PRIM_MD.Edit_PromptIconImage.Desc=Material design image to show on the control
  
@@ -14437,6 +16519,93 @@ PRIM_MD.EditField_Validate.Operation.Desc=The operation for the field to be vali
 PRIM_MD.EditField_Validate.Table.Name=Table parameter
 PRIM_MD.EditField_Validate.Table.Desc=Table to be used for validation
  
+PRIM_MD.Expander.Name=PRIM_MD.Expander
+PRIM_MD.Expander.Desc=Container for PRIM_MD.ExpanderPanel
+ 
+PRIM_MD.Expander_ViewStyle.Name=ViewStyle property
+PRIM_MD.Expander_ViewStyle.Desc=Specifies how the ExpanderPanels will be expanded and collapsed
+ 
+PRIM_MD.ExpanderPanel.Name=PRIM_MD.ExpanderPanel
+PRIM_MD.ExpanderPanel.Desc=Panel that can be expanded or collapsed
+ 
+PRIM_MD.ExpanderPanel_Caption.Name=Caption property
+PRIM_MD.ExpanderPanel_Caption.Desc=Text to be displayed in expander panel
+ 
+PRIM_MD.ExpanderPanel_CaptionAlignment.Name=CaptionAlignment property
+PRIM_MD.ExpanderPanel_CaptionAlignment.Desc=Position of the caption in Expander panel
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginBottom.Name=CaptionMarginBottom property
+PRIM_MD.ExpanderPanel_CaptionMarginBottom.Desc=Bottom margin in pixels
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginLeft.Name=CaptionMarginLeft property
+PRIM_MD.ExpanderPanel_CaptionMarginLeft.Desc=Left margin in pixels
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginRight.Name=CaptionMarginRight property
+PRIM_MD.ExpanderPanel_CaptionMarginRight.Desc=Right margin in pixels
+ 
+PRIM_MD.ExpanderPanel_CaptionMarginTop.Name=CaptionMarginTop property
+PRIM_MD.ExpanderPanel_CaptionMarginTop.Desc=Top margin in pixels
+ 
+PRIM_MD.ExpanderPanel_Collapsing.Name=Collapsing event
+PRIM_MD.ExpanderPanel_Collapsing.Desc=Fired when the panel is collapseing
+ 
+PRIM_MD.ExpanderPanel_Ellipses.Name=Ellipses property
+PRIM_MD.ExpanderPanel_Ellipses.Desc=Show ellipses for truncated text
+ 
+PRIM_MD.ExpanderPanel_Expanded.Name=Expanded property
+PRIM_MD.ExpanderPanel_Expanded.Desc=Returns true if panel is expanded
+ 
+PRIM_MD.ExpanderPanel_Expanding.Name=Expanding event
+PRIM_MD.ExpanderPanel_Expanding.Desc=Fires when the panel is expanding
+ 
+PRIM_MD.ExpanderPanel_Icon.Name=Icon property
+PRIM_MD.ExpanderPanel_Icon.Desc=Icon to be displayed on panel
+ 
+PRIM_MD.ExpanderPanel_IconAlignment.Name=IconAlignment property
+PRIM_MD.ExpanderPanel_IconAlignment.Desc=Alignment of the icon on the panel
+ 
+PRIM_MD.ExpanderPanel_IconColor.Name=IconColor property
+PRIM_MD.ExpanderPanel_IconColor.Desc=Color of the icon
+ 
+PRIM_MD.ExpanderPanel_IconFileName.Name=IconFileName property
+PRIM_MD.ExpanderPanel_IconFileName.Desc=Path to icon file to be used
+ 
+PRIM_MD.ExpanderPanel_IconHeight.Name=IconHeight property
+PRIM_MD.ExpanderPanel_IconHeight.Desc=Height of the icon to be used
+ 
+PRIM_MD.ExpanderPanel_IconImage.Name=IconImage property
+PRIM_MD.ExpanderPanel_IconImage.Desc=Image to be used for the icon
+ 
+PRIM_MD.ExpanderPanel_IconImageSizing.Name=IconImageSizing property
+PRIM_MD.ExpanderPanel_IconImageSizing.Desc=Sizing of the icon
+ 
+PRIM_MD.ExpanderPanel_IconMarginBottom.Name=IconMarginBottom property
+PRIM_MD.ExpanderPanel_IconMarginBottom.Desc=Margin of the icon from the bottom
+ 
+PRIM_MD.ExpanderPanel_IconMarginLeft.Name=IconMarginLeft property
+PRIM_MD.ExpanderPanel_IconMarginLeft.Desc=Margin of the icon from the left
+ 
+PRIM_MD.ExpanderPanel_IconMarginRight.Name=IconMarginRight property
+PRIM_MD.ExpanderPanel_IconMarginRight.Desc=Margin of the icon from the right
+ 
+PRIM_MD.ExpanderPanel_IconMarginTop.Name=IconMarginTop property
+PRIM_MD.ExpanderPanel_IconMarginTop.Desc=Margin of the icon from the top
+ 
+PRIM_MD.ExpanderPanel_IconOpacity.Name=IconOpacity property
+PRIM_MD.ExpanderPanel_IconOpacity.Desc=Specifies the Opacity of the icon
+ 
+PRIM_MD.ExpanderPanel_IconPadding.Name=IconPadding property
+PRIM_MD.ExpanderPanel_IconPadding.Desc=Specifies the Icon padding in pixels
+ 
+PRIM_MD.ExpanderPanel_IconThemeDrawStyle.Name=IconThemeDrawStyle property
+PRIM_MD.ExpanderPanel_IconThemeDrawStyle.Desc=Drawstyle of the icon
+ 
+PRIM_MD.ExpanderPanel_LayoutManager.Name=LayoutManager property
+PRIM_MD.ExpanderPanel_LayoutManager.Desc=Layout manager of the expander panel
+ 
+PRIM_MD.ExpanderPanel_WordWrap.Name=WordWrap property
+PRIM_MD.ExpanderPanel_WordWrap.Desc=Specifies if the caption will wrap
+ 
 PRIM_MD.FlatButton.Name=Flat Button
 PRIM_MD.FlatButton.Desc=Button shown as a simple flat control
  
@@ -14476,6 +16645,9 @@ PRIM_MD.FlatButton_Click.Handled.Desc=Set to true to stop the event being propag
 PRIM_MD.FlatButton_Ellipses.Name=Ellipses property
 PRIM_MD.FlatButton_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.FlatButton_GotFocus.Name=GotFocus event
+PRIM_MD.FlatButton_GotFocus.Desc=Fired when the control recieves focus
+ 
 PRIM_MD.FlatButton_Icon.Name=Icon property
 PRIM_MD.FlatButton_Icon.Desc=Image displayed within the button
  
@@ -14512,8 +16684,14 @@ PRIM_MD.FlatButton_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.FlatButton_IconOpacity.Name=IconOpacity property
 PRIM_MD.FlatButton_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.FlatButton_IconPadding.Name=IconPadding property
+PRIM_MD.FlatButton_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.FlatButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.FlatButton_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
+PRIM_MD.FlatButton_LostFocus.Name=LostFocus event
+PRIM_MD.FlatButton_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.FlatButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.FlatButton_PaddingBottom.Desc=Bottom padding in pixels
@@ -14578,6 +16756,9 @@ PRIM_MD.Icon_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.Icon_IconOpacity.Name=IconOpacity property
 PRIM_MD.Icon_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.Icon_IconPadding.Name=IconPadding property
+PRIM_MD.Icon_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.Icon_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.Icon_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -14602,6 +16783,9 @@ PRIM_MD.Input_Appearance.Desc=Format of the control
 PRIM_MD.Input_Caption.Name=Caption
 PRIM_MD.Input_Caption.Desc=Caption property
  
+PRIM_MD.Input_CaptionColor.Name=CaptionColor property
+PRIM_MD.Input_CaptionColor.Desc=Color of caption
+ 
 PRIM_MD.Input_CaptionPosition.Name=CaptionPosition property
 PRIM_MD.Input_CaptionPosition.Desc=Sets the position of Caption
  
@@ -14610,6 +16794,9 @@ PRIM_MD.Input_ClearError.Desc=Clear the error
  
 PRIM_MD.Input_HasError.Name=HasError property
 PRIM_MD.Input_HasError.Desc=Is the field flagged as being in error
+ 
+PRIM_MD.Input_HelperColor.Name=HelperColor property
+PRIM_MD.Input_HelperColor.Desc=Color of helper text
  
 PRIM_MD.Input_HelperPosition.Name=HelperPosition property
 PRIM_MD.Input_HelperPosition.Desc=Position where the helper text will be displayed
@@ -14728,6 +16915,9 @@ PRIM_MD.Label_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.Label_IconOpacity.Name=IconOpacity property
 PRIM_MD.Label_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.Label_IconPadding.Name=IconPadding property
+PRIM_MD.Label_IconPadding.Desc=Padding of the icon in pixels
+ 
 PRIM_MD.Label_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.Label_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -14755,8 +16945,14 @@ PRIM_MD.List_Changed.Desc=Fired when the list changes
 PRIM_MD.List_CurrentItem.Name=CurrentItem property
 PRIM_MD.List_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
  
+PRIM_MD.List_CurrentPage.Name=CurrentPage property
+PRIM_MD.List_CurrentPage.Desc=Specifies the current page displayed by the list
+ 
 PRIM_MD.List_DeleteAll.Name=DeleteAll method
 PRIM_MD.List_DeleteAll.Desc=Delete all items in the list
+ 
+PRIM_MD.List_Filter.Name=Filter property
+PRIM_MD.List_Filter.Desc=String to be searched for to filter the list
  
 PRIM_MD.List_FindReference.Name=FindReference method
 PRIM_MD.List_FindReference.Desc=Find an object stored as a RelatedReference
@@ -14878,11 +17074,17 @@ PRIM_MD.List_LostFocus.Desc=Fired when the item loses focus
 PRIM_MD.List_RowHeight.Name=RowHeight property
 PRIM_MD.List_RowHeight.Desc=Height of a row in pixels
  
+PRIM_MD.List_RowsPerPage.Name=RowsPerPage property
+PRIM_MD.List_RowsPerPage.Desc=Amount of rows to be displayed on the page
+ 
 PRIM_MD.List_ScrollChanged.Name=ScrollChanged event
 PRIM_MD.List_ScrollChanged.Desc=Fired when the scrollbars in a composite control are moved
  
 PRIM_MD.List_ScrollChanged.Orientation.Name=Orientation parameter
 PRIM_MD.List_ScrollChanged.Orientation.Desc=Specifies the direction of scroll change
+ 
+PRIM_MD.List_ShowPages.Name=ShowPages property
+PRIM_MD.List_ShowPages.Desc=Specifies if the list will be displayed in pages
  
 PRIM_MD.List_VerticalScrollPos.Name=VerticalScrollPos property
 PRIM_MD.List_VerticalScrollPos.Desc=VerticalScrollPos sets the position of the vertical scroll bar
@@ -14898,6 +17100,9 @@ PRIM_MD.ListBadge_CurrentItem.Desc=The last item in the list touched either in t
  
 PRIM_MD.ListBadge_FocusItem.Name=FocusItem property
 PRIM_MD.ListBadge_FocusItem.Desc=Reference to the badge in the focus entry of the list
+ 
+PRIM_MD.ListBadge_Parent.Name=Parent property
+PRIM_MD.ListBadge_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListBadgeCurrentItem.Name=List Badge Current Item
 PRIM_MD.ListBadgeCurrentItem.Desc=Provides access to the badge of the current list item
@@ -14956,6 +17161,9 @@ PRIM_MD.ListBadgeCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListBadgeCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListBadgeCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListBadgeCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListBadgeCurrentItem_IconPadding.Desc=Padding of an Icon in pixels
+ 
 PRIM_MD.ListBadgeCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListBadgeCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -14979,6 +17187,9 @@ PRIM_MD.ListCheckBox_CurrentItem.Desc=The last item in the list touched either i
  
 PRIM_MD.ListCheckBox_FocusItem.Name=FocusItem property
 PRIM_MD.ListCheckBox_FocusItem.Desc=Reference to the check box in the focus entry of the list
+ 
+PRIM_MD.ListCheckBox_Parent.Name=Parent property
+PRIM_MD.ListCheckBox_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListCheckBox_Source.Name=Source property
 PRIM_MD.ListCheckBox_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15097,6 +17308,9 @@ PRIM_MD.ListDateTime_CurrentItem.Desc=The last item in the list touched either i
 PRIM_MD.ListDateTime_FocusItem.Name=FocusItem property
 PRIM_MD.ListDateTime_FocusItem.Desc=Reference to the datetime field in the focus entry of the list
  
+PRIM_MD.ListDateTime_Parent.Name=Parent property
+PRIM_MD.ListDateTime_Parent.Desc=Reference to the prim_md.list containing the control
+ 
 PRIM_MD.ListDateTime_Source.Name=Source property
 PRIM_MD.ListDateTime_Source.Desc=Name of the repository field used to define and store the data for this control
  
@@ -15184,6 +17398,9 @@ PRIM_MD.ListEdit_CurrentItem.Desc=The last item in the list touched either in th
 PRIM_MD.ListEdit_FocusItem.Name=FocusItem property
 PRIM_MD.ListEdit_FocusItem.Desc=Reference to the focus entry in the list
  
+PRIM_MD.ListEdit_Parent.Name=Parent property
+PRIM_MD.ListEdit_Parent.Desc=A reference to the list that contains the control
+ 
 PRIM_MD.ListEdit_Source.Name=Source property
 PRIM_MD.ListEdit_Source.Desc=Name of the repository field used to define and store the data for this control
  
@@ -15262,6 +17479,9 @@ PRIM_MD.ListEditCurrentItem_PromptIconFileName.Desc=FileName is the name of imag
 PRIM_MD.ListEditCurrentItem_PromptIconHeight.Name=PromptIconHeight property
 PRIM_MD.ListEditCurrentItem_PromptIconHeight.Desc=Height of the icon in pixels
  
+PRIM_MD.ListEditCurrentItem_PromptIconHint.Name=PromptIconHint property
+PRIM_MD.ListEditCurrentItem_PromptIconHint.Desc=Hint to be displayed
+ 
 PRIM_MD.ListEditCurrentItem_PromptIconImage.Name=PromptIconImage property
 PRIM_MD.ListEditCurrentItem_PromptIconImage.Desc=Material design image to show on the control
  
@@ -15297,6 +17517,9 @@ PRIM_MD.ListFlatButton_CurrentItem.Desc=The last item in the list touched either
  
 PRIM_MD.ListFlatButton_FocusItem.Name=FocusItem property
 PRIM_MD.ListFlatButton_FocusItem.Desc=Reference to the flat button in the focus entry of the list
+ 
+PRIM_MD.ListFlatButton_Parent.Name=Parent property
+PRIM_MD.ListFlatButton_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListFlatButton_Source.Name=Source property
 PRIM_MD.ListFlatButton_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15361,6 +17584,9 @@ PRIM_MD.ListFlatButtonCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListFlatButtonCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListFlatButtonCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListFlatButtonCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListFlatButtonCurrentItem_IconPadding.Desc=Padding of an Icon in pixels
+ 
 PRIM_MD.ListFlatButtonCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListFlatButtonCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -15387,6 +17613,9 @@ PRIM_MD.ListIcon_CurrentItem.Desc=List icon current item
  
 PRIM_MD.ListIcon_FocusItem.Name=FocusItem property
 PRIM_MD.ListIcon_FocusItem.Desc=List icon focus item
+ 
+PRIM_MD.ListIcon_Parent.Name=Parent property
+PRIM_MD.ListIcon_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListIcon_SortDirection.Name=SortDirection property
 PRIM_MD.ListIcon_SortDirection.Desc=SortDirection controls how list is sorted
@@ -15436,6 +17665,9 @@ PRIM_MD.ListIconCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListIconCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListIconCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListIconCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListIconCurrentItem_IconPadding.Desc=Padding of an Icon in pixels
+ 
 PRIM_MD.ListIconCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListIconCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -15450,6 +17682,63 @@ PRIM_MD.ListIconCurrentItem_PaddingRight.Desc=Right padding in pixels
  
 PRIM_MD.ListIconCurrentItem_PaddingTop.Name=PaddingTop property
 PRIM_MD.ListIconCurrentItem_PaddingTop.Desc=Top padding in pixels
+ 
+PRIM_MD.ListImage.Name=PRIM_MD.ListImage
+PRIM_MD.ListImage.Desc=An image column to be used in a prim_md.list
+ 
+PRIM_MD.ListImage_CurrentItem.Name=CurrentItem property
+PRIM_MD.ListImage_CurrentItem.Desc=A reference to an prim_md.listImage in the current list item
+ 
+PRIM_MD.ListImage_FocusItem.Name=FocusItem property
+PRIM_MD.ListImage_FocusItem.Desc=A reference to the focus prim_md.listImage in the current list item
+ 
+PRIM_MD.ListImage_Parent.Name=Parent property
+PRIM_MD.ListImage_Parent.Desc=Reference to the prim_md.list containing the control
+ 
+PRIM_MD.ListImageCurrentItem.Name=PRIM_MD.ListImageCurrentItem
+PRIM_MD.ListImageCurrentItem.Desc=A reference to an prim_md.listImage in the current list item
+ 
+PRIM_MD.ListImageCurrentItem_FileName.Name=FileName property
+PRIM_MD.ListImageCurrentItem_FileName.Desc=file name of the image
+ 
+PRIM_MD.ListImageCurrentItem_Image.Name=Image property
+PRIM_MD.ListImageCurrentItem_Image.Desc=image to be displayed
+ 
+PRIM_MD.ListImageCurrentItem_ImageAlignment.Name=ImageAlignment property
+PRIM_MD.ListImageCurrentItem_ImageAlignment.Desc=Position of the image within the control
+ 
+PRIM_MD.ListImageCurrentItem_ImageHeight.Name=ImageHeight property
+PRIM_MD.ListImageCurrentItem_ImageHeight.Desc=Set the height and width of the image in pixels
+ 
+PRIM_MD.ListImageCurrentItem_ImageLeft.Name=ImageLeft property
+PRIM_MD.ListImageCurrentItem_ImageLeft.Desc=Left position of the image. See ImageUnits
+ 
+PRIM_MD.ListImageCurrentItem_ImageSizing.Name=ImageSizing property
+PRIM_MD.ListImageCurrentItem_ImageSizing.Desc=The sizing to be used for the image
+ 
+PRIM_MD.ListImageCurrentItem_ImageTile.Name=ImageTile property
+PRIM_MD.ListImageCurrentItem_ImageTile.Desc=Defines whether the image is repeated
+ 
+PRIM_MD.ListImageCurrentItem_ImageTop.Name=ImageTop property
+PRIM_MD.ListImageCurrentItem_ImageTop.Desc=Top position of the image. See ImageUnits
+ 
+PRIM_MD.ListImageCurrentItem_ImageUnits.Name=ImageUnits property
+PRIM_MD.ListImageCurrentItem_ImageUnits.Desc=Specifies whether the image is measured using pixels or percentages
+ 
+PRIM_MD.ListImageCurrentItem_ImageWidth.Name=ImageWidth property
+PRIM_MD.ListImageCurrentItem_ImageWidth.Desc=Width of the image
+ 
+PRIM_MD.ListImageCurrentItem_MarginBottom.Name=MarginBottom property
+PRIM_MD.ListImageCurrentItem_MarginBottom.Desc=Margin from the bottom in pixels
+ 
+PRIM_MD.ListImageCurrentItem_MarginLeft.Name=MarginLeft property
+PRIM_MD.ListImageCurrentItem_MarginLeft.Desc=Margin from the left in pixels
+ 
+PRIM_MD.ListImageCurrentItem_MarginRight.Name=MarginRight property
+PRIM_MD.ListImageCurrentItem_MarginRight.Desc=Margin from the right in pixels
+ 
+PRIM_MD.ListImageCurrentItem_MarginTop.Name=MarginTop property
+PRIM_MD.ListImageCurrentItem_MarginTop.Desc=Margin from the top in pixels
  
 PRIM_MD.ListItem.Name=List Item
 PRIM_MD.ListItem.Desc=List Item
@@ -15544,6 +17833,9 @@ PRIM_MD.ListLabel_CurrentItem.Desc=The last item in the list touched either in t
 PRIM_MD.ListLabel_FocusItem.Name=FocusItem property
 PRIM_MD.ListLabel_FocusItem.Desc=Reference to the focus label in the focus entry of the list
  
+PRIM_MD.ListLabel_Parent.Name=Parent property
+PRIM_MD.ListLabel_Parent.Desc=Reference to the prim_md.list containing the control
+ 
 PRIM_MD.ListLabel_SortDirection.Name=SortDirection property
 PRIM_MD.ListLabel_SortDirection.Desc=SortDirection controls how list is sorted
  
@@ -15610,6 +17902,9 @@ PRIM_MD.ListLabelCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListLabelCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListLabelCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListLabelCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListLabelCurrentItem_IconPadding.Desc=Padding of an Icon in pixels
+ 
 PRIM_MD.ListLabelCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListLabelCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -15633,6 +17928,9 @@ PRIM_MD.ListRaisedButton_CurrentItem.Desc=The last item in the list touched eith
  
 PRIM_MD.ListRaisedButton_FocusItem.Name=FocusItem property
 PRIM_MD.ListRaisedButton_FocusItem.Desc=Reference to the raised button in the focus entry of the list
+ 
+PRIM_MD.ListRaisedButton_Parent.Name=Parent property
+PRIM_MD.ListRaisedButton_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListRaisedButton_Source.Name=Source property
 PRIM_MD.ListRaisedButton_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15697,6 +17995,9 @@ PRIM_MD.ListRaisedButtonCurrentItem_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.ListRaisedButtonCurrentItem_IconOpacity.Name=IconOpacity property
 PRIM_MD.ListRaisedButtonCurrentItem_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.ListRaisedButtonCurrentItem_IconPadding.Name=IconPadding property
+PRIM_MD.ListRaisedButtonCurrentItem_IconPadding.Desc=The icon padding value of the current list item
+ 
 PRIM_MD.ListRaisedButtonCurrentItem_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.ListRaisedButtonCurrentItem_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
  
@@ -15723,6 +18024,9 @@ PRIM_MD.ListSpinEdit_CurrentItem.Desc=The last item in the list touched either i
  
 PRIM_MD.ListSpinEdit_FocusItem.Name=FocusItem property
 PRIM_MD.ListSpinEdit_FocusItem.Desc=Reference to the spin edit in the focus entry of the list
+ 
+PRIM_MD.ListSpinEdit_Parent.Name=Parent property
+PRIM_MD.ListSpinEdit_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListSpinEdit_Source.Name=Source property
 PRIM_MD.ListSpinEdit_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15790,6 +18094,9 @@ PRIM_MD.ListSpinEditCurrentItem_PromptIconFileName.Desc=FileName is the name of 
 PRIM_MD.ListSpinEditCurrentItem_PromptIconHeight.Name=PromptIconHeight property
 PRIM_MD.ListSpinEditCurrentItem_PromptIconHeight.Desc=Height of the icon in pixels
  
+PRIM_MD.ListSpinEditCurrentItem_PromptIconHint.Name=PromptIconHint property
+PRIM_MD.ListSpinEditCurrentItem_PromptIconHint.Desc=A reference to the hint of the current list item
+ 
 PRIM_MD.ListSpinEditCurrentItem_PromptIconImage.Name=PromptIconImage property
 PRIM_MD.ListSpinEditCurrentItem_PromptIconImage.Desc=Image to show on the control
  
@@ -15822,6 +18129,9 @@ PRIM_MD.ListSwitch_CurrentItem.Desc=The last item in the list touched either in 
  
 PRIM_MD.ListSwitch_FocusItem.Name=FocusItem property
 PRIM_MD.ListSwitch_FocusItem.Desc=Reference to the switch in the focus entry of the list
+ 
+PRIM_MD.ListSwitch_Parent.Name=Parent property
+PRIM_MD.ListSwitch_Parent.Desc=Reference to the prim_md.list containing the control
  
 PRIM_MD.ListSwitch_Source.Name=Source property
 PRIM_MD.ListSwitch_Source.Desc=Name of the repository field used to define and store the data for this control
@@ -15928,6 +18238,18 @@ PRIM_MD.MenuItem_View.Desc=View to display when the menu item is clicked
 PRIM_MD.Name=Material Design
 PRIM_MD.Desc=Material Design control class
  
+PRIM_MD.ProgressBar.Name=PRIM_MD.ProgressBar
+PRIM_MD.ProgressBar.Desc=Material Design progress bar control
+ 
+PRIM_MD.ProgressBar_BufferValue.Name=BufferValue property
+PRIM_MD.ProgressBar_BufferValue.Desc=The value of buffering progress displayed of the progress bar between 0 and 100
+ 
+PRIM_MD.ProgressBar_Mode.Name=Mode property
+PRIM_MD.ProgressBar_Mode.Desc=Determines how the progress bar is displayed
+ 
+PRIM_MD.ProgressBar_Value.Name=Value property
+PRIM_MD.ProgressBar_Value.Desc=Value of the current progress to be displayed on the progress bar between 0 and 100
+ 
 PRIM_MD.RadioButton.Name=Radio Button
 PRIM_MD.RadioButton.Desc=Radio Buttons show mutually exclusive choices
  
@@ -15958,6 +18280,9 @@ PRIM_MD.RadioButton_Checked.Desc=Checked property specifies whether the check bo
 PRIM_MD.RadioButton_Ellipses.Name=Ellipses property
 PRIM_MD.RadioButton_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.RadioButton_GotFocus.Name=GotFocus event
+PRIM_MD.RadioButton_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.RadioButton_GroupIndex.Name=GroupIndex property
 PRIM_MD.RadioButton_GroupIndex.Desc=GroupIndex creates a set of mutually exclusive options
  
@@ -15981,6 +18306,9 @@ PRIM_MD.RadioButton_IconMarginRight.Desc=Right margin in pixels
  
 PRIM_MD.RadioButton_IconMarginTop.Name=IconMarginTop property
 PRIM_MD.RadioButton_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_MD.RadioButton_LostFocus.Name=LostFocus event
+PRIM_MD.RadioButton_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.RadioButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.RadioButton_PaddingBottom.Desc=Bottom padding in pixels
@@ -16036,6 +18364,9 @@ PRIM_MD.RaisedButton_Click.Handled.Desc=Set to true to stop the event being prop
 PRIM_MD.RaisedButton_Ellipses.Name=Ellipses property
 PRIM_MD.RaisedButton_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.RaisedButton_GotFocus.Name=GotFocus event
+PRIM_MD.RaisedButton_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.RaisedButton_Icon.Name=Icon property
 PRIM_MD.RaisedButton_Icon.Desc=Image displayed within the button
  
@@ -16072,8 +18403,14 @@ PRIM_MD.RaisedButton_IconMarginTop.Desc=Top margin in pixels
 PRIM_MD.RaisedButton_IconOpacity.Name=IconOpacity property
 PRIM_MD.RaisedButton_IconOpacity.Desc=Percentage opacity of the icon
  
+PRIM_MD.RaisedButton_IconPadding.Name=IconPadding property
+PRIM_MD.RaisedButton_IconPadding.Desc=Specifies the padding of the icon in pixels
+ 
 PRIM_MD.RaisedButton_IconThemeDrawStyle.Name=IconThemeDrawStyle property
 PRIM_MD.RaisedButton_IconThemeDrawStyle.Desc=Name of the Theme DrawStyle to be applied to the icon
+ 
+PRIM_MD.RaisedButton_LostFocus.Name=LostFocus event
+PRIM_MD.RaisedButton_LostFocus.Desc=Fired when the control loses focus
  
 PRIM_MD.RaisedButton_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.RaisedButton_PaddingBottom.Desc=Bottom padding in pixels
@@ -16089,6 +18426,27 @@ PRIM_MD.RaisedButton_PaddingTop.Desc=Top padding in pixels
  
 PRIM_MD.RaisedButton_WordWrap.Name=WordWrap property
 PRIM_MD.RaisedButton_WordWrap.Desc=Wrap text on to the next line if there is insufficient space
+ 
+PRIM_MD.Slider.Name=PRIM_MD.Slider
+PRIM_MD.Slider.Desc=Material Design slider control
+ 
+PRIM_MD.Slider_Changed.Name=Changed event
+PRIM_MD.Slider_Changed.Desc=Fired when the value of the slider is changed
+ 
+PRIM_MD.Slider_Increment.Name=Increment property
+PRIM_MD.Slider_Increment.Desc=Value each increment of the slider movement
+ 
+PRIM_MD.Slider_MaximumValue.Name=MaximumValue property
+PRIM_MD.Slider_MaximumValue.Desc=Maximum value to be set by the slide
+ 
+PRIM_MD.Slider_MinimumValue.Name=MinimumValue property
+PRIM_MD.Slider_MinimumValue.Desc=Minimum value to be set by the slider
+ 
+PRIM_MD.Slider_Type.Name=Type property
+PRIM_MD.Slider_Type.Desc=Sets whether the slider displayed as discrete or continuous
+ 
+PRIM_MD.Slider_Value.Name=Value property
+PRIM_MD.Slider_Value.Desc=Value of the slider
  
 PRIM_MD.SpinEdit.Name=Spin Edit
 PRIM_MD.SpinEdit.Desc=Numeric edit with up and down arrows to change the value
@@ -16161,6 +18519,9 @@ PRIM_MD.SpinEdit_PromptIconFileName.Desc=FileName is the name of image file
  
 PRIM_MD.SpinEdit_PromptIconHeight.Name=PromptIconHeight property
 PRIM_MD.SpinEdit_PromptIconHeight.Desc=Height of the icon in pixels
+ 
+PRIM_MD.SpinEdit_PromptIconHint.Name=PromptIconHint property
+PRIM_MD.SpinEdit_PromptIconHint.Desc=Hint to be displayed for prompt icon
  
 PRIM_MD.SpinEdit_PromptIconImage.Name=PromptIconImage property
 PRIM_MD.SpinEdit_PromptIconImage.Desc=Image to show on the control
@@ -16264,6 +18625,9 @@ PRIM_MD.Switch_Checked.Desc=Checked indicates whether the switch is on or off
 PRIM_MD.Switch_Ellipses.Name=Ellipses property
 PRIM_MD.Switch_Ellipses.Desc=Show ellipses for truncated text
  
+PRIM_MD.Switch_GotFocus.Name=GotFocus event
+PRIM_MD.Switch_GotFocus.Desc=Fired when the control receives focus
+ 
 PRIM_MD.Switch_IconAlignment.Name=IconAlignment property
 PRIM_MD.Switch_IconAlignment.Desc=Position of the icon within the control
  
@@ -16284,6 +18648,9 @@ PRIM_MD.Switch_IconMarginRight.Desc=Right margin in pixels
  
 PRIM_MD.Switch_IconMarginTop.Name=IconMarginTop property
 PRIM_MD.Switch_IconMarginTop.Desc=Top margin in pixels
+ 
+PRIM_MD.Switch_LostFocus.Name=LostFocus event
+PRIM_MD.Switch_LostFocus.Desc=Fired when the control Loses focus
  
 PRIM_MD.Switch_PaddingBottom.Name=PaddingBottom property
 PRIM_MD.Switch_PaddingBottom.Desc=Bottom padding in pixels
@@ -16308,6 +18675,18 @@ PRIM_MD.Tab_SelectionColor.Desc=Underline color displayed on tab menu item that 
  
 PRIM_MD.Tab_ShowSelection.Name=ShowSelection property
 PRIM_MD.Tab_ShowSelection.Desc=Show selection when the control does not have focus
+ 
+PRIM_MD.Tab_TabChanging.Name=TabChanging event
+PRIM_MD.Tab_TabChanging.Desc=Fired when a Prim_tab.item is clicked
+ 
+PRIM_MD.Tab_TabChanging.OpenItem.Name=OpenItem parameter
+PRIM_MD.Tab_TabChanging.OpenItem.Desc=Reference to an the current opened item
+ 
+PRIM_MD.Tab_TabChanging.OpeningItem.Name=OpeningItem parameter
+PRIM_MD.Tab_TabChanging.OpeningItem.Desc=A reference to the Item to be opened
+ 
+PRIM_MD.Tab_TabChanging.CanChangeItem.Name=CanChangeItem parameter
+PRIM_MD.Tab_TabChanging.CanChangeItem.Desc=Specifies whether the item can be changed
  
 PRIM_MD.Tab_ViewStyle.Name=ViewStyle property
 PRIM_MD.Tab_ViewStyle.Desc=Defines the appearance and behaviour of the tabs pages in the bottom dock area
@@ -17049,7 +19428,13 @@ PRIM_PCOL_Item.Desc=Provides access to a particular item in a collection
  
 PRIM_PCOL_Item.Index.Name=Index parameter
 PRIM_PCOL_Item.Index.Desc=Index parameter identifies the item in the collection
- 
+
+PRIM_PDF.Name=PDF Writer
+PRIM_PDF.Desc=PDF report writer
+
+PRIM_PDF.Component_AutoTable.Name=AutoTable Plug-in
+PRIM_PDF.Component_AutoTable.Desc=Plug-in to write tables
+
 PRIM_PGBR.Name=Progress Bar
 PRIM_PGBR.Desc=Progress Bar shows how an operation progresses
  
@@ -17333,7 +19718,7 @@ PRIM_PPNL_Closing.Name=Closing event
 PRIM_PPNL_Closing.Desc=The popup is closing
  
 PRIM_PPNL_Closing.ClosePopup.Name=ClosePopup parameter
-PRIM_PPNL_Closing.ClosePopup.Desc=Set to False to prevent the popup closing
+PRIM_PPNL_Closing.ClosePopup.Desc=Set to false to prevent the popup closing
  
 PRIM_PPNL_Content.Name=Content property
 PRIM_PPNL_Content.Desc=Panel to show in the popup
@@ -17369,7 +19754,7 @@ PRIM_PPNL_Prepare.Transition.Name=Transition parameter
 PRIM_PPNL_Prepare.Transition.Desc=Name of the animation to use when showing the popup
  
 PRIM_PPNL_Prepare.Continue.Name=Continue parameter
-PRIM_PPNL_Prepare.Continue.Desc=Set to False to stop the popul appearing
+PRIM_PPNL_Prepare.Continue.Desc=Set to false to stop the popup appearing
  
 PRIM_PPNL_ShowPopup.Name=ShowPopup method
 PRIM_PPNL_ShowPopup.Desc=Show the popup
@@ -17772,6 +20157,285 @@ PRIM_RDOM_ReferenceType.Desc=Reference to the Domain Type
  
 PRIM_RDOM_ValueKind.Name=ValueKind property
 PRIM_RDOM_ValueKind.Desc=Type of domain value
+ 
+PRIM_REGX.Capture.Name=PRIM_REGX.Capture
+PRIM_REGX.Capture.Desc=Represents the results from a single successful subexpression capture
+ 
+PRIM_REGX.Capture_Index.Name=Index property
+PRIM_REGX.Capture_Index.Desc=The position in the original string where the first character of the captured substring is found
+ 
+PRIM_REGX.Capture_Value.Name=Value property
+PRIM_REGX.Capture_Value.Desc=Gets the captured substring from the input string
+ 
+PRIM_REGX.CaptureCollection.Name=PRIM_REGX.CaptureCollection
+PRIM_REGX.CaptureCollection.Desc=Represents the set of captures made by a single capturing group
+ 
+PRIM_REGX.CaptureCollection_CreateIterator.Name=CreateIterator method
+PRIM_REGX.CaptureCollection_CreateIterator.Desc=Creates an iterator component that enables iteration through the collection
+ 
+PRIM_REGX.CaptureCollection_CreateIterator.Result.Name=Result parameter
+PRIM_REGX.CaptureCollection_CreateIterator.Result.Desc=Reference to the new iterator instance
+ 
+PRIM_REGX.CaptureCollection_Item.Name=Item property
+PRIM_REGX.CaptureCollection_Item.Desc=Gets an individual member of the collection
+ 
+PRIM_REGX.CaptureCollection_Item.Index.Name=Index parameter
+PRIM_REGX.CaptureCollection_Item.Index.Desc=Index into the capture collection
+ 
+PRIM_REGX.CaptureCollection_ItemCount.Name=ItemCount property
+PRIM_REGX.CaptureCollection_ItemCount.Desc=Gets the number of substrings captured by the group
+ 
+PRIM_REGX.Group.Name=PRIM_REGX.Group
+PRIM_REGX.Group.Desc=Represents the results from a single capturing group
+ 
+PRIM_REGX.Group_Index.Name=Index property
+PRIM_REGX.Group_Index.Desc=The position in the original string where the first character of the captured substring is found
+ 
+PRIM_REGX.Group_Value.Name=Value property
+PRIM_REGX.Group_Value.Desc=Gets the captured substring from the input string
+ 
+PRIM_REGX.GroupCollection.Name=PRIM_REGX.GroupCollection
+PRIM_REGX.GroupCollection.Desc=Returns the set of captured groups in a single match
+ 
+PRIM_REGX.GroupCollection_CreateIterator.Name=CreateIterator method
+PRIM_REGX.GroupCollection_CreateIterator.Desc=Creates an iterator component that enables iteration through the collection
+ 
+PRIM_REGX.GroupCollection_CreateIterator.Result.Name=Result parameter
+PRIM_REGX.GroupCollection_CreateIterator.Result.Desc=Reference to the new iterator instance
+ 
+PRIM_REGX.GroupCollection_Item.Name=Item property
+PRIM_REGX.GroupCollection_Item.Desc=Gets an individual member of the collection
+ 
+PRIM_REGX.GroupCollection_Item.Index.Name=Index parameter
+PRIM_REGX.GroupCollection_Item.Index.Desc=Index into the group collection
+ 
+PRIM_REGX.GroupCollection_ItemCount.Name=ItemCount property
+PRIM_REGX.GroupCollection_ItemCount.Desc=Returns the number of groups in the collection
+ 
+PRIM_REGX.Match.Name=PRIM_REGX.Match
+PRIM_REGX.Match.Desc=Represents the results from a single regular expression match
+ 
+PRIM_REGX.Match_Groups.Name=Groups property
+PRIM_REGX.Match_Groups.Desc=Gets a collection of groups matched by the regular expression
+ 
+PRIM_REGX.Match_Index.Name=Index property
+PRIM_REGX.Match_Index.Desc=The position in the original string where the first character of the captured substring is found
+ 
+PRIM_REGX.Match_NextMatch.Name=NextMatch method
+PRIM_REGX.Match_NextMatch.Desc=Returns a new Match object with the results for the next match, starting at the position at which the last match ended (at the character after the last matched character)
+ 
+PRIM_REGX.Match_NextMatch.Match.Name=Match parameter
+PRIM_REGX.Match_NextMatch.Match.Desc=Reference to the next regular expression match
+ 
+PRIM_REGX.Match_Replace.Name=Replace method
+PRIM_REGX.Match_Replace.Desc=For the original input string, replaces the string that last match a specified regular expression with a specified replacement string
+ 
+PRIM_REGX.Match_Replace.Result.Name=Result parameter
+PRIM_REGX.Match_Replace.Result.Desc=The original input string with the replacement string taking the place of the last matched string
+ 
+PRIM_REGX.Match_Replace.ReplaceString.Name=ReplaceString parameter
+PRIM_REGX.Match_Replace.ReplaceString.Desc=The replacement unicode string
+ 
+PRIM_REGX.Match_Success.Name=Success property
+PRIM_REGX.Match_Success.Desc=Gets a value indicating whether the match is successful
+ 
+PRIM_REGX.Match_Value.Name=Value property
+PRIM_REGX.Match_Value.Desc=Gets the captured substring from the input string
+ 
+PRIM_REGX.MatchAll.Name=PRIM_REGX.MatchAll
+PRIM_REGX.MatchAll.Desc=Enables repeated searching for all occurrences of a regular expression
+ 
+PRIM_REGX.MatchAll_Execute.Name=Execute method
+PRIM_REGX.MatchAll_Execute.Desc=Runs a search on specified input string for all occurrences of current regular expression and returns all the matches
+ 
+PRIM_REGX.MatchAll_Execute.Matches.Name=Match parameter
+PRIM_REGX.MatchAll_Execute.Matches.Desc=Reference to a collection of the Match objects found by the search; if no matches were found, the collection is empty
+ 
+PRIM_REGX.MatchAll_Execute.InputString.Name=InputString parameter
+PRIM_REGX.MatchAll_Execute.InputString.Desc=The unicode string to search for a match
+ 
+PRIM_REGX.MatchAll_Matches.Name=Matches property
+PRIM_REGX.MatchAll_Matches.Desc=Reference to a collection of the Match objects found by the last search; if no matches were found, the collection is empty
+ 
+PRIM_REGX.MatchAll_Pattern.Name=Pattern property
+PRIM_REGX.MatchAll_Pattern.Desc=The regular expression pattern to match
+ 
+PRIM_REGX.MatchAll_Settings.Name=Settings property
+PRIM_REGX.MatchAll_Settings.Desc=Reference to a settings object that controls matching options
+ 
+PRIM_REGX.MatchCollection.Name=PRIM_REGX.MatchCollection
+PRIM_REGX.MatchCollection.Desc=Represents the set of successful matches found by iteratively applying a regular expression pattern to the input string
+ 
+PRIM_REGX.MatchCollection_CreateIterator.Name=CreateIterator method
+PRIM_REGX.MatchCollection_CreateIterator.Desc=Creates an iterator component that enables iteration through the collection
+ 
+PRIM_REGX.MatchCollection_CreateIterator.Result.Name=Result parameter
+PRIM_REGX.MatchCollection_CreateIterator.Result.Desc=Reference to the new iterator instance
+ 
+PRIM_REGX.MatchCollection_Item.Name=Item property
+PRIM_REGX.MatchCollection_Item.Desc=Gets an individual member of the collection
+ 
+PRIM_REGX.MatchCollection_Item.Index.Name=Index parameter
+PRIM_REGX.MatchCollection_Item.Index.Desc=Index into the match collection
+ 
+PRIM_REGX.MatchCollection_ItemCount.Name=ItemCount property
+PRIM_REGX.MatchCollection_ItemCount.Desc=Returns the number of matches in the collection
+ 
+PRIM_REGX.MatchOne.Name=PRIM_REGX.MatchOne
+PRIM_REGX.MatchOne.Desc=Enables repeated searching for one occurrence of a regular expression
+ 
+PRIM_REGX.MatchOne_Execute.Name=Execute method
+PRIM_REGX.MatchOne_Execute.Desc=Runs a search on specified input string for first occurrence of current regular expression and returns a match object
+ 
+PRIM_REGX.MatchOne_Execute.Match.Name=Match parameter
+PRIM_REGX.MatchOne_Execute.Match.Desc=Reference to an object that contains information about the match
+ 
+PRIM_REGX.MatchOne_Execute.InputString.Name=InputString parameter
+PRIM_REGX.MatchOne_Execute.InputString.Desc=The unicode string to search for a match
+ 
+PRIM_REGX.MatchOne_Match.Name=Match property
+PRIM_REGX.MatchOne_Match.Desc=Reference to an object that contains information about the last match
+ 
+PRIM_REGX.MatchOne_Pattern.Name=Pattern property
+PRIM_REGX.MatchOne_Pattern.Desc=The regular expression pattern to match
+ 
+PRIM_REGX.MatchOne_Settings.Name=Settings property
+PRIM_REGX.MatchOne_Settings.Desc=Reference to a settings object that controls matching options
+ 
+PRIM_REGX.Name=Regular expressions
+PRIM_REGX.Desc=Provides access to the LANSA regular expression engine
+
+PRIM_REGX_IsMatch.Name=IsMatch method
+PRIM_REGX_IsMatch.Desc=Indicates whether the regular expression finds a match in the input string
+ 
+PRIM_REGX_IsMatch.Result.Name=Result parameter
+PRIM_REGX_IsMatch.Result.Desc=True if the regular expression finds a match, otherwise false
+ 
+PRIM_REGX_IsMatch.Pattern.Name=Pattern parameter
+PRIM_REGX_IsMatch.Pattern.Desc=The regular expression pattern to match
+ 
+PRIM_REGX_IsMatch.InputString.Name=InputString parameter
+PRIM_REGX_IsMatch.InputString.Desc=The unicode string to search for a match
+ 
+PRIM_REGX_Match.Name=Match method
+PRIM_REGX_Match.Desc=Searches an input string for a substring that matches a regular expression pattern and returns the first occurrence as a single Match object
+ 
+PRIM_REGX_Match.Match.Name=Match parameter
+PRIM_REGX_Match.Match.Desc=Reference to an object that contains information about the match
+ 
+PRIM_REGX_Match.Pattern.Name=Pattern parameter
+PRIM_REGX_Match.Pattern.Desc=The regular expression pattern to match
+ 
+PRIM_REGX_Match.InputString.Name=InputString parameter
+PRIM_REGX_Match.InputString.Desc=The unicode string to search for a match
+ 
+PRIM_REGX_Matches.Name=Matches method
+PRIM_REGX_Matches.Desc=Searches an input string for all occurrences of a regular expression and returns all the matches
+ 
+PRIM_REGX_Matches.Matches.Name=Matches parameter
+PRIM_REGX_Matches.Matches.Desc=Reference to a collection of the Match objects found by the search; if no matches are found, the collection is empty
+ 
+PRIM_REGX_Matches.Pattern.Name=Pattern parameter
+PRIM_REGX_Matches.Pattern.Desc=The regular expression pattern to match
+ 
+PRIM_REGX_Matches.InputString.Name=InputString parameter
+PRIM_REGX_Matches.InputString.Desc=The unicode string to search for a match
+ 
+PRIM_REGX_Replace.Name=Replace method
+PRIM_REGX_Replace.Desc=Replaces all strings that match a specified regular expression with a specified replacement string
+ 
+PRIM_REGX_Replace.Result.Name=Result parameter
+PRIM_REGX_Replace.Result.Desc=The input string with the replacement string taking the place of each matched string
+ 
+PRIM_REGX_Replace.Pattern.Name=Pattern parameter
+PRIM_REGX_Replace.Pattern.Desc=The regular expression pattern to match
+ 
+PRIM_REGX_Replace.InputString.Name=InputString parameter
+PRIM_REGX_Replace.InputString.Desc=The unicode string to search for a match
+ 
+PRIM_REGX_Replace.ReplaceString.Name=ReplaceString parameter
+PRIM_REGX_Replace.ReplaceString.Desc=The replacement unicode string
+ 
+PRIM_REGX_Settings.Name=Settings property
+PRIM_REGX_Settings.Desc=Reference to a settings object that controls matching options
+ 
+PRIM_REGX_Split.Name=Split method
+PRIM_REGX_Split.Desc=Splits an input string into an array of substrings at the positions defined by a regular expression pattern
+ 
+PRIM_REGX_Split.Tokens.Name=Tokens parameter
+PRIM_REGX_Split.Tokens.Desc=Reference to capture collection identifying delimited substrings as determined by regular expression
+ 
+PRIM_REGX_Split.Pattern.Name=Pattern parameter
+PRIM_REGX_Split.Pattern.Desc=The regular expression pattern to match
+ 
+PRIM_REGX_Split.InputString.Name=InputString parameter
+PRIM_REGX_Split.InputString.Desc=The unicode string to split
+ 
+PRIM_REGX.Replace.Name=PRIM_REGX.Replace
+PRIM_REGX.Replace.Desc=Enables repeated replacement of strings that match a specified regular expression with a specified replacement string
+ 
+PRIM_REGX.Replace_Execute.Name=Execute method
+PRIM_REGX.Replace_Execute.Desc=Replaces all strings that match a specified regular expression with a specified replacement string
+ 
+PRIM_REGX.Replace_Execute.Result.Name=Match parameter
+PRIM_REGX.Replace_Execute.Result.Desc=The input string with the replacement string taking the place of each matched string
+ 
+PRIM_REGX.Replace_Execute.InputString.Name=InputString parameter
+PRIM_REGX.Replace_Execute.InputString.Desc=The unicode string to search for a match
+ 
+PRIM_REGX.Replace_Pattern.Name=Pattern property
+PRIM_REGX.Replace_Pattern.Desc=The regular expression pattern to match
+ 
+PRIM_REGX.Replace_Replacement.Name=Replacement property
+PRIM_REGX.Replace_Replacement.Desc=The replacement unicode string
+ 
+PRIM_REGX.Replace_Result.Name=Result property
+PRIM_REGX.Replace_Result.Desc=The input string with the replacement string taking the place of each matched string
+ 
+PRIM_REGX.Replace_Settings.Name=Settings property
+PRIM_REGX.Replace_Settings.Desc=Reference to a settings object that controls matching options
+ 
+PRIM_REGX.Settings.Name=PRIM_REGX.Settings
+PRIM_REGX.Settings.Desc=Settings object that controls matching options
+ 
+PRIM_REGX.Settings_ExplicitCapture.Name=ExplicitCapture property
+PRIM_REGX.Settings_ExplicitCapture.Desc=Specifies that the only valid captures are explicitly named or numbered groups of the form (?<name>ï¿½)
+ 
+PRIM_REGX.Settings_IgnoreCase.Name=IgnoreCase property
+PRIM_REGX.Settings_IgnoreCase.Desc=Specifies case-insensitive matching
+ 
+PRIM_REGX.Settings_IgnorePatternWhitespace.Name=IgnorePatternWhitespace property
+PRIM_REGX.Settings_IgnorePatternWhitespace.Desc=Eliminates unescaped white space from the pattern and enables comments marked with #
+ 
+PRIM_REGX.Settings_Multiline.Name=Multiline property
+PRIM_REGX.Settings_Multiline.Desc=Multiline mode; Changing the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string
+ 
+PRIM_REGX.Settings_RightToLeft.Name=RightToLeft property
+PRIM_REGX.Settings_RightToLeft.Desc=Specifies that the search will be from right to left instead of from left to right
+ 
+PRIM_REGX.Settings_Singleline.Name=Singleline property
+PRIM_REGX.Settings_Singleline.Desc=Specifies single-line mode; Changing the meaning of the dot (.) so it matches every character (instead of every character except \n)
+ 
+PRIM_REGX.Split.Name=PRIM_REGX.Split
+PRIM_REGX.Split.Desc=Enables repeated splitting of input strings at the positions defined by a regular expression
+
+PRIM_REGX.Split_Execute.Name=Execute method
+PRIM_REGX.Split_Execute.Desc=Splits a specified input string into an array of substrings at the positions defined by the current regular expression pattern
+ 
+PRIM_REGX.Split_Execute.Tokens.Name=Tokens parameter
+PRIM_REGX.Split_Execute.Tokens.Desc=Reference to capture collection identifying delimited substrings as determined by regular expression
+ 
+PRIM_REGX.Split_Execute.InputString.Name=InputString parameter
+PRIM_REGX.Split_Execute.InputString.Desc=The unicode string to split
+ 
+PRIM_REGX.Split_Pattern.Name=Pattern property
+PRIM_REGX.Split_Pattern.Desc=The regular expression pattern to match
+ 
+PRIM_REGX.Split_Settings.Name=Settings property
+PRIM_REGX.Split_Settings.Desc=Reference to a settings object that controls matching options
+ 
+PRIM_REGX.Split_Tokens.Name=Tokens property
+PRIM_REGX.Split_Tokens.Desc=Reference to capture collection identifying delimited substrings as determined by regular expression
  
 PRIM_REPM.Name=Event parameter
 PRIM_REPM.Desc=Event parameter reflects a Visual LANSA event parameter
@@ -18934,6 +21598,192 @@ PRIM_SRVM.HttpFormVariables_Item.Name.Desc=Name of the variable
 PRIM_SRVM.HttpFormVariables_ItemCount.Name=ItemCount property
 PRIM_SRVM.HttpFormVariables_ItemCount.Desc=ItemCount is the number of items in a collection
  
+PRIM_SRVM.HttpNameValueCollection.Name=PRIM_SRVM.HttpNameValueCollection
+PRIM_SRVM.HttpNameValueCollection.Desc=Base class for HTTP collections of Name/Value pairs
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Name=TryGetString method
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Desc=Attempt to find pair with specified name and convert associated value to a unicode string
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Result.Name=Result parameter
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Result.Desc=True if specified value was updated with a unicode string, otherwise false
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Name.Name=Name parameter
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Name.Desc=Name to locate in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Value.Name=Value parameter
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Value.Desc=Variable updated with unicode string value from located pair or if not found, the specified default value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Default.Name=Default parameter
+PRIM_SRVM.HttpNameValueCollection_TryGetString.Default.Desc=Unicode string to use when the name does not exist in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Name=TryParseAsBoolean method
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Desc=Attempt to find pair with specified name and convert associated value to a Boolean value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Result.Name=Result parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Result.Desc=True if specified value was updated with a Boolean value, otherwise false
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Name.Name=Name parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Name.Desc=Name to locate in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Value.Name=Value parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Value.Desc=Variable updated with Boolean value from located pair or if not found, the specified default value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Default.Name=Default parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsBoolean.Default.Desc=Boolean value to use when the name does not exist in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Name=TryParseAsDate method
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Desc=Attempt to find pair with specified name and convert associated value to a Date value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Result.Name=Result parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Result.Desc=True if specified value was updated with a Date value, otherwise false
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Name.Name=Name parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Name.Desc=Name to locate in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Value.Name=Value parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Value.Desc=Variable updated with Date value from located pair or if not found, the specified default value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Format.Name=Format parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Format.Desc=Date Format of the located pair's value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Default.Name=Default parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDate.Default.Desc=Date value to use when the name does not exist in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Name=TryParseAsDateTime method
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Desc=Attempt to find pair with specified name and convert associated value to a datetime value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Result.Name=Result parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Result.Desc=True if specified value was updated with a datetime value, otherwise false
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Name.Name=Name parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Name.Desc=Name to locate in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Value.Name=Value parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Value.Desc=Variable updated with datetime value from located pair or if not found, the specified default value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Format.Name=Format parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Format.Desc=DateTime format of the located pair's value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Default.Name=Default parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDateTime.Default.Desc=DateTime value to use when the name does not exist in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Name=TryParseAsDecimal method
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Desc=Attempt to find pair with specified name and convert associated value to a Decimal value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Result.Name=Result parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Result.Desc=True if specified value was updated with a Decimal value, otherwise false
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Name.Name=Name parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Name.Desc=Name to locate in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Value.Name=Value parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Value.Desc=Variable updated with Decimal value from located pair or if not found, the specified default value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Default.Name=Default parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsDecimal.Default.Desc=Decimal value to use when the name does not exist in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Name=TryParseAsInt32 method
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Desc=Attempt to find pair with specified name and convert associated value to a 32-bit integer value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Result.Name=Result parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Result.Desc=True if specified value was updated with an Int32 value, otherwise false
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Name.Name=Name parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Name.Desc=Name to locate in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Value.Name=Value parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Value.Desc=Variable updated with Int32 value from located pair or if not found, the specified default value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Default.Name=Default parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt32.Default.Desc=Int32 value to use when the name does not exist in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Name=TryParseAsInt64 method
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Desc=Attempt to find pair with specified name and convert associated value to a 64-bit integer value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Result.Name=Result parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Result.Desc=True if specified value was updated with an Int64 value, otherwise false 
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Name.Name=Name parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Name.Desc=Name to locate in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Value.Name=Value parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Value.Desc=Int64 ariable updated with Int64 value from located pair or if not found, the specified default value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Default.Name=Default parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsInt64.Default.Desc=Int64 value to use when the name does not exist in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Name=TryParseAsTime method
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Desc=Attempt to find pair with specified name and convert associated value to a Time value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Result.Name=Result parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Result.Desc=True if specified value was updated with an Time value, otherwise false
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Name.Name=Name parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Name.Desc=Name to locate in the collection
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Value.Name=Value parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Value.Desc=Variable updated with Time value from located pair or if not found, the specified default value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Format.Name=Format parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Format.Desc=Time Format of the located pair's value
+ 
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Default.Name=Default parameter
+PRIM_SRVM.HttpNameValueCollection_TryParseAsTime.Default.Desc=Time value to use when the name does not exist in the collection
+ 
+PRIM_SRVM.HttpPathParameter.Name=PRIM_SRVM.HttpPathParameter
+PRIM_SRVM.HttpPathParameter.Desc=HTTP Path Parameter
+ 
+PRIM_SRVM.HttpPathParameter_Name.Name=Name property
+PRIM_SRVM.HttpPathParameter_Name.Desc=Path parameter name
+ 
+PRIM_SRVM.HttpPathParameter_Value.Name=Value property
+PRIM_SRVM.HttpPathParameter_Value.Desc=Path parameter value
+ 
+PRIM_SRVM.HttpPathParameters.Name=PRIM_SRVM.HttpPathParameters
+PRIM_SRVM.HttpPathParameters.Desc=Collection of HTTP Path Parameters
+ 
+PRIM_SRVM.HttpPathParameters_CreateIterator.Name=CreateIterator method
+PRIM_SRVM.HttpPathParameters_CreateIterator.Desc=Creates an iterator component that enables iteration through the collection
+ 
+PRIM_SRVM.HttpPathParameters_CreateIterator.Result.Name=Result parameter
+PRIM_SRVM.HttpPathParameters_CreateIterator.Result.Desc=Reference to the new iterator instance
+ 
+PRIM_SRVM.HttpPathParameters_Item.Name=Item property
+PRIM_SRVM.HttpPathParameters_Item.Desc=Provides access to a particular item in the collection
+ 
+PRIM_SRVM.HttpPathParameters_Item.Name.Name=Name parameter
+PRIM_SRVM.HttpPathParameters_Item.Name.Desc=Name of the path parameter
+ 
+PRIM_SRVM.HttpPathParameters_ItemCount.Name=ItemCount property
+PRIM_SRVM.HttpPathParameters_ItemCount.Desc=Number of path parameters in the collection
+ 
+PRIM_SRVM.HttpPathSegment.Name=PRIM_SRVM.HttpPathSegment
+PRIM_SRVM.HttpPathSegment.Desc=HTTP Path Segment
+ 
+PRIM_SRVM.HttpPathSegment_IsRoutingSegment.Name=IsRoutingSegment property
+PRIM_SRVM.HttpPathSegment_IsRoutingSegment.Desc=True if this segment was used in the process of identifying the server module and routine to handle the HTTP request, otherwise false
+ 
+PRIM_SRVM.HttpPathSegment_Value.Name=Value property
+PRIM_SRVM.HttpPathSegment_Value.Desc=Value of path segment as a unicode string
+ 
+PRIM_SRVM.HttpPathSegments.Name=PRIM_SRVM.HttpPathSegments
+PRIM_SRVM.HttpPathSegments.Desc=Collection of HTTP Path Segments
+ 
+PRIM_SRVM.HttpPathSegments_CreateIterator.Name=CreateIterator method
+PRIM_SRVM.HttpPathSegments_CreateIterator.Desc=Creates an iterator component that enables iteration through the collection
+ 
+PRIM_SRVM.HttpPathSegments_CreateIterator.Result.Name=Result parameter
+PRIM_SRVM.HttpPathSegments_CreateIterator.Result.Desc=Reference to the new iterator instance
+ 
+PRIM_SRVM.HttpPathSegments_Item.Name=Item property
+PRIM_SRVM.HttpPathSegments_Item.Desc=Provides access to a particular item in the collection
+ 
+PRIM_SRVM.HttpPathSegments_Item.Index.Name=Index parameter
+PRIM_SRVM.HttpPathSegments_Item.Index.Desc=Identifies the path segement in the collection
+ 
+PRIM_SRVM.HttpPathSegments_ItemCount.Name=ItemCount property
+PRIM_SRVM.HttpPathSegments_ItemCount.Desc=Number of path segments in the collection
+ 
 PRIM_SRVM.HttpQueryParameter.Name=PRIM_SRVM.HttpQueryParameter
 PRIM_SRVM.HttpQueryParameter.Desc=HTTP Query string parameter
  
@@ -18970,29 +21820,20 @@ PRIM_SRVM.HttpRequest.Desc=HTTP Request
 PRIM_SRVM.HttpRequest_Content.Name=Content property
 PRIM_SRVM.HttpRequest_Content.Desc=The content of an HTTP request
  
-PRIM_SRVM.HttpRequest_Header.Name=Header property
-PRIM_SRVM.HttpRequest_Header.Desc=HTTP Header
- 
-PRIM_SRVM.HttpRequest_Header.Name.Name=Name parameter
-PRIM_SRVM.HttpRequest_Header.Name.Desc=Name of the header to access
- 
 PRIM_SRVM.HttpRequest_Headers.Name=Headers property
 PRIM_SRVM.HttpRequest_Headers.Desc=Reference to the collection request headers
  
 PRIM_SRVM.HttpRequest_Method.Name=Method property
 PRIM_SRVM.HttpRequest_Method.Desc=HTTP method used to send the form to the processing agent
  
-PRIM_SRVM.HttpRequest_PathInfo.Name=PathInfo property
-PRIM_SRVM.HttpRequest_PathInfo.Desc=Path of he request
+PRIM_SRVM.HttpRequest_Path.Name=Path property
+PRIM_SRVM.HttpRequest_Path.Desc=Complete path of HTTP request URL as a unicode string
  
-PRIM_SRVM.HttpRequest_PathInfoPart.Name=PathInfoPart property
-PRIM_SRVM.HttpRequest_PathInfoPart.Desc=Access a part of the path
+PRIM_SRVM.HttpRequest_PathParameters.Name=PathParameters property
+PRIM_SRVM.HttpRequest_PathParameters.Desc=Reference to a collection of path parameters
  
-PRIM_SRVM.HttpRequest_PathInfoPart.Index.Name=Index parameter
-PRIM_SRVM.HttpRequest_PathInfoPart.Index.Desc=Index of the path part
- 
-PRIM_SRVM.HttpRequest_PathInfoPartCount.Name=PathInfoPartCount property
-PRIM_SRVM.HttpRequest_PathInfoPartCount.Desc=Number of pieces of path
+PRIM_SRVM.HttpRequest_PathSegments.Name=PathSegments property
+PRIM_SRVM.HttpRequest_PathSegments.Desc=Reference to a collection of path segments
  
 PRIM_SRVM.HttpRequest_QueryParameter.Name=QueryParameter property
 PRIM_SRVM.HttpRequest_QueryParameter.Desc=Access part of the request query string
@@ -19006,29 +21847,8 @@ PRIM_SRVM.HttpRequest_QueryParameters.Desc=Reference to a collection of query pa
 PRIM_SRVM.HttpRequest_QueryString.Name=QueryString property
 PRIM_SRVM.HttpRequest_QueryString.Desc=Request query string
  
-PRIM_SRVM.HttpRequest_ScriptName.Name=ScriptName property
-PRIM_SRVM.HttpRequest_ScriptName.Desc=Request script name
- 
-PRIM_SRVM.HttpRequest_ServerVariable.Name=ServerVariable property
-PRIM_SRVM.HttpRequest_ServerVariable.Desc=Access a server variable
- 
-PRIM_SRVM.HttpRequest_ServerVariable.Name.Name=Name parameter
-PRIM_SRVM.HttpRequest_ServerVariable.Name.Desc=Name for the server variable to access
- 
 PRIM_SRVM.HttpRequest_ServerVariables.Name=ServerVariables property
 PRIM_SRVM.HttpRequest_ServerVariables.Desc=Reference to the collection of server variables
- 
-PRIM_SRVM.HttpRequest_URL.Name=URL property
-PRIM_SRVM.HttpRequest_URL.Desc=Request URL
- 
-PRIM_SRVM.HttpRequest_URLPart.Name=URLPart property
-PRIM_SRVM.HttpRequest_URLPart.Desc=Access a part of the URL
- 
-PRIM_SRVM.HttpRequest_URLPart.Index.Name=Index parameter
-PRIM_SRVM.HttpRequest_URLPart.Index.Desc=Index of the URL part to access
- 
-PRIM_SRVM.HttpRequest_URLPartCount.Name=URLPartCount property
-PRIM_SRVM.HttpRequest_URLPartCount.Desc=Number of URL parts
  
 PRIM_SRVM.HttpRequestContent.Name=PRIM_SRVM.HttpRequestContent
 PRIM_SRVM.HttpRequestContent.Desc=Request content
@@ -19044,12 +21864,6 @@ PRIM_SRVM.HttpRequestContent_FileExtension.Desc=Content file extension
  
 PRIM_SRVM.HttpRequestContent_Files.Name=Files property
 PRIM_SRVM.HttpRequestContent_Files.Desc=Reference to a collection of file
- 
-PRIM_SRVM.HttpRequestContent_FormVariable.Name=FormVariable property
-PRIM_SRVM.HttpRequestContent_FormVariable.Desc=Access to a specific form variable
- 
-PRIM_SRVM.HttpRequestContent_FormVariable.Name.Name=Name parameter
-PRIM_SRVM.HttpRequestContent_FormVariable.Name.Desc=Name of the form variable to access
  
 PRIM_SRVM.HttpRequestContent_FormVariables.Name=FormVariables property
 PRIM_SRVM.HttpRequestContent_FormVariables.Desc=Reference to a collection of form variables
@@ -19745,7 +22559,7 @@ PRIM_TBSH_CloseClick.Name=CloseClick event
 PRIM_TBSH_CloseClick.Desc=Fired when the page close button is clicked
  
 PRIM_TBSH_CloseClickQuery.Name=CloseClickQuery event
-PRIM_TBSH_CloseClickQuery.Desc=Set to False to stop the tab closing on click
+PRIM_TBSH_CloseClickQuery.Desc=Set to false to stop the tab closing on click
  
 PRIM_TBSH_CloseClickQuery.Continue.Name=Continue parameter
 PRIM_TBSH_CloseClickQuery.Continue.Desc=Continue parameter is used to confirm closing of the page
@@ -19854,6 +22668,15 @@ PRIM_TEXT_Text.Desc=Text contains the formatted data currently showing in the ed
  
 PRIM_TEXT_WordWrap.Name=WordWrap property
 PRIM_TEXT_WordWrap.Desc=Wrap text on to the next line if there is insufficient space
+ 
+PRIM_THM.Color.Name=PRIM_THM.Color
+PRIM_THM.Color.Desc=Definition of to be used in a theme
+ 
+PRIM_THM.Color_Color.Name=Color property
+PRIM_THM.Color_Color.Desc=The color to be used.
+ 
+PRIM_THM.Color_Name.Name=Name property
+PRIM_THM.Color_Name.Desc=Name to be used for this color.
  
 PRIM_THM.DrawStyle.Name=DrawStyle
 PRIM_THM.DrawStyle.Desc=A DrawStyle collects styles to be applied to a feature
@@ -21865,6 +24688,9 @@ PRIM_VIEW_Caption.Desc=Text displayed for the view
 PRIM_VIEW_ClearErrors.Name=ClearErrors method
 PRIM_VIEW_ClearErrors.Desc=Clears errors of fields in the view
  
+PRIM_VIEW_Closed.Name=Closed event
+PRIM_VIEW_Closed.Desc=The closed event fires when a view is closed
+ 
 PRIM_VIEW_IsActiveView.Name=IsActiveView property
 PRIM_VIEW_IsActiveView.Desc=True if this is the active view
  
@@ -22829,7 +25655,7 @@ PRIM_WEB.History_Add.QueryString.Name=QueryString parameter
 PRIM_WEB.History_Add.QueryString.Desc=QueryString to be appended to the root of the URL
  
 PRIM_WEB.History_Add.Signal.Name=Signal parameter
-PRIM_WEB.History_Add.Signal.Desc=Set to False to stop Changed event firing
+PRIM_WEB.History_Add.Signal.Desc=Set to false to stop Changed event firing
  
 PRIM_WEB.History_GoBack.Name=GoBack method
 PRIM_WEB.History_GoBack.Desc=Navigate to a prior URL
@@ -22850,7 +25676,7 @@ PRIM_WEB.History_Replace.QueryString.Name=QueryString parameter
 PRIM_WEB.History_Replace.QueryString.Desc=QueryString to be appended to the root of the URL
  
 PRIM_WEB.History_Replace.Signal.Name=Signal parameter
-PRIM_WEB.History_Replace.Signal.Desc=Set to False to stop Changed event firing
+PRIM_WEB.History_Replace.Signal.Desc=Set to false to stop Changed event firing
  
 PRIM_WEB.HtmlContainer.Name=Html Container
 PRIM_WEB.HtmlContainer.Desc=Displays a fragment of HTML

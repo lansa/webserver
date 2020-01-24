@@ -346,11 +346,15 @@ GServer.FailGSOpenChildWin.Id=135
 
 Category.Common=Common
 Category.Layout=Layout
+Category.CSS=CSS
 Category.Style=Style
 Category.LPCInternal=Component
 Category.Docking=Docking
 Category.Cell=Cell
 Category.Column=Column
+Category.Flex=Flex
+Category.Margins=Margin
+Category.Padding=Padding
 Category.Icon=Icon
 Category.Prompt=Prompt
 Category.Badge=Badge
@@ -358,6 +362,7 @@ Category.MenuItem=MenuItem
 Category.Caption=Caption
 Category.Other=Other
 Category.User=User
+Category.Model=Model
 
 Exception.Arithmetic=Arithmetic exception. Explanation:&1.
 Exception.Arithmetic.DivisionByZeroError=Arithmetic error - attempt to divide by zero. 

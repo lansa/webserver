@@ -1925,9 +1925,13 @@ Rep.FA.ASQN.Desc=*SQLNULL ‚Ì’l‚ğİ’è‰Â”\
 Rep.FA.RLTB.Desc=¶°¿Ù‚ğ¶‚©‚ç‰EAã‚©‚ç‰º‚ÉÀÌŞˆÚ“®
 Rep.FA.SUNI.Desc=unicodeÌ×¸Ş‚ğ•ÛŠÇ‚·‚éÌ¨°ÙÄŞ
 Rep.FA.SUNS.Desc=integer ‚Ì’l‚ğunsigned binary ‚Ì’l‚Å•Û‘¶
+*** @TRANS ADD
 Rep.FA.SGRA.Desc=Store DBCS as Graphic data type with CCSID 300
 Rep.FA.GUID.Desc=Unique Identifier Format
 Rep.FA.HIID.Desc=Hierarchy Identifier Format
+Rep.FA.GEOG.Desc=Geography Data Format
+Rep.FA.GEOM.Desc=Geometry Data Format
+*** @TRANS END
 
 Rep.FA.SUTC.Desc=DateTime ‚Ì’l‚ğ UTC Œ`®‚Å•Û‘¶
 Rep.FA.DUTC.Desc=DateTime ‚Ì’l‚ğ UTC Œ`®‚Å•\¦
@@ -3332,12 +3336,6 @@ UdcColumnNoPanel=&1 ‚Íƒpƒlƒ‹‚©‚çŒp³‚µ‚Ü‚¹‚ñB
 UdcColumnNoPanel.Id=1627
 UdcColumnNoCellDesign=&1 ‚Í ICellDesign ‚ğÀ‘•‚µ‚Ü‚¹‚ñB
 UdcColumnNoCellDesign.Id=1628
-DocWebPageResourceIdentifierRequired=ƒŠƒ|ƒWƒgƒŠ‚ÌƒIƒuƒWƒFƒNƒg‚Ü‚½‚Í URL ‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
-DocWebPageResourceIdentifierRequired.Id=1629
-DocWebPageResourceIncorrectLansaFolder=‹æ‰æ‚Ì Web ƒtƒHƒ‹ƒ_‚©‚ç‚ÌŠO•”ƒŠƒ\[ƒX‚Ì‚İw’è‚Å‚«‚Ü‚·
-DocWebPageResourceIncorrectLansaFolder.Id=1631
-DocWebPageResourceIncorrectTargetPlatform=ƒ^[ƒQƒbƒg ƒvƒ‰ƒbƒgƒtƒH[ƒ€‚Éƒuƒ‰ƒEƒU‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñB
-DocWebPageResourceIncorrectTargetPlatform.Id=1632
 WebRadialBrushDifferentOrigin=•úËóƒuƒ‰ƒV‚Å‚ÍAŠî“_‚Æ’†S‚ª“¯‚¶ê‡‚Ì‚İAWeb ã‚ÌƒfƒUƒCƒ“‚ªˆê’v‚µ‚Ü‚·B
 WebRadialBrushDifferentOrigin.Id=1633
 ExpressionNotGroup=® &1 ‚ÌŒ‹‰Ê‚Í LANSA ‚ÌƒOƒ‹[ƒv‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
@@ -3418,8 +3416,6 @@ SrvMapNameAlreadyDefined=&1 ‚Í‚·‚Å‚ÉƒXƒe[ƒgƒƒ“ƒg &2 ‚Åƒpƒ‰ƒ[ƒ^–¼‚ğ’è‹`‚µ‚Ä‚¢
 SrvMapNameAlreadyDefined.Id=1671
 InvalidSessionIdentifier=SessionIdentifier ‚Í 10 •¶š‚ğ’´‚¦‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 InvalidSessionIdentifier.Id=1672
-DocWebPageSplashImageIdentifierRequired=ŠO•”ƒŠƒ\[ƒX‚Ü‚½‚Í URL ‚Ì‚¢‚¸‚ê‚©‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·
-DocWebPageSplashImageIdentifierRequired.Id=1673
 FactoryCollectsConcreteType=&1 ‚Í’ŠÛƒNƒ‰ƒX‚Ì‚½‚ßAƒXƒ^ƒCƒ‹ FACTORY ‚Æ‚ÌƒRƒŒƒNƒVƒ‡ƒ“‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñB 
 FactoryCollectsConcreteType.Id=1674
 DocValidationRuleLookupUnsupported=ŒŸõƒ`ƒFƒbƒN‚Í‚±‚Ì Web ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
@@ -3462,8 +3458,6 @@ DocFileFragmentColumnDerivationHasErrors=—ñ‚Ì”h¶‚ÉƒGƒ‰[‚ª‚ ‚è‚Ü‚·B
 DocFileFragmentColumnDerivationHasErrors.Id=1693
 InvalidContentSecurityPolicy=&1 ‚Í—LŒø‚ÈƒRƒ“ƒeƒ“ƒc ƒZƒLƒ…ƒŠƒeƒB ƒ|ƒŠƒV[ ƒtƒ@ƒCƒ‹‚Å‚Í‚ ‚è‚Ü‚¹‚ñB‹æ‰æ‚Ì CSP ƒtƒHƒ‹ƒ_‚©‚çŠO•”ƒŠƒ\[ƒX‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
 InvalidContentSecurityPolicy.Id=1694
-DocWebPageResourceExtResourceOrUrlRequired=ŠO•”ƒŠƒ\[ƒX‚Ü‚½‚Í URL ‚Ì‚¢‚¸‚ê‚©‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·
-DocWebPageResourceExtResourceOrUrlRequired.Id=1695
 
 DocOtherFileNameMatchNewEntity=–¼‘O &1 ‚ª‹‘”Û‚³‚ê‚Ü‚µ‚½Bƒ[ƒh‚³‚ê‚Ä‚¢‚éƒGƒ“ƒeƒBƒeƒB‚Ì–¼‘O‚Æˆê’v‚µ‚Ü‚·B
 DocOtherFileNameMatchNewEntity.Id=1696
@@ -3545,6 +3539,49 @@ DefMapExInvalidTimeSeparator=&1 ‚ÍƒtƒH[ƒ}ƒbƒg &2 ‚É‘Î‚µA–³Œø‚ÈŠÔ‹æØ‚è‹L†‚Å
 DefMapExInvalidTimeSeparator.Id=1733
 DefMapExForParmInvalidForType=For(&1) ‚Íƒ^ƒCƒv &2 ‚É‘Î‚µ‚ÄƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DefMapExForParmInvalidForType.Id=1734
+*** @TRANS ADD
+DocFieldOtherFileGEOG=Field attribute GEOG cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGEOG.Id=1735
+DocFieldOtherFileGEOM=Field attribute GEOM cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGEOM.Id=1736
+
+WebAbsoluteUnsupportedFeature=&1 is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedFeature.Id=1737
+WebAbsoluteUnsupportedProperty=The &1 property is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedProperty.Id=1738
+WebAbsoluteUnsupportedMethod=The &1 method is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedMethod.Id=1739
+WebAbsoluteUnsupportedEvent=The &1 event is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedEvent.Id=1740
+
+WebRelativeUnsupportedFeature=&1 is not supported in a Progressive Web App.
+WebRelativeUnsupportedFeature.Id=1741
+WebRelativeUnsupportedProperty=The &1 property is not supported in a Progressive Web App.
+WebRelativeUnsupportedProperty.Id=1742
+WebRelativeUnsupportedMethod=The &1 method is not supported in a Progressive Web App.
+WebRelativeUnsupportedMethod.Id=1743
+WebRelativeUnsupportedEvent=The &1 event is not supported in a Progressive Web App.
+WebRelativeUnsupportedEvent.Id=1744
+
+WebUnsupportedProperty=The &1 property is not supported on the Web.
+WebUnsupportedProperty.Id=1745
+WebUnsupportedMethod=The &1 method is not supported on the Web.
+WebUnsupportedMethod.Id=1746
+WebUnsupportedEvent=The &1 event is not supported on the Web.
+WebUnsupportedEvent.Id=1747
+
+WebOnlyProperty=The &1 property is only supported on the Web.
+WebOnlyProperty.Id=1748
+WebOnlyMethod=The &1 method is only supported on the Web.
+WebOnlyMethod.Id=1749
+WebOnlyEvent=The &1 event is only supported on the Web.
+WebOnlyEvent.Id=1750
+
+WebAbsoluteUnsupportedClass=&1 can only be used in a Progressive Web App.
+WebAbsoluteUnsupportedClass.Id=1751
+WebRelativeUnsupportedClass=&1 can't be used in a Progressive Web App.
+WebRelativeUnsupportedClass.Id=1752
+*** @TRANS END
 
 *************************************************************
 ***** LANSA Web WebletGroups                            *****
@@ -3632,31 +3669,45 @@ VersionControl.Actions.Command=ƒRƒ}ƒ“ƒh
 VersionControl.Actions.Initialize=‰Šú‰»
 VersionControl.Actions.Clone=ƒNƒ[ƒ“
 VersionControl.Actions.Stage=ƒXƒe[ƒW
+VersionControl.Actions.Unstage=ƒAƒ“ƒXƒe[ƒW
+*** @TRANS NEW
+VersionControl.Actions.Fetch=Fetch
+*** @TRANS END
 VersionControl.Actions.Pull=ƒvƒ‹
 VersionControl.Actions.Push=ƒvƒbƒVƒ…
 VersionControl.Actions.Commit=ƒRƒ~ƒbƒg
+*** @TRANS NEW
+VersionControl.Actions.CheckoutBranch=Checkout
+*** @TRANS END
 VersionControl.Actions.SelectBranch=ƒuƒ‰ƒ“ƒ`‘I‘ğ
 VersionControl.Actions.AddRemote=ƒŠƒ‚[ƒg ƒŠƒ|ƒWƒgƒŠ’Ç‰Á
 VersionControl.Actions.UpdateRemote=ƒŠƒ‚[ƒg ƒŠƒ|ƒWƒgƒŠXV
 VersionControl.Actions.RemoveRemote=ƒŠƒ‚[ƒg ƒŠƒ|ƒWƒgƒŠíœ
 VersionControl.Actions.GetFileHistory=ƒtƒ@ƒCƒ‹—š—ğæ“¾
 VersionControl.Actions.ResolveConflict=‹£‡‚ğ‰ğŒˆ
+*** @TRANS NEW
+VersionControl.Actions.GetBranchHeads=Retrieve Branch Heads
+VersionControl.Actions.Stash=Stash
+VersionControl.Actions.MergeBranches=Merge Branches
+VersionControl.Actions.RebaseBranch=Rebase Branch
+*** @TRANS END
 
 *************************************************************
 ***** Server Module validations                         *****
 *************************************************************
-DocServerModuleApiPathDuplicateVerb=“¯‚¶ƒpƒX‚Ì•¡”‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“‚ªA“¯‚¶ verb ‚ğŠ„‚è“–‚Ä‚ç‚ê‚Ü‚µ‚½B
-DocServerModuleApiPathRequired=ƒpƒX–¼‚Í•K{‚Å‚·Bƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
-DocServerModuleApiLeadingSlashRequired=ƒpƒX–¼‚ÍƒXƒ‰ƒbƒVƒ…‚Ån‚Ü‚Á‚Ä‚¢‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiConfigurationFileInError=Web \¬ƒtƒ@ƒCƒ‹ &1 (&2) ˆ—’†‚ÌƒGƒ‰[
 DocServerModuleApiEncodingNoContentDesc=ƒGƒ“ƒR[ƒh‚ÌƒRƒ“ƒeƒ“ƒc‚ª‹Lq‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ü‚½‚ÍƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚ª’è‹`‚³‚ê‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiHeaderAllowEmptyValueInvalid=AllowEmptyValue ‚Íƒwƒbƒ_[‚ÌˆÊ’u‚É‚Í–³Œø‚Å‚·B
 DocServerModuleApiHeaderAllowReservedInvalid=AllowReserved ‚Íƒwƒbƒ_[‚ÌˆÊ’u‚É‚Í–³Œø‚Å‚·B
+DocServerModuleApiHeaderIdDuplicated=¯•Êq &1 (ƒwƒbƒ_[ &2) ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiHeaderIdNotValid=¯•Êq &1 (ƒwƒbƒ_[ &2) ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiHeaderIdReserved=¯•Êq &1 (ƒwƒbƒ_[ &2) ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiHeaderMediaTypeConflict=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÆƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚Ì—¼•û‚ğg‚Á‚ÄƒRƒ“ƒeƒ“ƒc‚ğ‹Lq‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiHeaderNameDuplicated=ƒwƒbƒ_[–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiHeaderNameRequired=ƒwƒbƒ_[–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
-DocServerModuleApiHeaderNameNotValid=ƒwƒbƒ_[–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
-DocServerModuleApiHeaderNameReserved=ƒwƒbƒ_[–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiHeaderNoContentDesc=ƒwƒbƒ_[‚ÌƒRƒ“ƒeƒ“ƒc‚ª‹Lq‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ü‚½‚ÍƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚ª’è‹`‚³‚ê‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiHeaderStyleInvalidUse=ƒXƒ^ƒCƒ‹‚Íƒwƒbƒ_[‚ÌˆÊ’u‚É‚Í–³Œø‚Å‚·B
+DocServerModuleApiLeadingSlashRequired=ƒpƒX–¼‚ÍƒXƒ‰ƒbƒVƒ…‚Ån‚Ü‚Á‚Ä‚¢‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiMinItemsIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒCƒv‚ÍÅ¬ƒAƒCƒeƒ€‚Éƒ[ƒ‚Å‚È‚¢’l‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiMinItemsInvalid=Å‘åƒAƒCƒeƒ€‚Ì’l‚Í–³Œø‚Å‚·B’l‚Íƒ[ƒˆÈã‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiMaxItemsIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ìƒ^ƒCƒv‚ÍÅ‘åƒAƒCƒeƒ€‚Éƒ[ƒ‚Å‚È‚¢’l‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
@@ -3677,12 +3728,19 @@ DocServerModuleApiMediaTypeEncodingContentTypeRequired=ƒƒfƒBƒA ƒ^ƒCƒv ƒGƒ“ƒR[ƒ
 DocServerModuleApiMediaTypeEncodingNameDuplicated=ƒƒfƒBƒA ƒ^ƒCƒv ƒGƒ“ƒR[ƒfƒBƒ“ƒO–¼ '&1' ‚Í‚·‚Å‚É•Ê‚ÌƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ÉŠ„‚è“–‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiMediaTypeEncodingNameNotFound=ƒƒfƒBƒA ƒ^ƒCƒv‚ÌƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÌƒvƒƒpƒeƒB‚Æ‚µ‚Ä‚ÌƒƒfƒBƒA ƒ^ƒCƒv ƒGƒ“ƒR[ƒfƒBƒ“ƒO–¼ '&1' ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
 DocServerModuleApiMediaTypeEncodingNameRequired=ƒƒfƒBƒA ƒ^ƒCƒv ƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Ì–¼‘O‚ª•K—v‚Å‚·Bƒuƒ‰ƒ“ƒN‚Ü‚½‚Í‚·‚×‚ÄƒXƒy[ƒX‚É‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
-DocServerModuleApiMediaTypeEncodingNotAllowed=ƒƒfƒBƒA ƒ^ƒCƒv &1 ‚É‘Î‚µ‚ÄƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
-DocServerModuleApiMediaTypeNotSupported=ƒƒfƒBƒA ƒ^ƒCƒv '&1' ‚ÍAƒRƒ“ƒeƒ“ƒc‚Ì‚±‚Ìƒ^ƒCƒv‚É‘Î‚µ‚Ä‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeEncodingNotAllowed=‚±‚ÌƒƒfƒBƒA ƒ^ƒCƒv‚É‘Î‚µƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeEncodingNotSupported=ƒƒfƒBƒA ƒ^ƒCƒv &1 ‚É‘Î‚µAƒGƒ“ƒR[ƒfƒBƒ“ƒO‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeIdNotUnique=ƒƒfƒBƒA ƒ^ƒCƒv¯•Êq &1 ‚Í‘ã‘ÖƒƒfƒBƒA ƒ^ƒCƒv“à‚ÅˆêˆÓ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeIdNotValid=ƒƒfƒBƒA ƒ^ƒCƒv¯•Êq &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiMediaTypeIdReserved=ƒƒfƒBƒA ƒ^ƒCƒv¯•Êq &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeIdSameAsOperationParameter=ƒƒfƒBƒA ƒ^ƒCƒv¯•Êq &1 ‚ªƒIƒyƒŒ[ƒVƒ‡ƒ“ ƒpƒ‰ƒ[ƒ^‚Æˆê’v‚µ‚Ü‚·B¯•Êq‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeIdSameAsPathParameter=ƒƒfƒBƒA ƒ^ƒCƒv¯•Êq &1 ‚ªƒpƒX ƒpƒ‰ƒ[ƒ^‚Æˆê’v‚µ‚Ü‚·B¯•Êq‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiMediaTypeNotAllowed=ƒƒfƒBƒA ƒ^ƒCƒv '&1' ‚É‚æ‚è‹Lq‚³‚ê‚½ƒRƒ“ƒeƒ“ƒc‚Í‚±‚ÌƒXƒR[ƒv‚Å‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocServerModuleApiOperationIdRequired=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiOperationIdNotUnique=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚Ì OperationId &1 ‚ÍŒ»İ‚ÌƒXƒR[ƒv‚Å‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiOperationIdNotValid=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
-DocServerModuleApiOperationIdDuplicated=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
-DocServerModuleApiOperationConfigurationMatch=ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÍAƒpƒX '&1' A‹æ‰æ '&2' ‚Ì '&3.&4' ‚ÉŠ„‚è“–‚Ä‚ç‚ê‚½\¬ƒtƒ@ƒCƒ‹‚ÌƒGƒ“ƒgƒŠ[‚Éˆê’v‚µ‚Ü‚µ‚½B
+DocServerModuleApiOperationIdDuplicated=ƒpƒX‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“¯•Êq &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B¯•Êq‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiOperationConfigurationMatch=ƒpƒX '&1' (“®Œ '&5' ‚ğg—p) ‚ÍA‹æ‰æ '&2' ‚ÌƒT[ƒo[ ƒ‚ƒWƒ…[ƒ‹‚Å¯•Êq '&3' ‚Æ‚µ‚Ä‚·‚Å‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·BƒT[ƒo[ ƒ‚ƒWƒ…[ƒ‹ '&3' ‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ '&4' ‚ğŒ©‚Ä‚­‚¾‚³‚¢B
 DocServerModuleApiOperationNameReserved=ƒIƒyƒŒ[ƒVƒ‡ƒ“–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger ƒo[ƒWƒ‡ƒ“ 2 ‚Í form-data ‚Ü‚½‚Í body ‚ÌƒŠƒNƒGƒXƒg ƒRƒ“ƒeƒ“ƒc‚ğƒTƒ|[ƒg‚µ‚Ü‚·B—¼•û‚Í–³Œø‚Å‚·B
 DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger ƒo[ƒWƒ‡ƒ“ 2 ‚Í’Pˆê‚Ì body ƒŠƒNƒGƒXƒg ƒRƒ“ƒeƒ“ƒc‚ğƒTƒ|[ƒg‚µ‚Ü‚·B'&1' ‚Íd•¡‚µ‚½ body ƒRƒ“ƒeƒ“ƒc‚È‚Ì‚ÅA–³Œø‚Å‚·B
@@ -3693,6 +3751,9 @@ DocServerModuleApiOperationResponseRequired=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚Ì‹Lq‚Í­‚È‚­‚Æ‚
 DocServerModuleApiOperationServerRoutineNameRequired=ƒT[ƒo[ ƒ‹[ƒ`ƒ“–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiOperationServerRoutineNameNotFound=ƒT[ƒo[ ƒ‹[ƒ`ƒ“–¼ &1 ‚ÍƒT[ƒo[ ƒ‹[ƒ`ƒ“‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
 DocServerModuleApiOperationServerRoutineNameNotValid=ƒT[ƒo[ ƒ‹[ƒ`ƒ“–¼ &1 ‚Í–³Œø‚Å‚·BƒT[ƒo[ ƒ‹[ƒ`ƒ“‚Í Response(*Http #...) ƒpƒ‰ƒ[ƒ^‚ğ‚Â•K—v‚ª‚ ‚è‚Ü‚·B
+DocServerModuleApiParameterIdDuplicated=¯•Êq &1 (ƒpƒ‰ƒ[ƒ^ &2) ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiParameterIdNotValid=¯•Êq &1 (ƒpƒ‰ƒ[ƒ^ &2) ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiParameterIdReserved=¯•Êq &1 (ƒpƒ‰ƒ[ƒ^ &2) ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiParameterNameDuplicated=ƒpƒ‰ƒ[ƒ^–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiParameterNameRequired=ƒpƒ‰ƒ[ƒ^–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiParameterNameNotInPath=ƒpƒX ƒpƒ‰ƒ[ƒ^–¼ {&1} ‚ÍƒpƒX‚Éw’è‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
@@ -3703,14 +3764,18 @@ DocServerModuleApiParameterAllowEmptyValueInvalid=‘I‘ğ‚ÌˆÊ’u‚Å‚ÍAAllowEmptyValu
 DocServerModuleApiParameterAllowReservedInvalid=‘I‘ğ‚ÌˆÊ’u‚Å‚ÍAAllowReserved ‚Í–³Œø‚Å‚·B
 DocServerModuleApiParameterMediaTypeConflict=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚ÆƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚Ì—¼•û‚ğg‚Á‚ÄƒRƒ“ƒeƒ“ƒc‚ğ‹Lq‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiParameterNoContentDesc=ƒpƒ‰ƒ[ƒ^‚ÌƒRƒ“ƒeƒ“ƒc‚ª‹Lq‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ü‚½‚ÍƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚ª’è‹`‚³‚ê‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiParameterStyleInvalidType=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Í‘I‘ğ‚ÌƒXƒ^ƒCƒ‹‚É‚Í•¡G‚·‚¬‚Ü‚·BƒƒfƒBƒA ƒ^ƒCƒv‚ğg—p‚µ‚ÄƒVƒŠƒAƒ‹‰»‚ÌŒ`®‚ğw’è‚µ‚Ä‚­‚¾‚³‚¢B
 DocServerModuleApiParameterStyleInvalidUse=ƒXƒ^ƒCƒ‹‚Í‘I‘ğ‚ÌˆÊ’u‚É‘Î‚µ‚Ä–³Œø‚Å‚·B
 DocServerModuleApiPathCompoundSegmentNotSupported=ƒpƒX‚ÌƒZƒOƒƒ“ƒg '&1' ‚Í•¡‡ƒZƒOƒƒ“ƒg‚Å‚·BŒ»“_‚Å‚Í•¡‡ƒZƒOƒƒ“ƒg‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiPathDuplicateVerb=“¯‚¶ƒpƒX‚Ì•¡”‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“‚ªA“¯‚¶ verb ‚ğŠ„‚è“–‚Ä‚ç‚ê‚Ü‚µ‚½B
 DocServerModuleApiPathEmptySegmentNotAllowed=ƒpƒX ƒeƒ“ƒvƒŒ[ƒg“à‚É‹ó‚ÌƒZƒOƒƒ“ƒg‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocServerModuleApiPathFragmentNotAllowed=ƒpƒX ƒeƒ“ƒvƒŒ[ƒg‚Éƒtƒ‰ƒOƒƒ“ƒg '&1' ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·Bƒtƒ‰ƒOƒƒ“ƒg‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocServerModuleApiPathHasEquivalentPath=ƒpƒX–¼‚ÍƒpƒX &1 ‚É•C“G‚µ‚Ü‚·B‚±‚ê‚ç‚Í“¯ˆê‚Ì‚à‚Ì‚Æ‚İ‚È‚³‚ê‚é‚½‚ßA–³Œø‚Å‚·B
 DocServerModuleApiPathOneSegmentRequired=ƒpƒX ƒeƒ“ƒvƒŒ[ƒg‚É‚Í­‚È‚­‚Æ‚à 1 ‚Â‚ÌƒZƒOƒƒ“ƒg‚ªŠÜ‚Ü‚ê‚Ä‚¢‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiPathParameterNameNotDescribed=ƒpƒX ƒpƒ‰ƒ[ƒ^–¼ {&1} ‚ÍƒpƒX‚Ü‚½‚ÍƒIƒyƒŒ[ƒVƒ‡ƒ“ ƒpƒ‰ƒ[ƒ^‚É‚æ‚è‹Lq‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocServerModuleApiPathQueryNotAllowed=ƒpƒX ƒeƒ“ƒvƒŒ[ƒg‚ÉƒNƒGƒŠ ƒeƒ“ƒvƒŒ[ƒg '&1' ‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·BƒNƒGƒŠ ƒeƒ“ƒvƒŒ[ƒg‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiPathRequired=ƒpƒX–¼‚Í•K{‚Å‚·Bƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiPublishingPartitionNotFound=‹æ‰æ–¼ &1 ”­s‚Ì’è‹`‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiResponseStatusCodeRequired=‰“šƒXƒe[ƒ^ƒX ƒR[ƒh‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiResponseStatusCodeNotValid=‰“šƒXƒe[ƒ^ƒX ƒR[ƒh &1 ‚Í 100-599 ‚Ì 3 •¶š‚Ü‚½‚Í 1XXA2XXA3XXA4XXA5XX ‚È‚Ç‚Ì”ÍˆÍ’è‹`‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB"
 DocServerModuleApiSchemaObjectDescIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í‹Lq‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
@@ -3720,36 +3785,47 @@ DocServerModuleApiSchemaObjectFieldNotFound=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÌƒtƒB[
 DocServerModuleApiSchemaObjectFieldNameIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒtƒB[ƒ‹ƒh–¼‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectFormatIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍŒ`®‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectFormatInvalid=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í‘I‘ğ‚ÌŒ`®‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectIdNotValid=¯•Êq &1 (ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg &2) ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiSchemaObjectIdReserved=¯•Êq &1 (ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg &2) ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSchemaObjectItemRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒXƒL[ƒ} ƒAƒCƒeƒ€‚ª•K{‚Å‚·B
 DocServerModuleApiSchemaObjectItemsIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒXƒL[ƒ} ƒAƒCƒeƒ€‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBƒAƒCƒeƒ€‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSchemaObjectNameNotAllowed=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼‚ÍƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocServerModuleApiSchemaObjectNameNotValid=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼ &1 ‚É‚Í–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocServerModuleApiSchemaObjectNameReserved=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚©‚çn‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectNullableIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Í 'Null ‹–—e' ‚Æ‚µ‚Äƒtƒ‰ƒOİ’è‚³‚ê‚Ä‚¢‚Ü‚·‚ªA‚±‚Ìİ’è‚ÍƒvƒƒpƒeƒB‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·Bİ’è‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaObjectNullableNeedsAsqn=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Í 'Null ‹–—e' ‚Æ‚µ‚Äƒtƒ‰ƒOİ’è‚³‚ê‚Ä‚¢‚Ü‚·‚ªAƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í ASQN ‘®«‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBİ’è‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 DocServerModuleApiSchemaObjectPropertiesIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒXƒL[ƒ} ƒvƒƒpƒeƒB‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBƒvƒƒpƒeƒB‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectPropertiesRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í­‚È‚­‚Æ‚à 1 ‚Â‚ÌƒXƒL[ƒ} ƒvƒƒpƒeƒB‚ª•K—v‚Å‚·B
+DocServerModuleApiSchemaObjectReadOnlyAndWriteOnly=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Í“Ç‚İæ‚èê—p‚â‘‚«‚İê—p‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSchemaObjectReadOnlyIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Í '“Ç‚İæ‚èê—p' ‚Æ‚µ‚Äƒtƒ‰ƒOİ’è‚³‚ê‚Ä‚¢‚Ü‚·‚ªA‚±‚Ìİ’è‚ÍƒvƒƒpƒeƒB‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·Bİ’è‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectReferenceNameIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍQÆ–¼‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectReferenceNameNotFound=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÌQÆ–¼‚ÍƒXƒL[ƒ} ƒ^ƒCƒv‚ğ“Á’è‚µ‚Ü‚¹‚ñB
 DocServerModuleApiSchemaObjectReferenceNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍQÆ–¼‚ª•K—v‚Å‚·B
 DocServerModuleApiSchemaObjectRequiredIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Í•K{‚Æ‚µ‚Äƒtƒ‰ƒO‚ª—§‚Ä‚ç‚ê‚Ä‚¢‚Ü‚·‚ªA‚±‚Ìİ’è‚ğƒTƒ|[ƒg‚·‚é—Bˆê‚ÌƒvƒƒpƒeƒB‚Å‚·Bİ’è‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectSingleItemOnly=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í’Pˆê‚ÌƒXƒL[ƒ} ƒAƒCƒeƒ€‚Ì‚İƒTƒ|[ƒg‚µ‚Ü‚·B
+DocServerModuleApiSchemaObjectWriteOnlyIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Í '‘‚«‚İê—p' ‚Æ‚µ‚Äƒtƒ‰ƒOİ’è‚³‚ê‚Ä‚¢‚Ü‚·‚ªA‚±‚Ìİ’è‚ÍƒvƒƒpƒeƒB‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·Bİ’è‚Í–³‹‚³‚ê‚Ü‚µ‚½B
+DocServerModuleApiSchemaPropertyIdDuplicated=ƒvƒƒpƒeƒB¯•Êq &1 (ƒXƒL[ƒ} ƒvƒƒpƒeƒB &2) ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiSchemaPropertyNameDuplicated=ƒXƒL[ƒ} ƒvƒƒpƒeƒB–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiSchemaTypeNameDuplicated=ƒXƒL[ƒ} ƒ^ƒCƒv–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiSchemaTypeNameNotUnique=ƒXƒL[ƒ} ƒ^ƒCƒv‚Ì–¼‘O &1 ‚ÍŒ»İ‚ÌƒXƒR[ƒv‚Å‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiSecurityRequirementNameNotUnique=ƒZƒLƒ…ƒŠƒeƒB—vŒ–¼ &1 ‚Í‚·‚Å‚ÉŒ»İ‚ÌƒXƒR[ƒv‚Åg—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiSecurityRequirementNameNotValid=ƒZƒLƒ…ƒŠƒeƒB—vŒ–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiSecurityRequirementNameRequired=ƒZƒLƒ…ƒŠƒeƒB—vŒ‚Í‹Lq‚ğ¯•Ê‚·‚é–¼‘O‚ª•K—v‚Å‚·B
+DocServerModuleApiSecurityRequirementNameReserved=ƒZƒLƒ…ƒŠƒeƒB—vŒ–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecurityRequirementSchemeNameNotFound=ƒZƒLƒ…ƒŠƒeƒB—vŒƒXƒL[ƒ€–¼ &1 ‚ÍƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
 DocServerModuleApiSecurityRequirementSchemeNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍQÆ–¼‚ª•K—v‚Å‚·B
-DocServerModuleApiSecurityRequirementSchemeNameNotFound=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÌQÆ–¼‚ÍƒXƒL[ƒ} ƒ^ƒCƒv‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
 DocServerModuleApiSecurityRequirementSchemesRequired=ƒZƒLƒ…ƒŠƒeƒB—vŒ‚Å‚ÍAƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚ğ¯•Ê‚·‚é‚½‚ß‚ÉA1 ‚Â‚ÌƒZƒLƒ…ƒŠƒeƒB—v‹ƒXƒL[ƒ€‚ª•K—v‚Å‚·B
 DocServerModuleApiSecurityRequirementScopeNameRequired=ƒZƒLƒ…ƒŠƒeƒB—vŒƒXƒR[ƒv‚Å‚ÍAƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚Ìƒtƒ[‚ğ¯•Ê‚·‚é–¼‘O‚ª•K—v‚Å‚·B
 DocServerModuleApiSecurityRequirementScopeNameNotFound=ƒZƒLƒ…ƒŠƒeƒB—vŒƒXƒR[ƒv–¼ &1 ‚ÍAƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚Ìƒtƒ[‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
-DocServerModuleApiSecuritySchemeApiKeyParameterNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ƒpƒ‰ƒ[ƒ^–¼ ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
-DocServerModuleApiSecuritySchemeApiKeyParameterNameIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ƒpƒ‰ƒ[ƒ^–¼‚Í NULL ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚·B
-DocServerModuleApiSecuritySchemeApiKeyParameterNameNotValid=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ƒpƒ‰ƒ[ƒ^–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocServerModuleApiSecuritySchemeHttpBearerNameIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚Ì http ƒxƒAƒ‰[Œ`®‚ª NULL ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚·B
+DocServerModuleApiSecuritySchemeIdNotUnique=¯•Êq &1 (ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ &2) ‚ÍŒ»İ‚ÌƒXƒR[ƒv‚Å‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeIdNotValid=¯•Êq &1 (ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ &2) ‚É‚Í–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiSecuritySchemeIdReserved=¯•Êq &1 (ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ &2) ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSecuritySchemeInIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ApiKey ‚Ì In ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocServerModuleApiSecuritySchemeInRequired=ApiKey ‚ÌƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒ^ƒCƒv‚Í—LŒø‚È In ‚Ì’l‚ª•K—v‚Å‚·B
-DocServerModuleApiSecuritySchemeNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
-DocServerModuleApiSecuritySchemeNameNotValid=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocServerModuleApiSecuritySchemeNameDuplicated=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€–¼ &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
-DocServerModuleApiSecuritySchemeNameReserved=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+DocServerModuleApiSecuritySchemeNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSecuritySchemeOAuthFlowsRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒ^ƒCƒv OAuth2 ‚ÍA­‚È‚­‚Æ‚à 1 ‚Â‚Ì OAuth ƒtƒ[ ƒAƒCƒeƒ€‚ª•K—v‚Å‚·B
 DocServerModuleApiSecuritySchemeOAuthFlowsIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚É OAuth ƒtƒ[‚ª‚ ‚è‚Ü‚·BƒAƒCƒeƒ€‚Í–³‹‚³‚ê‚Ü‚·B
 DocServerModuleApiSecuritySchemeOAuthFlowDuplicate=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ OAuth ‚Ìƒtƒ[ ƒ^ƒCƒv‚Í‚·‚Å‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·B
@@ -3764,8 +3840,58 @@ DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒ
 DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€ ƒI[ƒvƒ“ ID ‚ÌÚ‘± URL ‚É’l‚ª‚ ‚è‚Ü‚·B’l‚Í–³‹‚³‚ê‚Ü‚·B
 DocServerModuleApiSecuritySchemeReferenceNameRequired=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€QÆ–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSecuritySchemeReferenceNameNotFound=ƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€QÆ–¼ &1 ‚ÍƒZƒLƒ…ƒŠƒeƒB ƒXƒL[ƒ€‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
-DocServerModuleApiServiceNameNotValid=ƒT[ƒrƒX–¼ &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
+DocServerModuleApiServicePathNotValid=ƒT[ƒrƒX ƒpƒX &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
 DocServerModuleApiStructuredTypeRequired=ƒƒfƒBƒA ƒ^ƒCƒv &1 ‚ÍA\‘¢ƒ^ƒCƒv‚ğà–¾‚·‚éƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ª•K—v‚Å‚·BPrimitive ƒ^ƒCƒv‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
+
+DplServerModuleConfigurationFileError=Web \¬ƒtƒ@ƒCƒ‹ &1 XV‚ÌƒGƒ‰[
+DplServerModuleConfigurationInvalidModuleType=ƒRƒ“ƒ|[ƒlƒ“ƒg ƒ‚ƒWƒ…[ƒ‹ &1 ‚Í API ‹Lq‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
+DplServerModuleConfigurationModuleError=–¼‘O &1 ‚ğg‚Á‚ÄƒRƒ“ƒ|[ƒlƒ“ƒg ƒ‚ƒWƒ…[ƒ‹‚ğƒ[ƒh‚Å‚«‚Ü‚¹‚ñ
+DplServerModuleConfigurationNoApiDesc=ƒRƒ“ƒ|[ƒlƒ“ƒg ƒ‚ƒWƒ…[ƒ‹ &1 ‚Í API ‹Lq‚ğŠÜ‚İ‚Ü‚¹‚ñB\¬ƒtƒ@ƒCƒ‹‚ÌXV‚Í”ò‚Î‚³‚ê‚Ü‚µ‚½B
+
+ServerModuleComponentModel.BindingContext.DuplicateMember=ƒƒ“ƒo[ '&1' ‚Í‚·‚Å‚É’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚·Bd•¡‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+ServerModuleComponentModel.BindingContext.FailedAuthorization=”FØ¸”sBƒAƒNƒZƒX‹Ö~‚Å‚·B
+ServerModuleComponentModel.BindingContext.FailedMaxItemsCheck=Å‘åƒAƒCƒeƒ€”—vŒ '&1' ‚É¸”s
+ServerModuleComponentModel.BindingContext.FailedMaxLengthCheck=’l '&1' ‚ÍÅ‘å’·—vŒ '&2' ‚ğ’´‚¦‚Ä‚¢‚Ü‚·
+ServerModuleComponentModel.BindingContext.FailedMinItemsCheck=Å¬ƒAƒCƒeƒ€”—vŒ '&1' ‚É¸”s
+ServerModuleComponentModel.BindingContext.FailedMinLengthCheck=’l '&1' ‚ÍÅ¬’·—vŒ '&2' ‚ğ’´‚¦‚Ä‚¢‚Ü‚·
+ServerModuleComponentModel.BindingContext.FractionDigitLengthExceeded=’l '&1' ‚Í¬”Œ…”—vŒ '&2' ‚ğ’´‚¦‚Ä‚¢‚Ü‚·
+ServerModuleComponentModel.BindingContext.InvalidFieldValueMessage=–³Œø‚È•¶š—ñ '&1' (ƒtƒB[ƒ‹ƒh &2 ‚Ì’l‚ğ“Ç‚İ‚İ)
+ServerModuleComponentModel.BindingContext.InvalidSecurityRequirements=API ‚ÌƒZƒLƒ…ƒŠƒeƒB—vŒ‚ª–³‚¢A‚à‚µ‚­‚Í–³Œø‚Å‚·
+ServerModuleComponentModel.BindingContext.InvalidValueMessage1=&1 “Ç‚İ‚İ‚Ì–³Œø‚ÈƒeƒLƒXƒg
+ServerModuleComponentModel.BindingContext.InvalidValueMessage2=–³Œø‚È•¶š—ñ '&1' (&2 “Ç‚İ‚İ)
+ServerModuleComponentModel.BindingContext.InvalidValueMessageJson=&1 “Ç‚İ‚İ‚Ì–³Œø‚Èƒg[ƒNƒ“Bƒg[ƒNƒ“ '&2' (ƒ^ƒCƒv '&5') ‚És &3A—ñ &4 •t‹ß‚Å‘˜‹ö
+ServerModuleComponentModel.BindingContext.LengthExceeded=’l '&1' ‚Í’·‚³‚Ì—vŒ '&2' ‚ğ’´‚¦‚Ä‚¢‚Ü‚·
+ServerModuleComponentModel.BindingContext.MissingCookieParameter=•K{‚ÌƒNƒbƒL[ ƒpƒ‰ƒ[ƒ^ '&1' ‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.MissingHeaderParameter=•K{‚Ìƒwƒbƒ_[ ƒpƒ‰ƒ[ƒ^ '&1' ‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.MissingMember=•K{‚Ìƒƒ“ƒo[ '&1' ‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.MissingParameter=•K{‚Ìƒpƒ‰ƒ[ƒ^ '&1' ‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.MissingPathParameter=•K{‚ÌƒpƒX ƒpƒ‰ƒ[ƒ^ '&1' ‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.MissingQueryParameter=•K{‚ÌƒNƒGƒŠ ƒpƒ‰ƒ[ƒ^ '&1' ‚ª’ñ‹Ÿ‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.PrefixReadItemValue2=&1.&2 ‚Ìˆ—’†‚ÉƒGƒ‰[‚ª•ñ‚³‚ê‚Ü‚µ‚½:
+ServerModuleComponentModel.BindingContext.PrefixReadItemValue3=ƒ^ƒCƒv &1 (ƒvƒƒpƒeƒB &2.&3) ‚Ìˆ—’†‚ÉƒGƒ‰[‚ª•ñ‚³‚ê‚Ü‚µ‚½:
+ServerModuleComponentModel.BindingContext.PrefixReadMemberValue=ƒvƒƒpƒeƒB &1.&2@‚Ìˆ—’†‚ÉƒGƒ‰[‚ª•ñ‚³‚ê‚Ü‚µ‚½:
+ServerModuleComponentModel.BindingContext.PrefixReadRequestPart2=ƒvƒƒpƒeƒB &1.&2 ‚Ì—v‹ƒ{ƒfƒBˆ—’†‚ÉƒGƒ‰[‚ª•ñ‚³‚ê‚Ü‚µ‚½:
+ServerModuleComponentModel.BindingContext.PrefixReadRequestPart3=ƒ^ƒCƒv &1 (ƒvƒƒpƒeƒB &2.&3) ‚Ì—v‹ƒ{ƒfƒBˆ—’†‚ÉƒGƒ‰[‚ª•ñ‚³‚ê‚Ü‚µ‚½:
+ServerModuleComponentModel.BindingContext.PrefixReadRootValue2=ƒvƒƒpƒeƒB &1.&2 ˆ—’†‚ÉƒGƒ‰[‚ª•ñ‚³‚ê‚Ü‚µ‚½:
+ServerModuleComponentModel.BindingContext.PrefixReadRootValue3=ƒ^ƒCƒv &1 (ƒvƒƒpƒeƒB &2.&3) ˆ—’†‚ÉƒGƒ‰[‚ª•ñ‚³‚ê‚Ü‚µ‚½:
+ServerModuleComponentModel.BindingContext.PrefixTryParseCookieParameter=ƒNƒbƒL[ ƒpƒ‰ƒ[ƒ^ &1 ˆ—’†‚ÌƒGƒ‰[:
+ServerModuleComponentModel.BindingContext.PrefixTryParseHeaderParameter=ƒwƒbƒ_[ ƒpƒ‰ƒ[ƒ^ &1 ˆ—’†‚ÌƒGƒ‰[:
+ServerModuleComponentModel.BindingContext.PrefixTryParsePathParameter=ƒpƒX ƒpƒ‰ƒ[ƒ^ &1 ˆ—’†‚ÌƒGƒ‰[:
+ServerModuleComponentModel.BindingContext.PrefixTryParseQueryParameter=ƒNƒGƒŠ ƒpƒ‰ƒ[ƒ^ &1 ˆ—’†‚ÌƒGƒ‰[:
+ServerModuleComponentModel.BindingContext.PrefixTryParseRootValue=&1.&2 ˆ—’†‚ÉƒGƒ‰[‚ª•ñ‚³‚ê‚Ü‚µ‚½:
+ServerModuleComponentModel.BindingContext.ReadOnlyValueMessage=’l‚Í“Ç‚İ‚İê—pƒvƒƒpƒeƒB‚É‘Î‚µ‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.ReadOnlyValueMessageJson=’l‚Í“Ç‚İ‚İê—pƒvƒƒpƒeƒB‚É‘Î‚µ‚Ä‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñBƒg[ƒNƒ“ '&1' (ƒ^ƒCƒv '&4') ‚És &2A—ñ &3 •t‹ß‚Å‘˜‹ö
+ServerModuleComponentModel.BindingContext.UnexpectedMemberName=ƒIƒuƒWƒFƒNƒg ƒƒ“ƒo[–¼ '&1' ‚Í•s–¾‚ÅAƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.UnexpectedTokenType=’lƒ^ƒCƒv '&1' ‚Ì“Ç‚İ‚İ‚É¸”s‚µ‚Ü‚µ‚½
+ServerModuleComponentModel.BindingContext.UnexpectedTokenTypeJson=JSON ’lƒ^ƒCƒv '&1' ‚Ì“Ç‚İ‚İ‚É¸”s‚µ‚Ü‚µ‚½BƒŠ[ƒ_[‚ÌˆÊ’u‚Ís &2A—ñ &3Aƒg[ƒNƒ“ ƒ^ƒCƒv '&4'
+ServerModuleComponentModel.BindingContext.UnknownHeaderParameter=ƒwƒbƒ_[ ƒpƒ‰ƒ[ƒ^ '&1' (’l &2) ‚Í•s–¾‚ÅAƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.UnknownParameter=ƒpƒ‰ƒ[ƒ^ '&1' (’l &2) ‚Í•s–¾‚ÅAƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.UnknownPathParameter=ƒpƒX ƒpƒ‰ƒ[ƒ^ '&1' (’l‚Í &2) ‚Í•s–¾‚ÅAƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.UnknownQueryParameter=ƒNƒGƒŠ ƒpƒ‰ƒ[ƒ^ '&1' (’l &2) ‚Í•s–¾‚ÅAƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.UnsupportedMethod=“à•”ƒGƒ‰[: ƒTƒ|[ƒg‚³‚ê‚È‚¢ƒƒ\ƒbƒh '&1' ('&2')
+ServerModuleComponentModel.BindingContext.UnsupportedRequestMimeType=–³Œø‚È—v‹: '&1' ‚ÍƒTƒ|[ƒg‚³‚ê‚È‚¢ mime ƒ^ƒCƒv‚Å‚·
+ServerModuleComponentModel.BindingContext.ValueNotInRange=’l &1 ‚Í &2 ‚©‚ç &3 ‚Ì”ÍˆÍ‚É‚ ‚è‚Ü‚¹‚ñ
+ServerModuleComponentModel.BindingContext.WholeDigitLengthExceeded=’l '&1' ‚Í‘SŒ…’·‚Ì—vŒ '&2'@‚ğ’´‚¦‚Ä‚¢‚Ü‚·
 
 *************************************************************
 ***** Services Model                                    *****
@@ -3815,6 +3941,7 @@ SMx.JsonReader.ErrorParsingUndefinedValue=–³Œø‚È“ü—ÍƒXƒgƒŠ[ƒ€BƒGƒ‰[ –¢’è‹`’l‰
 SMx.JsonReader.ErrorReadingBytes=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚ÌƒoƒCƒg“Ç‚İ‚İB
 SMx.JsonReader.ErrorReadingDateTimeOffset=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚Ì DateTimeOffset ’l“Ç‚İ‚İB
 SMx.JsonReader.ErrorReadingDecimal=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚Ì\i’l“Ç‚İ‚İB
+SMx.JsonReader.ErrorReadingDocument=JSON ƒhƒLƒ…ƒƒ“ƒg‚ğ“Ç‚İ‚İ’†‚ÌƒGƒ‰[Bs &1A—ñ &2 (&3).
 SMx.JsonReader.ErrorReadingInt32=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚Ì Int32 ’l“Ç‚İ‚İB
 SMx.JsonReader.ErrorReadingString=ƒGƒ‰[ ƒg[ƒNƒ“ ƒ^ƒCƒv &1 ˆ—’†‚Ì•¶š—ñ’l“Ç‚İ‚İB
 SMx.JsonReader.InputStringIsNotaDecimal=’l &1 ‚Í\i”‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
@@ -3890,3 +4017,20 @@ WebApplicationViewNameDuplicate=ƒrƒ…[–¼‚Í‚±‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ““à‚ÅˆêˆÓ‚Å‚È‚¯‚ê‚Î
 WebApplicationViewTableRequired=‚±‚Ìƒrƒ…[‚ªŠÇ—‚·‚éƒe[ƒuƒ‹‚ğw’è‚µ‚Ä‚­‚¾‚³‚¢B
 WebApplicationViewTableInvalid=‚±‚Ìƒe[ƒuƒ‹‚Í LANSA ƒŠƒ|ƒWƒgƒŠ‚É‘¶İ‚µ‚Ü‚¹‚ñB
 WebApplicationViewDescriptionRequired=‚±‚Ìƒrƒ…[‚Ìà–¾‚ğ’ñ‹Ÿ‚µ‚Ä‚­‚¾‚³‚¢B
+
+*********************************
+***** Web Page Validations  *****
+*********************************
+*** @TRANS ADD
+DocWebPageOfflineAppCacheUnsupported=Application Cache is not supported in a Progressive Web App, caching is done through a Service Worker.
+DocWebPageOfflineWebManifestUnsupported=Web App Manifest is only supported in the context of a Progressive Web App.
+*** @TRANS END
+DocWebPageResourceIdentifierRequired=ƒŠƒ|ƒWƒgƒŠ‚ÌƒIƒuƒWƒFƒNƒg‚Ü‚½‚Í URL ‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
+DocWebPageResourceIncorrectLansaFolder=‹æ‰æ‚Ì Web ƒtƒHƒ‹ƒ_‚©‚ç‚ÌŠO•”ƒŠƒ\[ƒX‚Ì‚İw’è‚Å‚«‚Ü‚·
+DocWebPageResourceIncorrectTargetPlatform=ƒ^[ƒQƒbƒg ƒvƒ‰ƒbƒgƒtƒH[ƒ€‚Éƒuƒ‰ƒEƒU‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocWebPageSplashImageIdentifierRequired=ŠO•”ƒŠƒ\[ƒX‚Ü‚½‚Í URL ‚Ì‚¢‚¸‚ê‚©‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·
+DocWebPageResourceExtResourceOrUrlRequired=ŠO•”ƒŠƒ\[ƒX‚Ü‚½‚Í URL ‚Ì‚¢‚¸‚ê‚©‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·
+*** @TRANS ADD
+DocWebPageWebManifestAppNameRequired=You must specify a name for your Web Application
+DocWebPageWebManifestShortNameRequired=You must specify a short name for your Web Application
+*** @TRANS END

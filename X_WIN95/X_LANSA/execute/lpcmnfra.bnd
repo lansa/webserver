@@ -346,11 +346,17 @@ GServer.FailGSOpenChildWin.Id=135
 
 Category.Common=Commun
 Category.Layout=Disposition
+*** @TRANS END
+Category.CSS=CSS
+*** @TRANS END
 Category.Style=Style
 Category.LPCInternal=Composant
 Category.Docking=Ancrage
 Category.Cell=Cellule
 Category.Column=Colonne
+Category.Flex=Flexible
+Category.Margins=Marge
+Category.Padding=Remplissage
 Category.Icon=Icône
 Category.Prompt=Invite
 Category.Badge=Badge
@@ -358,6 +364,7 @@ Category.MenuItem=Elément de menu
 Category.Caption=Caption
 Category.Other=Autre
 Category.User=Utilisateur
+Category.Model=Modèle
 
 Exception.Arithmetic=Exception arithmétique. Explication:&1.
 Exception.Arithmetic.DivisionByZeroError=Erreur arithmétique - tentative de division par zéro. 

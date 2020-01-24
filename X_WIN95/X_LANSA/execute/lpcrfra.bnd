@@ -1928,6 +1928,10 @@ Rep.FA.SUNS.Desc=Enregistrer les valeurs de type entier comme des valeurs binair
 Rep.FA.SGRA.Desc=Stocker DBCS comme type de données graphiques de CCSID 300
 Rep.FA.GUID.Desc=Format de l'identifiant unique
 Rep.FA.HIID.Desc=Hiérarchie de l'identifiant unique
+*** @TRANS ADD
+Rep.FA.GEOG.Desc=Geography Data Format
+Rep.FA.GEOM.Desc=Geometry Data Format
+*** @TRANS END
 
 Rep.FA.SUTC.Desc=Valeurs DateHeure enregistrées au format UTC
 Rep.FA.DUTC.Desc=Valeurs DateHeure affichées au format UTC
@@ -3332,12 +3336,6 @@ UdcColumnNoPanel=&1 n'hérite pas du Panneau.
 UdcColumnNoPanel.Id=1627
 UdcColumnNoCellDesign=&1 n'implémente pas ICellDesign.
 UdcColumnNoCellDesign.Id=1628
-DocWebPageResourceIdentifierRequired=Vous devez préciser soit un objet du référentiel soit une URL.
-DocWebPageResourceIdentifierRequired.Id=1629
-DocWebPageResourceIncorrectLansaFolder=Vous ne pouvez préciser qu'une ressource externe depuis le dossier Web de la partition.
-DocWebPageResourceIncorrectLansaFolder.Id=1631
-DocWebPageResourceIncorrectTargetPlatform=La plateforme cible n'inclut pas le Navigateur
-DocWebPageResourceIncorrectTargetPlatform.Id=1632
 WebRadialBrushDifferentOrigin=Seul un pinceau radial d'origine et centre identiques correspond au dessin Web
 WebRadialBrushDifferentOrigin.Id=1633
 ExpressionNotGroup=L'expression &1 ne produit pas un Groupe LANSA.
@@ -3418,8 +3416,6 @@ SrvMapNameAlreadyDefined=&1 définit déjà un nom de paramètre à l'instruction &2.
 SrvMapNameAlreadyDefined.Id=1671
 InvalidSessionIdentifier=SessionIdentifier ne peut pas dépasser 10 caractères.
 InvalidSessionIdentifier.Id=1672
-DocWebPageSplashImageIdentifierRequired=Vous devez préciser soit une ressource externe, soit une URL
-DocWebPageSplashImageIdentifierRequired.Id=1673
 FactoryCollectsConcreteType=&1 est une classe abstraction et ne peut pas être utilisée dans une collection de style FACTORY. 
 FactoryCollectsConcreteType.Id=1674
 DocValidationRuleLookupUnsupported=Validation par recherche en table non supportée sur le Web.
@@ -3462,8 +3458,6 @@ DocFileFragmentColumnDerivationHasErrors=Erreurs de dérivation de colonne.
 DocFileFragmentColumnDerivationHasErrors.Id=1693
 InvalidContentSecurityPolicy=&1 n'est pas un fichier de politique de sécurité du contenu correct, vous devez préciser une ressource externe du dossier CSP de la partition.
 InvalidContentSecurityPolicy.Id=1694
-DocWebPageResourceExtResourceOrUrlRequired=Vous devez préciser soit une ressource externe soit une URL
-DocWebPageResourceExtResourceOrUrlRequired.Id=1695
 
 DocOtherFileNameMatchNewEntity=Nom &1 rejeté. Il correspond au nom d'une entité à charger.
 DocOtherFileNameMatchNewEntity.Id=1696
@@ -3545,6 +3539,49 @@ DefMapExInvalidTimeSeparator=&1 est un séparateur d'heure incorrect pour le form
 DefMapExInvalidTimeSeparator.Id=1733
 DefMapExForParmInvalidForType=For(&1) n'est pas admis pour le type &2
 DefMapExForParmInvalidForType.Id=1734
+*** @TRANS ADD
+DocFieldOtherFileGEOG=Field attribute GEOG cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGEOG.Id=1735
+DocFieldOtherFileGEOM=Field attribute GEOM cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGEOM.Id=1736
+
+WebAbsoluteUnsupportedFeature=&1 is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedFeature.Id=1737
+WebAbsoluteUnsupportedProperty=The &1 property is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedProperty.Id=1738
+WebAbsoluteUnsupportedMethod=The &1 method is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedMethod.Id=1739
+WebAbsoluteUnsupportedEvent=The &1 event is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedEvent.Id=1740
+
+WebRelativeUnsupportedFeature=&1 is not supported in a Progressive Web App.
+WebRelativeUnsupportedFeature.Id=1741
+WebRelativeUnsupportedProperty=The &1 property is not supported in a Progressive Web App.
+WebRelativeUnsupportedProperty.Id=1742
+WebRelativeUnsupportedMethod=The &1 method is not supported in a Progressive Web App.
+WebRelativeUnsupportedMethod.Id=1743
+WebRelativeUnsupportedEvent=The &1 event is not supported in a Progressive Web App.
+WebRelativeUnsupportedEvent.Id=1744
+
+WebUnsupportedProperty=The &1 property is not supported on the Web.
+WebUnsupportedProperty.Id=1745
+WebUnsupportedMethod=The &1 method is not supported on the Web.
+WebUnsupportedMethod.Id=1746
+WebUnsupportedEvent=The &1 event is not supported on the Web.
+WebUnsupportedEvent.Id=1747
+
+WebOnlyProperty=The &1 property is only supported on the Web.
+WebOnlyProperty.Id=1748
+WebOnlyMethod=The &1 method is only supported on the Web.
+WebOnlyMethod.Id=1749
+WebOnlyEvent=The &1 event is only supported on the Web.
+WebOnlyEvent.Id=1750
+
+WebAbsoluteUnsupportedClass=&1 can only be used in a Progressive Web App.
+WebAbsoluteUnsupportedClass.Id=1751
+WebRelativeUnsupportedClass=&1 can't be used in a Progressive Web App.
+WebRelativeUnsupportedClass.Id=1752
+*** @TRANS END
 
 *************************************************************
 ***** LANSA Web WebletGroups                            *****
@@ -3631,32 +3668,45 @@ VersionControl.Title.Warning=Avertissement Editeur LANSA
 VersionControl.Actions.Command=Commande
 VersionControl.Actions.Initialize=Initialiser
 VersionControl.Actions.Clone=Cloner
-VersionControl.Actions.Stage=Stage
+VersionControl.Actions.Stage=Indexer
+VersionControl.Actions.Unstage=Désindexer
+*** @TRANS NEW
+VersionControl.Actions.Fetch=Fetch
+*** @TRANS END
 VersionControl.Actions.Pull=Extraire
 VersionControl.Actions.Push=Push
 VersionControl.Actions.Commit=Commit
-VersionControl.Actions.SelectBranch=Choisir la branche
+*** @TRANS NEW
+VersionControl.Actions.CheckoutBranch=Checkout
+*** @TRANS END
 VersionControl.Actions.AddRemote=Ajouter un référentiel distant
 VersionControl.Actions.UpdateRemote=Modifier le référentiel distant
 VersionControl.Actions.RemoveRemote=Enlever le référentiel distant
 VersionControl.Actions.GetFileHistory=Récupérer l'historique du fichier
 VersionControl.Actions.ResolveConflict=Résoudre les conflits
+*** @TRANS NEW
+VersionControl.Actions.GetBranchHeads=Retrieve Branch Heads
+VersionControl.Actions.Stash=Stash
+VersionControl.Actions.MergeBranches=Merge Branches
+VersionControl.Actions.RebaseBranch=Rebase Branch
+*** @TRANS END
 
 *************************************************************
 ***** Server Module validations                         *****
 *************************************************************
-DocServerModuleApiPathDuplicateVerb=Des opérations multiples sur le même chemin ont été affectées au même verbe.
-DocServerModuleApiPathRequired=Le nom de chemin est nécessaire. Il ne peut pas être à blanc.
-DocServerModuleApiLeadingSlashRequired=Le nom de chemin doit commencer par une barre oblique.
+DocServerModuleApiConfigurationFileInError=Erreur lors de l'essai de traitement du fichier de configuration Web &1 (&2).
 DocServerModuleApiEncodingNoContentDesc=Le contenu d'encodage n'est pas décrit. Un objet schéma ou un élément de type media doit être défini.
 DocServerModuleApiHeaderAllowEmptyValueInvalid=AllowEmptyValue est incorrect pour un emplacement d'entête.
 DocServerModuleApiHeaderAllowReservedInvalid=AllowReserved est incorrect pour un emplacement d'entête.
+DocServerModuleApiHeaderIdDuplicated=L'identifiant &1 de l'en-tête &2 a déjà été utilisé. Le nom doit être unique.
+DocServerModuleApiHeaderIdNotValid=L'identifiant &1 de l'en-tête &2 contient des caractères invalides.
+DocServerModuleApiHeaderIdReserved=L'identifiant &1 de l'en-tête &2 est réservé. Le nom ne peut pas commencer par la lettre 'X'
 DocServerModuleApiHeaderMediaTypeConflict=Objet schéma ou un élément de type media ne peuvent pas tous les deux décrire le contenu.
+DocServerModuleApiHeaderNameDuplicated=Le nom de l'en-tête &1 a déjà été utilisé. Le nom doit être unique.
 DocServerModuleApiHeaderNameRequired=Le nom d'entête ne peut pas être à blanc.
-DocServerModuleApiHeaderNameNotValid=Le nom d'entête &1 contient des caractères incorrects.
-DocServerModuleApiHeaderNameReserved=Le nom d'entête &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
 DocServerModuleApiHeaderNoContentDesc=Contenu d'entête non décrit. Soit un objet schéma soit un élément de type media doit être défini.
 DocServerModuleApiHeaderStyleInvalidUse=Style incorrect pour un emplacement d'entête.
+DocServerModuleApiLeadingSlashRequired=Le nom de chemin doit commencer par une barre oblique.
 DocServerModuleApiMinItemsIgnored=Le type d'objet schéma ne supporte pas une valeur non nulle pour les éléments minimum. Valeur ignorée.
 DocServerModuleApiMinItemsInvalid=La valeur des éléments minimum est incorrecte. Elle doit être supérieure ou égale à zéro.
 DocServerModuleApiMaxItemsIgnored=Le type d'objet schéma ne supporte pas une valeur non nulle pour les éléments maximum. Valeur ignorée.
@@ -3677,13 +3727,20 @@ DocServerModuleApiMediaTypeEncodingContentTypeRequired=Le type de contenu d'enco
 DocServerModuleApiMediaTypeEncodingNameDuplicated=Le nom d'encodage du type du support '&1' a déjà été attribué à un autre encodage. Les noms doivent être uniques.
 DocServerModuleApiMediaTypeEncodingNameNotFound=Le nom d'encodage du type du support '&1' introuvable en tant que propriété de l'objet de schéma du type de support.
 DocServerModuleApiMediaTypeEncodingNameRequired=Le nom du type de support encodé est obligatoire. Il ne peut pas être à blanc.
-DocServerModuleApiMediaTypeEncodingNotAllowed=L'encodage n'est pas supporté par le type de support &1.
-DocServerModuleApiMediaTypeNotSupported=Type de support '&1' n'est pas supporté par ce type de contenu.
-DocServerModuleApiOperationIdRequired=L'id d'opération de l'opération chemin ne peut pas être à blanc.
+DocServerModuleApiMediaTypeEncodingNotAllowed=Les codages ne sont pas autorisés pour ce type de support.
+DocServerModuleApiMediaTypeEncodingNotSupported=Les codages ne sont pas pris en charge pour le type de média &1.
+DocServerModuleApiMediaTypeIdNotUnique=L'identifiant de type de média &1 n'est pas unique parmi les autres types de média.
+DocServerModuleApiMediaTypeIdNotValid=L'identifiant de type de média &1 contient des caractères invalides.
+DocServerModuleApiMediaTypeIdReserved=L'identifiant de type de média &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
+DocServerModuleApiMediaTypeIdSameAsOperationParameter=L'identifiant de type de média &1 correspond à l'identifiant d'un paramètre d'opération. L'identifiant doit être unique.
+DocServerModuleApiMediaTypeIdSameAsPathParameter=L'identifiant de type de média &1 correspond à l'identifiant d'un paramètre de chemin. L'identifiant doit être unique.
+DocServerModuleApiMediaTypeNotAllowed=Le contenu décrit par le type de média '&1' n'est pas autorisé dans ce domaine.
+DocServerModuleApiOperationConfigurationMatch=Le chemin '&1' utilisant le verbe '&5' est déjà défini dans le module serveur avec l'identifiant '&3' Partition '&2'. Voir l'opération '&4' dans le module serveur '&3'.
+DocServerModuleApiOperationIdDuplicated=Chemin d'identifiant d'opération &1 déjà utilisé. L'identifiant doit être unique.
+DocServerModuleApiOperationIdNotUnique=L'id d'opération &1 de l'opération chemin a déjà été utilisé dans le cadre actuel. Le nom doit être unique.
 DocServerModuleApiOperationIdNotValid=L'id d'opération &1 de l'opération chemin contient des caractères incorrects.
-DocServerModuleApiOperationIdDuplicated=L'id d'opération &1 de l'opération chemin est déjà utilisé. Le nom doit être unique.
-DocServerModuleApiOperationConfigurationMatch=Opération correspondant à l'entrée dans le fichier de configuration avec le chemin '&1' affectée à '&3. &4' dans la partition '&2'.
-DocServerModuleApiOperationNameReserved=Le nom d'opération &1 est réservé. Le nom ne peut pas commencer par la lettrer 'X'
+DocServerModuleApiOperationIdRequired=L'id d'opération de l'opération chemin ne peut pas être à blanc.
+DocServerModuleApiOperationNameReserved=Le nom d'opération &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
 DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger version 2 supporte soit les form-data ou les body request content. Les deux sont invalides.
 DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger version 2 supporte un simple  body request content. '&1' est un body content en double et est invalide.
 DocServerModuleApiOperationRequestDuplicateFormContent=Swagger version 2 supporte un  simple form-data request content. '&1' est un form-data content en double et est invalide.
@@ -3693,6 +3750,9 @@ DocServerModuleApiOperationResponseRequired=La description de l'opération chemin
 DocServerModuleApiOperationServerRoutineNameRequired=Le nom de routine serveur ne peut pas être vide ou à blanc.
 DocServerModuleApiOperationServerRoutineNameNotFound=Le nom de routine serveur &1 n'identifie pas une routine serveur.
 DocServerModuleApiOperationServerRoutineNameNotValid=Le nom de routine serveur &1 est incorrecte. La routine serveur doit avoir un paramètre Response(*Http #...).
+DocServerModuleApiParameterIdDuplicated=L'identifiant &1 du paramètre &2 a déjà été utilisé. Le nom doit être unique.
+DocServerModuleApiParameterIdNotValid=L'identifiant &1 du paramètre &2 contient des caractères invalides.
+DocServerModuleApiParameterIdReserved=L'identifiant &1 du paramètre &2 est réservé. Le nom ne peut pas commencer par la lettre 'X'
 DocServerModuleApiParameterNameDuplicated=Nom de paramètre &1 déjà utilisé. Le nom doit être unique.
 DocServerModuleApiParameterNameRequired=Le nom de paramètre ne peut pas être vide ou à blanc.
 DocServerModuleApiParameterNameNotInPath=Le nom de paramètre chemin {&1} n'est pas précisé dans le chemin.
@@ -3703,14 +3763,18 @@ DocServerModuleApiParameterAllowEmptyValueInvalid=AllowEmptyValue est incorrect 
 DocServerModuleApiParameterAllowReservedInvalid=AllowReserved est incorrect pour l'emplacement choisi.
 DocServerModuleApiParameterMediaTypeConflict=Les éléments objet schéma et type de média ne peuvent pas être utilisés tous les deux pour décrire le contenu.
 DocServerModuleApiParameterNoContentDesc=Contenu du paramètre non décrit. Un élément objet schéma et type de média doit être défini.
+DocServerModuleApiParameterStyleInvalidType=L'objet Schéma est trop complexe pour le style sélectionné. Utilisez un type de support pour definir le format de sérialisation.
 DocServerModuleApiParameterStyleInvalidUse=Style est incorrect pour l'emplacement choisi.
 DocServerModuleApiPathCompoundSegmentNotSupported=Segment de chemin '&1' est un segment composé. Les segments composés ne sont pas supportés actuellement.
+DocServerModuleApiPathDuplicateVerb=Des opérations multiples sur le même chemin ont été affectées au même verbe.
 DocServerModuleApiPathEmptySegmentNotAllowed=Les segments vides dans le modèle de chemin ne sont pas autorisés.
 DocServerModuleApiPathFragmentNotAllowed=Le modèle de chemin contient un fragment '&1'. Les fragments ne sont pas autorisés.
 DocServerModuleApiPathHasEquivalentPath=Le nom de chemin est équivalent au chemin &1. Ils sont considéré comme identiques et par conséquence incorrect.
 DocServerModuleApiPathOneSegmentRequired=Le modèle de chemin doit contenir au moins un segment.
 DocServerModuleApiPathParameterNameNotDescribed=Nom de paramètre chemin {&1} n'est pas décrit par un chemin ou un paramètre opération.
 DocServerModuleApiPathQueryNotAllowed=Le modèle de chemin contient un modèle de requête '&1'. Les modèles de requêtes ne sont pas autorisés.
+DocServerModuleApiPathRequired=Le nom de chemin est nécessaire. Il ne peut pas être à blanc.
+DocServerModuleApiPublishingPartitionNotFound=Définition du nom de la partition de publication &1 introuvable. Valeur ignorée.
 DocServerModuleApiResponseStatusCodeRequired=Le code statut de réponse ne peut pas être vide ou à blanc.
 DocServerModuleApiResponseStatusCodeNotValid=Le code statut de réponse &1 doit être composé de trois caractères entre 100-599 ou une définition d'intervalle telle que 1XX, 2XX, 3XX, 4XX, 5XX.
 DocServerModuleApiSchemaObjectDescIgnored=Le type d'objet schéma ne supporte pas de description. Valeur ignorée.
@@ -3720,36 +3784,47 @@ DocServerModuleApiSchemaObjectFieldNotFound=Le nom de zone du type d'objet schém
 DocServerModuleApiSchemaObjectFieldNameIgnored=Le type d'objet schéma n'admet pas de nom de zone. Valeur ignorée.
 DocServerModuleApiSchemaObjectFormatIgnored=Le type d'objet schéma n'admet pas de format. Valeur ignorée.
 DocServerModuleApiSchemaObjectFormatInvalid=Le type d'objet schéma n'admet pas le format sélectionné.
+DocServerModuleApiSchemaObjectIdNotValid=L'identifiant &1 de l'objet schéma &2 contient des caractères invalides.
+DocServerModuleApiSchemaObjectIdReserved=L'identifiant &1 de l'objet schéma &2 est réservé. Le nom ne peut pas commencer par la lettre 'X'
 DocServerModuleApiSchemaObjectItemRequired=Le type d'objet schéma nécessite un élément de schéma.
 DocServerModuleApiSchemaObjectItemsIgnored=Le type d'objet schéma n'admet pas de d'éléments de schéma. Eléments ignorés.
 DocServerModuleApiSchemaObjectNameRequired=Le nom d'objet schéma ne peut pas être vide ou à blanc.
 DocServerModuleApiSchemaObjectNameNotAllowed=Le nom d'objet schéma n'est pas admis.
 DocServerModuleApiSchemaObjectNameNotValid=Le nom d'objet schéma &1 contient des caractères incorrects.
 DocServerModuleApiSchemaObjectNameReserved=Le nom d'objet schéma &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
+DocServerModuleApiSchemaObjectNullableIgnored=L'objet Schéma est marqué comme 'Peut être nul', mais seules les propriétés prennent en charge ce paramètre. Paramètre ignoré.
+DocServerModuleApiSchemaObjectNullableNeedsAsqn=L'objet Schéma est marqué comme 'Peut être nul' mais le type d'objet ne supporte pas l'attribut ASQN. Paramètre non pris en charge.
 DocServerModuleApiSchemaObjectPropertiesIgnored=Le type d'objet schéma n'admet pas de propriétés schéma. Propriétés ignorées.
 DocServerModuleApiSchemaObjectPropertiesRequired=Le type d'objet schéma demande au moins une propriété schéma.
+DocServerModuleApiSchemaObjectReadOnlyAndWriteOnly=L'objet schéma ne peut pas être en Lecture Seule et Ecriture Seule
+DocServerModuleApiSchemaObjectReadOnlyIgnored=L'objet Schéma est marqué comme 'Lecture seule', mais seules les propriétés le prennent en charge. Paramètre ignoré.
 DocServerModuleApiSchemaObjectReferenceNameIgnored=Le type d'objet schéma n'admet pas de nom de référence. Valeur ignorée.
 DocServerModuleApiSchemaObjectReferenceNameNotFound=Le nom de référence du type d'objet schéma n'identifie pas de type de schéma.
 DocServerModuleApiSchemaObjectReferenceNameRequired=Le type d'objet schéma demande un nom de référence.
 DocServerModuleApiSchemaObjectRequiredIgnored=L'objet schéma est noté comme nécessaire mais seules les propriétés admettent ce paramétrage. Paramétrage ignoré.
 DocServerModuleApiSchemaObjectSingleItemOnly=Le type d'objet schéma n'admet qu'un seul élément schéma.
+DocServerModuleApiSchemaObjectWriteOnlyIgnored=L'objet Schéma est marqué comme 'Ecriture seule', mais seules les propriétés prennent en charge ce paramètre. Paramètre ignoré.
+DocServerModuleApiSchemaPropertyIdDuplicated=L'identifiant de propriété &1 de la propriété schéma a déjà été utilisé. Le nom doit être unique.
 DocServerModuleApiSchemaPropertyNameDuplicated=Le nom de propriété schéma &1 a déjà été utilisé. Le nom doit être unique.
 DocServerModuleApiSchemaTypeNameDuplicated=Le nom de type de schéma &1 a déjà été utilisé. Le nom doit être unique.
+DocServerModuleApiSchemaTypeNameNotUnique=Le nom &1 de Type schéma a déjà été utilisé dans le cadre actuel. Le nom doit être unique.
+DocServerModuleApiSecurityRequirementNameNotUnique=Le nom de sécurité &1 a déjà été utilisé dans ce domaine. Le nom doit être unique.
+DocServerModuleApiSecurityRequirementNameNotValid=Le nom de sécurité &1 contains invalid characters.
+DocServerModuleApiSecurityRequirementNameRequired=La sécurité nécessite un nom pour identifier la description.
+DocServerModuleApiSecurityRequirementNameReserved=Le nom de sécurité &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
+DocServerModuleApiSecurityRequirementSchemeNameNotFound=Le nom du schéma de sécurité &1 n'identifie pas de schéma de sécurité.
 DocServerModuleApiSecurityRequirementSchemeNameRequired=Le type d'objet de schéma nécessite un nom de référence.
-DocServerModuleApiSecurityRequirementSchemeNameNotFound=Le nom de référence du type d'objet de schéma n'identifie pas un type de schéma.
 DocServerModuleApiSecurityRequirementSchemesRequired=L'exigence de sécurité nécessite un schéma d'exigence de sécurité pour identifier un schéma de sécurité.
 DocServerModuleApiSecurityRequirementScopeNameRequired=L'étendue des exigences de sécurité nécessite un nom identifiant un flux de schéma de sécurité.
 DocServerModuleApiSecurityRequirementScopeNameNotFound=Le nom étendue des exigences de sécurité &1 n'identifie pas de flux de schéma de sécurité.
-DocServerModuleApiSecuritySchemeApiKeyParameterNameRequired=Le nom de paramètre de schéma de sécurité ApiKey ne peut pas être vide ou à blanc.
-DocServerModuleApiSecuritySchemeApiKeyParameterNameIgnored=Le nom de paramètre de schéma de sécurité ApiKey est non nul. Valeur ignorée.
-DocServerModuleApiSecuritySchemeApiKeyParameterNameNotValid=Le nom de paramètre de schéma de sécurité ApiKey &1 contient des caractères incorrects.
 DocServerModuleApiSecuritySchemeHttpBearerNameIgnored=Le format du porteur http du schéma de sécurité est non nul. La valeur sera ignorée.
+DocServerModuleApiSecuritySchemeIdNotUnique=L'identifiant &1 du schéma de sécurité &2 a déjà été utilisé dans le cadre actuel. Le nom doit être unique.
+DocServerModuleApiSecuritySchemeIdNotValid=L'identifiant &1 du schéma de sécurité &2 contient des caractères invalides.
+DocServerModuleApiSecuritySchemeIdReserved=L'identifiant &1 du schéma de sécurité &2 est réservé. Le nom ne peut pas commencer par la lettre 'X'.
 DocServerModuleApiSecuritySchemeInIgnored=Le schéma de sécurité ApiKey In a une valeur. La valeur sera ignorée.
 DocServerModuleApiSecuritySchemeInRequired=Le type de schéma de sécurité de ApiKey doit avoir une valeur In correcte.
-DocServerModuleApiSecuritySchemeNameRequired=Le nom de schéma de sécurité ne peut pas être vide ou à blanc.
-DocServerModuleApiSecuritySchemeNameNotValid=Le nom de schéma de sécurité &1 contient des caractères incorrects.
 DocServerModuleApiSecuritySchemeNameDuplicated=Le nom de schéma de sécurité &1 a déjà été utilisé. Le nom doit être unique.
-DocServerModuleApiSecuritySchemeNameReserved=Le nom de schéma de sécurité &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
+DocServerModuleApiSecuritySchemeNameRequired=Le nom de schéma de sécurité ne peut pas être vide ou à blanc.
 DocServerModuleApiSecuritySchemeOAuthFlowsRequired=Le type de schéma de sécurité OAuth2 demande au moins un élément de flux OAuth.
 DocServerModuleApiSecuritySchemeOAuthFlowsIgnored=Le schéma de sécurité a des flux OAuth. Les éléments seront ignorés.
 DocServerModuleApiSecuritySchemeOAuthFlowDuplicate=Le type de flux de schéma de sécurité OAuth a déjà été défini.
@@ -3764,8 +3839,58 @@ DocServerModuleApiSecuritySchemeOpenIdConnectUrlRequired=L'id Open de l'Url de c
 DocServerModuleApiSecuritySchemeOpenIdConnectUrlIgnored=L'id Open de l'Url de connexion du schéma de sécurité a une valeur. La valeur sera ignorée.
 DocServerModuleApiSecuritySchemeReferenceNameRequired=Le nom de référence du schéma de sécurité ne peut pas être vide ou à blanc.
 DocServerModuleApiSecuritySchemeReferenceNameNotFound=Le nom de référence du schéma de sécurité &1 n'identifie un schéma de sécurité.
-DocServerModuleApiServiceNameNotValid=Le nom de Service &1 contient des caractères invalides.
+DocServerModuleApiServicePathNotValid=Le chemin de service &1 contient des caractères invalides.
 DocServerModuleApiStructuredTypeRequired=Le type de support &1 nécessite un type d'objet schéma qui décrit un type structuré. Les types primitifs ne sont pas pris en charge.
+
+DplServerModuleConfigurationFileError=Erreur lors de l'essai de mise à jour du fichier de configuration Web &1.
+DplServerModuleConfigurationInvalidModuleType=Le module de composant &1 ne prend pas en charge la description de l'API.
+DplServerModuleConfigurationModuleError=Impossible de charger le module de composant en utilisant le nom &1.
+DplServerModuleConfigurationNoApiDesc=Le module de composant &1 ne contient pas de description d'API. Mise à jour du fichier de configuration ignorée.
+
+ServerModuleComponentModel.BindingContext.DuplicateMember=Le membre '&1' a déjà été fourni. Les doublons ne sont pas autorisés
+ServerModuleComponentModel.BindingContext.FailedAuthorization=Échec de l'autorisation. Accès interdit.
+ServerModuleComponentModel.BindingContext.FailedMaxItemsCheck=Echec du nombre maximal d'éléments requis de'&1'
+ServerModuleComponentModel.BindingContext.FailedMaxLengthCheck=La valeur '&1' dépasse la longueur maximale de'&2'
+ServerModuleComponentModel.BindingContext.FailedMinItemsCheck=Echec du nombre minimal d'éléments requis de '&1'
+ServerModuleComponentModel.BindingContext.FailedMinLengthCheck=La valeur '&1' ne répond pas aux exigences de longueur minimale de'&2'
+ServerModuleComponentModel.BindingContext.FractionDigitLengthExceeded=La valeur '&1' dépasse la longueur de la fraction de '&2'
+ServerModuleComponentModel.BindingContext.InvalidFieldValueMessage=Chaîne invalide '&1' lors de l'essai de lecture du champ &2
+ServerModuleComponentModel.BindingContext.InvalidSecurityRequirements=Les sécurités nécessaires de l'API sont manquantes ou invalides
+ServerModuleComponentModel.BindingContext.InvalidValueMessage1=Texte invalide lors de la lecture &1
+ServerModuleComponentModel.BindingContext.InvalidValueMessage2=Chaîne invalide '&1' en essayant de lire &2
+ServerModuleComponentModel.BindingContext.InvalidValueMessageJson=Jeton invalide en essayant de lire &1; jeton rencontré '&2' de type '&5' près de la ligne &3, colonne &4
+ServerModuleComponentModel.BindingContext.LengthExceeded=La valeur '&1' dépasse la longueur requise '&2'
+ServerModuleComponentModel.BindingContext.MissingCookieParameter=Paramètre de cookie requis '&1' non fourni
+ServerModuleComponentModel.BindingContext.MissingHeaderParameter=Paramètre d'en-tête requis '&1' non fourni
+ServerModuleComponentModel.BindingContext.MissingMember=Membre requis '&1' non fourni
+ServerModuleComponentModel.BindingContext.MissingParameter=Paramètre requis '&1' non fourni
+ServerModuleComponentModel.BindingContext.MissingPathParameter=Paramètre du chemin requis '&1' non fourni
+ServerModuleComponentModel.BindingContext.MissingQueryParameter=Paramètre de requête requis '&1' non fourni
+ServerModuleComponentModel.BindingContext.PrefixReadItemValue2=Erreur signalée lors du traitement &1.&2:
+ServerModuleComponentModel.BindingContext.PrefixReadItemValue3=Erreur signalée lors du traitement de type &1 pour la  propriété &2.&3:
+ServerModuleComponentModel.BindingContext.PrefixReadMemberValue=Erreur signalée lors du traitement de la propriété &1.&2:
+ServerModuleComponentModel.BindingContext.PrefixReadRequestPart2=Erreur signalée lors du traitement de la demande du body pour la propriété &1.&2:
+ServerModuleComponentModel.BindingContext.PrefixReadRequestPart3=Erreur signalée lors du traitement de la demande du body de type &1 pour la propriété &2.&3:
+ServerModuleComponentModel.BindingContext.PrefixReadRootValue2=Erreur signalée lors du traitement de la propriété &1.&2:
+ServerModuleComponentModel.BindingContext.PrefixReadRootValue3=Erreur signalée lors du traitement de type &1 pour la propriété &2.&3:
+ServerModuleComponentModel.BindingContext.PrefixTryParseCookieParameter=Erreur de traitement du paramètre de cookie &1:
+ServerModuleComponentModel.BindingContext.PrefixTryParseHeaderParameter=Erreur de traitement du paramètre d'en-tête &1:
+ServerModuleComponentModel.BindingContext.PrefixTryParsePathParameter=Erreur de traitement du paramètre du chemin &1:
+ServerModuleComponentModel.BindingContext.PrefixTryParseQueryParameter=Erreur de traitement du paramètre de la demande &1:
+ServerModuleComponentModel.BindingContext.PrefixTryParseRootValue=Erreur signalée lors du traitement &1.&2:
+ServerModuleComponentModel.BindingContext.ReadOnlyValueMessage=La valeur n'est pas autorisée pour la propriété lecture seule
+ServerModuleComponentModel.BindingContext.ReadOnlyValueMessageJson=La valeur n'est pas autorisée pour la propriété lecture seule; jeton rencontré '&1' de type '&4' prés de la ligne &2, colonne &3
+ServerModuleComponentModel.BindingContext.UnexpectedMemberName=Le nom du membre '&1' est inconnu et non pris en charge
+ServerModuleComponentModel.BindingContext.UnexpectedTokenType=La tentative de lecture du type '&1' a échoué
+ServerModuleComponentModel.BindingContext.UnexpectedTokenTypeJson=La tentative de lecture de type JSON '&1' a échoué alors que le lecteur était positionné sur la ligne &2, la colonne &3, le type de jeton '&4'
+ServerModuleComponentModel.BindingContext.UnknownHeaderParameter=Le paramètre d'en-tête '&1' avec la valeur &2 est inconnu et non pris en charge
+ServerModuleComponentModel.BindingContext.UnknownParameter=Le paramètre '&1' avec la valeur &2 est inconnu et non pris en charge
+ServerModuleComponentModel.BindingContext.UnknownPathParameter=Le paramètre du chemin '&1' avec la valeur &2 est inconnu et non pris en charge
+ServerModuleComponentModel.BindingContext.UnknownQueryParameter=Le paramètre de la requête '&1' avec la valeur &2 est inconnu et non pris en charge
+ServerModuleComponentModel.BindingContext.UnsupportedMethod= Erreur interne: Méthode non supportée '&1' sur '&2'
+ServerModuleComponentModel.BindingContext.UnsupportedRequestMimeType=Requête non valide: '&1' est un type mime non pris en charge.
+ServerModuleComponentModel.BindingContext.ValueNotInRange=La valeur &1 ne tombe pas dans la plage de &2 à &3
+ServerModuleComponentModel.BindingContext.WholeDigitLengthExceeded=La valeur '&1' dépasse la longueur requise du chiffre '&2'
 
 *************************************************************
 ***** Services Model                                    *****
@@ -3794,47 +3919,50 @@ SMx.JsonDom.NodeValueNotString=Le noeud Json (&1) ne peut pas être accédé en tan
 
 SMx.Json.UnsupportedType=Le type d'objet  &1 est invalide ou n'est pas supporté.
 
-SMx.JsonReader.Exception=Exception JSON Reader .
+SMx.JsonReader.Exception=Exception JSON Reader.
 
-SMx.JsonReader.AdditionalTextEncountered=Texte supplémentaire rencontré après la fin de la lecture du JSON content: &1.
-SMx.JsonReader.BadJsonEscapeSequence=Flux d'entrée non valide. Mauvaise séquence d'échappement JSON: &1.
+SMx.JsonReader.AdditionalTextEncountered=Texte supplémentaire rencontré après la fin de la lecture du JSON content: '&1'.
+SMx.JsonReader.BadJsonEscapeSequence=Flux d'entrée non valide. Mauvaise séquence d'échappement JSON: '&1'.
 SMx.JsonReader.CannotReadNanAsaDecimal=Valeur invalide. Impossible de lire la valeur NaN sous forme décimale.
 SMx.JsonReader.CannotReadNegativeInfinityAsaDecimal=Valeur invalide. Impossible de lire la valeur Infinity sous forme décimale.
 SMx.JsonReader.CannotReadPositiveInfinityAsaDecimal=Valeur invalide. Impossible de lire la valeur Infinity sous forme décimale.
-SMx.JsonReader.CouldNotConvertStringToDateTimeOffset=Impossible de convertir la chaîne &1 en une valeur DateTimeOffset.
+SMx.JsonReader.CouldNotConvertStringToDateTimeOffset=Impossible de convertir la chaîne '&1' en une valeur DateTimeOffset.
 SMx.JsonReader.CouldNotConvertStringToDecimal=Impossible de convertir la chaîne &1 en une valeur décimale.
-SMx.JsonReader.CouldNotConvertStringToInt32=Impossible de convertir la chaîne &1 en une valeur Int32.
-SMx.JsonReader.ErrorParsingComment=Erreur d'analyse du commentaire. Attendu: *, obtenu &1.
-SMx.JsonReader.ErrorParsingBooleanValue=Erreur d'analyse de la valeur booléenne. Attendu: vrai ou faux, obtenu &1.
-SMx.JsonReader.ErrorParsingNanValue=Erreur d'analyse de la valeur NAN. Attendu: NaN, obtenu &1.
-SMx.JsonReader.ErrorParsingNegativeInfinityValue=Erreur d'analyse de la valeur négative infinity. Attendu: -Infinity, obtenu &1.
-SMx.JsonReader.ErrorParsingNullValue=Erreur d'analyse de la valeur nulle. Attendu: null, obtenu &1.
-SMx.JsonReader.ErrorParsingPositiveInfinityValue=Erreur d'analyse de la valeur positive infinity. Attendu: Infinity, obtenu &1.
+SMx.JsonReader.CouldNotConvertStringToInt32=Impossible de convertir la chaîne '&1' en une valeur Int32.
+SMx.JsonReader.ErrorParsingComment=Erreur d'analyse du commentaire. Attendu: *, obtenu '&1'.
+SMx.JsonReader.ErrorParsingBooleanValue=Erreur d'analyse de la valeur booléenne. Attendu: vrai ou faux, obtenu '&1'.
+SMx.JsonReader.ErrorParsingNanValue=Erreur d'analyse de la valeur NAN. Attendu: NaN, obtenu '&1'.
+SMx.JsonReader.ErrorParsingNegativeInfinityValue=Erreur d'analyse de la valeur négative infinity. Attendu: -Infinity, obtenu '&1'.
+SMx.JsonReader.ErrorParsingNullValue=Erreur d'analyse de la valeur nulle. Attendu: null, obtenu '&1'.
+SMx.JsonReader.ErrorParsingPositiveInfinityValue=Erreur d'analyse de la valeur positive infinity. Attendu: Infinity, obtenu '&1'.
 SMx.JsonReader.ErrorParsingTrueValue=Flux d'entrée non valide. Erreur d'analyse de la valeur vraie.
 SMx.JsonReader.ErrorParsingUndefinedValue=Flux d'entrée non valide. Erreur d'analyse de la valeur indéfinie.
-SMx.JsonReader.ErrorReadingBytes=Erreur de lecture des octets lors du traitement du type de jeton &1.
-SMx.JsonReader.ErrorReadingDateTimeOffset=Erreur de lecture de la valeur DateTimeOffset lors du traitement du type de jeton &1.
-SMx.JsonReader.ErrorReadingDecimal=Erreur de lecture de la valeur décimale lors du traitement du type de jeton &1.
-SMx.JsonReader.ErrorReadingInt32=Erreur de lecture de la valeur Int32 lors du traitement du type de jeton &1.
-SMx.JsonReader.ErrorReadingString=Erreur de lecture de la valeur de la chaîne lors du traitement du type de jeton &1.
-SMx.JsonReader.InputStringIsNotaDecimal= La valeur &1 n'est pas un décimal.
-SMx.JsonReader.InputStringIsNotaNumber=La valeur &1 n'est pas un nombre valide.
-SMx.JsonReader.InputStringIsNotaValidDecimal=La valeur &1 n'est pas un décimal valide.
-SMx.JsonReader.InputStringIsNotaValidInteger=La valeur &1 n'est pas un entier valide.
-SMx.JsonReader.InputStringIsTooLargeToParse=La valeur d'entrée &1 est trop grande pour être convertie en nombre.
-SMx.JsonReader.InputStringTooLargeForInteger=La valeur d'entrée &1 est trop grande pour être convertie en entier.
-SMx.JsonReader.InvalidCharacterAfterParsingPropertyName=Flux d'entrée non valide. Caractère invalide après l'analyse du nom de la propriété: &1.
-SMx.JsonReader.InvalidCloseToken=Le type de jeton &1 n'est pas valide car il n'a pas de jeton de fermeture.
-SMx.JsonReader.InvalidEndTokenForJsonType=Le jeton &1 n'est pas valide pour la fermeture de JsonType &2.
-SMx.JsonReader.InvalidJavascriptPropertyIdentifierCharacter=Flux d'entrée non valide. Caractère identifiant de propriété invalide lors de l'analyse du nom de la propriété: &1.
-SMx.JsonReader.InvalidPropertyIdentifierCharacter=Flux d'entrée non valide. Caractère identifiant de propriété inattendu lors de l'analyse du nom de la propriété: &1.
-SMx.JsonReader.MaxDepthExceeded=L'étendue maximale de & 1 a été dépassée lors de la lecture de l'entrée JSON.
+SMx.JsonReader.ErrorReadingBytes=Erreur de lecture des octets lors du traitement du type de jeton '&1'.
+SMx.JsonReader.ErrorReadingDateTimeOffset=Erreur de lecture de la valeur DateTimeOffset lors du traitement du type de jeton '&1'.
+SMx.JsonReader.ErrorReadingDecimal=Erreur de lecture de la valeur décimale lors du traitement du type de jeton '&1'.
+*** @TRANS NEW
+SMx.JsonReader.ErrorReadingDocument=Error while reading JSON document at line &1, column &2 (&3).
+*** @TRANS END
+SMx.JsonReader.ErrorReadingInt32=Erreur de lecture de la valeur Int32 lors du traitement du type de jeton '&1'.
+SMx.JsonReader.ErrorReadingString=Erreur de lecture de la valeur de la chaîne lors du traitement du type de jeton '&1'.
+SMx.JsonReader.InputStringIsNotaDecimal= La valeur '&1' n'est pas un décimal.
+SMx.JsonReader.InputStringIsNotaNumber=La valeur '&1' n'est pas un nombre valide.
+SMx.JsonReader.InputStringIsNotaValidDecimal=La valeur '&1' n'est pas un décimal valide.
+SMx.JsonReader.InputStringIsNotaValidInteger=La valeur '&1' n'est pas un entier valide.
+SMx.JsonReader.InputStringIsTooLargeToParse=La valeur d'entrée '&1' est trop grande pour être convertie en nombre.
+SMx.JsonReader.InputStringTooLargeForInteger=La valeur d'entrée '&1' est trop grande pour être convertie en entier.
+SMx.JsonReader.InvalidCharacterAfterParsingPropertyName=Flux d'entrée non valide. Caractère invalide après l'analyse du nom de la propriété: '&1'.
+SMx.JsonReader.InvalidCloseToken=Le type de jeton '&1' n'est pas valide car il n'a pas de jeton de fermeture.
+SMx.JsonReader.InvalidEndTokenForJsonType=Le jeton '&1' n'est pas valide pour la fermeture de JsonType '&2'.
+SMx.JsonReader.InvalidJavascriptPropertyIdentifierCharacter=Flux d'entrée non valide. Caractère identifiant de propriété invalide lors de l'analyse du nom de la propriété: '&1'.
+SMx.JsonReader.InvalidPropertyIdentifierCharacter=Flux d'entrée non valide. Caractère identifiant de propriété inattendu lors de l'analyse du nom de la propriété: '&1'.
+SMx.JsonReader.MaxDepthExceeded=L'étendue maximale de '&1' a été dépassée lors de la lecture de l'entrée JSON.
 SMx.JsonReader.ReadPastEndOfCurrentContainerContext=Flux d'entrée non valide. Tentative de lecture  de fin du contexte de conteneur actuel.
 SMx.JsonReader.UnableToReadBeyondTheEndOfTheStream=Flux d'entrée non valide. Tentative de lecture au-delà de la fin du flux d'entrée.
-SMx.JsonReader.UnexpectedBsonTypeValue=Flux d'entrée non valide. Valeur de type BSON inattendue: &1.
-SMx.JsonReader.UnexpectedCharacter=Flux d'entrée non valide. Caractère inattendu lors de l'analyse de l'entrée: &1.
-SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingNumber=Flux d'entrée non valide. Caractère inattendu lors de l'analyse de la valeur numerique: &1.
-SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingValue=Flux d'entrée non valide. Caractère inattendu lors de l'analyse de la valeur: &1.
+SMx.JsonReader.UnexpectedBsonTypeValue=Flux d'entrée non valide. Valeur de type BSON inattendue: '&1'.
+SMx.JsonReader.UnexpectedCharacter=Flux d'entrée non valide. Caractère inattendu lors de l'analyse de l'entrée: '&1'.
+SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingNumber=Flux d'entrée non valide. Caractère inattendu lors de l'analyse de la valeur numerique: '&1'.
+SMx.JsonReader.UnexpectedCharacterEncounteredWhileParsingValue=Flux d'entrée non valide. Caractère inattendu lors de l'analyse de la valeur: '&1'.
 SMx.JsonReader.UnexpectedCharacterWhileParsingConstructor=Flux d'entrée non valide. Caractère inattendu lors de l'analyse du constructeur.
 SMx.JsonReader.UnexpectedContentWhileParsingJson=Flux d'entrée non valide. Contenu inattendu lors de l'analyse JSON.
 SMx.JsonReader.UnexpectedEnd=Flux d'entrée non valide. Fin inattendu du flux lors de l'analyse de la valeur JSON.
@@ -3844,15 +3972,15 @@ SMx.JsonReader.UnexpectedEndWhileParsing=Flux d'entrée non valide. Fin inattendu
 SMx.JsonReader.UnexpectedEndWhileParsingComment=Flux d'entrée non valide. Fin inattendu du flux lors de l'analyse de commentaire.
 SMx.JsonReader.UnexpectedEndWhileParsingUnicodeCharacter=Flux d'entrée non valide. Fin inattendue de l'entrée lors de l'analyse du caractère unicode.
 SMx.JsonReader.UnexpectedEndWhileParsingUnquotedPropertyName=Flux d'entrée non valide. Fin inattendu du flux lors de l'analyse du nom de propriété unquoted .
-SMx.JsonReader.UnexpectedJsonTypeEncountered=Lors de la définition de l'état du lecteur sur l'objet actuel, un JsonType inattendu a été rencontré: &1.
-SMx.JsonReader.UnexpectedState=Erreur interne. Lecteur JSON dans un état inattendu: &1.
-SMx.JsonReader.UnexpectedStateWhenReadingBsonCodeWithScope=Erreur interne. Lecteur dans un état inattendu lors de la lecture du code BSON avec une portée: &1.
-SMx.JsonReader.UnexpectedStateWhenReadingBsonNormal=Erreur interne. Lecteur en état inattendu lors de la lecture BSON: &1.
-SMx.JsonReader.UnexpectedStateWhenReadingBsonReference=Erreur interne. Lecteur en état inattendu lors de la lecture de la référence BSON: &1.
-SMx.JsonReader.UnexpectedTokenWhenReadingBytes=Le jeton de type &1 est inattendu lors de la lecture de l'entrée JSON.
-SMx.JsonReader.UnterminatedString=Unterminated string. Délimiteur attendu: &1.
+SMx.JsonReader.UnexpectedJsonTypeEncountered=Lors de la définition de l'état du lecteur sur l'objet actuel, un JsonType inattendu a été rencontré: '&1'.
+SMx.JsonReader.UnexpectedState=Erreur interne. Lecteur JSON dans un état inattendu: '&1'.
+SMx.JsonReader.UnexpectedStateWhenReadingBsonCodeWithScope=Erreur interne. Lecteur dans un état inattendu lors de la lecture du code BSON avec une portée: '&1'.
+SMx.JsonReader.UnexpectedStateWhenReadingBsonNormal=Erreur interne. Lecteur en état inattendu lors de la lecture BSON: '&1'.
+SMx.JsonReader.UnexpectedStateWhenReadingBsonReference=Erreur interne. Lecteur en état inattendu lors de la lecture de la référence BSON: '&1'.
+SMx.JsonReader.UnexpectedTokenWhenReadingBytes=Le jeton de type '&1' est inattendu lors de la lecture de l'entrée JSON.
+SMx.JsonReader.UnterminatedString=Unterminated string. Délimiteur attendu: '&1'.
 
-SMx.JsonWriter.Exception=Exception JSON Writer .
+SMx.JsonWriter.Exception=Exception JSON Writer.
 
 SMx.JsonWriter.AnObjectIdMustBeTwelveBytes=L'écriture d'ObjectId requiert une valeur de 12 octets.
 SMx.JsonWriter.CannotWriteJsonCommentAsBson=Impossible d'écrire un commentaire Json en tant que Bson.
@@ -3891,3 +4019,20 @@ WebApplicationViewNameDuplicate=Le nom de la vue doit être unique dans cette app
 WebApplicationViewTableRequired=Veuillez préciser la table à gérer avec cette vue.
 WebApplicationViewTableInvalid=Cette table n'existe pas dans le référentiel LANSA.
 WebApplicationViewDescriptionRequired=Veuillez fournir une description pour cette vue.
+
+*********************************
+***** Web Page Validations  *****
+*********************************
+*** @TRANS ADD
+DocWebPageOfflineAppCacheUnsupported=Application Cache is not supported in a Progressive Web App, caching is done through a Service Worker.
+DocWebPageOfflineWebManifestUnsupported=Web App Manifest is only supported in the context of a Progressive Web App.
+*** @TRANS END
+DocWebPageResourceIdentifierRequired=Vous devez préciser soit un objet du référentiel soit une URL.
+DocWebPageResourceIncorrectLansaFolder=Vous ne pouvez préciser qu'une ressource externe depuis le dossier Web de la partition.
+DocWebPageResourceIncorrectTargetPlatform=La plateforme cible n'inclut pas le Navigateur
+DocWebPageSplashImageIdentifierRequired=Vous devez préciser soit une ressource externe, soit une URL
+DocWebPageResourceExtResourceOrUrlRequired=Vous devez préciser soit une ressource externe soit une URL
+*** @TRANS ADD
+DocWebPageWebManifestAppNameRequired=You must specify a name for your Web Application
+DocWebPageWebManifestShortNameRequired=You must specify a short name for your Web Application
+*** @TRANS END

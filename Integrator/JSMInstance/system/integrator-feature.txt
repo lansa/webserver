@@ -2,6 +2,13 @@
 #
 # Integrator license feature
 #
+TERMINAL
+WEBQUEUE
+CONNECTOR
+DBMANAGER
+SFMANAGER
+LONGREACH
+#
 integrator.service.package.com.lansa.jsm.service
 integrator.service.package.com.lansa.jsm.edi.service
 integrator.service.package.com.lansa.jsm.as2.service
@@ -49,11 +56,11 @@ integrator.service.class.com.lansa.jsm.service.XMLBindFileService
 integrator.service.class.com.lansa.jsm.service.XMLBindQueueService
 integrator.service.class.com.lansa.jsm.service.XMLFileService
 integrator.service.class.com.lansa.jsm.service.XMLParserService
+integrator.service.class.com.lansa.jsm.service.XMLQueryService
 integrator.service.class.com.lansa.jsm.service.XMLQueueService
 integrator.service.class.com.lansa.jsm.service.XMLReaderService
 integrator.service.class.com.lansa.jsm.service.XMLWriterService
 integrator.service.class.com.lansa.jsm.service.ZipService
-integrator.service.class.com.lansa.jsm.service.ZUGFERDService
 integrator.service.class.com.lansa.jsm.edi.service.EDICatalogService
 integrator.service.class.com.lansa.jsm.edi.service.EDIDataSetService
 integrator.service.class.com.lansa.jsm.edi.service.EDIDataSetSQLService

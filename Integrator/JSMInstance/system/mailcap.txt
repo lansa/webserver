@@ -2,14 +2,6 @@
 #
 # MIME handlers
 #
-# Phaos
-#
-# application/x-pkcs7-mime;; x-java-content-handler=com.phaos.smime.SmimeDataContentHandler
-# application/pkcs7-mime;; x-java-content-handler=com.phaos.smime.SmimeDataContentHandler
-# application/x-pkcs7-signature;; x-java-content-handler=com.phaos.smime.SmimeDataContentHandler
-# application/pkcs7-signature;; x-java-content-handler=com.phaos.smime.SmimeDataContentHandler
-# multipart/signed;; x-java-content-handler=com.phaos.smime.SmimeDataContentHandler
-#
 # Bouncy Castle
 #
 # Note: BC requires JCE Unlimited Strength Policy Files to be installed

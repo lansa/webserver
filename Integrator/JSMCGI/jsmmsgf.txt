@@ -4,7 +4,6 @@
 # JSM2000 - JSM2999 => JSMProxy
 # JSM3000 - JSM3999 => JSMDirect
 # JSM4000 - JSM4999 => JSMAdmin
-# JSM5000 - JSM5999 => JSMAdministrator as Service
 #
 ERR2000 Service does not exist in database
 ERR2001 Service argument is too long
@@ -108,10 +107,10 @@ ERR3014 No data returned from service
 ERR3015 Calculated byte amount less than zero
 ERR3016 Cannot read user space storage
 ERR3017 Incomplete write to standard output
-ERR3018 Write user space exception has occured
-ERR3019 Read user space exception has occured
-ERR3020 Create user space exception has occured
-ERR3021 Delete user space exception has occured
+ERR3018 Write user space exception has occurred
+ERR3019 Read user space exception has occurred
+ERR3020 Create user space exception has occurred
+ERR3021 Delete user space exception has occurred
 ERR3022 No SERVER_NAME environment variable
 ERR3023 No SERVER_PORT environment variable
 ERR3024 Server and port concatenation exceeds limit
@@ -222,71 +221,4 @@ JSM2000 JSMProxy transaction did not complete
 JSM3000 JSMDirect transaction did not complete
 #
 JSM4000 JSMAdmin transaction did not complete
-#
-JSM5001 The following options are discard:
-JSM5002 %s Version %s
-JSM5003 The service is currently installed
-JSM5004 The service is not installed
-JSM5005 The service is not installed
-JSM5006 %s removed. (You must delete the file (%s) yourself.)
-JSM5007 Could not remove the service. Error %d
-JSM5008 The service is already installed
-JSM5009 The service is removed. re-install...
-JSM5010 Could not remove the service. Error %d
-JSM5011 The service failed to install. Maximum Listener services reached.
-JSM5012 The service is installed
-JSM5013 The service is not installed
-JSM5014 The service is not installed
-JSM5015 Service not in stop state
-JSM5016 Service not in running state
-JSM5017 No standard arguments
-JSM5018 ExitCode: %ld
-JSM5020 Error 1: No Instance
-JSM5021 Error 2: <%s> is not recognized as an Instance. One or more of the following folders are missing: classes, jar, properties, system, trace and temp.
-JSM5022 Error 3: Cannot clear temp folder in <%s>
-JSM5023 Error 6: Cannot change to <%s>
-JSM5024 Error 7: Cannot create output handles
-JSM5025 Error 8: Cannot build environment variables
-JSM5026 Error 9: Cannot set environment variables
-JSM5027 Error 4: Cannot build JSM command
-JSM5028 Error 5: Cannot build Class Path
-JSM5030 Error 11: Cannot build full command line
-JSM5031 Error 12: Failed to start JSM: JVM:[%s]
-JSM5032 Service has started. JSM Process Id: <%ld> Instance is: <%s>
-JSM5033 Waiting for STOP
-JSM5034 Restarting JSM
-JSM5035 JSM terminated prematurely. Please check JSM Trace/Output files
-JSM5036 STOP Received
-JSM5037 Service has stopped
-JSM5038 Current Working Directory: <%s>
-JSM5039 Starting JSM
-JSM5040 Cannot clear Trace folder
-JSM5041 Cannot clear Temp folder
-JSM5042 Cleared Trace folder
-JSM5043 Cleared Temp folder
-JSM5044 Clear Instance
-JSM5045 Rebooting JSM
-JSM5046 Upgrade operation to follow
-JSM5047 Pending operation to follow
-JSM5048 Error 13: Cannot build User Home Path
-JSM5049 Error 14: Failed to start JSM as the JVM file is either missing or not an executable: JVM:[%s]
-#
-JSM5445 STRJSM - LANSA Integrator JSM Administrator Service
-JSM5446 Syntax: STRJSM [options]
-JSM5447 Example : STRJSM -iauto
-JSM5448 Options:
-JSM5449   -h Display this text and exit
-JSM5450   -? Display this text and exit
-JSM5451   -v Display version number
-JSM5452   -i Install service
-JSM5453      startup
-JSM5454        auto - the service will start automatically on re-boot (default for Windows Server). 
-JSM5455        manual - the service will need to be started manually (default for Windows Workstation). 
-JSM5456        disable - disable the service (but it is left installed)
-JSM5457   -u Uninstall service
-JSM5466   -s Set service status
-JSM5467      status
-JSM5468        start - start service (default)
-JSM5469        stop - stop service
-JSM5475 Invalid command line parameter "%s".
 #

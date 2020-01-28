@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     LANSA Tool Company
+-->
+
+<document page-size="A4"
+          orientation="portrait"
+          author="Tool Company"
+          title="Product Catalog"
+          keywords="Tools">
+
+ <content name="product">
+
+   <image x1="50" y1="800" width="180" height="70" file="demo-logo.jpg"/>
+
+   <group-box x1="50" y1="700" width="500" height="100" caption="Product Information" caption-width="90" caption-height="20" caption-indent="10" style="group" leading="14"/>
+
+   <text x1="60" y1="680" width="70" height="20" value="Product ID :"/>
+   <text x1="60" y1="660" width="70" height="20" value="Availability :"/>
+
+   <text x1="130" y1="680" width="100" height="20" value="{PRDID}" style="data"/>
+   <text x1="130" y1="660" width="200" height="20" value="{PRDAVL}" style="data"/>
+
+   <group-box x1="50" y1="570" width="500" height="380" caption="Product Details" caption-width="75" caption-height="20" caption-indent="10" style="group" leading="14"/>
+
+   <image x1="70" y1="540" file="demo-product.jpg" scale="80"/>
+
+   <text x1="280" y1="540" width="240" height="100" value="{PRDDSC}" style="description"/>
+
+   <text x1="280" y1="420" width="100" height="20" value="Product Features :" style="label"/>
+
+   <list x1="280" y1="400" width="240" style="description"/>
+
+   <group-box x1="50" y1="160" width="500" height="120" caption="Pricing Information" caption-width="90" caption-height="20" caption-indent="10" style="group" leading="14"/>
+
+   <text x1="60" y1="140" width="70" height="15" value="MSRP Price :" style="price-label"/>
+   <text x1="60" y1="125" width="70" height="15" value="Your Price :" style="price-label"/>
+   <text x1="60" y1="110" width="70" height="15" value="Buy10+ :" style="price-label"/>
+   <text x1="60" y1="95" width="70" height="15" value="Buy20+ :" style="price-label"/>
+   <text x1="60" y1="80" width="70" height="15" value="Buy30+ :" style="price-label"/>
+
+   <text x1="130" y1="140" width="70" height="15" value="{PRDAMTMP}" decimal-format="&#xA4;#,###.00" style="price-data"/>
+   <text x1="130" y1="125" width="70" height="15" value="{PRDAMTYP}" decimal-format="&#xA4;#,###.00" style="price-data"/>
+   <text x1="130" y1="110" width="70" height="15" value="{PRDAMTB10}" decimal-format="&#xA4;#,###.00" style="price-data"/>
+   <text x1="130" y1="95" width="70" height="15" value="{PRDAMTB20}" decimal-format="&#xA4;#,###.00" style="price-data"/>
+   <text x1="130" y1="80" width="70" height="15" value="{PRDAMTB30}" decimal-format="&#xA4;#,###.00" style="price-data"/>
+
+ </content>
+
+ <content name="table">
+
+    <page/>
+
+    <text x1="20" y1="740" width="500" height="20" value="The following examples show table, list and text area using RPG multiple occurrence data structure data"/>
+
+   <!--
+           Table using data structure and specified fields
+   -->
+
+    <table x1="20" y1="700" width="400" height="250" style="description" alternate="true" alternate-color="yellow" title-show="" minimum-rows="6"  minimum-height="20">
+      <column field="COL1" padding="10" width-percentage="20" style="" vertical-align="top" horizontal-align="right" title-horizontal-align="left" title-border="" title-style="" title="Column 1"/>
+      <column field="COL2" padding="10,0,0,0" width-percentage="20" substitute-newline="true" vertical-align="bottom" horizontal-align="left" title-horizontal-align="right" title-border="" title="Column&#xA;Two"/>
+      <column field="COL3" width-percentage="20" decimal-format="#,###.##" title-horizontal-align="right" title-border="" title="Column 3"/>
+   </table>
+
+   <!--
+           List using data structure list and specified field
+   -->
+
+   <list x1="20" y1="400" width="200" border="true" style="description" field="COL1" horizontal-align="right"/>
+
+   <!--
+           Text area using data structure list and the first field from the list
+
+           Note: this example is not 100% correct as the example list contains three fields COL1, COL2 and COL3
+
+           Normally when using a text area with a list, the list is either a single field list or has a second control field
+
+           The first list field contains the text and an optional second field is used to control the concatenation process.
+   -->
+
+   <text x1="20" y1="300" width="250" height="60" border="true" style="description" align="left" use-list="true" use-list-option="na"/>
+
+   <!--
+           List using items
+   -->
+
+   <list x1="20" y1="200" width="200" border="true" style="description" horizontal-align="left">
+      <item value="Item 1"/>
+      <item value="{FIELD}"/>
+      <item>Item 2</item>
+      <item>Item 3</item>
+
+    </list>
+
+ </content>
+
+ <style name="group"       font="Times-Roman" size="10" style="bold"/>
+ <style name="label"       font="Times-Roman" size="10" style="bold"/>
+ <style name="data"        font="Times-Roman" size="10" style="normal"/>
+ <style name="price-label" font="Times-Roman" size="10" style="bold"   leading="12"/>
+ <style name="price-data"  font="Times-Roman" size="10" style="normal" leading="12"/>
+ <style name="description" font="Times-Roman" size="10" style="normal"/>
+
+</document>

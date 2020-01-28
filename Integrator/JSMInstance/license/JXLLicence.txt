@@ -6,6 +6,6 @@ License Agreement
 
 ===========================================================================================================================
 
-JExcelApi is licenced under the GNU Lesser General Public License
+JExcelApi is licensed under the GNU Lesser General Public License
 
 http://www.gnu.org/copyleft/lesser.html

@@ -5,7 +5,7 @@
 <!-- Mobile -->
 <meta name="MobileOptimized" content="320">
 <meta name="HandheldFriendly" content="true">
-<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1.0;"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
 
 <script>
 if ( typeof WEBIFSSEARCH === 'undefined' )
@@ -19,11 +19,11 @@ if ( typeof WEBIFSSEARCH === 'undefined' )
 
     (function ()
     {
-        var m_template = null;
+        var m_language = null;
         var m_mouseOverGoto = null;
         var m_mouseOverOpen = null;
 
-        WEBIFSSEARCH.begin = function( template,
+        WEBIFSSEARCH.begin = function( language,
                                        folderPath,
                                        mouseOverBack,
                                        mouseOverGoto,
@@ -32,7 +32,7 @@ if ( typeof WEBIFSSEARCH === 'undefined' )
                                        columnSize,
                                        columnDate )
         {
-            m_template = template;
+            m_language = language;
             m_mouseOverGoto = mouseOverGoto;
             m_mouseOverOpen = mouseOverOpen;
 
@@ -92,10 +92,6 @@ if ( typeof WEBIFSSEARCH === 'undefined' )
                         path = path + "/";
                     }
                     path = path + fileURL.substring(0,index);
-                }
-                if ( m_template )
-                {
-                    path = path + "?template=" + m_template;
                 }
                 link.href = path;
                 link.title = m_mouseOverGoto;
@@ -198,7 +194,7 @@ if ( typeof WEBIFSSEARCH === 'undefined' )
             {
                 cell.setAttribute("class",classname);
             }
-            
+
             setText(cell,text);
 
             return cell;

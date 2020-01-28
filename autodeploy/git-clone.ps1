@@ -109,6 +109,7 @@ try {
     Execute-Process( "git") @("init") "Initialise git repo returned error code"
     Execute-Process( "git") @("remote", "add", "origin", "$GitRepoUrl") "git remote returned error code"
     Execute-Process( "git") @("fetch", "-q") "git fetch returned error code"
+    Execute-Process( "git") @("fetch", "-q", "--tags", "--force") "git fetch --tags returned error code"
     Execute-Process( "git") @("checkout", "-f", "$GitRepoBranch") "git checkout returned error code"
 } catch {
     $_ | Write-Host

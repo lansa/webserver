@@ -5,7 +5,7 @@
 <!-- Mobile -->
 <meta name="MobileOptimized" content="320">
 <meta name="HandheldFriendly" content="true">
-<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1.0;"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
 
 <script>
 if ( typeof WEBIFS === 'undefined' )
@@ -28,7 +28,7 @@ if ( typeof WEBIFS === 'undefined' )
     (function ()
     {
         var m_isRoot = false;
-        var m_template = null;
+        var m_language = null;
         var m_folderPath = null;
         var m_allowCreate = false;
         var m_allowUpload = false;
@@ -45,7 +45,7 @@ if ( typeof WEBIFS === 'undefined' )
         var m_mouseOverDelete = null;
 
         WEBIFS.begin = function( isRoot,
-                                 template,
+                                 language,
                                  folderPath,
                                  messageUpload,
                                  messageCreate,
@@ -70,7 +70,7 @@ if ( typeof WEBIFS === 'undefined' )
                                  allowSearch )
         {
             m_isRoot = isRoot;
-            m_template = template;
+            m_language = language;
             m_folderPath = folderPath;
             m_allowCreate = allowCreate;
             m_allowUpload = allowUpload;
@@ -460,9 +460,9 @@ if ( typeof WEBIFS === 'undefined' )
 
             path = path + "../" ;
 
-            if ( m_template )
+            if ( m_language )
             {
-                path = path + "?template=" + m_template;
+                path = path + "?lang=" + m_language;
             }
 
             window.location = path;

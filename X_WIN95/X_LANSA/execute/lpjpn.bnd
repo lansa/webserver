@@ -13396,34 +13396,32 @@ PRIM_LIST.DropDown_Text.Desc=Text プロパティの値にコンポーネントの入力域に表示さ
 PRIM_LIST.DropDown_Value.Name=Value プロパティ
 PRIM_LIST.DropDown_Value.Desc=Value プロパティはコンポーネントの入力域の値を設定するために使用します。
 
-*** @TRANS NEW
-PRIM_LIST.DropdownColumn.Name=Dropdown Column
-PRIM_LIST.DropdownColumn.Desc=Column displaying text that can be edited through a dropdown
+PRIM_LIST.DropdownColumn.Name=ドロップダウン列
+PRIM_LIST.DropdownColumn.Desc=ドロップダウンで編集できるテキストを表示する列
 
-PRIM_LIST.DropdownColumn_CellThemeDrawStyle.Name=CellThemeDrawStyle property
-PRIM_LIST.DropdownColumn_CellThemeDrawStyle.Desc=Theme Drawstyle to be applied to the list cell
+PRIM_LIST.DropdownColumn_CellThemeDrawStyle.Name=CellThemeDrawStyle プロパティ
+PRIM_LIST.DropdownColumn_CellThemeDrawStyle.Desc=リスト セルに適用するテーマ描画スタイル
 
-PRIM_LIST.DropdownColumn_ColumnCaptionType.Name=ColumnCaptionType property
-PRIM_LIST.DropdownColumn_ColumnCaptionType.Desc=Type of caption to appear in the column header
+PRIM_LIST.DropdownColumn_ColumnCaptionType.Name=ColumnCaptionType プロパティ
+PRIM_LIST.DropdownColumn_ColumnCaptionType.Desc=列見出しに表示するキャプションのタイプ
 
-PRIM_LIST.DropdownColumn_ColumnReadOnly.Name=ColumnReadOnly property
-PRIM_LIST.DropdownColumn_ColumnReadOnly.Desc=Specifies whether the column is input capable
+PRIM_LIST.DropdownColumn_ColumnReadOnly.Name=ColumnReadOnly プロパティ
+PRIM_LIST.DropdownColumn_ColumnReadOnly.Desc=列が入力可能かどうかを指定します。
 
-PRIM_LIST.DropdownColumn_CurrentItem.Name=CurrentItem property
-PRIM_LIST.DropdownColumn_CurrentItem.Desc=The last item in the list touched either in the UI or via a list related command
+PRIM_LIST.DropdownColumn_CurrentItem.Name=CurrentItem プロパティ
+PRIM_LIST.DropdownColumn_CurrentItem.Desc=UI のタッチまたはリスト関連コマンド経由で最後に選択されたリスト内のアイテム
 
-PRIM_LIST.DropdownColumn_DropdownItems.Name=DropdownItems property
-PRIM_LIST.DropdownColumn_DropdownItems.Desc=The collection of items used to populate the dropdown
+PRIM_LIST.DropdownColumn_DropdownItems.Name=DropdownItems プロパティ
+PRIM_LIST.DropdownColumn_DropdownItems.Desc=ドロップダウンの値を埋めるために使用するアイテムのコレクション
 
-PRIM_LIST.DropdownColumn_SortOnClick.Name=SortOnClick property
-PRIM_LIST.DropdownColumn_SortOnClick.Desc=Sort the column when the column header is clicked
+PRIM_LIST.DropdownColumn_SortOnClick.Name=SortOnClick プロパティ
+PRIM_LIST.DropdownColumn_SortOnClick.Desc=列見出しがクリックされた時に列をソートします
 
-PRIM_LIST.DropdownColumn_Source.Name=Source property
-PRIM_LIST.DropdownColumn_Source.Desc=Field used as a source of data for the column
+PRIM_LIST.DropdownColumn_Source.Name=Source プロパティ
+PRIM_LIST.DropdownColumn_Source.Desc=列のデータ ソースとして使用されるフィールド
 
-PRIM_LIST.DropdownColumn_FocusItem.Name=FocusItem property
-PRIM_LIST.DropdownColumn_FocusItem.Desc=Reference to the focus item in the column
-*** @TRANS END
+PRIM_LIST.DropdownColumn_FocusItem.Name=FocusItem プロパティ
+PRIM_LIST.DropdownColumn_FocusItem.Desc=列のフォーカスされたアイテムへの参照
 
 PRIM_LIST.Icon.Name=PRIM_LIST.Icon
 PRIM_LIST.Icon.Desc=リスト内のアイコンを表示する列

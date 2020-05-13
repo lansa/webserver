@@ -344,11 +344,12 @@ GServer.FailAGClose.Id=134
 GServer.FailGSOpenChildWin=ｸﾞﾗﾌｨｯｸ ｻｰﾊﾞｰはｸﾞﾗﾌ ｺﾝﾎﾟｰﾈﾝﾄのためのｳｲﾝﾄﾞｳを作成することができませんでした。
 GServer.FailGSOpenChildWin.Id=135
 
+*** @TRANS END
+Category.Behaviour=Behaviour
+*** @TRANS END
 Category.Common=共通
 Category.Layout=レイアウト
-*** @TRANS END
 Category.CSS=CSS
-*** @TRANS END
 Category.Style=スタイル
 Category.LPCInternal=コンポーネント
 Category.Docking=ドッキング
@@ -456,6 +457,9 @@ Capi.MacCheckInCCMFailed=無効な暗号テキストです。CCM 暗号解読中 MAC 検査に失敗し
 Capi.MacCheckInEaxFailed=無効な暗号テキストです。EAX 暗号解読中 MAC 検査に失敗しました。 
 Capi.MacCheckInOcbFailed=無効な暗号テキストです。OCB 暗号解読中 MAC 検査に失敗しました。 
 Capi.NoDataInBlock=PKCS1 データの処理されたブロックが無効です。データが含まれていません。
+*** @TRANS BEGIN
+Capi.PadBlockCorrupted=Padding block validation failed. Input is invalid or corrupted.
+*** @TRANS END
 Capi.PrivateKeyRequiredForSigning=署名のための署名者の初期化は、ライベートキーのパラメータが必要です。
 Capi.PublicKeyHasWrongParametersForDiffieHellman=パブリックキーの DiffieHellman に対するパラメータが間違っています。
 Capi.PublicKeyIsWeakForDiffieHellman=パブリックキーは DiffieHellman には弱いです。

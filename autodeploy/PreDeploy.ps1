@@ -224,7 +224,7 @@ try {
     }
 
     # This removes all the filters from the running iisplugin, so that no txns can occur during deployment
-    Write-Output $NoFilters > $webserver
+    $NoFilters | Set-Content -path $webserver
 
     Write-Host( "$(Log-Date) Wait for any current transactions to complete")
     Start-Sleep 10 | Out-Default | Write-Host

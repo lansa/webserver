@@ -344,6 +344,7 @@ GServer.FailAGClose.Id=134
 GServer.FailGSOpenChildWin=Graphics Server could not open a child window for a graph component.
 GServer.FailGSOpenChildWin.Id=135
 
+Category.Behaviour=Behaviour
 Category.Common=Common
 Category.Layout=Layout
 Category.CSS=CSS
@@ -454,6 +455,7 @@ Capi.MacCheckInCCMFailed=Invalid cipher text. MAC check during CCM decryption ha
 Capi.MacCheckInEaxFailed=Invalid cipher text. MAC check during EAX decryption has failed.
 Capi.MacCheckInOcbFailed=Invalid cipher text. MAC check during OCB decryption has failed.
 Capi.NoDataInBlock=Processed block of PKCS1 data is invalid. It does not contain any data.
+Capi.PadBlockCorrupted=Padding block validation failed. Input is invalid or corrupted.
 Capi.PrivateKeyRequiredForSigning=Private key parameter required to initialize signer for signing.
 Capi.PublicKeyHasWrongParametersForDiffieHellman=Public key has wrong parameters for DiffieHellman.
 Capi.PublicKeyIsWeakForDiffieHellman=Public key is weak for DiffieHellman.

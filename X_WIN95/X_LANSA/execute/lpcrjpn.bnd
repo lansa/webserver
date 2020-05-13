@@ -1925,13 +1925,11 @@ Rep.FA.ASQN.Desc=*SQLNULL ‚Ì’l‚ğİ’è‰Â”\
 Rep.FA.RLTB.Desc=¶°¿Ù‚ğ¶‚©‚ç‰EAã‚©‚ç‰º‚ÉÀÌŞˆÚ“®
 Rep.FA.SUNI.Desc=unicodeÌ×¸Ş‚ğ•ÛŠÇ‚·‚éÌ¨°ÙÄŞ
 Rep.FA.SUNS.Desc=integer ‚Ì’l‚ğunsigned binary ‚Ì’l‚Å•Û‘¶
-*** @TRANS ADD
-Rep.FA.SGRA.Desc=Store DBCS as Graphic data type with CCSID 300
-Rep.FA.GUID.Desc=Unique Identifier Format
-Rep.FA.HIID.Desc=Hierarchy Identifier Format
-Rep.FA.GEOG.Desc=Geography Data Format
-Rep.FA.GEOM.Desc=Geometry Data Format
-*** @TRANS END
+Rep.FA.SGRA.Desc=DBCS ‚ğ CCSID 300 ‚ÌƒOƒ‰ƒtƒBƒbƒN ƒf[ƒ^ ƒ^ƒCƒv‚Æ‚µ‚ÄŠi”[‚µ‚Ü‚·
+Rep.FA.GUID.Desc=ˆêˆÓ‚Ì¯•ÊqŒ`®
+Rep.FA.HIID.Desc=ŠK‘w¯•ÊqŒ`®
+Rep.FA.GEOG.Desc=’n—ƒf[ƒ^Œ`®
+Rep.FA.GEOM.Desc=Šô‰½Šwƒf[ƒ^Œ`®
 
 Rep.FA.SUTC.Desc=DateTime ‚Ì’l‚ğ UTC Œ`®‚Å•Û‘¶
 Rep.FA.DUTC.Desc=DateTime ‚Ì’l‚ğ UTC Œ`®‚Å•\¦
@@ -3539,49 +3537,47 @@ DefMapExInvalidTimeSeparator=&1 ‚ÍƒtƒH[ƒ}ƒbƒg &2 ‚É‘Î‚µA–³Œø‚ÈŠÔ‹æØ‚è‹L†‚Å
 DefMapExInvalidTimeSeparator.Id=1733
 DefMapExForParmInvalidForType=For(&1) ‚Íƒ^ƒCƒv &2 ‚É‘Î‚µ‚ÄƒTƒ|[ƒg‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DefMapExForParmInvalidForType.Id=1734
-*** @TRANS ADD
-DocFieldOtherFileGEOG=Field attribute GEOG cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGEOG=ƒtƒB[ƒ‹ƒh‘®« GEOG ‚Í’Ç‰Á‚àíœ‚Å‚à‚Å‚«‚Ü‚¹‚ñB‚±‚ÌƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg‚Éì¬‚³‚êA1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚Å–¢‚¾‚É—˜—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileGEOG.Id=1735
-DocFieldOtherFileGEOM=Field attribute GEOM cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGEOM=ƒtƒB[ƒ‹ƒh‘®« GEOM ‚Í’Ç‰Á‚àíœ‚Å‚à‚Å‚«‚Ü‚¹‚ñB‚±‚ÌƒtƒB[ƒ‹ƒh’è‹`‚Íƒe[ƒuƒ‹’è‹`‚ÌƒCƒ“ƒ|[ƒg‚Éì¬‚³‚êA1 ‚ÂˆÈã‚Ìƒe[ƒuƒ‹‚Å–¢‚¾‚É—˜—p‚³‚ê‚Ä‚¢‚Ü‚·B
 DocFieldOtherFileGEOM.Id=1736
 
-WebAbsoluteUnsupportedFeature=&1 is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedFeature=&1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·B
 WebAbsoluteUnsupportedFeature.Id=1737
-WebAbsoluteUnsupportedProperty=The &1 property is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedProperty=ƒvƒƒpƒeƒB &1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·B
 WebAbsoluteUnsupportedProperty.Id=1738
-WebAbsoluteUnsupportedMethod=The &1 method is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedMethod=ƒƒ\ƒbƒh &1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·B
 WebAbsoluteUnsupportedMethod.Id=1739
-WebAbsoluteUnsupportedEvent=The &1 event is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedEvent=ƒCƒxƒ“ƒg &1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·B
 WebAbsoluteUnsupportedEvent.Id=1740
 
-WebRelativeUnsupportedFeature=&1 is not supported in a Progressive Web App.
+WebRelativeUnsupportedFeature=&1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 WebRelativeUnsupportedFeature.Id=1741
-WebRelativeUnsupportedProperty=The &1 property is not supported in a Progressive Web App.
+WebRelativeUnsupportedProperty=ƒvƒƒpƒeƒB &1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 WebRelativeUnsupportedProperty.Id=1742
-WebRelativeUnsupportedMethod=The &1 method is not supported in a Progressive Web App.
+WebRelativeUnsupportedMethod=ƒƒ\ƒbƒh &1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 WebRelativeUnsupportedMethod.Id=1743
-WebRelativeUnsupportedEvent=The &1 event is not supported in a Progressive Web App.
+WebRelativeUnsupportedEvent=ƒCƒxƒ“ƒg &1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 WebRelativeUnsupportedEvent.Id=1744
 
-WebUnsupportedProperty=The &1 property is not supported on the Web.
+WebUnsupportedProperty=ƒvƒƒpƒeƒB &1 ‚Í Web ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 WebUnsupportedProperty.Id=1745
-WebUnsupportedMethod=The &1 method is not supported on the Web.
+WebUnsupportedMethod=ƒƒ\ƒbƒh &1 ‚Í Web ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 WebUnsupportedMethod.Id=1746
-WebUnsupportedEvent=The &1 event is not supported on the Web.
+WebUnsupportedEvent=ƒCƒxƒ“ƒg &1 ‚Í Web ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñB
 WebUnsupportedEvent.Id=1747
 
-WebOnlyProperty=The &1 property is only supported on the Web.
+WebOnlyProperty=ƒvƒƒpƒeƒB &1 ‚Í Web ‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·B
 WebOnlyProperty.Id=1748
-WebOnlyMethod=The &1 method is only supported on the Web.
+WebOnlyMethod=ƒƒ\ƒbƒh &1 ‚Í Web ‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·B
 WebOnlyMethod.Id=1749
-WebOnlyEvent=The &1 event is only supported on the Web.
+WebOnlyEvent=ƒCƒxƒ“ƒg &1 ‚Í Web ‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·B
 WebOnlyEvent.Id=1750
 
-WebAbsoluteUnsupportedClass=&1 can only be used in a Progressive Web App.
+WebAbsoluteUnsupportedClass=&1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚Ì‚İg—p‚Å‚«‚Ü‚·B
 WebAbsoluteUnsupportedClass.Id=1751
-WebRelativeUnsupportedClass=&1 can't be used in a Progressive Web App.
+WebRelativeUnsupportedClass=&1 ‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñB
 WebRelativeUnsupportedClass.Id=1752
-*** @TRANS END
 
 *************************************************************
 ***** LANSA Web WebletGroups                            *****
@@ -3670,27 +3666,25 @@ VersionControl.Actions.Initialize=‰Šú‰»
 VersionControl.Actions.Clone=ƒNƒ[ƒ“
 VersionControl.Actions.Stage=ƒXƒe[ƒW
 VersionControl.Actions.Unstage=ƒAƒ“ƒXƒe[ƒW
-*** @TRANS NEW
-VersionControl.Actions.Fetch=Fetch
-*** @TRANS END
+VersionControl.Actions.Fetch=ƒtƒFƒbƒ`
 VersionControl.Actions.Pull=ƒvƒ‹
 VersionControl.Actions.Push=ƒvƒbƒVƒ…
 VersionControl.Actions.Commit=ƒRƒ~ƒbƒg
-*** @TRANS NEW
-VersionControl.Actions.CheckoutBranch=Checkout
-*** @TRANS END
+VersionControl.Actions.CheckoutBranch=ƒ`ƒFƒbƒNƒAƒEƒg
 VersionControl.Actions.SelectBranch=ƒuƒ‰ƒ“ƒ`‘I‘ğ
 VersionControl.Actions.AddRemote=ƒŠƒ‚[ƒg ƒŠƒ|ƒWƒgƒŠ’Ç‰Á
 VersionControl.Actions.UpdateRemote=ƒŠƒ‚[ƒg ƒŠƒ|ƒWƒgƒŠXV
 VersionControl.Actions.RemoveRemote=ƒŠƒ‚[ƒg ƒŠƒ|ƒWƒgƒŠíœ
 VersionControl.Actions.GetFileHistory=ƒtƒ@ƒCƒ‹—š—ğæ“¾
 VersionControl.Actions.ResolveConflict=‹£‡‚ğ‰ğŒˆ
-*** @TRANS NEW
-VersionControl.Actions.GetBranchHeads=Retrieve Branch Heads
-VersionControl.Actions.Stash=Stash
-VersionControl.Actions.MergeBranches=Merge Branches
-VersionControl.Actions.RebaseBranch=Rebase Branch
-*** @TRANS END
+VersionControl.Actions.GetBranchHeads=ƒuƒ‰ƒ“ƒ` HEAD ‚Ìæ“¾
+VersionControl.Actions.Stash=ƒXƒ^ƒbƒVƒ…
+VersionControl.Actions.MergeBranches=ƒuƒ‰ƒ“ƒ`‚Ìƒ}[ƒW
+VersionControl.Actions.MergeAbort=Œ»İ‚Ìƒ}[ƒW‚ğ’†~
+VersionControl.Actions.RebaseBranch=ƒuƒ‰ƒ“ƒ`‚ÌƒŠƒx[ƒX
+VersionControl.Actions.RebaseAbort=Œ»İ‚ÌƒŠƒx[ƒX‚ğ’†~
+VersionControl.Actions.RebaseContinue=Œ»İ‚ÌƒŠƒx[ƒX‚ğŒp‘±
+VersionControl.Actions.RebaseSkip=Œ»İ‚ÌƒŠƒx[ƒX‚ğƒXƒLƒbƒv
 
 *************************************************************
 ***** Server Module validations                         *****
@@ -3736,11 +3730,11 @@ DocServerModuleApiMediaTypeIdReserved=ƒƒfƒBƒA ƒ^ƒCƒv¯•Êq &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚
 DocServerModuleApiMediaTypeIdSameAsOperationParameter=ƒƒfƒBƒA ƒ^ƒCƒv¯•Êq &1 ‚ªƒIƒyƒŒ[ƒVƒ‡ƒ“ ƒpƒ‰ƒ[ƒ^‚Æˆê’v‚µ‚Ü‚·B¯•Êq‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiMediaTypeIdSameAsPathParameter=ƒƒfƒBƒA ƒ^ƒCƒv¯•Êq &1 ‚ªƒpƒX ƒpƒ‰ƒ[ƒ^‚Æˆê’v‚µ‚Ü‚·B¯•Êq‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiMediaTypeNotAllowed=ƒƒfƒBƒA ƒ^ƒCƒv '&1' ‚É‚æ‚è‹Lq‚³‚ê‚½ƒRƒ“ƒeƒ“ƒc‚Í‚±‚ÌƒXƒR[ƒv‚Å‚Í‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚¹‚ñB
+DocServerModuleApiOperationConfigurationMatch=ƒpƒX '&1' (“®Œ '&5' ‚ğg—p) ‚ÍA‹æ‰æ '&2' ‚ÌƒT[ƒo[ ƒ‚ƒWƒ…[ƒ‹‚Å¯•Êq '&3' ‚Æ‚µ‚Ä‚·‚Å‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·BƒT[ƒo[ ƒ‚ƒWƒ…[ƒ‹ '&3' ‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ '&4' ‚ğŒ©‚Ä‚­‚¾‚³‚¢B
+DocServerModuleApiOperationIdDuplicated=ƒpƒX‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“¯•Êq &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B¯•Êq‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiOperationIdRequired=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id ‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiOperationIdNotUnique=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚Ì OperationId &1 ‚ÍŒ»İ‚ÌƒXƒR[ƒv‚Å‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
 DocServerModuleApiOperationIdNotValid=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ Id &1 ‚É–³Œø‚È•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
-DocServerModuleApiOperationIdDuplicated=ƒpƒX‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“¯•Êq &1 ‚Í‚·‚Å‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B¯•Êq‚ÍˆêˆÓ‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB
-DocServerModuleApiOperationConfigurationMatch=ƒpƒX '&1' (“®Œ '&5' ‚ğg—p) ‚ÍA‹æ‰æ '&2' ‚ÌƒT[ƒo[ ƒ‚ƒWƒ…[ƒ‹‚Å¯•Êq '&3' ‚Æ‚µ‚Ä‚·‚Å‚É’è‹`‚³‚ê‚Ä‚¢‚Ü‚·BƒT[ƒo[ ƒ‚ƒWƒ…[ƒ‹ '&3' ‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ '&4' ‚ğŒ©‚Ä‚­‚¾‚³‚¢B
 DocServerModuleApiOperationNameReserved=ƒIƒyƒŒ[ƒVƒ‡ƒ“–¼ &1 ‚Í—\–ñ‚³‚ê‚Ä‚¢‚Ü‚·B–¼‘O‚Í•¶š 'X' ‚Ån‚ß‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger ƒo[ƒWƒ‡ƒ“ 2 ‚Í form-data ‚Ü‚½‚Í body ‚ÌƒŠƒNƒGƒXƒg ƒRƒ“ƒeƒ“ƒc‚ğƒTƒ|[ƒg‚µ‚Ü‚·B—¼•û‚Í–³Œø‚Å‚·B
 DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger ƒo[ƒWƒ‡ƒ“ 2 ‚Í’Pˆê‚Ì body ƒŠƒNƒGƒXƒg ƒRƒ“ƒeƒ“ƒc‚ğƒTƒ|[ƒg‚µ‚Ü‚·B'&1' ‚Íd•¡‚µ‚½ body ƒRƒ“ƒeƒ“ƒc‚È‚Ì‚ÅA–³Œø‚Å‚·B
@@ -3748,6 +3742,9 @@ DocServerModuleApiOperationRequestDuplicateFormContent=Swagger ƒo[ƒWƒ‡ƒ“ 2 ‚Í’P
 DocServerModuleApiOperationRequestRequiredIgnored=ƒIƒyƒŒ[ƒVƒ‡ƒ“ verb ‚Í—v‹–{•¶‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBRequired=true ‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiOperationRequestMediaTypesIgnored=ƒIƒyƒŒ[ƒVƒ‡ƒ“ verb ‚Í—v‹–{•¶‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñBƒƒfƒBƒA ƒ^ƒCƒv ƒAƒCƒeƒ€‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiOperationResponseRequired=ƒpƒX ƒIƒyƒŒ[ƒVƒ‡ƒ“‚Ì‹Lq‚Í­‚È‚­‚Æ‚à 1 ‚Â‚Ì‰“š‚Ì‹Lq‚ª•K—v‚Å‚·B
+*** @TRANS BEGIN
+DocServerModuleApiOperationSecurityNotAllowed=Security requirements are not allowed when Ignore Top Level Security is enabled.
+*** @TRANS END
 DocServerModuleApiOperationServerRoutineNameRequired=ƒT[ƒo[ ƒ‹[ƒ`ƒ“–¼‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiOperationServerRoutineNameNotFound=ƒT[ƒo[ ƒ‹[ƒ`ƒ“–¼ &1 ‚ÍƒT[ƒo[ ƒ‹[ƒ`ƒ“‚ğ¯•Ê‚µ‚Ü‚¹‚ñB
 DocServerModuleApiOperationServerRoutineNameNotValid=ƒT[ƒo[ ƒ‹[ƒ`ƒ“–¼ &1 ‚Í–³Œø‚Å‚·BƒT[ƒo[ ƒ‹[ƒ`ƒ“‚Í Response(*Http #...) ƒpƒ‰ƒ[ƒ^‚ğ‚Â•K—v‚ª‚ ‚è‚Ü‚·B
@@ -3778,6 +3775,13 @@ DocServerModuleApiPathRequired=ƒpƒX–¼‚Í•K{‚Å‚·Bƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚
 DocServerModuleApiPublishingPartitionNotFound=‹æ‰æ–¼ &1 ”­s‚Ì’è‹`‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiResponseStatusCodeRequired=‰“šƒXƒe[ƒ^ƒX ƒR[ƒh‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiResponseStatusCodeNotValid=‰“šƒXƒe[ƒ^ƒX ƒR[ƒh &1 ‚Í 100-599 ‚Ì 3 •¶š‚Ü‚½‚Í 1XXA2XXA3XXA4XXA5XX ‚È‚Ç‚Ì”ÍˆÍ’è‹`‚Å‚È‚¯‚ê‚Î‚¢‚¯‚Ü‚¹‚ñB"
+*** @TRANS BEGIN
+DocServerModuleApiSchemaObjectDateFormatInvalid=A date format requires a decimal (packed/signed) field definition.
+DocServerModuleApiSchemaObjectDateFormatInvalidDecimals=A date format requires a field definition that has zero decimals.
+DocServerModuleApiSchemaObjectDateFormatInvalidFormat=A date format requires the use of the Date format.
+DocServerModuleApiSchemaObjectDateFormatInvalidLength=A date format requires a field definition that has a length of 4, 6 or 8.
+DocServerModuleApiSchemaObjectDateFormatMaskLength=A date format requires a field definition that has a length that matches digits in selected mask.
+*** @TRANS END
 DocServerModuleApiSchemaObjectDescIgnored=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚Í‹Lq‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB’l‚Í–³‹‚³‚ê‚Ü‚µ‚½B
 DocServerModuleApiSchemaObjectDescRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg‚Ì‹Lq‚Íƒuƒ‰ƒ“ƒN‚â‚·‚×‚ÄƒXƒy[ƒX‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 DocServerModuleApiSchemaObjectFieldNameRequired=ƒXƒL[ƒ} ƒIƒuƒWƒFƒNƒg ƒ^ƒCƒv‚ÍƒtƒB[ƒ‹ƒh–¼‚ª•K{‚Å‚·B
@@ -3856,6 +3860,9 @@ ServerModuleComponentModel.BindingContext.FailedMinItemsCheck=Å¬ƒAƒCƒeƒ€”—vŒ
 ServerModuleComponentModel.BindingContext.FailedMinLengthCheck=’l '&1' ‚ÍÅ¬’·—vŒ '&2' ‚ğ’´‚¦‚Ä‚¢‚Ü‚·
 ServerModuleComponentModel.BindingContext.FractionDigitLengthExceeded=’l '&1' ‚Í¬”Œ…”—vŒ '&2' ‚ğ’´‚¦‚Ä‚¢‚Ü‚·
 ServerModuleComponentModel.BindingContext.InvalidFieldValueMessage=–³Œø‚È•¶š—ñ '&1' (ƒtƒB[ƒ‹ƒh &2 ‚Ì’l‚ğ“Ç‚İ‚İ)
+*** @TRANS BEGIN
+ServerModuleComponentModel.BindingContext.InvalidRequestBodyForMimeType=Invalid request: Encountered invalid or missing body while processing mime type '&1'
+*** @TRANS END
 ServerModuleComponentModel.BindingContext.InvalidSecurityRequirements=API ‚ÌƒZƒLƒ…ƒŠƒeƒB—vŒ‚ª–³‚¢A‚à‚µ‚­‚Í–³Œø‚Å‚·
 ServerModuleComponentModel.BindingContext.InvalidValueMessage1=&1 “Ç‚İ‚İ‚Ì–³Œø‚ÈƒeƒLƒXƒg
 ServerModuleComponentModel.BindingContext.InvalidValueMessage2=–³Œø‚È•¶š—ñ '&1' (&2 “Ç‚İ‚İ)
@@ -4021,16 +4028,12 @@ WebApplicationViewDescriptionRequired=‚±‚Ìƒrƒ…[‚Ìà–¾‚ğ’ñ‹Ÿ‚µ‚Ä‚­‚¾‚³‚¢B
 *********************************
 ***** Web Page Validations  *****
 *********************************
-*** @TRANS ADD
-DocWebPageOfflineAppCacheUnsupported=Application Cache is not supported in a Progressive Web App, caching is done through a Service Worker.
-DocWebPageOfflineWebManifestUnsupported=Web App Manifest is only supported in the context of a Progressive Web App.
-*** @TRANS END
+DocWebPageOfflineAppCacheUnsupported=ƒAƒvƒŠƒP[ƒVƒ‡ƒ“ ƒLƒƒƒbƒVƒ…‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚Å‚ÍƒTƒ|[ƒg‚³‚ê‚Ü‚¹‚ñBƒLƒƒƒbƒVƒ…‚ÍƒT[ƒrƒX ƒ[ƒJ[Œo—R‚Ås‚í‚ê‚Ü‚·B
+DocWebPageOfflineWebManifestUnsupported=ƒEƒFƒuƒAƒvƒŠ ƒ}ƒjƒtƒFƒXƒg‚ÍƒvƒƒOƒŒƒbƒVƒu ƒEƒFƒuƒAƒvƒŠ‚ÌƒRƒ“ƒeƒLƒXƒg‚Å‚Ì‚İƒTƒ|[ƒg‚³‚ê‚Ü‚·B
 DocWebPageResourceIdentifierRequired=ƒŠƒ|ƒWƒgƒŠ‚ÌƒIƒuƒWƒFƒNƒg‚Ü‚½‚Í URL ‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
 DocWebPageResourceIncorrectLansaFolder=‹æ‰æ‚Ì Web ƒtƒHƒ‹ƒ_‚©‚ç‚ÌŠO•”ƒŠƒ\[ƒX‚Ì‚İw’è‚Å‚«‚Ü‚·
 DocWebPageResourceIncorrectTargetPlatform=ƒ^[ƒQƒbƒg ƒvƒ‰ƒbƒgƒtƒH[ƒ€‚Éƒuƒ‰ƒEƒU‚ªŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚¹‚ñB
 DocWebPageSplashImageIdentifierRequired=ŠO•”ƒŠƒ\[ƒX‚Ü‚½‚Í URL ‚Ì‚¢‚¸‚ê‚©‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·
 DocWebPageResourceExtResourceOrUrlRequired=ŠO•”ƒŠƒ\[ƒX‚Ü‚½‚Í URL ‚Ì‚¢‚¸‚ê‚©‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·
-*** @TRANS ADD
-DocWebPageWebManifestAppNameRequired=You must specify a name for your Web Application
-DocWebPageWebManifestShortNameRequired=You must specify a short name for your Web Application
-*** @TRANS END
+DocWebPageWebManifestAppNameRequired=Web ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ì–¼‘O‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·
+DocWebPageWebManifestShortNameRequired=Web ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÌƒVƒ‡[ƒgƒl[ƒ€‚ğw’è‚·‚é•K—v‚ª‚ ‚è‚Ü‚·

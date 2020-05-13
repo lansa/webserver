@@ -3176,6 +3176,10 @@ VersionControl.Actions.NewBranch=New Local Branch From...
 VersionControl.Actions.Checkout=Checkout
 VersionControl.Actions.MergeBranch=Merge From...
 VersionControl.Actions.Rebase=Rebase Onto...
+VersionControl.Menu.MergeAbort=Merge - Abort
+VersionControl.Menu.RebaseAbort=Rebase - Abort
+VersionControl.Menu.RebaseContinue=Rebase - Continue
+VersionControl.Menu.RebaseSkip=Rebase - Skip
 
 VersionControl.Actions.PushPull.LocalBranch=Local Branch
 
@@ -3205,6 +3209,11 @@ VersionControl.Actions.RebaseBranch.CurrentBranch=Rebase Current Branch
 VersionControl.Actions.RebaseBranch.OntoBranch=Onto Branch
 VersionControl.Actions.RebaseBranch.PreserveMerges=Preserve Merges
 
+VersionControl.Actions.MergeAbort=Abort Current Merge
+VersionControl.Actions.RebaseAbort=Abort Current Rebase
+VersionControl.Actions.RebaseContinue=Continue Current Rebase
+VersionControl.Actions.RebaseSkip=Skip Current Rebase
+
 VersionControl.Status.New=New
 VersionControl.Status.Unchanged=Unchanged
 VersionControl.Status.Changed=Changed
@@ -3216,6 +3225,10 @@ VersionControl.Status.Unknown=Unknown
 
 VersionControl.YamlWarning.Caption=Objects with invalid YAML exist
 VersionControl.YamlWarning.Button=Show all invalid
+VersionControl.Msg.PendingMerge=Pending merge awaiting conflict resolution
+VersionControl.Msg.PendingRebase=Pending rebase awaiting conflict resolution
+VersionControl.Status.PendingMerge=Merge Pending
+VersionControl.Status.PendingRebase=Rebase Pending
 
 *************************************************************
 *** Refresh Inlined Weblets Dialog                      *****
@@ -3232,6 +3245,7 @@ WebRefreshInlined.Col2.Caption=Description
 WebRefreshInlined.Col3.Pending=Pending
 WebRefreshInlined.Col3.Cancelled=Cancelled
 WebRefreshInlined.Col3.None=No inlined weblets found
+WebRefreshInlined.Col3.AllUpToDate=Inlined weblets are up to date
 WebRefreshInlined.Col3.Complete=Inlined weblets updated
 WebRefreshInlined.Col3.MasterOnly=Master Only Object cannot be updated
 WebRefreshInlined.Col3.SourceErrors=Component contains errors and cannot be updated in this state

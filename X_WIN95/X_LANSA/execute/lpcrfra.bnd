@@ -1928,10 +1928,8 @@ Rep.FA.SUNS.Desc=Enregistrer les valeurs de type entier comme des valeurs binair
 Rep.FA.SGRA.Desc=Stocker DBCS comme type de données graphiques de CCSID 300
 Rep.FA.GUID.Desc=Format de l'identifiant unique
 Rep.FA.HIID.Desc=Hiérarchie de l'identifiant unique
-*** @TRANS ADD
-Rep.FA.GEOG.Desc=Geography Data Format
-Rep.FA.GEOM.Desc=Geometry Data Format
-*** @TRANS END
+Rep.FA.GEOG.Desc=Format de données géographiques
+Rep.FA.GEOM.Desc=Format de données géométriques
 
 Rep.FA.SUTC.Desc=Valeurs DateHeure enregistrées au format UTC
 Rep.FA.DUTC.Desc=Valeurs DateHeure affichées au format UTC
@@ -3539,49 +3537,47 @@ DefMapExInvalidTimeSeparator=&1 est un séparateur d'heure incorrect pour le form
 DefMapExInvalidTimeSeparator.Id=1733
 DefMapExForParmInvalidForType=For(&1) n'est pas admis pour le type &2
 DefMapExForParmInvalidForType.Id=1734
-*** @TRANS ADD
-DocFieldOtherFileGEOG=Field attribute GEOG cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGEOG=L'attribut GEOG ne peut pas être ajouté ou supprimé. La définition de champ a été créée lors de l'import d'une définition de table et elle est encore utilisée par une ou plusieurs de ces tables.
 DocFieldOtherFileGEOG.Id=1735
-DocFieldOtherFileGEOM=Field attribute GEOM cannot be added or deleted. The field definition was created when Importing a Table Definition and it is still used by one or more of these tables.
+DocFieldOtherFileGEOM=L'attribut GEOM ne peut pas être ajouté ou supprimé. La définition de champ a été créée lors de l'import d'une définition de table et elle est encore utilisée par une ou plusieurs de ces tables.
 DocFieldOtherFileGEOM.Id=1736
 
-WebAbsoluteUnsupportedFeature=&1 is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedFeature=&1 est seulement supportée par une progressive Web app.
 WebAbsoluteUnsupportedFeature.Id=1737
-WebAbsoluteUnsupportedProperty=The &1 property is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedProperty=La propriété &1 est seulement supportée par une progressive Web app.
 WebAbsoluteUnsupportedProperty.Id=1738
-WebAbsoluteUnsupportedMethod=The &1 method is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedMethod=La méthode &1 est seulement supportée par une progressive Web app.
 WebAbsoluteUnsupportedMethod.Id=1739
-WebAbsoluteUnsupportedEvent=The &1 event is only supported in a Progressive Web App.
+WebAbsoluteUnsupportedEvent=L'évènement &1 est seulement supporté par une progressive Web app.
 WebAbsoluteUnsupportedEvent.Id=1740
 
-WebRelativeUnsupportedFeature=&1 is not supported in a Progressive Web App.
+WebRelativeUnsupportedFeature=&1 n'est pas supportée par une progressive Web app.
 WebRelativeUnsupportedFeature.Id=1741
-WebRelativeUnsupportedProperty=The &1 property is not supported in a Progressive Web App.
+WebRelativeUnsupportedProperty=La propriété &1 n'est pas supportée par une progressive Web app.
 WebRelativeUnsupportedProperty.Id=1742
-WebRelativeUnsupportedMethod=The &1 method is not supported in a Progressive Web App.
+WebRelativeUnsupportedMethod=La méthode &1 n'est pas supportée par une progressive Web app.
 WebRelativeUnsupportedMethod.Id=1743
-WebRelativeUnsupportedEvent=The &1 event is not supported in a Progressive Web App.
+WebRelativeUnsupportedEvent=L'évènement &1 n'est pas supporté par une progressive Web app.
 WebRelativeUnsupportedEvent.Id=1744
 
-WebUnsupportedProperty=The &1 property is not supported on the Web.
+WebUnsupportedProperty=La propriété &1 n'est pas supportée on the Web.
 WebUnsupportedProperty.Id=1745
-WebUnsupportedMethod=The &1 method is not supported on the Web.
+WebUnsupportedMethod=La méthode &1 n'est pas supportée on the Web.
 WebUnsupportedMethod.Id=1746
-WebUnsupportedEvent=The &1 event is not supported on the Web.
+WebUnsupportedEvent=L'évènement &1 n'est pas supporté on the Web.
 WebUnsupportedEvent.Id=1747
 
-WebOnlyProperty=The &1 property is only supported on the Web.
+WebOnlyProperty=La propriété &1 est seulement supportée sur le Web.
 WebOnlyProperty.Id=1748
-WebOnlyMethod=The &1 method is only supported on the Web.
+WebOnlyMethod=La méthode &1 est seulement supportée sur le Web.
 WebOnlyMethod.Id=1749
-WebOnlyEvent=The &1 event is only supported on the Web.
+WebOnlyEvent=L'évènement &1 est seulement supporté sur le Web.
 WebOnlyEvent.Id=1750
 
-WebAbsoluteUnsupportedClass=&1 can only be used in a Progressive Web App.
+WebAbsoluteUnsupportedClass=&1 peut seulement être utilisé par une Progressive Web App.
 WebAbsoluteUnsupportedClass.Id=1751
-WebRelativeUnsupportedClass=&1 can't be used in a Progressive Web App.
+WebRelativeUnsupportedClass=&1 ne peut pas être utilisé par une Progressive Web App.
 WebRelativeUnsupportedClass.Id=1752
-*** @TRANS END
 
 *************************************************************
 ***** LANSA Web WebletGroups                            *****
@@ -3670,26 +3666,24 @@ VersionControl.Actions.Initialize=Initialiser
 VersionControl.Actions.Clone=Cloner
 VersionControl.Actions.Stage=Indexer
 VersionControl.Actions.Unstage=Désindexer
-*** @TRANS NEW
 VersionControl.Actions.Fetch=Fetch
-*** @TRANS END
 VersionControl.Actions.Pull=Extraire
 VersionControl.Actions.Push=Push
 VersionControl.Actions.Commit=Commit
-*** @TRANS NEW
-VersionControl.Actions.CheckoutBranch=Checkout
-*** @TRANS END
+VersionControl.Actions.CheckoutBranch=Extraire
 VersionControl.Actions.AddRemote=Ajouter un référentiel distant
 VersionControl.Actions.UpdateRemote=Modifier le référentiel distant
 VersionControl.Actions.RemoveRemote=Enlever le référentiel distant
 VersionControl.Actions.GetFileHistory=Récupérer l'historique du fichier
 VersionControl.Actions.ResolveConflict=Résoudre les conflits
-*** @TRANS NEW
-VersionControl.Actions.GetBranchHeads=Retrieve Branch Heads
+VersionControl.Actions.GetBranchHeads=Récupérer Heads de branche
 VersionControl.Actions.Stash=Stash
-VersionControl.Actions.MergeBranches=Merge Branches
-VersionControl.Actions.RebaseBranch=Rebase Branch
-*** @TRANS END
+VersionControl.Actions.MergeBranches=Fusionner les embranchements
+VersionControl.Actions.MergeAbort=Annuler la fusion actuelle
+VersionControl.Actions.RebaseBranch=Rebase Branche
+VersionControl.Actions.RebaseAbort=Annuler Rebase en cours
+VersionControl.Actions.RebaseContinue=Continuer Rebase en cours
+VersionControl.Actions.RebaseSkip=Paser Rebase en cours
 
 *************************************************************
 ***** Server Module validations                         *****
@@ -3737,9 +3731,9 @@ DocServerModuleApiMediaTypeIdSameAsPathParameter=L'identifiant de type de média 
 DocServerModuleApiMediaTypeNotAllowed=Le contenu décrit par le type de média '&1' n'est pas autorisé dans ce domaine.
 DocServerModuleApiOperationConfigurationMatch=Le chemin '&1' utilisant le verbe '&5' est déjà défini dans le module serveur avec l'identifiant '&3' Partition '&2'. Voir l'opération '&4' dans le module serveur '&3'.
 DocServerModuleApiOperationIdDuplicated=Chemin d'identifiant d'opération &1 déjà utilisé. L'identifiant doit être unique.
+DocServerModuleApiOperationIdRequired=L'id d'opération de l'opération chemin ne peut pas être à blanc.
 DocServerModuleApiOperationIdNotUnique=L'id d'opération &1 de l'opération chemin a déjà été utilisé dans le cadre actuel. Le nom doit être unique.
 DocServerModuleApiOperationIdNotValid=L'id d'opération &1 de l'opération chemin contient des caractères incorrects.
-DocServerModuleApiOperationIdRequired=L'id d'opération de l'opération chemin ne peut pas être à blanc.
 DocServerModuleApiOperationNameReserved=Le nom d'opération &1 est réservé. Le nom ne peut pas commencer par la lettre 'X'
 DocServerModuleApiOperationRequestBothBodyAndFormContent=Swagger version 2 supporte soit les form-data ou les body request content. Les deux sont invalides.
 DocServerModuleApiOperationRequestDuplicateBodyContent=Swagger version 2 supporte un simple  body request content. '&1' est un body content en double et est invalide.
@@ -3747,6 +3741,9 @@ DocServerModuleApiOperationRequestDuplicateFormContent=Swagger version 2 support
 DocServerModuleApiOperationRequestRequiredIgnored=Le verbe de l'opération ne supporte pas de corps de demande. Required=true ignoré.
 DocServerModuleApiOperationRequestMediaTypesIgnored=Le verbe de l'opération ne supporte pas de corps de demande. Eléments de type media ignorés.
 DocServerModuleApiOperationResponseRequired=La description de l'opération chemin nécessite au moins une description de réponse.
+*** @TRANS BEGIN
+DocServerModuleApiOperationSecurityNotAllowed=Security requirements are not allowed when Ignore Top Level Security is enabled.
+*** @TRANS END
 DocServerModuleApiOperationServerRoutineNameRequired=Le nom de routine serveur ne peut pas être vide ou à blanc.
 DocServerModuleApiOperationServerRoutineNameNotFound=Le nom de routine serveur &1 n'identifie pas une routine serveur.
 DocServerModuleApiOperationServerRoutineNameNotValid=Le nom de routine serveur &1 est incorrecte. La routine serveur doit avoir un paramètre Response(*Http #...).
@@ -3777,6 +3774,13 @@ DocServerModuleApiPathRequired=Le nom de chemin est nécessaire. Il ne peut pas ê
 DocServerModuleApiPublishingPartitionNotFound=Définition du nom de la partition de publication &1 introuvable. Valeur ignorée.
 DocServerModuleApiResponseStatusCodeRequired=Le code statut de réponse ne peut pas être vide ou à blanc.
 DocServerModuleApiResponseStatusCodeNotValid=Le code statut de réponse &1 doit être composé de trois caractères entre 100-599 ou une définition d'intervalle telle que 1XX, 2XX, 3XX, 4XX, 5XX.
+*** @TRANS BEGIN
+DocServerModuleApiSchemaObjectDateFormatInvalid=A date format requires a decimal (packed/signed) field definition.
+DocServerModuleApiSchemaObjectDateFormatInvalidDecimals=A date format requires a field definition that has zero decimals.
+DocServerModuleApiSchemaObjectDateFormatInvalidFormat=A date format requires the use of the Date format.
+DocServerModuleApiSchemaObjectDateFormatInvalidLength=A date format requires a field definition that has a length of 4, 6 or 8.
+DocServerModuleApiSchemaObjectDateFormatMaskLength=A date format requires a field definition that has a length that matches digits in selected mask.
+*** @TRANS END
 DocServerModuleApiSchemaObjectDescIgnored=Le type d'objet schéma ne supporte pas de description. Valeur ignorée.
 DocServerModuleApiSchemaObjectDescRequired=La description d'objet schéma ne peut pas être vide ou à blanc.
 DocServerModuleApiSchemaObjectFieldNameRequired=Le type d'objet schéma nécessite un nom de zone.
@@ -3855,6 +3859,9 @@ ServerModuleComponentModel.BindingContext.FailedMinItemsCheck=Echec du nombre mi
 ServerModuleComponentModel.BindingContext.FailedMinLengthCheck=La valeur '&1' ne répond pas aux exigences de longueur minimale de'&2'
 ServerModuleComponentModel.BindingContext.FractionDigitLengthExceeded=La valeur '&1' dépasse la longueur de la fraction de '&2'
 ServerModuleComponentModel.BindingContext.InvalidFieldValueMessage=Chaîne invalide '&1' lors de l'essai de lecture du champ &2
+*** @TRANS BEGIN
+ServerModuleComponentModel.BindingContext.InvalidRequestBodyForMimeType=Invalid request: Encountered invalid or missing body while processing mime type '&1'
+*** @TRANS END
 ServerModuleComponentModel.BindingContext.InvalidSecurityRequirements=Les sécurités nécessaires de l'API sont manquantes ou invalides
 ServerModuleComponentModel.BindingContext.InvalidValueMessage1=Texte invalide lors de la lecture &1
 ServerModuleComponentModel.BindingContext.InvalidValueMessage2=Chaîne invalide '&1' en essayant de lire &2
@@ -3940,9 +3947,7 @@ SMx.JsonReader.ErrorParsingUndefinedValue=Flux d'entrée non valide. Erreur d'ana
 SMx.JsonReader.ErrorReadingBytes=Erreur de lecture des octets lors du traitement du type de jeton '&1'.
 SMx.JsonReader.ErrorReadingDateTimeOffset=Erreur de lecture de la valeur DateTimeOffset lors du traitement du type de jeton '&1'.
 SMx.JsonReader.ErrorReadingDecimal=Erreur de lecture de la valeur décimale lors du traitement du type de jeton '&1'.
-*** @TRANS NEW
-SMx.JsonReader.ErrorReadingDocument=Error while reading JSON document at line &1, column &2 (&3).
-*** @TRANS END
+SMx.JsonReader.ErrorReadingDocument=Erreur lors de la lecture du document JSON ligne &1, colonne &2 (&3).
 SMx.JsonReader.ErrorReadingInt32=Erreur de lecture de la valeur Int32 lors du traitement du type de jeton '&1'.
 SMx.JsonReader.ErrorReadingString=Erreur de lecture de la valeur de la chaîne lors du traitement du type de jeton '&1'.
 SMx.JsonReader.InputStringIsNotaDecimal= La valeur '&1' n'est pas un décimal.
@@ -4003,7 +4008,6 @@ SMx.JsonWriter.UnsupportedType=Type non supporté: &1. Utilisez la classe JsonSer
 SMx.JsonWriter.ValueTooLargeToFitInaSigned32BitInteger=Valeur trop grande pour un entier signé de 32 bits
 SMx.JsonWriter.ValueTooLargeToFitInaSigned64BitInteger=Valeur trop grande pour un entier signé de 64 bits.
 
-
 ****************************************
 ***** Web Application Validations  *****
 ****************************************
@@ -4023,16 +4027,12 @@ WebApplicationViewDescriptionRequired=Veuillez fournir une description pour cett
 *********************************
 ***** Web Page Validations  *****
 *********************************
-*** @TRANS ADD
-DocWebPageOfflineAppCacheUnsupported=Application Cache is not supported in a Progressive Web App, caching is done through a Service Worker.
-DocWebPageOfflineWebManifestUnsupported=Web App Manifest is only supported in the context of a Progressive Web App.
-*** @TRANS END
+DocWebPageOfflineAppCacheUnsupported=Le cache d'application n'est pas pris en charge par une Progressive Web App, la mise en cache est effectuée via Service Worker.
+DocWebPageOfflineWebManifestUnsupported=Un Manifeste Web App est seulement supporté dans un contexte Progressive Web App.
 DocWebPageResourceIdentifierRequired=Vous devez préciser soit un objet du référentiel soit une URL.
 DocWebPageResourceIncorrectLansaFolder=Vous ne pouvez préciser qu'une ressource externe depuis le dossier Web de la partition.
 DocWebPageResourceIncorrectTargetPlatform=La plateforme cible n'inclut pas le Navigateur
 DocWebPageSplashImageIdentifierRequired=Vous devez préciser soit une ressource externe, soit une URL
 DocWebPageResourceExtResourceOrUrlRequired=Vous devez préciser soit une ressource externe soit une URL
-*** @TRANS ADD
-DocWebPageWebManifestAppNameRequired=You must specify a name for your Web Application
-DocWebPageWebManifestShortNameRequired=You must specify a short name for your Web Application
-*** @TRANS END
+DocWebPageWebManifestAppNameRequired=Vous devez définir un nom pour votre application Web
+DocWebPageWebManifestShortNameRequired=Vous devez définir un nom court pour votre application Web

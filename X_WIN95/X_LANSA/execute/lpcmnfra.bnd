@@ -344,11 +344,12 @@ GServer.FailAGClose.Id=134
 GServer.FailGSOpenChildWin=Graphics Server n'a pas pu ouvrir de fenêtre fille pour un composant graphique.
 GServer.FailGSOpenChildWin.Id=135
 
+*** @TRANS END
+Category.Behaviour=Behaviour
+*** @TRANS END
 Category.Common=Commun
 Category.Layout=Disposition
-*** @TRANS END
 Category.CSS=CSS
-*** @TRANS END
 Category.Style=Style
 Category.LPCInternal=Composant
 Category.Docking=Ancrage
@@ -456,6 +457,9 @@ Capi.MacCheckInCCMFailed=Texte chiffré invalide. La vérification MAC pendant le 
 Capi.MacCheckInEaxFailed=Texte chiffré invalide. La vérification EAX pendant le déchiffrement CCM a échoué.
 Capi.MacCheckInOcbFailed=Texte chiffré invalide. La vérification OCB pendant le déchiffrement CCM a échoué.
 Capi.NoDataInBlock=Le bloc de données PKCS1 traité n'est pas valide. Il ne contient aucune donnée.
+*** @TRANS BEGIN
+Capi.PadBlockCorrupted=Padding block validation failed. Input is invalid or corrupted.
+*** @TRANS END
 Capi.PrivateKeyRequiredForSigning=Paramètre de clé privée requis pour initialiser le signataire pour la signature.
 Capi.PublicKeyHasWrongParametersForDiffieHellman=La clé publique a des paramètres incorrects pour Diffie-Hellman.
 Capi.PublicKeyIsWeakForDiffieHellman=La clé publique est fragile pour Diffie-Hellman.

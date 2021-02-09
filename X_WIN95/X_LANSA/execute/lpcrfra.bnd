@@ -3917,11 +3917,17 @@ SMx.JsonDom.NodeInsertContext=Les noeud Json ne peuvent être insérés que dans de
 SMx.JsonDom.NodeInsertTypeConflict=L'insertion de type spécifique de noeud &2 n'est pas supportée par le type de noeud &1.
 SMx.JsonDom.NodeRemoveNotChild=Le noeud fourni est *NULL ou n'est pas un enfant.
 SMx.JsonDom.NodeRemoveNotContainer=Enlever un noeud enfant n'est pas supporté par un type de noeud &1.
+*** @TRANS BEGIN
+SMx.JsonDom.NodeValueNotArray=Json node (&1) cannot be accessed as an array.
+*** @TRANS END
 SMx.JsonDom.NodeValueNotBoolean=Le noeud Json(&1) ne peut pas être accédé en tant que valeur booléenne.
 SMx.JsonDom.NodeValueNotDateTime=Le noeud Json (&1) ne peut pas être accédé en tant que valeur DateHeure.
 SMx.JsonDom.NodeValueNotDecimal=Le noeud Json (&1) ne peut pas être accédé en tant que valeur Décimale.
 SMx.JsonDom.NodeValueNotInt32=Le noeud Json (&1) ne peut pas être accédé en tant que valeur Int32.
 SMx.JsonDom.NodeValueNotInt64=Le noeud Json (&1) ne peut pas être accédé en tant que valeur Int64.
+*** @TRANS BEGIN
+SMx.JsonDom.NodeValueNotObject=Json node (&1) cannot be accessed as an object.
+*** @TRANS END
 SMx.JsonDom.NodeValueNotString=Le noeud Json (&1) ne peut pas être accédé en tant que valeur String.
 
 SMx.Json.UnsupportedType=Le type d'objet  &1 est invalide ou n'est pas supporté.
@@ -4036,3 +4042,10 @@ DocWebPageSplashImageIdentifierRequired=Vous devez préciser soit une ressource e
 DocWebPageResourceExtResourceOrUrlRequired=Vous devez préciser soit une ressource externe soit une URL
 DocWebPageWebManifestAppNameRequired=Vous devez définir un nom pour votre application Web
 DocWebPageWebManifestShortNameRequired=Vous devez définir un nom court pour votre application Web
+*** @TRANS BEGIN
+DocWebPageCacheIgnored=The setting assigned to Offline Support for this Web Page does not support resource caching. This cache definition will be ignored.
+DocWebPageCacheNameDuplicated=The name assigned to this cache has already been used. Duplicates are not allowed.
+DocWebPageCacheNameRequired=A Web Page Cache must have a name. It cannot be null or all spaces.
+DocWebPageCacheResourceAlreadyInCache=Cache resource with identifier &1 is already specified in this cache
+DocWebPageCacheResourceInAnotherCache=Cache resource with identifier &1 is already specified in another cache
+*** @TRANS END

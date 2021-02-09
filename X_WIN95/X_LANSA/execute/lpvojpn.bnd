@@ -5,9 +5,9 @@ Free3=3
 StrFindErr=•¶š—ñ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
 MaxLineLengthErr='“\‚è•t‚¯' ‚Ìˆ—‚É‚æ‚Á‚Äs‚ÌÅ‘åŒ…”‚ğ’´‚¦‚Ü‚·:
 MaxLineCountErr='“\‚è•t‚¯' ‚Ìˆ—‚É‚æ‚Á‚ÄÅ‘ås”‚ğ’´‚¦‚Ü‚·:
-OperationAborted=µÍßÚ°¼®İ‚ÍˆÙíI—¹‚µ‚Ü‚µ‚½B
-DriverMissing=¼½ÃÑ Êß½‚ÉˆÈ‰º‚ÌÄŞ×²ÊŞ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ:
-Label=<Ã·½Ä>
+OperationAborted=ƒIƒyƒŒ[ƒVƒ‡ƒ“‚ÍˆÙíI—¹‚µ‚Ü‚µ‚½B
+DriverMissing=ƒVƒXƒeƒ€ ƒpƒX‚ÉˆÈ‰º‚Ìƒhƒ‰ƒCƒo‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ:
+Label=<ƒeƒLƒXƒg>
 HtmlContainer=HTML ƒRƒ“ƒeƒi
 WebEmbeddedPage=Web ƒy[ƒW
 WebEmbeddedControl=Web ƒRƒ“ƒgƒ[ƒ‹
@@ -15,16 +15,16 @@ WebEmbeddedControl=Web ƒRƒ“ƒgƒ[ƒ‹
 ********************************************************************
 *** Image List Specific Strings ************************************
 ********************************************************************
-MaxImagesErr=ˆ—‚É‚æ‚Á‚ÄÅ‘å²Ò°¼Ş” &1 ‚ğ’´‚¦‚Ü‚·B
+MaxImagesErr=ˆ—‚É‚æ‚Á‚ÄÅ‘åƒCƒ[ƒW” &1 ‚ğ’´‚¦‚Ü‚·B
 
 ********************************************************************
 *** LpVoGraph Specific Strings *************************************
 ********************************************************************
-GraphTitle=À²ÄÙ
-GraphTitleX=X À²ÄÙ
-GraphTitleY=Y À²ÄÙ
-Directories=ÃŞ¨Ú¸ÄØ
-InvalidGraphType=–³Œø‚È¸Ş×Ì À²Ìß (—á:‰~¸Ş×Ì)
+GraphTitle=ƒ^ƒCƒgƒ‹
+GraphTitleX=X ƒ^ƒCƒgƒ‹
+GraphTitleY=Y ƒ^ƒCƒgƒ‹
+Directories=ƒfƒBƒŒƒNƒgƒŠ
+InvalidGraphType=–³Œø‚ÈƒOƒ‰ƒt ƒ^ƒCƒv (—á:‰~ƒOƒ‰ƒt)
 Graph.Unsupported=ƒOƒ‰ƒt ƒTƒ|[ƒg‚È‚µ
 
 Status.Memo.ReplaceAll=&1 ŒÂ‚Ì &2 ‚ğ’uŠ·‚µ‚Ü‚µ‚½B
@@ -32,45 +32,45 @@ Status.Memo.ReplaceAll=&1 ŒÂ‚Ì &2 ‚ğ’uŠ·‚µ‚Ü‚µ‚½B
 
 **
 MenuAction.CutValue=Ø‚èæ‚è
-MenuAction.CopyValue=ºËß°
+MenuAction.CopyValue=ƒRƒs[
 MenuAction.PasteValue=“\‚è•t‚¯
 MenuAction.PrintValue=ˆóü
-MenuAction.ShowHelp=ÍÙÌß‚Ì•\¦
+MenuAction.ShowHelp=ƒwƒ‹ƒv‚Ì•\¦
 MenuAction.PasteDefault=È—ª’l‚Ì“\‚è•t‚¯
-MenuAction.ShowProperties=ÌßÛÊßÃ¨‚Ì•\¦
+MenuAction.ShowProperties=ƒvƒƒpƒeƒB‚Ì•\¦
 MenuAction.PasteCurrentDate=“ú•t‚Ì“\‚è•t‚¯
 MenuAction.PasteCurrentTime=ŠÔ‚Ì“\‚è•t‚¯
-MenuAction.PasteCurrentUser=Œ»sÕ°»Ş°‚Ì“\‚è•t‚¯
+MenuAction.PasteCurrentUser=Œ»sƒ†[ƒU[‚Ì“\‚è•t‚¯
 
 Goto.OK=OK
-Goto.Cancel=·¬İ¾Ù
+Goto.Cancel=ƒLƒƒƒ“ƒZƒ‹
 Goto.Text=sw’è:
 Goto.Title=sw’è
 
-Explorer.DeskTop=ÃŞ½¸Ä¯Ìß
-Explorer.Network=È¯ÄÜ°¸ ºİËß­°À
-Explorer.GlobalNetwork=¸ŞÛ°ÊŞÙ È¯ÄÜ°¸
-Explorer.MyComputer=Ï² ºİËß­°À
-Explorer.OnString=µİ
-Explorer.PathFailure=Êß½‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+Explorer.DeskTop=ƒfƒXƒNƒgƒbƒv
+Explorer.Network=ƒlƒbƒgƒ[ƒN ƒRƒ“ƒsƒ…[ƒ^
+Explorer.GlobalNetwork=ƒOƒ[ƒoƒ‹ ƒlƒbƒgƒ[ƒN
+Explorer.MyComputer=ƒ}ƒC ƒRƒ“ƒsƒ…[ƒ^
+Explorer.OnString=ƒIƒ“
+Explorer.PathFailure=ƒpƒX‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
 
 Memo.CollapsedItems=&1 €–Úk¬‚³‚ê‚Ä‚¢‚Ü‚·B
 Memo.URLHint=CTRL + click ‚ÅƒŠƒ“ƒN‚ğƒtƒHƒ[
 
 Prop.NotAvailableCaption=‚È‚µ
 
-HelpContext.NoHelpFile=‚±‚ÌºİÎß°ÈİÄ‚ÉŠÖ˜A‚µ‚Ä‚¢‚éÍÙÌß Ì§²Ù‚ª‚ ‚è‚Ü‚¹‚ñ
+HelpContext.NoHelpFile=‚±‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ÉŠÖ˜A‚µ‚Ä‚¢‚éƒwƒ‹ƒv ƒtƒ@ƒCƒ‹‚ª‚ ‚è‚Ü‚¹‚ñ
 
-ComControlContainer.ErrorSavingPersistProps=ActiveX ºİÄÛ°Ù‚Ìó‹µ‚Ì•Û‘¶’†‚É´×°‚ª”­¶‚µ‚Ü‚µ‚½B\n ó‹µ‚ª•Û‘¶‚³‚ê‚Ü‚¹‚ñB
+ComControlContainer.ErrorSavingPersistProps=ActiveX ƒRƒ“ƒgƒ[ƒ‹‚Ìó‹µ‚Ì•Û‘¶’†‚ÉƒGƒ‰[‚ª”­¶‚µ‚Ü‚µ‚½B\n ó‹µ‚ª•Û‘¶‚³‚ê‚Ü‚¹‚ñB
 
 *
-FloatDockTabMenu.TabLocation=ÀÌŞ‚ÌˆÊ’u
+FloatDockTabMenu.TabLocation=ƒ^ƒu‚ÌˆÊ’u
 FloatDockTabMenu.TabLocationTop=ã
 FloatDockTabMenu.TabLocationBottom=‰º
 FloatDockTabMenu.TabLocationLeft=¶
 FloatDockTabMenu.TabLocationRight=‰E
 *
-FloatDockTabMenu.TabLocation.Tip=ÀÌŞˆÊ’u‚ÌØ‚è‘Ö‚¦
+FloatDockTabMenu.TabLocation.Tip=ƒ^ƒuˆÊ’u‚ÌØ‚è‘Ö‚¦
 
 ********************************************************************
 *** LpVocalendar Specific Strings **********************************
@@ -86,35 +86,35 @@ Calendar.NextYear.Hint=Ÿ”N
 *** LpVoException Specific Messages ********************************
 ********************************************************************
 
-Exception.TreeSetParentInvalidParent=SetParentItem ‚É“n‚³‚ê‚½ÂØ° ±²ÃÑ‚Í SetParentItem ‚ÌÀ°¹Ş¯Ä‚Æ“¯‚¶ÂØ°‚É‘®‚µ‚Ü‚¹‚ñB
+Exception.TreeSetParentInvalidParent=SetParentItem ‚É“n‚³‚ê‚½ƒcƒŠ[ ƒAƒCƒeƒ€‚Í SetParentItem ‚Ìƒ^[ƒQƒbƒg‚Æ“¯‚¶ƒcƒŠ[‚É‘®‚µ‚Ü‚¹‚ñB
 Exception.TreeSetParentInvalidParent.Id=1
-Exception.TreeSetParentNotUnlevelled=SetParentItem ‚ÍÂØ° ViewStyle Levelled ‚É‚Í–³Œø‚Å‚·
+Exception.TreeSetParentNotUnlevelled=SetParentItem ‚ÍƒcƒŠ[ ViewStyle Levelled ‚É‚Í–³Œø‚Å‚·
 Exception.TreeSetParentNotUnlevelled.Id=2
-Exception.TreeSetParentSelfInvalid=SetParentItem ‚É“n‚³‚ê‚½ÂØ° ±²ÃÑ‚Í SetParentItem ‚ÌÀ°¹Ş¯Ä‚Æ“¯‚¶‚É‚Í‚Å‚«‚Ü‚¹‚ñB
+Exception.TreeSetParentSelfInvalid=SetParentItem ‚É“n‚³‚ê‚½ƒcƒŠ[ ƒAƒCƒeƒ€‚Í SetParentItem ‚Ìƒ^[ƒQƒbƒg‚Æ“¯‚¶‚É‚Í‚Å‚«‚Ü‚¹‚ñB
 Exception.TreeSetParentSelfInvalid.Id=3
-Exception.TreeAssignRowColValueInvalid=Assign ‚ÍÂØ° ViewStyle Levelled ‚É‚Íg—p‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
+Exception.TreeAssignRowColValueInvalid=Assign ‚ÍƒcƒŠ[ ViewStyle Levelled ‚É‚Íg—p‚·‚é‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñB
 Exception.TreeAssignRowColValueInvalid.Id=4
-Exception.TreeDesignInterfaceNotSupported=ÂØ° ÃŞ»Ş²İ‚Í PRIM_TREE.ITreeDesign ²İÀ°Ìª²½‚ğ»Îß°Ä‚µ‚Ü‚¹‚ñB
+Exception.TreeDesignInterfaceNotSupported=ƒcƒŠ[ ƒfƒUƒCƒ“‚Í PRIM_TREE.ITreeDesign ƒCƒ“ƒ^[ƒtƒFƒCƒX‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
 Exception.TreeDesignInterfaceNotSupported.Id=9
-Exception.TileDesignInterfaceNotSupported=À²Ù ÃŞ»Ş²İ‚Í PRIM_TILE.ITileDesign ²İÀ°Ìª²½‚ğ»Îß°Ä‚µ‚Ü‚¹‚ñB
+Exception.TileDesignInterfaceNotSupported=ƒ^ƒCƒ‹ ƒfƒUƒCƒ“‚Í PRIM_TILE.ITileDesign ƒCƒ“ƒ^[ƒtƒFƒCƒX‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
 Exception.TileDesignInterfaceNotSupported.Id=17
-Exception.CarouselDesignInterfaceNotSupported=¶Ù°¾Ù ÃŞ»Ş²İ‚Í PRIM_CARO.ICarouselDesign ²İÀ°Ìª²½‚ğ»Îß°Ä‚µ‚Ü‚¹‚ñB
+Exception.CarouselDesignInterfaceNotSupported=ƒJƒ‹[ƒZƒ‹ ƒfƒUƒCƒ“‚Í PRIM_CARO.ICarouselDesign ƒCƒ“ƒ^[ƒtƒFƒCƒX‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
 Exception.CarouselDesignInterfaceNotSupported.Id=16
-Exception.BookDesignInterfaceNotSupported=ÌŞ¯¸ ÃŞ»Ş²İ‚Í PRIM_BOOK.IBookDesign ²İÀ°Ìª²½‚ğ»Îß°Ä‚µ‚Ü‚¹‚ñB
+Exception.BookDesignInterfaceNotSupported=ƒuƒbƒN ƒfƒUƒCƒ“‚Í PRIM_BOOK.IBookDesign ƒCƒ“ƒ^[ƒtƒFƒCƒX‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
 Exception.BookDesignInterfaceNotSupported.Id=5
-Exception.DashboardDesignInterfaceNotSupported=ÀŞ¯¼­ÎŞ°ÄŞÃŞ»Ş²İ‚Í PRIM_DASH.IDashboardDesign ²İÀ°Ìª²½‚ğ»Îß°Ä‚µ‚Ü‚¹‚ñB
+Exception.DashboardDesignInterfaceNotSupported=ƒ_ƒbƒVƒ…ƒ{[ƒhƒfƒUƒCƒ“‚Í PRIM_DASH.IDashboardDesign ƒCƒ“ƒ^[ƒtƒFƒCƒX‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
 Exception.DashboardDesignInterfaceNotSupported.Id=18
-Exception.AnimationBeginInvalidParent=±ÆÒ°¼®İ€–Ú‚Ì–³Œø‚Èe±ÆÒ°¼®İ
+Exception.AnimationBeginInvalidParent=ƒAƒjƒ[ƒVƒ‡ƒ“€–Ú‚Ì–³Œø‚ÈeƒAƒjƒ[ƒVƒ‡ƒ“
 Exception.AnimationBeginInvalidParent.Id=10
-Exception.AnimationBeginInvalidComponent=±ÆÒ°¼®İ€–Ú‚Ì–³Œø‚ÈºİÎß°ÈİÄ
+Exception.AnimationBeginInvalidComponent=ƒAƒjƒ[ƒVƒ‡ƒ“€–Ú‚Ì–³Œø‚ÈƒRƒ“ƒ|[ƒlƒ“ƒg
 Exception.AnimationBeginInvalidComponent.Id=11
-Exception.AnimationBeginInvalidSibling=Ø‚è‘Ö‚¦±ÆÒ°¼®İ€–Ú‚Ì¿°½‚ÆÀ°¹Ş¯Ä ºİÎß°ÈİÄ‚Í“¯‚¶eºİÎß°ÈİÄ‚É‘®‚µ‚Ü‚¹‚ñB
+Exception.AnimationBeginInvalidSibling=Ø‚è‘Ö‚¦ƒAƒjƒ[ƒVƒ‡ƒ“€–Ú‚Ìƒ\[ƒX‚Æƒ^[ƒQƒbƒg ƒRƒ“ƒ|[ƒlƒ“ƒg‚Í“¯‚¶eƒRƒ“ƒ|[ƒlƒ“ƒg‚É‘®‚µ‚Ü‚¹‚ñB
 Exception.AnimationBeginInvalidSibling.Id=12
-Exception.AnimationBeginInvalidOperation=±ÆÒ°¼®İ‘€ì‚ÌŠJn‚É¸”s‚µ‚Ü‚µ‚½B‚±‚Ì±ÆÒ°¼®İ‚ÍŠù‚ÉÀs‚³‚ê‚Ä‚¢‚é±ÆÒ°¼®İ‚Æ‹£‡‚µ‚Ä‚¢‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
+Exception.AnimationBeginInvalidOperation=ƒAƒjƒ[ƒVƒ‡ƒ“‘€ì‚ÌŠJn‚É¸”s‚µ‚Ü‚µ‚½B‚±‚ÌƒAƒjƒ[ƒVƒ‡ƒ“‚ÍŠù‚ÉÀs‚³‚ê‚Ä‚¢‚éƒAƒjƒ[ƒVƒ‡ƒ“‚Æ‹£‡‚µ‚Ä‚¢‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
 Exception.AnimationBeginInvalidOperation.Id=13
-Exception.TileITableItemNotSupported=À²Ù€–Ú‚Í PRIM_TILE.ITileItem ²İÀ°Ìª²½‚ğ»Îß°Ä‚µ‚Ü‚¹‚ñB
+Exception.TileITableItemNotSupported=ƒ^ƒCƒ‹€–Ú‚Í PRIM_TILE.ITileItem ƒCƒ“ƒ^[ƒtƒFƒCƒX‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
 Exception.TileITableItemNotSupported.Id=14
-Exception.TileNameNotFound=ºİÎß°ÈİÄ &1 ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
+Exception.TileNameNotFound=ƒRƒ“ƒ|[ƒlƒ“ƒg &1 ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñB
 Exception.TileNameNotFound.Id=15
 Exception.DropDownDesignInterfaceNotSupported.Id=19
 Exception.DropDownDesignInterfaceNotSupported=ƒhƒƒbƒvƒ_ƒEƒ“ ƒfƒUƒCƒ“‚ÍƒCƒ“ƒ^[ƒtƒF[ƒX PRIM_DROP.IDropDownDesign ‚ğƒTƒ|[ƒg‚µ‚Ü‚¹‚ñB
@@ -123,16 +123,16 @@ Exception.DropDownDesignInterfaceNotSupported=ƒhƒƒbƒvƒ_ƒEƒ“ ƒfƒUƒCƒ“‚ÍƒCƒ“ƒ^[ƒ
 *** Tab Specific Strings		  **********************************
 ********************************************************************
 
-Tab.IncreaseDockGroup.Caption=¸ŞÙ°Ìß‚ğ‘‚â‚·
-Tab.DecreaseDockGroup.Caption=¸ŞÙ°Ìß‚ğŒ¸‚ç‚·
-Tab.LayoutPriority.Caption=Å‘åÚ²±³Ä
+Tab.IncreaseDockGroup.Caption=ƒOƒ‹[ƒv‚ğ‘‚â‚·
+Tab.DecreaseDockGroup.Caption=ƒOƒ‹[ƒv‚ğŒ¸‚ç‚·
+Tab.LayoutPriority.Caption=Å‘åƒŒƒCƒAƒEƒg
 Tab.AutoHide.Caption=©“®“I‚É‰B‚·
 Tab.Hide.Caption=•Â‚¶‚é
-Tab.ConfigureButtons.Hint=Íß°¼Şİ’è
-Tab.ShowMoreButtons.Caption=ÎŞÀİ‚ğ‚æ‚è‘½‚­•\¦
-Tab.ShowFewerButtons.Caption=ÎŞÀİ‚ğ‚æ‚è­‚È‚­•\¦
-Tab.AddOrRemoveButtons.Caption=Íß°¼Ş‚ğ’Ç‰Á‚Ü‚½‚Ííœ
-Tab.PageCloseButton.Hint=Íß°¼Ş‚ğ•Â‚¶‚é
+Tab.ConfigureButtons.Hint=ƒy[ƒWİ’è
+Tab.ShowMoreButtons.Caption=ƒ{ƒ^ƒ“‚ğ‚æ‚è‘½‚­•\¦
+Tab.ShowFewerButtons.Caption=ƒ{ƒ^ƒ“‚ğ‚æ‚è­‚È‚­•\¦
+Tab.AddOrRemoveButtons.Caption=ƒy[ƒW‚ğ’Ç‰Á‚Ü‚½‚Ííœ
+Tab.PageCloseButton.Hint=ƒy[ƒW‚ğ•Â‚¶‚é
 
 ********************************************************************
 *** Message Box Specific Strings ***********************************
@@ -142,24 +142,24 @@ MessageBox.Yes=‚Í‚¢(&Y)
 MessageBox.No=‚¢‚¢‚¦(&N)
 MessageBox.YesToAll=‘S‚Ä‚Í‚¢(&A)
 MessageBox.NoToAll=‘S‚Ä‚¢‚¢‚¦(&L)
-MessageBox.Cancel=·¬İ¾Ù(&C)
+MessageBox.Cancel=ƒLƒƒƒ“ƒZƒ‹(&C)
 
-Win32.ControlNotAvailable=ÌßØĞÃ¨ÌŞ &1 ‚ÍWin32‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñ
+Win32.ControlNotAvailable=ƒvƒŠƒ~ƒeƒBƒu &1 ‚ÍWin32‚Å‚Íg—p‚Å‚«‚Ü‚¹‚ñ
 
-Udc.Carousel.DesignRequired=PRIM_CARO‚ÍAºİÃİÂ‚ÉPRIM_CARO.ICarouselDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\Êß°Â‚ª•K—v‚Å‚·B
-Udc.Tree.DesignRequired=PRIM_TREE‚ÍAºİÃİÂ‚ÉPRIM_TREE.ITreeDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\Êß°Â‚ª•K—v‚Å‚·B
-Udc.Book.DesignRequired=PRIM_BOOK‚ÍAºİÃİÂ‚ÉPRIM_BOOK.IBookDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\Êß°Â‚ª•K—v‚Å‚·B
-Udc.Tile.DesignRequired=PRIM_TILE‚ÍAºİÃİÂ‚ÉPRIM_TILE.ITileDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\Êß°Â‚ª•K—v‚Å‚·B
-Udc.Dashboard.DesignRequired=PRIM_DASH‚ÍAºİÃİÂ‚ÉPRIM_DASH.IDashboardDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\Êß°Â‚ª•K—v‚Å‚·B
+Udc.Carousel.DesignRequired=PRIM_CARO‚ÍAƒRƒ“ƒeƒ“ƒc‚ÉPRIM_CARO.ICarouselDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\ƒp[ƒc‚ª•K—v‚Å‚·B
+Udc.Tree.DesignRequired=PRIM_TREE‚ÍAƒRƒ“ƒeƒ“ƒc‚ÉPRIM_TREE.ITreeDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\ƒp[ƒc‚ª•K—v‚Å‚·B
+Udc.Book.DesignRequired=PRIM_BOOK‚ÍAƒRƒ“ƒeƒ“ƒc‚ÉPRIM_BOOK.IBookDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\ƒp[ƒc‚ª•K—v‚Å‚·B
+Udc.Tile.DesignRequired=PRIM_TILE‚ÍAƒRƒ“ƒeƒ“ƒc‚ÉPRIM_TILE.ITileDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\ƒp[ƒc‚ª•K—v‚Å‚·B
+Udc.Dashboard.DesignRequired=PRIM_DASH‚ÍAƒRƒ“ƒeƒ“ƒc‚ÉPRIM_DASH.IDashboardDesign‚ğ“±“ü‚·‚éÄ—˜—p‰Â”\ƒp[ƒc‚ª•K—v‚Å‚·B
 Udc.DropDown.DesignRequired=PRIM_DROP ‚ÍAƒRƒ“ƒeƒ“ƒc‚É PRIM_DROP.IDropDesign ‚ğÀ‘•‚µ‚½Ä—˜—p‰Â”\ƒp[ƒc‚ª•K—v‚Å‚·B
 
 ********************************************************************
 *** Ribbon Strings               ***********************************
 ********************************************************************
 
-Ribbon.Minimize=ØÎŞİ‚ÌÅ¬‰»
-Ribbon.ShowBelow=¸²¯¸ ±¸¾½ Â°ÙÊŞ°‚ğØÎŞİ‚Ì‰º‚É•\¦
-Ribbon.ShowAbove=¸²¯¸ ±¸¾½ Â°ÙÊŞ°‚ğØÎŞİ‚Ìã‚É•\¦
+Ribbon.Minimize=ƒŠƒ{ƒ“‚ÌÅ¬‰»
+Ribbon.ShowBelow=ƒNƒCƒbƒN ƒAƒNƒZƒX ƒc[ƒ‹ƒo[‚ğƒŠƒ{ƒ“‚Ì‰º‚É•\¦
+Ribbon.ShowAbove=ƒNƒCƒbƒN ƒAƒNƒZƒX ƒc[ƒ‹ƒo[‚ğƒŠƒ{ƒ“‚Ìã‚É•\¦
 
 ********************************************************************
 *** Theme Strings                ***********************************

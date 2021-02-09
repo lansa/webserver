@@ -1,0 +1,42 @@
+﻿{
+ "no":                        "No",
+ "ok":                        "OK",
+ "yes":                       "Si",
+ "today":                     "Oggi",
+ "clear":                     "Cancella",
+ "hours":                     "Ora",
+ "minutes":                   "Minuti",
+ "seconds":                   "Secondi",
+ "retry":                     "Riprova",
+ "cancel":                    "Anulla",
+ "ignore":                    "Ignorare",
+
+ "dayLong":                   ["Lunedi","Martedi","Mercoledi","Giovedi","Venerdi","Sabato","Domenica"],
+ "dayShort":                  ["Lub","Mar","Mer","Gio","Ven","Sab","Dom"],
+ "monthLong":                 ["Gennaio","Febbraio","Marzo","Aprile","Mai","Giugno","Luglio","Agosto","Setembre","Ottobre","Novembre","Dicembre"],
+ "monthShort":                ["Gen","Feb","Mar","Apr","Mai","Giu","Lug","Ago","Set","Ott","Nov","Dic"],
+ "dateFormat":                "dd-MM-yyyy",
+ "dateLongFormat":            "DDD, MMMM D, YYY",
+ "dateDayMonthFormat":        "DDD, MMM D",
+ "dateMonthYearFormat":       "MMMM YYY",
+ "timeFormat":                "HH:mm:ss",
+ "startOfWeek":               "Lunedi",
+
+ "decimalPoint":              ".",
+ "thousandsSep":              "'",
+ "currencySymbol":            "CHF",
+
+ "defaultPageSize":           "a4",
+ "pageFooter":                "Pagina ",
+
+ "tabIncreaseDockGroup":      "Aumentare Gruppo",
+ "tabDecreaseDockGroup":      "Diminiuere Gruppo",
+ "tabLayoutPriority":         "Disposizione Priorità",
+ "tabAutoHide":               "Auto Nascondere",
+ "tabHide":                   "Nascondere",
+ "tabConfigureButtons":       "Configurare Pagine",
+ "tabShowMoreButtons":        "Presente di più Pulsanti",
+ "tabShowFewerButtons":       "presente di meno Pulsanti",
+ "tabAddOrRemoveButtons":     "Aggiungere o Rimuovere Pagine",
+ "tabPageCloseButton":        "Chiude Pagina"
+}

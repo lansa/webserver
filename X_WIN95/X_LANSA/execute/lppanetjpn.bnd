@@ -2,8 +2,8 @@
 **********     WebAdmin Captions             ***********
 ********************************************************
 
-WebAdministrator.Form.Caption=Web ｱﾄﾞﾐﾆｽﾄﾚｰﾀ
-WebAdministrator.Main.Caption=Web ｱﾄﾞﾐﾆｽﾄﾚｰﾀの設定
+WebAdministrator.Form.Caption=Web アドミニストレータ
+WebAdministrator.Main.Caption=Web アドミニストレータの設定
 WebAdministrator.Save.Caption=保存
-WebAdministrator.Reset.Caption=ﾘｾｯﾄ
+WebAdministrator.Reset.Caption=リセット
 WebAdministrator.Close.Caption=終了
